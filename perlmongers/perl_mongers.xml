@@ -9,7 +9,7 @@
 <!ENTITY eacute '&#233;' >
 <!ENTITY oacute '&#243;' >
 <!ENTITY uuml   '&#252;' >
-] >
+]>
 
 <!-- This file is maintained by user_groups@pm.org -->
 
@@ -5150,7 +5150,7 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Jaime Prilusky</name>
-			<email type="personal">lsprilus@weizmann.weizmann.ac.il</email>
+			<email type="personal">Jaime.Prilusky@weizmann.ac.il</email>
 		</tsar>
 		<web>http://rehovot.pm.org/</web>
 		<mailing_list>
