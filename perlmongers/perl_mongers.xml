@@ -13248,7 +13248,7 @@
 		<date type="inception">20020721</date>
 	</group>
 
-	<group id="524" status="active">
+	<group id="524" status="inactive">
 		<name>jackson.pm</name>
 		<location>
 			<city>Jackson</city>
