@@ -24,6 +24,8 @@ templates to them (from lib/), and writes the output to the www/
 directory. Now have a look at the www directory - it contains the
 site!
 
+To push the site live, run "bin/makelive".
+
 lib/layout is the template which is applied to every page.
 
 Note: whenever you refer to a page on our site inside a template,
