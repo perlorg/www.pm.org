@@ -23,13 +23,13 @@ foreach my $user (@ARGV)
 	
 	chown( (getpwnam($user))[2,3], glob("/export/home/$user/www_*"));
 
-	open FILE, ">> /opt/apache/conf/httpd.conf";
+	open FILE, ">> /etc/httpd.conf";
 	flock FILE, LOCK_EX;
 	seek FILE, 0, 2;
 
 	print FILE <<"HERE";
 #added [@{[scalar localtime]}]
-<VirtualHost 166.84.185.32>
+<VirtualHost 166.84.5.165>
 ServerName $domain.pm.org
 ServerAdmin webmaster\@pm.org
 DocumentRoot /export/home/$user/www_docs
@@ -76,9 +76,9 @@ To: dns\@pm.org,hfb_admin\@pm.org
 From: hfb_admin\@pm.org
 Subject: new subdomain request
 
-Please add these domains with A 166.84.185.32
+Please add these domains with A 166.84.5.165
 
-@{[join "\tIN\tA\t166.84.185.32\n", @domains, '']}
+@{[join "\tIN\tA\t166.84.5.165\n", @domains, '']}
 	
 
 this has been an automagically generated message.  if this 
