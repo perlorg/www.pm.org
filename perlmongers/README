@@ -2,7 +2,7 @@ This is the source files for the new perlmongers site. Check it out by
 doing the following (replacing leon with your username on hfb and
 making sure you've set CVS_RSH to "ssh"):
 
-  cvs -d :ext:leon@hfb.pm.org:/home/groupleaders/leon/cvsroot co perlmongers
+  cvs -d :ext:leon@www.pm.org:/home/groupleaders/leon/cvsroot co perlmongers
 
 Directory layout is as follows:
 
