@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN" 
-	"http://www.pm.org/XML/perl_mongers.dtd"
+	"http://www.pm.org/groups/perl_mongers.dtd"
 [
 <!ENTITY nbsp   "&#160;">
 <!ENTITY iexcl  "&#161;">
