@@ -83,13 +83,15 @@ chomp $new_value;
 
 ($email =~ /^[-a-zA-Z0-9_+.]+@[-a-zA-Z0-9_.]+$/) || die;
 
-print "Temporary password crypt string: $data{crypt}";
+print "Temporary password crypt string: $data{crypt}\n";
 
-print "Hit enter to continue, Cntl C to abort";
+print "Hit enter to continue, Cntl C to abort\n";
 my $temp = <>;
 
 my $userhome = "/home/groupleaders/$username";
-my $create_user_cmd = "/usr/sbin/useradd -d \"$userhome\" -m -c '$fullname,$email' -p $crypt -s /bin/bash $username\n";
+my $create_user_cmd = "/usr/sbin/useradd -d \"$userhome\" -m -c '$fullname,$email' -p $data{crypt} -s /bin/bash $username\n";
+
+print $create_user_cmd, "\n";
 
 system $create_user_cmd;
 
@@ -103,26 +105,28 @@ append_to_file("/etc/mail/local-host-names", "$hostname.pm.org\n");
 append_to_file("/etc/httpd/pm.org.vhosts3", "$hostname:$username:www_logs/:combined:0:0:0::\n");
 append_to_file("/etc/httpd/pm.org.vhosts4", "$hostname:$username:\n");
 append_to_file("/opt/apache/gocho.pm.org/80/conf/vhosts.pm.org", "$hostname\n");
-append_to_file("/etc/mail/virtusertable", "$hostname.pm.org\t$email\n");
+append_to_file("/etc/mail/virtusertable", "\@$hostname.pm.org\t$email\n");
 	
 send_faq($email, $username, "$hostname.pm.org");
 
 print "Remaking sendmail map files\n";
 system( "cd /etc/mail; make " );
 
-print "Restarting apache";
+print "Restarting apache\n";
 system( "cd /opt/apache/gocho.pm.org/80; kill `cat logs/httpd.pid`; sleep 3; bin/httpd -d `pwd`" );
+print "Complete\n";
+exit;
 
 sub send_faq
 	{
 	my $email = shift;
+print STDERR $email, "\n";
 	my $username  = shift;
 	
 	open MAIL, "| /usr/lib/sendmail -odq -oi -t";
 	print MAIL <<"HERE";
 To: $email
 From: tech\@pm.org
-Bcc: tech\@pm.org
 Subject: Perl Monger user group site configured
 
 Your Perl Monger user group site has been configured:
@@ -171,7 +175,14 @@ sub read_file_data {
 	my (@list, $key, $value);
 	while (<>)
 	{
-		($key, $value) = split $_, "=";
+		next if (/^\s*$/);
+		s/^\s+//;
+		s/\s+$//;
+		if (/^crypt:/)
+		{
+			s/crypt:/crypt=/;
+		}
+		($key, $value) = split "=";
 		push (@list, ($key, $value));
 	}
 	return @list;

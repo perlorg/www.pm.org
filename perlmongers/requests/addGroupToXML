@@ -40,7 +40,7 @@ foreach $var ( qw( groupname city state region country continent longitude latit
 $groupid++;
 
 print XML qq(
-	<group id="$groupid">
+	<group id="$groupid" status="active">
 		<name>$a{groupname}.pm</name>
 		<location>
 			<city>$a{city}</city>

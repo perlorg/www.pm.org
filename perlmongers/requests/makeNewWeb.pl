@@ -14,11 +14,15 @@ foreach my $user (@ARGV)
 
 	print "group leader Full Name: ";
 	chomp( $fullname = <STDIN> );
-	($fullname =~ /^[-a-zA-Z_. ]+$/) || die;
+	($fullname =~ /^[-a-zρφισϊγ'A-Z_. ]+$/) || die;
 
 	print "group leader email address: ";
 	chomp( $email = <STDIN> );
-	($email =~ /^[-a-zA-Z0-9_.]+@[-a-zA-Z0-9_.]+$/) || die;
+	($email =~ /^[-a-zA-Z0-9_+.]+@[-a-zA-Z0-9_.]+$/) || die;
+
+	print "Temporary password crypt string: ";
+	chomp( $crypt = <STDIN> );
+	($crypt =~ /^.............$/) || die;
 
 	$domain =~ /^(.{1,8})/;
 	$user = $1;
@@ -31,24 +35,32 @@ print STDERR "domain: <$domain>\n";
 
 	push @domains, $domain;
 	
-	print "/usr/sbin/useradd -m -c '$fullname,$email' -s /bin/bash $user";
-	system "/usr/sbin/useradd -m -c '$fullname,$email' -s /bin/bash $user";
+	print "/usr/sbin/useradd -d \"/home/groupleaders/$user\" -m -c '$fullname,$email' -p $crypt -s /bin/bash $user\n";
+	system "/usr/sbin/useradd -d \"/home/groupleaders/$user\" -m -c '$fullname,$email' -p $crypt -s /bin/bash $user";
 
-	mkdir "/export/home/$user/www_docs", 0755;
-	mkdir "/export/home/$user/www_logs", 0755;
+	mkdir "/opt/apache/gocho.pm.org/80/htdocs/pm.org/$domain", 02770;
 	
-	chown( (getpwnam($user))[2,3], glob("/export/home/$user/www_*"));
+	chown( (getpwnam($user))[2], 503, "/opt/apache/gocho.pm.org/80/htdocs/pm.org/$domain");
+	`ln -s /opt/apache/gocho.pm.org/80/htdocs/pm.org/$domain /home/groupleaders/$user/web_docs`;
 
-	open FILE, ">> /etc/httpd/pm.org.vhosts";
+	append_to_file("/etc/mail/local-host-names", "$domain.pm.org");
+
+	open FILE, ">> /etc/httpd/pm.org.vhosts3";
 	flock FILE, LOCK_EX;
 	seek FILE, 0, 2;
 	print FILE "$domain:$user:www_logs/:combined:0:0:0::\n";
 	close FILE;
 
-	open FILE, ">> /etc/httpd/pm.org.vhosts2";
+	open FILE, ">> /etc/httpd/pm.org.vhosts4";
 	flock FILE, LOCK_EX;
 	seek FILE, 0, 2;
 	print FILE "$domain:$user:\n";
+	close FILE;
+
+	open FILE, ">> /opt/apache/gocho.pm.org/80/conf/vhosts.pm.org";
+	flock FILE, LOCK_EX;
+	seek FILE, 0, 2;
+	print FILE "$domain\n";
 	close FILE;
 
 	
@@ -71,7 +83,8 @@ print STDERR "domain: <$domain>\n";
 	}
 
 
-system( "cd /etc/mail; /usr/ccs/bin/make > /dev/null" );
+system( "cd /etc/mail; make " );
+system( "cd /opt/apache/gocho.pm.org/80; kill `cat logs/httpd.pid`; sleep 3; bin/httpd -d `pwd`" );
 print "just before mail to ben\n";
 open MAIL, "| /usr/lib/sendmail -odq -oi -t" or die "$!";
 die "$?" if $?;
@@ -81,10 +94,10 @@ To: dns\@pm.org,hfb_admin\@pm.org
 From: hfb_admin\@pm.org
 Subject: new subdomain request
 
-Please add these domains with A 166.84.5.165
+Please add these domains with A 64.49.222.22
 
-@{[join "\tIN\tA\t166.84.5.165\n", @domains, '']}
-	
+@{[join "\tIN\tA\t64.49.222.22\n", @domains, '']}
+@{[join "\tIN\tMX\t10\tmail.pm.org.\n", @domains, '']}
 
 this has been an automagically generated message.  if this 
 were a real social interaction you would have been notified.
@@ -99,34 +112,48 @@ sub send_faq
 	open MAIL, "| /usr/lib/sendmail -odq -oi -t";
 	print MAIL <<"HERE";
 To: $email
-Bcc: wwalker\@bybent.com
-Subject: Perl Mongers services configured!
+From: tech\@pm.org
+Bcc: tech\@pm.org
+Subject: Perl Monger user group site configured
 
-Your Perl Monger net services have been configured.
+Your Perl Monger user group site has been configured:
 
-* log on to happyfunball.pm.org as "$user" with the password that
-you provided.  You must use ssh v.1 (or v.2 now :).  telnet is not allowed.
+ * Use an ssh ("secure shell") program to log on to
+   www.pm.org as "$user" with the password that you
+   provided.  You must use ssh to login and edit or
+   transfer files (telnet and ftp are not allowed).
+   For more information on ssh visit www.openssh.org
 
-* in your home directory, there are two directories for your web
-things:
+ * Your website files are stored at:
+     /opt/apache/gocho.pm.org/80/htdocs/pm.org/$domain
 
-	www_docs - put your public web stuff in here
-	www_logs - here are your log files
+ * There is a softlink to this path in your home directory
+   called web_docs (cd ~/web_docs).
 	
-* until the nameserver updates itself with your domain name
-$domain.pm.org, you can access your web stuff as a normal user:
+ * Until the nameserver updates itself with your domain
+   name $domain.pm.org, you can add this to your client
+   machine's host file (/etc/hosts on *nix and 
+   c:\windows\system32\etc\hosts on Windows) by adding
+   the line: 
+	64.49.222.22 $domain.pm.org
 
-	http://hfb.pm.org/~$user/
-	
-* all mail to \@$domain.pm.org will be automagically forwarded to
-$email.
+ * All mail to \@$domain.pm.org will be automagically
+   forwarded to: $email
 
-that's it for now.  good luck :)
+That's it for now.  Good luck :)
 
 --
-Wayne Walker - <wwalker\@bybent.com>
+The pm.org Admin Team <tech\@pm.org>
 HERE
 
 	close MAIL;
 	}
 	
+sub append_to_file
+{
+	my ($filename, $line) = @_;
+	open (FILENAME, ">>$filename") || die;
+	chomp $line;
+	print FILENAME "$line\n";
+	close FILENAME;
+}
