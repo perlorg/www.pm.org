@@ -7466,7 +7466,7 @@
 		<date type="inception">20000317</date>
 	</group>
 
-	<group id="290">
+	<group id="290" status="active">
 		<name>Ulm.pm</name>
 		<location>
 			<city>Ulm</city>
