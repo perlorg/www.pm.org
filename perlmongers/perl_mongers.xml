@@ -15610,7 +15610,7 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Sören Michael Laird Sörries</name>
+			<name>S&ouml;ren Michael Laird S&ouml;rries</name>
 			<email type="personal">info@perlmongers.de</email>
 		</tsar>
 		<web>http://roederbergweg.pm.org/</web>
@@ -15704,4 +15704,4 @@
 		</mailing-list>
 		<date type="inception">20030817</date>
 	</group>
-</perl-mongers>
+</perl_mongers>
