@@ -10277,7 +10277,7 @@
 		<date type="inception">20010504</date>
 	</group>
 
-	<group id="399" status="sleeping">
+	<group id="399" status="active">
 		<name>ValleKas.pm</name>
 		<location>
 			<city>ValleKas</city>
@@ -16298,4 +16298,139 @@
 		</mailing-list>
 		<date type="inception">20040208</date>
 	</group>
-</perl_mongers>
+
+	<group id="633" status="active">
+		<name>Angola.pm</name>
+		<location>
+			<city>Angola</city>
+			<state>Luanda</state>
+			<region>Africa Austral</region>
+			<country>Angola</country>
+			<continent>Africa</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>nataniel baiao</name>
+			<email type="personal">snnangola@yahoo.com.br</email>
+		</tsar>
+		<web>http://angola.pm.org/</web>
+		<mailing-list>
+			<name>General Angola Perl Mongers discussion</name>
+			<email type="list">angola-pm@pm.org</email>
+			<email type="list_admin">snnangola@yahoo.com.br</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040222</date>
+	</group>
+
+	<group id="634" status="active">
+		<name>NE Oklahoma Perl Users Group.pm</name>
+		<location>
+			<city>NE Oklahoma Perl Users Group</city>
+			<state>OK</state>
+			<region>Midwest</region>
+			<country>United States</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Anthony M. Saffer</name>
+			<email type="personal">anthonysaffer@safferconsulting.com</email>
+		</tsar>
+		<web>http://neoklahomaperlusersgroup.pm.org/</web>
+		<mailing-list>
+			<name>General NE Oklahoma Perl Users Group Perl Mongers discussion</name>
+			<email type="list">neoklahomaperlusersgroup-pm@pm.org</email>
+			<email type="list_admin">anthonysaffer@safferconsulting.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040222</date>
+	</group>
+
+	<group id="635" status="active">
+		<name>Nottingham.pm</name>
+		<location>
+			<city>Nottingham</city>
+			<state>Nottinghamshire</state>
+			<region>East Midlands</region>
+			<country>United Kingdom</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Michael Erskine</name>
+			<email type="personal">michael.erskine@jasmin.plc.uk</email>
+		</tsar>
+		<web>http://nottingham.pm.org/</web>
+		<mailing-list>
+			<name>General Nottingham Perl Mongers discussion</name>
+			<email type="list">nottingham-pm@pm.org</email>
+			<email type="list_admin">michael.erskine@jasmin.plc.uk</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040222</date>
+	</group>
+
+	<group id="636" status="active">
+		<name>Yerevan.pm</name>
+		<location>
+			<city>Yerevan</city>
+			<state>Yerevan</state>
+			<region>Capital of Armenia</region>
+			<country>Armenia</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Kevork Nazaryan</name>
+			<email type="personal">aria@sdf.lonestar.org</email>
+		</tsar>
+		<web>http://yerevan.pm.org/</web>
+		<mailing-list>
+			<name>General Yerevan Perl Mongers discussion</name>
+			<email type="list">yerevan-pm@pm.org</email>
+			<email type="list_admin">aria@sdf.lonestar.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040222</date>
+	</group>
+
+	<group id="637" status="active">
+		<name>nova.pm</name>
+		<location>
+			<city>nova</city>
+			<state>Virginia</state>
+			<region>Virginia</region>
+			<country>United States</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Martin Thurn</name>
+			<email type="personal">mthurn@cpan.org</email>
+		</tsar>
+		<web>http://nova.pm.org/</web>
+		<mailing-list>
+			<name>General nova Perl Mongers discussion</name>
+			<email type="list">nova-pm@pm.org</email>
+			<email type="list_admin">mthurn@cpan.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040222</date>
+	</group>
+</perl-mongers>
