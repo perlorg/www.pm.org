@@ -16,7 +16,7 @@
 #####
 #####		SENDMAIL CONFIGURATION FILE
 #####
-##### built by root@www.pm.org on Mon May 24 01:43:08 CDT 2004
+##### built by root@www.pm.org on Sun Oct 24 21:52:44 CDT 2004
 ##### in /etc/mail
 ##### using /usr/share/sendmail-cf/ as configuration include directory
 #####
@@ -178,7 +178,7 @@ O SevenBitInput=False
 O AliasWait=10
 
 # location of alias file
-O AliasFile=/etc/aliases,/etc/mail/majordomo.aliases,/etc/mail/mailman.aliases
+O AliasFile=/etc/aliases,/etc/mail/mailman.aliases
 
 # minimum number of free blocks on filesystem
 O MinFreeBlocks=100
