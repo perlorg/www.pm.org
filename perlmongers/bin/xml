@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/home/acme/bin/perl -w
 
 use strict;
 use Image::WorldMap;
@@ -15,12 +15,13 @@ my $tt = Template->new({
   PRE_CHOMP => 1,
   TRIM => 1,
   EVAL_PERL => 1 ,
-  INCLUDE_PATH => ['lib', 'src'],
+  INCLUDE_PATH => ['.', 'lib', 'src'],
   PROCESS => 'layout',
 });
 
 # Array containing all the group names
 my @groups;
+mkdir "html/groups/graphics";
 
 foreach my $name (keys %$xml) {
   my $group = $xml->{$name};
@@ -40,11 +41,11 @@ foreach my $name (keys %$xml) {
     my $map = Image::WorldMap->new("titchy.png");
     $map->add($group->{location}->{longitude}, $group->{location}->{latitude});
     $map->draw("foo.png");
-    system("pngtopnm foo.png | ppmquant 255 | pnmtopng -compression 9 > html/groups/$id.png");
+    system("pngtopnm foo.png | ppmquant 64 | pnmtopng -compression 9 > html/groups/graphics/$id.png");
   }
-  $group->{image} = "$id.png";
+  $group->{image} = "graphics/$id.png";
 
-  $tt->process('groups/group.html', $group, "html/groups/$id.html")
+  $tt->process('src/groups/group.html', $group, "html/groups/$id.html")
     || die $tt->error();
 
 }
