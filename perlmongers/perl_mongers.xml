@@ -16022,9 +16022,9 @@
 	</group>
 
 	<group id="644" status="active">
-		<name>Guia do Perl.pm</name>
+		<name>Vitoria.pm</name>
 		<location>
-			<city>Guia do Perl</city>
+			<city>Vitoria</city>
 			<state>Espirito Santo</state>
 			<region>ES</region>
 			<country>Brazil</country>
@@ -16035,13 +16035,13 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Jo&atilde;o Gabriel</name>
-			<email type="personal">joaogabrielcas@ig.com.br</email>
+			<email type="personal">jamorreu@gmail.com</email>
 		</tsar>
-		<web>http://guiadoperl.pm.org/</web>
+		<web>http://vitoria.pm.org/</web>
 		<mailing_list>
-			<name>General Guia do Perl Perl Mongers discussion</name>
-			<email type="list">guiadoperl-pm@pm.org</email>
-			<email type="list_admin">joaogabrielcas@ig.com.br</email>
+			<name>General Vitoria Perl Mongers discussion</name>
+			<email type="list">vitoria-pm@pm.org</email>
+			<email type="list_admin">jamorreu@gmail.com</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
