@@ -27,8 +27,9 @@ mkdir "html/groups/graphics";
 foreach my $name (keys %$xml) {
   my $group = $xml->{$name};
   my $id = $group->{id};
-  my $status = $group->{status} || 'deactive';
+  my $status = $group->{status} || 'not-specified-in-xml-file';
 #  print "$status\n";
+  next unless $status eq 'active' || $status eq 'sleeping';
 #  print "$id\n";
 #  print $continent, "\n";
 #  print "$name\n" if ref($continent);
