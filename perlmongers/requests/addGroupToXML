@@ -62,7 +62,7 @@ print XML qq(
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing-list>
-		<date type="inception">$a{date}</date>
+		<date type="inception">$date</date>
 	</group>
 </perl-mongers>
 );
