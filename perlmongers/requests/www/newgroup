@@ -76,7 +76,7 @@ sub print_form
 	  "<tr>","<td>","Group Leader's email address","<td>", $q->textfield('leaderEmail'),$q->br,
 	  "<tr>","<td colspan=2>","Suggest a name for the group. Groups typically end in the .pm extension and reflect the region that they serve, such as StLouis.pm. Some groups have aliases. For example, Chicago.pm is also Chi.pm",$q ->br,
 	  "<tr>","<td>","Requested Group Name","<td>", $q->textfield('groupname'),$q->br,
-	  "<tr>","<td colspan=2>","To set up the groupnamepm.org subdomain that you will host, we need an IP # or a machine name to point to. If you want to use Perl Mongers free Net Services, see the next box. ",$q->br,
+	  "<tr>","<td colspan=2>","To set up the groupname.pm.org subdomain that you will host, we need an IP # or a machine name to point to. If you want to use Perl Mongers free Net Services, see the next box. ",$q->br,
 	  "<tr>","<td>","WebSite","<td>", $q->radio_group(-name=>'web_method', -values=>['freeweb','dns'], -default=>'freeweb'),"&nbsp;&nbsp;IP", $q->textfield('IP'),
 	  "<tr>","<td>","Free Email List","<td>", $q->radio_group(-name=>'freelist', -values=>['yes','no'], -default=>'yes'),$q->br,
 	  $q->end_table,
