@@ -3898,3 +3898,15 @@ vitoria-request:      "|/var/mailman/mail/mailman request vitoria"
 vitoria-subscribe:    "|/var/mailman/mail/mailman subscribe vitoria"
 vitoria-unsubscribe:  "|/var/mailman/mail/mailman unsubscribe vitoria"
 
+## belem mailing list
+belem:              "|/var/mailman/mail/mailman post belem"
+belem-admin:        "|/var/mailman/mail/mailman admin belem"
+belem-bounces:      "|/var/mailman/mail/mailman bounces belem"
+belem-confirm:      "|/var/mailman/mail/mailman confirm belem"
+belem-join:         "|/var/mailman/mail/mailman join belem"
+belem-leave:        "|/var/mailman/mail/mailman leave belem"
+belem-owner:        "|/var/mailman/mail/mailman owner belem"
+belem-request:      "|/var/mailman/mail/mailman request belem"
+belem-subscribe:    "|/var/mailman/mail/mailman subscribe belem"
+belem-unsubscribe:  "|/var/mailman/mail/mailman unsubscribe belem"
+
