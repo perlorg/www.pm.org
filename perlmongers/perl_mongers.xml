@@ -3075,16 +3075,16 @@
 			<longitude>10.216</longitude>
 			<latitude>56.15</latitude>
 		</location>
-		<email type="group"></email>
+		<email type="group">aarhus.pm@balker.dk</email>
 		<tsar>
-			<name>Lasse H. Petersen</name>
-			<email type="personal">lhp+pm@toft-hp.dk</email>
+			<name>Lars Balker Rasmussen</name>
+			<email type="personal">lars@balker.dk</email>
 		</tsar>
 		<web>http://aarhus.pm.org/</web>
 		<mailing_list>
 			<name>General Aarhus.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
+			<email type="list">pm@aarhus.pm.org</email>
+			<email type="list_admin">majordomo@aarhus.pm.org</email>
 			<subscribe></subscribe>
 			<unsubscribe></unsubscribe>
 		</mailing_list>
