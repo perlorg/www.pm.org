@@ -10601,7 +10601,7 @@
 		<date type="inception">20010620</date>
 	</group>
 
-	<group id="411" status="leb">
+	<group id="411" status="active">
 		<name>Dublin.pm</name>
 		<location>
 			<city>Dublin</city>
@@ -10614,14 +10614,14 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Trish Hartnett</name>
-			<email type="personal">p_hartnett@hotmail.com</email>
+			<name>Dave O'Connor</name>
+			<email type="personal">doc@redbrick.dcu.ie</email>
 		</tsar>
 		<web>http://dublin.pm.org/</web>
 		<mailing_list>
 			<name>General Dublin Perl Mongers discussion</name>
 			<email type="list">dublin-pm@pm.org</email>
-			<email type="list_admin">p_hartnett@hotmail.com</email>
+			<email type="list_admin">doc@redbrick.dcu.ie</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
