@@ -21,6 +21,7 @@ my $xml = XML::XPath->new(filename => 'perl_mongers.xml')
 foreach ($xml->findnodes('/perl_mongers/group')) {
   my $id = $_->findvalue('@id');
   my $name = $_->findvalue('name/text()');
+  $name =~ s/\s//g;
 
   push @{$groups{$name}}, $id;
 }
