@@ -3074,7 +3074,7 @@
 		<date type="inception">19981002</date>
 	</group>
 	
-	<group id="116">
+	<group id="116" status="active">
 		<name>Bath.pm</name>
 		<location>
 			<city>Bath</city>
