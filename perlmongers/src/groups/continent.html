@@ -4,6 +4,8 @@
 <img src="[% image %]">
 [% END %]
 
+[% IF groups.keys.size %]
+
 <p>
 
 The following groups are in [% continent %]:
@@ -17,4 +19,12 @@ The following groups are in [% continent %]:
 <li><a href="[% group.id %].html">[% group.name %]</a><br>
 [% END %]
 </ul>
+[% END %]
+
+[% ELSE %]
+
+<p>
+
+There are currently no groups in [% continent %].
+
 [% END %]

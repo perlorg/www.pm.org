@@ -11,6 +11,7 @@ my %colours = (
   'asia' => [255,255,0],
   'europe' => [128,128,255],
   'north_america' => [255,0,0],
+  'central_america' => [0,255,0],
   'south_america' => [255,0,255],
   'oceania' => [0,255,255],
 );
@@ -102,7 +103,12 @@ copy("./perl_mongers.xml", "www/groups/perl_mongers.xml");
 copy("./perl_mongers.dtd", "www/groups/perl_mongers.dtd");
 
 #use YAML; die Dump(\%groups);
-foreach my $continent (sort keys %groups) {
+my @continents = (
+  "Africa", "Asia", "Europe", "North America", "Central America",
+  "South America", "Oceania"
+);
+
+foreach my $continent (@continents) {
   my $name = lc $continent;
   $name =~ s/\W/_/g;
   my $file = "www/groups/$name.html";

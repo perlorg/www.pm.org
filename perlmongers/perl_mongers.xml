@@ -1437,7 +1437,7 @@
 		<date type="inception">19990120</date>
 	</group>
 	
-	<group id="51">
+	<group id="51" status="active">
 		<name>LasVegas.pm</name>
 		<location>
 			<city>Las Vegas</city>
@@ -1450,14 +1450,14 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Gil Lopez</name>
-			<email type="personal">glopez@tothinkistocreate.com</email>
+			<name>Chris Angell</name>
+			<email type="personal">chrisangell@chrisangell.com</email>
 		</tsar>
-		<web>http://lv.pm.org/</web>
+		<web>http://lasvegas.pm.org/</web>
 		<mailing_list>
 			<name>General LasVegas.pm discussion</name>
-			<email type="list">lv-pm@pm.org</email>
-			<email type="list_admin">glopez@tothinkistocreate.com</email>
+			<email type="list">lasvegas-pm@pm.org</email>
+			<email type="list_admin">majordomo@pm.org</email>
 			<subscribe></subscribe>
 			<unsubscribe></unsubscribe>
 		</mailing_list>
@@ -12093,7 +12093,7 @@
 			<state></state>
 			<region></region>
 			<country>Costa Rica</country>
-			<continent>South America</continent>
+			<continent>Central America</continent>
 			<longitude>-85.13</longitude>
 			<latitude>10.97</latitude>
 		</location>

@@ -50,6 +50,7 @@
   minor = {
     "North America" => "/groups/north_america.html",
     "South America" => "/groups/south_america.html",
+    "Central America" => "/groups/central_america.html",
     "Europe" => "/groups/europe.html",
     "Non-geographical" => "/groups/non_geographical.html",
     "Oceania" => "/groups/oceania.html",
