@@ -6872,10 +6872,10 @@
 		<date type="inception">20000116</date>
 	</group>
 
-	<group id="267">
+	<group id="267" status="active">
 		<name>NewOrleans.pm</name>
 		<location>
-			<city>New Orleans</city>
+			<city>NewOrleans</city>
 			<state>Louisiana</state>
 			<region></region>
 			<country>United States of America</country>
@@ -6885,17 +6885,17 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Joseph E. Rouillier III</name>
-			<email type="personal">c_tech@bellsouth.net</email>
+			<name>Dave Cash &amp; Joey Kelley</name>
+			<email type="personal">neworleans.pm@fieldsofgarlic.com</email>
 		</tsar>
-		<web></web>
-		<mailing_list>
-			<name>General NewOrleans.pm discussion</name>
-			<email type="list">neworleans-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe neworleans-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe neworleans-pm-list email_address</unsubscribe>
-		</mailing_list>
+		<web>http://neworleans.pm.org/</web>
+		<mailing-list>
+			<name>General NewOrleans Perl Mongers discussion</name>
+			<email type="list">neworleans-pm@pm.org</email>
+			<email type="list_admin">neworleans.pm@fieldsofgarlic.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
 		<date type="inception">20000116</date>
 	</group>
 
@@ -16618,33 +16618,6 @@
 			<name>General Harrisburg Perl Mongers discussion</name>
 			<email type="list">harrisburg-pm@pm.org</email>
 			<email type="list_admin">hpm@openthought.net</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing-list>
-		<date type="inception">20040425</date>
-	</group>
-
-	<group id="647" status="active">
-		<name>NewOrleans.pm</name>
-		<location>
-			<city>NewOrleans</city>
-			<state>Louisiana</state>
-			<region></region>
-			<country>United States of America</country>
-			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Dave Cash &amp; Joey Kelley</name>
-			<email type="personal">neworleans.pm@fieldsofgarlic.com</email>
-		</tsar>
-		<web>http://neworleans.pm.org/</web>
-		<mailing-list>
-			<name>General NewOrleans Perl Mongers discussion</name>
-			<email type="list">neworleans-pm@pm.org</email>
-			<email type="list_admin">neworleans.pm@fieldsofgarlic.com</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing-list>
