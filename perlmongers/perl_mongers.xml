@@ -3779,7 +3779,7 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Harald Jörg</name>
+			<name>Harald J&ouml;rg</name>
 			<email type="personal">Harald.Joerg@fujitsu-siemens.com</email>
 		</tsar>
 		<web>http://munich.pm.org/</web>
@@ -15683,7 +15683,7 @@
 		<location>
 			<city>austria.marchfeld</city>
 			<state>Marchfeld</state>
-			<region>Niederösterreich</region>
+			<region>Nieder&ouml;sterreich</region>
 			<country>Austria</country>
 			<continent>Europe</continent>
 			<longitude></longitude>
@@ -15763,8 +15763,8 @@
 		<name>Aalesund.pm</name>
 		<location>
 			<city>Aalesund</city>
-			<state>Ålesund</state>
-			<region>Møre &amp; Romsdal</region>
+			<state>Aalesund</state>
+			<region>More &amp; Romsdal</region>
 			<country>Norway</country>
 			<continent>Europe</continent>
 			<longitude></longitude>
@@ -15799,7 +15799,7 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Christian Dühl</name>
+			<name>Christian D&uml;hl</name>
 			<email type="personal">christian@duehl.de</email>
 		</tsar>
 		<web>http://bielefeld.pm.org/</web>
@@ -16582,7 +16582,7 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Jo�o Gabriel</name>
+			<name>Jo&atilde;o Gabriel</name>
 			<email type="personal">joaogabrielcas@ig.com.br</email>
 		</tsar>
 		<web>http://guiadoperl.pm.org/</web>
@@ -16663,7 +16663,7 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Dave Cash & Joey Kelley</name>
+			<name>Dave Cash &amp; Joey Kelley</name>
 			<email type="personal">neworleans.pm@fieldsofgarlic.com</email>
 		</tsar>
 		<web>http://neworleans.pm.org/</web>
@@ -16730,4 +16730,4 @@
 		</mailing-list>
 		<date type="inception">20040425</date>
 	</group>
-</perl-mongers>
+</perl_mongers>
