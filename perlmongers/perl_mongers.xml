@@ -8000,7 +8000,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="314">
+	<group id="314" status="active">
 		<name>Oakland.pm</name>
 		<location>
 			<city>Oakland</city>
@@ -8013,14 +8013,14 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Scott Ardley</name>
-			<email type="personal">pug@calvinball.com</email>
+			<name>George Woolley</name>
+			<email type="personal">georgepw@metaart.org</email>
 		</tsar>
 		<web>http://oakland.pm.org/</web>
 		<mailing_list>
 			<name>General Oakland Perl Mongers discussion</name>
 			<email type="list">oakland-pm@pm.org</email>
-			<email type="list_admin">pug@calvinball.com</email>
+			<email type="list_admin">georgepw@metaart.org</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
