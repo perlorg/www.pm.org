@@ -13498,6 +13498,293 @@
 		</mailing_list>
 		<date type="inception">20020806</date>
 	</group>
+	<group id="531" status="active">
+		<name>Depok.pm</name>
+		<location>
+			<city>Depok</city>
+			<state>Jajw Barat</state>
+			<region>Depok</region>
+			<country>Indonesia</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Haries Evica</name>
+			<email type="personal">haries@haries.nu</email>
+		</tsar>
+		<web>http://depok.pm.org/</web>
+		<mailing_list>
+			<name>General Depok Perl Mongers discussion</name>
+			<email type="list">depok-pm@pm.org</email>
+			<email type="list_admin">haries@haries.nu</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20020925</date>
+	</group>
+	<group id="532" status="active">
+		<name>Mignon.pm</name>
+		<location>
+			<city>Mignon</city>
+			<state></state>
+			<region>NCR</region>
+			<country>Philippines</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Cham&eacute; Balisalisa</name>
+			<email type="personal">chame@gmx.net</email>
+		</tsar>
+		<web>http://mignon.pm.org/</web>
+		<mailing_list>
+			<name>General Mignon Perl Mongers discussion</name>
+			<email type="list">Mignon-pm@pm.org</email>
+			<email type="list_admin">chame@gmx.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20020925</date>
+	</group>
 
+	<group id="533" status="active">
+		<name>tranners.pm</name>
+		<location>
+			<city>Karachi</city>
+			<state>Sindh</state>
+			<region>Pakistan</region>
+			<country>Pakistan</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Muhammad Rehan</name>
+			<email type="personal">firstchoise2001@yahoo.com</email>
+		</tsar>
+		<web>http://tranners.pm.org/</web>
+		<mailing_list>
+			<name>General Karachi Perl Mongers discussion</name>
+			<email type="list">tranners-pm@pm.org</email>
+			<email type="list_admin">firstchoise2001@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20020925</date>
+	</group>
 	
+	<group id="534" status="active">
+		<name>Alphen.pm</name>
+		<location>
+			<city>Alphen aan den Rijn</city>
+			<state></state>
+			<region>Groene Hart</region>
+			<country>Netherlands</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Miss Abigail</name>
+			<email type="personal">$alphen-pm$@abigail.nl</email>
+		</tsar>
+		<web>http://Alphen.pm.org/</web>
+		<mailing_list>
+			<name>General Alphen aan den Rijn Perl Mongers discussion</name>
+			<email type="list">Alphen-pm@pm.org</email>
+			<email type="list_admin">$alphen-pm$@abigail.nl</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20020925</date>
+	</group>
+	<group id="535" status="active">
+		<name>kw.pm</name>
+		<location>
+			<city>Kitchener-Waterloo</city>
+			<state>Ontario</state>
+			<region>Southern Ontario, between Toronto and Hamilton (2 hr. from either)</region>
+			<country>Canada</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Daniel Allen</name>
+			<email type="personal">da@coder.com</email>
+		</tsar>
+		<web>http://kw.pm.org/</web>
+		<mailing_list>
+			<name>General Kitchener-Waterloo Perl Mongers discussion</name>
+			<email type="list">kw-pm@pm.org</email>
+			<email type="list_admin">da@coder.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20020925</date>
+	</group>
+	<group id="536" status="active">
+		<name>SpringfieldMO.pm</name>
+		<location>
+			<city>Springfield</city>
+			<state>MO</state>
+			<region>Southwest Missouri</region>
+			<country>United States</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>John Bodoni</name>
+			<email type="personal">jbodoni@hotmail.com</email>
+		</tsar>
+		<web>http://SpringfieldMO.pm.org/</web>
+		<mailing_list>
+			<name>General Springfield Perl Mongers discussion</name>
+			<email type="list">SpringfieldMO-pm@pm.org</email>
+			<email type="list_admin">jbodoni@hotmail.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20020925</date>
+	</group>
+	<group id="537" status="active">
+		<name>Canberra.pm</name>
+		<location>
+			<city>Canberra</city>
+			<state>ACT</state>
+			<region></region>
+			<country>Australia</country>
+			<continent>Oceania</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Jeremy Price</name>
+			<email type="personal">jeremy.price@member.sage-au.org.au</email>
+		</tsar>
+		<web>http://Canberra.pm.org/</web>
+		<mailing_list>
+			<name>General Canberra Perl Mongers discussion</name>
+			<email type="list">Canberra-pm@pm.org</email>
+			<email type="list_admin">jeremy.price@member.sage-au.org.au</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20020925</date>
+	</group>
+	<group id="538" status="active">
+		<name>Terere.pm</name>
+		<location>
+			<city>Asuncion</city>
+			<state>Central</state>
+			<region>Central</region>
+			<country>Paraguay</country>
+			<continent>South Africa</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Roger Armoa</name>
+			<email type="personal">rogerarmoa@hotmail.com</email>
+		</tsar>
+		<web>http://Terere.pm.org/</web>
+		<mailing_list>
+			<name>General Asuncion Perl Mongers discussion</name>
+			<email type="list">Terere-pm@pm.org</email>
+			<email type="list_admin">rogerarmoa@hotmail.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20020925</date>
+	</group>
+	<group id="539" status="active">
+		<name>Dresden.pm</name>
+		<location>
+			<city>Dresden</city>
+			<state></state>
+			<region></region>
+			<country>Germany</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Joerg Westphal</name>
+			<email type="personal">joerg.westphal@gmx.de</email>
+		</tsar>
+		<web>http://Dresden.pm.org/</web>
+		<mailing_list>
+			<name>General Dresden Perl Mongers discussion</name>
+			<email type="list">Dresden-pm@pm.org</email>
+			<email type="list_admin">joerg.westphal@gmx.de</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20020925</date>
+	</group>
+	<group id="540" status="active">
+		<name>Leuven.pm</name>
+		<location>
+			<city>Leuven</city>
+			<state></state>
+			<region></region>
+			<country>Belgium</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Hendrik Van Belleghem</name>
+			<email type="personal">pm@quickndirty.org</email>
+		</tsar>
+		<web>http://Leuven.pm.org/</web>
+		<mailing_list>
+			<name>General Leuven Perl Mongers discussion</name>
+			<email type="list">Leuven-pm@pm.org</email>
+			<email type="list_admin">pm@quickndirty.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20020925</date>
+	</group>
+	<group id="541" status="active">
+		<name>Algarve.pm</name>
+		<location>
+			<city>Faro</city>
+			<state>Algarve</state>
+			<region>Algarve</region>
+			<country>Portugal</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Jose Machado</name>
+			<email type="personal">pki@clix.pt</email>
+		</tsar>
+		<web>http://Algarve.pm.org/</web>
+		<mailing_list>
+			<name>General Faro Perl Mongers discussion</name>
+			<email type="list">Algarve-pm@pm.org</email>
+			<email type="list_admin">pki@clix.pt</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20020925</date>
+	</group>
+
 </perl_mongers>
