@@ -2962,7 +2962,7 @@
 			<city>Curitiba</city>
 			<state></state>
 			<region></region>
-			<country>Brasil</country>
+			<country>Brazil</country>
 			<continent>South America</continent>
 			<longitude>-49.25</longitude>
 			<latitude>-25.416</latitude>
@@ -2989,7 +2989,7 @@
 			<city>Franca</city>
 			<state></state>
 			<region></region>
-			<country>Brasil</country>
+			<country>Brazil</country>
 			<continent>South America</continent>
 			<longitude>-47.400</longitude>
 			<latitude>-20.533</latitude>
@@ -3016,7 +3016,7 @@
 			<city>Maceio</city>
 			<state></state>
 			<region></region>
-			<country>Brasil</country>
+			<country>Brazil</country>
 			<continent>South America</continent>
 			<longitude>-35.717</longitude>
 			<latitude>-9.667</latitude>
@@ -3070,7 +3070,7 @@
 			<city>Sao Paulo</city>
 			<state></state>
 			<region></region>
-			<country>Brasil</country>
+			<country>Brazil</country>
 			<continent>South America</continent>
 			<longitude>-46.617</longitude>
 			<latitude>-23.533</latitude>
@@ -5960,7 +5960,7 @@
 			<city>Volta Redonda</city>
 			<state></state>
 			<region></region>
-			<country>Brasil</country>
+			<country>Brazil</country>
 			<continent>South America</continent>
 			<longitude>-44.1167</longitude>
 			<latitude>-22.5333</latitude>
@@ -6203,7 +6203,7 @@
 			<city>Porto Alegre</city>
 			<state></state>
 			<region></region>
-			<country>Brasil</country>
+			<country>Brazil</country>
 			<continent>South America</continent>
 			<longitude>-51.2239</longitude>
 			<latitude>-30.0757</latitude>
@@ -7742,8 +7742,8 @@
 		<location>
 			<city>Rio de Janeiro</city>
 			<state></state>
-			<region>Brasil</region>
-			<country>Brasil</country>
+			<region>Brazil</region>
+			<country>Brazil</country>
 			<continent>South America</continent>
 			<longitude>-43.1748</longitude>
 			<latitude>-22.9062</latitude>
@@ -9418,8 +9418,8 @@
 		<location>
 			<city>Brasilia</city>
 			<state></state>
-			<region>Brasil</region>
-			<country>Brasil</country>
+			<region>Brazil</region>
+			<country>Brazil</country>
 			<continent>South America</continent>
                         <longitude>-44.4333</longitude>
                         <latitude>-16.2000</latitude>
@@ -12955,7 +12955,7 @@
 			<city>Fortaleza</city>
 			<state></state>
 			<region></region>
-			<country>Brasil</country>
+			<country>Brazil</country>
 			<continent>South America</continent>
 			<longitude></longitude>
 			<latitude></latitude>
@@ -15061,7 +15061,7 @@
 		<name>arnhem.pm</name>
 		<location>
 			<city>arnhem</city>
-			<state> </state>
+			<state></state>
 			<region></region>
 			<country>Netherlands</country>
 			<continent>Europe</continent>
@@ -15089,7 +15089,7 @@
 		<location>
 			<city>Thane</city>
 			<state>Maharashtra</state>
-			<region> </region>
+			<region></region>
 			<country>India</country>
 			<continent>Asia</continent>
 			<longitude></longitude>
@@ -15142,8 +15142,8 @@
 		<name>Stuttgart.pm</name>
 		<location>
 			<city>Stuttgart</city>
-			<state>Baden-Württemberg</state>
-			<region> </region>
+			<state>Baden-W&uuml;rttemberg</state>
+			<region></region>
 			<country>Germany</country>
 			<continent>Europe</continent>
 			<longitude></longitude>
@@ -15168,9 +15168,9 @@
 	<group id="584" status="active">
 		<name>Brasil.pm</name>
 		<location>
-			<city>Brasil</city>
-			<state> </state>
-			<region> </region>
+			<city>Brazil</city>
+			<state></state>
+			<region></region>
 			<country>Brazil</country>
 			<continent>South America</continent>
 			<longitude></longitude>
@@ -15277,8 +15277,8 @@
 		<name>Gombe.pm</name>
 		<location>
 			<city>Gombe</city>
-			<state> </state>
-			<region> </region>
+			<state></state>
+			<region></region>
 			<country>Nigeria</country>
 			<continent>Africa</continent>
 			<longitude></longitude>
@@ -15303,11 +15303,11 @@
 	<group id="589" status="active">
 		<name>dahut.pm</name>
 		<location>
-			<city> </city>
-			<state> </state>
-			<region> </region>
-			<country> </country>
-			<continent> </continent>
+			<city></city>
+			<state></state>
+			<region></region>
+			<country></country>
+			<continent></continent>
 			<longitude></longitude>
 			<latitude></latitude>
 		</location>
@@ -15332,7 +15332,7 @@
 		<location>
 			<city>Kaohsiung</city>
 			<state>Taiwan</state>
-			<region> </region>
+			<region></region>
 			<country>Taiwan</country>
 			<continent>Asia</continent>
 			<longitude></longitude>
@@ -15380,4 +15380,4 @@
 		</mailing-list>
 		<date type="inception">20030628</date>
 	</group>
-</perl-mongers>
+</perl_mongers>
