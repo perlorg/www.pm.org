@@ -12501,7 +12501,7 @@
 		<date type="inception">20020306</date>
 	</group>
 
-	<group id="4" status="active">
+	<group id="483" status="active">
 		<name>CAMEL.pm</name>
 		<location>
 			<city>Columbia, Annapolis, Meade, Elkridge, and Laurel</city>
@@ -12528,7 +12528,7 @@
 		<date type="inception">20020306</date>
 	</group>
 
-	<group id="5" status="active">
+	<group id="484" status="active">
 		<name>Belgrade.pm</name>
 		<location>
 			<city>Belgrade</city>
@@ -12555,7 +12555,7 @@
 		<date type="inception">20020307</date>
 	</group>
 
-	<group id="6" status="active">
+	<group id="485" status="active">
 		<name>bali.pm</name>
 		<location>
 			<city>denpasar</city>
@@ -12582,7 +12582,7 @@
 		<date type="inception">20020311</date>
 	</group>
 
-	<group id="7" status="active">
+	<group id="486" status="active">
 		<name>Yuma.pm</name>
 		<location>
 			<city>Yuma</city>
@@ -12609,7 +12609,7 @@
 		<date type="inception">20020325</date>
 	</group>
 
-	<group id="8">
+	<group id="487">
 		<name>Floripa.pm</name>
 		<location>
 			<city>Florian&oacute;polis</city>
@@ -12623,8 +12623,7 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Graciliano Monteiro Passos</name>
-			<email type="personal">gm@virtuasites.com.br</email>
-		</tsar>
+			<email type="personal">gm@virtuasites.com.br</email>		</tsar>
 		<web>http://floripa.pm.org/</web>
 		<mailing_list>
 			<name>General Floripa Perl Mongers discussion</name>
@@ -12636,7 +12635,7 @@
 		<date type="inception">20020330</date>
 	</group>
 
-	<group id="9" status="sleeping">
+	<group id="489" status="sleeping">
 		<name>Bp.pm</name>
 		<location>
 			<city>Budapest</city>
@@ -12663,7 +12662,7 @@
 		<date type="inception">20020330</date>
 	</group>
 
-	<group id="10">
+	<group id="490">
 		<name>Brownsville.pm</name>
 		<location>
 			<city>Brownsville</city>
@@ -12690,7 +12689,7 @@
 		<date type="inception">20020406</date>
 	</group>
 
-	<group id="11">
+	<group id="491">
 		<name>Bg.pm</name>
 		<location>
 			<city></city>
@@ -12717,7 +12716,7 @@
 		<date type="inception">20020406</date>
 	</group>
 
-	<group id="12" status="leb">
+	<group id="492" status="leb">
 		<name>Blagoevgrad.pm</name>
 		<location>
 			<city>Blagoevgrad</city>
@@ -12744,7 +12743,7 @@
 		<date type="inception">20020406</date>
 	</group>
 
-	<group id="13" status="dead">
+	<group id="493" status="dead">
 		<name>Razgrad.pm</name>
 		<location>
 			<city>Razgrad</city>
@@ -12771,7 +12770,7 @@
 		<date type="inception">20020406</date>
 	</group>
 
-	<group id="14" status="leb">
+	<group id="494" status="leb">
 		<name>Pemalang.pm</name>
 		<location>
 			<city>Pemalang</city>
@@ -12798,7 +12797,7 @@
 		<date type="inception">20020406</date>
 	</group>
 
-	<group id="15" status="leb">
+	<group id="495" status="leb">
 		<name>Constanta.pm</name>
 		<location>
 			<city>Constanta</city>
@@ -12825,7 +12824,7 @@
 		<date type="inception">20020406</date>
 	</group>
 
-	<group id="16" status="sleeping">
+	<group id="496" status="sleeping">
 		<name>Zurich.pm</name>
 		<location>
 			<city>Zurich</city>
@@ -12852,7 +12851,7 @@
 		<date type="inception">20020406</date>
 	</group>
 
-	<group id="17">
+	<group id="497">
 		<name>China.pm</name>
 		<location>
 			<city></city>
@@ -12879,7 +12878,7 @@
 		<date type="inception">20020413</date>
 	</group>
 
-	<group id="18">
+	<group id="498">
 		<name>Xadrez.pm</name>
 		<location>
 			<city>Fortaleza</city>
@@ -12906,7 +12905,7 @@
 		<date type="inception">20020427</date>
 	</group>
 
-	<group id="19" status="active">
+	<group id="499" status="active">
 		<name>Boise.pm</name>
 		<location>
 			<city>Boise</city>
@@ -12933,7 +12932,7 @@
 		<date type="inception">20020513</date>
 	</group>
 
-	<group id="20" status="active">
+	<group id="500" status="active">
 		<name>Destin.pm</name>
 		<location>
 			<city>Destin</city>
@@ -12960,7 +12959,7 @@
 		<date type="inception">20020513</date>
 	</group>
 
-	<group id="21" status="leb">
+	<group id="501" status="leb">
 		<name>Poneke.pm</name>
 		<location>
 			<city>Porirua</city>
@@ -12987,7 +12986,7 @@
 		<date type="inception">20020514</date>
 	</group>
 
-	<group id="22">
+	<group id="502">
 		<name>Whyalla.pm</name>
 		<location>
 			<city>Whyalla</city>
@@ -13014,7 +13013,7 @@
 		<date type="inception">20020514</date>
 	</group>
 
-	<group id="23">
+	<group id="503">
 		<name>EggPerl.pm</name>
 		<location>
 			<city>Craiova</city>
@@ -13041,7 +13040,7 @@
 		<date type="inception">20020514</date>
 	</group>
 
-	<group id="24">
+	<group id="504">
 		<name>tarc2000.pm</name>
 		<location>
 			<city>Butterworth</city>
@@ -13068,7 +13067,7 @@
 		<date type="inception">20020514</date>
 	</group>
 
-	<group id="25" status="active">
+	<group id="505" status="active">
 		<name>NEPenn.pm</name>
 		<location>
 			<city>Tobyhanna</city>
@@ -13095,7 +13094,7 @@
 		<date type="inception">20020518</date>
 	</group>
 
-	<group id="26">
+	<group id="506">
 		<name>gucheng.pm</name>
 		<location>
 			<city>gucheng</city>
@@ -13122,7 +13121,7 @@
 		<date type="inception">20020519</date>
 	</group>
 
-	<group id="27" status="active">
+	<group id="507" status="active">
 		<name>Gabrovo.pm</name>
 		<location>
 			<city>Gabrovo</city>
@@ -13149,7 +13148,7 @@
 		<date type="inception">20020522</date>
 	</group>
 
-	<group id="28" status="active">
+	<group id="508" status="active">
 		<name>Bucharest.pm</name>
 		<location>
 			<city>Bucharest</city>
@@ -13176,7 +13175,7 @@
 		<date type="inception">20020618</date>
 	</group>
 
-	<group id="29">
+	<group id="509">
 		<name>Piotrkow .pm</name>
 		<location>
 			<city>Piotrkow </city>
@@ -13203,7 +13202,7 @@
 		<date type="inception">20020618</date>
 	</group>
 
-	<group id="30">
+	<group id="510">
 		<name>Arad.pm</name>
 		<location>
 			<city>Arad</city>
@@ -13230,7 +13229,7 @@
 		<date type="inception">20020626</date>
 	</group>
 
-	<group id="31">
+	<group id="521">
 		<name>Ukraine.pm</name>
 		<location>
 			<city>Kharkov</city>
@@ -13257,7 +13256,7 @@
 		<date type="inception">20020626</date>
 	</group>
 
-	<group id="32">
+	<group id="522">
 		<name>Calicut.pm</name>
 		<location>
 			<city>Calicut</city>
@@ -13284,7 +13283,7 @@
 		<date type="inception">20020721</date>
 	</group>
 
-	<group id="33">
+	<group id="523">
 		<name>mus.pm</name>
 		<location>
 			<city>mus</city>
@@ -13311,7 +13310,7 @@
 		<date type="inception">20020721</date>
 	</group>
 
-	<group id="34" status="active">
+	<group id="524" status="active">
 		<name>jackson.pm</name>
 		<location>
 			<city>Jackson</city>
@@ -13338,7 +13337,7 @@
 		<date type="inception">20020721</date>
 	</group>
 
-	<group id="35">
+	<group id="525">
 		<name>Norwich.pm</name>
 		<location>
 			<city>Norwich</city>
@@ -13365,7 +13364,7 @@
 		<date type="inception">20020721</date>
 	</group>
 
-	<group id="36">
+	<group id="526">
 		<name>mumbai.pm</name>
 		<location>
 			<city>mumbai</city>
@@ -13392,7 +13391,7 @@
 		<date type="inception">20020726</date>
 	</group>
 
-	<group id="37" status="active">
+	<group id="527" status="active">
 		<name>WhiteMountain.pm</name>
 		<location>
 			<city></city>
@@ -13419,7 +13418,7 @@
 		<date type="inception">20020728</date>
 	</group>
 
-	<group id="38" status="active">
+	<group id="528" status="active">
 		<name>NH.pm</name>
 		<location>
 			<city>Manchester</city>
@@ -13446,7 +13445,7 @@
 		<date type="inception">20020728</date>
 	</group>
 
-	<group id="39">
+	<group id="529">
 		<name>Beirut.pm</name>
 		<location>
 			<city>Beirut</city>
@@ -13473,7 +13472,7 @@
 		<date type="inception">20020802</date>
 	</group>
 
-	<group id="40" status="active">
+	<group id="530" status="active">
 		<name>Kaohsiung.pm</name>
 		<location>
 			<city>Kaohsiung</city>

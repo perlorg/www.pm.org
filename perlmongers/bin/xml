@@ -28,7 +28,8 @@ foreach my $name (keys %$xml) {
   my $group = $xml->{$name};
   my $id = $group->{id};
   my $status = $group->{status} || 'deactive';
-  print "$status\n";
+#  print "$status\n";
+#  print "$id\n";
 #  print $continent, "\n";
 #  print "$name\n" if ref($continent);
   die "$name has no id\n" unless defined $id;
@@ -58,7 +59,7 @@ foreach my $name (keys %$xml) {
     my $map = Image::WorldMap->new("titchy.png");
     $map->add($group->{location}->{longitude}, $group->{location}->{latitude});
     $map->draw("foo.png");
-    system("pngtopnm foo.png | ppmquant 128 | pnmtopng -compression 9 > html/groups/graphics/$id.png");
+    system("pngtopnm foo.png | ppmquant 64 | pnmtopng -compression 9 > html/groups/graphics/$id.png");
     $group->{image} = "graphics/$id.png";
   }
 
