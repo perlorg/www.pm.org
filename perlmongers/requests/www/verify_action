@@ -1,0 +1,65 @@
+#!/usr/bin/perl
+
+use strict;
+
+use vars qw( $q $id );
+
+use CGI;
+
+$q = new CGI;
+
+$id=$q->param('id');
+
+if (! -f ("../../../../data/requests/new/" . $q->param('id')) )
+{
+&print_id_error;
+exit 0;
+}
+
+if ($q->param('action_to_take') eq "delete" )
+{
+&delete_request_file;
+exit 0;
+}
+
+if ($q->param('action_to_take') eq "verify" )
+{
+&verify_request;
+exit 0;
+}
+
+sub print_id_error
+{
+print
+$q->header(),$q->start_html();
+print ("no ID, this script will self-destruct in 15 seconds<BR>\n");
+print
+$q->end_html;
+}
+
+sub delete_request_file
+{
+print
+$q->header(),$q->start_html();
+rename ("../../../../data/requests/new/$id", "../../../../data/requests/deleted/$id") || print "Can't rename<BR>\n";
+print ("Your request has been deleted, sorry for the inconvenience.<BR>\n");
+print
+$q->end_html;
+}
+
+sub verify_request
+{
+rename ("../../../../data/requests/new/$id","../../../../data/requests/verified/$id");
+print STDERR $q->param("password1") . "\n";
+print STDERR $q->param("password2") . "\n";
+if ($q->param("password1") eq $q->param("password2"))
+{
+	open (FILEHANDLE, ">>../../../../data/requests/verified/$id");
+	print FILEHANDLE "\ncrypt:" . crypt ($q->param("password1"), "pm") . "\n";
+	close FILEHANDLE;
+}
+print $q->header(),$q->start_html();
+print ("Request has been mailed to a human, volunteer, sys admin, If your request is not handled in 48 hours, please email root\@pm.org<BR>\n");
+print
+$q->end_html();
+}

@@ -1,0 +1,78 @@
+#!/usr/bin/perl
+
+use strict;
+
+use vars qw( $q $id @data $hidden_id );
+
+use CGI;
+
+$q = new CGI;
+$id = $q->param('id');
+
+if (! -f ("../../../../data/requests/new/" . $q->param('id')) )
+{
+&print_id_error;
+exit 0
+}
+else
+{
+&print_page;
+exit 0;
+}
+
+
+
+
+
+#print STDERR "id=$id\n";
+#
+#print
+#$q->header(),$q->start_html(),$q->startform(-method=>"POST", -action=>"verify_action");
+#foreach (<DATAFILE>)
+#{
+#@data = split (/=/,$_);
+#print ("@data<BR>\n");
+#
+#}
+#close (DATAFILE);
+#print $q->hidden('id',$id);
+#print $q->submit(-name=>'action_to_take',-value=>'verify');
+#print $q->submit(-name=>'action_to_take',-value=>'delete');
+#print $q->endform();
+#print $q->end_html();
+#
+#$hidden_id=$q->param('hidden_id');
+
+
+sub print_id_error
+{
+print
+$q->header(),$q->start_html();
+print ("ID either not entered correctly or does not exist<BR>\n");
+print ("$id\n");
+print
+$q->end_html();
+}
+
+sub print_page
+{
+	open (DATAFILE, "../../../../data/requests/new/$id");
+	print
+	$q->header(),$q->start_html(),$q->startform(-method=>"POST", -action=>"verify_action");
+		foreach (<DATAFILE>)
+		{
+		@data = split (/=/,$_);
+		print ("@data<BR>\n");
+		}
+	close (DATAFILE);
+	print $q->hidden('id',$id);
+	print $q->submit(-name=>'action_to_take',-value=>'delete');
+	print "<br> Enter password twice before verifying.  This password will be used when you log into hfb.pm.org to manage your website.  (You  may leave these blank if you did not request freeweb.) <br>\n";
+	print qq(
+New Password: <input type="password" name="password1"><BR>
+New Password (again): <input type="password" name="password2"><BR>
+);
+	print $q->submit(-name=>'action_to_take',-value=>'verify');
+	print $q->endform();
+	print $q->end_html();
+}
