@@ -16314,5 +16314,31 @@
                 </mailing_list>
                 <date type="inception">20050218</date>
         </group>
+        <group id="657" status="active">
+                <name>Paderborn.pm</name>
+                <location>
+                        <city>Paderborn</city>
+                        <state>Nordrhein-Westfalen</state>
+                        <region>Ostwestfalen</region>
+                        <country>Germany</country>
+                        <continent>Europe</continent>
+                        <longitude>8.75</longitude>
+                        <latitude>51.72</latitude>
+                </location>
+                <email type="group"></email>
+                <tsar>
+                        <name>Achim Grolms</name>
+                        <email type="personal">paderbornpm@grolmsnet.de</email>
+                </tsar>
+                <web>http://paderborn.pm.org/</web>
+                <mailing_list>
+                        <name>General Paderborn Perl Mongers discussion</name>
+                        <email type="list">paderborn-pm@pm.org</email>
+                        <email type="list_admin">paderbornpm@grolmsnet.de</email>
+                        <subscribe>subscribe members email_address</subscribe>
+                        <unsubscribe>unsubscribe members email_address</unsubscribe>
+                </mailing_list>
+                <date type="inception">20050320</date>
+        </group>
 </perl_mongers>
 
