@@ -1,27 +1,100 @@
 #!/usr/bin/perl
-
 use strict;
+use warnings;
 
-my ($IP) = "64.49.222.22:80";
+my $ip = "64.49.222.22:80";
 
-open (IN, "pm.org.vhosts") or die "Can't open pm.org.vhosts";
-open (OUT, ">pm.org.conf");
-while (<IN>) {
-   chomp;
-   my ($aliases);
-   my ($host, @aliases) = split;
-   foreach my $alias (@aliases) {
-      $aliases .= "ServerAlias $alias.pm.org\n";
-   }
-   print OUT <<EOT
-<VirtualHost $IP>
-ServerName ${host}.pm.org
-${aliases}ServerAdmin webmaster\@$host.pm.org
-DocumentRoot /pm.org/$host
-</VirtualHost>
+# pm.org.vhosts file format is as follows
+#
+#  # hosted on pm.org
+#  group_name:alias:alias|Apache Directive|Apache Directive|Apache Dir..
+#
+#  # redirect
+#  group_name->http://some.valid.url/
+#
 
-EOT
+open my $out_fh, ">pm.org.conf"  or die "Can't open pm.org.conf";
+open my $in_fh,  "pm.org.vhosts" or die "Can't open pm.org.vhosts";
+my @lines = <$in_fh>;
+chomp @lines;
+close $in_fh;
+
+my %groups = ();
+my %seen = ();
+my %aliases = ();
+my %seen_aliases = ();
+
+my $count = 0;
+for my $line (@lines) {
+    $count++;
+    next if $line =~ /^\#/; # skip comments
+
+    my $group = {
+	name       => "",
+	url        => "",
+	aliases    => "",
+	directives => "",
+    };
+
+    if ($line =~ /\-\>/) { # redirect
+	($group->{name},$group->{url}) = split /\-\>/, $line;
+    }
+    else {
+	my ($name_aliases, @directives) = split /\|/, $line;
+	my ($name, @aliases) = split(/\:/,$name_aliases);
+	$group->{name} = $name;
+	$group->{directives} .= "$_\n" for @directives;
+	$aliases{$name} = \@aliases if @aliases;
+    }
+    if ($seen{$group->{name}}) {
+	warn "line $count: duplicate group '$group->{name}' found\n";
+    }
+    else {
+	$seen{$group->{name}} = 1;
+	$groups{$group->{name}} = $group;
+    }
 }
-close IN;
-close OUT;
+
+for my $group_name (sort keys %aliases) {
+    my $group = $groups{$group_name};
+
+    for my $alias (@{$aliases{$group_name}}) {
+	if ($groups{$alias}) {
+	    warn "group $group->{name}: invalid alias '$alias', group exists\n";
+	}
+	elsif ($seen_aliases{$alias}) {
+	    warn "group $group->{name}: invalid alias '$alias', alias already taken\n";
+	}
+	else {
+	    $seen_aliases{$alias} = 1;
+	    $group->{aliases} .= "ServerAlias " . $alias . ".pm.org\n";
+	}
+    }
+}
+
+for my $group_name (sort keys %groups) {
+    my $group = $groups{$group_name};
+    my $directives = my $aliases = "";
+    my $virtual_host = 
+	"<VirtualHost $ip>\n" .
+	"ServerName $group->{name}.pm.org\n";
+
+    if ($group->{url}) { # redirect
+	$virtual_host .= "RedirectPermanent / $group->{url}\n";
+    }
+    else {
+	$virtual_host .= 
+	    $group->{aliases} .
+	    "ServerAdmin webmaster\@" . $group->{name} . ".pm.org\n" . 
+	    "DocumentRoot /pm.org/" . $group->{name} .  "\n" . 
+	    "ScriptAlias /cgi-bin/ /pm.org/" . $group->{name} .  "/cgi-bin/\n" . 
+	    $group->{directives};
+    }
+
+    $virtual_host .= "</VirtualHost>\n\n";
+
+    print $out_fh $virtual_host;
+}
+
+close $out_fh;
 
