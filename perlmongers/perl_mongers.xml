@@ -907,7 +907,7 @@
 		<date type="inception">19990503</date>
 	</group>
 	
-	<group id="35" status="leb">
+	<group id="35" status="active">
 		<name>GrandRapids.pm</name>
 		<location>
 			<city>Grand Rapids</city>
@@ -920,8 +920,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Matt Heusser</name>
-			<email type="personal">mattandap@allegan.net</email>
+			<name>William Day</name>
+			<email type="personal">WilliamDay@email.com</email>
 		</tsar>
 		<web>http://grand-rapids.pm.org/</web>
 		<mailing_list>
@@ -3263,7 +3263,7 @@
 		<date type="inception">19990515</date>
 	</group>
 	
-	<group id="126">
+	<group id="126" status="active">
 		<name>Edinburgh.pm</name>
 		<location>
 			<city>Edinburgh</city>
@@ -4127,7 +4127,7 @@
 		<date type="inception">19990515</date>
 	</group>
 	
-	<group id="159">
+	<group id="159" status="active">
 		<name>Vienna.pm</name>
 		<location>
 			<city>Vienna</city>
@@ -4140,16 +4140,16 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Roland Bauer</name>
-			<email type="personal">roland.bauer@fff.at</email>
+			<name>Marcel Gr&uuml;nauer</name>
+			<email type="personal">marcel@cpan.org</email>
 		</tsar>
 		<web>http://www.fff.at/fff/vienna.pm/</web>
 		<mailing_list>
-			<name>General Vienna.pm discussion</name>
-			<email type="list">vienna-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe vienna-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe vienna-pm-list email_address</unsubscribe>
+                    <name>General Vienna.pm discussion</name>
+                    <email type="list">vienna-pm-list@pm.org</email>
+                    <email type="list_admin">list-owner@vienna.pm.org</email>
+                    <subscribe>list-subscribe@vienna.pm.org</subscribe>
+                    <unsubscribe>list-unsubscribe@vienna.pm.org</unsubscribe>
 		</mailing_list>
 		<date type="inception">19990311</date>
 	</group>
@@ -7192,8 +7192,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Aaron Morand</name>
-			<email type="personal">aaron@morand.ca</email>
+			<name>Barclay McInnes</name>
+			<email type="personal">barc@netdud.com</email>
 		</tsar>
 		<web></web>
 		<mailing_list>
@@ -8748,7 +8748,7 @@
 		<date type="inception">20010125</date>
 	</group>
 
-	<group id="343">
+	<group id="343" status="active">
 		<name>aarschot.pm</name>
 		<location>
 			<city>Aarschot</city>
@@ -10260,7 +10260,7 @@
 		<date type="inception">20010508</date>
 	</group>
 
-	<group id="400">
+	<group id="400" status="dead">
 		<name>Kingsport.pm</name>
 		<location>
 			<city>Kingsport</city>
@@ -10274,7 +10274,7 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Steve Lane</name>
-			<email type="personal">sml@zfx.com</email>
+			<email type="personal">sml@usually.com</email>
 		</tsar>
 		<web>http://kingsport.pm.org</web>
 		<mailing_list>
@@ -10692,7 +10692,7 @@
 		<date type="inception">20010720</date>
 	</group>
 
-	<group id="416">
+	<group id="416" status="active">
 		<name>Berliner.pm</name>
 		<location>
 			<city>Berlin</city>
@@ -10719,7 +10719,7 @@
 		<date type="inception">20010720</date>
 	</group>
 
-	<group id="417">
+	<group id="417" status="active">
 		<name>Tulsa.pm</name>
 		<location>
 			<city>Tulsa</city>
@@ -11016,7 +11016,7 @@
 		<date type="inception">20010809</date>
 	</group>
 
-	<group id="428">
+	<group id="428" status="active">
 		<name>WestTexas.pm</name>
 		<location>
 			<city>Abilene</city>
@@ -13068,7 +13068,7 @@
 		<date type="inception">20020514</date>
 	</group>
 
-	<group id="25" status="leb">
+	<group id="25" status="active">
 		<name>NEPenn.pm</name>
 		<location>
 			<city>Tobyhanna</city>
