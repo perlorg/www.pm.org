@@ -30,7 +30,7 @@ my $parms;
 
 my $rule = File::Find::Rule->new;
 $rule->or(
-  $rule->new->directory->name('CVS')->prune->discard,
+  $rule->new->directory->name('.svn')->prune->discard,
   $rule->new
 );
 my @files = $rule->file()->name(qr/^.[^~]+$/)->in($source);
