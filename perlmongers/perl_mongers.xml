@@ -370,8 +370,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Mike Barry</name>
-			<email type="personal">baltimorepm-owner@yahoogroups.com</email>
+			<name>David Waldo</name>
+			<email type="personal">waldo@cos.com</email>
 		</tsar>
 		<web>http://baltimore.pm.org/</web>
 		<mailing_list>
@@ -2807,8 +2807,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Harvey Kaduri</name>
-			<email type="personal">PerlMonger@canada.com</email>
+			<name>Indy Singh</name>
+			<email type="personal">admin@to.pm.org</email>
 		</tsar>
 		<web>http://to.pm.org/</web>
 		<mailing_list>
@@ -3158,16 +3158,16 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Magnus Huckvale</name>
-			<email type="personal">magnus@huckvale.net</email>
+			<name>Dave Hodgkinson</name>
+			<email type="personal">daveh@davehodgkinson.com</email>
 		</tsar>
 		<web>http://bath.pm.org/</web>
 		<mailing_list>
 			<name>General Bath.pm discussion</name>
-			<email type="list">bath-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe bath-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe bath-pm-list email_address</unsubscribe>
+			<email type="list">bath-pm@pm.org</email>
+			<email type="list_admin">bath-pm-admin@pm.org</email>
+			<subscribe>subscribe bath-pm email_address</subscribe>
+			<unsubscribe>unsubscribe bath-pm- email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">19990101</date>
 	</group>
