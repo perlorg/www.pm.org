@@ -16180,4 +16180,31 @@
                 </mailing_list>
          </group>
 
+        <group id="652" status="active">
+                <name>Aarau.pm</name>
+                <location>
+                        <city>Aarau</city>
+                        <state>Aargau</state>
+                        <region></region>
+                        <country>Switzerland</country>
+                        <continent>Europe</continent>
+                        <longitude></longitude>
+                        <latitude></latitude>
+                </location>
+                <email type="group"></email>
+                <tsar>
+                        <name>Urs Stotz</name>
+                        <email type="personal">stotz@gmx.ch</email>
+                </tsar>
+                <web>http://aarau.pm.org/</web>
+                <mailing-list>
+                        <name>General Aarau Perl Mongers discussion</name>
+                        <email type="list">aarau-pm@pm.org</email>
+                        <email type="list_admin">stotz@gmx.ch</email>
+                        <subscribe>subscribe members email_address</subscribe>
+                        <unsubscribe>unsubscribe members email_address</unsubscribe>
+                </mailing-list>
+                <date type="inception">20041111</date>
+        </group>
+
 </perl_mongers>
