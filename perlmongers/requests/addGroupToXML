@@ -2,6 +2,8 @@
 
 use strict;
 
+my $files_dir = '/pm.org/www/XML';
+
 my %a;
 my $var;
 my $old;
@@ -12,10 +14,10 @@ $date = `date +%Y%m%d`;
 chomp $date;
 
 die "perl_mongers.xml.new already exists"
-  if (-f "perl_mongers.xml.new");
+  if (-f "$files_dir/perl_mongers.xml.new");
 
-open (XML, ">perl_mongers.xml.new") || die;
-open OLDXML, "/pm.org/www/XML/perl_mongers.xml" || die;
+open (XML, ">$files_dir/perl_mongers.xml.new") || die;
+open OLDXML, "$files_dir/perl_mongers.xml" || die;
 
 do
 {
