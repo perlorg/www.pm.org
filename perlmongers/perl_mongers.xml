@@ -1139,7 +1139,7 @@
 		<date type="inception">19981124</date>
 	</group>
 	
-	<group id="40">
+	<group id="40" status="active">
 		<name>HudsonValley.pm</name>
 		<location>
 			<city>Middletown</city>
