@@ -5,7 +5,9 @@ The following groups are in [% continent %]:
 
 [% FOREACH country = groups.keys.sort %]
 <h2>[% country %]</h2>
+<ul>
 [% FOREACH group = groups.$country %]
-<a href="[% group.id %].html">[% group.name %]</a><br>
+<li><a href="[% group.id %].html">[% group.name %]</a><br>
 [% END %]
+</ul>
 [% END %]
