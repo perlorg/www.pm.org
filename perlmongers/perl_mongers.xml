@@ -1,6 +1,15 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN" 
-	"http://www.pm.org/XML/perl_mongers.dtd">
+	"http://www.pm.org/XML/perl_mongers.dtd"
+[
+<!ENTITY agrave '&#224;' >
+<!ENTITY aacute	'&#225;' >
+<!ENTITY atilde	'&#227;' >
+<!ENTITY egrave '&#232;' >
+<!ENTITY eacute '&#233;' >
+<!ENTITY oacute '&#243;' >
+<!ENTITY uuml   '&#252;' >
+] >
 
 <!-- This file is maintained by user_groups@pm.org -->
 
@@ -2392,7 +2401,7 @@
 		<date type="inception">19990127</date>
 	</group>
 	
-	<group id="90">
+	<group id="90" status="active">
 		<name>SanFrancisco.pm</name>
 		<location>
 			<city>San Francisco</city>
@@ -8045,7 +8054,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="316">
+	<group id="316" status="active">
 		<name>Bloomington-Normal.pm</name>
 		<location>
 			<city>Bloomington-Normal</city>
@@ -8059,7 +8068,7 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Marc Weinmann</name>
-			<email type="personal">cluemein@hotmail.com</email>
+			<email type="personal">marc.weinmann.lwed@statefarm.com</email>
 		</tsar>
 		<web>http://bloomington-normal.pm.org/</web>
 		<mailing_list>
@@ -11964,9 +11973,9 @@
 	<group id="463" status="active">
 		<name>Devon and Cornwall.pm</name>
 		<location>
-			<city>Devon and Cornwall  </city>
+			<city></city>
 			<state></state>
-			<region></region>
+			<region>Devon &amp; Cornwall</region>
 			<country>United Kingdom</country>
 			<continent>Europe</continent>
 			<longitude></longitude>
@@ -12110,13 +12119,13 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Jerome Quelin</name>
-			<email type="personal">jquelin@wanadoo.fr</email>
+			<email type="personal">jquelin@mongeurs.net</email>
 		</tsar>
 		<web>http://lyon.pm.org</web>
 		<mailing_list>
 			<name>General Lyon Perl Mongers discussion</name>
 			<email type="list">lyon-pm.org</email>
-			<email type="list_admin">Jerome Quelin</email>
+			<email type="list_admin">jquelin@mongeurs.net</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
@@ -13636,7 +13645,7 @@
 			<city>Springfield</city>
 			<state>MO</state>
 			<region>Southwest Missouri</region>
-			<country>United States</country>
+			<country>United States of America</country>
 			<continent>North America</continent>
 			<longitude></longitude>
 			<latitude></latitude>
@@ -13785,6 +13794,60 @@
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020925</date>
+	</group>
+
+	<group id="542" status="active">
+		<name>Maine.pm</name>
+		<location>
+			<city>Portland</city>
+			<state>Maine</state>
+			<region>New England</region>
+			<country>United States</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Joe Minieri</name>
+			<email type="personal">jminieri@mindspring.com</email>
+		</tsar>
+		<web>http://Maine.pm.org/</web>
+		<mailing_list>
+			<name>General Portland Perl Mongers discussion</name>
+			<email type="list">Maine-pm@pm.org</email>
+			<email type="list_admin">jminieri@mindspring.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20020929</date>
+	</group>
+
+	<group id="543" status="active">
+		<name>Cologne.pm</name>
+		<location>
+			<city>Cologne</city>
+			<state>NRW</state>
+			<region>Rhineland</region>
+			<country>Germany</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Michael Lamertz</name>
+			<email type="personal">mike@perl-ronin.de</email>
+		</tsar>
+		<web>http://Cologne.pm.org/</web>
+		<mailing_list>
+			<name>General Cologne Perl Mongers discussion</name>
+			<email type="list">Cologne-pm@pm.org</email>
+			<email type="list_admin">mike@perl-ronin.de</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20020929</date>
 	</group>
 
 </perl_mongers>
