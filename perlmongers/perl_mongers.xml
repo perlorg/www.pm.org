@@ -1950,7 +1950,7 @@
 		<date type="inception">19980924</date>
 	</group>
 	
-	<group id="70">
+	<group id="70" status="active">
 		<name>OrangeCounty.pm</name>
 		<location>
 			<city>Orange County</city>
@@ -1968,7 +1968,7 @@
 		</tsar>
 		<web></web>
 		<mailing_list>
-			<name>General OrangeCounty.pm discussion</name>
+			<name></name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
 			<subscribe></subscribe>
@@ -12142,33 +12142,6 @@
 		<date type="inception">20020205</date>
 	</group>
 
-	<group id="472" status="active">
-		<name>Orange County.pm</name>
-		<location>
-			<city>Foothill Ranch</city>
-			<state>California</state>
-			<region></region>
-			<country>United States of America</country>
-			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Garr Updegraff</name>
-			<email type="personal">garru@uci.edu</email>
-		</tsar>
-		<web>http://oc.pm.org/</web>
-		<mailing_list>
-			<name>General Orange County Perl Mongers discussion</name>
-			<email type="list">oc-pm@pm.org</email>
-			<email type="list_admin">ryan@web.oakley.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
-		<date type="inception">20020206</date>
-	</group>
-
 	<group id="473">
 		<name>Cairo.pm</name>
 		<location>
@@ -14562,37 +14535,6 @@
 		</mailing-list>
 		<date type="inception">20030425</date>
 	</group>
-
-	<group id="573" status="active">
-		<name>Central Coast.pm</name>
-		<location>
-			<city>Central Coast</city>
-			<state>New South Wales</state>
-			<region></region>
-			<country>Australia</country>
-			<continent>Oceana</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Stewart Heckenberg</name>
-			<email type="personal">leaderEmail=whazaaaaahp@hotmail.com</email>
-		</tsar>
-		<web>http://central-coast.pm.org/</web>
-		<mailing-list>
-			<name>General Central Coast Perl Mongers discussion</name>
-			<email type="list">central-coast-pm@pm.org</email>
-			<email type="list_admin">leaderEmail=whazaaaaahp@hotmail.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing-list>
-		<date type="inception">20030425</date>
-	</group>
-
-<!-- next free group id is 579 -->
-<!-- please don't insert duplicate group ids, wayne ;-) -->
-
 
 	<group id="579" status="active">
 		<name>Recife.pm</name>
