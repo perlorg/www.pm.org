@@ -59,7 +59,30 @@ if ($q->param("password1") eq $q->param("password2"))
 	close FILEHANDLE;
 }
 print $q->header(),$q->start_html();
+open_a_ticket($id);
 print ("Request has been mailed to a human, volunteer, sys admin, If your request is not handled in 48 hours, please email root\@pm.org<BR>\n");
-print
-$q->end_html();
+print $q->end_html();
 }
+
+sub open_a_ticket {
+   my ($id) = @_;
+   open (SM, "| /usr/sbin/sendmail -t");
+   print SM <<EOT;
+To: support\@pm.org
+Subject: New group request: $id
+
+Someone has just used the verify_action script to verify this request:
+
+   /data/requests/verified/$id
+
+Please work that ticket. If this program was smarter, it would have set
+the ticket Subject to the group name that was requested. It's not. (Yet?)
+
+$0 
+EOT
+   print SM '$Id$';
+   print SM "\n";
+   close SM;
+}
+
+
