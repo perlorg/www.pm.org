@@ -15569,4 +15569,409 @@
 		</mailing-list>
 		<date type="inception">20030817</date>
 	</group>
-</perl_mongers>
+
+	<group id="604" status="active">
+		<name>Valladolid.pm</name>
+		<location>
+			<city>Valladolid</city>
+			<state> </state>
+			<region>Castilla y Leon</region>
+			<country>Spain</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Joaquin Ferrero</name>
+			<email type="personal">explorer@joaquinferrero.com</email>
+		</tsar>
+		<web>http://valladolid.pm.org/</web>
+		<mailing-list>
+			<name>General Valladolid Perl Mongers discussion</name>
+			<email type="list">valladolid-pm@pm.org</email>
+			<email type="list_admin">explorer@joaquinferrero.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031108</date>
+	</group>
+
+	<group id="605" status="active">
+		<name>Kamloops.pm</name>
+		<location>
+			<city>Kamloops</city>
+			<state>British Columbia</state>
+			<region>Interior</region>
+			<country>Canada</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Brad Embree</name>
+			<email type="personal">bke@bkecc.com</email>
+		</tsar>
+		<web>http://kamloops.pm.org/</web>
+		<mailing-list>
+			<name>General Kamloops Perl Mongers discussion</name>
+			<email type="list">kamloops-pm@pm.org</email>
+			<email type="list_admin">bke@bkecc.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031108</date>
+	</group>
+
+	<group id="606" status="active">
+		<name>Pakistan.pm</name>
+		<location>
+			<city>Multan</city>
+			<state>Punjab</state>
+			<region></region>
+			<country>Pakistan</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Imran Hussain</name>
+			<email type="personal">imran@pak.fw.nu</email>
+		</tsar>
+		<web>http://pakistan.pm.org/</web>
+		<mailing-list>
+			<name>General Pakistan Perl Mongers discussion</name>
+			<email type="list">pakistan-pm@pm.org</email>
+			<email type="list_admin">imran@pak.fw.nu</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031108</date>
+	</group>
+
+	<group id="607" status="active">
+		<name>Charlotte.pm</name>
+		<location>
+			<city>Charlotte</city>
+			<state>North Carolina</state>
+			<region></region>
+			<country>United States</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Thomas Mshar</name>
+			<email type="personal">tmshar@axomtechnology.com</email>
+		</tsar>
+		<web>http://charlotte.pm.org/</web>
+		<mailing-list>
+			<name>General Charlotte Perl Mongers discussion</name>
+			<email type="list">charlotte-pm@pm.org</email>
+			<email type="list_admin">tmshar@axomtechnology.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031108</date>
+	</group>
+
+	<group id="608" status="active">
+		<name>tutorial.pm.org.pm</name>
+		<location>
+			<city>tutorial.pm.org</city>
+			<state>m.p.</state>
+			<region>asia</region>
+			<country>India</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>parag katare</name>
+			<email type="personal">paragkatare@indiatimes.com</email>
+		</tsar>
+		<web>http://tutorial.pm.org.pm.org/</web>
+		<mailing-list>
+			<name>General tutorial.pm.org Perl Mongers discussion</name>
+			<email type="list">tutorial.pm.org-pm@pm.org</email>
+			<email type="list_admin">paragkatare@indiatimes.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031108</date>
+	</group>
+
+	<group id="609" status="active">
+		<name>austria.marchfeld.pm</name>
+		<location>
+			<city>austria.marchfeld</city>
+			<state>Marchfeld</state>
+			<region>Niederösterreich</region>
+			<country>Austria</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Gernot Havranek</name>
+			<email type="personal">gernot@havranek.at</email>
+		</tsar>
+		<web>http://austria.marchfeld.pm.org/</web>
+		<mailing-list>
+			<name>General austria.marchfeld Perl Mongers discussion</name>
+			<email type="list">austria.marchfeld-pm@pm.org</email>
+			<email type="list_admin">gernot@havranek.at</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031108</date>
+	</group>
+
+	<group id="610" status="active">
+		<name>JERL.pm</name>
+		<location>
+			<city>JERL</city>
+			<state>Sind</state>
+			<region>Sharah e Faisal</region>
+			<country>Pakistan</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Ahmed Shaikh Memon</name>
+			<email type="personal">ahmedshaihkm@yahoo.com</email>
+		</tsar>
+		<web>http://jerl.pm.org/</web>
+		<mailing-list>
+			<name>General JERL Perl Mongers discussion</name>
+			<email type="list">jerl-pm@pm.org</email>
+			<email type="list_admin">ahmedshaihkm@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031108</date>
+	</group>
+
+	<group id="611" status="active">
+		<name>rubbercity.pm</name>
+		<location>
+			<city>rubbercity</city>
+			<state>Ohio</state>
+			<region></region>
+			<country>United States</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Mark Smith</name>
+			<email type="personal">markymoon@mac.com</email>
+		</tsar>
+		<web>http://rubbercity.pm.org/</web>
+		<mailing-list>
+			<name>General rubbercity Perl Mongers discussion</name>
+			<email type="list">rubbercity-pm@pm.org</email>
+			<email type="list_admin">markymoon@mac.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031108</date>
+	</group>
+
+	<group id="612" status="active">
+		<name>Aalesund.pm</name>
+		<location>
+			<city>Aalesund</city>
+			<state>Ålesund</state>
+			<region>Møre & Romsdal</region>
+			<country>Norway</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Kent Inge Klokk</name>
+			<email type="personal">kent@laget.kicks-ass.net</email>
+		</tsar>
+		<web>http://aalesund.pm.org/</web>
+		<mailing-list>
+			<name>General Aalesund Perl Mongers discussion</name>
+			<email type="list">aalesund-pm@pm.org</email>
+			<email type="list_admin">kent@laget.kicks-ass.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031108</date>
+	</group>
+
+	<group id="613" status="active">
+		<name>Bielefeld.pm</name>
+		<location>
+			<city>Bielefeld</city>
+			<state>Ostwestfalen-Lippe</state>
+			<region>Nordrhein-Westfalen</region>
+			<country>Germany</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Christian Dühl</name>
+			<email type="personal">christian@duehl.de</email>
+		</tsar>
+		<web>http://bielefeld.pm.org/</web>
+		<mailing-list>
+			<name>General Bielefeld Perl Mongers discussion</name>
+			<email type="list">bielefeld-pm@pm.org</email>
+			<email type="list_admin">christian@duehl.de</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031108</date>
+	</group>
+
+	<group id="614" status="active">
+		<name>Cedar Valley Perl Mongers.pm</name>
+		<location>
+			<city>Cedar Valley Perl Mongers</city>
+			<state>Iowa</state>
+			<region>Cedar Valley</region>
+			<country>United States</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Stephen D. Wells</name>
+			<email type="personal">wells@cedarnet.org</email>
+		</tsar>
+		<web>http://cedarvalleyperlmongers.pm.org/</web>
+		<mailing-list>
+			<name>General Cedar Valley Perl Mongers Perl Mongers discussion</name>
+			<email type="list">cedarvalleyperlmongers-pm@pm.org</email>
+			<email type="list_admin">wells@cedarnet.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031108</date>
+	</group>
+
+	<group id="615" status="active">
+		<name>aalborg.pm</name>
+		<location>
+			<city>aalborg</city>
+			<state>N/A</state>
+			<region>Northern Jutland</region>
+			<country>Denmark</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Thomas Ledet</name>
+			<email type="personal">thomas@starnix.dk</email>
+		</tsar>
+		<web>http://aalborg.pm.org/</web>
+		<mailing-list>
+			<name>General aalborg Perl Mongers discussion</name>
+			<email type="list">aalborg-pm@pm.org</email>
+			<email type="list_admin">thomas@starnix.dk</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031108</date>
+	</group>
+
+	<group id="616" status="active">
+		<name>plovdiv.pm</name>
+		<location>
+			<city>plovdiv</city>
+			<state>Plovdiv</state>
+			<region>Europe</region>
+			<country>Bulgaria</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Jordan Radunchev</name>
+			<email type="personal">radunchev@abv.bg</email>
+		</tsar>
+		<web>http://plovdiv.pm.org/</web>
+		<mailing-list>
+			<name>General plovdiv Perl Mongers discussion</name>
+			<email type="list">plovdiv-pm@pm.org</email>
+			<email type="list_admin">radunchev@abv.bg</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031108</date>
+	</group>
+
+	<group id="617" status="active">
+		<name>Tempe/East Valley Perlmongers.pm</name>
+		<location>
+			<city>Tempe/East Valley Perlmongers</city>
+			<state>Arizona</state>
+			<region>East Valley, Arizona</region>
+			<country>United States</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Anthony R. Nemmer</name>
+			<email type="personal">intertwingled@qwest.net</email>
+		</tsar>
+		<web>http://tempe/eastvalleyperlmongers.pm.org/</web>
+		<mailing-list>
+			<name>General Tempe/East Valley Perlmongers Perl Mongers discussion</name>
+			<email type="list">tempe/eastvalleyperlmongers-pm@pm.org</email>
+			<email type="list_admin">intertwingled@qwest.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031108</date>
+	</group>
+
+	<group id="618" status="active">
+		<name>kampala.pm</name>
+		<location>
+			<city>kampala</city>
+			<state>Uganda</state>
+			<region>Africa</region>
+			<country>Uganda</country>
+			<continent>Africa</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Franc Emoru</name>
+			<email type="personal">francemoru@hotmail.com</email>
+		</tsar>
+		<web>http://kampala.pm.org/</web>
+		<mailing-list>
+			<name>General kampala Perl Mongers discussion</name>
+			<email type="list">kampala-pm@pm.org</email>
+			<email type="list_admin">francemoru@hotmail.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031108</date>
+	</group>
+</perl-mongers>
