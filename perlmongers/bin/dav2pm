@@ -1,0 +1,47 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use HTTP::DAV;
+use FindBin '$Bin';
+use Getopt::Std;
+use Term::ReadKey;
+use File::Find;
+
+my %opt;
+getopts('u:p:s:', \%opt);
+
+unless ($opt{u}) {
+  print 'username: ';
+  chomp($opt{u} = <STDIN>);
+}
+unless ($opt{p}) {
+  print 'password: ';
+  ReadMode 'noecho';
+  chomp($opt{p} = <STDIN>);
+  ReadMode 'normal';
+  print "\n";
+}
+
+my $start = $opt{s} || "$Bin/../www/";
+$start .= '/' unless $start =~ m|/$|;
+
+my $root = 'https://groups.pm.org/groups/www';
+
+my $dav = HTTP::DAV->new;
+
+$dav->credentials($opt{u}, $opt{p}, $root);
+
+$dav->open($root) or die "Unable to open $root: '" . $dav->message . "'\n";
+
+find(\&do_this, $start);
+
+sub do_this {
+  return unless -f;
+  my $file =  $File::Find::name;
+  $file =~ s|^$start||;
+  print "$file -> $root/$file\n";
+  $dav->put($_, "$root/$file")
+    or die "Unable to put $root/$file: '" . $dav->message . "'\n";
+}
