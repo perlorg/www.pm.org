@@ -8,7 +8,7 @@ use XML::Simple;
 
 $| = 1;
 
-my $xml = XMLin('./perl_mongers.xml', cache => 'storable');
+my $xml = XMLin('./perl_mongers.xml', cache => 'storable', suppressempty => 1);
 $xml = $xml->{group};
 
 my $tt = Template->new({
@@ -20,40 +20,81 @@ my $tt = Template->new({
   PROCESS => 'layout',
 });
 
-# Array containing all the group names
-my @groups;
+# Array containing all the group names order by continent
+my %groups;
 mkdir "html/groups/graphics";
 
 foreach my $name (keys %$xml) {
   my $group = $xml->{$name};
-  my $continent = $group->{location}->{continent};
   my $id = $group->{id};
+  my $status = $group->{status} || 'deactive';
+  print "$status\n";
 #  print $continent, "\n";
 #  print "$name\n" if ref($continent);
   die "$name has no id\n" unless defined $id;
-  next unless $id eq '0';
+  if ($name eq 'MarsNeedsWomen.pm' ||
+      $name eq 'Nomads.pm' ||
+      $name eq 'PerlMonks.pm'
+     ) {
+    $group->{location}->{continent} = 'Non-geographical';
+    $group->{location}->{country} = 'Non-geographical';
+  }
+  if ($name eq 'EU.pm') {
+    $group->{location}->{country} = 'Non-geographical';
+  }
+
+  die "$name has no continent\n" unless $group->{location}->{continent};
+  die "$name has no country\n" unless $group->{location}->{country};
+#  next unless $id eq '0';
   $group->{name} = $name;
   $group->{location}->{all} = join ", ", 
     grep { defined }
     map { $group->{location}->{$_} }
  qw(city region state country continent);
 
-  unless (-f "html/groups/$id.png") {
+  if (!-f "html/groups/graphics/$id.png"
+      && $group->{location}->{longitude}
+      && $group->{location}->{latitude}) {
     my $map = Image::WorldMap->new("titchy.png");
     $map->add($group->{location}->{longitude}, $group->{location}->{latitude});
     $map->draw("foo.png");
-    system("pngtopnm foo.png | ppmquant 64 | pnmtopng -compression 9 > html/groups/graphics/$id.png");
+    system("pngtopnm foo.png | ppmquant 128 | pnmtopng -compression 9 > html/groups/graphics/$id.png");
+    $group->{image} = "graphics/$id.png";
   }
-  $group->{image} = "graphics/$id.png";
 
-  $tt->process('src/groups/group.html', $group, "html/groups/$id.html")
-    || die $tt->error();
+  my $continent = $group->{location}->{continent};
+  my $country = $group->{location}->{country};
+  push @{$groups{$continent}->{$country}}, $group;
 
+  if (!-f "html/groups/$id.html") {
+    $tt->process('src/groups/group.html', $group, "html/groups/$id.html")
+      || die $tt->error();
+  }
 }
 
 copy("./perl_mongers.xml", "html/groups/perl_mongers.xml");
 copy("./perl_mongers.dtd", "html/groups/perl_mongers.dtd");
 
+#use YAML; die Dump(\%groups);
+foreach my $continent (sort keys %groups) {
+  my $file = lc $continent;
+  $file =~ s/\W/_/g;
+  $file = "html/groups/$file.html";
+  warn "$continent -> $file\n";
+  my $groups;
+  foreach my $country (sort keys %{$groups{$continent}}) {
+    warn "  $country\n";
+    $groups->{$country} = [sort { lc $a->{name} cmp lc $b->{name} } @{$groups{$continent}->{$country}}];
+  }
+  my $conf = {
+    groups => $groups,
+    continent => $continent,
+  };
+  $tt->process('src/groups/continent.html', $conf, $file)
+    || die $tt->error();
+#use YAML; die Dump($groups);
+#use Data::Dumper; die Dumper($groups);
+}
 
 __END__
 =head1 NAME

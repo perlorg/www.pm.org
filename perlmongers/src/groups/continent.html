@@ -1,0 +1,11 @@
+[% META title = "Perl Mongers: Continent" %]
+
+The following groups are in [% continent %]:
+<p>
+
+[% FOREACH country = groups.keys.sort %]
+<h2>[% country %]</h2>
+[% FOREACH group = groups.$country %]
+<a href="[% group.id %].html">[% group.name %]</a><br>
+[% END %]
+[% END %]

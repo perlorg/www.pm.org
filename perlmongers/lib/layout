@@ -48,12 +48,13 @@
 [% INCLUDE sideheader
   major = {"User groups" => "/groups/index.html"}
   minor = {
-    "North America" => "",
-    "South America" => "",
-    "Europe" => "",
-    "Oceania" => "",
-    "Asia" => "",
-    "Africa" => "",
+    "North America" => "/groups/north_america.html",
+    "South America" => "/groups/south_america.html",
+    "Europe" => "/groups/europe.html",
+    "Non-geographical" => "/groups/non_geographical.html",
+    "Oceania" => "/groups/oceania.html",
+    "Asia" => "/groups/asia.html",
+    "Africa" => "/groups/africa.html",
   }
 %]
 
