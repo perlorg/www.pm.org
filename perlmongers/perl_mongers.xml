@@ -15407,4 +15407,301 @@
 		</mailing-list>
 		<date type="inception">20030705</date>
 	</group>
-</perl_mongers>
+
+	<group id="593" status="active">
+		<name>Orlando.pm</name>
+		<location>
+			<city>Orlando</city>
+			<state>Florida</state>
+			<region> </region>
+			<country>United States of America</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Scott Anderson</name>
+			<email type="personal">sand@anderfam.net</email>
+		</tsar>
+		<web>http://orlando.pm.org/</web>
+		<mailing-list>
+			<name>General Orlando Perl Mongers discussion</name>
+			<email type="list">orlando-pm@pm.org</email>
+			<email type="list_admin">sand@anderfam.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030817</date>
+	</group>
+
+	<group id="594" status="active">
+		<name>ClassicCity.pm</name>
+		<location>
+			<city>ClassicCity</city>
+			<state>Georgia</state>
+			<region> </region>
+			<country>United States of America</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Darrell Golliher</name>
+			<email type="personal">darrell@golliher.net</email>
+		</tsar>
+		<web>http://classiccity.pm.org/</web>
+		<mailing-list>
+			<name>General ClassicCity Perl Mongers discussion</name>
+			<email type="list">classiccity-pm@pm.org</email>
+			<email type="list_admin">darrell@golliher.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030817</date>
+	</group>
+
+	<group id="595" status="active">
+		<name>Vancouver.pm</name>
+		<location>
+			<city>Vancouver</city>
+			<state>British Columbia</state>
+			<region></region>
+			<country>Canada</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Helen Cook</name>
+			<email type="personal">hvc@cpan.org</email>
+		</tsar>
+		<web>http://vancouver.pm.org/</web>
+		<mailing-list>
+			<name>General Vancouver Perl Mongers discussion</name>
+			<email type="list">vancouver-pm@pm.org</email>
+			<email type="list_admin">hvc@cpan.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030817</date>
+	</group>
+
+	<group id="596" status="active">
+		<name>Northfield.pm</name>
+		<location>
+			<city>Northfield</city>
+			<state>Minnesota</state>
+			<region></region>
+			<country>United States of America</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Troy Will</name>
+			<email type="personal">troy@troywill.com</email>
+		</tsar>
+		<web>http://northfield.pm.org/</web>
+		<mailing-list>
+			<name>General Northfield Perl Mongers discussion</name>
+			<email type="list">northfield-pm@pm.org</email>
+			<email type="list_admin">troy@troywill.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030817</date>
+	</group>
+
+	<group id="597" status="active">
+		<name>Samara.pm</name>
+		<location>
+			<city>Samara</city>
+			<state></state>
+			<region></region>
+			<country>Russian Federation</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Greg Belenky</name>
+			<email type="personal">greg@webzavod.ru</email>
+		</tsar>
+		<web>http://samara.pm.org/</web>
+		<mailing-list>
+			<name>General Samara Perl Mongers discussion</name>
+			<email type="list">samara-pm@pm.org</email>
+			<email type="list_admin">greg@webzavod.ru</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030817</date>
+	</group>
+
+	<group id="598" status="active">
+		<name>SantoDomingo.pm</name>
+		<location>
+			<city>SantoDomingo</city>
+			<state>Santo Domingo</state>
+			<region></region>
+			<country>Dominican Republic</country>
+			<continent>South America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Rafael George</name>
+			<email type="personal">rgeorge@linux.org.do</email>
+		</tsar>
+		<web>http://santodomingo.pm.org/</web>
+		<mailing-list>
+			<name>General SantoDomingo Perl Mongers discussion</name>
+			<email type="list">santodomingo-pm@pm.org</email>
+			<email type="list_admin">rgeorge@linux.org.do</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030817</date>
+	</group>
+
+	<group id="599" status="active">
+		<name>Perl Monger Jakarta.pm</name>
+		<location>
+			<city> </city>
+			<state> </state>
+			<region> </region>
+			<country>Indonesia</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Christian Maxnamara</name>
+			<email type="personal">maxnamara@yahoo.com</email>
+		</tsar>
+		<web>http://perlmongerjakarta.pm.org/</web>
+		<mailing-list>
+			<name>General Perl Monger Jakarta Perl Mongers discussion</name>
+			<email type="list">perlmongerjakarta-pm@pm.org</email>
+			<email type="list_admin">maxnamara@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030817</date>
+	</group>
+
+	<group id="600" status="active">
+		<name>Roederbergweg.pm</name>
+		<location>
+			<city>Roederbergweg</city>
+			<state> </state>
+			<region> </region>
+			<country>Germany</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Sören Michael Laird Sörries</name>
+			<email type="personal">info@perlmongers.de</email>
+		</tsar>
+		<web>http://roederbergweg.pm.org/</web>
+		<mailing-list>
+			<name>General Roederbergweg Perl Mongers discussion</name>
+			<email type="list">roederbergweg-pm@pm.org</email>
+			<email type="list_admin">info@perlmongers.de</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030817</date>
+	</group>
+
+	<group id="601" status="active">
+		<name>Mexico.pm</name>
+		<location>
+			<city>Mexico</city>
+			<state> </state>
+			<region>Mexico</region>
+			<country>Mexico</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Alejandro Alvarez</name>
+			<email type="personal">mejjico@hotmail.com</email>
+		</tsar>
+		<web>http://mexico.pm.org/</web>
+		<mailing-list>
+			<name>General Mexico Perl Mongers discussion</name>
+			<email type="list">mexico-pm@pm.org</email>
+			<email type="list_admin">mejjico@hotmail.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030817</date>
+	</group>
+
+	<group id="602" status="active">
+		<name>Korean Perl User Group.pm</name>
+		<location>
+			<city> </city>
+			<state></state>
+			<region></region>
+			<country>Korea, Republic of</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Byeong-Chul Kang</name>
+			<email type="personal">bckang@pusan.ac.kr</email>
+		</tsar>
+		<web>http://korea.pm.org.pm.org/</web>
+		<mailing-list>
+			<name>General Korean Perl User Group Perl Mongers discussion</name>
+			<email type="list">korea.pm.org-pm@pm.org</email>
+			<email type="list_admin">bckang@pusan.ac.kr</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030817</date>
+	</group>
+
+	<group id="603" status="active">
+		<name>may.pm</name>
+		<location>
+			<city>may</city>
+			<state> </state>
+			<region></region>
+			<country>Ireland</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Vishal Vatsa</name>
+			<email type="personal">vishal.vatsa@may.ie</email>
+		</tsar>
+		<web>http://may.pm.org/</web>
+		<mailing-list>
+			<name>General may Perl Mongers discussion</name>
+			<email type="list">may-pm@pm.org</email>
+			<email type="list_admin">vishal.vatsa@may.ie</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030817</date>
+	</group>
+</perl-mongers>
