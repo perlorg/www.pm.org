@@ -213,7 +213,7 @@
 		<web>http://anchorage.pm.org/</web>
 		<mailing_list>
 			<name>General Anchorage.pm discussion</name>
-			<email type="list">anchorage-pm-list@pm.org</email>
+			<email type="list">anchorage-pm@pm.org</email>
 			<email type="list_admin">majordomo@pm.org</email>
 			<subscribe>subscribe anchorage-pm-list email_address</subscribe>
 			<unsubscribe>unsubscribe anchorage-pm-list email_address</unsubscribe>
@@ -294,7 +294,7 @@
 		<web>http://atlanta.pm.org/</web>
 		<mailing_list>
 			<name>General Atlanta.pm discussion</name>
-			<email type="list">atlanta-pm-list@pm.org</email>
+			<email type="list">atlanta-pm@pm.org</email>
 			<email type="list_admin">majordomo@pm.org</email>
 			<subscribe>subscribe atlanta-pm-list email_address</subscribe>
 			<unsubscribe>unsubscribe atlanta-pm-list email_address</unsubscribe>
@@ -5217,7 +5217,7 @@
 		<web>http://algarve.pm.org/</web>
 		<mailing_list>
 			<name>General Algarve.pm discussion</name>
-			<email type="list">algarve-pm-list@pm.org</email>
+			<email type="list">algarve-pm@pm.org</email>
 			<email type="list_admin">majordomo@pm.org</email>
 			<subscribe>subscribe algarve-pm-list</subscribe>
 			<unsubscribe>unsubscribe algarve-pm-list</unsubscribe>
@@ -7379,7 +7379,7 @@
 		<web></web>
 		<mailing_list>
 			<name>General Agra.pm discussion</name>
-			<email type="list">agra-pm-list@pm.org</email>
+			<email type="list">agra-pm@pm.org</email>
 			<email type="list_admin">majordomo@pm.org</email>
 			<subscribe>subscribe agra-pm-list email_address</subscribe>
 			<unsubscribe>unsubscribe agra-pm-list email_address</unsubscribe>
