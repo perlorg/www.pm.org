@@ -313,7 +313,7 @@
 		<date type="inception">19980828</date>
 	</group>
 	
-	<group id="12">
+	<group id="12" status="active">
 		<name>Boston.pm</name>
 		<location>
 			<city>Boston</city>
@@ -502,7 +502,7 @@
 		<date type="inception">19981124</date>
 	</group>
 	
-	<group id="19">
+	<group id="19" status="active">
 		<name>Chicago.pm</name>
 		<location>
 			<city>Chicago</city>
@@ -515,8 +515,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Jim Allenspach</name>
-			<email type="personal">jima@mcs.net</email>
+			<name>Steve Lembark</name>
+			<email type="personal">chicago-pm@topica.com</email>
 		</tsar>
 		<web>http://chicago.pm.org/</web>
 		<mailing_list>
@@ -1015,7 +1015,7 @@
 		<date type="inception">19990707</date>
 	</group>
 	
-	<group id="39">
+	<group id="39" status="active">
 		<name>Hartford.pm</name>
 		<location>
 			<city>Hartford</city>
@@ -2777,7 +2777,7 @@
 		<date type="inception">19980826</date>
 	</group>
 	
-	<group id="105">
+	<group id="105" status="active">
 		<name>Winnipeg.pm</name>
 		<location>
 			<city>Winnipeg</city>
@@ -2993,7 +2993,7 @@
 		<date type="inception">19990802</date>
 	</group>
 	
-	<group id="113">
+	<group id="113" status="active">
 		<name>Aarhus.pm</name>
 		<location>
 			<city>Aarhus</city>
@@ -3128,7 +3128,7 @@
 		<date type="inception">19990707</date>
 	</group>
 	
-	<group id="118">
+	<group id="118" status="active">
 		<name>Belfast.pm</name>
 		<location>
 			<city>Belfast</city>
@@ -6315,7 +6315,7 @@
 		<date type="inception">19991024</date>
 	</group>
 
-	<group id="243">
+	<group id="243" status="active">
 		<name>HamptonRoads.pm</name>
 		<location>
 			<city>Norfolk</city>
@@ -6936,7 +6936,7 @@
 		<date type="inception">20000227</date>
 	</group>
 
-	<group id="271">
+	<group id="271" status="active">
 		<name>Kansai.pm</name>
 		<location>
 			<city>Osaka</city>
@@ -7206,7 +7206,7 @@
 		<date type="inception">20000227</date>
 	</group>
 
-	<group id="283">
+	<group id="283" status="active">
 		<name>Granada.pm</name>
 		<location>
 			<city>Granada</city>
