@@ -16406,4 +16406,328 @@
 		</mailing-list>
 		<date type="inception">20040222</date>
 	</group>
-</perl_mongers>
+
+	<group id="638" status="active">
+		<name>Eindhoven.pm</name>
+		<location>
+			<city>Eindhoven</city>
+			<state></state>
+			<region></region>
+			<country>Netherlands</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Edwin Mons</name>
+			<email type="personal">perl_mongers@edwinm.ik.nu</email>
+		</tsar>
+		<web>http://eindhoven.pm.org/</web>
+		<mailing-list>
+			<name>General Eindhoven Perl Mongers discussion</name>
+			<email type="list">eindhoven-pm@pm.org</email>
+			<email type="list_admin">perl_mongers@edwinm.ik.nu</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040425</date>
+	</group>
+
+	<group id="639" status="active">
+		<name>Madrid.pm</name>
+		<location>
+			<city>Madrid</city>
+			<state> </state>
+			<region> </region>
+			<country>Spain</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Bruno Diaz</name>
+			<email type="personal">bruno.diaz@gmx.net</email>
+		</tsar>
+		<web>http://madrid.pm.org/</web>
+		<mailing-list>
+			<name>General Madrid Perl Mongers discussion</name>
+			<email type="list">madrid-pm@pm.org</email>
+			<email type="list_admin">bruno.diaz@gmx.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040425</date>
+	</group>
+
+	<group id="640" status="active">
+		<name>Peregrino.pm</name>
+		<location>
+			<city>Peregrino</city>
+			<state>Brasil</state>
+			<region>Nacional</region>
+			<country>Brazil</country>
+			<continent>South America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Marco Lima</name>
+			<email type="personal">marco.lima@e-via.com.br</email>
+		</tsar>
+		<web>http://peregrino.pm.org/</web>
+		<mailing-list>
+			<name>General Peregrino Perl Mongers discussion</name>
+			<email type="list">peregrino-pm@pm.org</email>
+			<email type="list_admin">marco.lima@e-via.com.br</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040425</date>
+	</group>
+
+	<group id="641" status="active">
+		<name>Dublin.pm</name>
+		<location>
+			<city>Dublin</city>
+			<state> </state>
+			<region> </region>
+			<country>Ireland</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Dave O Connor</name>
+			<email type="personal">doc@redbrick.dcu.ie</email>
+		</tsar>
+		<web>http://dublin.pm.org/</web>
+		<mailing-list>
+			<name>General Dublin Perl Mongers discussion</name>
+			<email type="list">dublin-pm@pm.org</email>
+			<email type="list_admin">doc@redbrick.dcu.ie</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040425</date>
+	</group>
+
+	<group id="642" status="active">
+		<name>turkperl.pm</name>
+		<location>
+			<city>turkperl</city>
+			<state></state>
+			<region></region>
+			<country>Turkey</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Maruf Cetin</name>
+			<email type="personal">maruf@bilisimokul.com</email>
+		</tsar>
+		<web>http://turkperl.pm.org/</web>
+		<mailing-list>
+			<name>General turkperl Perl Mongers discussion</name>
+			<email type="list">turkperl-pm@pm.org</email>
+			<email type="list_admin">maruf@bilisimokul.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040425</date>
+	</group>
+
+	<group id="643" status="active">
+		<name>Jerusalem.pm</name>
+		<location>
+			<city>Jerusalem</city>
+			<state></state>
+			<region> </region>
+			<country>Israel</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Issac Goldstand</name>
+			<email type="personal">isaac@cpan.org</email>
+		</tsar>
+		<web>http://jerusalem.pm.org/</web>
+		<mailing-list>
+			<name>General Jerusalem Perl Mongers discussion</name>
+			<email type="list">jerusalem-pm@pm.org</email>
+			<email type="list_admin">isaac@cpan.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040425</date>
+	</group>
+
+	<group id="644" status="active">
+		<name>Guia do Perl.pm</name>
+		<location>
+			<city>Guia do Perl</city>
+			<state>Espirito Santo</state>
+			<region>ES</region>
+			<country>Brazil</country>
+			<continent>South America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>João Gabriel</name>
+			<email type="personal">joaogabrielcas@ig.com.br</email>
+		</tsar>
+		<web>http://guiadoperl.pm.org/</web>
+		<mailing-list>
+			<name>General Guia do Perl Perl Mongers discussion</name>
+			<email type="list">guiadoperl-pm@pm.org</email>
+			<email type="list_admin">joaogabrielcas@ig.com.br</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040425</date>
+	</group>
+
+	<group id="645" status="active">
+		<name>cypriots.pm</name>
+		<location>
+			<city>cypriots</city>
+			<state>Cyprus</state>
+			<region> </region>
+			<country>Cyprus</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Mehmet Ali Suzen</name>
+			<email type="personal">mehmet@suzen.org</email>
+		</tsar>
+		<web>http://cypriots.pm.org/</web>
+		<mailing-list>
+			<name>General cypriots Perl Mongers discussion</name>
+			<email type="list">cypriots-pm@pm.org</email>
+			<email type="list_admin">mehmet@suzen.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040425</date>
+	</group>
+
+	<group id="646" status="active">
+		<name>Harrisburg.pm</name>
+		<location>
+			<city>Harrisburg</city>
+			<state>PA</state>
+			<region> </region>
+			<country>United States</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Eric Andreychek</name>
+			<email type="personal">hpm@openthought.net</email>
+		</tsar>
+		<web>http://harrisburg.pm.org/</web>
+		<mailing-list>
+			<name>General Harrisburg Perl Mongers discussion</name>
+			<email type="list">harrisburg-pm@pm.org</email>
+			<email type="list_admin">hpm@openthought.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040425</date>
+	</group>
+
+	<group id="647" status="active">
+		<name>NewOrleans.pm</name>
+		<location>
+			<city>NewOrleans</city>
+			<state>Louisiana</state>
+			<region></region>
+			<country>United States</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Dave Cash & Joey Kelley</name>
+			<email type="personal">neworleans.pm@fieldsofgarlic.com</email>
+		</tsar>
+		<web>http://neworleans.pm.org/</web>
+		<mailing-list>
+			<name>General NewOrleans Perl Mongers discussion</name>
+			<email type="list">neworleans-pm@pm.org</email>
+			<email type="list_admin">neworleans.pm@fieldsofgarlic.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040425</date>
+	</group>
+
+	<group id="648" status="active">
+		<name>Nanuque.pm</name>
+		<location>
+			<city>Nanuque</city>
+			<state>MG</state>
+			<region>Vale do Mucuri</region>
+			<country>Brazil</country>
+			<continent>South America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Alex Sandro</name>
+			<email type="personal">alex@fis.unb.br</email>
+		</tsar>
+		<web>http://nanuque.pm.org/</web>
+		<mailing-list>
+			<name>General Nanuque Perl Mongers discussion</name>
+			<email type="list">nanuque-pm@pm.org</email>
+			<email type="list_admin">alex@fis.unb.br</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040425</date>
+	</group>
+
+	<group id="649" status="active">
+		<name>ankara.pm</name>
+		<location>
+			<city>ankara</city>
+			<state>na</state>
+			<region></region>
+			<country>Turkey</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>faik sarialioglu</name>
+			<email type="personal">faik.sarialioglu@mynet.com</email>
+		</tsar>
+		<web>http://ankara.pm.org/</web>
+		<mailing-list>
+			<name>General ankara Perl Mongers discussion</name>
+			<email type="list">ankara-pm@pm.org</email>
+			<email type="list_admin">faik.sarialioglu@mynet.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040425</date>
+	</group>
+</perl-mongers>
