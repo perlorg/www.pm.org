@@ -1202,15 +1202,15 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-95.350</longitude>
-			<latitude>29.96</latitude>
+			<longitude>-95.23</longitude>
+			<latitude>29.45</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
 			<name>Charles Bentley</name>
 			<email type="personal">chuckb@LinuxTX.COM</email>
 		</tsar>
-		<web>http://houston.pm.org/</web>
+		<web>http://www.linuxtx.com/houstonpm/</web>
 		<mailing_list>
 			<name>General Houston.pm discussion</name>
 			<email type="list"></email>
@@ -4179,8 +4179,8 @@
 			<region></region>
 			<country>Austria</country>
 			<continent>Europe</continent>
-			<longitude>16.366</longitude>
-			<latitude>48.2</latitude>
+			<longitude>16.37</longitude>
+			<latitude>48.25</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -6211,7 +6211,7 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Mark Senn</name>
-			<email type="personal">mds@purdue.edu</email>
+			<email type="personal">mark@purdue.edu</email>
 		</tsar>
 		<web>http://purdue.pm.org/</web>
 		<mailing_list>
@@ -6876,7 +6876,7 @@
 	<group id="267" status="active">
 		<name>NewOrleans.pm</name>
 		<location>
-			<city>NewOrleans</city>
+			<city>New Orleans</city>
 			<state>Louisiana</state>
 			<region></region>
 			<country>United States of America</country>
@@ -6891,7 +6891,7 @@
 		</tsar>
 		<web>http://neworleans.pm.org/</web>
 		<mailing-list>
-			<name>General NewOrleans Perl Mongers discussion</name>
+			<name>General New Orleans Perl Mongers discussion</name>
 			<email type="list">neworleans-pm@pm.org</email>
 			<email type="list_admin">neworleans.pm@fieldsofgarlic.com</email>
 			<subscribe>subscribe members email_address</subscribe>
@@ -9428,7 +9428,7 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Stephen Judd</name>
+			<name>Grant McLean</name>
 			<email type="personal">perlmongers@web.co.nz</email>
 		</tsar>
 		<web>http://wellington.pm.org/</web>
@@ -11016,13 +11016,13 @@
 			<region></region>
 			<country>Italy</country>
 			<continent>Europe</continent>
-                        <longitude>11.3333</longitude>
-                        <latitude>44.4833</latitude>
+                        <longitude>11.3525</longitude>
+                        <latitude>44.5014</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
 			<name>Valerio Paolini</name>
-			<email type="personal">paolini@students.cs.unibo.it</email>
+			<email type="personal">valdez@linuxasylum.net</email>
 		</tsar>
 		<web>http://bologna.pm.org/</web>
 		<mailing_list>
@@ -11610,8 +11610,8 @@
 			<region></region>
 			<country>Italy</country>
 			<continent>Europe</continent>
-                        <longitude>13.1825</longitude>
-                        <latitude>46.0319</latitude>
+                        <longitude>17.35</longitude>
+                        <latitude>45.45</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -11880,8 +11880,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-111</longitude>
+			<latitude>32.3</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -13576,8 +13576,8 @@
 			<region>Southwest Missouri</region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>37.2089</longitude>
+			<latitude>-93.2922</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -13774,33 +13774,6 @@
 			<name>General Hamburg Perl Mongers discussion</name>
 			<email type="list">hamburg-pm@pm.org</email>
 			<email type="list_admin">snadra@snadra.de</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
-		<date type="inception">20021010</date>
-	</group>
-
-	<group id="547" status="active">
-		<name>HoustonTx.pm</name>
-		<location>
-			<city>Houston</city>
-			<state>Texas</state>
-			<region></region>
-			<country>United States of America</country>
-			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Kristofer Hoch</name>
-			<email type="personal">kristoferhoch@yahoo.com</email>
-		</tsar>
-		<web>http://houstontx.pm.org/</web>
-		<mailing_list>
-			<name>General HoustonTx Perl Mongers discussion</name>
-			<email type="list">houstontx-pm@pm.org</email>
-			<email type="list_admin">kristoferhoch@yahoo.com</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
@@ -14737,8 +14710,8 @@
 			<region></region>
 			<country>Germany</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>9.1225</longitude>
+			<latitude>48.7214</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -15596,13 +15569,13 @@
 	<group id="619" status="active">
 		<name>StonyBrook.pm</name>
 		<location>
-			<city>StonyBrook</city>
+			<city>Stony Brook</city>
 			<state>New York</state>
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-73.125085</longitude>
+			<latitude>40.900257</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -16006,8 +15979,8 @@
 			<region>Virginia</region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-77.2130</longitude>
+			<latitude>38.5742</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
