@@ -14268,4 +14268,138 @@
 		</mailing_list>
 		<date type="inception">20021121</date>
 	</group>
-</perl_mongers>
+	<group id="506" status="active">
+		<name>Calgary.pm</name>
+		<location>
+			<city>Calgary</city>
+			<state>Alberta</state>
+			<region></region>
+			<country>Canada</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Dwight Thurston</name>
+			<email type="personal">dwight@thurston.ws</email>
+		</tsar>
+		<web>http://calgary.pm.org/</web>
+		<mailing-list>
+			<name>General Calgary Perl Mongers discussion</name>
+			<email type="list">calgary-pm@pm.org</email>
+			<email type="list_admin">dwight@thurston.ws</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030109</date>
+	</group>
+
+	<group id="507" status="active">
+		<name>SWOK.pm</name>
+		<location>
+			<city>Altus</city>
+			<state>Oklahoma</state>
+			<region>Southwest Oklahoma</region>
+			<country>United States of America</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Brian Carpenter</name>
+			<email type="personal">brian3@intellisys.net</email>
+		</tsar>
+		<web>http://swok.pm.org/</web>
+		<mailing-list>
+			<name>General SWOK Perl Mongers discussion</name>
+			<email type="list">swok-pm@pm.org</email>
+			<email type="list_admin">brian3@intellisys.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030109</date>
+	</group>
+
+	<group id="508" status="active">
+		<name>Galicia.pm</name>
+		<location>
+			<city>A Coruña</city>
+			<state></state>
+			<region></region>
+			<country>Spain</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Victor Sanchez</name>
+			<email type="personal">4pm@k-offline.net</email>
+		</tsar>
+		<web>http://galicia.pm.org/</web>
+		<mailing-list>
+			<name>General Galicia Perl Mongers discussion</name>
+			<email type="list">galicia-pm@pm.org</email>
+			<email type="list_admin">4pm@k-offline.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030109</date>
+	</group>
+
+	<group id="509" status="active">
+		<name>Buffalo.pm</name>
+		<location>
+			<city>Buffalo</city>
+			<state>New York</state>
+			<region></region>
+			<country>United States of America</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Kevin Christopher</name>
+			<email type="personal">kevin@binarymojo.net</email>
+		</tsar>
+		<web>http://buffalo.pm.org/</web>
+		<mailing-list>
+			<name>General Buffalo Perl Mongers discussion</name>
+			<email type="list">buffalo-pm@pm.org</email>
+			<email type="list_admin">kevin@binarymojo.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030109</date>
+	</group>
+
+	<group id="510" status="active">
+		<name>Vlaanderen.pm</name>
+		<location>
+			<city>Antwerpen</city>
+			<state>Vlaanderen</state>
+			<region></region>
+			<country>Belgium</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Geert Theys</name>
+			<email type="personal">geert@toadi.org</email>
+		</tsar>
+		<web>http://vlaanderen.pm.org/</web>
+		<mailing-list>
+			<name>General Vlaanderen Perl Mongers discussion</name>
+			<email type="list">vlaanderen-pm@pm.org</email>
+			<email type="list_admin">geert@toadi.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030109</date>
+	</group>
+</perl-mongers>
