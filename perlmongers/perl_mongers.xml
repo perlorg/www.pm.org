@@ -16136,4 +16136,31 @@
 		</mailing-list>
 		<date type="inception">20031224</date>
 	</group>
+
+	<group id="625" status="active">
+		<name>Sri Lanka.pm</name>
+		<location>
+			<city>Sri Lanka</city>
+			<state></state>
+			<region>Asia</region>
+			<country>Sri Lanka</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>V. Mahinthan</name>
+			<email type="personal">mahintha@yahoo.com</email>
+		</tsar>
+		<web>http://srilanka.pm.org/</web>
+		<mailing-list>
+			<name>General Sri Lanka Perl Mongers discussion</name>
+			<email type="list">srilanka-pm@pm.org</email>
+			<email type="list_admin">mahintha@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040101</date>
+	</group>
 </perl-mongers>
