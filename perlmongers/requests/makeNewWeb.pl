@@ -2,6 +2,10 @@
 
 use Fcntl qw(:flock);
 
+$usage = "./makeNewWeb.pl groupname ...\n";
+
+die $usage if (! scalar @ARGV);
+
 foreach my $user (@ARGV)
 	{
 	print "Adding user: $user.  domain name[$user]> ";
