@@ -1,0 +1,148 @@
+#!/usr/bin/perl
+
+use strict;
+
+=pod
+	city=arnhem
+	state=(3rd attempt)
+	region=
+	country=NL
+	continent=EU
+	leader=Mark Overmeer
+	leaderEmail=mark@overmeer.net
+	groupname=arnhem.pm
+	web_method=dns
+	IP=speeltuin.ATComputing.nl
+	freelist=no
+
+	crypt:pmwCmF5as/PYo
+=cut
+
+use Fcntl qw(:flock);
+
+my $usage = "./makeNewWeb.pl filename\n";
+
+die $usage if (! scalar @ARGV);
+if (! -r $ARGV[0])
+{
+	print STDERR "File ($ARGV[0]) does not exist";
+	die $usage;
+}
+
+
+open OUTPUT, ">spoonfeed";
+
+my %data = read_file_data();
+
+my ($new_value, $groupname, $hostname, $username, $fullname, $doc_root, $email, $crypt);
+
+$groupname = $data{groupname};
+
+# trim leading and trailing whitespace
+$groupname =~ s/^ *//i;
+$groupname =~ s/ *$//i;
+
+# Removing trailing .pm if exists
+
+$groupname =~ s/\.pm$//i;
+
+print "Group Name: [$groupname]: ";
+$new_value = <>;
+chomp $new_value;
+($new_value) && ($groupname = $new_value);
+
+print OUTPUT $groupname, "\n";
+
+my $city = $groupname;
+
+print "City: [$city]: ";
+$new_value = <>;
+chomp $new_value;
+($new_value) && ($city = $new_value);
+print OUTPUT $city, "\n";
+
+my $state = $data{state};
+
+print "state: [$state]: ";
+$new_value = <>;
+chomp $new_value;
+($new_value) && ($state = $new_value);
+print OUTPUT $state, "\n";
+
+my $region = $data{region};
+
+print "region: [$region]: ";
+$new_value = <>;
+chomp $new_value;
+($new_value) && ($region = $new_value);
+print OUTPUT $region, "\n";
+
+my $country = $data{country};
+$country = `grep "\;$country" /web/gocho.pm.org/80/data/country_codes.db`;
+chomp $country;
+$country =~ s/;.*//;
+
+print "country: [$country]: ";
+$new_value = <>;
+chomp $new_value;
+($new_value) && ($country = $new_value);
+print OUTPUT $country, "\n";
+
+my $continent = $data{continent};
+$continent = `grep "\;$continent" /web/gocho.pm.org/80/data/continent_codes.db`;
+chomp $continent;
+$continent =~ s/;.*//;
+
+print "continent: [$continent]: ";
+$new_value = <>;
+chomp $new_value;
+($new_value) && ($continent = $new_value);
+print OUTPUT $continent, "\n\n\n";
+
+my $groupleader = $data{leader};
+
+print "groupleader: [$groupleader]: ";
+$new_value = <>;
+chomp $new_value;
+($new_value) && ($groupleader = $new_value);
+print OUTPUT $groupleader, "\n";
+
+my $groupleaderemail = $data{leaderEmail};
+
+print "groupleaderemail: [$groupleaderemail]: ";
+$new_value = <>;
+chomp $new_value;
+($new_value) && ($groupleaderemail = $new_value);
+print OUTPUT $groupleaderemail, "\n";
+
+$hostname = $groupname;
+# remove all spaces
+$hostname =~ s/ //g;
+# lowercase
+$hostname = "\L$hostname";
+
+print "hostname: [$hostname].pm.org: ";
+$new_value = <>;
+chomp $new_value;
+($new_value) && ($hostname = $new_value);
+print OUTPUT "http://", $hostname, ".pm.org/\n";
+print OUTPUT $hostname, "-pm\@pm.org\n";
+print OUTPUT $groupleaderemail, "\n";
+
+sub read_file_data {
+	my (@list, $key, $value);
+	while (<>)
+	{
+		print;
+		next if (/^\s*$/);
+		s/^\s+//;
+		s/\s+$//;
+		if (/^crypt:/)
+		{
+			s/crypt:/crypt=/;
+		}
+		($key, $value) = split "=";
+		push (@list, ($key, $value));
+	}
+	return @list;
+}
