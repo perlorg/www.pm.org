@@ -16,7 +16,7 @@ The following groups are in [% continent %]:
 <h2>[% country %]</h2>
 <ul>
 [% FOREACH group = groups.$country %]
-<li><a href="[% group.id %].html">[% group.name %]</a><br>
+<li><a href="[% group.id %].html">[% group.name | html_entity %]</a><br>
 [% END %]
 </ul>
 [% END %]

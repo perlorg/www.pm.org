@@ -5,12 +5,12 @@
 [% END %]
 
 [% IF web %]
-<b><a href="[% web %]">[% name %]</a></b> ([% location.all %])<br>
+<b><a href="[% web %]">[% name | html_entity %]</a></b> ([% location | html_entity %])<br>
 [% ELSE %]
-<b>[% name %]</b> ([% location.all %])<br>
+<b>[% name | html_entity %]</b> ([% location | html_entity %])<br>
 [% END %]
 
-[% tsar.name %] &lt;[% tsar.email.content %]&gt;<br>
+[% tsar %] &lt;[% tsaremail %]&gt;<br>
 
 
 

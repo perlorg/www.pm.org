@@ -1,10 +1,11 @@
+
 #!/home/acme/bin/perl -w
 
 use strict;
 use File::Copy;
 use Image::WorldMap;
 use Template;
-use XML::Simple;
+use XML::LibXML;
 
 my %ids;
 
@@ -20,9 +21,6 @@ my %colours = (
 
 $| = 1;
 
-my $xml = XMLin('./perl_mongers.xml', cache => 'storable', suppressempty => 1);
-$xml = $xml->{group};
-
 my $tt = Template->new({
   POST_CHOMP => 1,
   PRE_CHOMP => 1,
@@ -32,69 +30,91 @@ my $tt = Template->new({
   PROCESS => 'layout',
 });
 
+my %allgroups;
+
 # Array containing all the group names order by continent
 my %groups;
 mkdir "www/groups/graphics";
 
 my $worldmap = Image::WorldMap->new("titchy.png");
 
-foreach my $name (keys %$xml) {
-  my $group = $xml->{$name};
-  my $id = $group->{id};
+my $xml = XML::LibXML->new();
+my $doc = $xml->parse_file("./perl_mongers.xml");
+foreach my $g ($doc->findnodes("//group")) {
+  my $id = $g->getAttribute("id");
+  my $status = $g->getAttribute("status") || 'not-specified-in-xml-file';
+  my $name = $g->findvalue("name/text()");
+  my $city = $g->findvalue("location/city/text()");
+  my $state = $g->findvalue("location/state/text()");
+  my $region = $g->findvalue("location/region/text()");
+  my $country = $g->findvalue("location/country/text()");
+  my $continent = $g->findvalue("location/continent/text()");
+  my $longitude = $g->findvalue("location/longitude/text()");
+  my $latitude = $g->findvalue("location/latitude/text()");
+  my $web = $g->findvalue("web/text()");
+  my $tsar = $g->findvalue("tsar/name/text()");
+  my $tsaremail = $g->findvalue("tsar/email/text()");
+  my $image; # points to little world map if we have one
 
   die "Duplicate group id $id\n" if $ids{$id}++;
 
-  my $status = $group->{status} || 'not-specified-in-xml-file';
-#  print "$status\n";
   next unless $status eq 'active' || $status eq 'sleeping';
-#  print "$id\n";
-#  print $continent, "\n";
-#  print "$name\n" if ref($continent);
   die "$name has no id\n" unless defined $id;
   if ($name eq 'MarsNeedsWomen.pm' ||
       $name eq 'Nomads.pm' ||
       $name eq 'PerlMonks.pm'
      ) {
-    $group->{location}->{continent} = 'Non-geographical';
-    $group->{location}->{country} = 'Non-geographical';
+    $continent = 'Non-geographical';
+    $country = 'Non-geographical';
   }
   if ($name eq 'EU.pm') {
-    $group->{location}->{country} = 'Non-geographical';
+    $country = 'Non-geographical';
   }
 
-  die "$name has no continent\n" unless $group->{location}->{continent};
-  die "$name has no country\n" unless $group->{location}->{country};
-#  next unless $id eq '0';
-  $group->{name} = $name;
-  $group->{location}->{all} = join ", ", 
-    grep { defined }
-    map { $group->{location}->{$_} }
- qw(city region state country continent);
+  die "$name has no continent\n" unless $continent;
+  die "$name has no country\n" unless $country;
 
-  if ($group->{location}->{longitude}
-      && $group->{location}->{latitude}) {
+  # joined up city, state, region, country, continent
+  my $location = join ", ", 
+      grep { $_ }
+    ($city, $state, $region, $country, $continent);
+
+  if ($longitude && $latitude) {
 
     # first add to world map
-    my $c = lc $group->{location}->{continent};
+    my $c = lc $continent;
     $c =~ s/\W/_/g;
     my $colour = $colours{$c} || die;
-    $worldmap->add($group->{location}->{longitude}, $group->{location}->{latitude}, 'group', $colour);
+    $worldmap->add($longitude, $latitude, 'group', $colour);
 
     # have we drawn the single-country map already?
     if (!-f "www/groups/graphics/$id.png") {
       my $map = Image::WorldMap->new("titchy.png");
-      $map->add($group->{location}->{longitude}, $group->{location}->{latitude}, 'group', $colour);
+      $map->add($longitude, $latitude, 'group', $colour);
       $map->draw("foo.png");
       system("pngtopnm foo.png | ppmquant 64 2>/dev/null | pnmtopng -compression 9 > www/groups/graphics/$id.png");
-      $group->{image} = "graphics/$id.png";
+      $image = "graphics/$id.png";
     }
   } else {
-    print "Group $name in $group->{location}->{all} missing location\n";
+    print "Group $name in $location missing location\n";
   }
 
-  my $continent = $group->{location}->{continent};
-  my $country = $group->{location}->{country};
-  $group->{tsar}->{email}->{content} =~ s/@/ at /g;
+  $tsaremail =~ s/@/ at /g;
+
+  my $group = {
+    continent => $continent,
+    id => $id,
+    image => $image,
+    latitude => $latitude,
+    location => $location,
+    longitude => $longitude,
+    name => $name,
+    tsar => $tsar,
+    tsaremail => $tsaremail,
+    status => $status,
+    web => $web,
+  };
+  $allgroups{$name} = $group;
 
   push @{$groups{$continent}->{$country}}, $group;
 
@@ -107,7 +127,6 @@ foreach my $name (keys %$xml) {
 copy("./perl_mongers.xml", "www/groups/perl_mongers.xml");
 copy("./perl_mongers.dtd", "www/groups/perl_mongers.dtd");
 
-#use YAML; die Dump(\%groups);
 my @continents = (
   "Africa", "Asia", "Europe", "North America", "Central America",
   "South America", "Oceania", "Non-geographical",
@@ -117,24 +136,21 @@ foreach my $continent (@continents) {
   my $name = lc $continent;
   $name =~ s/\W/_/g;
   my $file = "www/groups/$name.html";
-#  warn "$continent -> $file\n";
   my $groups;
   my $map = Image::WorldMap->new("titchy.png");
   foreach my $country (sort keys %{$groups{$continent}}) {
-#    warn "  $country\n";
     my @mygroups = @{$groups{$continent}->{$country}};
     $groups->{$country} = [sort { lc $a->{name} cmp lc $b->{name} } @mygroups];
   }
 
   my $colour = $colours{$name};
-  foreach my $name (keys %$xml) {
-    my $group = $xml->{$name};
+  foreach my $group (values %allgroups) {
+    my $name = $group->{name};
     my $status = $group->{status} || 'not-specified-in-xml-file';
     next unless $status eq 'active' || $status eq 'sleeping';
-    next unless $group->{location}->{continent} eq $continent;
-    if ($group->{location}->{longitude}
-	&& $group->{location}->{latitude}) {
-      $map->add($group->{location}->{longitude}, $group->{location}->{latitude}, "group", $colour);
+    next unless $group->{continent} eq $continent;
+    if ($group->{longitude} && $group->{latitude}) {
+      $map->add($group->{longitude}, $group->{latitude}, "group", $colour);
     }
   }
 
