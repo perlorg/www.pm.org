@@ -4415,7 +4415,7 @@
 		<date type="inception">19990131</date>
 	</group>
 	
-	<group id="167" status="leb">
+	<group id="167" status="active">
 		<name>CentralCoast.pm</name>
 		<location>
 			<city></city>
@@ -4429,7 +4429,7 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Stewart Heckenberg</name>
-			<email type="personal">youdaman@central-coast.pm.org</email>
+			<email type="personal">whazaaaaahp@central-coast.pm.org</email>
 		</tsar>
 		<web>http://central-coast.pm.org/</web>
 		<mailing_list>
@@ -4712,7 +4712,7 @@
 		<date type="inception">19990311</date>
 	</group>
 	
-	<group id="179" status="sleeping">
+	<group id="179" status="active">
 		<name>Sydney.pm</name>
 		<location>
 			<city>Sydney</city>
@@ -4731,10 +4731,10 @@
 		<web>http://sydney.pm.org/</web>
 		<mailing_list>
 			<name>General Sydney.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
+			<email type="list">sydney-pm-list@pm.org</email>
+			<email type="list_admin">majordomo@pm.org</email>
+			<subscribe>subscribe sydney-pm-list email_address</subscribe>
+			<unsubscribe>unsubscribe sydney-pm-list email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">19981102</date>
 	</group>
@@ -4766,7 +4766,7 @@
 		<date type="inception">19990131</date>
 	</group>
 	
-	<group id="181" status="mlb">
+	<group id="181" status="active">
 		<name>Bangkok.pm</name>
 		<location>
 			<city>Bangkok</city>
@@ -4779,8 +4779,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Robert White</name>
-			<email type="personal">robert@bangkokwizard.com</email>
+			<name>Komtanoo Pinpimai</name>
+			<email type="personal">romerun@cpan.org</email>
 		</tsar>
 		<web>http://bangkok.pm.org/</web>
 		<mailing_list>
@@ -14487,7 +14487,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="524" status="active">
+	<group id="554" status="active">
 		<name>Saarland.pm</name>
 		<location>
 			<city>Saarbrücken</city>
@@ -14514,7 +14514,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="525" status="active">
+	<group id="555" status="active">
 		<name>Shibuya.pm</name>
 		<location>
 			<city>Shibuya</city>
@@ -14541,7 +14541,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="526" status="active">
+	<group id="556" status="active">
 		<name>Istanbul.pm</name>
 		<location>
 			<city>Kucukcekmece</city>
@@ -14568,7 +14568,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="527" status="active">
+	<group id="557" status="active">
 		<name>PerlChina.pm</name>
 		<location>
 			<city>China Shenzhen</city>
@@ -14595,7 +14595,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="528" status="active">
+	<group id="558" status="active">
 		<name>German.pm</name>
 		<location>
 			<city></city>
@@ -14622,7 +14622,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="529" status="active">
+	<group id="559" status="active">
 		<name>Kiel.pm</name>
 		<location>
 			<city>Kiel</city>
@@ -14649,7 +14649,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="530" status="active">
+	<group id="560" status="active">
 		<name>Camelot.pm</name>
 		<location>
 			<city></city>
@@ -14676,7 +14676,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="531" status="active">
+	<group id="561" status="active">
 		<name>Malazgirt.pm</name>
 		<location>
 			<city>Malazgirt</city>
@@ -14703,7 +14703,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="532" status="active">
+	<group id="562" status="active">
 		<name>KernCounty.pm</name>
 		<location>
 			<city>Bakersfield</city>
@@ -14730,7 +14730,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="533" status="active">
+	<group id="563" status="active">
 		<name>Africa.pm</name>
 		<location>
 			<city>Addis Ababa</city>
@@ -14757,7 +14757,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="534" status="active">
+	<group id="564" status="active">
 		<name>Princeton.pm</name>
 		<location>
 			<city>Princeton</city>
@@ -14783,4 +14783,31 @@
 		</mailing-list>
 		<date type="inception">20030317</date>
 	</group>
+
+       <group id="565" status="active">
+                <name>Pisa.pm</name>
+                <location>
+                        <city>Pisa</city>
+                        <state></state>
+                        <region>Toscana</region>
+                        <country>Italy</country>
+                        <continent>Europe</continent>
+                        <longitude>10.383</longitude>
+                        <latitude>43.717</latitude>
+                </location>
+                <email type="group"></email>
+                <tsar>
+                        <name>Enrico Sorcinelli</name>
+                        <email type="personal">bepi@modperl.it</email>
+                </tsar>
+                <web>http://pisa.pm.org/</web>
+                <mailing-list>
+                        <name>General Pisa Perl Mongers discussion</name>
+                        <email type="list"></email>
+                        <email type="list_admin"></email>
+                        <subscribe></subscribe>
+                        <unsubscribe></unsubscribe>
+                </mailing-list>
+                <date type="inception">20030410</date>
+        </group>
 </perl-mongers>
