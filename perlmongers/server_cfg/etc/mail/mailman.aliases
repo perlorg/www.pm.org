@@ -82,18 +82,6 @@ wilmore-pm-request:      "|/var/mailman/mail/mailman request wilmore-pm"
 wilmore-pm-subscribe:    "|/var/mailman/mail/mailman subscribe wilmore-pm"
 wilmore-pm-unsubscribe:  "|/var/mailman/mail/mailman unsubscribe wilmore-pm"
 
-## aarschot-pm mailing list
-aarschot-pm:              "|/var/mailman/mail/mailman post aarschot-pm"
-aarschot-pm-admin:        "|/var/mailman/mail/mailman admin aarschot-pm"
-aarschot-pm-bounces:      "|/var/mailman/mail/mailman bounces aarschot-pm"
-aarschot-pm-confirm:      "|/var/mailman/mail/mailman confirm aarschot-pm"
-aarschot-pm-join:         "|/var/mailman/mail/mailman join aarschot-pm"
-aarschot-pm-leave:        "|/var/mailman/mail/mailman leave aarschot-pm"
-aarschot-pm-owner:        "|/var/mailman/mail/mailman owner aarschot-pm"
-aarschot-pm-request:      "|/var/mailman/mail/mailman request aarschot-pm"
-aarschot-pm-subscribe:    "|/var/mailman/mail/mailman subscribe aarschot-pm"
-aarschot-pm-unsubscribe:  "|/var/mailman/mail/mailman unsubscribe aarschot-pm"
-
 ## agra-pm mailing list
 agra-pm:              "|/var/mailman/mail/mailman post agra-pm"
 agra-pm-admin:        "|/var/mailman/mail/mailman admin agra-pm"
@@ -129,18 +117,6 @@ anchorage-pm-owner:        "|/var/mailman/mail/mailman owner anchorage-pm"
 anchorage-pm-request:      "|/var/mailman/mail/mailman request anchorage-pm"
 anchorage-pm-subscribe:    "|/var/mailman/mail/mailman subscribe anchorage-pm"
 anchorage-pm-unsubscribe:  "|/var/mailman/mail/mailman unsubscribe anchorage-pm"
-
-## annapolis-pm mailing list
-annapolis-pm:              "|/var/mailman/mail/mailman post annapolis-pm"
-annapolis-pm-admin:        "|/var/mailman/mail/mailman admin annapolis-pm"
-annapolis-pm-bounces:      "|/var/mailman/mail/mailman bounces annapolis-pm"
-annapolis-pm-confirm:      "|/var/mailman/mail/mailman confirm annapolis-pm"
-annapolis-pm-join:         "|/var/mailman/mail/mailman join annapolis-pm"
-annapolis-pm-leave:        "|/var/mailman/mail/mailman leave annapolis-pm"
-annapolis-pm-owner:        "|/var/mailman/mail/mailman owner annapolis-pm"
-annapolis-pm-request:      "|/var/mailman/mail/mailman request annapolis-pm"
-annapolis-pm-subscribe:    "|/var/mailman/mail/mailman subscribe annapolis-pm"
-annapolis-pm-unsubscribe:  "|/var/mailman/mail/mailman unsubscribe annapolis-pm"
 
 ## argentina-pm mailing list
 argentina-pm:              "|/var/mailman/mail/mailman post argentina-pm"
@@ -3909,4 +3885,17 @@ ljubljana-owner:        "|/var/mailman/mail/mailman owner ljubljana"
 ljubljana-request:      "|/var/mailman/mail/mailman request ljubljana"
 ljubljana-subscribe:    "|/var/mailman/mail/mailman subscribe ljubljana"
 ljubljana-unsubscribe:  "|/var/mailman/mail/mailman unsubscribe ljubljana"
+
+## fortaleza mailing list
+fortaleza:              "|/var/mailman/mail/mailman post fortaleza"
+fortaleza-admin:        "|/var/mailman/mail/mailman admin fortaleza"
+fortaleza-bounces:      "|/var/mailman/mail/mailman bounces fortaleza"
+fortaleza-confirm:      "|/var/mailman/mail/mailman confirm fortaleza"
+fortaleza-join:         "|/var/mailman/mail/mailman join fortaleza"
+fortaleza-leave:        "|/var/mailman/mail/mailman leave fortaleza"
+fortaleza-owner:        "|/var/mailman/mail/mailman owner fortaleza"
+fortaleza-request:      "|/var/mailman/mail/mailman request fortaleza"
+fortaleza-subscribe:    "|/var/mailman/mail/mailman subscribe fortaleza"
+fortaleza-unsubscribe:  "|/var/mailman/mail/mailman unsubscribe fortaleza"
+
 
