@@ -1,0 +1,25 @@
+#!/usr/bin/perl
+
+use strict;
+
+my ($IP) = "64.49.222.22";
+
+open (IN, "vhosts.pm.org") or die "Can't open vhosts.pm.org";
+while (<IN>) {
+   chomp;
+   my ($aliases);
+   my ($host, @aliases) = split;
+   foreach my $alias (@aliases) {
+      $aliases .= "ServerAlias $alias.pm.org\n";
+   }
+   print <<EOT
+<VirtualHost $IP>
+ServerName ${host}.pm.org
+${aliases}ServerAdmin webmaster\@$host.pm.org
+DocumentRoot /pm.org/$host
+</VirtualHost>
+
+EOT
+}
+
+
