@@ -69,6 +69,7 @@
     "Perl.com" => "http://www.perl.com/",
     "Perlmonks" => "http://www.perlmonks.com/",
     "Yet Another Perl Conference" => "http://www.yapc.org/",
+    "Perl training" => "http://www.perltraining.org/",
   }
 %]
 
