@@ -12501,9 +12501,9 @@
 		</tsar>
 		<web>http://southflorida.pm.org/</web>
 		<mailing_list>
-			<name>General SouthFlorida Perl Mongers discussion</name>
-			<email type="list">southflorida@pm.org</email>
-			<email type="list_admin">jbisbee@yahoo.com</email>
+			<name>General South Florida Perl Mongers discussion</name>
+			<email type="list">southflorida-pm@pm.org</email>
+			<email type="list_admin">southflorida-pm@jbisbee.com</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
