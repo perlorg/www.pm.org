@@ -3398,10 +3398,10 @@
 		<date type="inception">19990311</date>
 	</group>
 	
-	<group id="131" status="active">
-		<name>Copenhagen.pm</name>
+	<group id="131" status="unknown">
+		<name>Koebenhavn.pm</name>
 		<location>
-			<city>Copenhagen</city>
+			<city>Koebenhavn</city>
 			<state></state>
 			<region></region>
 			<country>Denmark</country>
@@ -3412,11 +3412,11 @@
 		<email type="group"></email>
 		<tsar>
 			<name></name>
-			<email type="personal">contact@copenhagen.pm.org</email>
+			<email type="personal">root@legart.dk</email>
 		</tsar>
-		<web>http://copenhagen.pm.org/</web>
+		<web>http://koebenhavn.pm.org/</web>
 		<mailing_list>
-			<name>General Copenhagen.pm discussion</name>
+			<name>General Koebenhavn.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
 			<subscribe></subscribe>
@@ -11070,7 +11070,7 @@
 		<date type="inception">20010812</date>
 	</group>
 
-	<group id="430" status="unknown">
+	<group id="430" status="active">
 		<name>Bologna.pm</name>
 		<location>
 			<city>Bologna</city>
@@ -11083,14 +11083,14 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>jerico cardallo</name>
-			<email type="personal">jerico_sun@libero.it</email>
+			<name>Valerio Paolini</name>
+			<email type="personal">paolini@students.cs.unibo.it</email>
 		</tsar>
 		<web>http://bologna.pm.org/</web>
 		<mailing_list>
 			<name>General Bologna Perl Mongers discussion</name>
 			<email type="list">bologna-pm@pm.org</email>
-			<email type="list_admin">jerico_sun@libero.it</email>
+			<email type="list_admin">paolini@students.cs.unibo.it</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
@@ -13343,7 +13343,7 @@
 			<city>Norwich</city>
 			<state></state>
 			<region></region>
-			<country>Great Britain</country>
+			<country>United Kingdom</country>
 			<continent>Europe</continent>
 			<longitude></longitude>
 			<latitude></latitude>
