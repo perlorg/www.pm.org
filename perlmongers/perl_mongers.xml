@@ -13327,7 +13327,7 @@
 		<date type="inception">20020626</date>
 	</group>
 
-	<group id="521">
+	<group id="566">
 		<name>Ukraine.pm</name>
 		<location>
 			<city>Kharkov</city>
@@ -13354,7 +13354,7 @@
 		<date type="inception">20020626</date>
 	</group>
 
-	<group id="522">
+	<group id="567">
 		<name>Calicut.pm</name>
 		<location>
 			<city>Calicut</city>
@@ -13381,7 +13381,7 @@
 		<date type="inception">20020721</date>
 	</group>
 
-	<group id="523">
+	<group id="568">
 		<name>mus.pm</name>
 		<location>
 			<city>mus</city>
@@ -14597,9 +14597,9 @@
 		<location>
 			<city></city>
 			<state></state>
-			<region>Mitteleuropa</region>
+			<region></region>
 			<country></country>
-			<continent>Europe</continent>
+			<continent></continent>
 			<longitude></longitude>
 			<latitude></latitude>
 		</location>
@@ -14807,5 +14807,5 @@
                 </mailing-list>
                 <date type="inception">20030410</date>
         </group>
-<!-- next free group id is 566 -->
+<!-- next free group id is 569 -->
 </perl_mongers>
