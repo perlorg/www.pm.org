@@ -19,7 +19,7 @@ open OLDXML, "/pm.org/www/XML/perl_mongers.xml" || die;
 
 do
 {
-	print XML $old;
+	print XML $old unless (/<perl_mongers>/);  # Don't put this in the new file yet.
 	if (/group id="([^"]+)"/)
 	{
 		# print STDERR $1;
@@ -67,6 +67,6 @@ print XML qq(
 		</mailing_list>
 		<date type="inception">$date</date>
 	</group>
-</perl-mongers>
+</perl_mongers>
 );
 close XML;
