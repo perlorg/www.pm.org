@@ -18,7 +18,7 @@ my %colours = (
 	       central_america => [0,255,0],
 	       south_america => [255,0,255],
 	       oceania => [0,255,255],
-);
+	      );
 
 $| = 1;
 
@@ -35,26 +35,26 @@ my %allgroups;
 
 # Array containing all the group names order by continent
 my %groups;
-mkdir "www/groups/graphics";
+mkdir 'www/groups/graphics';
 
-my $worldmap = Image::WorldMap->new("titchy.png");
+my $worldmap = Image::WorldMap->new('titchy.png');
 
 my $xml = XML::LibXML->new();
 my $doc = $xml->parse_file($src_file);
-foreach my $g ($doc->findnodes("//group")) {
-  my $id = $g->getAttribute("id");
-  my $status = $g->getAttribute("status") || 'not-specified-in-xml-file';
-  my $name = $g->findvalue("name/text()");
-  my $city = $g->findvalue("location/city/text()");
-  my $state = $g->findvalue("location/state/text()");
-  my $region = $g->findvalue("location/region/text()");
-  my $country = $g->findvalue("location/country/text()");
-  my $continent = $g->findvalue("location/continent/text()");
-  my $longitude = $g->findvalue("location/longitude/text()");
-  my $latitude = $g->findvalue("location/latitude/text()");
-  my $web = $g->findvalue("web/text()");
-  my $tsar = $g->findvalue("tsar/name/text()");
-  my $tsaremail = $g->findvalue("tsar/email/text()");
+foreach my $g ($doc->findnodes('//group')) {
+  my $id = $g->getAttribute('id');
+  my $status = $g->getAttribute('status') || 'not-specified-in-xml-file';
+  my $name = $g->findvalue('name/text()');
+  my $city = $g->findvalue('location/city/text()');
+  my $state = $g->findvalue('location/state/text()');
+  my $region = $g->findvalue('location/region/text()');
+  my $country = $g->findvalue('location/country/text()');
+  my $continent = $g->findvalue('location/continent/text()');
+  my $longitude = $g->findvalue('location/longitude/text()');
+  my $latitude = $g->findvalue('location/latitude/text()');
+  my $web = $g->findvalue('web/text()');
+  my $tsar = $g->findvalue('tsar/name/text()');
+  my $tsaremail = $g->findvalue('tsar/email/text()');
   my $image; # points to little world map if we have one
 
   die "Duplicate group id $id\n" if $ids{$id}++;
@@ -91,10 +91,10 @@ foreach my $g ($doc->findnodes("//group")) {
     $worldmap->add($longitude, $latitude, 'group', $colour);
 
     # have we drawn the single-country map already?
-    unless (-f "www/groups/graphics/$id.png") {
-      my $map = Image::WorldMap->new("titchy.png");
+    unless (-f 'www/groups/graphics/$id.png') {
+      my $map = Image::WorldMap->new('titchy.png');
       $map->add($longitude, $latitude, 'group', $colour);
-      $map->draw("foo.png");
+      $map->draw('foo.png');
       system("pngtopnm foo.png | ppmquant 64 2>/dev/null | pnmtopng -compression 9 > www/groups/graphics/$id.png");
       $image = "graphics/$id.png";
     }
@@ -114,12 +114,17 @@ foreach my $g ($doc->findnodes("//group")) {
 	       name => $name,
 	       tsar => $tsar,
 	       tsaremail => $tsaremail,
+	       state => $state,
 	       status => $status,
 	       web => $web,
 	      };
   $allgroups{$name} = $group;
 
-  push @{$groups{$continent}->{$country}}, $group;
+  if ($country eq 'United States of America') {
+    push @{$groups{$continent}{$country}{$state}}, $group;
+  } else {
+    push @{$groups{$continent}{$country}}, $group;
+  }
 
   unless (-f "www/groups/$id.html") {
     $tt->process('src/groups/group.html', $group, "www/groups/$id.html")
@@ -127,8 +132,8 @@ foreach my $g ($doc->findnodes("//group")) {
   }
 }
 
-copy("./perl_mongers.xml", "www/groups/perl_mongers.xml");
-copy("./perl_mongers.dtd", "www/groups/perl_mongers.dtd");
+copy('./perl_mongers.xml', 'www/groups/perl_mongers.xml');
+copy('./perl_mongers.dtd', 'www/groups/perl_mongers.dtd');
 
 my @continents = ('Africa', 'Asia', 'Europe', 'North America',
 		  'Central America', 'South America', 'Oceania',
@@ -139,10 +144,18 @@ foreach my $continent (@continents) {
   $name =~ s/\W/_/g;
   my $file = "www/groups/$name.html";
   my $groups;
-  my $map = Image::WorldMap->new("titchy.png");
+  my $map = Image::WorldMap->new('titchy.png');
   foreach my $country (sort keys %{$groups{$continent}}) {
-    my @mygroups = @{$groups{$continent}->{$country}};
-    $groups->{$country} = [sort { lc $a->{name} cmp lc $b->{name} } @mygroups];
+    if ($country eq 'United States of America') {
+      foreach my $state (keys %{$groups{$continent}{$country}}) {
+	$groups->{$country}{$state} = [ sort  { lc $a->{name} cmp
+						  lc $b->{name} }
+					@{$groups{$continent}{$country}{$state}} ];
+      }
+    } else {
+      $groups->{$country} = [ sort { lc $a->{name} cmp lc $b->{name} }
+			      @{$groups{$continent}{$country}} ];
+    }
   }
 
   my $colour = $colours{$name};
@@ -152,11 +165,11 @@ foreach my $continent (@continents) {
     next unless $status eq 'active' || $status eq 'sleeping';
     next unless $group->{continent} eq $continent;
     if ($group->{longitude} && $group->{latitude}) {
-      $map->add($group->{longitude}, $group->{latitude}, "group", $colour);
+      $map->add($group->{longitude}, $group->{latitude}, 'group', $colour);
     }
   }
 
-  $map->draw("foo.png");
+  $map->draw('foo.png');
   system("pngtopnm foo.png | ppmquant 127 2>/dev/null | pnmtopng -compression 9 > www/groups/graphics/$name.png");
   my $conf = {
 	      groups => $groups,
@@ -170,8 +183,8 @@ foreach my $continent (@continents) {
 #use Data::Dumper; die Dumper($groups);
 }
 
-$worldmap->draw("foo.png");
-system("pngtopnm foo.png | ppmquant 255 2> /dev/null | pnmtopng -compression 9 > www/groups/graphics/world.png");
+$worldmap->draw('foo.png');
+system('pngtopnm foo.png | ppmquant 255 2> /dev/null | pnmtopng -compression 9 > www/groups/graphics/world.png');
 
 __END__
 =head1 NAME
