@@ -2314,8 +2314,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>John Resig</name>
-			<email type="personal">phytar@csh.rit.edu</email>
+			<name>Jordan Sissel</name>
+			<email type="personal">psionic@csh.rit.edu</email>
 		</tsar>
 		<web>http://rochester.pm.org/</web>
 		<mailing_list>
@@ -3780,7 +3780,7 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Harald J&ouml;rg</name>
-			<email type="personal">Harald.Joerg@fujitsu-siemens.com</email>
+			<email type="personal">haj@oook.m.uunet.de</email>
 		</tsar>
 		<web>http://munich.pm.org/</web>
 		<mailing_list>
@@ -4280,7 +4280,7 @@
 		<date type="inception">19990119</date>
 	</group>
 	
-	<group id="164">
+	<group id="164" status="active">
 		<name>Auckland.pm</name>
 		<location>
 			<city>Auckland</city>
@@ -4293,8 +4293,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Clif Posey</name>
-			<email type="personal">clif@posey.org</email>
+			<name>Dan Horne</name>
+			<email type="personal">dan.horne@redbone.co.nz</email>
 		</tsar>
 		<web>http://auckland.pm.org/</web>
 		<mailing_list>
