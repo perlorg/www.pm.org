@@ -40,6 +40,7 @@
     "Contact" => "/contact/index.html",
     "FAQ" => "/faq/index.html",
 #    "News" => "/news/index.html",
+    "Running a group" => "/successful/index.html",
   }
 %]
 
