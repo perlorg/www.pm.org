@@ -55,14 +55,11 @@ do things as quickly as is reasonable considering all of our other
 commitments. Additionally, there's nothing stopping you from operating 
 your group while you are waiting for your Perl Mongers services.</p>
 <h3>How do I set up my group's web site on the Perl Monger server?</h3>
-<p>You'll be given a username on the server. You can use <code>ssh</code> to log in
-to the server (we don't allow <code>telnet</code> or <code>ftp</code> connections).</p>
+<p>You'll be given a ftp access to the server. You can only use 
+<code>ftp</code> to connect to the server (we don't allow <code>telnet</code> 
+or <code>ssh</code> connections).</p>
 <p>Your group's web directory is in your login directory. It's called www_docs. 
-Your log files are in www_logs. </p>
-<p>You also get mod_perl and full cgi access. these haven't been tested 
-extensively, so let us know if you run into problems. If you want something 
-we don't offer, just ask. The web server configuration files are in 
-/opt/apache/gocho.pm.org/80/conf if you want to see how things are set up. </p>
+Your log files are in www_logs.</p>
 <p>There is no explicit cgi-bin directory. CGI programs are recognised by the
 extension .cgi.</p>
 <p>Server side includes are turned on for files ending with the extension
@@ -71,11 +68,13 @@ extension .cgi.</p>
 library (or anything with similar space or bandwidth usage) <i>will</i> be 
 noticed - and removed from the system.</p>
 <h3>How can I administer my mailing list </h3>
-<p>Some older lists are still run using <code>majordomo</code>. You can administer
-these lists using the standard <code>majordomo</code> email interface. We also
-have a web interface at <a href="http://www.pm.org/majorcool/?module=modify">http://www.pm.org/majorcool/?module=modify</a>.</p>
-<p>All new lists (and many of the older ones) are run using <code>mailman</code>.
-Users can access their <code>mailman</code> configuration at
+<p>Some older lists are still run using <code>majordomo</code>. You can 
+administer these lists using the standard <code>majordomo</code> email 
+interface. We also have a web interface at 
+<a href="http://www.pm.org/majorcool/?module=modify">http://www.pm.org/majorcool/?module=modify</a>.</p>
+<p>All new lists (and many of the older ones) are run using 
+<code>mailman</code>. Users can access their <code>mailman</code> 
+configuration at
 <a href="http://www.pm.org/mailman/listinfo/">http://www.pm.org/mailman/listinfo/</a><i>&gt;list name&lt;</i>. List admins
 can access the list administration page at
 <a href="http://www.pm.org/mailman/admin/">http://www.pm.org/mailman/admin/</a><i>&gt;list name&lt;</i>.</p>
