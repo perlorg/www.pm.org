@@ -7658,7 +7658,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="301">
+	<group id="301" status="active">
 		<name>Rio.pm</name>
 		<location>
 			<city>Rio de Janeiro</city>
