@@ -167,33 +167,6 @@
 		<date type="inception">19981005</date>
 	</group>
 	
-	<group id="2" status="active">
-		<name>Albuquerque.pm</name>
-		<location>
-			<city>Albuquerque</city>
-			<state>New Mexico</state>
-			<region></region>
-			<country>United States of America</country>
-			<continent>North America</continent>
-			<longitude>-106.62463</longitude>
-			<latitude>35.11721</latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>David Keeney</name>
-			<email type="personal">dkeeney@travelbyroad.net</email>
-		</tsar>
-		<web>http://albuquerque.pm.org/</web>
-		<mailing_list>
-			<name>General Albuquerque.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
-		<date type="inception">19981225</date>
-	</group>
-	
 	<group id="3" status="active">
 		<name>Anchorage.pm</name>
 		<location>
