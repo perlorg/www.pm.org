@@ -1977,33 +1977,6 @@
 		<date type="inception">19981013</date>
 	</group>
 	
-	<group id="71">
-		<name>Orlando.pm</name>
-		<location>
-			<city>Orlando</city>
-			<state>Florida</state>
-			<region></region>
-			<country>United States of America</country>
-			<continent>North America</continent>
-			<longitude>-81.36393</longitude>
-			<latitude>28.49915</latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Rick Osborne</name>
-			<email type="personal">rick@rixsoft.com</email>
-		</tsar>
-		<web></web>
-		<mailing_list>
-			<name>General Orlando.pm discussion</name>
-			<email type="list">orlando-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe orlando-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe orlando-pm-list email_address</unsubscribe>
-		</mailing_list>
-		<date type="inception">19990214</date>
-	</group>
-	
 	<group id="72" status="active">
 		<name>Ottawa.pm</name>
 		<location>
@@ -3388,7 +3361,7 @@
 		<date type="inception">19990707</date>
 	</group>
 	
-	<group id="127" status="alive">
+	<group id="127" status="active">
 		<name>Glasgow.pm</name>
 		<location>
 			<city>Glasgow</city>
@@ -5279,7 +5252,7 @@
 		<date type="inception">19990515</date>
 	</group>
 	
-	<group id="201">
+	<group id="201" status="active">
 		<name>Algarve.pm</name>
 		<location>
 			<city>Faro</city>
@@ -6213,7 +6186,7 @@
 			<name>Er Galv&atilde;o Abbott</name>
 			<email type="personal">pmpoa@zaz.com.br</email>
 		</tsar>
-		<web>ihttp://porto-alegre.pm.org/</web>
+		<web>http://porto-alegre.pm.org/</web>
 		<mailing_list>
 			<name>General PortoAlegre.pm discussion</name>
 			<email type="list">porto-alegre-pm-list@pm.org</email>
@@ -7482,7 +7455,7 @@
 			<name>Andreas Borchert</name>
 			<email type="personal">borchert@ulm.pm.org</email>
 		</tsar>
-		<web>http://ulm.pm.org</web>
+		<web>http://ulm.pm.org/</web>
 		<mailing_list>
 			<name>General Ulm.pm discussion</name>
 			<email type="list">members@ulm.pm.org</email>
@@ -7510,7 +7483,7 @@
 			<name>Brent Harding</name>
 			<email type="personal">bharding@greenbaynet.com</email>
 		</tsar>
-		<web>http://algoma.pm.org</web>
+		<web>http://algoma.pm.org/</web>
 		<mailing_list>
 			<name>General Algoma discussion</name>
 			<email type="list">algoma-pm@hfb.pm.org</email>
@@ -7699,7 +7672,7 @@
 			<name>Megan Burgess</name>
 			<email type="personal">Lexbirdman@prodigy.net</email>
 		</tsar>
-		<web>http://nicholasville.pm.org</web>
+		<web>http://nicholasville.pm.org/</web>
 		<mailing_list>
 			<name>General Nicholasville Perl Mongers discussion</name>
 			<email type="list">nicholasville-pm@hfb.pm.org</email>
@@ -7753,7 +7726,7 @@
 			<name>Robson Mothe</name>
 			<email type="personal">webmaster@robson.mothe.nom.br</email>
 		</tsar>
-		<web>http://rio.pm.org</web>
+		<web>http://rio.pm.org/</web>
 		<mailing_list>
 			<name>General Rio Perl Mongers discussion</name>
 			<email type="list">rio-pm@hfb.pm.org</email>
@@ -7889,7 +7862,7 @@
 			<name>Bakki Kudva</name>
 			<email type="personal">bakki@navaco.com</email>
 		</tsar>
-		<web>erie.pm.org</web>
+		<web>http://erie.pm.org/</web>
 		<mailing_list>
 			<name>General Erie Perl Mongers discussion</name>
 			<email type="list">erie-pm@hfb.pm.org</email>
@@ -8051,7 +8024,7 @@
 			<name>Jasmine Merced</name>
 			<email type="personal">djasmine@tnsgroup.com</email>
 		</tsar>
-		<web>http://nwarkansas.pm.org</web>
+		<web>http://nwarkansas.pm.org/</web>
 		<mailing_list>
 			<name>General NWArkansas Perl Mongers discussion</name>
 			<email type="list">nwarkansas-pm@pm.org</email>
@@ -8186,7 +8159,7 @@
 			<name>V.Mahinthan</name>
 			<email type="personal">mahintha@yahoo.com</email>
 		</tsar>
-		<web>http://srilanka.pm.org</web>
+		<web>http://srilanka.pm.org/</web>
 		<mailing_list>
 			<name>General colombo-pm Perl Mongers discussion</name>
 			<email type="list"></email>
@@ -8239,9 +8212,9 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Tom Poe</name>
-			<email type="personal">tompoe@renonevada.net</email>
+			<email type="personal">tompoe@amihost.com</email>
 		</tsar>
-		<web>http://renotahoe.pm.org</web>
+		<web>http://renotahoe.pm.org/</web>
 		<mailing_list>
 			<name>General RenoTahoe Perl Mongers discussion</name>
 			<email type="list">renotahoe-pm@pm.org</email>
@@ -8295,7 +8268,7 @@
 			<name>Chicheng Zhang</name>
 			<email type="personal">chichengzhang@hotmail.com</email>
 		</tsar>
-		<web>http://milpitas.pm.org</web>
+		<web>http://milpitas.pm.org/</web>
 		<mailing_list>
 			<name>General Milpitas Perl Mongers discussion</name>
 			<email type="list"></email>
@@ -8349,7 +8322,7 @@
 			<name>Bob Johnson</name>
 			<email type="personal">-nova-@anonymous.to </email>
 		</tsar>
-		<web>http://orangecity.pm.org</web>
+		<web>http://orangecity.pm.org/</web>
 		<mailing_list>
 			<name>General Orange City Perl Mongers discussion</name>
 			<email type="list">orange-city-pm@pm.org</email>
@@ -8781,7 +8754,7 @@
 			<name>Babak Farrokhi</name>
 			<email type="personal">babak@farrokhi.net</email>
 		</tsar>
-		<web>http://iran.pm.org</web>
+		<web>http://iran.pm.org/</web>
 		<mailing_list>
 			<name>General iran Perl Mongers discussion</name>
 			<email type="list">iran-pm@pm.org</email>
@@ -8943,7 +8916,7 @@
 			<name>Lou Hevly</name>
 			<email type="personal">lou@visca.com</email>
 		</tsar>
-		<web>http://manresa.pm.org</web>
+		<web>http://manresa.pm.org/</web>
 		<mailing_list>
 			<name>General Manresa Perl Mongers discussion</name>
 			<email type="list">manresa-pm@pm.org</email>
@@ -9024,7 +8997,7 @@
 			<name>Duranton Jean-Christophe</name>
 			<email type="personal">jcdurant@t-online.fr</email>
 		</tsar>
-		<web>http://luberon.pm.org</web>
+		<web>http://luberon.pm.org/</web>
 		<mailing_list>
 			<name>General Luberon Perl Mongers discussion</name>
 			<email type="list">luberon-pm@pm.org</email>
@@ -9035,7 +9008,7 @@
 		<date type="inception">20010203</date>
 	</group>
 
-	<group id="350" status="leb">
+	<group id="350" status="dead">
 		<name>Haifa.pm</name>
 		<location>
 			<city>Haifa</city>
@@ -9105,7 +9078,7 @@
 			<name>Genie</name>
 			<email type="personal">genie@genienet.org</email>
 		</tsar>
-		<web>http://bahrain.pm.org</web>
+		<web>http://bahrain.pm.org/</web>
 		<mailing_list>
 			<name>General Bahrain Perl Mongers discussion</name>
 			<email type="list">bahrain-pm@pm.org</email>
@@ -9969,7 +9942,7 @@
 			<name>Kent Inge Klokk</name>
 			<email type="personal">kent@kent.zzn.com</email>
 		</tsar>
-		<web>http://longva.pm.org</web>
+		<web>http://longva.pm.org/</web>
 		<mailing_list>
 			<name>General Longva Perl Mongers discussion</name>
 			<email type="list"></email>
@@ -10131,7 +10104,7 @@
 			<name>Michael McPherson</name>
 			<email type="personal">mrp@hafatel.com</email>
 		</tsar>
-		<web>http://gum.pm.org</web>
+		<web>http://gum.pm.org/</web>
 		<mailing_list>
 			<name>General Gum Perl Mongers discussion</name>
 			<email type="list">gum-pm@pm.org</email>
@@ -10347,7 +10320,7 @@
 			<name>Steve Lane</name>
 			<email type="personal">sml@usually.com</email>
 		</tsar>
-		<web>http://kingsport.pm.org</web>
+		<web>http://kingsport.pm.org/</web>
 		<mailing_list>
 			<name>General Kingsport Perl Mongers discussion</name>
 			<email type="list">kingsport-pm@pm.org</email>
@@ -10374,7 +10347,7 @@
 			<name>Alexander Danilov</name>
 			<email type="personal">daapp@chat.ru</email>
 		</tsar>
-		<web>http://stary-oksol.pm.org</web>
+		<web>http://stary-oksol.pm.org/</web>
 		<mailing_list>
 			<name>General Stary-Oksol Perl Mongers discussion</name>
 			<email type="list">stary-oksol@pm.org</email>
@@ -10887,7 +10860,7 @@
 			<name>Anthony Rizos</name>
 			<email type="personal">anthony@rizos.com</email>
 		</tsar>
-		<web>http://coloradoriver.pm.org</web>
+		<web>http://coloradoriver.pm.org/</web>
 		<mailing_list>
 			<name>General ColoradoRiver Perl Mongers discussion</name>
 			<email type="list">coloradoriver@pm.org</email>
@@ -11211,7 +11184,7 @@
 			<name>Ski Sankhe</name>
 			<email type="personal">vinayak.sankhe@bellsouth.com</email>
 		</tsar>
-		<web>http://bham.pm.org</web>
+		<web>http://bham.pm.org/</web>
 		<mailing_list>
 			<name>General Bham Perl Mongers discussion</name>
 			<email type="list">bham-pm@pm.org</email>
@@ -12183,7 +12156,7 @@
 			<name>Jerome Quelin</name>
 			<email type="personal">jquelin@mongeurs.net</email>
 		</tsar>
-		<web>http://lyon.pm.org</web>
+		<web>http://lyon.pm.org/</web>
 		<mailing_list>
 			<name>General Lyon Perl Mongers discussion</name>
 			<email type="list">lyon-pm.org</email>
@@ -12210,7 +12183,7 @@
 			<name>Sajid Khan</name>
 			<email type="personal">skhan@carolinas.org</email>
 		</tsar>
-		<web>http://indiantrail.pm.org</web>
+		<web>http://indiantrail.pm.org/</web>
 		<mailing_list>
 			<name>General indiantrail-pm.org Perl Mongers discussion</name>
 			<email type="list">indiantrail-pm.org</email>
@@ -12237,7 +12210,7 @@
 			<name>Geert Theys</name>
 			<email type="personal">geert@toadi.org</email>
 		</tsar>
-		<web>http://belgian.pm.org</web>
+		<web>http://belgian.pm.org/</web>
 		<mailing_list>
 			<name>General belgian Perl Mongers discussion</name>
 			<email type="list">belgian-pm@pm.org</email>
@@ -12264,7 +12237,7 @@
 			<name>Daniel Hopkirk</name>
 			<email type="personal">hoppers99@clear.net.nz</email>
 		</tsar>
-		<web>http://hawkesbay.pm.org</web>
+		<web>http://hawkesbay.pm.org/</web>
 		<mailing_list>
 			<name>General HawkesBay Perl Mongers discussion</name>
 			<email type="list">hawkesbay-pm@pm.org</email>
@@ -12749,7 +12722,7 @@
 			<name>Robert G. Ward</name>
 			<email type="personal">MAWarGod@hotmail.com</email>
 		</tsar>
-		<web>http://brownsville.pm.org</web>
+		<web>http://brownsville.pm.org/</web>
 		<mailing_list>
 			<name>General Brownsville Perl Mongers discussion</name>
 			<email type="list">brownsville@pm.org</email>
@@ -13424,7 +13397,7 @@
 			<name>Robbie Scourou</name>
 			<email type="personal">perl@d3n.net</email>
 		</tsar>
-		<web>http://norwich.pm.org</web>
+		<web>http://norwich.pm.org/</web>
 		<mailing_list>
 			<name>General Norwich Perl Mongers discussion</name>
 			<email type="list">norwich-pm@pm.org</email>
@@ -13826,32 +13799,6 @@
 			<name>General Leuven Perl Mongers discussion</name>
 			<email type="list">Leuven-pm@pm.org</email>
 			<email type="list_admin">pm@quickndirty.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
-		<date type="inception">20020925</date>
-	</group>
-	<group id="541" status="active">
-		<name>Algarve.pm</name>
-		<location>
-			<city>Faro</city>
-			<state>Algarve</state>
-			<region>Algarve</region>
-			<country>Portugal</country>
-			<continent>Europe</continent>
-                        <longitude>-7.9333</longitude>
-                        <latitude>37.0167</latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Jose Machado</name>
-			<email type="personal">pki@clix.pt</email>
-		</tsar>
-		<web>http://Algarve.pm.org/</web>
-		<mailing_list>
-			<name>General Faro Perl Mongers discussion</name>
-			<email type="list">Algarve-pm@pm.org</email>
-			<email type="list_admin">pki@clix.pt</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
@@ -14916,33 +14863,6 @@
 		<date type="inception">20030425</date>
 	</group>
 
-	<group id="574" status="active">
-		<name>Bangkok.pm</name>
-		<location>
-			<city>Bangkok</city>
-			<state>Bangkok</state>
-			<region></region>
-			<country>Thailand</country>
-			<continent>Asia</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Komtanoo Pinpimai</name>
-			<email type="personal">romerun@cpan.org</email>
-		</tsar>
-		<web>http://bangcock.pm.org/</web>
-		<mailing-list>
-			<name>General Bangkok Perl Mongers discussion</name>
-			<email type="list">bangkok-pm@pm.org</email>
-			<email type="list_admin">romerun@cpan.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing-list>
-		<date type="inception">20030425</date>
-	</group>
-
         <!-- duplicate - leon -->
 	<group id="575" status="dead">
 		<name>Pisa.pm</name>
@@ -14965,34 +14885,6 @@
 			<name>General Pisa Perl Mongers discussion</name>
 			<email type="list">pisa-pm@pm.org</email>
 			<email type="list_admin">bepi@modperl.it</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing-list>
-		<date type="inception">20030425</date>
-	</group>
-
-
-	<group id="577" status="active">
-		<name>Africa Perl Users Group.pm</name>
-		<location>
-			<city>Addis Ababa</city>
-			<state></state>
-			<region></region>
-			<country>Ethiopia</country>
-			<continent>Africa</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Alemu Tadesse</name>
-			<email type="personal">myperl2003@yahoo.com</email>
-		</tsar>
-		<web>http://africa.pm.org/</web>
-		<mailing-list>
-			<name>General Africa Perl Users Group Perl Mongers discussion</name>
-			<email type="list">africa-pm@pm.org</email>
-			<email type="list_admin">myperl2003@yahoo.com</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing-list>
@@ -15408,33 +15300,6 @@
 		<date type="inception">20030705</date>
 	</group>
 
-	<group id="593" status="active">
-		<name>Orlando.pm</name>
-		<location>
-			<city>Orlando</city>
-			<state>Florida</state>
-			<region> </region>
-			<country>United States of America</country>
-			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Scott Anderson</name>
-			<email type="personal">sand@anderfam.net</email>
-		</tsar>
-		<web>http://orlando.pm.org/</web>
-		<mailing-list>
-			<name>General Orlando Perl Mongers discussion</name>
-			<email type="list">orlando-pm@pm.org</email>
-			<email type="list_admin">sand@anderfam.net</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing-list>
-		<date type="inception">20030817</date>
-	</group>
-
 	<group id="594" status="active">
 		<name>ClassicCity.pm</name>
 		<location>
@@ -15667,7 +15532,7 @@
 			<name>Byeong-Chul Kang</name>
 			<email type="personal">bckang@pusan.ac.kr</email>
 		</tsar>
-		<web>http://korea.pm.org.pm.org/</web>
+		<web>http://korea.pm.org/</web>
 		<mailing-list>
 			<name>General Korean Perl User Group Perl Mongers discussion</name>
 			<email type="list">korea.pm.org-pm@pm.org</email>
