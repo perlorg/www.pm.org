@@ -1,6 +1,5 @@
 aalborg
 aalesund
-aalesund
 aarschot
 aasen
 abe
@@ -13,6 +12,7 @@ algoma
 alphen
 ang-mo-kio
 angola
+ankara
 annarbor
 aol
 arad
@@ -20,6 +20,7 @@ argentina
 arnhem
 arturovaldes
 ashland
+athens|Action perlpre /cgi/perlpre.cgi|AddHandler perlpre .prl
 atlanta
 atlanticcity
 auckland
@@ -28,7 +29,6 @@ austria-marchfeld
 bali
 baltimore
 bandung
-bangalore
 bangalore
 bangkok
 barcelona
@@ -44,6 +44,7 @@ belgian
 belgrade
 bengal
 bergen
+berliner:berlin
 bern
 bham
 bielefeld
@@ -68,7 +69,7 @@ burnaby
 bursa
 cafe
 cairo
-calcutta
+calcutta:cs:kolkata
 calgary
 calicut
 cambridge
@@ -85,6 +86,7 @@ cedarvalley
 ceduna
 central-coast
 cgi
+champaign-urbana:cmi
 charlotte
 charlottesville
 cheese
@@ -92,12 +94,13 @@ china
 cincinnati
 clemson
 coasties
+coimbatore
 coimbra
 cola
 collogne
 cologne
 coloradoriver
-colorado-springs
+colorado-springs:pikes-peak
 columbia
 columbus
 comodoro
@@ -109,9 +112,9 @@ costarica
 courbevoie
 csusb
 csy
+cypriots
 dales
 dallas-fw
-delhi
 delhi
 depok
 destin
@@ -132,11 +135,13 @@ eindhoven
 farmingdale
 florence
 france
+frankfurt->http://frankfurt.perlmongers.de/
 frederick
 gabrovo
 gainesville
 galicia
 geraldton
+german->http://perlmongers.de/
 glasgow
 godam
 gombe
@@ -147,6 +152,7 @@ guadalajara
 guapimirim
 guatemala
 gucheng
+guiadoperl
 gum
 gunpowdertea
 gwl
@@ -166,6 +172,7 @@ hull
 humboldt
 huntington
 iasi
+idahofalls:if
 ikmamadina
 indiantrail
 irving
@@ -245,6 +252,7 @@ montevideo
 mumbai
 mus
 mytutorial
+nanuque
 napavalley
 nashville
 ncssm
@@ -253,6 +261,7 @@ neoklahoma
 nepenn
 newcastle
 newdelhi
+neworleans
 nh
 nicholasville
 niederrhein
@@ -269,10 +278,9 @@ novosibirsk
 oakland
 oc
 oeiras
-okc
+okc:oklahomacity
 oly
 omaha
-ooubafsan
 ooubafsan
 orlando
 oslo
@@ -286,8 +294,9 @@ pemalang
 perlburg
 perlmonks
 perlnz
+perlsemny->http://groups.yahoo.com/group/perlsemny/
 perth
-philadelphia
+philadelphia:phl:philly
 philippines
 phoenix
 phperl
@@ -300,7 +309,7 @@ plymouth
 poe
 poneke
 portland
-portoalegre porto-alegre
+portoalegre:porto-alegre
 pound_perl
 prahran
 princeton
@@ -317,8 +326,10 @@ rehovot
 renotahoe
 resistenciaaria
 rio
+rioja:larioja
 rochester
 roederbergweg
+rubbercity->http://www.markymoon.com/rubbercity/
 saarland
 sachsen
 saintgall
@@ -343,18 +354,15 @@ smlane
 sncpm
 soco
 sofia
-sofla
 sonoma
 southampton
-southflorida
+southflorida:sofla
 south-wales
 spc_perlgeeks
 springfieldmo
 srilanka
 st-anna
 stary-oksol
-stonybrook
-stonybrook
 stonybrook
 stttelkom
 stuttgart
@@ -383,6 +391,7 @@ toulouse
 trivandrum
 tucson
 tulsa
+turkperl
 tutorial.pm.org
 tyneside
 ukraine
@@ -391,7 +400,6 @@ uppsala
 vallekas
 valleyperl
 valsad
-vancouver
 vancouver
 varese
 varna
@@ -402,6 +410,7 @@ wageningen
 wheaton
 whyalla
 wilmore
+woosteroh
 xadrez
 yerevan
 yuma
@@ -409,15 +418,3 @@ za
 zug
 zuidlimburg
 zurich
-turkperl
-dublin
-ankara
-nanuque
-neworleans
-neworleans
-cypriots
-guiadoperl
-woosteroh
-neworleans
-coimbatore
-neworleans
