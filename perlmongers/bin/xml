@@ -2,7 +2,7 @@
 
 use strict;
 use File::Copy;
-use Image::WorldMap;
+# use Image::WorldMap;
 use Template;
 use XML::LibXML;
 
@@ -37,7 +37,7 @@ my %allgroups;
 my %groups;
 mkdir 'www/groups/graphics';
 
-my $worldmap = Image::WorldMap->new('titchy.png');
+# my $worldmap = Image::WorldMap->new('titchy.png');
 
 my $xml = XML::LibXML->new();
 my $doc = $xml->parse_file($src_file);
@@ -88,15 +88,15 @@ foreach my $g ($doc->findnodes('//group')) {
     my $c = lc $continent;
     $c =~ s/\W/_/g;
     my $colour = $colours{$c} || die;
-    $worldmap->add($longitude, $latitude, 'group', $colour);
+    # $worldmap->add($longitude, $latitude, 'group', $colour);
 
     # have we drawn the single-country map already?
     unless (-f 'www/groups/graphics/$id.png') {
-      my $map = Image::WorldMap->new('titchy.png');
-      $map->add($longitude, $latitude, 'group', $colour);
-      $map->draw('foo.png');
-      system("pngtopnm foo.png | ppmquant 64 2>/dev/null | pnmtopng -compression 9 > www/groups/graphics/$id.png");
-      $image = "graphics/$id.png";
+      # my $map = Image::WorldMap->new('titchy.png');
+      # $map->add($longitude, $latitude, 'group', $colour);
+      # $map->draw('foo.png');
+      # system("pngtopnm foo.png | ppmquant 64 2>/dev/null | pnmtopng -compression 9 > www/groups/graphics/$id.png");
+      # $image = "graphics/$id.png";
     }
   } else {
     warn "Group $name in $location missing location\n";
@@ -144,7 +144,7 @@ foreach my $continent (@continents) {
   $name =~ s/\W/_/g;
   my $file = "www/groups/$name.html";
   my $groups;
-  my $map = Image::WorldMap->new('titchy.png');
+  # my $map = Image::WorldMap->new('titchy.png');
   foreach my $country (sort keys %{$groups{$continent}}) {
     if ($country eq 'United States of America') {
       foreach my $state (keys %{$groups{$continent}{$country}}) {
@@ -165,12 +165,12 @@ foreach my $continent (@continents) {
     next unless $status eq 'active' || $status eq 'sleeping';
     next unless $group->{continent} eq $continent;
     if ($group->{longitude} && $group->{latitude}) {
-      $map->add($group->{longitude}, $group->{latitude}, 'group', $colour);
+      # $map->add($group->{longitude}, $group->{latitude}, 'group', $colour);
     }
   }
 
-  $map->draw('foo.png');
-  system("pngtopnm foo.png | ppmquant 127 2>/dev/null | pnmtopng -compression 9 > www/groups/graphics/$name.png");
+  # $map->draw('foo.png');
+  # system("pngtopnm foo.png | ppmquant 127 2>/dev/null | pnmtopng -compression 9 > www/groups/graphics/$name.png");
   my $conf = {
 	      groups => $groups,
 	      continent => $continent,
@@ -183,8 +183,8 @@ foreach my $continent (@continents) {
 #use Data::Dumper; die Dumper($groups);
 }
 
-$worldmap->draw('foo.png');
-system('pngtopnm foo.png | ppmquant 255 2> /dev/null | pnmtopng -compression 9 > www/groups/graphics/world.png');
+# $worldmap->draw('foo.png');
+# system('pngtopnm foo.png | ppmquant 255 2> /dev/null | pnmtopng -compression 9 > www/groups/graphics/world.png');
 
 __END__
 =head1 NAME
