@@ -10,13 +10,25 @@ foreach my $user (@ARGV)
 	{
 	print "Adding user: $user.  domain name[$user]> ";
 	chomp( $domain = <STDIN> );
-	
-	next if defined scalar getpwnam($user);
 	$domain = $user unless $domain ne '';
+
+	print "group leader Full Name: ";
+	chomp( $fullname = <STDIN> );
+	($fullname =~ /^[-a-zA-Z_. ]+$/) || die;
+
+	print "group leader email address: ";
+	chomp( $email = <STDIN> );
+	($email =~ /^[-a-zA-Z0-9_.]+@[-a-zA-Z0-9_.]+$/) || die;
+
+	$domain =~ /^(.{1.8})/;
+	$user = $1;
 	
+	#next if defined scalar getpwnam($user);
+	die "username exists" if defined scalar getpwnam($user);
+
 	push @domains, $domain;
 	
-	system "/usr/sbin/useradd -m $user";
+	system "/usr/sbin/useradd -m $user -c '$fullname,$email' -s /bin/bash";
 
 	mkdir "/export/home/$user/www_docs", 0755;
 	mkdir "/export/home/$user/www_logs", 0755;
@@ -35,7 +47,7 @@ ServerAdmin webmaster\@pm.org
 DocumentRoot /export/home/$user/www_docs
 
 # Logging Directives
-TransferLog /export/home/$user/www_logs/access_log
+CustomLog /export/home/$user/www_logs/access_log combined
 ErrorLog    /export/home/$user/www_logs/error_log
 </VirtualHost>
 
@@ -62,7 +74,6 @@ HERE
 		
 		send_faq($email, $user, "$domain.pm.org");
 		}
-	
 	}
 
 
@@ -100,7 +111,7 @@ Subject: Perl Mongers services configured!
 Your Perl Monger net services have been configured.
 
 * log on to happyfunball.pm.org as "$user" with the password that
-you provided.  You must use ssh v.1.  telnet is not allowed.
+you provided.  You must use ssh v.1 (or v.2 now :).  telnet is not allowed.
 
 * in your home directory, there are two directories for your web
 things:
