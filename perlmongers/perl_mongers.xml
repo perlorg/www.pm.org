@@ -3037,7 +3037,7 @@
 		<date type="inception">19990120</date>
 	</group>
 	
-	<group id="112">
+	<group id="112" status="active">
 		<name>SaoPaulo.pm</name>
 		<location>
 			<city>Sao Paulo</city>
@@ -3050,8 +3050,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Sergio Salvi</name>
-			<email type="personal">saopaulo@hfb.pm.org</email>
+			<name>Luis Campos</name>
+			<email type="personal">lechamps@terra.com.br</email>
 		</tsar>
 		<web>http://sao-paulo.pm.org/</web>
 		<mailing_list>
