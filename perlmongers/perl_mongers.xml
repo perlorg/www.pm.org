@@ -16163,4 +16163,193 @@
 		</mailing-list>
 		<date type="inception">20040101</date>
 	</group>
-</perl_mongers>
+
+	<group id="626" status="active">
+		<name>ABE.pm</name>
+		<location>
+			<city>Allentown-Bethlehem-Easton</city>
+			<state>PA</state>
+			<region>Lehigh Valley / ABE</region>
+			<country>United States</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Ricardo Signes</name>
+			<email type="personal">rjbs-perl-mongers@public.manxome.org</email>
+		</tsar>
+		<web>http://abe.pm.org/</web>
+		<mailing-list>
+			<name>General ABE Perl Mongers discussion</name>
+			<email type="list">abe-pm@pm.org</email>
+			<email type="list_admin">rjbs-perl-mongers@public.manxome.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040208</date>
+	</group>
+
+	<group id="627" status="active">
+		<name>mytutorial.pm</name>
+		<location>
+			<city>mytutorial</city>
+			<state>m.p</state>
+			<region>middle</region>
+			<country>India</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>parag katare</name>
+			<email type="personal">katarepk_bcps@yahoo.com</email>
+		</tsar>
+		<web>http://mytutorial.pm.org/</web>
+		<mailing-list>
+			<name>General mytutorial Perl Mongers discussion</name>
+			<email type="list">mytutorial-pm@pm.org</email>
+			<email type="list_admin">katarepk_bcps@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040208</date>
+	</group>
+
+	<group id="628" status="active">
+		<name>ku.pm</name>
+		<location>
+			<city>ku</city>
+			<state>Mus</state>
+			<region>Middle east</region>
+			<country>Turkey</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>K. U.</name>
+			<email type="personal">ku@sdf.lonestar.org</email>
+		</tsar>
+		<web>http://ku.pm.org/</web>
+		<mailing-list>
+			<name>General ku Perl Mongers discussion</name>
+			<email type="list">ku-pm@pm.org</email>
+			<email type="list_admin">ku@sdf.lonestar.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040208</date>
+	</group>
+
+	<group id="629" status="active">
+		<name>kurdi.pm</name>
+		<location>
+			<city>kurdi</city>
+			<state>Duhok</state>
+			<region>Middle East</region>
+			<country>Iraq</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Chwan El-Kurdi</name>
+			<email type="personal">ku@freeshell.org</email>
+		</tsar>
+		<web>http://kurdi.pm.org/</web>
+		<mailing-list>
+			<name>General kurdi Perl Mongers discussion</name>
+			<email type="list">kurdi-pm@pm.org</email>
+			<email type="list_admin">ku@freeshell.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040208</date>
+	</group>
+
+	<group id="630" status="active">
+		<name>Mk.pm</name>
+		<location>
+			<city>Mk</city>
+			<state></state>
+			<region>Balcans</region>
+			<country>Macedonia, the Former Yugoslav Republic of</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Vasil Taneski</name>
+			<email type="personal">vaskot@mail.ru</email>
+		</tsar>
+		<web>http://mk.pm.org/</web>
+		<mailing-list>
+			<name>General Mk Perl Mongers discussion</name>
+			<email type="list">mk-pm@pm.org</email>
+			<email type="list_admin">vaskot@mail.ru</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040208</date>
+	</group>
+
+	<group id="631" status="active">
+		<name>PortoAlegre.pm</name>
+		<location>
+			<city>PortoAlegre</city>
+			<state>RS</state>
+			<region></region>
+			<country>Brazil</country>
+			<continent>South America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Er Galvão Abbott</name>
+			<email type="personal">pmpoa@galvao.eti.br</email>
+		</tsar>
+		<web>http://portoalegre.pm.org/</web>
+		<mailing-list>
+			<name>General PortoAlegre Perl Mongers discussion</name>
+			<email type="list">portoalegre-pm@pm.org</email>
+			<email type="list_admin">pmpoa@galvao.eti.br</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040208</date>
+	</group>
+
+	<group id="632" status="active">
+		<name>mississippi.pm</name>
+		<location>
+			<city>mississippi</city>
+			<state>Mississippi</state>
+			<region></region>
+			<country>United States</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Jonas  Bull</name>
+			<email type="personal">jonas@pbmhr.com</email>
+		</tsar>
+		<web>http://mississippi.pm.org/</web>
+		<mailing-list>
+			<name>General mississippi Perl Mongers discussion</name>
+			<email type="list">mississippi-pm@pm.org</email>
+			<email type="list_admin">jonas@pbmhr.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040208</date>
+	</group>
+</perl-mongers>

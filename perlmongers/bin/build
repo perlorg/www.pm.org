@@ -35,6 +35,7 @@ $rule->or(
 my @files = $rule->file()->name(qr/^.[^~]+$/)->in($source);
 
 foreach my $file (@files) {
+print STDERR $file, "\n";
   my $destfile = $file;
   $destfile =~ s/^$source/$destination/;
   my($volume, $directories, $filepart) = splitpath($destfile);
