@@ -2563,7 +2563,7 @@
 		<date type="inception">19990108</date>
 	</group>
 	
-	<group id="97">
+	<group id="97" status="active">
 		<name>Sonoma.pm</name>
 		<location>
 			<city>Santa Rosa</city>
