@@ -66,6 +66,8 @@ foreach my $name (keys %$xml) {
 
   my $continent = $group->{location}->{continent};
   my $country = $group->{location}->{country};
+  $group->{tsar}->{email}->{content} =~ s/@/ at /g;
+
   push @{$groups{$continent}->{$country}}, $group;
 
   if (!-f "www/groups/$id.html") {
