@@ -91,8 +91,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Joe Calkins</name>
-			<email type="personal">jcalkins@swcp.com</email>
+			<name>David Keeney</name>
+			<email type="personal">dkeeney@travelbyroad.net</email>
 		</tsar>
 		<web>http://albuquerque.pm.org/</web>
 		<mailing_list>
@@ -2562,7 +2562,7 @@
 		</mailing_list>
 		<date type="inception">19990108</date>
 	</group>
-	
+
 	<group id="97" status="active">
 		<name>Sonoma.pm</name>
 		<location>
@@ -3812,7 +3812,7 @@
 		<date type="inception">19990208</date>
 	</group>
 	
-	<group id="146">
+	<group id="146" status="active">
 		<name>Porto.pm</name>
 		<location>
 			<city>Porto</city>
@@ -5527,8 +5527,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>James</name>
-			<email type="personal">james@rf.net</email>
+			<name>Blake Mills</name>
+			<email type="personal">blakem@blakem.com</email>
 		</tsar>
 		<web>http://www.rf.net/~sv-pm-org/</web>
 		<mailing_list>
@@ -5770,8 +5770,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Matt Broughton</name>
-			<email type="personal">mbrought@conterra.com</email>
+			<name>CJ Carlisle</name>
+			<email type="personal">cj@aacarlisle.com</email>
 		</tsar>
 		<web></web>
 		<mailing_list>
@@ -6958,8 +6958,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Akinobu Yamamoto</name>
-			<email type="personal">ayamamot@mbox2.inet-osaka.or.jp</email>
+			<name>KAWAI, Takanori</name>
+			<email type="personal">kwitknr@cpan.org</email>
 		</tsar>
 		<web>http://kansai.pm.org/</web>
 		<mailing_list>
@@ -12267,7 +12267,7 @@
 		<date type="inception">20020214</date>
 	</group>
 
-	<group id="474">
+	<group id="474" status="active">
 		<name>Basel.pm</name>
 		<location>
 			<city>Basel</city>
@@ -12491,13 +12491,13 @@
 			<region>South Florida</region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-80.096910<</longitude>
+			<latitude>26.407106</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
 			<name>Jeff Bisbee</name>
-			<email type="personal">jbisbee@yahoo.com</email>
+			<email type="personal">southflorida-pm@jbisbee.com</email>
 		</tsar>
 		<web>http://southflorida.pm.org/</web>
 		<mailing_list>
