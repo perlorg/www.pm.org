@@ -1018,8 +1018,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Matt Diephouse</name>
-			<email type="personal">matt@diephouse.com</email>
+			<name>Matt Hahnfeld</name>
+			<email type="personal">matth@everysoft.com</email>
 		</tsar>
 		<web>http://grand-rapids.pm.org/</web>
 		<mailing_list>
@@ -1963,10 +1963,10 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Garr Updegraff</name>
-			<email type="personal">garru@uci.edu</email>
+			<name>Douglas Wilson</name>
+			<email type="personal">dgwilson1@cox.net</email>
 		</tsar>
-		<web></web>
+		<web>http://oc.pm.org/</web>
 		<mailing_list>
 			<name></name>
 			<email type="list"></email>
@@ -12748,14 +12748,14 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Shauzab Khan</name>
-			<email type="personal">shauzabkhan@mailcity.com</email>
+			<name>Andre Bonhote</name>
+			<email type="personal">perl@problemlos.ch</email>
 		</tsar>
 		<web>http://zurich.pm.org/</web>
 		<mailing_list>
 			<name>General Zurich Perl Mongers discussion</name>
 			<email type="list">zurich-pm@pm.org</email>
-			<email type="list_admin">shauzabkhan@mailcity.com</email>
+			<email type="list_admin">perl@problemlos.ch</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
