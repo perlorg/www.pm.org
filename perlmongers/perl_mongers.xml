@@ -15791,7 +15791,7 @@
 		<location>
 			<city>Aalesund</city>
 			<state>Ålesund</state>
-			<region>Møre & Romsdal</region>
+			<region>Møre &amp; Romsdal</region>
 			<country>Norway</country>
 			<continent>Europe</continent>
 			<longitude></longitude>
@@ -16163,4 +16163,4 @@
 		</mailing-list>
 		<date type="inception">20040101</date>
 	</group>
-</perl-mongers>
+</perl_mongers>
