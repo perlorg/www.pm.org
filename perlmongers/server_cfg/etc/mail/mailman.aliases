@@ -2470,18 +2470,6 @@ guatemala-pm-request:      "|/var/mailman/mail/mailman request guatemala-pm"
 guatemala-pm-subscribe:    "|/var/mailman/mail/mailman subscribe guatemala-pm"
 guatemala-pm-unsubscribe:  "|/var/mailman/mail/mailman unsubscribe guatemala-pm"
 
-## guiadoperl-pm mailing list
-guiadoperl-pm:              "|/var/mailman/mail/mailman post guiadoperl-pm"
-guiadoperl-pm-admin:        "|/var/mailman/mail/mailman admin guiadoperl-pm"
-guiadoperl-pm-bounces:      "|/var/mailman/mail/mailman bounces guiadoperl-pm"
-guiadoperl-pm-confirm:      "|/var/mailman/mail/mailman confirm guiadoperl-pm"
-guiadoperl-pm-join:         "|/var/mailman/mail/mailman join guiadoperl-pm"
-guiadoperl-pm-leave:        "|/var/mailman/mail/mailman leave guiadoperl-pm"
-guiadoperl-pm-owner:        "|/var/mailman/mail/mailman owner guiadoperl-pm"
-guiadoperl-pm-request:      "|/var/mailman/mail/mailman request guiadoperl-pm"
-guiadoperl-pm-subscribe:    "|/var/mailman/mail/mailman subscribe guiadoperl-pm"
-guiadoperl-pm-unsubscribe:  "|/var/mailman/mail/mailman unsubscribe guiadoperl-pm"
-
 ## guimaraes-pm mailing list
 guimaraes-pm:              "|/var/mailman/mail/mailman post guimaraes-pm"
 guimaraes-pm-admin:        "|/var/mailman/mail/mailman admin guimaraes-pm"
@@ -3898,4 +3886,15 @@ fortaleza-request:      "|/var/mailman/mail/mailman request fortaleza"
 fortaleza-subscribe:    "|/var/mailman/mail/mailman subscribe fortaleza"
 fortaleza-unsubscribe:  "|/var/mailman/mail/mailman unsubscribe fortaleza"
 
+## vitoria mailing list
+vitoria:              "|/var/mailman/mail/mailman post vitoria"
+vitoria-admin:        "|/var/mailman/mail/mailman admin vitoria"
+vitoria-bounces:      "|/var/mailman/mail/mailman bounces vitoria"
+vitoria-confirm:      "|/var/mailman/mail/mailman confirm vitoria"
+vitoria-join:         "|/var/mailman/mail/mailman join vitoria"
+vitoria-leave:        "|/var/mailman/mail/mailman leave vitoria"
+vitoria-owner:        "|/var/mailman/mail/mailman owner vitoria"
+vitoria-request:      "|/var/mailman/mail/mailman request vitoria"
+vitoria-subscribe:    "|/var/mailman/mail/mailman subscribe vitoria"
+vitoria-unsubscribe:  "|/var/mailman/mail/mailman unsubscribe vitoria"
 
