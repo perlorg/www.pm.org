@@ -15547,7 +15547,7 @@
 		<name>SantoDomingo.pm</name>
 		<location>
 			<city>SantoDomingo</city>
-			<state>Santo Domingo</state>
+			<state></state>
 			<region></region>
 			<country>Dominican Republic</country>
 			<continent>South America</continent>
@@ -15627,9 +15627,9 @@
 	<group id="601" status="active">
 		<name>Mexico.pm</name>
 		<location>
-			<city>Mexico</city>
-			<state> </state>
-			<region>Mexico</region>
+			<city></city>
+			<state></state>
+			<region></region>
 			<country>Mexico</country>
 			<continent>North America</continent>
 			<longitude></longitude>
