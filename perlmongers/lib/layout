@@ -59,7 +59,7 @@
 %]
 
 [% INCLUDE sideheader
-  major = {"Affiliates" => "/extremeprogramming.html"}
+  major = {"Affiliates" => "/"}
   minor = {
     "Yet Another Society" => "http://www.yetanother.org/",
     "The Perl Foundation" => "http://www.perlfoundation.org/",
