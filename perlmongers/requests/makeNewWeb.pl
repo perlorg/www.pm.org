@@ -20,44 +20,38 @@ foreach my $user (@ARGV)
 	chomp( $email = <STDIN> );
 	($email =~ /^[-a-zA-Z0-9_.]+@[-a-zA-Z0-9_.]+$/) || die;
 
-	$domain =~ /^(.{1.8})/;
+	$domain =~ /^(.{1,8})/;
 	$user = $1;
+
+print STDERR "user: <$user>\n";
+print STDERR "domain: <$domain>\n";
 	
 	#next if defined scalar getpwnam($user);
 	die "username exists" if defined scalar getpwnam($user);
 
 	push @domains, $domain;
 	
-	system "/usr/sbin/useradd -m $user -c '$fullname,$email' -s /bin/bash";
+	print "/usr/sbin/useradd -m -c '$fullname,$email' -s /bin/bash $user";
+	system "/usr/sbin/useradd -m -c '$fullname,$email' -s /bin/bash $user";
 
 	mkdir "/export/home/$user/www_docs", 0755;
 	mkdir "/export/home/$user/www_logs", 0755;
 	
 	chown( (getpwnam($user))[2,3], glob("/export/home/$user/www_*"));
 
-	open FILE, ">> /etc/httpd.conf";
+	open FILE, ">> /etc/httpd/pm.org.vhosts";
 	flock FILE, LOCK_EX;
 	seek FILE, 0, 2;
+	print FILE "$domain:$user:www_logs/:combined:0:0:0::\n";
+	close FILE;
 
-	print FILE <<"HERE";
-#added [@{[scalar localtime]}]
-<VirtualHost 166.84.5.165>
-ServerName $domain.pm.org
-ServerAdmin webmaster\@pm.org
-DocumentRoot /export/home/$user/www_docs
-
-# Logging Directives
-CustomLog /export/home/$user/www_logs/access_log combined
-ErrorLog    /export/home/$user/www_logs/error_log
-</VirtualHost>
-
-HERE
-
+	open FILE, ">> /etc/httpd/pm.org.vhosts2";
+	flock FILE, LOCK_EX;
+	seek FILE, 0, 2;
+	print FILE "$domain:$user:\n";
 	close FILE;
 
 	
-	print "Adding virtusertable alias: $domain.  email> ";
-	chomp( my $email = <STDIN> );
 	if( defined $email )
 		{
 		open FILE, ">> /etc/mail/virtusertable";
