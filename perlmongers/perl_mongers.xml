@@ -15082,4 +15082,355 @@
 <!-- next free group id is 579 -->
 <!-- please don't insert duplicate group ids, wayne ;-) -->
 
-</perl_mongers>
+
+	<group id="579" status="active">
+		<name>Recife.pm</name>
+		<location>
+			<city>Recife</city>
+			<state>Pernambuco</state>
+			<region>Nordeste</region>
+			<country>Brazil</country>
+			<continent>South America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Vinicio Tavares de Melo Costa da Silva</name>
+			<email type="personal">vtmcs@cin.ufpe.br</email>
+		</tsar>
+		<web>http://recife.pm.org/</web>
+		<mailing-list>
+			<name>General Recife Perl Mongers discussion</name>
+			<email type="list">recife-pm@pm.org</email>
+			<email type="list_admin">vtmcs@cin.ufpe.br</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030628</date>
+	</group>
+
+	<group id="580" status="active">
+		<name>arnhem.pm</name>
+		<location>
+			<city>arnhem</city>
+			<state> </state>
+			<region></region>
+			<country>Netherlands</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Mark Overmeer</name>
+			<email type="personal">mark@overmeer.net</email>
+		</tsar>
+		<web>http://arnhem.pm.org/</web>
+		<mailing-list>
+			<name>General arnhem Perl Mongers discussion</name>
+			<email type="list">arnhem-pm@pm.org</email>
+			<email type="list_admin">mark@overmeer.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030628</date>
+	</group>
+
+	<group id="581" status="active">
+		<name>Thane.pm</name>
+		<location>
+			<city>Thane</city>
+			<state>Maharashtra</state>
+			<region> </region>
+			<country>India</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Amey R Pathak</name>
+			<email type="personal">amey_pathak@yahoo.com</email>
+		</tsar>
+		<web>http://thane.pm.org/</web>
+		<mailing-list>
+			<name>General Thane Perl Mongers discussion</name>
+			<email type="list">thane-pm@pm.org</email>
+			<email type="list_admin">amey_pathak@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030628</date>
+	</group>
+
+	<group id="582" status="active">
+		<name>US Virgin Islands.pm</name>
+		<location>
+			<city>Christiansted</city>
+			<state>Virgin Islands</state>
+			<region>US Virgin Islands</region>
+			<country>United States Minor Outlying Islands</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Masthanaiah Meejuru</name>
+			<email type="personal">meejurum@yahoo.com</email>
+		</tsar>
+		<web>http://usvirginislands.pm.org/</web>
+		<mailing-list>
+			<name>General US Virgin Islands Perl Mongers discussion</name>
+			<email type="list">usvirginislands-pm@pm.org</email>
+			<email type="list_admin">meejurum@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030628</date>
+	</group>
+
+	<group id="583" status="active">
+		<name>Stuttgart.pm</name>
+		<location>
+			<city>Stuttgart</city>
+			<state>Baden-Württemberg</state>
+			<region> </region>
+			<country>Germany</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Christian Renz</name>
+			<email type="personal">crenz@web42.com</email>
+		</tsar>
+		<web>http://stuttgart.pm.org/</web>
+		<mailing-list>
+			<name>General Stuttgart Perl Mongers discussion</name>
+			<email type="list">stuttgart-pm@pm.org</email>
+			<email type="list_admin">crenz@web42.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030628</date>
+	</group>
+
+	<group id="584" status="active">
+		<name>Brasil.pm</name>
+		<location>
+			<city>Brasil</city>
+			<state> </state>
+			<region> </region>
+			<country>Brazil</country>
+			<continent>South America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Flavio Soibelmann Glock</name>
+			<email type="personal">fglock@pucrs.br</email>
+		</tsar>
+		<web>http://brasil.pm.org/</web>
+		<mailing-list>
+			<name>General Brasil Perl Mongers discussion</name>
+			<email type="list">brasil-pm@pm.org</email>
+			<email type="list_admin">fglock@pucrs.br</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030628</date>
+	</group>
+
+	<group id="585" status="active">
+		<name>torino.pm</name>
+		<location>
+			<city>torino</city>
+			<state></state>
+			<region></region>
+			<country>Italy</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Vittorio Zuccala</name>
+			<email type="personal">perlmonk_233437@nathanvi.it</email>
+		</tsar>
+		<web>http://torino.pm.org/</web>
+		<mailing-list>
+			<name>General torino Perl Mongers discussion</name>
+			<email type="list">torino-pm@pm.org</email>
+			<email type="list_admin">perlmonk_233437@nathanvi.it</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030628</date>
+	</group>
+
+	<group id="586" status="active">
+		<name>Oegstgeest.pm</name>
+		<location>
+			<city>Oegstgeest</city>
+			<state></state>
+			<region></region>
+			<country>Netherlands</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Eric Veldhuyzen</name>
+			<email type="personal">eric@terra.nu</email>
+		</tsar>
+		<web>http://oegstgeest.pm.org/</web>
+		<mailing-list>
+			<name>General Oegstgeest Perl Mongers discussion</name>
+			<email type="list">oegstgeest-pm@pm.org</email>
+			<email type="list_admin">eric@terra.nu</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030628</date>
+	</group>
+
+	<group id="587" status="active">
+		<name>salerno.pm</name>
+		<location>
+			<city>salerno</city>
+			<state></state>
+			<region></region>
+			<country>Italy</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Giuseppe De Sio</name>
+			<email type="personal">dev@pigmalion.info</email>
+		</tsar>
+		<web>http://salerno.pm.org/</web>
+		<mailing-list>
+			<name>General salerno Perl Mongers discussion</name>
+			<email type="list">salerno-pm@pm.org</email>
+			<email type="list_admin">dev@pigmalion.info</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030628</date>
+	</group>
+
+	<group id="588" status="active">
+		<name>Gombe.pm</name>
+		<location>
+			<city>Gombe</city>
+			<state> </state>
+			<region> </region>
+			<country>Nigeria</country>
+			<continent>Africa</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Chiokwe John</name>
+			<email type="personal">johnke12@yahoo.com</email>
+		</tsar>
+		<web>http://gombe.pm.org/</web>
+		<mailing-list>
+			<name>General Gombe Perl Mongers discussion</name>
+			<email type="list">gombe-pm@pm.org</email>
+			<email type="list_admin">johnke12@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030628</date>
+	</group>
+
+	<group id="589" status="active">
+		<name>dahut.pm</name>
+		<location>
+			<city> </city>
+			<state> </state>
+			<region> </region>
+			<country> </country>
+			<continent> </continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Bender</name>
+			<email type="personal">bender@prather.org</email>
+		</tsar>
+		<web>http://dahut.pm.org/</web>
+		<mailing-list>
+			<name>General dahut Perl Mongers discussion</name>
+			<email type="list">dahut-pm@pm.org</email>
+			<email type="list_admin">bender@prather.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030628</date>
+	</group>
+
+	<group id="590" status="active">
+		<name>Kaoh.pm</name>
+		<location>
+			<city>Kaohsiung</city>
+			<state>Taiwan</state>
+			<region> </region>
+			<country>Taiwan</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Matthew Lien (BlueT)</name>
+			<email type="personal">matthew@elixus.org</email>
+		</tsar>
+		<web>http://kaoh.pm.org/</web>
+		<mailing-list>
+			<name>General Kaoh Perl Mongers discussion</name>
+			<email type="list">kaoh-pm@pm.org</email>
+			<email type="list_admin">matthew@elixus.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030628</date>
+	</group>
+
+	<group id="591" status="active">
+		<name>Guapimirim.pm</name>
+		<location>
+			<city>Guapimirim</city>
+			<state>RJ</state>
+			<region>Serrana</region>
+			<country>Brazil</country>
+			<continent>South America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Marco Lima</name>
+			<email type="personal">marco.lima@e-via.com.br</email>
+		</tsar>
+		<web>http://guapimirim.pm.org/</web>
+		<mailing-list>
+			<name>General Guapimirim Perl Mongers discussion</name>
+			<email type="list">guapimirim-pm@pm.org</email>
+			<email type="list_admin">marco.lima@e-via.com.br</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030628</date>
+	</group>
+</perl-mongers>
