@@ -88,6 +88,9 @@ for my $group_name (sort keys %groups) {
 	    "ServerAdmin webmaster\@" . $group->{name} . ".pm.org\n" . 
 	    "DocumentRoot /pm.org/" . $group->{name} .  "\n" . 
 	    "ScriptAlias /cgi-bin/ /pm.org/" . $group->{name} .  "/cgi-bin/\n" . 
+	    #"ErrorLog /var/log/httpd/groups/$group->{name}_error_log\n" . 
+	    #"CustomLog /var/log/httpd/groups/$group->{name}_access_log combined\n" .
+
 	    $group->{directives};
     }
 
