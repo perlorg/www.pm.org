@@ -16218,60 +16218,6 @@
 		<date type="inception">20040208</date>
 	</group>
 
-	<group id="628" status="active">
-		<name>ku.pm</name>
-		<location>
-			<city>ku</city>
-			<state>Mus</state>
-			<region>Middle east</region>
-			<country>Turkey</country>
-			<continent>Asia</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>K. U.</name>
-			<email type="personal">ku@sdf.lonestar.org</email>
-		</tsar>
-		<web>http://ku.pm.org/</web>
-		<mailing-list>
-			<name>General ku Perl Mongers discussion</name>
-			<email type="list">ku-pm@pm.org</email>
-			<email type="list_admin">ku@sdf.lonestar.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing-list>
-		<date type="inception">20040208</date>
-	</group>
-
-	<group id="629" status="active">
-		<name>kurdi.pm</name>
-		<location>
-			<city>kurdi</city>
-			<state>Duhok</state>
-			<region>Middle East</region>
-			<country>Iraq</country>
-			<continent>Asia</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Chwan El-Kurdi</name>
-			<email type="personal">ku@freeshell.org</email>
-		</tsar>
-		<web>http://kurdi.pm.org/</web>
-		<mailing-list>
-			<name>General kurdi Perl Mongers discussion</name>
-			<email type="list">kurdi-pm@pm.org</email>
-			<email type="list_admin">ku@freeshell.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing-list>
-		<date type="inception">20040208</date>
-	</group>
-
 	<group id="630" status="active">
 		<name>Mk.pm</name>
 		<location>
