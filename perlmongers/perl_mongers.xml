@@ -2686,7 +2686,7 @@
 		<date type="inception">19980916</date>
 	</group>
 	
-	<group id="99">
+	<group id="99" status="active">
 		<name>StLouis.pm</name>
 		<location>
 			<city>St. Louis</city>
