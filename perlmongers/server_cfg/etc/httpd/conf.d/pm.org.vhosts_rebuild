@@ -2,9 +2,10 @@
 
 use strict;
 
-my ($IP) = "64.49.222.22";
+my ($IP) = "64.49.222.22:80";
 
-open (IN, "vhosts.pm.org") or die "Can't open vhosts.pm.org";
+open (IN, "pm.org.vhosts") or die "Can't open pm.org.vhosts";
+open (OUT, ">pm.org.conf");
 while (<IN>) {
    chomp;
    my ($aliases);
@@ -12,7 +13,7 @@ while (<IN>) {
    foreach my $alias (@aliases) {
       $aliases .= "ServerAlias $alias.pm.org\n";
    }
-   print <<EOT
+   print OUT <<EOT
 <VirtualHost $IP>
 ServerName ${host}.pm.org
 ${aliases}ServerAdmin webmaster\@$host.pm.org
@@ -21,5 +22,6 @@ DocumentRoot /pm.org/$host
 
 EOT
 }
-
+close IN;
+close OUT;
 
