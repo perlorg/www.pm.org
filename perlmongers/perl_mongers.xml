@@ -731,8 +731,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Henry Hartley</name>
-			<email type="personal">henryhartley@westat.com</email>
+			<name>Philip Hood</name>
+			<email type="personal">hood@panix.com</email>
 		</tsar>
 		<web>http://dc.pm.org/</web>
 		<mailing_list>
@@ -1245,9 +1245,9 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Ed Wright</name>
-			<email type="personal">ewright@spice.jpl.nasa.gov</email>
+			<email type="personal">ewright@jpl.nasa.gov</email>
 		</tsar>
-		<web>http://www.jplerc.org/perl/</web>
+		<web></web>
 		<mailing_list>
 			<name>General JPL.pm discussion</name>
 			<email type="list">jpl-pm-list@pm.org</email>
@@ -1312,7 +1312,7 @@
 		<date type="inception">19990127</date>
 	</group>
 	
-	<group id="50">
+	<group id="50" status="active">
 		<name>KansasCity.pm</name>
 		<location>
 			<city>Kansas City</city>
@@ -1325,10 +1325,10 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>David Nicol</name>
-			<email type="personal">david@kasey.umkc.edu</email>
+			<name>Garrett Goebel</name>
+			<email type="personal">garrett@scriptpro.com</email>
 		</tsar>
-		<web>http://www.tipjar.com/kcpm</web>
+		<web>http://www.tipjar.com/kcpm/</web>
 		<mailing_list>
 			<name>General KansasCity.pm discussion</name>
 			<email type="list">kansas-city-pm-list@pm.org</email>
@@ -5019,7 +5019,7 @@
 		<date type="inception">19990108</date>
 	</group>
 	
-	<group id="194">
+	<group id="194" status="active">
 		<name>Tokyo.pm</name>
 		<location>
 			<city>Tokyo</city>
@@ -5748,7 +5748,7 @@
 		<date type="inception">19991024</date>
 	</group>
 
-	<group id="222" status="leb">
+	<group id="222" status="active">
 		<name>Cola.pm</name>
 		<location>
 			<city>Columbia</city>
@@ -6250,7 +6250,7 @@
 			<name>Soeren M Soerries</name>
 			<email type="personal">perl@myobj.com</email>
 		</tsar>
-		<web>http://frankfurt.pm.org/</web>
+		<web>http://frankfurt-pm.org/</web>
 		<mailing_list>
 			<name>General Frankfurt.pm discussion</name>
 			<email type="list">frankfurt-pm-list@pm.org</email>
@@ -12286,7 +12286,7 @@
 	</group>
 
 	<group id="475" status="active">
-		<name>DataBuilt, Inc..pm</name>
+		<name>DBI.pm</name>
 		<location>
 			<city>Hilton Head Island</city>
 			<state>South Carolina</state>
