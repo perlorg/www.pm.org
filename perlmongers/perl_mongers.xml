@@ -6351,7 +6351,7 @@
 		<date type="inception">19991024</date>
 	</group>
 
-	<group id="244">
+	<group id="244" status="dead">
 		<name>CostaMesa.pm</name>
 		<location>
 			<city>Costa Mesa</city>
@@ -6837,7 +6837,7 @@
 		<date type="inception">20000116</date>
 	</group>
 
-	<group id="266" status="mlb">
+	<group id="266" status="dead">
 		<name>NewportBeach.pm</name>
 		<location>
 			<city>Newport Beach</city>
@@ -7540,7 +7540,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="296">
+	<group id="296" status="dead">
 		<name>LongBeach.pm</name>
 		<location>
 			<city>Long Beach</city>
