@@ -12735,7 +12735,7 @@
 		<date type="inception">20020406</date>
 	</group>
 
-	<group id="496" status="sleeping">
+	<group id="496" status="active">
 		<name>Zurich.pm</name>
 		<location>
 			<city>Zurich</city>
