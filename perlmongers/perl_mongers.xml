@@ -4981,7 +4981,7 @@
 		<date type="inception">19990503</date>
 	</group>
 	
-	<group id="192">
+	<group id="192" status="active">
 		<name>Pune.pm</name>
 		<location>
 			<city>Pune</city>
@@ -4995,7 +4995,7 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Aalhad Saraf</name>
-			<email type="personal">aalhad_saraf@hotmail.com</email>
+			<email type="personal">aalhad@gmail.com</email>
 		</tsar>
 		<web>http://pune.pm.org/</web>
 		<mailing_list>
