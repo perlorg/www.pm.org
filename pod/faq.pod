@@ -1,0 +1,163 @@
+=head1 Perl Monger Frequently Asked Questions
+
+Please send any suggestions or corrections to user_groups@pm.org
+
+=head2 General Questions
+
+=head3 What is Perl Mongers?
+
+Perl Mongers is a loose association of international Perl User Groups.
+Individual groups vary a great deal in the details of what they actually
+do, but in most cases they are groups of Perl users in a particular 
+location who get together periodically to discuss Perl and related
+topics.
+
+Perl Mongers is also the name of the organisation that oversees and
+co-ordinates the local groups. It also provides internet services to
+these groups. Perl Mongers was originally set up as a not-for-profit
+organisation in the state of New York, but in July 2001 it joined with
+Yet Another Society.
+
+=head3 Is there a Perl Mongers group in my area?
+
+The list of currently established groups is here [NOTE: Add link]
+
+=head3 How do I start a Perl Mongers group?
+
+Simply find some Perl hackers in your area and ask them if they'd be
+interested in starting a group.
+
+Experience shows that having a mailing list and a web site help to
+drum up interest in your new group. Almost certainly you'll already
+have access to servers to set them up on, but if you need help with 
+that, we will gladly supply both web space and a mailing list.
+
+The only other thing to do is to let us know about your new group
+so that we can add you to the list of established groups 
+[NOTE: Add link].
+
+=head3 Can you provide people to speak at our meetings?
+
+Perl Mongers can't actually provide speakers for you. Who do, however,
+maintain a list [NOTE: Add link] of well-known people from the Perl
+community who have indicated that they are happy to speak to Perl
+Monger groups when they are passing thru the area.
+
+=head2 Internet Services
+
+=head3 What Internet services can Perl Mongers provide?
+
+If your group does not have a local server that you can use to host
+a mailing list and a web site then we can host it for you on our server.
+If you want to host your mailing list and web site locally then we can
+provide a pm.org domain that points to your server.
+
+To set up your web space and mailing list on our server, please email
+tech@pm.org.
+
+To set up a pm.org domain pointing at your server, please email dns@pm.org.
+Please ensure you include the following information:
+
+=over 4
+
+=item *
+
+new numbers or names for A or CNAME records
+
+=item *
+
+new numbers and priorities for MX records 
+
+=back
+
+=head3 Why does it sometimes take awhile to get Perl Mongers services set up 
+for my group?
+
+Perl Mongers is an all volunteer organization, and almost all of our system 
+administrators have very demanding commitments outside of Perl Mongers. We 
+do things as quickly as is reasonable considering all of our other 
+commitments. Additionally, there's nothing stopping you from operating 
+your group while you are waiting for your Perl Mongers services.
+
+=head3 How do I set up my group's web site on the Perl Monger server?
+
+You'll be given a username on the server. You can use C<ssh> to log in
+to the server (we don't allow C<telnet> or C<ftp> connections).
+
+Your group's web directory is in your login directory. It's called www_docs. 
+Your log files are in www_logs. 
+
+You also get mod_perl and full cgi access. these haven't been tested 
+extensively, so let us know if you run into problems. If you want something 
+we don't offer, just ask. The web server configuration files are in 
+/opt/apache/gocho.pm.org/80/conf if you want to see how things are set up. 
+
+There is no explicit cgi-bin directory. CGI programs are recognised by the
+extension .cgi.
+
+Server side includes are turned on for files ending with the extension
+.shtml.
+
+We don't implement a quota system, but people using the server as an MP3
+library (or anything with similar space or bandwidth usage) I<will> be 
+noticed - and removed from the system.
+
+=head3 How can I administer my mailing list 
+
+Some older lists are still run using C<majordomo>. You can administer
+these lists using the standard C<majordomo> email interface. We also
+have a web interface at L<http://www.pm.org/majorcool/?module=modify>.
+
+All new lists (and many of the older ones) are run using C<mailman>.
+Users can access their C<mailman> configuration at
+L<http://www.pm.org/mailman/listinfo/I<E<gt>list nameE<lt>>. List admins
+can access the list administration page at
+L<http://www.pm.org/mailman/admin/I<E<gt>list nameE<lt>>>.
+
+=head3 You use C<mailman> on a Perl web site? Are you a secret Python
+programmer?
+
+C<mailman> is better than C<majordomo>. Deal with it.
+
+=head2 The Perl Mongers logo
+
+=head3 Can I make my own camel logo?
+
+The camel used in association with the Perl language is a trademark of 
+O'Reilly & Associates. Thus, you would have to ask them, although we can 
+help you go through that process if you need to. Be warned that this can be 
+a lengthy process and that only the most professionally designed logos are 
+likely to pass muster with O'Reilly. You should seriously consider using the 
+existing Perl Mongers logo which was chosen after almost a year of effort and 
+many trips back to the ad agency.
+
+=head3 Can I use the Perl Mongers logo?
+
+Perl Mongers groups can use the logo that appears on this page on their own 
+web page as long as they include the following text somewhere (able to be 
+clearly seen) on the page:
+
+"The use of the camel image in association with the Perl language is a 
+trademark of O'Reilly & Associates, Inc. Used with permission."
+
+Use of the Perl Mongers logo in other media is evaluated on a case by case 
+basis since Perl Mongers is legally liable for its misuse. Our license with 
+O'Reilly & Associates requires us to report misuse of the Camel logo with the 
+Perl Mongers name. Help us not get in trouble.
+
+=head3 Can I change the Perl Mongers logo's color, size, and so on?
+
+You can only use the image as you find it. Additionally, you cannot 
+incorporate it into a larger logo or make it look like it is part of a larger 
+graphic. If you have other needs, we might be able to work something out. We 
+will, however, be less willing to work out special situations if we have to 
+ask you to remove an improperly used logo before you ask us. We are legally 
+liable for misuse of the logo. 
+
+=head3 Who created the logo?
+
+Smith & Jones Advertising and Marketing developed the corporate image and 
+handles all of Perl Mongers logo placement needs. The camel image is used 
+with the permission of O'Reilly & Associates.
+
+=cut
