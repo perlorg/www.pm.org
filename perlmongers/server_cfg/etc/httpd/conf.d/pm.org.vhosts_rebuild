@@ -13,8 +13,9 @@ my $ip = "64.49.222.22:80";
 #  group_name->http://some.valid.url/
 #
 
-open my $out_fh, ">pm.org.conf"  or die "Can't open pm.org.conf";
-open my $in_fh,  "pm.org.vhosts" or die "Can't open pm.org.vhosts";
+my $dir = "/etc/httpd/conf.d/";
+open my $out_fh, ">$dir/pm.org.conf"  or die "Can't open $dir/pm.org.conf";
+open my $in_fh,  "$dir/pm.org.vhosts" or die "Can't open $dir/pm.org.vhosts";
 my @lines = <$in_fh>;
 chomp @lines;
 close $in_fh;
