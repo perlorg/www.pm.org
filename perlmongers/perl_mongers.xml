@@ -2301,7 +2301,7 @@
 		<date type="inception">19990515</date>
 	</group>
 	
-	<group id="84">
+	<group id="84" status="active">
 		<name>Rochester.pm</name>
 		<location>
 			<city>Rochester</city>
@@ -2314,8 +2314,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Brian Mathis</name>
-			<email type="personal">bmathis@directedge.com</email>
+			<name>John Resig</name>
+			<email type="personal">phytar@csh.rit.edu</email>
 		</tsar>
 		<web>http://rochester.pm.org/</web>
 		<mailing_list>
@@ -15710,7 +15710,7 @@
 		<location>
 			<city>austria.marchfeld</city>
 			<state>Marchfeld</state>
-			<region>Niederösterreich</region>
+			<region>NiederÃ¶sterreich</region>
 			<country>Austria</country>
 			<continent>Europe</continent>
 			<longitude></longitude>
@@ -15790,8 +15790,8 @@
 		<name>Aalesund.pm</name>
 		<location>
 			<city>Aalesund</city>
-			<state>Ålesund</state>
-			<region>Møre & Romsdal</region>
+			<state>Ã…lesund</state>
+			<region>MÃ¸re & Romsdal</region>
 			<country>Norway</country>
 			<continent>Europe</continent>
 			<longitude></longitude>
@@ -15826,7 +15826,7 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Christian Dühl</name>
+			<name>Christian DÃ¼hl</name>
 			<email type="personal">christian@duehl.de</email>
 		</tsar>
 		<web>http://bielefeld.pm.org/</web>
