@@ -8,7 +8,7 @@
 <!-- $Id$ -->
 
 <perl-mongers>
-	<group id="0">
+	<group id="0" status="active">
 		<!-- new york was the first group -->
 		<name>NY.pm</name>
 		<location>
@@ -70,7 +70,7 @@
 		<date type="inception">19981005</date>
 	</group>
 	
-	<group id="2">
+	<group id="2" status="active">
 		<name>Albuquerque.pm</name>
 		<location>
 			<city>Albuquerque</city>
@@ -124,7 +124,7 @@
 		<date type="inception">19990214</date>
 	</group>
 	
-	<group id="5">
+	<group id="5" status="alive">
 		<name>AnnArbor.pm</name>
 		<location>
 			<city>Ann Arbor</city>
@@ -151,7 +151,7 @@
 		<date type="inception">19981102</date>
 	</group>
 	
-	<group id="6">
+	<group id="6" status="sleeping">
 		<name>AOL.pm</name>
 		<location>
 			<city>Reston</city>
@@ -178,7 +178,7 @@
 		<date type="inception">19981102</date>
 	</group>
 	
-	<group id="7">
+	<group id="7" status="alive">
 		<name>Atlanta.pm</name>
 		<location>
 			<city>Atlanta</city>
@@ -205,7 +205,7 @@
 		<date type="inception">19980704</date>
 	</group>
 	
-	<group id="8">
+	<group id="8" status="leb">
 		<name>Austin.pm</name>
 		<location>
 			<city>Austin</city>
@@ -341,7 +341,7 @@
 		<date type="inception">19980207</date>
 	</group>
 	
-	<group id="13">
+	<group id="13" status="active">
 		<name>Boulder.pm</name>
 		<location>
 			<city>Boulder</city>
@@ -368,7 +368,7 @@
 		<date type="inception">19990311</date>
 	</group>
 	
-	<group id="14">
+	<group id="14" status="sleeping">
 		<name>Burbank.pm</name>
 		<location>
 			<city>Burbank</city>
@@ -395,7 +395,7 @@
 		<date type="inception">19990607</date>
 	</group>
 	
-	<group id="15">
+	<group id="15" status="alive">
 		<name>Cambridge.pm</name>
 		<location>
 			<city>Cambridge</city>
@@ -422,7 +422,7 @@
 		<date type="inception">19990607</date>
 	</group>
 	
-	<group id="16">
+	<group id="16" status="alive">
 		<name>Champaign-Urbana.pm</name>
 		<location>
 			<city></city>
@@ -436,7 +436,7 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Daniel Lewart</name>
-			<email type="personal">d-lewart@uiuc.edu</email>
+			<email type="personal">lewart@uiuc.edu</email>
 		</tsar>
 		<web>http://champaign-urbana.pm.org/</web>
 		<mailing-list>
@@ -557,7 +557,7 @@
 		<date type="inception">19980016</date>
 	</group>
 	
-	<group id="21">
+	<group id="21" status="leb">
 		<name>CGI.pm</name>
 		<location>
 			<city>Cape Girardeau</city>
@@ -611,7 +611,7 @@
 		<date type="inception">19990331</date>
 	</group>
 	
-	<group id="23">
+	<group id="23" status="active">
 		<name>Columbus.pm</name>
 		<location>
 			<city>Columbus</city>
@@ -638,7 +638,7 @@
 		<date type="inception">19990707</date>
 	</group>
 	
-	<group id="24">
+	<group id="24" status="active">
 		<name>DFW.pm</name>
 		<location>
 			<city></city>
@@ -718,7 +718,7 @@
 		<date type="inception">19990801</date>
 	</group>
 	
-	<group id="27">
+	<group id="27" status="active">
 		<name>DC.pm</name>
 		<location>
 			<city>Washington</city>
@@ -772,7 +772,7 @@
 		<date type="inception">19981124</date>
 	</group>
 	
-	<group id="29">
+	<group id="29" status="active">
 		<name>DesMoines.pm</name>
 		<location>
 			<city>Des Moines</city>
@@ -799,7 +799,7 @@
 		<date type="inception">19990503</date>
 	</group>
 	
-	<group id="30">
+	<group id="30" status="active">
 		<name>Detroit.pm</name>
 		<location>
 			<city>Detroit</city>
@@ -1096,7 +1096,7 @@
 		<date type="inception">19981113</date>
 	</group>
 	
-	<group id="42">
+	<group id="42" status="alive">
 		<name>Houston.pm</name>
 		<location>
 			<city>Houston</city>
@@ -1204,7 +1204,7 @@
 		<date type="inception">19990707</date>
 	</group>
 	
-	<group id="46">
+	<group id="46" status="active">
 		<name>Jacksonville.pm</name>
 		<location>
 			<city>Jacksonville</city>
@@ -1231,7 +1231,7 @@
 		<date type="inception">19990214</date>
 	</group>
 	
-	<group id="47">
+	<group id="47" status="active">
 		<name>JPL.pm</name>
 		<location>
 			<city>Pasadena</city>
@@ -1366,7 +1366,7 @@
 		<date type="inception">19990105</date>
 	</group>
 	
-	<group id="52">
+	<group id="52" status="active">
 		<name>Lexington.pm</name>
 		<location>
 			<city>Lexington</city>
@@ -1447,7 +1447,7 @@
 		<date type="inception">19990131</date>
 	</group>
 	
-	<group id="55">
+	<group id="55" status="sleeping">
 		<name>LongValley.pm</name>
 		<location>
 			<city>Long Valley</city>
@@ -1501,7 +1501,7 @@
 		<date type="inception">replace</date>
 	</group>
 	
-	<group id="57">
+	<group id="57" status="active">
 		<name>Miami.pm</name>
 		<location>
 			<city>Miami</city>
@@ -1960,7 +1960,7 @@
 		<date type="inception">19990331</date>
 	</group>
 	
-	<group id="74">
+	<group id="74" status="alive">
 		<name>Philadelphia.pm</name>
 		<location>
 			<city>Philadelphia</city>
@@ -1973,8 +1973,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Adam Turoff</name>
-			<email type="personal">ziggy@panix.com</email>
+			<name>Walt Mankowski</name>
+			<email type="personal">waltman@pobox.com</email>
 		</tsar>
 		<web>http://philly.pm.org/</web>
 		<mailing-list>
@@ -1987,7 +1987,7 @@
 		<date type="inception">19980501</date>
 	</group>
 	
-	<group id="75">
+	<group id="75" status="active">
 		<name>Phoenix.pm</name>
 		<location>
 			<city>Phoenix</city>
@@ -2149,7 +2149,7 @@
 		<date type="inception">19990503</date>
 	</group>
 	
-	<group id="81">
+	<group id="81" status="active">
 		<name>Raleigh.pm</name>
 		<location>
 			<city>Raleigh</city>
@@ -2696,7 +2696,7 @@
 		<date type="inception">19990214</date>
 	</group>
 	
-	<group id="102">
+	<group id="102" status="active">
 		<name>ThousandOaks.pm</name>
 		<location>
 			<city>Thousand Oaks</city>
@@ -2939,7 +2939,7 @@
 		<date type="inception">19990515</date>
 	</group>
 	
-	<group id="111">
+	<group id="111" status="sleeping">
 		<name>Montevideo.pm</name>
 		<location>
 			<city>Montevideo</city>
@@ -3087,8 +3087,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Leon Brocard</name>
-			<email type="personal">leon@astray.com</email>
+			<name>Magnus Huckvale</name>
+			<email type="personal">magnus@huckvale.net</email>
 		</tsar>
 		<web>http://bath.pm.org/</web>
 		<mailing-list>
@@ -3236,7 +3236,7 @@
 		<date type="inception">19990124</date>
 	</group>
 	
-	<group id="123">
+	<group id="123" status="sleeping">
 		<name>Canarias.pm</name>
 		<location>
 			<city>Las Palmas de Gran Canaria</city>
@@ -3398,7 +3398,7 @@
 		<date type="inception">19990311</date>
 	</group>
 	
-	<group id="131">
+	<group id="131" status="unknown">
 		<name>Koebenhavn.pm</name>
 		<location>
 			<city>Koebenhavn</city>
@@ -3411,8 +3411,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Ask Bjorn Hansen</name>
-			<email type="personal">ask@netcetera.dk</email>
+			<name></name>
+			<email type="personal">root@legart.dk</email>
 		</tsar>
 		<web>http://koebenhavn.pm.org/</web>
 		<mailing-list>
@@ -3506,7 +3506,7 @@
 		<date type="inception">19990214</date>
 	</group>
 	
-	<group id="135">
+	<group id="135" status="active">
 		<name>Lisbon.pm</name>
 		<location>
 			<city>Lisbon</city>
@@ -3695,7 +3695,7 @@
 		<date type="inception">19990131</date>
 	</group>
 	
-	<group id="142">
+	<group id="142" status="active">
 		<name>Munich.pm</name>
 		<location>
 			<city>Munich</city>
@@ -3749,7 +3749,7 @@
 		<date type="inception">19990707</date>
 	</group>
 	
-	<group id="144">
+	<group id="144" status="leb">
 		<name>PacosDeFerreira.pm</name>
 		<location>
 			<city>Pacos de Ferreira</city>
@@ -4154,7 +4154,7 @@
 		<date type="inception">19990311</date>
 	</group>
 	
-	<group id="160">
+	<group id="160" status="sleeping">
 		<name>Wageningen.pm</name>
 		<location>
 			<city>Wageningen</city>
@@ -4263,7 +4263,7 @@
 		<date type="inception">19990503</date>
 	</group>
 	
-	<group id="165">
+	<group id="165" status="active">
 		<name>Brisbane.pm</name>
 		<location>
 			<city>Brisbane</city>
@@ -4290,7 +4290,7 @@
 		<date type="inception">19990131</date>
 	</group>
 	
-	<group id="166">
+	<group id="166" status="leb">
 		<name>Brunei.pm</name>
 		<location>
 			<city>Brunei</city>
@@ -4371,7 +4371,7 @@
 		<date type="inception">19990503</date>
 	</group>
 	
-	<group id="170">
+	<group id="170" status="active">
 		<name>Malaysia.pm</name>
 		<location>
 			<city>Kuala Lumpur</city>
@@ -4614,7 +4614,7 @@
 		<date type="inception">19990311</date>
 	</group>
 	
-	<group id="179">
+	<group id="179" status="sleeping">
 		<name>Sydney.pm</name>
 		<location>
 			<city>Sydney</city>
@@ -4911,7 +4911,7 @@
 		<date type="inception">19990131</date>
 	</group>
 	
-	<group id="190">
+	<group id="190" status="dead">
 		<name>Kyoto.pm</name>
 		<location>
 			<city>Kyoto</city>
@@ -5073,7 +5073,7 @@
 		<date type="inception">19990131</date>
 	</group>
 	
-	<group id="196">
+	<group id="196" status="leb">
 		<name>Dubai.pm</name>
 		<location>
 			<city>Dubai</city>
@@ -5100,7 +5100,7 @@
 		<date type="inception">19990311</date>
 	</group>
 	
-	<group id="197">
+	<group id="197" status="alive">
 		<name>Israel.pm</name>
 		<location>
 			<city></city>
@@ -5127,7 +5127,7 @@
 		<date type="inception">19990119</date>
 	</group>
 	
-	<group id="198">
+	<group id="198" status="sleeping">
 		<name>Rehovot.pm</name>
 		<location>
 			<city>Rehovot</city>
@@ -5154,7 +5154,7 @@
 		<date type="inception">19990311</date>
 	</group>
 	
-	<group id="199">
+	<group id="199" status="active">
 		<name>CapeTown.pm</name>
 		<location>
 			<city>Cape Town</city>
@@ -5316,7 +5316,7 @@
 		<date type="inception">19990914</date>
 	</group>
 
-	<group id="206">
+	<group id="206" status="alive">
 		<name>Lawton.pm</name>
 		<location>
 			<city>Lawton</city>
@@ -5370,7 +5370,7 @@
 		<date type="inception">19990914</date>
 	</group>
 
-	<group id="208">
+	<group id="208" status="active">
 		<name>Columbia.pm</name>
 		<location>
 			<city>Columbia</city>
@@ -5424,7 +5424,7 @@
 		<date type="inception">19990914</date>
 	</group>
 
-	<group id="210">
+	<group id="210" status ="leb">
 		<name>Taipe.pm</name>
 		<location>
 			<city>Taipe</city>
@@ -5478,7 +5478,7 @@
 		<date type="inception">19990914</date>
 	</group>
 
-	<group id="212">
+	<group id="212" status="leb">
 		<name>Peking.pm</name>
 		<location>
 			<city>Peking</city>
@@ -5532,7 +5532,7 @@
 		<date type="inception">19990503</date>
 	</group>
 
-	<group id="214">
+	<group id="214" status="sleeping">
 		<name>Stanford.pm</name>
 		<location>
 			<city>Palo Alto</city>
@@ -5640,7 +5640,7 @@
 		<date type="inception">19991024</date>
 	</group>
 	
-	<group id="218">
+	<group id="218" status="active">
 		<name>Caracas.pm</name>
 		<location>
 			<city>Caracas</city>
@@ -5910,7 +5910,7 @@
 		<date type="inception">19991024</date>
 	</group>
 	
-	<group id="228">
+	<group id="228" status="leb">
 		<name>Chula.pm</name>
 		<location>
 			<city>Dusit</city>
@@ -6180,7 +6180,7 @@
 		<date type="inception">19991024</date>
 	</group>
 
-	<group id="238">
+	<group id="238" status="active">
 		<name>Purdue.pm</name>
 		<location>
 			<city>West Lafayette</city>
@@ -6531,7 +6531,7 @@
 		<date type="inception">20000116</date>
 	</group>
 
-	<group id="253">
+	<group id="253" status="dead">
 		<name>SanMarcos.pm</name>
 		<location>
 			<city>San Marcos</city>
@@ -6774,7 +6774,7 @@
 		<date type="inception">20000116</date>
 	</group>
 
-	<group id="264">
+	<group id="264" status="active">
 		<name>Kolkata.pm</name>
 		<location>
 			<city>Kolkata</city>
@@ -7017,7 +7017,7 @@
 		<date type="inception">20000227</date>
 	</group>
 
-	<group id="275">
+	<group id="275" status="sleeping">
 		<name>CedarFalls.pm</name>
 		<location>
 			<city>Cedar Falls</city>
@@ -7152,7 +7152,7 @@
 		<date type="inception">20000227</date>
 	</group>
 
-	<group id="281">
+	<group id="281" status="active">
 		<name>Madras.pm</name>
 		<location>
 			<city>Madras</city>
@@ -7396,7 +7396,7 @@
 	</group>
 
 
-	<group id="291">
+	<group id="291" status="leb">
 		<name>Algoma.pm</name>
 		<location>
 			<city>Algoma</city>
@@ -7477,7 +7477,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="294">
+	<group id="294" status="leb">
 		<name>Gettysburg.pm</name>
 		<location>
 			<city>Gettysburg</city>
@@ -7748,7 +7748,7 @@
 	</group>
 
 
-	<group id="305">
+	<group id="305" status="alive">
 		<name>Los_Angeles.pm</name>
 		<location>
 			<city>Los Angeles</city>
@@ -7761,8 +7761,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Samy Kamkar</name>
-			<email type="personal">CommPort5@LucidX.com</email>
+			<name>Robert Spier</name>
+			<email type="personal">rspier@pobox.com</email>
 		</tsar>
 		<web>http://la.pm.org/</web>
 		<mailing-list>
@@ -7802,7 +7802,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="307">
+	<group id="307" status="active">
 		<name>Athens.pm</name>
 		<location>
 			<city>Athens</city>
@@ -7937,7 +7937,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="312">
+	<group id="312" status="active">
 		<name>NWArkansas.pm</name>
 		<location>
 			<city></city>
@@ -8018,7 +8018,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="315">
+	<group id="315" status="active">
 		<name>Birmingham.pm</name>
 		<location>
 			<city>Birmingham</city>
@@ -8302,8 +8302,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>John Borwick</name>
-			<email type="personal">john_borwick@ncsu.edu</email>
+			<name>Will Emigh</name>
+			<email type="personal">wgemigh@unity.ncsu.edu</email>
 		</tsar>
 		<web>http://ncsu.pm.org/</web>
 		<mailing-list>
@@ -8343,7 +8343,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="328">
+	<group id="328" status="active">
 		<name>Niederrhein.pm</name>
 		<location>
 			<city>Duisburg</city>
@@ -8478,7 +8478,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="333">
+	<group id="333" status="leb">
 		<name>glenside.pm</name>
 		<location>
 			<city>Glenside</city>
@@ -8559,7 +8559,7 @@
 		<date type="inception">20001228</date>
 	</group>
 
-	<group id="336">
+	<group id="336" status="sleeping">
 		<name>mbs.pm</name>
 		<location>
 			<city>Bay City</city>
@@ -8613,7 +8613,7 @@
 		<date type="inception">20001228</date>
 	</group>
 
-	<group id="338">
+	<group id="338" status="leb">
 		<name>bismon.pm</name>
 		<location>
 			<city>Bismarck</city>
@@ -8721,7 +8721,7 @@
 		<date type="inception">20010110</date>
 	</group>
 
-	<group id="342">
+	<group id="342" status="leb">
 		<name>Ahmedabad.pm</name>
 		<location>
 			<city>Ahmedabad</city>
@@ -8829,7 +8829,7 @@
 		<date type="inception">20010129</date>
 	</group>
 
-	<group id="346">
+	<group id="346" state="sleeping">
 		<name>Manresa.pm</name>
 		<location>
 			<city>Manresa</city>
@@ -8856,7 +8856,7 @@
 		<date type="inception">20010129</date>
 	</group>
 
-	<group id="347">
+	<group id="347" status="leb">
 		<name>Philippines.pm</name>
 		<location>
 			<city>Muntinlupa</city>
@@ -8951,13 +8951,13 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Goldin Evgeny</name>
-			<email type="personal">geniek@@bigfoot.com</email>
+			<email type="personal">geniek@bigfoot.com</email>
 		</tsar>
 		<web>http://haifa.pm.org/</web>
 		<mailing-list>
 			<name>General Haifa Perl Mongers discussion</name>
-			<email type="list">haifa.pm@@pm.org</email>
-			<email type="list_admin">geniek@@bigfoot.com</email>
+			<email type="list">haifa.pm@pm.org</email>
+			<email type="list_admin">geniek@bigfoot.com</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing-list>
@@ -8991,7 +8991,7 @@
 		<date type="inception">20010203</date>
 	</group>
 
-	<group id="352">
+	<group id="352" status="leb">
 		<name>Bahrain.pm</name>
 		<location>
 			<city>Bahrain</city>
@@ -9261,7 +9261,7 @@
 		<date type="inception">20010313</date>
 	</group>
 
-	<group id="362">
+	<group id="362" status="leb">
 		<name>Ceduna.pm</name>
 		<location>
 			<city>Ceduna</city>
@@ -9423,7 +9423,7 @@
 		<date type="inception">20010313</date>
 	</group>
 
-	<group id="368">
+	<group id="368" status="leb">
 		<name>Leeds.pm</name>
 		<location>
 			<city>Leeds</city>
@@ -9585,7 +9585,7 @@
 		<date type="inception">20010326</date>
 	</group>
 
-	<group id="375">
+	<group id="375" status="leb">
 		<name>Godam.pm</name>
 		<location>
 			<city>Ayer Keroh</city>
@@ -9666,7 +9666,7 @@
 		<date type="inception">20010401</date>
 	</group>
 
-	<group id="378">
+	<group id="378" status="leb">
 		<name>Bengal.pm</name>
 		<location>
 			<city>Bhattanagar</city>
@@ -9828,7 +9828,7 @@
 		<date type="inception">20010401</date>
 	</group>
 
-	<group id="384">
+	<group id="384" status="leb">
 		<name>Modesto.pm</name>
 		<location>
 			<city>Modesto</city>
@@ -10071,7 +10071,7 @@
 		<date type="inception">20010422</date>
 	</group>
 
-	<group id="393">
+	<group id="393" status="sleeping">
 		<name>DelMarVa.pm</name>
 		<location>
 			<city>Salisbury</city>
@@ -11097,7 +11097,7 @@
 		<date type="inception">20010812</date>
 	</group>
 
-	<group id="431">
+	<group id="431" status="active">
 		<name>Clemson.pm</name>
 		<location>
 			<city>Clemson</city>
@@ -11111,13 +11111,13 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Tom Turpin</name>
-			<email type="personal">tom.turpin@ryobitools.com</email>
+			<email type="personal">perl@turpin.ns</email>
 		</tsar>
 		<web>http://clemson.pm.org/</web>
 		<mailing-list>
 			<name>General Clemson Perl Mongers discussion</name>
 			<email type="list">clemson-pm@pm.org</email>
-			<email type="list_admin">tom.turpin@ryobitools.com</email>
+			<email type="list_admin">perl@turpin.us</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing-list>
@@ -11502,7 +11502,7 @@
 		<date type="inception">20011021</date>
 	</group>
 
-	<group id="446">
+	<group id="446" status="leb">
 		<name>Jogja.pm</name>
 		<location>
 			<city>Jogja</city>
@@ -11664,7 +11664,7 @@
 		<date type="inception">20011105</date>
 	</group>
 
-	<group id="452">
+	<group id="452" status="alive">
 		<name>Nordest.pm</name>
 		<location>
 			<city>Udine</city>
@@ -11745,7 +11745,7 @@
 		<date type="inception">20011112</date>
 	</group>
 
-	<group id="455">
+	<group id="455" status="sleeping">
 		<name>Monterey.pm</name>
 		<location>
 			<city>Monterey</city>
@@ -12204,7 +12204,7 @@
 		<date type="inception">20020205</date>
 	</group>
 
-	<group id="472">
+	<group id="472" status="active">
 		<name>Orange County.pm</name>
 		<location>
 			<city>Foothill Ranch</city>
@@ -12217,8 +12217,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Ryan Erwin</name>
-			<email type="personal">ryan@web.oakley.com</email>
+			<name>Garr Updegraff</name>
+			<email type="personal">garru@uci.edu</email>
 		</tsar>
 		<web>http://oc.pm.org/</web>
 		<mailing-list>
@@ -12771,7 +12771,7 @@
 		<date type="inception">20020406</date>
 	</group>
 
-	<group id="14">
+	<group id="14" status="leb">
 		<name>Pemalang.pm</name>
 		<location>
 			<city>Pemalang</city>
@@ -12960,7 +12960,7 @@
 		<date type="inception">20020513</date>
 	</group>
 
-	<group id="21">
+	<group id="21" status="leb">
 		<name>Poneke.pm</name>
 		<location>
 			<city>Porirua</city>
