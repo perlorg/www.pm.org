@@ -9,12 +9,12 @@ any of the other categories.
 
 =head2 tech@pm.org
 
-Any queries regarding the internet services (i.e. web space, mailing
-lists and DNS) provided by Perl Mongers.
+Any queries regarding the internet services (i.e. web space and mailing
+lists) provided by Perl Mongers.
 
 =head2 dns@pm.org
 
-Any queries about the delegation of pm.org domains.
+Any queries about the DNS services provided by Perl Mongers.
 
 =head2 webmaster@pm.org
 
