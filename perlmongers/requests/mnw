@@ -91,9 +91,7 @@ my $temp = <>;
 
 my $userhome = "/home/groupleaders/$username";
 my $create_user_cmd = "/usr/sbin/useradd -d \"$userhome\" -m -c '$fullname,$email' -p $data{crypt} -s /bin/bash $username\n";
-
 print $create_user_cmd, "\n";
-
 system $create_user_cmd;
 
 $doc_root = "/pm.org/$hostname";
@@ -110,20 +108,21 @@ system("chmod +x $doc_root");
 chown( (getpwnam($username))[2], getgrnam('apache'), $doc_root);
 `ln -s $doc_root $userhome/web_docs`;
 
-append_to_file("/etc/mail/local-host-names", "$hostname.pm.org\n");
-#append_to_file("/etc/httpd/pm.org.vhosts3", "$hostname:$username:www_logs/:combined:0:0:0::\n");
-#append_to_file("/etc/httpd/pm.org.vhosts4", "$hostname:$username:\n");
 append_to_file("/etc/httpd/conf.d/pm.org.vhosts", "$hostname\n");
 system("/etc/httpd/conf.d/pm.org.vhosts_rebuild");
-append_to_file("/etc/mail/virtusertable", "\@$hostname.pm.org\t$email\n");
-	
-send_faq($email, $username, "$hostname.pm.org");
-
-print "Remaking sendmail map files\n";
-system( "cd /etc/mail; make " );
-
 print "Restarting apache\n";
 system( "/etc/rc.d/init.d/httpd restart");
+	
+append_to_file("/etc/mail/local-host-names", "$hostname.pm.org\n");
+append_to_file("/etc/mail/virtusertable", "\@$hostname.pm.org\t$email\n");
+print "Remaking sendmail map files\n";
+system("cd /etc/mail; make ");
+print "Restarting sendmail\n";
+system("/etc/rc.d/init.d/sendmail restart");
+
+print "Emailing FAQ to group leader\n";
+send_faq($email, $username, "$hostname.pm.org");
+
 print "Complete\n";
 exit;
 
