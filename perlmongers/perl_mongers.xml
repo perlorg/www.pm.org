@@ -14405,4 +14405,328 @@
 
 <!-- next free group id is 551 -->
 
-</perl_mongers>
+
+	<group id="521" status="active">
+		<name>NewCastle.pm</name>
+		<location>
+			<city>Newark</city>
+			<state>Delaware</state>
+			<region></region>
+			<country>United States of America</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Scott R. Godin</name>
+			<email type="personal">mactech@webdragon.net</email>
+		</tsar>
+		<web>http://newcastle.pm.org/</web>
+		<mailing-list>
+			<name>General NewCastle Perl Mongers discussion</name>
+			<email type="list">newcastle-pm@pm.org</email>
+			<email type="list_admin">mactech@webdragon.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030317</date>
+	</group>
+
+	<group id="522" status="active">
+		<name>ZA.pm</name>
+		<location>
+			<city>Johannesburg</city>
+			<state>Gauteng</state>
+			<region></region>
+			<country>South Africa</country>
+			<continent>Africa</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Nico Coetzee</name>
+			<email type="personal">nico@itfirms.co.za</email>
+		</tsar>
+		<web>http://za.pm.org/</web>
+		<mailing-list>
+			<name>General ZA Perl Mongers discussion</name>
+			<email type="list">za-pm@pm.org</email>
+			<email type="list_admin">nico@itfirms.co.za</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030317</date>
+	</group>
+
+	<group id="523" status="active">
+		<name>Jalisco.pm</name>
+		<location>
+			<city>Ojuelos</city>
+			<state>Jalisco</state>
+			<region></region>
+			<country>Mexico</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Alejandro Alvarez</name>
+			<email type="personal">mejjico@tin.it</email>
+		</tsar>
+		<web>http://jalisco.pm.org/</web>
+		<mailing-list>
+			<name>General Jalisco Perl Mongers discussion</name>
+			<email type="list">jalisco-pm@pm.org</email>
+			<email type="list_admin">mejjico@tin.it</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030317</date>
+	</group>
+
+	<group id="524" status="active">
+		<name>Saarland.pm</name>
+		<location>
+			<city>Saarbrücken</city>
+			<state>Saarland</state>
+			<region></region>
+			<country>Germany</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Andreas Petto</name>
+			<email type="personal">andreas.petto@gmx.de</email>
+		</tsar>
+		<web>http://saarland.pm.org/</web>
+		<mailing-list>
+			<name>General Saarland Perl Mongers discussion</name>
+			<email type="list">saarland-pm@pm.org</email>
+			<email type="list_admin">andreas.petto@gmx.de</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030317</date>
+	</group>
+
+	<group id="525" status="active">
+		<name>Shibuya.pm</name>
+		<location>
+			<city>Shibuya</city>
+			<state>Tokyo</state>
+			<region></region>
+			<country>Japan</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Tatsuhiko Miyagawa</name>
+			<email type="personal">miyagawa@bulknews.net</email>
+		</tsar>
+		<web>http://shibuya.pm.org/</web>
+		<mailing-list>
+			<name>General Shibuya Perl Mongers discussion</name>
+			<email type="list">shibuya-pm@pm.org</email>
+			<email type="list_admin">miyagawa@bulknews.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030317</date>
+	</group>
+
+	<group id="526" status="active">
+		<name>Istanbul.pm</name>
+		<location>
+			<city>Kucukcekmece</city>
+			<state>Instanbul</state>
+			<region>Marmara</region>
+			<country>Turkey</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Sori Zilan</name>
+			<email type="personal">sori@sorix.org</email>
+		</tsar>
+		<web>http://istanbul.pm.org/</web>
+		<mailing-list>
+			<name>General Istanbul Perl Mongers discussion</name>
+			<email type="list">istanbul-pm@pm.org</email>
+			<email type="list_admin">sori@sorix.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030317</date>
+	</group>
+
+	<group id="527" status="active">
+		<name>PerlChina.pm</name>
+		<location>
+			<city>China Shenzhen</city>
+			<state></state>
+			<region></region>
+			<country>China</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>tsingson seawind</name>
+			<email type="personal">tsingson@963.net</email>
+		</tsar>
+		<web>http://china.pm.org/</web>
+		<mailing-list>
+			<name>General PerlChina Perl Mongers discussion</name>
+			<email type="list">china-pm@pm.org</email>
+			<email type="list_admin">tsingson@963.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030317</date>
+	</group>
+
+	<group id="528" status="active">
+		<name>German.pm</name>
+		<location>
+			<city></city>
+			<state></state>
+			<region>Mitteleuropa</region>
+			<country></country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Sören Michael Laird Sörries</name>
+			<email type="personal">info@perlmongers.de</email>
+		</tsar>
+		<web>http://german.pm.org/</web>
+		<mailing-list>
+			<name>General German Perl Mongers discussion</name>
+			<email type="list">german-pm@pm.org</email>
+			<email type="list_admin">info@perlmongers.de</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030317</date>
+	</group>
+
+	<group id="529" status="active">
+		<name>Kiel.pm</name>
+		<location>
+			<city>Kiel</city>
+			<state>Schleswig-Holstein</state>
+			<region></region>
+			<country>Germany</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Hendrik Schnepel</name>
+			<email type="personal">hsch@mooseware.de</email>
+		</tsar>
+		<web>http://kiel.pm.org/</web>
+		<mailing-list>
+			<name>General Kiel Perl Mongers discussion</name>
+			<email type="list">kiel-pm@pm.org</email>
+			<email type="list_admin">hsch@mooseware.de</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030317</date>
+	</group>
+
+	<group id="530" status="active">
+		<name>Camelot.pm</name>
+		<location>
+			<city></city>
+			<state></state>
+			<region></region>
+			<country></country>
+			<continent></continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>George Woolley</name>
+			<email type="personal">george@metaart.org</email>
+		</tsar>
+		<web>http://camelot.pm.org/</web>
+		<mailing-list>
+			<name>General Camelot Perl Mongers discussion</name>
+			<email type="list">camelot-pm@pm.org</email>
+			<email type="list_admin">george@metaart.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030317</date>
+	</group>
+
+	<group id="531" status="active">
+		<name>Malazgirt.pm</name>
+		<location>
+			<city>Malazgirt</city>
+			<state>Mus</state>
+			<region></region>
+			<country>Turkey</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Awreng Sori</name>
+			<email type="personal">awreng@hotmail.com</email>
+		</tsar>
+		<web>http://malazgirt.pm.org/</web>
+		<mailing-list>
+			<name>General Malazgirt Perl Mongers discussion</name>
+			<email type="list">malazgirt-pm@pm.org</email>
+			<email type="list_admin">awreng@hotmail.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030317</date>
+	</group>
+
+	<group id="532" status="active">
+		<name>KernCounty.pm</name>
+		<location>
+			<city>Bakersfield</city>
+			<state>California</state>
+			<region></region>
+			<country>United States of America</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Christopher Curtis</name>
+			<email type="personal">chris@linuxisle.com</email>
+		</tsar>
+		<web>http://kerncounty.pm.org/</web>
+		<mailing-list>
+			<name>General KernCounty Perl Mongers discussion</name>
+			<email type="list">kerncounty-pm@pm.org</email>
+			<email type="list_admin">chris@linuxisle.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030317</date>
+	</group>
+</perl-mongers>
