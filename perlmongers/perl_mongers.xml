@@ -3398,10 +3398,10 @@
 		<date type="inception">19990311</date>
 	</group>
 	
-	<group id="131" status="unknown">
-		<name>Koebenhavn.pm</name>
+	<group id="131" status="active">
+		<name>Copenhagen.pm</name>
 		<location>
-			<city>Koebenhavn</city>
+			<city>Copenhagen</city>
 			<state></state>
 			<region></region>
 			<country>Denmark</country>
@@ -3412,11 +3412,11 @@
 		<email type="group"></email>
 		<tsar>
 			<name></name>
-			<email type="personal">root@legart.dk</email>
+			<email type="personal">contact@copenhagen.pm.org</email>
 		</tsar>
-		<web>http://koebenhavn.pm.org/</web>
+		<web>http://copenhagen.pm.org/</web>
 		<mailing_list>
-			<name>General Koebenhavn.pm discussion</name>
+			<name>General Copenhagen.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
 			<subscribe></subscribe>
