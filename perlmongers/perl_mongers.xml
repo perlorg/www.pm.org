@@ -11880,7 +11880,7 @@
 		<date type="inception">20011125</date>
 	</group>
 
-	<group id="460">
+	<group id="460" status="dead">
 		<name>ResistenciaAria.pm</name>
 		<location>
 			<city>Vigo</city>
