@@ -1,3 +1,4 @@
+
 <!-- Perl Mongers groups DTD -->
 <!-- $Id$ -->
 
@@ -26,8 +27,8 @@
 	(region)?, 
 	country,
 	continent,
-	latitude,
-	longitude
+	longitude,
+	latitude
 	)
 	>
 
@@ -66,5 +67,8 @@
 <!ELEMENT email	(#PCDATA)>
 <!ATTLIST email	type (group | personal | list | list_admin) "group">
 
+<!ENTITY agrave '&#224;' >
 <!ENTITY aacute	'&#225;' >
 <!ENTITY atilde	'&#227;' >
+<!ENTITY egrave '&#232;' >
+<!ENTITY oacute '&#243;' >
