@@ -1,0 +1,26 @@
+<table cellpadding=1 cellspacing=1 border=0>
+
+[% FOREACH title = major.keys.sort %]
+[% url = major.$title %]
+[% title = title.replace(' ', '&nbsp;') %]
+<tr><td><br></td></tr>
+ <tr>
+  <td bgcolor="#00000">&nbsp;</td>
+  <td width="100%">&nbsp;<a class="sidehead" href="[% PROCESS relative %]"><b>[% title %]</b></a></td>
+ </tr>
+[% END %]
+
+[% IF minor %]
+ <tr>
+ <td></td>
+ <td><font size=2>
+[% FOREACH title = minor.keys.sort %]
+[% url = minor.$title %]
+&nbsp;<a class="side" href="[% PROCESS relative %]">[% title %]</a><br>
+[% END %]
+ </font></td>
+ </tr>
+[% END %]
+
+</table>
+

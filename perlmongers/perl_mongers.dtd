@@ -1,0 +1,64 @@
+<!-- Perl Mongers groups DTD -->
+<!ELEMENT perl_mongers
+	(group)+
+	>
+
+<!ELEMENT group 
+	(
+	name, 
+	location, 
+	(email)+, 
+	tsar,
+	web,
+	(mailing_list)+,
+	(date)+
+	)
+	>
+<!ATTLIST group		id CDATA #REQUIRED>
+
+<!ELEMENT location 
+	(
+	city, 
+	(state)?,
+	(region)?, 
+	country,
+	continent,
+	latitude,
+	longitude
+	)
+	>
+
+<!ELEMENT city			(#PCDATA)>
+<!ELEMENT state		    (#PCDATA)>
+<!ELEMENT region		(#PCDATA)>
+<!ELEMENT country		(#PCDATA)>
+<!ELEMENT continent		(#PCDATA)>
+<!ELEMENT latitude		(#PCDATA)>
+<!ELEMENT longitude		(#PCDATA)>
+
+<!ELEMENT tsar 
+	(
+	name,
+	email
+	)
+	>
+
+<!ELEMENT mailing_list 
+	(
+	name,
+	(email)+,
+	subscribe,
+	unsubscribe
+	)
+	>
+	
+<!ELEMENT name		(#PCDATA)>
+<!ELEMENT web		(#PCDATA)>
+<!ELEMENT subscribe	(#PCDATA)>
+<!ELEMENT unsubscribe	(#PCDATA)>
+	
+<!ELEMENT date		(#PCDATA)>
+<!ATTLIST date		type (inception | next_meeting | misc) "misc">
+
+<!ELEMENT email	(#PCDATA)>
+<!ATTLIST email	type (group | personal | list | list_admin) "group">

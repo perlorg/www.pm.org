@@ -1,0 +1,32 @@
+This is the source files for the new perlmongers site.
+
+Directory layout is as follows:
+
+bin/ 
+  contains programs to build the site etc.
+etc/
+  contains configuration files
+html/
+  the output goes here
+lib/
+  contains Template Toolkit templates
+src/
+  contains the actual text of the site
+
+To build the site, run "bin/build" from this directory.
+
+What this does is it takes the source files from src/ applies any
+templates to them (from lib/), and writes the output to the html/
+directory. Now have a look at the HTML directory - it contains the
+site!
+
+lib/layout is the template which is applied to every page.
+
+Note: whenever you refer to a page on our site inside a template,
+please use the following mechanism, which changes the link to a
+relative one so that we can build the site anywhere we want:
+
+  See [% link_to("foo.html", "the best foo") %].
+
+Leon Brocard / Wed Aug 21 14:21:15 GMT 2002
+

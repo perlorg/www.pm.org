@@ -1,0 +1,111 @@
+#!/usr/bin/perl -w
+
+use strict;
+use Template;
+use XML::Simple;
+
+$| = 1;
+
+my $xml = XMLin('./perl_mongers.xml', cache => 'storable');
+$xml = $xml->{group};
+
+my $tt = Template->new({
+  POST_CHOMP => 1,
+  PRE_CHOMP => 1,
+  TRIM => 1,
+  EVAL_PERL => 1 ,
+  INCLUDE_PATH => ['lib', 'src'],
+  PROCESS => 'layout',
+});
+
+# Array containing all the group names
+my @groups;
+
+foreach my $name (keys %$xml) {
+  my $group = $xml->{$name};
+  my $continent = $group->{location}->{continent};
+  my $id = $group->{id};
+#  print $continent, "\n";
+#  print "$name\n" if ref($continent);
+  die "$name has no id\n" unless defined $id;
+  next unless $id eq '0';
+  $group->{name} = $name;
+  $group->{location}->{all} = join ", ", 
+    grep { defined }
+    map { $group->{location}->{$_} }
+ qw(city region state country continent);
+
+  $tt->process('groups/group.html', $group, "html/groups/$id.html")
+    || die $tt->error();
+}
+
+__END__
+=head1 NAME
+
+draw.pl - draw the master copies of the Perl Monger World Maps
+
+=head1 SYNOPSIS
+
+draw.pl [-huge]
+
+=head1 DESCRIPTION
+
+This uses the two large earth.png, earth-small.png, and the Perl Monger
+Group XML file, perl_mongers.xml. It takes the longitude and latitude 
+location information contained in the XML file and produces one of
+two image files: mongers.png and mongers-small.png.
+
+It also outputs a list of all the groups which do not current have
+location information.
+
+=head1 AUTHOR
+
+Leon Brocard, leon@astray.com
+
+=cut
+
+__END__
+Example data structure for a group:
+
+$VAR1 = {
+          'location' => {
+                          'state' => {},
+                          'country' => 'Ireland',
+                          'latitude' => '52.664',
+                          'region' => {},
+                          'city' => 'Limerick',
+                          'longitude' => '-8.623',
+                          'continent' => 'Europe'
+                        },
+          'web' => {},
+          'tsar' => {
+                      'email' => {
+                                   'content' => 'foranp@tinet.ie',
+                                   'type' => 'personal'
+                                 },
+                      'name' => 'Paul Foran'
+                    },
+          'date' => {
+                      'content' => '19990214',
+                      'type' => 'inception'
+                    },
+          'id' => '134',
+          'mailing-list' => {
+                              'subscribe' => 'subscribe limerick-pm-list email_address',
+                              'unsubscribe' => 'unsubscribe limerick-pm-list email_address',
+                              'email' => [
+                                           {
+                                             'content' => 'limerick-pm-list@pm.org',
+                                             'type' => 'list'
+                                           },
+                                           {
+                                             'content' => 'majordomo@pm.org',
+                                             'type' => 'list_admin'
+                                           }
+                                         ],
+                              'name' => 'General Limerick.pm discussion'
+                            },
+          'email' => {
+                       'type' => 'group'
+                     }
+        };

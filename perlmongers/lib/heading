@@ -1,0 +1,12 @@
+[%- DEFAULT heading.align = 'left'
+            heading.bgcolor = "#0087d9" -%]
+<table border=0 width="100%" cellpadding=2 cellspacing=0>
+<tr><td bgcolor="#000000"><table cellpadding=4 cellspacing=0 border=0 width="100%">
+ <tr>
+  <td class="header" width="100%" align="[% heading.align %]" bgcolor="[% heading.bgcolor %]"><font size="5" color="#ffffff"><b>[% title %]</b></font></td>
+ </tr>
+</table>
+</td></tr>
+</table>
+<p>
+

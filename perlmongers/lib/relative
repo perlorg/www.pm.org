@@ -1,0 +1,14 @@
+[% PERL %]
+use URI::URL;
+my $template = '/' . $stash->get('template.name');
+my $url = $stash->get('url');
+if ($url !~ /http/) {
+  my $uri = URI::URL->new('http://www' . $url);
+  $uri = $uri->rel('http://www' . $template);
+  $uri .= 'index.html' if $uri =~ m|/$|;
+  print $uri
+} else {
+  print $url;
+}
+[% END %]
+

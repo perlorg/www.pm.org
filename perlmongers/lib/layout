@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+[%- MACRO relative_url(url) PROCESS relative -%]
+[%- MACRO link_to(url, text) BLOCK -%]
+<a href="[% PROCESS relative %]">[% text %]</a>[% END %]
+<html>
+  <head>
+    <meta name="description" 
+          content="Perl Mongers organises local Perl user groups and meetings">
+    <meta name="keywords"
+          content="Perl,Perl Mongers,Mongers,User Group,Meeting">
+    <meta name="MsSmartTagsPreventParsing" content="TRUE">
+[% title = template.title or "Perl Mongers" -%]
+    <title>[% title %]</title>
+ 
+    <link rel=stylesheet type="text/css"
+          href="[% relative_url("/graphics/basic.css") %]" 
+          title="basic">
+         
+</head>
+
+<body marginheight=0 marginwidth=0 topmargin=0 leftmargin=0 bgcolor="#ffffff" text="#000000" link="#000099">
+<table border=0 cellpadding=6 cellspacing=0 width="100%">
+  <tr>
+    <td class="side" bgcolor="#0087d9" width=120 valign="top">
+
+     <table cellpadding=2 cellspacing=0 border=0><tr><td bgcolor="#000000">
+      <table align="center" cellpadding=6 cellspacing=0 border=0>
+        <tr>
+          <td class="venue" bgcolor="#ffffff" align="center">
+<a href="[% PROCESS relative url="/" %]"><img src="[% PROCESS relative url="/graphics/title.png" %]" WIDTH=150 HEIGHT=65 border=0 alt="Perl Mongers"></a>
+          </td>
+        </tr>
+       </table>
+</td></tr></table>
+[%# <br> %]
+
+[% INCLUDE sideheader
+  major = {"Perl Mongers" => "/index.html"}
+  minor = {
+    "About" => "/about/index.html",
+    "FAQ" => "/articles/index.html",
+    "News" => "/articles/index.html",
+  }
+%]
+
+[% INCLUDE sideheader
+  major = {"User groups" => "/groups/index.html"}
+  minor = {
+    "North America" => "",
+    "South America" => "",
+    "Europe" => "",
+    "Oceania" => "",
+    "Asia" => "",
+    "Africa" => "",
+  }
+%]
+
+[% INCLUDE sideheader
+  major = {"Affiliates" => "/extremeprogramming.html"}
+  minor = {
+    "Yet Another Society" => "http://www.yetanother.org/",
+    "The Perl Foundation" => "http://www.perlfoundation.org/",
+    "Search CPAN" => "http://search.cpan.org/",
+    "Perl advocacy" => "http://www.perl.org/",
+    "Use Perl" => "http://use.perl.org/",
+    "Perl.com" => "http://www.perl.com/",
+  }
+%]
+
+<td valign="top">
+[% INCLUDE heading title=template.title %]
+
+[% INCLUDE $template %]
+
+
+
+
+    </td>
+  </tr>
+  <tr>
+    <td class="side" bgcolor="#0087d9" width=120>
+      <br><br><br>&nbsp;
+    </td> 
+    <td valign="baseline">
+      <br><br><br><br>
+      <p class="moddate"><small>Last modified on
+           June 25th, 2001 by <a href="mailto:webmaster@pm.org">webmaster@pm.org</a>.<br>
+           All content copyright &copy; 2002 Perl Mongers.</small></p>
+    </td>
+  </tr>
+</table>
+</BODY>
+</HTML>

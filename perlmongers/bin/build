@@ -1,0 +1,5 @@
+#!/bin/sh
+
+ttree -a -f etc/ttree.cfg
+mkdir html/graphics 2>/dev/null
+tpage src/graphics/basic.css > html/graphics/basic.css
