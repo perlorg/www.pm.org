@@ -10,18 +10,18 @@ bin/
   contains programs to build the site etc.
 etc/
   contains configuration files
-html/
-  the output goes here
 lib/
   contains Template Toolkit templates
 src/
   contains the actual text of the site
+www/
+  the output goes here
 
-To build the site, run "bin/build" from this directory.
+To build the site, run "bin/build" and "bin/xml" from this directory.
 
 What this does is it takes the source files from src/ applies any
-templates to them (from lib/), and writes the output to the html/
-directory. Now have a look at the HTML directory - it contains the
+templates to them (from lib/), and writes the output to the www/
+directory. Now have a look at the www directory - it contains the
 site!
 
 lib/layout is the template which is applied to every page.

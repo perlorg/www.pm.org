@@ -22,7 +22,7 @@ my $tt = Template->new({
 
 # Array containing all the group names order by continent
 my %groups;
-mkdir "html/groups/graphics";
+mkdir "www/groups/graphics";
 
 foreach my $name (keys %$xml) {
   my $group = $xml->{$name};
@@ -54,13 +54,13 @@ foreach my $name (keys %$xml) {
     map { $group->{location}->{$_} }
  qw(city region state country continent);
 
-  if (!-f "html/groups/graphics/$id.png"
+  if (!-f "www/groups/graphics/$id.png"
       && $group->{location}->{longitude}
       && $group->{location}->{latitude}) {
     my $map = Image::WorldMap->new("titchy.png");
     $map->add($group->{location}->{longitude}, $group->{location}->{latitude});
     $map->draw("foo.png");
-    system("pngtopnm foo.png | ppmquant 64 | pnmtopng -compression 9 > html/groups/graphics/$id.png");
+    system("pngtopnm foo.png | ppmquant 64 | pnmtopng -compression 9 > www/groups/graphics/$id.png");
     $group->{image} = "graphics/$id.png";
   }
 
@@ -68,20 +68,20 @@ foreach my $name (keys %$xml) {
   my $country = $group->{location}->{country};
   push @{$groups{$continent}->{$country}}, $group;
 
-  if (!-f "html/groups/$id.html") {
-    $tt->process('src/groups/group.html', $group, "html/groups/$id.html")
+  if (!-f "www/groups/$id.html") {
+    $tt->process('src/groups/group.html', $group, "www/groups/$id.html")
       || die $tt->error();
   }
 }
 
-copy("./perl_mongers.xml", "html/groups/perl_mongers.xml");
-copy("./perl_mongers.dtd", "html/groups/perl_mongers.dtd");
+copy("./perl_mongers.xml", "www/groups/perl_mongers.xml");
+copy("./perl_mongers.dtd", "www/groups/perl_mongers.dtd");
 
 #use YAML; die Dump(\%groups);
 foreach my $continent (sort keys %groups) {
   my $file = lc $continent;
   $file =~ s/\W/_/g;
-  $file = "html/groups/$file.html";
+  $file = "www/groups/$file.html";
   warn "$continent -> $file\n";
   my $groups;
   foreach my $country (sort keys %{$groups{$continent}}) {

@@ -24,7 +24,7 @@ my $tt_plain = Template->new({
 });
 
 my $source = 'src';
-my $destination = 'html';
+my $destination = 'www';
 my $parms;
 
 my $rule = File::Find::Rule->new;

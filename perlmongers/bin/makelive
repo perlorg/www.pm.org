@@ -1,0 +1,7 @@
+#!/usr/bin/perl -w
+use strict;
+
+system('rm pm.tgz');
+system('tar fzcv pm.tgz www/');
+system('scp pm.tgz leon@hfb.pm.org:');
+system('ssh leon@hfb.pm.org "cd /web/gocho.pm.org/80/htdocs/pm.org; tar fvzx ~/pm.tgz"');
