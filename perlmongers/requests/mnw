@@ -105,7 +105,7 @@ Coming soon...<p>
 This page created: 
 EOT
 close OUT;
-/bin/date >> $doc_root/index.html
+system("/bin/date >> $doc_root/index.html");
 system("chmod +x $doc_root");
 
 chown( (getpwnam($username))[2], getgrnam('apache'), $doc_root);
