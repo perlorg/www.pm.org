@@ -62,14 +62,13 @@
 [% INCLUDE sideheader
   major = {"Affiliates" => "/"}
   minor = {
-    "Yet Another Society" => "http://www.yetanother.org/",
     "The Perl Foundation" => "http://www.perlfoundation.org/",
     "Search CPAN" => "http://search.cpan.org/",
     "Perl advocacy" => "http://www.perl.org/",
     "Use Perl" => "http://use.perl.org/",
     "Perl.com" => "http://www.perl.com/",
     "Perlmonks" => "http://www.perlmonks.com/",
-    "Yet Another Perl Conference" => "http://www.yapc.org/",
+    "YAPC" => "http://www.yapc.org/",
     "Perl training" => "http://www.perltraining.org/",
     "mod_perl" => "http://perl.apache.org/",
   }
