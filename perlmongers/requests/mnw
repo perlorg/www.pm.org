@@ -1,0 +1,178 @@
+#!/usr/bin/perl
+
+use strict;
+
+=pod
+	city=arnhem
+	state=(3rd attempt)
+	region=
+	country=NL
+	continent=EU
+	leader=Mark Overmeer
+	leaderEmail=mark@overmeer.net
+	groupname=arnhem.pm
+	web_method=dns
+	IP=speeltuin.ATComputing.nl
+	freelist=no
+
+	crypt:pmwCmF5as/PYo
+=cut
+
+use Fcntl qw(:flock);
+
+my $usage = "./makeNewWeb.pl filename\n";
+
+die $usage if (! scalar @ARGV);
+if (! -r $ARGV[0])
+{
+	print STDERR "File ($ARGV[0]) does not exist";
+	die $usage;
+}
+
+my %data = read_file_data();
+
+my ($new_value, $groupname, $hostname, $username, $fullname, $doc_root, $email, $crypt);
+$groupname = $data{groupname};
+
+# trim leading and trailing whitespace
+$groupname =~ s/^ *//i;
+$groupname =~ s/ *$//i;
+
+# Removing trailing .pm if exists
+
+$groupname =~ s/\.pm$//i;
+
+print "Group Name: [$groupname]: ";
+$new_value = <>;
+chomp $new_value;
+($new_value) && ($groupname = $new_value);
+
+$hostname = $groupname;
+# remove all spaces
+$hostname =~ s/ //g;
+# lowercase
+$hostname = "\L$hostname";
+
+print "hostname: [$hostname].pm.org: ";
+$new_value = <>;
+chomp $new_value;
+($new_value) && ($hostname = $new_value);
+
+$username = substr($hostname,0,8);
+do
+{
+	print "username: [$username]: ";
+	$new_value = <>;
+	chomp $new_value;
+	($new_value) && ($username = $new_value);
+} until (! defined scalar getpwnam($username));
+
+$fullname = $data{leader};
+
+print "Group Leader Full Name: [$fullname]: ";
+$new_value = <>;
+chomp $new_value;
+($new_value) && ($fullname = $new_value);
+
+$email = $data{leaderEmail};
+
+print "Group Leader Email: [$email]: ";
+$new_value = <>;
+chomp $new_value;
+($new_value) && ($email = $new_value);
+
+($email =~ /^[-a-zA-Z0-9_+.]+@[-a-zA-Z0-9_.]+$/) || die;
+
+print "Temporary password crypt string: $data{crypt}";
+
+print "Hit enter to continue, Cntl C to abort";
+my $temp = <>;
+
+my $userhome = "/home/groupleaders/$username";
+my $create_user_cmd = "/usr/sbin/useradd -d \"$userhome\" -m -c '$fullname,$email' -p $crypt -s /bin/bash $username\n";
+
+system $create_user_cmd;
+
+$doc_root = "/opt/apache/gocho.pm.org/80/htdocs/pm.org/$hostname";
+mkdir $doc_root, 02770;
+
+chown( (getpwnam($username))[2], getgrnam('apache'), $doc_root);
+`ln -s $doc_root $userhome/web_docs`;
+
+append_to_file("/etc/mail/local-host-names", "$hostname.pm.org\n");
+append_to_file("/etc/httpd/pm.org.vhosts3", "$hostname:$username:www_logs/:combined:0:0:0::\n");
+append_to_file("/etc/httpd/pm.org.vhosts4", "$hostname:$username:\n");
+append_to_file("/opt/apache/gocho.pm.org/80/conf/vhosts.pm.org", "$hostname\n");
+append_to_file("/etc/mail/virtusertable", "$hostname.pm.org\t$email\n");
+	
+send_faq($email, $username, "$hostname.pm.org");
+
+print "Remaking sendmail map files\n";
+system( "cd /etc/mail; make " );
+
+print "Restarting apache";
+system( "cd /opt/apache/gocho.pm.org/80; kill `cat logs/httpd.pid`; sleep 3; bin/httpd -d `pwd`" );
+
+sub send_faq
+	{
+	my $email = shift;
+	my $username  = shift;
+	
+	open MAIL, "| /usr/lib/sendmail -odq -oi -t";
+	print MAIL <<"HERE";
+To: $email
+From: tech\@pm.org
+Bcc: tech\@pm.org
+Subject: Perl Monger user group site configured
+
+Your Perl Monger user group site has been configured:
+
+ * Use an ssh ("secure shell") program to log on to
+   www.pm.org as "$username" with the password that you
+   provided.  You must use ssh to login and edit or
+   transfer files (telnet and ftp are not allowed).
+   For more information on ssh visit www.openssh.org
+
+ * Your website files are stored at:
+     /opt/apache/gocho.pm.org/80/htdocs/pm.org/$hostname
+
+ * There is a softlink to this path in your home directory
+   called web_docs (cd ~/web_docs).
+	
+ * Until the nameserver updates itself with your domain
+   name $hostname.pm.org, you can add this to your client
+   machine's host file (/etc/hosts on *nix and 
+   c:\\windows\\system32\\etc\\hosts on Windows) by adding
+   the line: 
+	64.49.222.22 $hostname.pm.org
+
+ * All mail to \@$hostname.pm.org will be automagically
+   forwarded to: $email
+
+That's it for now.  Good luck :)
+
+--
+The pm.org Admin Team <tech\@pm.org>
+HERE
+
+	close MAIL;
+	}
+	
+sub append_to_file
+{
+	my ($filename, $line) = @_;
+	open (FILENAME, ">>$filename") || die;
+	chomp $line;
+	print FILENAME "$line\n";
+	close FILENAME;
+}
+
+sub read_file_data {
+	my (@list, $key, $value);
+	while (<>)
+	{
+		($key, $value) = split $_, "=";
+		push (@list, ($key, $value));
+	}
+	return @list;
+}
