@@ -3290,7 +3290,7 @@
 		<date type="inception">19990707</date>
 	</group>
 	
-	<group id="127">
+	<group id="127" status="dead">
 		<name>Glasgow.pm</name>
 		<location>
 			<city>Glasgow</city>
@@ -10098,7 +10098,7 @@
 		<date type="inception">20010422</date>
 	</group>
 
-	<group id="394">
+	<group id="394" status="active">
 		<name>StPaul.pm</name>
 		<location>
 			<city>St. Paul</city>
@@ -11232,7 +11232,7 @@
 		<date type="inception">20010826</date>
 	</group>
 
-	<group id="436">
+	<group id="436" status="sleeping">
 		<name>Stavanger.pm</name>
 		<location>
 			<city>Stavanger</city>
@@ -11556,7 +11556,7 @@
 		<date type="inception">20011021</date>
 	</group>
 
-	<group id="448">
+	<group id="448" status="alive">
 		<name>stttelkom.pm</name>
 		<location>
 			<city>Dayeuh Kolot</city>
@@ -11988,21 +11988,21 @@
 		<date type="inception">20011213</date>
 	</group>
 
-	<group id="464">
+	<group id="464" status="active">
 		<name>CostaRica.pm</name>
 		<location>
 			<city>San Jose</city>
 			<state></state>
 			<region></region>
 			<country>Costa Rica</country>
-			<continent>North America</continent>
+			<continent>Central America</continent>
 			<longitude></longitude>
 			<latitude></latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
 			<name>Ronnie Alfaro</name>
-			<email type="personal">shadox@racsa.co.cr</email>
+			<email type="personal">ronnie@ticoweb.com</email>
 		</tsar>
 		<web>http://costarica.pm.org/</web>
 		<mailing_list>
@@ -13149,7 +13149,7 @@
 		<date type="inception">20020522</date>
 	</group>
 
-	<group id="28">
+	<group id="28" status="alive">
 		<name>Bucharest.pm</name>
 		<location>
 			<city>Bucharest</city>
