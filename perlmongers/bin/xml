@@ -79,9 +79,11 @@ foreach my $name (keys %$xml) {
       my $map = Image::WorldMap->new("titchy.png");
       $map->add($group->{location}->{longitude}, $group->{location}->{latitude}, 'group', $colour);
       $map->draw("foo.png");
-      system("pngtopnm foo.png | ppmquant 128 | pnmtopng -compression 9 > www/groups/graphics/$id.png");
+      system("pngtopnm foo.png | ppmquant 64 | pnmtopng -compression 9 > www/groups/graphics/$id.png");
       $group->{image} = "graphics/$id.png";
     }
+  } else {
+    print "Group $name in $group->{location}->{all} missing location\n";
   }
 
   my $continent = $group->{location}->{continent};
@@ -104,11 +106,11 @@ foreach my $continent (sort keys %groups) {
   my $name = lc $continent;
   $name =~ s/\W/_/g;
   my $file = "www/groups/$name.html";
-  warn "$continent -> $file\n";
+#  warn "$continent -> $file\n";
   my $groups;
   my $map = Image::WorldMap->new("titchy.png");
   foreach my $country (sort keys %{$groups{$continent}}) {
-    warn "  $country\n";
+#    warn "  $country\n";
     my @mygroups = @{$groups{$continent}->{$country}};
     $groups->{$country} = [sort { lc $a->{name} cmp lc $b->{name} } @mygroups];
   }
@@ -126,7 +128,7 @@ foreach my $continent (sort keys %groups) {
   }
 
   $map->draw("foo.png");
-  system("pngtopnm foo.png | ppmquant 128 | pnmtopng -compression 9 > www/groups/graphics/$name.png");
+  system("pngtopnm foo.png | ppmquant 127 | pnmtopng -compression 9 > www/groups/graphics/$name.png");
   my $conf = {
     groups => $groups,
     continent => $continent,
