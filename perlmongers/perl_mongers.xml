@@ -4955,33 +4955,6 @@
 		<date type="inception">19990503</date>
 	</group>
 	
-	<group id="191" status="dead">
-		<name>Jakarta.pm</name>
-		<location>
-			<city>Jakarta</city>
-			<state></state>
-			<region></region>
-			<country>Indonesia</country>
-			<continent>Asia</continent>
-			<longitude>106.8</longitude>
-			<latitude>-6.166</latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Jansen Nurjaya</name>
-			<email type="personal">askjansen@bigfoot.com</email>
-		</tsar>
-		<web></web>
-		<mailing_list>
-			<name>General Jakarta.pm discussion</name>
-			<email type="list">jakarta-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe jakarta-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe jakarta-pm-list email_address</unsubscribe>
-		</mailing_list>
-		<date type="inception">19990214</date>
-	</group>
-	
 	<group id="192">
 		<name>Pune.pm</name>
 		<location>
@@ -15384,7 +15357,7 @@
 	<group id="599" status="active">
 		<name>Perl Monger Jakarta.pm</name>
 		<location>
-			<city> </city>
+			<city>Jakarta</city>
 			<state> </state>
 			<region> </region>
 			<country>Indonesia</country>
@@ -15397,10 +15370,10 @@
 			<name>Christian Maxnamara</name>
 			<email type="personal">maxnamara@yahoo.com</email>
 		</tsar>
-		<web>http://perlmongerjakarta.pm.org/</web>
+		<web>http://jakarta.pm.org/</web>
 		<mailing-list>
 			<name>General Perl Monger Jakarta Perl Mongers discussion</name>
-			<email type="list">perlmongerjakarta-pm@pm.org</email>
+			<email type="list">jakarta-pm@pm.org</email>
 			<email type="list_admin">maxnamara@yahoo.com</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
