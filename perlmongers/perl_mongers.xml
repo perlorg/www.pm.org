@@ -8154,8 +8154,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-119.817</longitude>
+                        <latitude>39.533</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8181,8 +8181,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-121.900</longitude>
+                        <latitude>37.433</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8208,8 +8208,8 @@
 			<region></region>
 			<country>Italy</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>8.950</longitude>
+                        <latitude>44.417</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8235,8 +8235,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-81.300</longitude>
+                        <latitude>28.950</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8343,8 +8343,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-91.650</longitude>
+                        <latitude>42.017</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8370,8 +8370,8 @@
 			<region></region>
 			<country>Italy</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>11.250</longitude>
+                        <latitude>43.767</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8397,8 +8397,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-84.667</longitude>
+                        <latitude>37.867</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8424,8 +8424,8 @@
 			<region></region>
 			<country>India</country>
 			<continent>Asia</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>75.850</longitude>
+                        <latitude>30.900</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8451,8 +8451,8 @@
 			<region>Keswick</region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-75.150</longitude>
+                        <latitude>40.100</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8478,8 +8478,8 @@
 			<region></region>
 			<country>Turkey</country>
 			<continent>Asia</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>27.150</longitude>
+                        <latitude>38.417</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8532,8 +8532,8 @@
 			<region>Midland,Bay City,Saginaw</region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-83.883</longitude>
+                        <latitude>43.600</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8586,8 +8586,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-100.783</longitude>
+                        <latitude>46.817</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8613,8 +8613,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-88.100</longitude>
+                        <latitude>41.867</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8694,8 +8694,8 @@
 			<region></region>
 			<country>India</country>
 			<continent>Asia</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>72.617</longitude>
+                        <latitude>23.033</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8748,8 +8748,8 @@
 			<region></region>
 			<country>Taiwan</country>
 			<continent>Asia</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>120.683</longitude>
+                        <latitude>24.150</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8775,8 +8775,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-81.100</longitude>
+                        <latitude>32.083</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8856,8 +8856,8 @@
 			<region></region>
 			<country>Portugal</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-9.150</longitude>
+                        <latitude>38.683</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8883,8 +8883,8 @@
 			<region>Luberon</region>
 			<country>France</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>5.650</longitude>
+                        <latitude>43.700</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8910,8 +8910,8 @@
 			<region></region>
 			<country>Israel</country>
 			<continent>Asia</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>34.983</longitude>
+                        <latitude>32.817</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8937,8 +8937,8 @@
 			<region></region>
 			<country>China</country>
 			<continent>Asia</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>113.267</longitude>
+                        <latitude>23.100</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8991,8 +8991,8 @@
 			<region></region>
 			<country>Spain</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>2.183</longitude>
+                        <latitude>41.383</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -9045,8 +9045,8 @@
 			<region>Santa Fe-Los Alamos</region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-105.933</longitude>
+			<latitude>35.683</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -9072,8 +9072,8 @@
 			<region>Northern Virginia</region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-77.383</longitude>
+			<latitude>38.967</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -9126,8 +9126,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-112.033</longitude>
+                        <latitude>43.467</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -9180,8 +9180,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-92.450</longitude>
+                        <latitude>35.083</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -9207,8 +9207,8 @@
 			<region></region>
 			<country>Australia</country>
 			<continent>Oceania</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>133.667</longitude>
+                        <latitude>-32.117</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -9261,8 +9261,8 @@
 			<region>United States of America</region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-122.267</longitude>
+                        <latitude>37.867</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -9315,8 +9315,8 @@
 			<region></region>
 			<country>Bulgaria</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>27.833</longitude>
+                        <latitude>43.567</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -9342,8 +9342,8 @@
 			<region></region>
 			<country>Canada</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-86.950</longitude>
+                        <latitude>49.733</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -9369,8 +9369,8 @@
 			<region>West Yorkshire</region>
 			<country>United Kingdom</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-1.583</longitude>
+                        <latitude>53.833</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -9477,8 +9477,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-73.450</longitude>
+                        <latitude>40.733</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -9585,8 +9585,8 @@
 			<region></region>
 			<country>Australia</country>
 			<continent>Oceania</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>115.717</longitude>
+                        <latitude>-32.533</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -9639,8 +9639,8 @@
 			<region></region>
 			<country>Estonia</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>26.717</longitude>
+                        <latitude>58.383</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -9666,8 +9666,8 @@
 			<region></region>
 			<country>Argentina</country>
 			<continent>South America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-64.183</longitude>
+                        <latitude>-31.400</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -9693,8 +9693,8 @@
 			<region></region>
 			<country>Romania</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>21.217</longitude>
+                        <latitude>45.750</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -9720,8 +9720,8 @@
 			<region>Serbia</region>
 			<country>Yugoslavia</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>20.500</longitude>
+                        <latitude>44.833</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -9774,8 +9774,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-121.000</longitude>
+                        <latitude>37.633</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -9801,8 +9801,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-123.033</longitude>
+			<latitude>44.95</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
