@@ -100,12 +100,16 @@ open (OUT, ">$doc_root/index.html");
 print OUT <<EOT;
 <h1>$hostname.pm.org</h1>
 
-Coming soon...
+Coming soon...<p>
+
+This page created: 
 EOT
 close OUT;
+/bin/date >> $doc_root/index.html
 system("chmod +x $doc_root");
 
 chown( (getpwnam($username))[2], getgrnam('apache'), $doc_root);
+chown( (getpwnam($username))[2], getgrnam('apache'), "$doc_root/index.html");
 `ln -s $doc_root $userhome/web_docs`;
 
 append_to_file("/etc/httpd/conf.d/pm.org.vhosts", "$hostname\n");
