@@ -370,8 +370,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Rob Manning</name>
-			<email type="personal">manningr@spamcop.net</email>
+			<name>Mike Barry</name>
+			<email type="personal">baltimorepm-owner@yahoogroups.com</email>
 		</tsar>
 		<web>http://baltimore.pm.org/</web>
 		<mailing_list>
@@ -14807,9 +14807,8 @@
                 </mailing-list>
                 <date type="inception">20030410</date>
         </group>
-<!-- next free group id is 569 -->
 
-	<group id="566" status="active">
+	<group id="569" status="active">
 		<name>LagunaNiguel.pm</name>
 		<location>
 			<city>Laguna Niguel</city>
@@ -14836,7 +14835,7 @@
 		<date type="inception">20030425</date>
 	</group>
 
-	<group id="567" status="active">
+	<group id="570" status="active">
 		<name>PhPerl.pm</name>
 		<location>
 			<city>Pateros</city>
@@ -14863,7 +14862,7 @@
 		<date type="inception">20030425</date>
 	</group>
 
-	<group id="568" status="active">
+	<group id="571" status="active">
 		<name>Dominican Republic.pm</name>
 		<location>
 			<city>Santo Domingo</city>
@@ -14890,7 +14889,7 @@
 		<date type="inception">20030425</date>
 	</group>
 
-	<group id="569" status="active">
+	<group id="572" status="active">
 		<name>uperl.pm</name>
 		<location>
 			<city>Xuzhou</city>
@@ -14917,7 +14916,7 @@
 		<date type="inception">20030425</date>
 	</group>
 
-	<group id="570" status="active">
+	<group id="573" status="active">
 		<name>Central Coast.pm</name>
 		<location>
 			<city>Central Coast</city>
@@ -14944,7 +14943,7 @@
 		<date type="inception">20030425</date>
 	</group>
 
-	<group id="571" status="active">
+	<group id="574" status="active">
 		<name>Bangkok.pm</name>
 		<location>
 			<city>Bangkok</city>
@@ -14971,7 +14970,8 @@
 		<date type="inception">20030425</date>
 	</group>
 
-	<group id="572" status="active">
+        <!-- duplicate - leon -->
+	<group id="575" status="dead">
 		<name>Pisa.pm</name>
 		<location>
 			<city>Pisa</city>
@@ -14998,7 +14998,7 @@
 		<date type="inception">20030425</date>
 	</group>
 
-	<group id="573" status="active">
+	<group id="576" status="active">
 		<name>Princeton.pm</name>
 		<location>
 			<city>Princeton</city>
@@ -15025,7 +15025,7 @@
 		<date type="inception">20030425</date>
 	</group>
 
-	<group id="574" status="active">
+	<group id="577" status="active">
 		<name>Africa Perl Users Group.pm</name>
 		<location>
 			<city>Addis Ababa</city>
@@ -15052,7 +15052,7 @@
 		<date type="inception">20030425</date>
 	</group>
 
-	<group id="575" status="active">
+	<group id="578" status="active">
 		<name>Humboldt.pm</name>
 		<location>
 			<city>Arcata</city>
@@ -15078,4 +15078,8 @@
 		</mailing-list>
 		<date type="inception">20030425</date>
 	</group>
-</perl-mongers>
+
+<!-- next free group id is 579 -->
+<!-- please don't insert duplicate group ids, wayne ;-) -->
+
+</perl_mongers>
