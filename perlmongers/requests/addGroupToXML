@@ -1,0 +1,69 @@
+#!/usr/bin/perl
+
+use strict;
+
+my %a;
+my $var;
+my $old;
+my $date;
+my ( $groupid, $groupname, $city, $state, $region, $country, $continent, $longitude, $latitude, $groupleader, $groupleaderemail, $website, $email_list, $email_list_owner );
+
+$date = `date +%Y%m%d`;
+chomp $date;
+
+open (XML, ">perl_mongers.xml.new") || die;
+open OLDXML, "perl_mongers.xml" || die;
+
+do
+{
+	print XML $old;
+	if (/group id="([^"]+)"/)
+	{
+		print STDERR $1;
+		$groupid = $1;
+	}
+	$old = $_;
+} while (<OLDXML>);
+
+foreach $var ( qw( groupname city state region country continent longitude latitude groupleader groupleaderemail website email_list email_list_owner ) )
+{
+	my $b;
+
+	print "$var: ";
+	$b = <>;
+	chomp $b;
+	$a{$var} = $b;
+}
+
+$groupid++;
+
+print XML qq(
+	<group id="$groupid">
+		<name>$a{groupname}.pm</name>
+		<location>
+			<city>$a{city}</city>
+			<state>$a{state}</state>
+			<region>$a{region}</region>
+			<country>$a{country}</country>
+			<continent>$a{continent}</continent>
+			<longitude>$a{longitude}</longitude>
+			<latitude>$a{latitude}</latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>$a{groupleader}</name>
+			<email type="personal">$a{groupleaderemail}</email>
+		</tsar>
+		<web>$a{website}</web>
+		<mailing-list>
+			<name>General $a{groupname} Perl Mongers discussion</name>
+			<email type="list">$a{email_list}</email>
+			<email type="list_admin">$a{email_list_owner}</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">$a{date}</date>
+	</group>
+</perl-mongers>
+);
+close XML;
