@@ -105,7 +105,7 @@ copy("./perl_mongers.dtd", "www/groups/perl_mongers.dtd");
 #use YAML; die Dump(\%groups);
 my @continents = (
   "Africa", "Asia", "Europe", "North America", "Central America",
-  "South America", "Oceania"
+  "South America", "Oceania", "Non-geographical",
 );
 
 foreach my $continent (@continents) {
