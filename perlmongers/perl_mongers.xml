@@ -6711,7 +6711,7 @@
 		<date type="inception">20000116</date>
 	</group>
 
-	<group id="261">
+	<group id="261" status="active">
 		<name>Tijuana.pm</name>
 		<location>
 			<city>Tijuana</city>
