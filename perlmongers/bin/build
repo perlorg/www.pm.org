@@ -1,5 +1,54 @@
-#!/bin/sh
+#!/home/acme/bin/perl -w
+use strict;
+use File::Copy;
+use File::Find::Rule;
+use File::Path;
+use File::Spec::Functions qw(splitpath);
+use Template;
 
-ttree -a -f etc/ttree.cfg
-mkdir html/graphics 2>/dev/null
-tpage src/graphics/basic.css > html/graphics/basic.css
+my $tt_normal = Template->new({
+  POST_CHOMP => 1,
+  PRE_CHOMP => 1,
+  TRIM => 1,
+  EVAL_PERL => 1 ,
+  INCLUDE_PATH => ['.', 'lib', 'src'],
+  PROCESS => 'layout',
+});
+
+my $tt_plain = Template->new({
+  POST_CHOMP => 1,
+  PRE_CHOMP => 1,
+  TRIM => 1,
+  EVAL_PERL => 1 ,
+  INCLUDE_PATH => ['.', 'lib', 'src'],
+});
+
+my $source = 'src';
+my $destination = 'html';
+my $parms;
+
+my $rule = File::Find::Rule->new;
+$rule->or(
+  $rule->new->directory->name('CVS')->prune->discard,
+  $rule->new
+);
+my @files = $rule->file()->name(qr/^.[^~]+$/)->in($source);
+
+foreach my $file (@files) {
+  my $destfile = $file;
+  $destfile =~ s/^$source/$destination/;
+  my($volume, $directories, $filepart) = splitpath($destfile);
+  mkpath $directories;
+  warn "$file -> $destfile\n";
+
+  if ($file =~ /\.png$/) {
+    copy($file, $destfile);
+  } else {
+    my $tt = $tt_normal;
+    $tt = $tt_plain if ($file =~ /\.css$/);
+    $tt->process($file, $parms, $destfile) || die $tt->error;
+  }
+}
+
+
+
