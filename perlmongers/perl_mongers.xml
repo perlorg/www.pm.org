@@ -11390,13 +11390,13 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Fermin Palacios</name>
-			<email type="personal">perl@programacionweb.com</email>
+			<email type="personal">larioja.pm@fitipaldis.com</email>
 		</tsar>
 		<web>http://rioja.pm.org/</web>
 		<mailing_list>
 			<name>General Rioja Perl Mongers discussion</name>
 			<email type="list">rioja-pm@pm.org</email>
-			<email type="list_admin">perl@programacionweb.com</email>
+			<email type="list_admin">larioja.pm@fitipaldis.com</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
