@@ -3299,7 +3299,7 @@
 		<date type="inception">19990707</date>
 	</group>
 	
-	<group id="127" status="dead">
+	<group id="127" status="alive">
 		<name>Glasgow.pm</name>
 		<location>
 			<city>Glasgow</city>
@@ -3312,8 +3312,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Colin McPherson</name>
-			<email type="personal">CMcphe6584@aol.com</email>
+			<name>Jeff T. Parsons</name>
+			<email type="personal">0105381p@student.gla.ac.uk</email>
 		</tsar>
 		<web>http://glasgow.pm.org/</web>
 		<mailing_list>
@@ -6162,7 +6162,7 @@
 		<date type="inception">19991024</date>
 	</group>
 
-	<group id="237">
+	<group id="237" status="active">
 		<name>Budapest.pm</name>
 		<location>
 			<city>Budapest</city>
@@ -6175,10 +6175,10 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>warder</name>
-			<email type="personal">warder@graffiti.net</email>
+			<name>Gabor Szabo</name>
+			<email type="personal">gabor@perl.org.hu</email>
 		</tsar>
-		<web></web>
+		<web>http://budapest.pm.org/</web>
 		<mailing_list>
 			<name></name>
 			<email type="list"></email>
