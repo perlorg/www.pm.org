@@ -36,10 +36,12 @@ foreach my $name (keys %$xml) {
     map { $group->{location}->{$_} }
  qw(city region state country continent);
 
-  my $map = Image::WorldMap->new("titchy.png");
-  $map->add($group->{location}->{longitude}, $group->{location}->{latitude});
-  $map->draw("foo.png");
-  system("pngtopnm foo.png | ppmquant 255 | pnmtopng -compression 9 > html/groups/$id.png");
+  unless (-f "html/groups/$id.png") {
+    my $map = Image::WorldMap->new("titchy.png");
+    $map->add($group->{location}->{longitude}, $group->{location}->{latitude});
+    $map->draw("foo.png");
+    system("pngtopnm foo.png | ppmquant 255 | pnmtopng -compression 9 > html/groups/$id.png");
+  }
   $group->{image} = "$id.png";
 
   $tt->process('groups/group.html', $group, "html/groups/$id.html")

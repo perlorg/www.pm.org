@@ -1,15 +1,16 @@
 [% META title = "User group" %]
 
-<img src="[% image %]" align=right>
+[% IF image %]
+<img src="[% image %]"><p>
+[% END %]
 
-[% name %]<br>
-[% web %]<br>
-[% date.content %]<br>
-Tsar: [% tsar.name %]<br>
-Location: [% location.all %]<br>
-GPS: [% location.latitude %], [% location.longitude %]<br>
+[% IF web %]
+<b><a href="[% web %]">[% name %]</a></b> ([% location.all %])<br>
+[% ELSE %]
+<b>[% name %]</b> ([% location.all %])<br>
+[% END %]
 
-
+[% tsar.name %] <a href="mailto:[% tsar.email.content %]">&lt;[% tsar.email.content %]&gt;</a><br>
 
 
 
