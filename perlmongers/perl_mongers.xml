@@ -7134,7 +7134,7 @@
 		<date type="inception">20000227</date>
 	</group>
 
-	<group id="279" status="mlb">
+	<group id="279" status="active">
 		<name>OklahomaCity.pm</name>
 		<location>
 			<city>Oklahoma City</city>
@@ -7147,8 +7147,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>darrin husmann</name>
-			<email type="personal">dthusma@balsasoft.com</email>
+			<name>Darrin Husmann</name>
+			<email type="personal">dthusma@dhokc.com</email>
 		</tsar>
 		<web>http://okc.pm.org/</web>
 		<mailing_list>
