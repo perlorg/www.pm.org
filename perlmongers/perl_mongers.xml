@@ -3644,7 +3644,7 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Mark Fowler</name>
+			<name>Paul Mison</name>
 			<email type="personal">leader@london.pm.org</email>
 		</tsar>
 		<web>http://london.pm.org/</web>
@@ -14403,7 +14403,10 @@
 		<date type="inception">20030109</date>
 	</group>
 
-	<group id="551" status="active">
+<!-- next free group id is 551 -->
+
+
+	<group id="521" status="active">
 		<name>NewCastle.pm</name>
 		<location>
 			<city>Newark</city>
@@ -14430,7 +14433,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="552" status="active">
+	<group id="522" status="active">
 		<name>ZA.pm</name>
 		<location>
 			<city>Johannesburg</city>
@@ -14457,7 +14460,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="553" status="active">
+	<group id="523" status="active">
 		<name>Jalisco.pm</name>
 		<location>
 			<city>Ojuelos</city>
@@ -14484,10 +14487,10 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="554" status="active">
+	<group id="524" status="active">
 		<name>Saarland.pm</name>
 		<location>
-			<city>Saarbr&uuml;cken</city>
+			<city>Saarbrücken</city>
 			<state>Saarland</state>
 			<region></region>
 			<country>Germany</country>
@@ -14511,7 +14514,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="555" status="active">
+	<group id="525" status="active">
 		<name>Shibuya.pm</name>
 		<location>
 			<city>Shibuya</city>
@@ -14538,7 +14541,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="556" status="active">
+	<group id="526" status="active">
 		<name>Istanbul.pm</name>
 		<location>
 			<city>Kucukcekmece</city>
@@ -14565,7 +14568,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="557" status="active">
+	<group id="527" status="active">
 		<name>PerlChina.pm</name>
 		<location>
 			<city>China Shenzhen</city>
@@ -14592,20 +14595,20 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="558" status="active">
+	<group id="528" status="active">
 		<name>German.pm</name>
 		<location>
 			<city></city>
 			<state></state>
 			<region>Mitteleuropa</region>
-			<country>Germany</country>
+			<country></country>
 			<continent>Europe</continent>
 			<longitude></longitude>
 			<latitude></latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>S&ouml;ren Michael Laird S&ouml;rries</name>
+			<name>Sören Michael Laird Sörries</name>
 			<email type="personal">info@perlmongers.de</email>
 		</tsar>
 		<web>http://german.pm.org/</web>
@@ -14619,7 +14622,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="559" status="active">
+	<group id="529" status="active">
 		<name>Kiel.pm</name>
 		<location>
 			<city>Kiel</city>
@@ -14646,14 +14649,14 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="560" status="active">
+	<group id="530" status="active">
 		<name>Camelot.pm</name>
 		<location>
 			<city></city>
 			<state></state>
 			<region></region>
-			<country>Non-geographical</country>
-			<continent>Non-geographical</continent>
+			<country></country>
+			<continent></continent>
 			<longitude></longitude>
 			<latitude></latitude>
 		</location>
@@ -14673,7 +14676,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="561" status="active">
+	<group id="531" status="active">
 		<name>Malazgirt.pm</name>
 		<location>
 			<city>Malazgirt</city>
@@ -14700,7 +14703,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="562" status="active">
+	<group id="532" status="active">
 		<name>KernCounty.pm</name>
 		<location>
 			<city>Bakersfield</city>
@@ -14727,6 +14730,57 @@
 		<date type="inception">20030317</date>
 	</group>
 
-<!-- next free group id is 551 -->
+	<group id="533" status="active">
+		<name>Africa.pm</name>
+		<location>
+			<city>Addis Ababa</city>
+			<state></state>
+			<region>Africa</region>
+			<country>Ethiopia</country>
+			<continent>Africa</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Alemu Tadesse</name>
+			<email type="personal">myperl2003@yahoo.com</email>
+		</tsar>
+		<web>http://africa.pm.org/</web>
+		<mailing-list>
+			<name>General Africa Perl Mongers discussion</name>
+			<email type="list">africa-pm@pm.org</email>
+			<email type="list_admin">myperl2003@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030317</date>
+	</group>
 
-</perl_mongers>
+	<group id="534" status="active">
+		<name>Princeton.pm</name>
+		<location>
+			<city>Princeton</city>
+			<state>New Jersey</state>
+			<region></region>
+			<country>United States of America</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Gyan Kapur</name>
+			<email type="personal">gkapur@myrealbox.com</email>
+		</tsar>
+		<web>http://princeton.pm.org/</web>
+		<mailing-list>
+			<name>General Princeton Perl Mongers discussion</name>
+			<email type="list">princeton-pm@pm.org</email>
+			<email type="list_admin">gkapur@myrealbox.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030317</date>
+	</group>
+</perl-mongers>
