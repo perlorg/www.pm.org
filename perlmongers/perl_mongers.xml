@@ -16287,4 +16287,32 @@
 		</mailing_list>
 		<date type="inception">20041205</date>
 	</group>
+
+        <group id="656" status="active">
+                <name>Aberdeen.pm</name>
+                <location>
+                        <city>Aberdeen</city>
+                        <state>Aberdeenshire</state>
+                        <region></region>
+                        <country>Scotland</country>
+                        <continent>Europe</continent>
+                        <longitude>-2.9</longitude>
+                        <latitude>57.9</latitude>
+                </location>
+                <email type="group"></email>
+                <tsar>
+                        <name>Gavin Henry</name>
+                        <email type="personal">ghenry@suretecsystems.com</email>
+                </tsar>
+                <web>http://aberdeen.pm.org/</web>
+                <mailing_list>
+                        <name>General Aberdeen Perl Mongers discussion</name>
+                        <email type="list">aberdeen-pm@pm.org</email>
+                        <email type="list_admin">ghenry@suretecsystems.com</email>
+                        <subscribe>subscribe members email_address</subscribe>
+                        <unsubscribe>unsubscribe members email_address</unsubscribe>
+                </mailing_list>
+                <date type="inception">20050218</date>
+        </group>
 </perl_mongers>
+
