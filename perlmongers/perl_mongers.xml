@@ -315,14 +315,14 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Wayne Walker</name>
-			<email type="personal">wwalker@bybent.com</email>
+			<name>Mark Lehmann</name>
+			<email type="personal">mlehmann@marklehmann.com</email>
 		</tsar>
 		<web>http://austin.pm.org/</web>
 		<mailing_list>
 			<name>General Austin.pm discussion</name>
 			<email type="list">austin-pm@pm.org</email>
-			<email type="list_admin">wwalker@pm.org</email>
+			<email type="list_admin">mlehmann@marklehmann.com</email>
 			<subscribe></subscribe>
 			<unsubscribe></unsubscribe>
 		</mailing_list>
