@@ -140,7 +140,7 @@
 		<date type="inception">19970827</date>
 	</group>
 
-	<group id="1">
+	<group id="1" status="active">
 		<name>Albany.pm</name>
 		<location>
 			<city>Albany</city>
@@ -153,8 +153,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Clark Cooper</name>
-			<email type="personal">coopercc@netheaven.com</email>
+			<name>Will Coleda</name>
+			<email type="personal">WCOLEDA@dot.state.ny.us</email>
 		</tsar>
 		<web>http://albany.pm.org/</web>
 		<mailing_list>
