@@ -15355,7 +15355,7 @@
 	</group>
 
 	<group id="599" status="active">
-		<name>Perl Monger Jakarta.pm</name>
+		<name>Jakarta.pm</name>
 		<location>
 			<city>Jakarta</city>
 			<state> </state>
@@ -15372,7 +15372,7 @@
 		</tsar>
 		<web>http://jakarta.pm.org/</web>
 		<mailing-list>
-			<name>General Perl Monger Jakarta Perl Mongers discussion</name>
+			<name>General Jakarta Perl Mongers discussion</name>
 			<email type="list">jakarta-pm@pm.org</email>
 			<email type="list_admin">maxnamara@yahoo.com</email>
 			<subscribe>subscribe members email_address</subscribe>
