@@ -8306,8 +8306,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-78.63889</longitude>
+			<latitude>35.77194</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8549,8 +8549,8 @@
 			<region>Balcan</region>
 			<country>Yugoslavia</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>20.69</longitude>
+			<latitude>43.73</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8684,8 +8684,8 @@
 			<region></region>
 			<country>Iran</country>
 			<continent>Asia</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>51.42</longitude>
+			<latitude>35.67</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -9143,8 +9143,8 @@
 			<region>Vancouver Island</region>
 			<country>Canada</country>
 			<continent>North America</continent>
-                        <longitude>-63.4833</longitude>
-                        <latitude>46.2167</latitude>
+                        <longitude>-123.35</longitude>
+                        <latitude>48.43</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -9224,8 +9224,8 @@
 			<region></region>
 			<country>Bulgaria</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>25.95</longitude>
+			<latitude>43.83</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -11411,8 +11411,8 @@
 			<region></region>
 			<country>Netherlands</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>4.5</longitude>
+			<latitude>51.92</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -11519,8 +11519,8 @@
 			<region></region>
 			<country>Indonesia</country>
 			<continent>Asia</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>110.36</longitude>
+			<latitude>-7.8</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -11546,8 +11546,8 @@
 			<region></region>
 			<country>Netherlands</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>4.65</longitude>
+			<latitude>52.37</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -11843,8 +11843,8 @@
 			<region></region>
 			<country>Spain</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-4.42</longitude>
+			<latitude>36.72</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -12005,8 +12005,8 @@
 			<region></region>
 			<country>Costa Rica</country>
 			<continent>South America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-85.13</longitude>
+			<latitude>10.97</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -12545,8 +12545,8 @@
 			<region></region>
 			<country>Yugoslavia</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>20.47</longitude>
+			<latitude>44.81</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -12841,8 +12841,8 @@
 			<region></region>
 			<country>Switzerland</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>8.55</longitude>
+			<latitude>47.37</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -13165,8 +13165,8 @@
 			<region></region>
 			<country>Romania</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>26.1</longitude>
+			<latitude>44.3</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -13568,8 +13568,8 @@
 			<region>Pakistan</region>
 			<country>Pakistan</country>
 			<continent>Asia</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>67.05</longitude>
+			<latitude>24.87</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -13698,9 +13698,9 @@
 			<state>Central</state>
 			<region>Central</region>
 			<country>Paraguay</country>
-			<continent>Africa</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<continent>South America</continent>
+			<longitude>-57.67</longitude>
+			<latitude>-25.27</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -13831,8 +13831,8 @@
 			<region>Rhineland</region>
 			<country>Germany</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>6.9593</longitude>
+			<latitude>50.93</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -13858,8 +13858,8 @@
 			<region></region>
 			<country>Norway</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>10.75</longitude>
+			<latitude>59.92</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -13886,8 +13886,8 @@
 			<region></region>
 			<country>Germany</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>10</longitude>
+			<latitude>53.5</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -13970,8 +13970,8 @@
 			<region></region>
 			<country>India</country>
 			<continent>Asia</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>77.58</longitude>
+			<latitude>12.98</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
