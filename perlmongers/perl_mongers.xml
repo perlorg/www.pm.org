@@ -9251,33 +9251,6 @@
 		<date type="inception">20010210</date>
 	</group>
 
-	<group id="358">
-		<name>Princeton.pm</name>
-		<location>
-			<city>Princeton</city>
-			<state>New Jersey</state>
-			<region></region>
-			<country>United States of America</country>
-			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Peter Somu</name>
-			<email type="personal">somup@zensys.com</email>
-		</tsar>
-		<web>http://princeton.pm.org/</web>
-		<mailing_list>
-			<name>General Princeton Perl Mongers discussion</name>
-			<email type="list">princeton-pm@pm.org</email>
-			<email type="list_admin">somup@zensys.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
-		<date type="inception">20010313</date>
-	</group>
-
 	<group id="359" status="mlb">
 		<name>IdahoFalls.pm</name>
 		<location>
@@ -14998,32 +14971,6 @@
 		<date type="inception">20030425</date>
 	</group>
 
-	<group id="576" status="active">
-		<name>Princeton.pm</name>
-		<location>
-			<city>Princeton</city>
-			<state>New Jersey</state>
-			<region></region>
-			<country>United States of America</country>
-			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Gyan Kapur</name>
-			<email type="personal">gkapur@myrealbox.com</email>
-		</tsar>
-		<web>http://princeton.pm.org/</web>
-		<mailing-list>
-			<name>General Princeton Perl Mongers discussion</name>
-			<email type="list">princeton-pm@pm.org</email>
-			<email type="list_admin">gkapur@myrealbox.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing-list>
-		<date type="inception">20030425</date>
-	</group>
 
 	<group id="577" status="active">
 		<name>Africa Perl Users Group.pm</name>
