@@ -1086,7 +1086,7 @@
 		<date type="inception">19990515</date>
 	</group>
 	
-	<group id="38">
+	<group id="38" status="active">
 		<name>Harrisburg.pm</name>
 		<location>
 			<city>Harrisburg</city>
@@ -1099,17 +1099,17 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Scott Springer</name>
-			<email type="personal">springer@inetsports.com</email>
+			<name>Eric Andreychek</name>
+			<email type="personal">hpm@openthought.net</email>
 		</tsar>
-		<web></web>
-		<mailing_list>
-			<name>General Harrisburg.pm discussion</name>
-			<email type="list">harrisburg-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe harrisburg-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe harrisburg-pm-list email_address</unsubscribe>
-		</mailing_list>
+		<web>http://harrisburg.pm.org/</web>
+		<mailing-list>
+			<name>General Harrisburg Perl Mongers discussion</name>
+			<email type="list">harrisburg-pm@pm.org</email>
+			<email type="list_admin">hpm@openthought.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
 		<date type="inception">19990707</date>
 	</group>
 	
@@ -2821,7 +2821,7 @@
 		<date type="inception">19980916</date>
 	</group>
 	
-	<group id="104" status="inactive">
+	<group id="104" status="active">
 		<name>Vancouver.pm</name>
 		<location>
 			<city>Vancouver</city>
@@ -2834,17 +2834,17 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Chris Young</name>
-			<email type="personal">yoshim_eggman@yahoo.com</email>
+			<name>Helen Cook</name>
+			<email type="personal">hvc@cpan.org</email>
 		</tsar>
 		<web>http://vancouver.pm.org/</web>
-		<mailing_list>
-			<name>General Vancouver.pm discussion</name>
-			<email type="list">vancouver@pm.org</email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
+		<mailing-list>
+			<name>General Vancouver Perl Mongers discussion</name>
+			<email type="list">vancouver-pm@pm.org</email>
+			<email type="list_admin">hvc@cpan.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
 		<date type="inception">19980826</date>
 	</group>
 	
@@ -4496,7 +4496,7 @@
 		<date type="inception">19990331</date>
 	</group>
 	
-	<group id="173" status="inactive">
+	<group id="173" status="active">
 		<name>Melbourne.pm</name>
 		<location>
 			<city>Melbourne</city>
@@ -4514,11 +4514,11 @@
 		</tsar>
 		<web>http://melbourne.pm.org/</web>
 		<mailing_list>
-			<name>General Melbourne.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
+			<name>General Melbourne Perl Mongers discussion</name>
+			<email type="list">melbourne-pm@pm.org</email>
+			<email type="list_admin">sharkey@zoic.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">19980730</date>
 	</group>
@@ -4847,7 +4847,7 @@
 		<date type="inception">19990108</date>
 	</group>
 	
-	<group id="186">
+	<group id="186" status="active">
 		<name>Delhi.pm</name>
 		<location>
 			<city>Delhi</city>
@@ -4860,16 +4860,16 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>SuratSingh Bhati</name>
-			<email type="personal">suratbhati@hotmail.com</email>
+			<name>Varun Singh</name>
+			<email type="personal">varun_singh@yahoo.com</email>
 		</tsar>
-		<web></web>
+		<web>http://delhi.pm.org/</web>
 		<mailing_list>
-			<name>General Delhi.pm discussion</name>
-			<email type="list">delhi-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe delhi-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe delhi-pm-list email_address</unsubscribe>
+			<name>General Delhi Perl Mongers discussion</name>
+			<email type="list">delhi-pm@pm.org</email>
+			<email type="list_admin">varun_singh@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">19990131</date>
 	</group>
@@ -5414,7 +5414,7 @@
 		<date type="inception">19990914</date>
 	</group>
 
-	<group id="209">
+	<group id="209" status="active">
 		<name>Guimaraes.pm</name>
 		<location>
 			<city>Guimaraes</city>
@@ -5427,16 +5427,16 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Ricardo Manuel Oliveira</name>
+			<name>Ricardo Oliveira</name>
 			<email type="personal">scorpio@gil.di.uminho.pt</email>
 		</tsar>
-		<web></web>
+		<web>http://guimaraes.pm.org/</web>
 		<mailing_list>
-			<name>General Guimaraes.pm discussion</name>
-			<email type="list">guimaraes-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe guimaraes-pm-list</subscribe>
-			<unsubscribe>unsubscribe guimaraes-pm-list</unsubscribe>
+			<name>General Guimaraes Perl Mongers discussion</name>
+			<email type="list">guimaraes-pm@pm.org</email>
+			<email type="list_admin">scorpio@gil.di.uminho.pt</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">19990914</date>
 	</group>
@@ -5954,7 +5954,7 @@
 		<date type="inception">19991024</date>
 	</group>
 
-	<group id="229">
+	<group id="229" status="active">
 		<name>Bangalore.pm</name>
 		<location>
 			<city>Bangalore</city>
@@ -5967,16 +5967,16 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Ravi Kashyap</name>
-			<email type="personal">rvkashyap@yahoo.com</email>
+			<name>S.Anand Nataraj</name>
+			<email type="personal">natarajin2k@yahoo.com</email>
 		</tsar>
-		<web></web>
+		<web>http://bangalore.pm.org/</web>
 		<mailing_list>
-			<name>General Bangalore.pm discussion</name>
-			<email type="list">bangalore-pm-list@pm.org</email>
-			<email type="list_admin">rvkashyap@yahoo.com</email>
-			<subscribe>subscribe bangalore-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe bangalore-pm-list email_address</unsubscribe>
+			<name>General Bangalore Perl Mongers discussion</name>
+			<email type="list">bangalore-pm@pm.org</email>
+			<email type="list_admin">natarajin2k@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
@@ -6062,7 +6062,7 @@
 		<date type="inception">19991024</date>
 	</group>
 	
-	<group id="233" status="unknown">
+	<group id="233" status="active">
 		<name>Oslo.pm</name>
 		<location>
 			<city>Oslo</city>
@@ -6075,21 +6075,21 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Kenneth Floen</name>
-			<email type="personal">kfloen@c2i.net</email>
+			<name>Salve J. Nilsen</name>
+			<email type="personal">sjn+oslo.pm@pvv.org</email>
 		</tsar>
-		<web></web>
+		<web>http://oslo.pm.org/</web>
 		<mailing_list>
-			<name>General Oslo.pm discussion</name>
-			<email type="list">oslo-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe oslo-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe oslo-pm-list email_address</unsubscribe>
+			<name>General Oslo Perl Mongers discussion</name>
+			<email type="list">oslo-pm@pm.org</email>
+			<email type="list_admin">sjn+oslo.pm@pvv.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
 
-	<group id="234">
+	<group id="234" status="active">
 		<name>Madrid.pm</name>
 		<location>
 			<city>Madrid</city>
@@ -6102,21 +6102,21 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Arturo Valdes</name>
-			<email type="personal">arturovaldes@usa.net</email>
+			<name>Bruno Diaz</name>
+			<email type="personal">bruno.diaz@gmx.net</email>
 		</tsar>
 		<web>http://madrid.pm.org/</web>
-		<mailing_list>
-			<name>General Madrid.pm discussion</name>
-			<email type="list">madrid-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe madrid-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe madrid-pm-list email_address</unsubscribe>
-		</mailing_list>
+		<mailing-list>
+			<name>General Madrid Perl Mongers discussion</name>
+			<email type="list">madrid-pm@pm.org</email>
+			<email type="list_admin">bruno.diaz@gmx.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
 		<date type="inception">19991024</date>
 	</group>
 
-	<group id="235">
+	<group id="235" status="active">
 		<name>PortoAlegre.pm</name>
 		<location>
 			<city>Porto Alegre</city>
@@ -6133,13 +6133,13 @@
 			<email type="personal">pmpoa@zaz.com.br</email>
 		</tsar>
 		<web>http://porto-alegre.pm.org/</web>
-		<mailing_list>
-			<name>General PortoAlegre.pm discussion</name>
-			<email type="list">porto-alegre-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe porto-alegre-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe porto-alegre-pm-list email_address</unsubscribe>
-		</mailing_list>
+		<mailing-list>
+			<name>General PortoAlegre Perl Mongers discussion</name>
+			<email type="list">portoalegre-pm@pm.org</email>
+			<email type="list_admin">pmpoa@galvao.eti.br</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
 		<date type="inception">19991024</date>
 	</group>
 
@@ -6494,7 +6494,7 @@
 		<date type="inception">20000116</date>
 	</group>
 
-	<group id="251">
+	<group id="251" status="active">
 		<name>Istanbul.pm</name>
 		<location>
 			<city>Istanbul</city>
@@ -6506,18 +6506,19 @@
 			<latitude>41.007</latitude>
 		</location>
 		<email type="group"></email>
+		<email type="group"></email>
 		<tsar>
-			<name>Oyku Gencay</name>
-			<email type="personal">oykug@sbt.com.tr</email>
+			<name>Sori Zilan</name>
+			<email type="personal">sori@sorix.org</email>
 		</tsar>
 		<web>http://istanbul.pm.org/</web>
-		<mailing_list>
-			<name>General Istanbul.pm discussion</name>
-			<email type="list">istanbul-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe istanbul-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe istanbul-pm-list email_address</unsubscribe>
-		</mailing_list>
+		<mailing-list>
+			<name>General Istanbul Perl Mongers discussion</name>
+			<email type="list">istanbul-pm@pm.org</email>
+			<email type="list_admin">sori@sorix.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
 		<date type="inception">20000116</date>
 	</group>
 
@@ -6830,17 +6831,17 @@
 			<latitude>-7.8282</latitude>
 		</location>
 		<email type="group"></email>
-		<tsar>
-			<name>Bambang Purnomosidi Dwi Putranto</name>
-			<email type="personal">bpurnomo@akakom.ac.id</email>
+<tsar>
+			<name>Situs Poerbakala</name>
+			<email type="personal">situs@sdf.lonestar.org</email>
 		</tsar>
-		<web></web>
+		<web>http://yogyakarta.pm.org/</web>
 		<mailing_list>
-			<name>General Yogyakarta.pm discussion</name>
-			<email type="list">yogyakarta-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe yogyakarta-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe yogyakarta-pm-list email_address</unsubscribe>
+			<name>General situs@sdf.lonestar.org Perl Mongers discussion</name>
+			<email type="list"></email>
+			<email type="list_admin"></email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20000116</date>
 	</group>
@@ -7115,12 +7116,12 @@
 		<date type="inception">20000227</date>
 	</group>
 
-	<group id="278">
+	<group id="278" status="active">
 		<name>Aalesund.pm</name>
 		<location>
 			<city>Aalesund</city>
 			<state></state>
-			<region></region>
+			<region>More &amp; Romsdal</region>
 			<country>Norway</country>
 			<continent>Europe</continent>
 			<longitude>6.156</longitude>
@@ -7128,18 +7129,19 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Remco Brink</name>
-			<email type="personal">remco@xgov.net</email>
+			<name>Kent Inge Klokk</name>
+			<email type="personal">kent@laget.kicks-ass.net</email>
 		</tsar>
-		<web></web>
-		<mailing_list>
-			<name>General Aalesund.pm discussion</name>
-			<email type="list">aalesund-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe aalesund-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe aalesund-pm-list email_address</unsubscribe>
-		</mailing_list>
+		<web>http://aalesund.pm.org/</web>
+		<mailing-list>
+			<name>General Aalesund Perl Mongers discussion</name>
+			<email type="list">aalesund-pm@pm.org</email>
+			<email type="list_admin">kent@laget.kicks-ass.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
 		<date type="inception">20000227</date>
+
 	</group>
 
 	<group id="279" status="active">
@@ -8171,33 +8173,6 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="320">
-		<name>Yogyakarta.pm</name>
-		<location>
-			<city>Yogyakarta</city>
-			<state></state>
-			<region></region>
-			<country>Indonesia</country>
-			<continent>Oceania</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Situs Poerbakala</name>
-			<email type="personal">situs@sdf.lonestar.org</email>
-		</tsar>
-		<web>http://yogyakarta.pm.org/</web>
-		<mailing_list>
-			<name>General situs@sdf.lonestar.org Perl Mongers discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
-		<date type="inception"></date>
-	</group>
-
 	<group id="321">
 		<name>Milpitas.pm</name>
 		<location>
@@ -8273,33 +8248,6 @@
 			<name>General Orange City Perl Mongers discussion</name>
 			<email type="list">orange-city-pm@pm.org</email>
 			<email type="list_admin">-nova-@anonymous.to </email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
-		<date type="inception"></date>
-	</group>
-
-	<group id="324" status="active">
-		<name>Melbourne.pm</name>
-		<location>
-			<city>Melbourne</city>
-			<state>Victoria</state>
-			<region></region>
-			<country>Australia</country>
-			<continent>Oceania</continent>
-                        <longitude>145.0000</longitude>
-                        <latitude>-37.8333</latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Scott Penrose</name>
-			<email type="personal">scottp@dd.com.au</email>
-		</tsar>
-		<web>http://melbourne.pm.org/</web>
-		<mailing_list>
-			<name>General Melbourne Perl Mongers discussion</name>
-			<email type="list">melbourne-pm@pm.org</email>
-			<email type="list_admin">sharkey@zoic.org</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
@@ -13805,34 +13753,6 @@
 		<date type="inception">20020929</date>
 	</group>
 
-	<group id="544" status="active">
-		<name>Oslo.pm</name>
-		<location>
-			<city>Oslo</city>
-			<state></state>
-			<region></region>
-			<country>Norway</country>
-			<continent>Europe</continent>
-			<longitude>10.75</longitude>
-			<latitude>59.92</latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Salve J. Nilsen</name>
-			<email type="personal">sjn+oslo.pm@pvv.org</email>
-		</tsar>
-		<web>http://oslo.pm.org/</web>
-		<mailing_list>
-			<name>General Oslo Perl Mongers discussion</name>
-			<email type="list">oslo-pm@pm.org</email>
-			<email type="list_admin">sjn+oslo.pm@pvv.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
-		<date type="inception">20021010</date>
-	</group>
-
-
 	<group id="545" status="active">
 		<name>Hamburg.pm</name>
 		<location>
@@ -13860,35 +13780,6 @@
 		<date type="inception">20021010</date>
 	</group>
 
-
-	<group id="546" status="active">
-		<name>Guimaraes.pm</name>
-		<location>
-			<city>Guimaraes</city>
-			<state></state>
-			<region></region>
-			<country>Portugal</country>
-			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Ricardo Oliveira</name>
-			<email type="personal">scorpio@gil.di.uminho.pt</email>
-		</tsar>
-		<web>http://guimaraes.pm.org/</web>
-		<mailing_list>
-			<name>General Guimaraes Perl Mongers discussion</name>
-			<email type="list">guimaraes-pm@pm.org</email>
-			<email type="list_admin">scorpio@gil.di.uminho.pt</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
-		<date type="inception">20021010</date>
-	</group>
-
-
 	<group id="547" status="active">
 		<name>HoustonTx.pm</name>
 		<location>
@@ -13915,35 +13806,6 @@
 		</mailing_list>
 		<date type="inception">20021010</date>
 	</group>
-
-
-	<group id="548" status="active">
-		<name>Bangalore.pm</name>
-		<location>
-			<city>Bangalore</city>
-			<state>Karnataka</state>
-			<region></region>
-			<country>India</country>
-			<continent>Asia</continent>
-			<longitude>77.58</longitude>
-			<latitude>12.98</latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>S.Anand Nataraj</name>
-			<email type="personal">natarajin2k@yahoo.com</email>
-		</tsar>
-		<web>http://bangalore.pm.org/</web>
-		<mailing_list>
-			<name>General Bangalore Perl Mongers discussion</name>
-			<email type="list">bangalore-pm@pm.org</email>
-			<email type="list_admin">natarajin2k@yahoo.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
-		<date type="inception">20021010</date>
-	</group>
-
 
 	<group id="549" status="active">
 		<name>Iassy.pm</name>
@@ -14047,33 +13909,6 @@
 			<name>General Helsingborg Perl Mongers discussion</name>
 			<email type="list">helsingborg-pm@pm.org</email>
 			<email type="list_admin">hayri_cicek@home.se</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
-		<date type="inception">20021121</date>
-	</group>
-
-	<group id="513" status="active">
-		<name>Delhi.pm</name>
-		<location>
-			<city>Delhi</city>
-			<state></state>
-			<region></region>
-			<country>India</country>
-			<continent>Asia</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Varun Singh</name>
-			<email type="personal">varun_singh@yahoo.com</email>
-		</tsar>
-		<web>http://delhi.pm.org/</web>
-		<mailing_list>
-			<name>General Delhi Perl Mongers discussion</name>
-			<email type="list">delhi-pm@pm.org</email>
-			<email type="list_admin">varun_singh@yahoo.com</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
@@ -14398,33 +14233,6 @@
 			<name>General Shibuya Perl Mongers discussion</name>
 			<email type="list">shibuya-pm@pm.org</email>
 			<email type="list_admin">miyagawa@bulknews.net</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing-list>
-		<date type="inception">20030317</date>
-	</group>
-
-	<group id="556" status="active">
-		<name>Istanbul.pm</name>
-		<location>
-			<city>Kucukcekmece</city>
-			<state>Instanbul</state>
-			<region>Marmara</region>
-			<country>Turkey</country>
-			<continent>Asia</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Sori Zilan</name>
-			<email type="personal">sori@sorix.org</email>
-		</tsar>
-		<web>http://istanbul.pm.org/</web>
-		<mailing-list>
-			<name>General Istanbul Perl Mongers discussion</name>
-			<email type="list">istanbul-pm@pm.org</email>
-			<email type="list_admin">sori@sorix.org</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing-list>
@@ -14803,34 +14611,6 @@
 			<name>General Central Coast Perl Mongers discussion</name>
 			<email type="list">central-coast-pm@pm.org</email>
 			<email type="list_admin">leaderEmail=whazaaaaahp@hotmail.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing-list>
-		<date type="inception">20030425</date>
-	</group>
-
-        <!-- duplicate - leon -->
-	<group id="575" status="inactive">
-		<name>Pisa.pm</name>
-		<location>
-			<city>Pisa</city>
-			<state>Pisa</state>
-			<region>Toscana</region>
-			<country>Italy</country>
-			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Enrico Sorcinelli</name>
-			<email type="personal">bepi@modperl.it</email>
-		</tsar>
-		<web>http://pisa.pm.org/</web>
-		<mailing-list>
-			<name>General Pisa Perl Mongers discussion</name>
-			<email type="list">pisa-pm@pm.org</email>
-			<email type="list_admin">bepi@modperl.it</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing-list>
@@ -15246,33 +15026,6 @@
 		<date type="inception">20030817</date>
 	</group>
 
-	<group id="595" status="active">
-		<name>Vancouver.pm</name>
-		<location>
-			<city>Vancouver</city>
-			<state>British Columbia</state>
-			<region></region>
-			<country>Canada</country>
-			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Helen Cook</name>
-			<email type="personal">hvc@cpan.org</email>
-		</tsar>
-		<web>http://vancouver.pm.org/</web>
-		<mailing-list>
-			<name>General Vancouver Perl Mongers discussion</name>
-			<email type="list">vancouver-pm@pm.org</email>
-			<email type="list_admin">hvc@cpan.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing-list>
-		<date type="inception">20030817</date>
-	</group>
-
 	<group id="596" status="active">
 		<name>Northfield.pm</name>
 		<location>
@@ -15570,34 +15323,6 @@
 		<date type="inception">20031108</date>
 	</group>
 
-        <!-- duplicate -->
-	<group id="607">
-		<name>Charlotte.pm</name>
-		<location>
-			<city>Charlotte</city>
-			<state>North Carolina</state>
-			<region></region>
-			<country>United States of America</country>
-			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Thomas Mshar</name>
-			<email type="personal">tmshar@axomtechnology.com</email>
-		</tsar>
-		<web>http://charlotte.pm.org/</web>
-		<mailing-list>
-			<name>General Charlotte Perl Mongers discussion</name>
-			<email type="list">charlotte-pm@pm.org</email>
-			<email type="list_admin">tmshar@axomtechnology.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing-list>
-		<date type="inception">20031108</date>
-	</group>
-
 	<group id="608" status="active">
 		<name>tutorial.pm.org.pm</name>
 		<location>
@@ -15700,33 +15425,6 @@
 			<name>General rubbercity Perl Mongers discussion</name>
 			<email type="list">rubbercity-pm@pm.org</email>
 			<email type="list_admin">markymoon@mac.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing-list>
-		<date type="inception">20031108</date>
-	</group>
-
-	<group id="612" status="active">
-		<name>Aalesund.pm</name>
-		<location>
-			<city>Aalesund</city>
-			<state>Aalesund</state>
-			<region>More &amp; Romsdal</region>
-			<country>Norway</country>
-			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Kent Inge Klokk</name>
-			<email type="personal">kent@laget.kicks-ass.net</email>
-		</tsar>
-		<web>http://aalesund.pm.org/</web>
-		<mailing-list>
-			<name>General Aalesund Perl Mongers discussion</name>
-			<email type="list">aalesund-pm@pm.org</email>
-			<email type="list_admin">kent@laget.kicks-ass.net</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing-list>
@@ -16165,33 +15863,6 @@
 		<date type="inception">20040208</date>
 	</group>
 
-	<group id="631" status="active">
-		<name>PortoAlegre.pm</name>
-		<location>
-			<city>PortoAlegre</city>
-			<state>RS</state>
-			<region></region>
-			<country>Brazil</country>
-			<continent>South America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Er Galv&atilde;o Abbott</name>
-			<email type="personal">pmpoa@galvao.eti.br</email>
-		</tsar>
-		<web>http://portoalegre.pm.org/</web>
-		<mailing-list>
-			<name>General PortoAlegre Perl Mongers discussion</name>
-			<email type="list">portoalegre-pm@pm.org</email>
-			<email type="list_admin">pmpoa@galvao.eti.br</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing-list>
-		<date type="inception">20040208</date>
-	</group>
-
 	<group id="632" status="active">
 		<name>mississippi.pm</name>
 		<location>
@@ -16381,33 +16052,6 @@
 		<date type="inception">20040425</date>
 	</group>
 
-	<group id="639" status="active">
-		<name>Madrid.pm</name>
-		<location>
-			<city>Madrid</city>
-			<state> </state>
-			<region> </region>
-			<country>Spain</country>
-			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Bruno Diaz</name>
-			<email type="personal">bruno.diaz@gmx.net</email>
-		</tsar>
-		<web>http://madrid.pm.org/</web>
-		<mailing-list>
-			<name>General Madrid Perl Mongers discussion</name>
-			<email type="list">madrid-pm@pm.org</email>
-			<email type="list_admin">bruno.diaz@gmx.net</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing-list>
-		<date type="inception">20040425</date>
-	</group>
-
 	<group id="640" status="active">
 		<name>Peregrino.pm</name>
 		<location>
@@ -16429,33 +16073,6 @@
 			<name>General Peregrino Perl Mongers discussion</name>
 			<email type="list">peregrino-pm@pm.org</email>
 			<email type="list_admin">marco.lima@e-via.com.br</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing-list>
-		<date type="inception">20040425</date>
-	</group>
-
-	<group id="641" status="active">
-		<name>Dublin.pm</name>
-		<location>
-			<city>Dublin</city>
-			<state> </state>
-			<region> </region>
-			<country>Ireland</country>
-			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Dave O Connor</name>
-			<email type="personal">doc@redbrick.dcu.ie</email>
-		</tsar>
-		<web>http://dublin.pm.org/</web>
-		<mailing-list>
-			<name>General Dublin Perl Mongers discussion</name>
-			<email type="list">dublin-pm@pm.org</email>
-			<email type="list_admin">doc@redbrick.dcu.ie</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing-list>
@@ -16564,33 +16181,6 @@
 			<name>General cypriots Perl Mongers discussion</name>
 			<email type="list">cypriots-pm@pm.org</email>
 			<email type="list_admin">mehmet@suzen.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing-list>
-		<date type="inception">20040425</date>
-	</group>
-
-	<group id="646" status="active">
-		<name>Harrisburg.pm</name>
-		<location>
-			<city>Harrisburg</city>
-			<state>PA</state>
-			<region> </region>
-			<country>United States of America</country>
-			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Eric Andreychek</name>
-			<email type="personal">hpm@openthought.net</email>
-		</tsar>
-		<web>http://harrisburg.pm.org/</web>
-		<mailing-list>
-			<name>General Harrisburg Perl Mongers discussion</name>
-			<email type="list">harrisburg-pm@pm.org</email>
-			<email type="list_admin">hpm@openthought.net</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing-list>
