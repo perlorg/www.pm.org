@@ -62,7 +62,9 @@ foreach my $g ($doc->findnodes("//group")) {
   die "$name has no id\n" unless defined $id;
   if ($name eq 'MarsNeedsWomen.pm' ||
       $name eq 'Nomads.pm' ||
-      $name eq 'PerlMonks.pm'
+      $name eq 'PerlMonks.pm' ||
+      $name eq 'Camelot.pm' ||
+      $name eq 'German.pm'
      ) {
     $continent = 'Non-geographical';
     $country = 'Non-geographical';
