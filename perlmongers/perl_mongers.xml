@@ -96,7 +96,7 @@
 		<date type="inception">19981225</date>
 	</group>
 	
-	<group id="3" status="alive">
+	<group id="3" status="active">
 		<name>Anchorage.pm</name>
 		<location>
 			<city>Anchorage</city>
@@ -123,7 +123,7 @@
 		<date type="inception">19990214</date>
 	</group>
 	
-	<group id="5" status="alive">
+	<group id="5" status="active">
 		<name>AnnArbor.pm</name>
 		<location>
 			<city>Ann Arbor</city>
@@ -177,7 +177,7 @@
 		<date type="inception">19981102</date>
 	</group>
 	
-	<group id="7" status="alive">
+	<group id="7" status="active">
 		<name>Atlanta.pm</name>
 		<location>
 			<city>Atlanta</city>
@@ -204,7 +204,7 @@
 		<date type="inception">19980704</date>
 	</group>
 	
-	<group id="8" status="leb">
+	<group id="8" status="active">
 		<name>Austin.pm</name>
 		<location>
 			<city>Austin</city>
@@ -217,8 +217,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Mark Lehmann</name>
-			<email type="personal">mlehmann@lehmbrain.net</email>
+			<name>Wayne Walker</name>
+			<email type="personal">wwalker@bybent.com</email>
 		</tsar>
 		<web>http://austin.pm.org/</web>
 		<mailing_list>
@@ -394,7 +394,7 @@
 		<date type="inception">19990607</date>
 	</group>
 	
-	<group id="15" status="alive">
+	<group id="15" status="active">
 		<name>Cambridge.pm</name>
 		<location>
 			<city>Cambridge</city>
@@ -421,7 +421,7 @@
 		<date type="inception">19990607</date>
 	</group>
 	
-	<group id="16" status="alive">
+	<group id="16" status="active">
 		<name>Champaign-Urbana.pm</name>
 		<location>
 			<city></city>
@@ -880,7 +880,7 @@
 		<date type="inception">19990503</date>
 	</group>
 	
-	<group id="34" status="alive">
+	<group id="34" status="active">
 		<name>Gainesville.pm</name>
 		<location>
 			<city>Gainesville</city>
@@ -1096,7 +1096,7 @@
 		<date type="inception">19981113</date>
 	</group>
 	
-	<group id="42" status="alive">
+	<group id="42" status="active">
 		<name>Houston.pm</name>
 		<location>
 			<city>Houston</city>
@@ -1960,7 +1960,7 @@
 		<date type="inception">19990331</date>
 	</group>
 	
-	<group id="74" status="alive">
+	<group id="74" status="active">
 		<name>Philadelphia.pm</name>
 		<location>
 			<city>Philadelphia</city>
@@ -3533,7 +3533,7 @@
 		<date type="inception">19980828</date>
 	</group>
 	
-	<group id="136">
+	<group id="136" status="active">
 		<name>London.pm</name>
 		<location>
 			<city>London</city>
@@ -3546,8 +3546,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Dave Cross</name>
-			<email type="personal">dave@dave.org.uk</email>
+			<name>Paul Mison</name>
+			<email type="personal">leader@london.pm.org</email>
 		</tsar>
 		<web>http://london.pm.org/</web>
 		<mailing_list>
@@ -5100,7 +5100,7 @@
 		<date type="inception">19990311</date>
 	</group>
 	
-	<group id="197" status="alive">
+	<group id="197" status="active">
 		<name>Israel.pm</name>
 		<location>
 			<city></city>
@@ -5316,7 +5316,7 @@
 		<date type="inception">19990914</date>
 	</group>
 
-	<group id="206" status="alive">
+	<group id="206" status="active">
 		<name>Lawton.pm</name>
 		<location>
 			<city>Lawton</city>
@@ -5721,7 +5721,7 @@
 		<date type="inception">19991024</date>
 	</group>
 
-	<group id="221">
+	<group id="221" status="dead">
 		<name>Croydon.pm</name>
 		<location>
 			<city>Croydon</city>
@@ -7748,7 +7748,7 @@
 	</group>
 
 
-	<group id="305" status="alive">
+	<group id="305" status="active">
 		<name>Los_Angeles.pm</name>
 		<location>
 			<city>Los Angeles</city>
@@ -9045,7 +9045,7 @@
 		<date type="inception">20010204</date>
 	</group>
 
-	<group id="354" statues="sleeping">
+	<group id="354" status="sleeping">
 		<name>Tyneside.pm</name>
 		<location>
 			<city>Newcastle upon Tyne</city>
@@ -9342,7 +9342,7 @@
 		<date type="inception">20010313</date>
 	</group>
 
-	<group id="365" status="alive">
+	<group id="365" status="active">
 		<name>Brasilia.pm</name>
 		<location>
 			<city>Brasilia</city>
@@ -11664,7 +11664,7 @@
 		<date type="inception">20011105</date>
 	</group>
 
-	<group id="452" status="alive">
+	<group id="452" status="active">
 		<name>Nordest.pm</name>
 		<location>
 			<city>Udine</city>
@@ -11826,7 +11826,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="458" status="alive">
+	<group id="458" status="active">
 		<name>Malaga.pm</name>
 		<location>
 			<city>Malaga</city>
@@ -12501,7 +12501,7 @@
 		<date type="inception">20020306</date>
 	</group>
 
-	<group id="4" status="alive">
+	<group id="4" status="active">
 		<name>CAMEL.pm</name>
 		<location>
 			<city>Columbia, Annapolis, Meade, Elkridge, and Laurel</city>
@@ -12528,7 +12528,7 @@
 		<date type="inception">20020306</date>
 	</group>
 
-	<group id="5" status="alive">
+	<group id="5" status="active">
 		<name>Belgrade.pm</name>
 		<location>
 			<city>Belgrade</city>
