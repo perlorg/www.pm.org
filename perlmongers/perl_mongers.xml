@@ -13300,7 +13300,7 @@
 		<date type="inception">20020618</date>
 	</group>
 
-	<group id="510">
+	<group id="550">
 		<name>Arad.pm</name>
 		<location>
 			<city>Arad</city>
@@ -14106,7 +14106,7 @@
 		<date type="inception">20021010</date>
 	</group>
 
-	<group id="500" status="active">
+	<group id="510" status="active">
 		<name>Cascavel.pm</name>
 		<location>
 			<city>Cascavel</city>
@@ -14133,7 +14133,7 @@
 		<date type="inception">20021121</date>
 	</group>
 
-	<group id="501" status="active">
+	<group id="511" status="active">
 		<name>Guatemala.pm</name>
 		<location>
 			<city></city>
@@ -14160,7 +14160,7 @@
 		<date type="inception">20021121</date>
 	</group>
 
-	<group id="502" status="active">
+	<group id="512" status="active">
 		<name>Helsingborg.pm</name>
 		<location>
 			<city>Helsingborg</city>
@@ -14187,7 +14187,7 @@
 		<date type="inception">20021121</date>
 	</group>
 
-	<group id="503" status="active">
+	<group id="513" status="active">
 		<name>Delhi.pm</name>
 		<location>
 			<city>Delhi</city>
@@ -14214,7 +14214,7 @@
 		<date type="inception">20021121</date>
 	</group>
 
-	<group id="504" status="active">
+	<group id="514" status="active">
 		<name>Csy.pm</name>
 		<location>
 			<city>Queen</city>
@@ -14242,7 +14242,7 @@
 	</group>
 
 
-	<group id="505" status="active">
+	<group id="515" status="active">
 		<name>Lebanon.pm</name>
 		<location>
 			<city>Beirut</city>
@@ -14268,7 +14268,7 @@
 		</mailing_list>
 		<date type="inception">20021121</date>
 	</group>
-	<group id="506" status="active">
+	<group id="516" status="active">
 		<name>Calgary.pm</name>
 		<location>
 			<city>Calgary</city>
@@ -14295,7 +14295,7 @@
 		<date type="inception">20030109</date>
 	</group>
 
-	<group id="507" status="active">
+	<group id="517" status="active">
 		<name>SWOK.pm</name>
 		<location>
 			<city>Altus</city>
@@ -14322,7 +14322,7 @@
 		<date type="inception">20030109</date>
 	</group>
 
-	<group id="508" status="active">
+	<group id="518" status="active">
 		<name>Galicia.pm</name>
 		<location>
 			<city>A Coru&ntilde;a</city>
@@ -14330,13 +14330,13 @@
 			<region></region>
 			<country>Spain</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>43.367</longitude>
+			<latitude>-8.400</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
 			<name>Victor Sanchez</name>
-			<email type="personal">4pm@k-offline.net</email>
+			<email type="personal">leader@galicia.pm.org</email>
 		</tsar>
 		<web>http://galicia.pm.org/</web>
 		<mailing-list>
@@ -14349,7 +14349,7 @@
 		<date type="inception">20030109</date>
 	</group>
 
-	<group id="509" status="active">
+	<group id="519" status="active">
 		<name>Buffalo.pm</name>
 		<location>
 			<city>Buffalo</city>
@@ -14376,7 +14376,7 @@
 		<date type="inception">20030109</date>
 	</group>
 
-	<group id="510" status="active">
+	<group id="520" status="active">
 		<name>Vlaanderen.pm</name>
 		<location>
 			<city>Antwerpen</city>
@@ -14402,4 +14402,7 @@
 		</mailing-list>
 		<date type="inception">20030109</date>
 	</group>
+
+<!-- next free group id is 551 -->
+
 </perl_mongers>

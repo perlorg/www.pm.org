@@ -6,6 +6,8 @@ use Image::WorldMap;
 use Template;
 use XML::Simple;
 
+my %ids;
+
 my %colours = (
   'africa' => [64,255,64],
   'asia' => [255,255,0],
@@ -39,6 +41,9 @@ my $worldmap = Image::WorldMap->new("titchy.png");
 foreach my $name (keys %$xml) {
   my $group = $xml->{$name};
   my $id = $group->{id};
+
+  die "Duplicate group id $id\n" if $ids{$id}++;
+
   my $status = $group->{status} || 'not-specified-in-xml-file';
 #  print "$status\n";
   next unless $status eq 'active' || $status eq 'sleeping';
@@ -80,7 +85,7 @@ foreach my $name (keys %$xml) {
       my $map = Image::WorldMap->new("titchy.png");
       $map->add($group->{location}->{longitude}, $group->{location}->{latitude}, 'group', $colour);
       $map->draw("foo.png");
-      system("pngtopnm foo.png | ppmquant 64 | pnmtopng -compression 9 > www/groups/graphics/$id.png");
+      system("pngtopnm foo.png | ppmquant 64 2>/dev/null | pnmtopng -compression 9 > www/groups/graphics/$id.png");
       $group->{image} = "graphics/$id.png";
     }
   } else {
@@ -134,7 +139,7 @@ foreach my $continent (@continents) {
   }
 
   $map->draw("foo.png");
-  system("pngtopnm foo.png | ppmquant 127 | pnmtopng -compression 9 > www/groups/graphics/$name.png");
+  system("pngtopnm foo.png | ppmquant 127 2>/dev/null | pnmtopng -compression 9 > www/groups/graphics/$name.png");
   my $conf = {
     groups => $groups,
     continent => $continent,
@@ -148,7 +153,7 @@ foreach my $continent (@continents) {
 }
 
 $worldmap->draw("foo.png");
-system("pngtopnm foo.png | ppmquant 255 | pnmtopng -compression 9 > www/groups/graphics/world.png");
+system("pngtopnm foo.png | ppmquant 255 2> /dev/null | pnmtopng -compression 9 > www/groups/graphics/world.png");
 
 __END__
 =head1 NAME
