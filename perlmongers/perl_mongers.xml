@@ -12789,31 +12789,31 @@
 		<date type="inception">20020413</date>
 	</group>
 
-	<group id="498">
-		<name>Xadrez.pm</name>
+	<group id="498" status="active">
+		<name>Fortaleza.pm</name>
 		<location>
 			<city>Fortaleza</city>
-			<state></state>
-			<region></region>
+			<state>Ceara</state>
+			<region>Northeast</region>
 			<country>Brazil</country>
 			<continent>South America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-38.53</longitude>
+			<latitude>-3.72</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Dagoberto Costa</name>
-			<email type="personal">cxe@fortalnet.com.br</email>
+			<name>Daniel Ruoso</name>
+			<email type="personal">daniel@ruoso.com</email>
 		</tsar>
-		<web>http://xadrez.pm.org/</web>
+		<web>http://fortaleza.pm.org/</web>
 		<mailing_list>
-			<name>General Xadrez Perl Mongers discussion</name>
-			<email type="list">xadrez@pm.org</email>
-			<email type="list_admin">cxe@fortalnet.com.br</email>
+			<name>General Fortaleza Perl Mongers discussion</name>
+			<email type="list">fortaleza-pm@pm.org</email>
+			<email type="list_admin">daniel@ruoso.com</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
-		<date type="inception">20020427</date>
+		<date type="inception">20041201</date>
 	</group>
 
 	<group id="499" status="active">
