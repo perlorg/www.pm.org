@@ -72,7 +72,7 @@ open MAIL, "| /usr/lib/sendmail -odq -oi -t" or die "$!";
 die "$?" if $?;
 
 print MAIL <<"HERE";
-To: dns\@pm.org
+To: dns\@pm.org,hfb_admin\@pm.org
 From: hfb_admin\@pm.org
 Subject: new subdomain request
 
