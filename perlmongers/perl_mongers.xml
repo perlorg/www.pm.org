@@ -465,7 +465,7 @@
 		<date type="inception">19990311</date>
 	</group>
 	
-	<group id="14" status="dead">
+	<group id="14" status="inactive">
 		<name>Burbank.pm</name>
 		<location>
 			<city>Burbank</city>
@@ -1545,7 +1545,7 @@
 		<date type="inception">19990131</date>
 	</group>
 	
-	<group id="55" status="dead">
+	<group id="55" status="inactive">
 		<name>LongValley.pm</name>
 		<location>
 			<city>Long Valley</city>
@@ -2821,7 +2821,7 @@
 		<date type="inception">19980916</date>
 	</group>
 	
-	<group id="104" status="dead">
+	<group id="104" status="inactive">
 		<name>Vancouver.pm</name>
 		<location>
 			<city>Vancouver</city>
@@ -4496,7 +4496,7 @@
 		<date type="inception">19990331</date>
 	</group>
 	
-	<group id="173" status="dead">
+	<group id="173" status="inactive">
 		<name>Melbourne.pm</name>
 		<location>
 			<city>Melbourne</city>
@@ -4631,7 +4631,7 @@
 		<date type="inception">19990120</date>
 	</group>
 	
-	<group id="178" status="dead">
+	<group id="178" status="inactive">
 		<name>Semarang.pm</name>
 		<location>
 			<city>Semarang</city>
@@ -4685,7 +4685,7 @@
 		<date type="inception">19981102</date>
 	</group>
 	
-	<group id="180" status="dead">
+	<group id="180" status="inactive">
 		<name>Bandung.pm</name>
 		<location>
 			<city>Bandung</city>
@@ -4901,7 +4901,7 @@
 		<date type="inception">replace</date>
 	</group>
 	
-	<group id="188" status="dead">
+	<group id="188" status="inactive">
 		<name>Islamabad.pm</name>
 		<location>
 			<city>Islamabad</city>
@@ -4928,7 +4928,7 @@
 		<date type="inception">19990214</date>
 	</group>
 	
-	<group id="189" status="dead">
+	<group id="189" status="inactive">
 		<name>Karachi.pm</name>
 		<location>
 			<city>Karachi</city>
@@ -4955,7 +4955,7 @@
 		<date type="inception">19990131</date>
 	</group>
 	
-	<group id="190" status="dead">
+	<group id="190" status="inactive">
 		<name>Kyoto.pm</name>
 		<location>
 			<city>Kyoto</city>
@@ -5171,7 +5171,7 @@
 		<date type="inception">19990311</date>
 	</group>
 	
-	<group id="199" status="dead">
+	<group id="199" status="inactive">
 		<name>CapeTown.pm</name>
 		<location>
 			<city>Cape Town</city>
@@ -5738,7 +5738,7 @@
 		<date type="inception">19991024</date>
 	</group>
 
-	<group id="221" status="dead">
+	<group id="221" status="inactive">
 		<name>Croydon.pm</name>
 		<location>
 			<city>Croydon</city>
@@ -6359,7 +6359,7 @@
 		<date type="inception">19991024</date>
 	</group>
 
-	<group id="244" status="dead">
+	<group id="244" status="inactive">
 		<name>CostaMesa.pm</name>
 		<location>
 			<city>Costa Mesa</city>
@@ -6548,7 +6548,7 @@
 		<date type="inception">20000116</date>
 	</group>
 
-	<group id="253" status="dead">
+	<group id="253" status="inactive">
 		<name>SanMarcos.pm</name>
 		<location>
 			<city>San Marcos</city>
@@ -6845,7 +6845,7 @@
 		<date type="inception">20000116</date>
 	</group>
 
-	<group id="266" status="dead">
+	<group id="266" status="inactive">
 		<name>NewportBeach.pm</name>
 		<location>
 			<city>Newport Beach</city>
@@ -7521,7 +7521,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="295" status="dead">
+	<group id="295" status="inactive">
 		<name>Taos.pm</name>
 		<location>
 			<city></city>
@@ -7548,7 +7548,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="296" status="dead">
+	<group id="296" status="inactive">
 		<name>LongBeach.pm</name>
 		<location>
 			<city>Long Beach</city>
@@ -7575,7 +7575,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="297" status="dead">
+	<group id="297" status="inactive">
 		<name>MetroWest.pm</name>
 		<location>
 			<city></city>
@@ -8954,7 +8954,7 @@
 		<date type="inception">20010203</date>
 	</group>
 
-	<group id="350" status="dead">
+	<group id="350" status="inactive">
 		<name>Haifa.pm</name>
 		<location>
 			<city>Haifa</city>
@@ -9845,7 +9845,7 @@
 		<date type="inception">20010402</date>
 	</group>
 
-	<group id="385" status="dead">
+	<group id="385" status="inactive">
 		<name>Salem.pm</name>
 		<location>
 			<city>Salem</city>
@@ -10250,7 +10250,7 @@
 		<date type="inception">20010508</date>
 	</group>
 
-	<group id="400" status="dead">
+	<group id="400" status="inactive">
 		<name>Kingsport.pm</name>
 		<location>
 			<city>Kingsport</city>
@@ -11870,7 +11870,7 @@
 		<date type="inception">20011125</date>
 	</group>
 
-	<group id="460" status="dead">
+	<group id="460" status="inactive">
 		<name>ResistenciaAria.pm</name>
 		<location>
 			<city>Vigo</city>
@@ -12733,7 +12733,7 @@
 		<date type="inception">20020406</date>
 	</group>
 
-	<group id="493" status="dead">
+	<group id="493" status="inactive">
 		<name>Razgrad.pm</name>
 		<location>
 			<city>Razgrad</city>
@@ -13327,7 +13327,7 @@
 		<date type="inception">20020721</date>
 	</group>
 
-	<group id="525" status="dead">
+	<group id="525" status="inactive">
 		<name>Norwich.pm</name>
 		<location>
 			<city>Norwich</city>
@@ -13541,7 +13541,7 @@
 		<date type="inception">20020925</date>
 	</group>
 
-	<group id="533" status="dead">
+	<group id="533" status="inactive">
 		<name>tranners.pm</name>
 		<location>
 			<city>Karachi</city>
@@ -14810,7 +14810,7 @@
 	</group>
 
         <!-- duplicate - leon -->
-	<group id="575" status="dead">
+	<group id="575" status="inactive">
 		<name>Pisa.pm</name>
 		<location>
 			<city>Pisa</city>
@@ -14949,7 +14949,7 @@
 		<date type="inception">20030628</date>
 	</group>
 
-	<group id="582" status="dead">
+	<group id="582" status="inactive">
 		<name>US Virgin Islands.pm</name>
 		<location>
 			<city>Christiansted</city>
