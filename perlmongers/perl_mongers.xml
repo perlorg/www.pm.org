@@ -3038,7 +3038,7 @@
 	</group>
 	
 	<group id="112" status="active">
-		<name>SaoPaulo.pm</name>
+		<name>Sao-Paulo.pm</name>
 		<location>
 			<city>Sao Paulo</city>
 			<state></state>
@@ -3051,7 +3051,7 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Luis Campos</name>
-			<email type="personal">lechamps@terra.com.br</email>
+			<email type="personal">monsieur_champs@yahoo.com.br</email>
 		</tsar>
 		<web>http://sao-paulo.pm.org/</web>
 		<mailing_list>
