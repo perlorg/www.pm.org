@@ -103,7 +103,6 @@
 <!-- This file is maintained by user_groups@pm.org -->
 
 <!-- $Id$ -->
-
 <perl_mongers>
 	<group id="0" status="active">
 		<!-- new york was the first group -->
@@ -16261,5 +16260,31 @@
                 </mailing_list>
                 <date type="inception">20040919</date>
          </group>
-</perl_mongers>
 
+	<group id="655" status="active">
+		<name>Belem.pm</name>
+		<location>
+			<city>Belém</city>
+			<state>Pará</state>
+			<region>Norte</region>
+			<country>Brazil</country>
+			<continent>South America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Vanderson Sampaio</name>
+			<email type="personal">vanderson@aldeiavirtual.com.br</email>
+		</tsar>
+		<web>http://belem.pm.org/</web>
+		<mailing_list>
+			<name>General Belem Perl Mongers discussion</name>
+			<email type="list">belem-pm@pm.org</email>
+			<email type="list_admin">vanderson@aldeiavirtual.com.br</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20041205</date>
+	</group>
+</perl_mongers>
