@@ -14017,4 +14017,138 @@
 		<date type="inception">20021010</date>
 	</group>
 
+	<group id="500" status="active">
+		<name>Cascavel.pm</name>
+		<location>
+			<city>Cascavel</city>
+			<state>Paran&aacute;</state>
+			<region></region>
+			<country>Brazil</country>
+			<continent>South America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Fabiano Reese Righetti</name>
+			<email type="personal">fabiano@seng.com.br</email>
+		</tsar>
+		<web>http://cascavel.pm.org/</web>
+		<mailing_list>
+			<name>General Cascavel Perl Mongers discussion</name>
+			<email type="list">cascavel-pm@pm.org</email>
+			<email type="list_admin">fabiano@seng.com.br</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20021121</date>
+	</group>
+
+	<group id="501" status="active">
+		<name>Guatemala.pm</name>
+		<location>
+			<city></city>
+			<state></state>
+			<region></region>
+			<country>Guatemala</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Gerardo Santove&ntilde;a</name>
+			<email type="personal">santo@galileo.edu</email>
+		</tsar>
+		<web>http://guatemala.pm.org/</web>
+		<mailing_list>
+			<name>General Guatemala Perl Mongers discussion</name>
+			<email type="list">guatemala-pm@pm.org</email>
+			<email type="list_admin">santo@galileo.edu</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20021121</date>
+	</group>
+
+	<group id="502" status="active">
+		<name>Helsingborg.pm</name>
+		<location>
+			<city>Helsingborg</city>
+			<state>Sk&aring;ne</state>
+			<region></region>
+			<country>Sweden</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Hayri Cicek</name>
+			<email type="personal">hayri_cicek@home.se</email>
+		</tsar>
+		<web>http://helsingborg.pm.org/</web>
+		<mailing_list>
+			<name>General Helsingborg Perl Mongers discussion</name>
+			<email type="list">helsingborg-pm@pm.org</email>
+			<email type="list_admin">hayri_cicek@home.se</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20021121</date>
+	</group>
+
+	<group id="503" status="active">
+		<name>Delhi.pm</name>
+		<location>
+			<city>Delhi</city>
+			<state></state>
+			<region></region>
+			<country>India</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Varun Singh</name>
+			<email type="personal">varun_singh@yahoo.com</email>
+		</tsar>
+		<web>http://delhi.pm.org/</web>
+		<mailing_list>
+			<name>General Delhi Perl Mongers discussion</name>
+			<email type="list">delhi-pm@pm.org</email>
+			<email type="list_admin">varun_singh@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20021121</date>
+	</group>
+
+	<group id="504" status="active">
+		<name>Csy.pm</name>
+		<location>
+			<city>Queen</city>
+			<state>New York</state>
+			<region></region>
+			<country>United States of America</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Anil Singh</name>
+			<email type="personal">anilgs@anilsingh.net</email>
+		</tsar>
+		<web>http://csy.pm.org/</web>
+		<mailing_list>
+			<name>General Perl Mongers discussion</name>
+			<email type="list">csy-pm@pm.org</email>
+			<email type="list_admin">anilgs@anilsingh.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20021121</date>
+	</group>
 </perl_mongers>
