@@ -2176,7 +2176,7 @@
 		<date type="inception">19981008</date>
 	</group>
 	
-	<group id="82">
+	<group id="82" status="active">
 		<name>RhodeIsland.pm</name>
 		<location>
 			<city></city>
@@ -2190,9 +2190,9 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Brian Jepson</name>
-			<email type="personal">bjepson@ids.net</email>
+			<email type="personal">bjepson@jepstone.net</email>
 		</tsar>
-		<web>http://rhode-island.pm.org/</web>
+		<web>http://ri.pm.org/</web>
 		<mailing_list>
 			<name>General RhodeIsland.pm discussion</name>
 			<email type="list"></email>
@@ -5113,8 +5113,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Gaal Yahas</name>
-			<email type="personal">gaal@forum2.org</email>
+			<name>Gabor Szabo</name>
+			<email type="personal">gabor@tracert.com</email>
 		</tsar>
 		<web>http://israel.pm.org/</web>
 		<mailing_list>
@@ -8262,7 +8262,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="324">
+	<group id="324" status="active">
 		<name>Melbourne.pm</name>
 		<location>
 			<city>Melbourne</city>
