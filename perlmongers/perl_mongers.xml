@@ -15974,4 +15974,166 @@
 		</mailing-list>
 		<date type="inception">20031108</date>
 	</group>
+
+	<group id="619" status="active">
+		<name>StonyBrook.pm</name>
+		<location>
+			<city>StonyBrook</city>
+			<state>New York</state>
+			<region></region>
+			<country>United States</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Kostas Pentikousis</name>
+			<email type="personal">kostas@cs.sunysb.edu</email>
+		</tsar>
+		<web>http://stonybrook.pm.org/</web>
+		<mailing-list>
+			<name>General StonyBrook Perl Mongers discussion</name>
+			<email type="list">stonybrook-pm@pm.org</email>
+			<email type="list_admin">kostas@cs.sunysb.edu</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031224</date>
+	</group>
+
+	<group id="620" status="active">
+		<name>Maracaibo.pm</name>
+		<location>
+			<city>Maracaibo</city>
+			<state>Zulia</state>
+			<region> </region>
+			<country>Venezuela</country>
+			<continent>South America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Luis Araujo</name>
+			<email type="personal">luisfranaraujo@yahoo.com</email>
+		</tsar>
+		<web>http://maracaibo.pm.org/</web>
+		<mailing-list>
+			<name>General Maracaibo Perl Mongers discussion</name>
+			<email type="list">maracaibo-pm@pm.org</email>
+			<email type="list_admin">luisfranaraujo@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031224</date>
+	</group>
+
+	<group id="621" status="active">
+		<name>LA-Belle.pm</name>
+		<location>
+			<city>LA-Belle</city>
+			<state>PA</state>
+			<region> </region>
+			<country>United States</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Robert Ward</name>
+			<email type="personal">MAWarGod@hotmail.com</email>
+		</tsar>
+		<web>http://la-belle.pm.org/</web>
+		<mailing-list>
+			<name>General LA-Belle Perl Mongers discussion</name>
+			<email type="list">la-belle-pm@pm.org</email>
+			<email type="list_admin">MAWarGod@hotmail.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031224</date>
+	</group>
+
+	<group id="622" status="active">
+		<name>ooubafsan.pm</name>
+		<location>
+			<city>ooubafsan</city>
+			<state>ogun state</state>
+			<region>ijebu</region>
+			<country>Nigeria</country>
+			<continent>Africa</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>soji ajewole</name>
+			<email type="personal">xoji03@yahoo.com</email>
+		</tsar>
+		<web>http://ooubafsan.pm.org/</web>
+		<mailing-list>
+			<name>General ooubafsan Perl Mongers discussion</name>
+			<email type="list">ooubafsan-pm@pm.org</email>
+			<email type="list_admin">xoji03@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031224</date>
+	</group>
+
+	<group id="623" status="active">
+		<name>ph.pm</name>
+		<location>
+			<city>ph</city>
+			<state>Benguet</state>
+			<region>Cordillera Administrative Region</region>
+			<country>Philippines</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Ariel Habawel</name>
+			<email type="personal">anh@pinoywebdesigner.com</email>
+		</tsar>
+		<web>http://ph.pm.org/</web>
+		<mailing-list>
+			<name>General ph Perl Mongers discussion</name>
+			<email type="list">ph-pm@pm.org</email>
+			<email type="list_admin">anh@pinoywebdesigner.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031224</date>
+	</group>
+
+	<group id="624" status="active">
+		<name>hanoi.pm</name>
+		<location>
+			<city>hanoi</city>
+			<state>Hanoi</state>
+			<region></region>
+			<country>Vietnam</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Nguyen Dinh Nam</name>
+			<email type="personal">hncryptologist@yahoo.com</email>
+		</tsar>
+		<web>http://hanoi.pm.org/</web>
+		<mailing-list>
+			<name>General hanoi Perl Mongers discussion</name>
+			<email type="list">hanoi-pm@pm.org</email>
+			<email type="list_admin">hncryptologist@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20031224</date>
+	</group>
 </perl-mongers>
