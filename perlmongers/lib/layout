@@ -39,8 +39,9 @@
   minor = {
     "Contact" => "/contact/index.html",
     "FAQ" => "/faq/index.html",
-#    "News" => "/news/index.html",
     "Running a group" => "/successful/index.html",
+    "Invite a guru" => "/invite/index.html",
+    "Start a group" => "/start/index.html",
   }
 %]
 
@@ -65,6 +66,8 @@
     "Perl advocacy" => "http://www.perl.org/",
     "Use Perl" => "http://use.perl.org/",
     "Perl.com" => "http://www.perl.com/",
+    "Perlmonks" => "http://www.perlmonks.com/",
+    "Yet Another Perl Conference" => "http://www.yapc.org/",
   }
 %]
 

@@ -1,6 +1,7 @@
 #!/home/acme/bin/perl -w
 
 use strict;
+use File::Copy;
 use Image::WorldMap;
 use Template;
 use XML::Simple;
@@ -49,6 +50,10 @@ foreach my $name (keys %$xml) {
     || die $tt->error();
 
 }
+
+copy("./perl_mongers.xml", "html/groups/perl_mongers.xml");
+copy("./perl_mongers.dtd", "html/groups/perl_mongers.dtd");
+
 
 __END__
 =head1 NAME
