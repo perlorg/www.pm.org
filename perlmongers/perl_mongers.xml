@@ -14325,7 +14325,7 @@
 	<group id="508" status="active">
 		<name>Galicia.pm</name>
 		<location>
-			<city>A Coruña</city>
+			<city>A Coru&ntilde;a</city>
 			<state></state>
 			<region></region>
 			<country>Spain</country>
@@ -14402,4 +14402,4 @@
 		</mailing-list>
 		<date type="inception">20030109</date>
 	</group>
-</perl-mongers>
+</perl_mongers>
