@@ -57,13 +57,13 @@ print XML qq(
 			<email type="personal">$a{groupleaderemail}</email>
 		</tsar>
 		<web>$a{website}</web>
-		<mailing-list>
+		<mailing_list>
 			<name>General $a{groupname} Perl Mongers discussion</name>
 			<email type="list">$a{email_list}</email>
 			<email type="list_admin">$a{email_list_owner}</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing-list>
+		</mailing_list>
 		<date type="inception">$date</date>
 	</group>
 </perl-mongers>
