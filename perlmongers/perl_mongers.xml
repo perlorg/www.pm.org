@@ -1123,7 +1123,7 @@
 		</tsar>
 		<web>http://houston.pm.org/</web>
 		<mailing_list>
-			<name>General -->Houston.pm discussion</name>
+			<name>General Houston.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
 			<subscribe></subscribe>
@@ -13848,6 +13848,173 @@
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020929</date>
+	</group>
+
+	<group id="544" status="active">
+		<name>Oslo.pm</name>
+		<location>
+			<city>Oslo</city>
+			<state></state>
+			<region></region>
+			<country>Norway</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Salve J. Nilsen</name>
+			<email type="personal">sjn+oslo.pm@pvv.org</email>
+		</tsar>
+		<web>http://oslo.pm.org/</web>
+		<mailing_list>
+			<name>General Oslo Perl Mongers discussion</name>
+			<email type="list">oslo-pm@pm.org</email>
+			<email type="list_admin">sjn+oslo.pm@pvv.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20021010</date>
+	</group>
+
+
+	<group id="545" status="active">
+		<name>Hamburg.pm</name>
+		<location>
+			<city>Hamburg</city>
+			<state></state>
+			<region></region>
+			<country>Germany</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Sandra Hennig</name>
+			<email type="personal">snadra@snadra.de</email>
+		</tsar>
+		<web>http://hamburg.pm.org/</web>
+		<mailing_list>
+			<name>General Hamburg Perl Mongers discussion</name>
+			<email type="list">hamburg-pm@pm.org</email>
+			<email type="list_admin">snadra@snadra.de</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20021010</date>
+	</group>
+
+
+	<group id="546" status="active">
+		<name>Guimaraes.pm</name>
+		<location>
+			<city>Guimaraes</city>
+			<state></state>
+			<region></region>
+			<country>Portugal</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Ricardo Oliveira</name>
+			<email type="personal">scorpio@gil.di.uminho.pt</email>
+		</tsar>
+		<web>http://guimaraes.pm.org/</web>
+		<mailing_list>
+			<name>General Guimaraes Perl Mongers discussion</name>
+			<email type="list">guimaraes-pm@pm.org</email>
+			<email type="list_admin">scorpio@gil.di.uminho.pt</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20021010</date>
+	</group>
+
+
+	<group id="547" status="active">
+		<name>HoustonTx.pm</name>
+		<location>
+			<city>Houston</city>
+			<state>Texas</state>
+			<region></region>
+			<country>United States of America</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Kristofer Hoch</name>
+			<email type="personal">kristoferhoch@yahoo.com</email>
+		</tsar>
+		<web>http://houstontx.pm.org/</web>
+		<mailing_list>
+			<name>General HoustonTx Perl Mongers discussion</name>
+			<email type="list">houstontx-pm@pm.org</email>
+			<email type="list_admin">kristoferhoch@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20021010</date>
+	</group>
+
+
+	<group id="548" status="active">
+		<name>Bangalore.pm</name>
+		<location>
+			<city>Bangalore</city>
+			<state>Karnataka</state>
+			<region></region>
+			<country>India</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>S.Anand Nataraj</name>
+			<email type="personal">natarajin2k@yahoo.com</email>
+		</tsar>
+		<web>http://bangalore.pm.org/</web>
+		<mailing_list>
+			<name>General Bangalore Perl Mongers discussion</name>
+			<email type="list">bangalore-pm@pm.org</email>
+			<email type="list_admin">natarajin2k@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20021010</date>
+	</group>
+
+
+	<group id="549" status="active">
+		<name>Iassy.pm</name>
+		<location>
+			<city>Iassy</city>
+			<state></state>
+			<region></region>
+			<country>Romania</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Marius Feraru</name>
+			<email type="personal">altblue@n0i.net</email>
+		</tsar>
+		<web>http://iassy.pm.org/</web>
+		<mailing_list>
+			<name>General Iassy Perl Mongers discussion</name>
+			<email type="list">isassy-pm@pm.org</email>
+			<email type="list_admin">altblue@n0i.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
+		<date type="inception">20021010</date>
 	</group>
 
 </perl_mongers>
