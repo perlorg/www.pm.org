@@ -2584,14 +2584,14 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Tim Maher</name>
-			<email type="personal">spug@seattleperl.org</email>
+			<name>Andrew Sweger</name>
+			<email type="personal">andrew@sweger.net</email>
 		</tsar>
 		<web>http://www.seattleperl.org/</web>
 		<mailing_list>
 			<name>General Seattle.pm discussion</name>
 			<email type="list">spug-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
+			<email type="list_admin">spug-list-admin@pm.org</email>
 			<subscribe>subscribe spug-list email_address</subscribe>
 			<unsubscribe>unsubscribe spug-list email_address</unsubscribe>
 		</mailing_list>
@@ -16098,7 +16098,7 @@
 		<web>http://jerusalem.pm.org/</web>
 		<mailing-list>
 			<name>General Jerusalem Perl Mongers discussion</name>
-			<email type="list">jerusalem-pm@pm.org</email>
+			<email type="list">jerusalem@perl.org.il</email>
 			<email type="list_admin">isaac@cpan.org</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
