@@ -83,6 +83,7 @@ chomp $new_value;
 
 ($email =~ /^[-a-zA-Z0-9_+.]+@[-a-zA-Z0-9_.]+$/) || die;
 
+$data{crypt} ||= "17qd7V5gW8Hn.";   # Default password: 'pm.0rg'
 print "Temporary password crypt string: $data{crypt}\n";
 
 print "Hit enter to continue, Cntl C to abort\n";
@@ -95,16 +96,25 @@ print $create_user_cmd, "\n";
 
 system $create_user_cmd;
 
-$doc_root = "/opt/apache/gocho.pm.org/80/htdocs/pm.org/$hostname";
+$doc_root = "/pm.org/$hostname";
 mkdir $doc_root, 02770;
+open (OUT, ">$doc_root/index.html");
+print OUT <<EOT;
+<h1>$hostname.pm.org</h1>
+
+Coming soon...
+EOT
+close OUT;
+system("chmod +x $doc_root");
 
 chown( (getpwnam($username))[2], getgrnam('apache'), $doc_root);
 `ln -s $doc_root $userhome/web_docs`;
 
 append_to_file("/etc/mail/local-host-names", "$hostname.pm.org\n");
-append_to_file("/etc/httpd/pm.org.vhosts3", "$hostname:$username:www_logs/:combined:0:0:0::\n");
-append_to_file("/etc/httpd/pm.org.vhosts4", "$hostname:$username:\n");
-append_to_file("/opt/apache/gocho.pm.org/80/conf/vhosts.pm.org", "$hostname\n");
+#append_to_file("/etc/httpd/pm.org.vhosts3", "$hostname:$username:www_logs/:combined:0:0:0::\n");
+#append_to_file("/etc/httpd/pm.org.vhosts4", "$hostname:$username:\n");
+append_to_file("/etc/httpd/conf.d/pm.org.vhosts", "$hostname\n");
+system("/etc/httpd/conf.d/pm.org.vhosts_rebuild");
 append_to_file("/etc/mail/virtusertable", "\@$hostname.pm.org\t$email\n");
 	
 send_faq($email, $username, "$hostname.pm.org");
@@ -113,7 +123,7 @@ print "Remaking sendmail map files\n";
 system( "cd /etc/mail; make " );
 
 print "Restarting apache\n";
-system( "cd /opt/apache/gocho.pm.org/80; kill `cat logs/httpd.pid`; sleep 3; bin/httpd -d `pwd`" );
+system( "/etc/rc.d/init.d/httpd restart");
 print "Complete\n";
 exit;
 
@@ -123,9 +133,10 @@ sub send_faq
 print STDERR $email, "\n";
 	my $username  = shift;
 	
-	open MAIL, "| /usr/lib/sendmail -odq -oi -t";
+	open MAIL, "| /usr/lib/sendmail -oi -t";
 	print MAIL <<"HERE";
 To: $email
+Cc: jay\@jays.net
 From: tech\@pm.org
 Subject: Perl Monger user group site configured
 
@@ -133,12 +144,14 @@ Your Perl Monger user group site has been configured:
 
  * Use an ssh ("secure shell") program to log on to
    www.pm.org as "$username" with the password that you
-   provided.  You must use ssh to login and edit or
-   transfer files (telnet and ftp are not allowed).
-   For more information on ssh visit www.openssh.org
+   provided (if you didn't provide one, your password
+   is 'pm.0rg' -- please change it!). You must use 
+   ssh to login and edit or transfer files (telnet and 
+   ftp are not allowed). For more information on ssh 
+   visit www.openssh.org
 
  * Your website files are stored at:
-     /opt/apache/gocho.pm.org/80/htdocs/pm.org/$hostname
+   /pm.org/$hostname
 
  * There is a softlink to this path in your home directory
    called web_docs (cd ~/web_docs).

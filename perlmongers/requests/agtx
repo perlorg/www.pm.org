@@ -20,7 +20,7 @@ use strict;
 
 use Fcntl qw(:flock);
 
-my $usage = "./makeNewWeb.pl filename\n";
+my $usage = "./agtx filename\n";
 
 die $usage if (! scalar @ARGV);
 if (! -r $ARGV[0])
@@ -78,7 +78,7 @@ chomp $new_value;
 print OUTPUT $region, "\n";
 
 my $country = $data{country};
-$country = `grep "\;$country" /web/gocho.pm.org/80/data/country_codes.db`;
+$country = `grep "\;$country" /data/country_codes.db`;
 chomp $country;
 $country =~ s/;.*//;
 
@@ -89,7 +89,7 @@ chomp $new_value;
 print OUTPUT $country, "\n";
 
 my $continent = $data{continent};
-$continent = `grep "\;$continent" /web/gocho.pm.org/80/data/continent_codes.db`;
+$continent = `grep "\;$continent" /data/continent_codes.db`;
 chomp $continent;
 $continent =~ s/;.*//;
 
