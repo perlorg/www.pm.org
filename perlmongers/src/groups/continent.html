@@ -1,6 +1,13 @@
 [% META title = "Perl Mongers: Continent" %]
 
+[% IF image %]
+<img src="[% image %]">
+[% END %]
+
+<p>
+
 The following groups are in [% continent %]:
+
 <p>
 
 [% FOREACH country = groups.keys.sort %]

@@ -6,6 +6,15 @@ use Image::WorldMap;
 use Template;
 use XML::Simple;
 
+my %colours = (
+  'africa' => [64,255,64],
+  'asia' => [255,255,0],
+  'europe' => [128,128,255],
+  'north_america' => [255,0,0],
+  'south_america' => [255,0,255],
+  'oceania' => [0,255,255],
+);
+
 $| = 1;
 
 my $xml = XMLin('./perl_mongers.xml', cache => 'storable', suppressempty => 1);
@@ -23,6 +32,8 @@ my $tt = Template->new({
 # Array containing all the group names order by continent
 my %groups;
 mkdir "www/groups/graphics";
+
+my $worldmap = Image::WorldMap->new("titchy.png");
 
 foreach my $name (keys %$xml) {
   my $group = $xml->{$name};
@@ -54,14 +65,23 @@ foreach my $name (keys %$xml) {
     map { $group->{location}->{$_} }
  qw(city region state country continent);
 
-  if (!-f "www/groups/graphics/$id.png"
-      && $group->{location}->{longitude}
+  if ($group->{location}->{longitude}
       && $group->{location}->{latitude}) {
-    my $map = Image::WorldMap->new("titchy.png");
-    $map->add($group->{location}->{longitude}, $group->{location}->{latitude});
-    $map->draw("foo.png");
-    system("pngtopnm foo.png | ppmquant 64 | pnmtopng -compression 9 > www/groups/graphics/$id.png");
-    $group->{image} = "graphics/$id.png";
+
+    # first add to world map
+    my $c = lc $group->{location}->{continent};
+    $c =~ s/\W/_/g;
+    my $colour = $colours{$c} || die;
+    $worldmap->add($group->{location}->{longitude}, $group->{location}->{latitude}, 'group', $colour);
+
+    # have we drawn the single-country map already?
+    if (!-f "www/groups/graphics/$id.png") {
+      my $map = Image::WorldMap->new("titchy.png");
+      $map->add($group->{location}->{longitude}, $group->{location}->{latitude}, 'group', $colour);
+      $map->draw("foo.png");
+      system("pngtopnm foo.png | ppmquant 128 | pnmtopng -compression 9 > www/groups/graphics/$id.png");
+      $group->{image} = "graphics/$id.png";
+    }
   }
 
   my $continent = $group->{location}->{continent};
@@ -81,24 +101,46 @@ copy("./perl_mongers.dtd", "www/groups/perl_mongers.dtd");
 
 #use YAML; die Dump(\%groups);
 foreach my $continent (sort keys %groups) {
-  my $file = lc $continent;
-  $file =~ s/\W/_/g;
-  $file = "www/groups/$file.html";
+  my $name = lc $continent;
+  $name =~ s/\W/_/g;
+  my $file = "www/groups/$name.html";
   warn "$continent -> $file\n";
   my $groups;
+  my $map = Image::WorldMap->new("titchy.png");
   foreach my $country (sort keys %{$groups{$continent}}) {
     warn "  $country\n";
-    $groups->{$country} = [sort { lc $a->{name} cmp lc $b->{name} } @{$groups{$continent}->{$country}}];
+    my @mygroups = @{$groups{$continent}->{$country}};
+    $groups->{$country} = [sort { lc $a->{name} cmp lc $b->{name} } @mygroups];
   }
+
+  my $colour = $colours{$name};
+  foreach my $name (keys %$xml) {
+    my $group = $xml->{$name};
+    my $status = $group->{status} || 'not-specified-in-xml-file';
+    next unless $status eq 'active' || $status eq 'sleeping';
+    next unless $group->{location}->{continent} eq $continent;
+    if ($group->{location}->{longitude}
+	&& $group->{location}->{latitude}) {
+      $map->add($group->{location}->{longitude}, $group->{location}->{latitude}, "group", $colour);
+    }
+  }
+
+  $map->draw("foo.png");
+  system("pngtopnm foo.png | ppmquant 128 | pnmtopng -compression 9 > www/groups/graphics/$name.png");
   my $conf = {
     groups => $groups,
     continent => $continent,
   };
+  $conf->{image} = "graphics/$name.png" unless $name eq 'non_geographical';
+
   $tt->process('src/groups/continent.html', $conf, $file)
     || die $tt->error();
 #use YAML; die Dump($groups);
 #use Data::Dumper; die Dumper($groups);
 }
+
+$worldmap->draw("foo.png");
+system("pngtopnm foo.png | ppmquant 255 | pnmtopng -compression 9 > www/groups/graphics/world.png");
 
 __END__
 =head1 NAME
