@@ -9116,7 +9116,7 @@
 		<date type="inception">20010203</date>
 	</group>
 
-	<group id="353">
+	<group id="353" status="active">
 		<name>Barcelona.pm</name>
 		<location>
 			<city>Barcelona</city>
@@ -9130,13 +9130,13 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Tim Allen</name>
-			<email type="personal">timallen449@hotmail.com</email>
+			<email type="personal">zeno@timallen.org</email>
 		</tsar>
 		<web>http://barcelona.pm.org/</web>
 		<mailing_list>
 			<name>General Barcelona Perl Mongers discussion</name>
 			<email type="list">barcelona-pm@pm.org</email>
-			<email type="list_admin">timallen449@hotmail.com</email>
+			<email type="list_admin">zeno@timallen.org</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
