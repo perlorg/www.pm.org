@@ -1167,7 +1167,7 @@
 		<date type="inception">19990607</date>
 	</group>
 	
-	<group id="41" status="leb">
+	<group id="41" status="active">
 		<name>Humboldt.pm</name>
 		<location>
 			<city>Arcata</city>
@@ -1180,17 +1180,17 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Greg Coit</name>
-			<email type="personal">gbc1@axe.humboldt.edu</email>
+			<name>Erik D. Spiller</name>
+			<email type="personal">eriks21@yahoo.com</email>
 		</tsar>
-		<web></web>
-		<mailing_list>
-			<name>General Humboldt.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
+		<web>http://humboldt.pm.org/</web>
+		<mailing-list>
+			<name>General Humboldt Perl Mongers discussion</name>
+			<email type="list">humboldt.pm@pm.org</email>
+			<email type="list_admin">eriks21@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
 		<date type="inception">19981113</date>
 	</group>
 	
@@ -14831,33 +14831,6 @@
 			<name>General Pisa Perl Mongers discussion</name>
 			<email type="list">pisa-pm@pm.org</email>
 			<email type="list_admin">bepi@modperl.it</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing-list>
-		<date type="inception">20030425</date>
-	</group>
-
-	<group id="578" status="active">
-		<name>Humboldt.pm</name>
-		<location>
-			<city>Arcata</city>
-			<state>California</state>
-			<region></region>
-			<country>United States of America</country>
-			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Erik D. Spiller</name>
-			<email type="personal">eriks21@yahoo.com</email>
-		</tsar>
-		<web>http://humboldt.pm.org/</web>
-		<mailing-list>
-			<name>General Humboldt Perl Mongers discussion</name>
-			<email type="list">humboldt.pm@pm.org</email>
-			<email type="list_admin">eriks21@yahoo.com</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing-list>
