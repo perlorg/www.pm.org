@@ -14808,4 +14808,274 @@
                 <date type="inception">20030410</date>
         </group>
 <!-- next free group id is 569 -->
-</perl_mongers>
+
+	<group id="566" status="active">
+		<name>LagunaNiguel.pm</name>
+		<location>
+			<city>Laguna Niguel</city>
+			<state>California</state>
+			<region></region>
+			<country>United States of America</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Jeff Chilton</name>
+			<email type="personal">jeffchilton@sbcglobal.net</email>
+		</tsar>
+		<web>http://lagunaniguel.pm.org/</web>
+		<mailing-list>
+			<name>General LagunaNiguel Perl Mongers discussion</name>
+			<email type="list">lagunaniguel-pm@pm.org</email>
+			<email type="list_admin">jeffchilton@sbcglobal.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030425</date>
+	</group>
+
+	<group id="567" status="active">
+		<name>PhPerl.pm</name>
+		<location>
+			<city>Pateros</city>
+			<state></state>
+			<region></region>
+			<country>Philippines</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>jeramil c. cruz</name>
+			<email type="personal">jeramil@angelfire.com</email>
+		</tsar>
+		<web>http://phperl.pm.org/</web>
+		<mailing-list>
+			<name>General PhPerl Perl Mongers discussion</name>
+			<email type="list">phperl-pm@pm.org</email>
+			<email type="list_admin">jeramil@angelfire.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030425</date>
+	</group>
+
+	<group id="568" status="active">
+		<name>Dominican Republic.pm</name>
+		<location>
+			<city>Santo Domingo</city>
+			<state>Distrito Nacional</state>
+			<region></region>
+			<country>Dominican Republic</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Huascar Tejeda</name>
+			<email type="personal">me@husoft.com</email>
+		</tsar>
+		<web>http://dominicanrepublic.pm.org/</web>
+		<mailing-list>
+			<name>General Dominican Republic Perl Mongers discussion</name>
+			<email type="list">dominicanrepublic-pm@pm.org</email>
+			<email type="list_admin">me@husoft.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030425</date>
+	</group>
+
+	<group id="569" status="active">
+		<name>uperl.pm</name>
+		<location>
+			<city>Xuzhou</city>
+			<state>Jiangsu</state>
+			<region>Cumt</region>
+			<country>China</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Attastone Lau</name>
+			<email type="personal">attastone@linuxforum.net</email>
+		</tsar>
+		<web>http://uperl.pm.org/</web>
+		<mailing-list>
+			<name>General uperl Perl Mongers discussion</name>
+			<email type="list">uperl-pm@pm.org</email>
+			<email type="list_admin">attastone@linuxforum.net</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030425</date>
+	</group>
+
+	<group id="570" status="active">
+		<name>Central Coast.pm</name>
+		<location>
+			<city>Central Coast</city>
+			<state>New South Wales</state>
+			<region></region>
+			<country>Australia</country>
+			<continent>Oceana</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Stewart Heckenberg</name>
+			<email type="personal">leaderEmail=whazaaaaahp@hotmail.com</email>
+		</tsar>
+		<web>http://central-coast.pm.org/</web>
+		<mailing-list>
+			<name>General Central Coast Perl Mongers discussion</name>
+			<email type="list">central-coast-pm@pm.org</email>
+			<email type="list_admin">leaderEmail=whazaaaaahp@hotmail.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030425</date>
+	</group>
+
+	<group id="571" status="active">
+		<name>Bangkok.pm</name>
+		<location>
+			<city>Bangkok</city>
+			<state>Bangkok</state>
+			<region></region>
+			<country>Thailand</country>
+			<continent>Asia</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Komtanoo Pinpimai</name>
+			<email type="personal">romerun@cpan.org</email>
+		</tsar>
+		<web>http://bangcock.pm.org/</web>
+		<mailing-list>
+			<name>General Bangkok Perl Mongers discussion</name>
+			<email type="list">bangkok-pm@pm.org</email>
+			<email type="list_admin">romerun@cpan.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030425</date>
+	</group>
+
+	<group id="572" status="active">
+		<name>Pisa.pm</name>
+		<location>
+			<city>Pisa</city>
+			<state>Pisa</state>
+			<region>Toscana</region>
+			<country>Italy</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Enrico Sorcinelli</name>
+			<email type="personal">bepi@modperl.it</email>
+		</tsar>
+		<web>http://pisa.pm.org/</web>
+		<mailing-list>
+			<name>General Pisa Perl Mongers discussion</name>
+			<email type="list">pisa-pm@pm.org</email>
+			<email type="list_admin">bepi@modperl.it</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030425</date>
+	</group>
+
+	<group id="573" status="active">
+		<name>Princeton.pm</name>
+		<location>
+			<city>Princeton</city>
+			<state>New Jersey</state>
+			<region></region>
+			<country>United States of America</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Gyan Kapur</name>
+			<email type="personal">gkapur@myrealbox.com</email>
+		</tsar>
+		<web>http://princeton.pm.org/</web>
+		<mailing-list>
+			<name>General Princeton Perl Mongers discussion</name>
+			<email type="list">princeton-pm@pm.org</email>
+			<email type="list_admin">gkapur@myrealbox.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030425</date>
+	</group>
+
+	<group id="574" status="active">
+		<name>Africa Perl Users Group.pm</name>
+		<location>
+			<city>Addis Ababa</city>
+			<state></state>
+			<region></region>
+			<country>Ethiopia</country>
+			<continent>Africa</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Alemu Tadesse</name>
+			<email type="personal">myperl2003@yahoo.com</email>
+		</tsar>
+		<web>http://africa.pm.org/</web>
+		<mailing-list>
+			<name>General Africa Perl Users Group Perl Mongers discussion</name>
+			<email type="list">africa-pm@pm.org</email>
+			<email type="list_admin">myperl2003@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030425</date>
+	</group>
+
+	<group id="575" status="active">
+		<name>Humboldt.pm</name>
+		<location>
+			<city>Arcata</city>
+			<state>California</state>
+			<region></region>
+			<country>United States of America</country>
+			<continent>North America</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Erik D. Spiller</name>
+			<email type="personal">eriks21@yahoo.com</email>
+		</tsar>
+		<web>http://humboldt.pm.org/</web>
+		<mailing-list>
+			<name>General Humboldt Perl Mongers discussion</name>
+			<email type="list">humboldt.pm@pm.org</email>
+			<email type="list_admin">eriks21@yahoo.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20030425</date>
+	</group>
+</perl-mongers>
