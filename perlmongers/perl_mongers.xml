@@ -16312,7 +16312,7 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Er Galvão Abbott</name>
+			<name>Er Galv&atilde;o Abbott</name>
 			<email type="personal">pmpoa@galvao.eti.br</email>
 		</tsar>
 		<web>http://portoalegre.pm.org/</web>
@@ -16352,4 +16352,4 @@
 		</mailing-list>
 		<date type="inception">20040208</date>
 	</group>
-</perl-mongers>
+</perl_mongers>
