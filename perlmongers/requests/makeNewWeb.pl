@@ -68,9 +68,8 @@ open MAIL, "| /usr/lib/sendmail -odq -oi -t" or die "$!";
 die "$?" if $?;
 
 print MAIL <<"HERE";
-To: benh\@jpj.net
-Cc: brian\@smithrenaud.com
-From: brian\@pm.org
+To: wwalker\@bybent.com
+From: hfb_admin\@pm.org
 Subject: new subdomain request
 
 Please add these domains with A 166.84.185.32
@@ -91,7 +90,7 @@ sub send_faq
 	open MAIL, "| /usr/lib/sendmail -odq -oi -t";
 	print MAIL <<"HERE";
 To: $email
-Bcc: brian\@pm.org
+Bcc: wwalker\@bybent.com
 Subject: Perl Mongers services configured!
 
 Your Perl Monger net services have been configured.
@@ -116,7 +115,7 @@ $email.
 that's it for now.  good luck :)
 
 --
-brian d foy - <brian\@smithrenaud.com>
+Wayne Walker - <wwalker\@bybent.com>
 HERE
 
 	close MAIL;
