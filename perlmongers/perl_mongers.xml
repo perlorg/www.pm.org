@@ -16207,4 +16207,30 @@
                 <date type="inception">20041111</date>
         </group>
 
-</perl_mongers>
+	<group id="653" status="active">
+		<name>Cascais.pm</name>
+		<location>
+			<city>Cascais</city>
+			<state>Lisbon</state>
+			<region>Cascais</region>
+			<country>Portugal</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Nuno Nunes</name>
+			<email type="personal">nuno@nunonunes.org</email>
+		</tsar>
+		<web>http://cascais.pm.org/</web>
+		<mailing-list>
+			<name>General Cascais Perl Mongers discussion</name>
+			<email type="list">cascais-pm@pm.org</email>
+			<email type="list_admin">nuno@nunonunes.org</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20041113</date>
+	</group>
+</perl-mongers>
