@@ -1,4 +1,6 @@
 <!-- Perl Mongers groups DTD -->
+<!-- $Id: -->
+
 <!ELEMENT perl_mongers
 	(group)+
 	>
@@ -62,3 +64,6 @@
 
 <!ELEMENT email	(#PCDATA)>
 <!ATTLIST email	type (group | personal | list | list_admin) "group">
+
+<!ENTITY aacute	'&#225;' >
+<!ENTITY atilde	'&#227;' >
