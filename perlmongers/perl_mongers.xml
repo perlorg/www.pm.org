@@ -11556,7 +11556,7 @@
 		<date type="inception">20011021</date>
 	</group>
 
-	<group id="448" status="alive">
+	<group id="448" status="active">
 		<name>stttelkom.pm</name>
 		<location>
 			<city>Dayeuh Kolot</city>
@@ -13149,7 +13149,7 @@
 		<date type="inception">20020522</date>
 	</group>
 
-	<group id="28" status="alive">
+	<group id="28" status="active">
 		<name>Bucharest.pm</name>
 		<location>
 			<city>Bucharest</city>
