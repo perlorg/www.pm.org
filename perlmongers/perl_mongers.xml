@@ -180,15 +180,15 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>David Keeney</name>
-			<email type="personal">dkeeney@travelbyroad.net</email>
+			<name>Joe Calkins (interim)</name>
+			<email type="personal">jcalkins@swcp.com</email>
 		</tsar>
 		<web>http://albuquerque.pm.org/</web>
 		<mailing_list>
 			<name>General Albuquerque.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
+			<email type="list">abq-pm@swcp.com</email>
+			<email type="list_admin">owner-abq-pm@swcp.com</email>
+			<subscribe>abq-pm-request@swcp.com</subscribe>
 			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19981225</date>
