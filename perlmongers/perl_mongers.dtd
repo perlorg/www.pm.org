@@ -1,5 +1,5 @@
 <!-- Perl Mongers groups DTD -->
-<!-- $Id: -->
+<!-- $Id$ -->
 
 <!ELEMENT perl_mongers
 	(group)+
