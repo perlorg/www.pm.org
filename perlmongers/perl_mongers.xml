@@ -519,7 +519,7 @@
 		<date type="inception">19980808</date>
 	</group>
 	
-	<group id="17" status="leb">
+	<group id="17" status="active">
 		<name>Charlotte.pm</name>
 		<location>
 			<city>Charlotte</city>
@@ -532,8 +532,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Jonathan Rippy</name>
-			<email type="personal">charlotte_pm@hotmail.com</email>
+			<name>William McKee</name>
+			<email type="personal">william@knowmad.com</email>
 		</tsar>
 		<web>http://charlotte.pm.org/</web>
 		<mailing_list>
@@ -1356,7 +1356,7 @@
 		<date type="inception">19990707</date>
 	</group>
 	
-	<group id="49">
+	<group id="49" status="active">
 		<name>Knoxville.pm</name>
 		<location>
 			<city>Knoxville</city>
@@ -1369,8 +1369,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Ken Raisor</name>
-			<email type="personal">ken@metatronics.com</email>
+			<name>Ben Smith</name>
+			<email type="personal">defyance@comcast.net</email>
 		</tsar>
 		<web>http://knoxville.pm.org/</web>
 		<mailing_list>
@@ -15570,7 +15570,8 @@
 		<date type="inception">20031108</date>
 	</group>
 
-	<group id="607" status="active">
+        <!-- duplicate -->
+	<group id="607">
 		<name>Charlotte.pm</name>
 		<location>
 			<city>Charlotte</city>
@@ -16675,5 +16676,32 @@
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing-list>
 		<date type="inception">20040425</date>
+	</group>
+
+	<group id="650" status="active">
+		<name>italia.pm</name>
+		<location>
+			<city></city>
+			<state></state>
+			<region></region>
+			<country>Italy</country>
+			<continent>Europe</continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+		<email type="group"></email>
+		<tsar>
+			<name>Angelo Selvini</name>
+			<email type="personal">jontk@perl.it</email>
+		</tsar>
+		<web>http://italia.pm.org/</web>
+		<mailing-list>
+			<name>General Italia Perl Mongers discussion</name>
+			<email type="list">italia-pm@pm.org</email>
+			<email type="list_admin">jontk@perl.it</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing-list>
+		<date type="inception">20040621</date>
 	</group>
 </perl_mongers>
