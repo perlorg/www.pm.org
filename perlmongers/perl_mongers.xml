@@ -14403,9 +14403,6 @@
 		<date type="inception">20030109</date>
 	</group>
 
-<!-- next free group id is 551 -->
-
-
 	<group id="521" status="active">
 		<name>NewCastle.pm</name>
 		<location>
@@ -14490,7 +14487,7 @@
 	<group id="554" status="active">
 		<name>Saarland.pm</name>
 		<location>
-			<city>Saarbrücken</city>
+			<city>Saarbr&uuml;cken</city>
 			<state>Saarland</state>
 			<region></region>
 			<country>Germany</country>
@@ -14608,7 +14605,7 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Sören Michael Laird Sörries</name>
+			<name>S&ouml;ren Michael Laird S&ouml;rries</name>
 			<email type="personal">info@perlmongers.de</email>
 		</tsar>
 		<web>http://german.pm.org/</web>
@@ -14810,4 +14807,5 @@
                 </mailing-list>
                 <date type="inception">20030410</date>
         </group>
+<!-- next free group id is 566 -->
 </perl-mongers>
