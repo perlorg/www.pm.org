@@ -16180,6 +16180,7 @@
                 </mailing_list>
          </group>
 
+
         <group id="652" status="active">
                 <name>Aarau.pm</name>
                 <location>
@@ -16233,5 +16234,32 @@
 		</mailing-list>
 		<date type="inception">20041113</date>
 	</group>
+
+         <group id="653" status="active">
+                <name>Ljubljana.pm</name>
+                <location>
+                       <city>Ljubljana</city>
+                       <state></state>
+                       <region></region>
+                       <country>Slovenia</country>
+                       <continent>Europe</continent>
+                       <longitude>14.5</longitude>
+                       <latitude>46.05</latitude>
+                </location>
+                <email type="group"></email>
+                <tsar>
+                       <name>Mitja Kramberger</name>
+                       <email type="personal">mitja.kramberger@siol.com</email>
+                </tsar>
+                <web>http://ljubljana.pm.org/</web>
+                <mailing_list>
+                       <name>General Ljubljana.pm discussion</name>
+                       <email type="list"></email>
+                       <email type="list_admin"></email>
+                       <subscribe></subscribe>
+                       <unsubscribe></unsubscribe>
+                </mailing_list>
+                <date type="inception">20040919</date>
+         </group>
 </perl_mongers>
 
