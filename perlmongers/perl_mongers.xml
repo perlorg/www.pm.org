@@ -1569,7 +1569,7 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Scott Thomason</name>
-			<email type="personal">scott@industrial-linux.org</email>
+			<email type="personal">scott@thomasons.org</email>
 		</tsar>
 		<web>http://milwaukee.pm.org/</web>
 		<mailing_list>
@@ -1610,10 +1610,10 @@
 	</group>
 	
 	<group id="61" status="active">
-		<name>Montr&amp;eacute;al.pm</name>
+		<name>Montr&eacute;al.pm</name>
 		<location>
-			<city>Montr&amp;eacute;al</city>
-			<state>Qu&amp;eacute;bec</state>
+			<city>Montr&eacute;al</city>
+			<state>Qu&eacute;bec</state>
 			<region></region>
 			<country>Canada</country>
 			<continent>North America</continent>
@@ -1627,7 +1627,7 @@
 		</tsar>
 		<web>http://montreal.pm.org/</web>
 		<mailing_list>
-			<name>General Montr&amp;eacute;al.pm discussion</name>
+			<name>General Montr&eacute;al.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
 			<subscribe></subscribe>
@@ -2832,9 +2832,9 @@
 	</group>
 	
 	<group id="107">
-		<name>Bogot&amp;aacute;.pm</name>
+		<name>Bogot&aacute;.pm</name>
 		<location>
-			<city>Bogot&amp;aacute;</city>
+			<city>Bogot&aacute;</city>
 			<state></state>
 			<region></region>
 			<country>Colombia</country>
