@@ -18,7 +18,7 @@
          
 </head>
 
-<body marginheight=0 marginwidth=0 topmargin=0 leftmargin=0 bgcolor="#ffffff" text="#000000" link="#000099">
+<body style="margin: 0" bgcolor="#ffffff" text="#000000" link="#000099">
 <table border=0 cellpadding=6 cellspacing=0 width="100%">
   <tr>
     <td class="side" bgcolor="#0087d9" width=120 valign="top">
