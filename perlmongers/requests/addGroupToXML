@@ -11,6 +11,8 @@ my ( $groupid, $groupname, $city, $state, $region, $country, $continent, $longit
 $date = `date +%Y%m%d`;
 chomp $date;
 
+die if (-f "perl_mongers.xml.new");
+
 open (XML, ">perl_mongers.xml.new") || die;
 open OLDXML, "perl_mongers.xml" || die;
 

@@ -6,7 +6,7 @@ use IO::Tee;
 
 $NO_STATE = 0;
 
-my $PM_DOCS   = "/web/www.pm.org/docs";
+my $PM_DOCS   = "/opt/apache/gocho.pm.org/80/htdocs/pm.org/www";
 my $xml_base  = "$PM_DOCS/XML";
 my $html_base = "$PM_DOCS/groups";
 

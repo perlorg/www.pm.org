@@ -15,7 +15,7 @@ USE:
 	
 HERE
 
-my ($owner, $group) = (getpwnam 'mjordomo')[2,3];
+my ($owner, $group) = (getpwnam 'majordomo')[2,3];
 
 my $list    = $ARGV[0];
 my $email   = $ARGV[1];
@@ -85,17 +85,20 @@ chown $owner, $group, "$digest/$list-digest";
 # 6) Check ownership
 
 # 7) Issue config
-open MAIL, "| /usr/lib/sendmail -odq -oi -t";
-print MAIL <<"HERE";
-To: majordomo\@hfb.pm.org
-From: majordomo-owner\@hfb.pm.org
-Subject: config $list
 
-config $list $list.admin
-HERE
+open (CONFIG, ">$listdir/$list.config") ||
+	die "could not open config file";
+open (TEMPLATE, "$listdir/TEMPLATE.config") ||
+	die "could not open TEMPLATE config file";
 
-# send email to list owner
-close MAIL;
+while (<TEMPLATE>)
+{
+	s/\@\@LIST\@\@/$list/g;
+	print CONFIG;
+}
+close TEMPLATE;
+close CONFIG;
+
 
 open MAIL, "| /usr/lib/sendmail -odq -oi -t";
 
@@ -108,7 +111,7 @@ Cc: majordomo-owner\@pm.org
 Your list is configured:
 
 	it's name is:     $list
-	your password is: $list.admin  (change right away!)
+	your password is: $list.pass  (change right away!)
 	
 	the posting address is: $list\@hfb.pm.org
 	
@@ -117,7 +120,7 @@ Your list is configured:
 You can configure you list through the normal majordomo email
 interface or you can use Majorcool at:
 
-	<URL:http://hfb.pm.org/cgi-bin/majordomo?module=modify>
+	<URL:http://gocho.pm.org/majorcool/>
 
 If you are new to this whole Majordomo thing, here's some good info:
 
