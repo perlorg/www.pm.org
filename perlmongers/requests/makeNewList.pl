@@ -6,6 +6,8 @@ use subs qw(create_file);
 
 use Fcntl qw(:flock);
 
+$ENV{'PATH'} = "$ENV{'PATH'}:/usr/local/bin";
+
 die <<"HERE" unless ( defined $ARGV[0] and defined $ARGV[1] );
 USE:
 
