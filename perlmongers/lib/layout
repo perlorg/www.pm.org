@@ -70,6 +70,7 @@
     "Perlmonks" => "http://www.perlmonks.com/",
     "Yet Another Perl Conference" => "http://www.yapc.org/",
     "Perl training" => "http://www.perltraining.org/",
+    "mod_perl" => "http://perl.apache.org/",
   }
 %]
 
@@ -87,7 +88,7 @@
     <td valign="baseline">
       <br><br><br><br>
       <p class="moddate"><small>Last modified on
-           October 19th, 2002 by <a href="mailto:webmaster@pm.org">webmaster@pm.org</a>.<br>
+           December 14th, 2002 by <a href="mailto:webmaster@pm.org">webmaster@pm.org</a>.<br>
            All content copyright &copy; 2002 Perl Mongers.</small></p>
     </td>
   </tr>
