@@ -3793,33 +3793,6 @@
 		<date type="inception">19990707</date>
 	</group>
 	
-	<group id="143">
-		<name>Nottingham.pm</name>
-		<location>
-			<city>Nottingham</city>
-			<state></state>
-			<region>England</region>
-			<country>United Kingdom</country>
-			<continent>Europe</continent>
-			<longitude>-1.142499</longitude>
-			<latitude>52.9394</latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>James A Duncan</name>
-			<email type="personal">j@mesduncan.co.uk</email>
-		</tsar>
-		<web></web>
-		<mailing_list>
-			<name>General Nottingham.pm discussion</name>
-			<email type="list">nottingham-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe nottingham-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe nottingham-pm-list email_address</unsubscribe>
-		</mailing_list>
-		<date type="inception">19990707</date>
-	</group>
-	
 	<group id="144" status="leb">
 		<name>PacosDeFerreira.pm</name>
 		<location>
@@ -16361,8 +16334,8 @@
 			<region>East Midlands</region>
 			<country>United Kingdom</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-1.142499</longitude>
+			<latitude>52.9394</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -16377,7 +16350,7 @@
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing-list>
-		<date type="inception">20040222</date>
+		<date type="inception">19990707</date>
 	</group>
 
 	<group id="636" status="active">
