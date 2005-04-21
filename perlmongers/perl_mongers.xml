@@ -12738,7 +12738,7 @@
 		<name>Zurich.pm</name>
 		<location>
 			<city>Zurich</city>
-			<state></state>
+			<state>Zurich</state>
 			<region></region>
 			<country>Switzerland</country>
 			<continent>Europe</continent>
@@ -12747,8 +12747,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Andre Bonhote</name>
-			<email type="personal">perl@problemlos.ch</email>
+			<name>Steven P Schubiger</name>
+			<email type="personal">steven@accognoscere.org</email>
 		</tsar>
 		<web>http://zurich.pm.org/</web>
 		<mailing_list>
