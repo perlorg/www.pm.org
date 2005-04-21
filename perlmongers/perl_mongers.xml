@@ -16340,5 +16340,24 @@
                 </mailing_list>
                 <date type="inception">20050320</date>
         </group>
+        <group id="658" status="active">
+                <name>Campinas.pm</name>
+                <location>
+                        <city>Campinas</city>
+                        <state>São Paulo</state>
+                        <region></region>
+                        <country>Brazil</country>
+                        <continent>South America</continent>
+                        <longitude>-47.99</longitude>
+                        <latitude>-22.70</latitude>
+                </location>
+                <email type="group"></email>
+                <tsar>
+                        <name>Luciano Pizarro</name>
+                        <email type="personal">qlp002@email.mot.com</email>
+                </tsar>
+                <web>http://campinas.pm.org/</web>
+                <date type="inception">20050420</date>
+        </group>
 </perl_mongers>
 
