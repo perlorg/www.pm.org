@@ -12761,11 +12761,11 @@
 		<date type="inception">20020406</date>
 	</group>
 
-	<group id="497">
+	<group id="497" status="active">
 		<name>China.pm</name>
 		<location>
-			<city></city>
-			<state></state>
+			<city>HangZhou</city>
+			<state>ZheJiang</state>
 			<region></region>
 			<country>China</country>
 			<continent>Asia</continent>
@@ -12774,14 +12774,14 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>tsingson seawind</name>
-			<email type="personal">tsingson@963.net</email>
+			<name>Fayland Lam</name>
+			<email type="personal">fayland@fayland.org</email>
 		</tsar>
 		<web>http://china.pm.org/</web>
 		<mailing_list>
 			<name>General China Perl Mongers discussion</name>
 			<email type="list">china-pm@pm.org</email>
-			<email type="list_admin">tsingson@963.net</email>
+			<email type="list_admin">fayland@fayland.org</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
