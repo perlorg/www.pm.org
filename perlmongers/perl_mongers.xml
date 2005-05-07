@@ -16359,5 +16359,24 @@
                 <web>http://campinas.pm.org/</web>
                 <date type="inception">20050420</date>
         </group>
+        <group id="659" status="active">
+                <name>BH.pm</name>
+                <location>
+                        <city>Belo Horizonte</city>
+                        <state>MG</state>
+                        <region></region>
+                        <country>Brazil</country>
+                        <continent>South America</continent>
+                        <longitude>-43.93</longitude>
+                        <latitude>-19.92</latitude>
+                </location>
+                <email type="group"></email>
+                <tsar>
+                        <name>Celio Marcio Soares Ferreira (Bruxo)</name>
+                        <email type="personal">celio@linuxplace.com.br</email>
+                </tsar>
+                <web>http://bh.pm.org/</web>
+                <date type="inception">20050506</date>
+        </group>
 </perl_mongers>
 
