@@ -14832,7 +14832,7 @@
 		<date type="inception">20030628</date>
 	</group>
 
-	<group id="591" status="active">
+	<group id="591" status="inactive">
 		<name>Guapimirim.pm</name>
 		<location>
 			<city>Guapimirim</city>
@@ -15939,7 +15939,7 @@
 		<date type="inception">20040425</date>
 	</group>
 
-	<group id="640" status="active">
+	<group id="640" status="inactive">
 		<name>Peregrino.pm</name>
 		<location>
 			<city>Peregrino</city>
@@ -16074,7 +16074,7 @@
 		<date type="inception">20040425</date>
 	</group>
 
-	<group id="648" status="active">
+	<group id="648" status="inactive">
 		<name>Nanuque.pm</name>
 		<location>
 			<city>Nanuque</city>
