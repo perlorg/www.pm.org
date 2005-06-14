@@ -4873,7 +4873,7 @@
 		<date type="inception">19990131</date>
 	</group>
 	
-	<group id="187">
+	<group id="187" status="active">
 		<name>HongKong.pm</name>
 		<location>
 			<city>Hong Kong</city>
@@ -4886,8 +4886,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Peter</name>
-			<email type="personal">webmaster@appleclub.com.hk</email>
+			<name>Andrew Leung</name>
+			<email type="personal">aleunpkc@netvigator.com</email>
 		</tsar>
 		<web>http://hongkong.pm.org/</web>
 		<mailing_list>
@@ -4897,7 +4897,7 @@
 			<subscribe></subscribe>
 			<unsubscribe></unsubscribe>
 		</mailing_list>
-		<date type="inception">replace</date>
+		<date type="inception">19990207</date>
 	</group>
 	
 	<group id="188" status="inactive">
