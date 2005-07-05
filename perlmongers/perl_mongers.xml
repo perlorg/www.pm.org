@@ -16378,5 +16378,26 @@
                 <web>http://bh.pm.org/</web>
                 <date type="inception">20050506</date>
         </group>
+        <group id="660" status="active">
+                <name>brazosvalley.pm</name>
+                <location>
+                        <city>Brazos Valley</city>
+                        <state>Texas</state>
+                        <region></region>
+                        <country>USA</country>
+                        <continent>North America</continent>
+                        <longitude>-96.33</longitude>
+                        <latitude>30.63</latitude>
+                </location>
+                <email type="group"></email>
+                <tsar>
+                        <name>Jeremy Fluhmann</name>
+                        <email type="personal">jeremy@stuact.tamu.edu</email>
+                </tsar>
+                <web>http://brazosvalley.pm.org/</web>
+                <date type="inception">20050630</date>
+        </group>
+</perl_mongers>
+
 </perl_mongers>
 
