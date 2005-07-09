@@ -16379,6 +16379,25 @@
                 <date type="inception">20050506</date>
         </group>
         <group id="660" status="active">
+                <name>Argentina.pm</name>
+                <location>
+                        <city>Buenos Aires</city>
+                        <state>Buenos Aires</state>
+                        <region></region>
+                        <country>Argentina</country>
+                        <continent>South America</continent>
+                        <longitude>-34.60</longitude>
+                        <latitude>--58.43</latitude>
+                </location>
+                <email type="group"></email>
+                <tsar>
+                        <name>Palo Daniel Cano</name>
+                        <email type="personal">canpaniel@soulution.com.ar</email>
+                </tsar>
+                <web>http://argentina.pm.org/</web>
+                <date type="inception">20000101</date>
+        </group>
+        <group id="661" status="active">
                 <name>brazosvalley.pm</name>
                 <location>
                         <city>Brazos Valley</city>
