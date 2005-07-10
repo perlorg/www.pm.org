@@ -16435,5 +16435,24 @@
                 <web>http://groningen.pm.org/</web>
                 <date type="inception">20050710</date>
         </group>
+        <group id="663" status="active">
+                <name>innsbruck.pm</name>
+                <location>
+                        <city>Innsbruck</city>
+                        <state>Tirol</state>
+                        <region></region>
+                        <country>Austria</country>
+                        <continent>Europe</continent>
+                        <longitude>47.45</longitude>
+                        <latitude>11.5833</latitude>
+                </location>
+                <email type="group"></email>
+                <tsar>
+                        <name>Michel Kr&oum;ll</name>
+                        <email type="personal">pepl@cpan.org</email>
+                </tsar>
+                <web>http://innsbruck.pm.org/</web>
+                <date type="inception">20050710</date>
+        </group>
 </perl_mongers>
 
