@@ -16473,5 +16473,9 @@
                 <web>http://santiago.pm.org/</web>
                 <date type="inception">20050716</date>
         </group>
+        <group id="665" status="active">
+                <name>#Perl.pm</name>
+                <web>http://pound-perl.pm.org/</web>
+        </group>
 </perl_mongers>
 
