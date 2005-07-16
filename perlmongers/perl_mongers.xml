@@ -16454,5 +16454,24 @@
                 <web>http://innsbruck.pm.org/</web>
                 <date type="inception">20050710</date>
         </group>
+        <group id="664" status="active">
+                <name>Santiago.pm</name>
+                <location>
+                        <city>Santiago</city>
+                        <state>Santiago</state>
+                        <region>Metropolitana</region>
+                        <country>Chile</country>
+                        <continent>South America</continent>
+                        <longitude>-70.75</longitude>
+                        <latitude>-33.47</latitude>
+                </location>
+                <email type="group"></email>
+                <tsar>
+                        <name>Cristian Vasquez Diaz</name>
+                        <email type="personal">cristian@codigolibre.cl</email>
+                </tsar>
+                <web>http://santiago.pm.org/</web>
+                <date type="inception">20050716</date>
+        </group>
 </perl_mongers>
 
