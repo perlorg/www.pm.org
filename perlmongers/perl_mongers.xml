@@ -8739,7 +8739,7 @@
 		<date type="inception">20010125</date>
 	</group>
 
-	<group id="344">
+	<group id="344" status="active">
 		<name>Taichung.pm</name>
 		<location>
 			<city>Taichung</city>
@@ -8752,14 +8752,14 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Andy S.Y. Yang</name>
-			<email type="personal">andy.yn@msa.hinet.net</email>
+			<name>Jack Chiu</name>
+			<email type="personal">jack@inpro.com.tw</email>
 		</tsar>
 		<web>http://taichung.pm.org/</web>
 		<mailing_list>
 			<name>General Taichung Perl Mongers discussion</name>
 			<email type="list">taichung-pm@pm.org</email>
-			<email type="list_admin">andy.yn@msa.hinet.net</email>
+			<email type="list_admin">jack@inpro.com.tw</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
