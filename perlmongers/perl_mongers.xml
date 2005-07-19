@@ -11933,19 +11933,19 @@
 			<region></region>
 			<country>Costa Rica</country>
 			<continent>Central America</continent>
-			<longitude>-85.13</longitude>
-			<latitude>10.97</latitude>
+			<longitude>-84.08</longitude>
+			<latitude>9.93</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Ronnie Alfaro</name>
-			<email type="personal">ronnie@ticoweb.com</email>
+			<name>Marcelo E. Magallon</name>
+			<email type="personal">marcelo.magallon@gmail.com</email>
 		</tsar>
 		<web>http://costarica.pm.org/</web>
 		<mailing_list>
 			<name>General CostaRica Perl Mongers discussion</name>
 			<email type="list">costarica-pm@pm.org</email>
-			<email type="list_admin">shadox@racsa.co.cr</email>
+			<email type="list_admin">marcelo.magallon@gmail.com</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
