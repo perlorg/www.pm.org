@@ -3738,29 +3738,26 @@
 		<date type="inception">19990707</date>
 	</group>
 	
-	<group id="141" status="mlb">
+	<group id="141" status="active">
 		<name>Moscow.pm</name>
 		<location>
 			<city>Moscow</city>
 			<state></state>
 			<region></region>
-			<country>Russia</country>
+			<country>Russian Federation</country>
 			<continent>Europe</continent>
 			<longitude>37.583</longitude>
 			<latitude>55.75</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Andrew Gromozdin</name>
-			<email type="personal">andygrom@aha.ru</email>
+			<name>Ruslan U. Zakirov</name>
+			<email type="personal">Ruslan.Zakirov@miet.ru</email>
 		</tsar>
 		<web></web>
 		<mailing_list>
 			<name>General Moscow.pm discussion</name>
-			<email type="list">moscow-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe moscow-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe moscow-pm-list email_address</unsubscribe>
+			<email type="list">moscow-pm@pm.org</email>
 		</mailing_list>
 		<date type="inception">19990131</date>
 	</group>
