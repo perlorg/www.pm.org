@@ -2070,16 +2070,13 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Doug Miles</name>
-			<email type="personal">perlguy@earthlink.net</email>
+			<name>Brock Wilcox</name>
+			<email type="personal">awwaiid@thelackthereof.org</email>
 		</tsar>
 		<web>http://phoenix.pm.org/</web>
 		<mailing_list>
 			<name>General Phoenix.pm discussion</name>
-			<email type="list">phoenix-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe phoenix-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe phoenix-pm-list email_address</unsubscribe>
+			<email type="list">phoenix-pm@pm.org</email>
 		</mailing_list>
 		<date type="inception">19981113</date>
 	</group>
