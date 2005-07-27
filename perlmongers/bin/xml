@@ -75,8 +75,14 @@ foreach my $g ($doc->findnodes('//group')) {
     $country = 'Non-geographical';
   }
 
-  die "$name has no continent\n" unless $continent;
-  die "$name has no country\n" unless $country;
+  unless ($continent) {
+     warn "$name has no continent";
+     next;
+  }
+  unless ($country) {
+     warn "$name has no country";
+     next;
+  }
 
   # joined up city, state, region, country, continent
   my $location = join ', ', grep { $_ }
