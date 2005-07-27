@@ -16471,5 +16471,24 @@
                 <name>#Perl.pm</name>
                 <web>http://pound-perl.pm.org/</web>
         </group>
+        <group id="666" status="active">
+                <name>Erlangen.pm</name>
+                <location>
+                        <city>Erlangen</city>
+                        <state></state>
+                        <region></region>
+                        <country>Germany</country>
+                        <continent>Europe</continent>
+                        <longitude>11.00</longitude>
+                        <latitude>49.36</latitude>
+                </location>
+                <email type="group"></email>
+                <tsar>
+                        <name>Richard Lippmann</name>
+                        <email type="personal">horshack@lisa.franken.de</email>
+                </tsar>
+                <web>http://www.perlmongers.de/?ErlangenPM</web>
+                <date type="inception">20050726</date>
+        </group>
 </perl_mongers>
 
