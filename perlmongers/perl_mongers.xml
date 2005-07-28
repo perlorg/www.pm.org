@@ -16442,7 +16442,7 @@
                 </location>
                 <email type="group"></email>
                 <tsar>
-                        <name>Michel Kr&oum;ll</name>
+                        <name>Michel Kr&ouml;l</name>
                         <email type="personal">pepl@cpan.org</email>
                 </tsar>
                 <web>http://innsbruck.pm.org/</web>
@@ -16489,6 +16489,25 @@
                 </tsar>
                 <web>http://www.perlmongers.de/?ErlangenPM</web>
                 <date type="inception">20050726</date>
+        </group>
+        <group id="667" status="active">
+                <name>Viana.pm</name>
+                <location>
+                        <city>Viana do Castelo</city>
+                        <state></state>
+                        <region></region>
+                        <country>Portugal</country>
+                        <continent>Europe</continent>
+                        <longitude>-8.8424</longitude>
+                        <latitude>41.7067</latitude>
+                </location>
+                <email type="group"></email>
+                <tsar>
+                        <name>Jose Castro</name>
+                        <email type="personal">cog@cpan.org</email>
+                </tsar>
+                <web>http://viana.pm.org</web>
+                <date type="inception">20050728</date>
         </group>
 </perl_mongers>
 
