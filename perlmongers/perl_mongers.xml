@@ -10731,7 +10731,7 @@
 		<date type="inception">20010720</date>
 	</group>
 
-	<group id="420">
+	<group id="420" status="inactive">
 		<name>ColoradoRiver.pm</name>
 		<location>
 			<city>Lake Havasu City</city>
