@@ -753,10 +753,10 @@
 		<web>http://dfw.pm.org/</web>
 		<mailing_list>
                 <name>General DFW discussion</name>
-        	<email type="list">dfw-pm@hex.net</email>
-        	<email type="list_admin">majordomo@hex.net</email>
-        	<subscribe>subscribe dfw-pm email_address</subscribe>
-        	<unsubscribe>unsubscribe dfw-pm email_address</unsubscribe>
+		<email type="list">dfw-pm@hex.net</email>
+		<email type="list_admin">majordomo@hex.net</email>
+		<subscribe>subscribe dfw-pm email_address</subscribe>
+		<unsubscribe>unsubscribe dfw-pm email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">19980707</date>
 	</group>
@@ -16470,6 +16470,19 @@
         <group id="665" status="active">
                 <name>#Perl.pm</name>
                 <web>http://pound-perl.pm.org/</web>
+		<location>
+			<city></city>
+			<state></state>
+			<region></region>
+			<country></country>
+			<continent></continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
+                <tsar>
+                        <name></name>
+                        <email type="personal"></email>
+                </tsar>
         </group>
         <group id="666" status="active">
                 <name>Erlangen.pm</name>
