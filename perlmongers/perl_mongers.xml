@@ -14372,24 +14372,21 @@
 		<location>
 			<city>Princeton</city>
 			<state>New Jersey</state>
-			<region></region>
+			<region>Mercer County</region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-74.66</longitude>
+			<latitude>40.34</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Gyan Kapur</name>
-			<email type="personal">gkapur@myrealbox.com</email>
+			<name>Jeff "japhy" Pinyan</name>
+			<email type="personal">japhy@perlmonk.org</email>
 		</tsar>
 		<web>http://princeton.pm.org/</web>
 		<mailing_list>
 			<name>General Princeton Perl Mongers discussion</name>
 			<email type="list">princeton-pm@pm.org</email>
-			<email type="list_admin">gkapur@myrealbox.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030317</date>
 	</group>
