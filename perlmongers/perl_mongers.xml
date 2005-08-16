@@ -9043,14 +9043,14 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Elizabeth Marie Kallman</name>
-			<email type="personal">eliz@newton.me.berkeley.edu</email>
+			<name>Linda L. Julien</name>
+			<email type="personal">leira@mit.edu</email>
 		</tsar>
 		<web>http://santafelosalamos.pm.org/</web>
 		<mailing_list>
 			<name>General Santa Fe-Los Alamos Perl Mongers discussion</name>
 			<email type="list">santafelosalamos-pm@pm.org</email>
-			<email type="list_admin">eliz@newton.me.berkeley.edu</email>
+			<email type="list_admin"></email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
