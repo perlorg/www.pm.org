@@ -16519,5 +16519,24 @@
                 <web>http://viana.pm.org</web>
                 <date type="inception">20050728</date>
         </group>
+        <group id="668" status="active">
+                <name>Salvador.pm</name>
+                <location>
+                        <city>Salvador</city>
+                        <state>Bahia</state>
+                        <region></region>
+                        <country>Brasil</country>
+                        <continent>South America</continent>
+                        <longitude>-38.48</longitude>
+                        <latitude>-12.97</latitude>
+                </location>
+                <email type="group"></email>
+                <tsar>
+                        <name>Joenio Marques</name>
+                        <email type="personal">joeniom@yahoo.com.br</email>
+                </tsar>
+                <web>http://salvador.pm.org</web>
+                <date type="inception">20050815</date>
+        </group>
 </perl_mongers>
 
