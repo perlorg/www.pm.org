@@ -4848,19 +4848,19 @@
 			<region></region>
 			<country>India</country>
 			<continent>Asia</continent>
-			<longitude>77.21</longitude>
-			<latitude>28.66</latitude>
+			<longitude>77.12</longitude>
+			<latitude>28.38</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Varun Singh</name>
-			<email type="personal">varun_singh@yahoo.com</email>
+			<name>Abhishek jain</name>
+			<email type="personal">jain@ejain.com</email>
 		</tsar>
 		<web>http://delhi.pm.org/</web>
 		<mailing_list>
 			<name>General Delhi Perl Mongers discussion</name>
 			<email type="list">delhi-pm@pm.org</email>
-			<email type="list_admin">varun_singh@yahoo.com</email>
+			<email type="list_admin">jain@ejain.com</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
