@@ -16534,5 +16534,24 @@
                 <web>http://salvador.pm.org</web>
                 <date type="inception">20050815</date>
         </group>
+        <group id="669" status="active">
+                <name>Taubate.pm</name>
+                <location>
+                        <city>Taubaté</city>
+                        <state>SP</state>
+                        <region>Vale do Paraiba</region>
+                        <country>Brazil</country>
+                        <continent>South America</continent>
+                        <longitude>-45.3319</longitude>
+                        <latitude>-23.0315</latitude>
+                </location>
+                <email type="group"></email>
+                <tsar>
+                        <name>Frederico Recsky</name>
+                        <email type="personal">frederico@gmail.com</email>
+                </tsar>
+                <web>http://taubate.pm.org</web>
+                <date type="inception">20050905</date>
+        </group>
 </perl_mongers>
 
