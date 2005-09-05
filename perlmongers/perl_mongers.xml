@@ -3654,7 +3654,7 @@
 		<date type="inception">19990515</date>
 	</group>
 	
-	<group id="138">
+	<group id="138" status="active">
 		<name>Lund.pm</name>
 		<location>
 			<city>Lund</city>
@@ -3667,16 +3667,12 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Magnus Bodin</name>
-			<email type="personal">magnus@bodin.org</email>
+			<name>Nadim Khemir</name>
+			<email type="personal">Nadim.Khemir@tmt.teleca.se</email>
 		</tsar>
 		<web>http://lund.pm.org/</web>
 		<mailing_list>
 			<name>General Lund.pm discussion</name>
-			<email type="list">list@lund.pm.org</email>
-			<email type="list_admin">list-owner@lund.pm.org</email>
-			<subscribe>list-subscribe@lund.pm.org</subscribe>
-			<unsubscribe>list-unsubscribe@lund.pm.org</unsubscribe>
 		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
