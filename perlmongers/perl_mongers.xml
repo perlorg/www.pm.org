@@ -13538,8 +13538,8 @@
 			<region>Southwest Missouri</region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>37.2089</longitude>
-			<latitude>-93.2922</latitude>
+                        <latitude>37.2089</latitude>
+                        <longitude>-93.2922</longitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -16374,7 +16374,7 @@
                         <country>Argentina</country>
                         <continent>South America</continent>
                         <longitude>-34.60</longitude>
-                        <latitude>--58.43</latitude>
+                        <latitude>-58.43</latitude>
                 </location>
                 <email type="group"></email>
                 <tsar>
