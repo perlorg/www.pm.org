@@ -16570,5 +16570,14 @@
 		<web>http://lafayette.pm.org</web>
 		<date type="inception">20050919</date>
 	</group>
+	<group id="671" status="active">
+		<name>Amiga.pm</name>
+		<tsar>
+			<name>Michael Meyer</name>
+			<email type="personal">michael@belbooks.net</email>
+		</tsar>
+		<web>http://amiga.pm.org</web>
+		<date type="inception">20050919</date>
+	</group>
 </perl_mongers>
 
