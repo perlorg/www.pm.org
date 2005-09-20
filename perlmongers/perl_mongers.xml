@@ -16545,7 +16545,6 @@
                         <longitude>-45.3319</longitude>
                         <latitude>-23.0315</latitude>
                 </location>
-                <email type="group"></email>
                 <tsar>
                         <name>Frederico Recsky</name>
                         <email type="personal">frederico@gmail.com</email>
@@ -16553,5 +16552,23 @@
                 <web>http://taubate.pm.org</web>
                 <date type="inception">20050905</date>
         </group>
+	<group id="670" status="active">
+		<name>Lafayette.pm</name>
+		<location>
+			<city>Oxford</city>
+			<state>Mississippi</state>
+			<region></region>
+			<country>United States of America</country>
+			<continent>North America</continent>
+			<longitude>-89.54</longitude>
+			<latitude>34.37</latitude>
+		</location>
+		<tsar>
+			<name>Orion Severhill</name>
+			<email type="personal">perlishoxford@gmail.com</email>
+		</tsar>
+		<web>http://lafayette.pm.org</web>
+		<date type="inception">20050919</date>
+	</group>
 </perl_mongers>
 
