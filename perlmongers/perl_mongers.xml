@@ -113,8 +113,8 @@
 			<region>Center of the Universe</region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-73.94384</longitude>
-			<latitude>40.66980</latitude>
+			<longitude>-73.98771000</longitude>
+			<latitude>40.72426868</latitude>
 		</location>
 		<email type="group">nypm@ny.pm.org</email>
 		<tsar>
@@ -14719,8 +14719,8 @@
 			<region></region>
 			<country>Netherlands</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>4.4667</longitude>
+                        <latitude>52.1833</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -15988,8 +15988,8 @@
 			<region> </region>
 			<country>Israel</country>
 			<continent>Asia</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<latitude>31.750795</latitude>
+			<longitude>35.190926</longitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -16283,8 +16283,8 @@
                         <region></region>
                         <country>Scotland</country>
                         <continent>Europe</continent>
-                        <longitude>-2.9</longitude>
-                        <latitude>57.9</latitude>
+                        <longitude>57.08</longitude>
+                        <latitude>2.07</latitude>
                 </location>
                 <email type="group"></email>
                 <tsar>
@@ -16430,8 +16430,8 @@
                         <region></region>
                         <country>Austria</country>
                         <continent>Europe</continent>
-                        <longitude>47.45</longitude>
-                        <latitude>11.5833</latitude>
+                        <longitude>11.35</longitude>
+                        <latitude>47.27</latitude>
                 </location>
                 <email type="group"></email>
                 <tsar>
