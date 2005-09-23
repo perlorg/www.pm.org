@@ -16572,6 +16572,15 @@
 	</group>
 	<group id="671" status="active">
 		<name>Amiga.pm</name>
+		<location>
+			<city></city>
+			<state></state>
+			<region></region>
+			<country></country>
+			<continent></continent>
+			<longitude></longitude>
+			<latitude></latitude>
+		</location>
 		<tsar>
 			<name>Michael Meyer</name>
 			<email type="personal">michael@belbooks.net</email>
