@@ -3871,8 +3871,8 @@
 			<region></region>
 			<country>Italy</country>
 			<continent>Europe</continent>
-			<longitude>12.483</longitude>
-			<latitude>41.9</latitude>
+			<longitude>12.4924</longitude>
+			<latitude>41.8921</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -11631,8 +11631,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Leonardo Pig&ntilde;er</name>
-			<email type="personal">lpigner@gmail.com</email>
+			<name>Victor A. Rodriguez</name>
+			<email type="personal">victor@bit-man.cam.ar</email>
 		</tsar>
 		<web>http://cafe.pm.org/</web>
 		<mailing_list>
@@ -13512,8 +13512,8 @@
 			<region></region>
 			<country>Canada</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-80.542</longitude>
+			<latitude>43.473</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -14047,8 +14047,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-75.74.627</longitude>
+			<latitude>39.60461</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
