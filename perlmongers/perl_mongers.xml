@@ -2170,8 +2170,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-122.600</longitude>
-			<latitude>45.600</latitude>
+                        <longitude>-122.655206</longitude>
+                        <latitude>45.510354</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -3662,8 +3662,8 @@
 			<region></region>
 			<country>Sweden</country>
 			<continent>Europe</continent>
-			<longitude>13.183</longitude>
-			<latitude>55.700</latitude>
+			<longitude>13.04</longitude>
+			<latitude>55.07</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -3863,7 +3863,7 @@
 		<date type="inception">19990707</date>
 	</group>
 	
-	<group id="147" status="sleeping">
+	<group id="147" status="active">
 		<name>Roma.pm</name>
 		<location>
 			<city>Roma</city>
@@ -11896,8 +11896,8 @@
 			<region>Devon &amp; Cornwall</region>
 			<country>United Kingdom</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <latitude>50.7384</latitude>
+                        <longitude>-4.0042</longitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -13380,8 +13380,8 @@
 			<region></region>
 			<country>Taiwan</country>
 			<continent>Asia</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>120.18108</longitude>
+                        <latitude>22.38225</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -14236,8 +14236,8 @@
 			<region></region>
 			<country>Germany</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>54.335278</longitude>
+                        <latitude>10.116389</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -14557,8 +14557,8 @@
 			<region></region>
 			<country>Netherlands</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>5.912888</longitude>
+                        <latitude>52.002615</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
