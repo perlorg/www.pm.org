@@ -909,8 +909,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Bill Hess</name>
-			<email type="personal">bhess@techrg.com</email>
+			<name>Todd Chapman Hess</name>
+			<email type="personal">todd@chaka.net</email>
 		</tsar>
 		<web>http://detroit.pm.org/</web>
 		<mailing_list>
@@ -16281,7 +16281,7 @@
                         <city>Aberdeen</city>
                         <state>Aberdeenshire</state>
                         <region></region>
-                        <country>Scotland</country>
+                        <country>United Kingdom</country>
                         <continent>Europe</continent>
                         <longitude>57.08</longitude>
                         <latitude>2.07</latitude>
