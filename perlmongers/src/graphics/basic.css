@@ -20,7 +20,7 @@ ul   { font-family: [% fontlist %]; font-size: 100%; }
 ol   { font-family: [% fontlist %]; font-size: 100%; }
 p    { font-family: [% fontlist %]; font-size: 100%; }
 div  { font-family: [% fontlist %]; font-size: 100%; }
-p.moddate { font-family: [% fontlist %]; font-size: 100%; }
+p.moddate { font-family: [% fontlist %]; font-size: 75%; }
 blockquote { font-family: [% fontlist %]; font-size: 100%; }
 
 td { font-family: [% fontlist %]; font-size: 100%; }
