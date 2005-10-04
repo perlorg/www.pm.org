@@ -23,16 +23,19 @@
 <table border="0" cellpadding="6" cellspacing="0" width="100%">
   <tr>
     <td class="side" bgcolor="#0087d9" width="120" valign="top">
-
-     <table cellpadding="2" cellspacing="0" border="0"><tr><td bgcolor="#000000">
-      <table align="center" cellpadding="6" cellspacing="0" border="0">
+      <table cellpadding="2" cellspacing="0" border="0">
         <tr>
-          <td class="venue" bgcolor="#ffffff" align="center">
-<a href="[% PROCESS relative url="/" %]"><img src="[% PROCESS relative url="/graphics/title.png" %]" width="150" height="65" border="0" alt="Perl Mongers" /></a>
+          <td bgcolor="#000000">
+            <table align="center" cellpadding="6" cellspacing="0" border="0">
+              <tr>
+                <td class="venue" bgcolor="#ffffff" align="center">
+                  <a href="[% PROCESS relative url="/" %]"><img src="[% PROCESS relative url="/graphics/title.png" %]" width="150" height="65" border="0" alt="Perl Mongers" /></a>
+                </td>
+              </tr>
+            </table>
           </td>
         </tr>
-       </table>
-</td></tr></table>
+      </table>
 [%# <br> %]
 
 [% INCLUDE sideheader
@@ -74,7 +77,7 @@
     "mod_perl" => "http://perl.apache.org/",
   }
 %]
-
+i</td>
 <td valign="top">
 [% INCLUDE heading title=template.title %]
 
