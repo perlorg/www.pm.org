@@ -1,8 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/2002/REC-xhtml1-20020801/DTD/xhtml1-transitional.dtd">
-<!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> -->
-[%- MACRO relative_url(url) PROCESS relative -%]
-[%- MACRO link_to(url, text) BLOCK -%]
-<a href="[% PROCESS relative %]">[% text %]</a>[% END %]
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/2002/REC-xhtml1-20020801/DTD/xhtml1-transitional.dtd">
+[% MACRO relative_url(url) PROCESS relative %]
+[% MACRO link_to(url, text) BLOCK %]
+<a href="[% PROCESS relative %]">[% text %]</a>
+[% END %]
+
 <html>
   <head>
     <meta name="description" 
@@ -10,8 +12,7 @@
     <meta name="keywords"
           content="Perl,Perl Mongers,Mongers,User Group,Meeting" />
     <meta name="MsSmartTagsPreventParsing" content="TRUE" />
-[% title = template.title or "Perl Mongers" -%]
-    <title>[% title %]</title>
+    <title>[% title or "Perl Mongers" %]</title>
  
     <link rel="stylesheet" type="text/css"
           href="[% relative_url("/graphics/basic.css") %]" 
@@ -19,21 +20,13 @@
          
 </head>
 
-<body style="margin: 0" bgcolor="#ffffff" text="#000000" link="#000099">
+<body>
 <table border="0" cellpadding="6" cellspacing="0" width="100%">
   <tr>
-    <td class="side" bgcolor="#0087d9" width="120" valign="top">
+    <td class="side" width="120" valign="top">
       <table cellpadding="2" cellspacing="0" border="0">
         <tr>
-          <td bgcolor="#000000">
-            <table align="center" cellpadding="6" cellspacing="0" border="0">
-              <tr>
-                <td class="venue" bgcolor="#ffffff" align="center">
-                  <a href="[% PROCESS relative url="/" %]"><img src="[% PROCESS relative url="/graphics/title.png" %]" width="150" height="65" border="0" alt="Perl Mongers" /></a>
-                </td>
-              </tr>
-            </table>
-          </td>
+          <td bgcolor="#000000"><a href="[% PROCESS relative url="/" %]"><img src="[% PROCESS relative url="/graphics/title.png" %]" width="150" height="65" border="0" alt="Perl Mongers" /></a></td>
         </tr>
       </table>
 [%# <br> %]
@@ -77,11 +70,11 @@
     "mod_perl" => "http://perl.apache.org/",
   }
 %]
-i</td>
+</td>
 <td valign="top">
-[% INCLUDE heading title=template.title %]
+[% INCLUDE heading %]
 
-[% INCLUDE $template %]
+[% content %]
 
     </td>
   </tr>

@@ -10,34 +10,154 @@
  * [% bodysize = "11" %]
  */
 
-body { font-family: [% fontlist %]; font-size: 100%; }
-h1   { font-family: [% fontlist %]; font-size: 150%; font-style: bold; }
-h2   { font-family: [% fontlist %]; font-size: 130%; font-style: bold; }
-h3   { font-family: [% fontlist %]; font-size: 120%; font-style: bold; }
-h4   { font-family: [% fontlist %]; font-size: 100%; font-style: bold; }
-li   { font-family: [% fontlist %]; font-size: 100%; }
-ul   { font-family: [% fontlist %]; font-size: 100%; }
-ol   { font-family: [% fontlist %]; font-size: 100%; }
-p    { font-family: [% fontlist %]; font-size: 100%; }
-div  { font-family: [% fontlist %]; font-size: 100%; }
-p.moddate { font-family: [% fontlist %]; font-size: 75%; }
-blockquote { font-family: [% fontlist %]; font-size: 100%; }
+body {
+  font-family: [% fontlist %];
+  font-size: 100%;
+  margin: 0;
+  background-color: #fff;
+  color: #000;
+}
 
-td { font-family: [% fontlist %]; font-size: 100%; }
-td.side { background-color: #0087d9; color: #ffffff; font-family: [% fontlist %]; font-size: 110%;
-          vertical-align: text-top;}
-td.venue { background-color: #ffffff; color: #000000; font-family: [% fontlist %]; font-size: 120%; 
-           text-align: center; }   /* venue announcement in side column */
-td.header { font-size: 140% }  /* yapc logo header */
+h1 {
+  font-family: [% fontlist %];
+  font-size: 150%;
+  font-style: bold;
+}
 
-a { color: #0000FF; text-decoration: underline; }
-a:visited { color: #FF00FF; text-decoration: underline; }
-a:hover { color: #0000FF; text-decoration: underline; }
+h2 {
+  font-family: [% fontlist %];
+  font-size: 130%;
+  font-style: bold;
+}
 
-a.side { color: #ffffff; text-decoration: underline; font-family: [% fontlist %]; font-size: 100%; }
-a.side:visited { color: #ffffcc; text-decoration: underline; font-family: [% fontlist %]; font-size: 100%; }
-a.side:hover { color: #ffffff; text-decoration: underline; font-family: [% fontlist %]; font-size: 100%; }
+h3 {
+  font-family: [% fontlist %];
+  font-size: 120%;
+  font-style: bold;
+}
 
-a.sidehead { color: #ffffff; text-decoration: underline; font-weight: bold; font-family: [% fontlist %]; font-size: 110%;}
-a.sidehead:visited { color: #ffccff; text-decoration: underline; font-weight: bold; font-family: [% fontlist %]; font-size: 110%;}
-a.sidehead:hover { color: #ffffff; text-decoration: underline; font-weight: bold; font-family: [% fontlist %]; font-size: 110%;}
+h4 {
+  font-family: [% fontlist %];
+  font-size: 100%;
+  font-style: bold;}
+
+li {
+  font-family: [% fontlist %];
+  font-size: 100%;
+}
+
+ul {
+  font-family: [% fontlist %];
+  font-size: 100%;
+}
+
+ol {
+  font-family: [% fontlist %];
+  font-size: 100%;
+}
+
+p {
+  font-family: [% fontlist %];
+  font-size: 100%;
+}
+
+div {
+  font-family: [% fontlist %];
+  font-size: 100%;
+}
+
+p.moddate {
+  font-family: [% fontlist %];
+  font-size: 75%;
+}
+
+blockquote {
+  font-family: [% fontlist %];
+  font-size: 100%;
+}
+
+td {
+  font-family: [% fontlist %];
+  font-size: 100%;
+}
+
+td.side {
+  background-color: #0087d9;
+  color: #ffffff;
+  font-family: [% fontlist %];
+  font-size: 110%;
+  vertical-align: text-top;
+}
+
+td.venue {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: [% fontlist %];
+  font-size: 120%; 
+  text-align: center;
+}   /* venue announcement in side column */
+
+td.header {
+  font-size: 140%  /* yapc logo header */
+}
+
+a {
+  color: #0000FF;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #FF00FF;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #0000FF;
+  text-decoration: underline;
+}
+
+a.side {
+  color: #ffffff;
+  text-decoration: underline;
+  font-family: [% fontlist %];
+  font-size: 100%;
+}
+
+a.side:visited {
+  color: #ffffcc;
+  text-decoration: underline;
+  font-family: [% fontlist %];
+  font-size: 100%;
+}
+
+a.side:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  font-family: [% fontlist %];
+  font-size: 100%;
+}
+
+a.sidehead {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: [% fontlist %];
+  font-size: 110%;
+}
+
+a.sidehead:visited {
+  color: #ffccff;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: [% fontlist %];
+  font-size: 110%;
+}
+
+a.sidehead:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: [% fontlist %];
+  font-size: 110%;
+}
+
