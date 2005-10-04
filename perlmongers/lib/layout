@@ -88,7 +88,9 @@
     <td valign="baseline">
       <br><br><br><br>
       <p class="moddate">
-           Copyright &copy; 2005 The Perl Foundation.</small></p>
+           Copyright &copy; 2005 The Perl Foundation.<br />
+           The use of a camel image in association with the Perl language
+           is a trademark of O'Reilly Media Inc. Used with permission.</p>
     </td>
   </tr>
 </table>
