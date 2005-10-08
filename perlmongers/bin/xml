@@ -28,7 +28,7 @@ my $tt = Template->new({
 			TRIM => 1,
 			EVAL_PERL => 1 ,
 			INCLUDE_PATH => ['.', 'lib', 'src'],
-			PROCESS => 'layout',
+			# PROCESS => 'layout',
 		       });
 
 my %allgroups;
