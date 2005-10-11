@@ -16594,7 +16594,7 @@
 			<city>Charleston</city>
 			<state>South Carolina</state>
 			<region></region>
-			<country>USA</country>
+			<country>United States of America</country>
 			<continent>North America</continent>
 			<longitude>-80.0403</longitude>
 			<latitude>32.8986</latitude>
@@ -16604,6 +16604,24 @@
 			<email type="personal">matt@itoperators.com</email>
 		</tsar>
 		<web>http://charleston.pm.org</web>
+		<date type="inception">20051011</date>
+	</group>
+	<group id="673" status="active">
+		<name>Asheville.pm</name>
+		<location>
+			<city>Asheville</city>
+			<state>North Carolina</state>
+			<region></region>
+			<country>United States of America</country>
+			<continent>North America</continent>
+			<longitude>-82.5542</longitude>
+			<latitude>35.6008</latitude>
+		</location>
+		<tsar>
+			<name>sauoq</name>
+			<email type="personal">saouq@justperl.com</email>
+		</tsar>
+		<web>http://asheville.pm.org</web>
 		<date type="inception">20051011</date>
 	</group>
 </perl_mongers>
