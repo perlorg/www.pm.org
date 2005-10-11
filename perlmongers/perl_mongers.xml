@@ -16642,5 +16642,23 @@
 		<web>http://chemnitz.pm.org</web>
 		<date type="inception">20051011</date>
 	</group>
+	<group id="675" status="active">
+		<name>MiltonKeynes.pm</name>
+		<location>
+			<city>Milton Keynes</city>
+			<state></state>
+			<region></region>
+			<country>United Kingdom</country>
+			<continent>Europe</continent>
+			<longitude>-0.4525</longitude>
+			<latitude>52.0231</latitude>
+		</location>
+		<tsar>
+			<name>Tom Hukins</name>
+			<email type="personal">tom@eborcom.com</email>
+		</tsar>
+		<web>http://miltonkeynes.pm.org</web>
+		<date type="inception">20051011</date>
+	</group>
 </perl_mongers>
 
