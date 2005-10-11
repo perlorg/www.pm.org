@@ -16624,5 +16624,23 @@
 		<web>http://asheville.pm.org</web>
 		<date type="inception">20051011</date>
 	</group>
+	<group id="674" status="active">
+		<name>Chemnitz.pm</name>
+		<location>
+			<city>Chemnitz</city>
+			<state>Sachsen</state>
+			<region></region>
+			<country>Germany</country>
+			<continent>Europe</continent>
+			<longitude>12.54</longitude>
+			<latitude>50.51</latitude>
+		</location>
+		<tsar>
+			<name>Uwe Voelker</name>
+			<email type="personal">uwe.voelker@gmx.de</email>
+		</tsar>
+		<web>http://chemnitz.pm.org</web>
+		<date type="inception">20051011</date>
+	</group>
 </perl_mongers>
 
