@@ -6294,7 +6294,7 @@
 		<date type="inception">19991024</date>
 	</group>
 
-	<group id="242" status="leb">
+	<group id="242" status="active">
 		<name>Richmond.pm</name>
 		<location>
 			<city>Richmond</city>
@@ -6307,8 +6307,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Michael Hibbard</name>
-			<email type="personal">arkangyl@night-shade.net</email>
+			<name>Jesse Stay</name>
+			<email type="personal">jesse@thestays.org</email>
 		</tsar>
 		<web></web>
 		<mailing_list>
@@ -15664,8 +15664,8 @@
 			<region>Lehigh Valley / ABE</region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-74.56667</longitude>
+			<latitude>40.65</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -16587,6 +16587,24 @@
 		</tsar>
 		<web>http://amiga.pm.org</web>
 		<date type="inception">20050919</date>
+	</group>
+	<group id="672" status="active">
+		<name>Charleston.pm</name>
+		<location>
+			<city>Charleston</city>
+			<state>South Carolina</state>
+			<region></region>
+			<country>USA</country>
+			<continent>North America</continent>
+			<longitude>-80.0403</longitude>
+			<latitude>32.8986</latitude>
+		</location>
+		<tsar>
+			<name>Matthew Sibley</name>
+			<email type="personal">matt@itoperators.com</email>
+		</tsar>
+		<web>http://charleston.pm.org</web>
+		<date type="inception">20051011</date>
 	</group>
 </perl_mongers>
 
