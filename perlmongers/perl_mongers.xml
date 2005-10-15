@@ -2224,8 +2224,8 @@
 			<region>Research Triangle</region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-78.65875</longitude>
-			<latitude>35.82195</latitude>
+			<longitude>-78.637323</longitude>
+			<latitude>35.794183</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -12759,8 +12759,8 @@
 			<region></region>
 			<country>China</country>
 			<continent>Asia</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>116.390934205</longitude>
+                        <latitude>39.9158489677</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
