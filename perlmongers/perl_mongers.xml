@@ -7173,7 +7173,7 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>christopher</name>
+			<name>Christopher Sagayam</name>
 			<email type="personal">christopher_sagx@yahoo.com</email>
 		</tsar>
 		<web>http://madras.pm.org/</web>
@@ -16660,5 +16660,23 @@
 		<web>http://miltonkeynes.pm.org</web>
 		<date type="inception">20051011</date>
 	</group>
+        <group id="676" status="active">
+                <name>PBP.pm</name>
+                <location>
+                        <city></city>
+                        <state></state>
+                        <region></region>
+                        <country></country>
+                        <continent></continent>
+                        <longitude></longitude>
+                        <latitude></latitude>
+                </location>
+                <tsar>
+                        <name>Garrett Goebel</name>
+                        <email type="personal">garrett@goebel.ws</email>
+                </tsar>
+                <web>http://pbp.pm.org</web>
+                <date type="inception">20051111</date>
+        </group>
 </perl_mongers>
 
