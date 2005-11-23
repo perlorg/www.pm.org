@@ -16678,5 +16678,23 @@
                 <web>http://pbp.pm.org</web>
                 <date type="inception">20051111</date>
         </group>
+        <group id="677" status="active">
+                <name>Rockford.pm</name>
+                <location>
+                        <city>Rockford</city>
+                        <state>Illinois</state>
+                        <region>Upper Midwest</region>
+                        <country>United States</country>
+                        <continent>North America</continent>
+                        <longitude>-89.08333</longitude>
+                        <latitude>42.30099</latitude>
+                </location>
+                <tsar>
+                        <name>Osyrys Edmister</name>
+                        <email type="personal">osyrys@streakin.net</email>
+                </tsar>
+                <web>http://rockford.pm.org</web>
+                <date type="inception">20051111</date>
+        </group>
 </perl_mongers>
 
