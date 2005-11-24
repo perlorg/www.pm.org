@@ -10241,7 +10241,7 @@
 		<date type="inception">20010603</date>
 	</group>
 
-	<group id="402">
+	<group id="402" status="active">
 		<name>SoCo.pm</name>
 		<location>
 			<city>Trinidad</city>
