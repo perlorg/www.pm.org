@@ -68,6 +68,7 @@ foreach my $g ($doc->findnodes('//group')) {
       $name eq 'German.pm' ||
       $name eq 'Amiga.pm' ||
       $name eq '#Perl.pm' ||
+      $name eq 'PBP.pm' ||
       $name eq 'dahut.pm'
      ) {
     $continent = 'Non-geographical';
