@@ -1,0 +1,48 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use FindBin '$Bin';
+use lib "$Bin/../modules";
+use PM;
+use Template;
+use XML::LibXML;
+use File::Find::Rule;
+
+my $src = 'src/census';
+
+my @templates = File::Find::Rule->file()
+                                ->name('*.tt')
+                                ->in($src);
+
+@templates = map { s|^$src/||; $_ } @templates;
+
+my $tt = Template->new({ OUTPUT_PATH  => 'www/census',
+                         INCLUDE_PATH => [$src, 'lib/census'] })
+  or die Template->error;
+
+my @groups = map  { $_->[0] }
+             sort { $a->[1] cmp $b->[1] }
+             map  { [ $_, lc $_->name ] } PM::PmGroup->retrieve_all;
+
+my $xml = XML::LibXML->new;
+my $doc = $xml->parse_file('perl_mongers.xml');
+
+foreach my $in (@templates) {
+  my $out = $in;
+  $out =~ s/\.tt$/.html/;
+
+  $tt->process($in, { groups => \@groups }, $out)
+    or die $tt->error;
+}
+
+$tt->process("$src/census.tt", undef, 'census.css')
+  or die $tt->error;
+
+foreach (@groups) {
+  $tt->process('group.tt', { group => $_,
+                             xml   => $doc },
+               '2005/' . $_->xml_key . '.html')
+    or die $tt->error;
+}

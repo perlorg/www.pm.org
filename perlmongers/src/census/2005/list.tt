@@ -1,0 +1,29 @@
+[% META type = 'list' -%]
+<html>
+  <head>
+    <link rel="stylesheet" href="../census.css" type="text/css" />
+    <title>Perl Mongers Census 2005</title>
+  </head>
+  <body>
+    <h1>Perl Mongers Census 2005</h1>
+[% INCLUDE bread.tt %]
+    <h2>List of Groups</h2>
+    <table>
+[% USE table groups, cols = 3 %]
+[% FOREACH row IN table.row -%]
+      <tr>
+  [%- FOREACH group IN row;
+        stat = group.status;
+        IF group -%]
+        <td class="[% stat %]"><a href="[% group.xml_key %].html">[% group.name %]</a></td>
+        <td class="[% stat %] line">[% stat | ucfirst %]</td>
+     [%- ELSE -%]
+        <td colspan="2" class="line">&nbsp;</td>
+     [%- END -%]
+  [%- END -%]
+      </tr>
+[% END %]
+    </table>
+[% INCLUDE footer.tt -%]
+  </body>
+</html>

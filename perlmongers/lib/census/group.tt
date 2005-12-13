@@ -1,0 +1,67 @@
+[% META type = 'group' -%]
+<html>
+  <head>
+    <link rel="stylesheet" href="../census.css" type="text/css" />
+    <title>Perl Mongers Census: [% group.name %]</title>
+  </head>
+
+  <body>
+    <h1>Perl Mongers Census: [% group.name %]</h1>
+[% INCLUDE bread.tt %]
+    <table class="group">
+      <tr>
+        <th>Leader</th>
+        <td>[% group.leader_name %] &lt;[% group.leader_email.replace('@', ' [at] ') | html %]></td>
+      </tr>
+      <tr>
+        <th>Status</th>
+        <td>[% group.status | lcfirst %]</td>
+      </tr>
+[% IF group.status == 'active' -%]
+      <tr>
+        <th>Location</th>
+        <td>[% group.country %], [% group.continent %]</td>
+      </tr>
+[% key = group.xml_key; xpath = "//group[@id=$key]/web/text()" -%]
+[% web = xml.findvalue(xpath) %]
+[% IF web -%]
+      <tr>
+        <th>Web Site</th>
+        <td><a href="[% web %]">[% web %]</a></td>
+      </tr>
+[% END %]
+      </tr>
+[% IF group.mailing_list -%]
+      <tr>
+        <th>Mailing List</th>
+        <td>[% group.mailing_list_members %] members<br />
+            [% group.mailing_list_posts %] posts/week</td>
+      </tr>
+[% END -%]
+[% IF group.social_meeting == 'Y' -%]
+      <tr>
+        <th>Social Meetings</th>
+        <td>[% group.freq_txt('social_meeting') %]<br />
+            [% group.social_meeting_att %] attendees</td>
+      </tr>
+[% END -%]
+[% IF group.tech_meeting == 'Y' -%]
+      <tr>
+        <th>Technical Meetings</th>
+        <td>[% group.freq_txt('tech_meeting') %]<br />
+            [% group.tech_meeting_att %] attendees</td>
+      </tr>
+[% END -%]
+[% ELSIF group.status == 'inactive' %]
+      <tr>
+        <td colspan="2">This group is currently inactive.<br />If you think that the group is not inactive, or you would be interested in reactiving the group then please contact <a href="mailto:user_groups@pm.org">user groups [at] pm.org</a></td>
+      </tr>
+[% ELSE -%]
+      <tr>
+        <td colspan="2">This group did not respond to the census and therefore we believe that the group is inactive.<br />If you think that the group is not inactive, or you would be interested in reactiving the group then please contact <a href="mailto:user_groups@pm.org">user groups [at] pm.org</a></td>
+      </tr>
+[% END %]
+    </table>
+[% INCLUDE footer.tt -%]
+  </body>
+</html>

@@ -24,3 +24,36 @@ my $loader = Class::DBI::Loader->new( dsn       => $dsn,
                                       password  => $ENV{PM_PASS},
                                       namespace => 'PM' );
 
+package PM::PmGroup;
+
+my @freq = ('Unknown',
+            'More than once a month',
+            'Once a month',
+            'Every two months',
+            'Less often',
+            'Scheduled randomly');
+
+sub status {
+  my $self = shift;
+
+  if ($self->dead eq 'Y') {
+    return 'inactive';
+  } elsif ($self->checked_in eq 'Y') {
+    return 'active';
+  } else {
+    return 'missing';
+  }
+}
+
+sub freq_txt {
+  my $self = shift;
+  my $what = shift;
+
+  $what = "${what}_freq";
+
+  my $index = $self->$what;
+  $index =~ s/\D//g;
+  $index = 0 unless length $index;
+
+  return $freq[$index];
+}

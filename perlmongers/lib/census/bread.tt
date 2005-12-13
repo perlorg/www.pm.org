@@ -1,0 +1,21 @@
+<table class="bread">
+  <tr>
+    <td>Back to:</td>
+    <td><a href="/">Home</a></td>
+[% IF template.type == 'group' OR template.type == 'report' OR template.type == 'year' OR template.type == 'list' -%]
+    <td>&raquo;</td>
+    <td><a href="/census/">Census</a></td>
+[% END -%]
+[% IF template.type == 'group' OR template.type == 'report' OR template.type == 'list' -%]
+    <td>&raquo;</td>
+    <td><a href="/census/2005/">2005</a></td>
+[% END -%]
+[% IF template.type == 'group' -%]
+    <td>&raquo;</td>
+    <td><a href="/census/2005/list.html">List</a></td>
+[% ELSIF template.type == 'report' -%]
+    <td>&raquo;</td>
+    <td><a href="/census/2005/reports.html">List</a></td>
+[% END -%]
+  </tr>
+</table>

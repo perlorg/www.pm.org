@@ -1,0 +1,80 @@
+body {
+  font-family: arial, helvetica, san-serif;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+h1, h2 {
+  padding-left: 5px;
+  padding-top: 3px;
+  background-color: #eee;
+  border-bottom: solid 1px #333;
+  border-right: solid 1px #333;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table.group {
+  margin-top: 30px;
+}
+
+table.group td, table.group th {
+  vertical-align: top;
+  border: solid 1px #ddd;
+  padding: 5px;
+}
+
+table.group th {
+  vertical-align: top;
+  background-color: #eee;
+  text-align: right;
+}
+
+table.bread td a {
+  text-decoration: underline;
+}
+
+td a:link, td a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+td.inactive {
+  background-color: black;
+  color :white;
+}
+
+td.inactive a:link, td.inactive a:visited {
+  color: white;
+}
+
+td.missing {
+  background-color: red;
+}
+
+
+td.line {
+  border-right: 3px solid transparent;
+}
+
+.footer {
+  width: 100%;
+  border: solid 1px #000;
+  background-color: #eee;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 3px;
+}

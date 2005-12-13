@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Perl Mongers Census</title>
+    <link rel="stylesheet" href="census.css" type="text/css" />
+  </head>
+  <body>
+    <h1>Perl Mongers Census</h1>
+
+[% INCLUDE bread.tt -%]
+
+    <p>This page will contain details of the (hopefully) annual
+      Perl Mongers census. Currently we've only done one census, so
+      all the action is on the <a href="2005/">2005</a> page.</p>
+
+    <ul>
+      <li><a href="2005/">2005 Census</a></li>
+    </ul>
+
+[% INCLUDE footer.tt -%]
+
+  </body>
+</html>

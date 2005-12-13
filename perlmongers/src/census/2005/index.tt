@@ -1,0 +1,21 @@
+[% META type = 'year' -%]
+<html>
+  <head>
+    <title>Perl Mongers Census 2005</title>
+    <link rel="stylesheet" href="../census.css" type="text/css" />
+  </head>
+  <body>
+    <h1>Perl Mongers Census 2005</h1>
+
+[% INCLUDE bread.tt -%]
+
+    <p>Welcome to the results of the 2005 Perl Mongers census.</p>
+
+    <p>Soon we hope to have a number of sumary reports available, but in
+      the meantime you can look at the full census returns from
+      <a href="list.html">each group</a>.
+
+[% INCLUDE footer.tt -%]
+
+  </body>
+</html>
