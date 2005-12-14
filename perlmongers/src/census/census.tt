@@ -62,12 +62,20 @@ td.inactive a:link, td.inactive a:visited {
 }
 
 td.missing {
-  background-color: red;
+  background-color: #666;
+  color: white;
 }
 
+td.missing a:link, td.missing a:visited {
+  color: white;
+}
+
+td.missing, td.active, td.inactive {
+  padding: 2px;
+}
 
 td.line {
-  border-right: 3px solid transparent;
+  border-right: 3px solid white;
 }
 
 .footer {
