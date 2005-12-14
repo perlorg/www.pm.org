@@ -8,6 +8,7 @@ use File::Spec::Functions qw(splitpath);
 use Template;
 
 my $tt = Template->new({
+  PRE_PROCESS => 'macros',
   POST_CHOMP => 1,
   PRE_CHOMP => 1,
   TRIM => 1,
