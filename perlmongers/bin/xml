@@ -23,6 +23,7 @@ my %colours = (
 $| = 1;
 
 my $tt = Template->new({
+			PRE_PROCESS => [ 'lib/macros' ],
 			POST_CHOMP => 1,
 			PRE_CHOMP => 1,
 			TRIM => 1,
