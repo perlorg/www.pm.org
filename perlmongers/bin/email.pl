@@ -16,6 +16,7 @@ my $xp = XML::XPath->new(filename => 'perl_mongers.xml')
 my @nodes = ($xp->findnodes('/perl_mongers/group[@status="active"]'));
 
 foreach (@nodes) {
-  print $_->findvalue('tsar/email'), "\n";
+  print $_->findvalue('tsar/name') . ' <' .
+        $_->findvalue('tsar/email'), ">\n";
 }
 
