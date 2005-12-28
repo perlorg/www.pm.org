@@ -220,7 +220,7 @@
 		<date type="inception">19990214</date>
 	</group>
 	
-	<group id="5" status="active">
+	<group id="5" status="dead">
 		<name>AnnArbor.pm</name>
 		<location>
 			<city>Ann Arbor</city>
@@ -653,7 +653,7 @@
 		<date type="inception">19980016</date>
 	</group>
 	
-	<group id="21" status="active">
+	<group id="21" status="dead">
 		<name>CGI.pm</name>
 		<location>
 			<city>Cape Girardeau</city>
@@ -1166,7 +1166,7 @@
 		<date type="inception">19990607</date>
 	</group>
 	
-	<group id="41" status="active">
+	<group id="41" status="dead">
 		<name>Humboldt.pm</name>
 		<location>
 			<city>Arcata</city>
@@ -1382,7 +1382,7 @@
 		<date type="inception">19990707</date>
 	</group>
 	
-	<group id="49" status="active">
+	<group id="49" status="dead">
 		<name>Knoxville.pm</name>
 		<location>
 			<city>Knoxville</city>
@@ -1652,7 +1652,7 @@
 		<date type="inception">19990503</date>
 	</group>
 	
-	<group id="59" status="active">
+	<group id="59" status="dead">
 		<name>Milwaukee.pm</name>
 		<location>
 			<city>Milwaukee</city>
@@ -2297,7 +2297,7 @@
 		<date type="inception">19990515</date>
 	</group>
 	
-	<group id="84" status="active">
+	<group id="84" status="dead">
 		<name>Rochester.pm</name>
 		<location>
 			<city>Rochester</city>
@@ -3384,7 +3384,7 @@
 		<date type="inception">19990131</date>
 	</group>
 	
-	<group id="128" status="active">
+	<group id="128" status="dead">
 		<name>Goteborg.pm</name>
 		<location>
 			<city>Goteborg</city>
@@ -4350,7 +4350,7 @@
 		<date type="inception">19990131</date>
 	</group>
 	
-	<group id="167" status="active">
+	<group id="167" status="dead">
 		<name>CentralCoast.pm</name>
 		<location>
 			<city></city>
@@ -4566,7 +4566,7 @@
 		<date type="inception">19990311</date>
 	</group>
 	
-	<group id="176" status="active">
+	<group id="176" status="dead">
 		<name>Perth.pm</name>
 		<location>
 			<city>Perth</city>
@@ -5241,7 +5241,7 @@
 		<date type="inception">19990914</date>
 	</group>
 	
-	<group id="203" status="active">
+	<group id="203" status="dead">
 		<name>Oxford.pm</name>
 		<location>
 			<city>Oxford</city>
@@ -5592,7 +5592,7 @@
 		<date type="inception">19980930</date>
 	</group>
 	
-	<group id="216" status="active">
+	<group id="216" status="dead">
 		<name>Sofia.pm</name>
 		<location>
 			<city></city>
@@ -7214,7 +7214,7 @@
 		<date type="inception">20000227</date>
 	</group>
 
-	<group id="283" status="active">
+	<group id="283" status="dead">
 		<name>Granada.pm</name>
 		<location>
 			<city>Granada</city>
@@ -8053,7 +8053,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="316" status="active">
+	<group id="316" status="dead">
 		<name>Bloomington-Normal.pm</name>
 		<location>
 			<city>Bloomington-Normal</city>
@@ -8459,7 +8459,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="334" status="active">
+	<group id="334" status="dead">
 		<name>Izmir.pm</name>
 		<location>
 			<city>Izmir</city>
@@ -10052,7 +10052,7 @@
 		<date type="inception">20010428</date>
 	</group>
 
-	<group id="395" status="active">
+	<group id="395" status="dead">
 		<name>Prague.pm</name>
 		<location>
 			<city>Prague</city>
@@ -10646,7 +10646,7 @@
 		<date type="inception">20010720</date>
 	</group>
 
-	<group id="417" status="active">
+	<group id="417" status="dead">
 		<name>Tulsa.pm</name>
 		<location>
 			<city>Tulsa</city>
@@ -10862,7 +10862,7 @@
 		<date type="inception">20010729</date>
 	</group>
 
-	<group id="425" status="inactive">
+	<group id="425" status="dead">
 		<name>Modiin.pm</name>
 		<location>
 			<city>Modiin</city>
@@ -10943,7 +10943,7 @@
 		<date type="inception">20010809</date>
 	</group>
 
-	<group id="428" status="active">
+	<group id="428" status="dead">
 		<name>WestTexas.pm</name>
 		<location>
 			<city>Abilene</city>
@@ -11294,7 +11294,7 @@
 		<date type="inception">20010908</date>
 	</group>
 
-	<group id="441" status="active">
+	<group id="441" status="dead">
 		<name>Rioja.pm</name>
 		<location>
 			<city>Logrono</city>
@@ -12185,7 +12185,7 @@
 		<date type="inception">20020214</date>
 	</group>
 
-	<group id="475" status="active">
+	<group id="475" status="dead">
 		<name>DBI.pm</name>
 		<location>
 			<city>Hilton Head Island</city>
@@ -12724,7 +12724,7 @@
 		<date type="inception">20020406</date>
 	</group>
 
-	<group id="496" status="active">
+	<group id="496" status="dead">
 		<name>Zurich.pm</name>
 		<location>
 			<city>Zurich</city>
@@ -13021,7 +13021,7 @@
 		<date type="inception">20020519</date>
 	</group>
 
-	<group id="507" status="active">
+	<group id="507" status="dead">
 		<name>Gabrovo.pm</name>
 		<location>
 			<city>Gabrovo</city>
@@ -13634,7 +13634,7 @@
 		</mailing_list>
 		<date type="inception">20020925</date>
 	</group>
-	<group id="540" status="active">
+	<group id="540" status="dead">
 		<name>Leuven.pm</name>
 		<location>
 			<city>Leuven</city>
@@ -15143,7 +15143,7 @@
 		<date type="inception">20031108</date>
 	</group>
 
-	<group id="605" status="active">
+	<group id="605" status="dead">
 		<name>Kamloops.pm</name>
 		<location>
 			<city>Kamloops</city>
@@ -15467,7 +15467,7 @@
 		<date type="inception">20031108</date>
 	</group>
 
-	<group id="619" status="active">
+	<group id="619" status="dead">
 		<name>StonyBrook.pm</name>
 		<location>
 			<city>Stony Brook</city>
@@ -15737,7 +15737,7 @@
 		<date type="inception">20040208</date>
 	</group>
 
-	<group id="632" status="active">
+	<group id="632" status="dead">
 		<name>mississippi.pm</name>
 		<location>
 			<city>mississippi</city>
@@ -15872,7 +15872,7 @@
 		<date type="inception">20040222</date>
 	</group>
 
-	<group id="637" status="active">
+	<group id="637" status="dead">
 		<name>nova.pm</name>
 		<location>
 			<city>nova</city>
