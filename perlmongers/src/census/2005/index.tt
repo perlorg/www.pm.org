@@ -11,9 +11,12 @@
 
     <p>Welcome to the results of the 2005 Perl Mongers census.</p>
 
-    <p>Soon we hope to have a number of sumary reports available, but in
+    <p>Soon we hope to have a number of summary reports available, but in
       the meantime you can look at the full census returns from
-      <a href="list.html">each group</a>.
+      <a href="list.html">each group</a>.</p>
+
+    <p>And here are the <a href="/census.pdf">slides</a> from a talk about
+      the census that Dave Cross gave at OSCON Europe.</p>
 
 [% INCLUDE footer.tt -%]
 
