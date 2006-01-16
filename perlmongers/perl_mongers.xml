@@ -16696,5 +16696,23 @@
                 <web>http://rockford.pm.org</web>
                 <date type="inception">20051111</date>
         </group>
+        <group id="678" status="active">
+                <name>Chupei.pm</name>
+                <location>
+                        <city>Chupei</city>
+                        <state></state>
+                        <region></region>
+                        <country>Taiwan</country>
+                        <continent>Asia</continent>
+                        <longitude>121.0</longitude>
+                        <latitude>24.4</latitude>
+                </location>
+                <tsar>
+                        <name>Kang-min Liu</name>
+                        <email type="personal">gugod@gugod.org</email>
+                </tsar>
+                <web>http://chupei.pm.org</web>
+                <date type="inception">20060116</date>
+        </group>
 </perl_mongers>
 
