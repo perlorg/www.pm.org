@@ -2286,7 +2286,7 @@
 			<name>Charlie Peck</name>
 			<email type="personal">charliep@cs.earlham.edu</email>
 		</tsar>
-		<web>http://richmond.pm.org/</web>
+		<web></web>
 		<mailing_list>
 			<name>General Richmond.pm discussion</name>
 			<email type="list"></email>
@@ -6307,10 +6307,10 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Jesse Stay</name>
-			<email type="personal">jesse@thestays.org</email>
+			<name>Christopher Hicks</name>
+			<email type="personal">chicks@chicks.net</email>
 		</tsar>
-		<web></web>
+		<web>http://richmond.pm.org/</web>
 		<mailing_list>
 			<name></name>
 			<email type="list"></email>
