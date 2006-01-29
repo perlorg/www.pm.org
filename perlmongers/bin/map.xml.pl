@@ -10,7 +10,7 @@ use warnings;
 use FindBin qw($Bin);
 use XML::Twig;
 
-open (OUT, ">map.xml");
+open (OUT, ">$Bin/../src/groups/map.xml");
 my $twig=XML::Twig->new( 
            twig_handlers =>
              { group   => \&group }
