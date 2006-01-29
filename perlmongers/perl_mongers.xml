@@ -5789,15 +5789,15 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-111.909098</longitude>
-			<latitude>33.378292</latitude>
+			<longitude>-111.917</longitude>
+			<latitude>33.419</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
 			<name>Pablo Velasquez</name>
 			<email type="personal">pablo@dosomething.org</email>
 		</tsar>
-		<web></web>
+		<web>http://tempe.pm.org</web>
 		<mailing_list>
 			<name>General Tempe.pm discussion</name>
 			<email type="list">tempe-pm-list@pm.org</email>
