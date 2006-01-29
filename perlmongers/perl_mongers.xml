@@ -5781,7 +5781,7 @@
 		<date type="inception">19991024</date>
 	</group>
 	
-	<group id="223">
+	<group id="223" status="active">
 		<name>Tempe.pm</name>
 		<location>
 			<city>Tempe</city>
