@@ -15,7 +15,7 @@
          
 </head>
 
-<body>
+<body[% IF onload %] onload="[% onload %]()"[% END %]>
 <table border="0" cellpadding="6" cellspacing="0" width="100%">
   <tr>
     <td class="side" width="120" valign="top">

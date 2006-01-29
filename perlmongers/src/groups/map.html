@@ -1,10 +1,18 @@
-[% WRAPPER layout title = "Perl Mongers: User groups map" %]
+[% WRAPPER layout title = "Perl Mongers: User groups map" onload="onLoad" %]
 <!-- 
 This doesn't work yet... If we use:
      <body onload="onLoad()">
-then it works fine, but under the WRAPPER above that onload doesn't happen and I can't figure out
-how to trigger it manually. The rest of this should work fine?
+then it works fine, but under the WRAPPER above that onload doesn't happen
+and I can't figure out how to trigger it manually. The rest of this should
+work fine?
 -jhannah Jan 29, 2006
+
+Needed changes to lib/layout to optionally accept the name of a Javascript
+function to call in the onLoad event. See the "onload" argument in the
+WRAPPER call above.
+
+- davorg 2006-01-26
+
 -->
 
 
