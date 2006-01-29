@@ -4,6 +4,10 @@
 # Where should this script live?
 # -jhannah Jan 29, 2006
 
+use strict;
+use warnings;
+
+use FindBin qw($Bin);
 use XML::Twig;
 
 open (OUT, ">map.xml");
@@ -16,7 +20,7 @@ print OUT <<EOT;
 <?xml version="1.0" encoding="ISO-8859-1"?><markers>
 EOT
 
-$twig->parsefile( '../../perl_mongers.xml'); 
+$twig->parsefile("$Bin/../perl_mongers.xml"); 
 
 print OUT <<EOT;
 </markers>
@@ -29,7 +33,7 @@ sub group {
   my ($twig, $group) = @_;
 
   my $id =       $group->{'att'}->{'id'};
-  my $status =   $group->{'att'}->{'status'};
+  my $status =   $group->{'att'}->{'status'} || '';
   my $name =     $group->first_child('name');
   my $web =      $group->first_child('web');
   my $location = $group->first_child('location') || return undef;
@@ -40,7 +44,7 @@ sub group {
   $long = $long->text if $long;
   $web = $web->text if $web;
 
-  next unless ($status eq "active" and $lat and $long);
+  return unless ($status eq "active" and $lat and $long);
   #print "$id $name $web $lat $long\n";
   print OUT <<EOT
 <marker lat="$lat"
