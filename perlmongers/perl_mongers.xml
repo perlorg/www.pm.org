@@ -16714,5 +16714,23 @@
                 <web>http://chupei.pm.org</web>
                 <date type="inception">20060116</date>
         </group>
+        <group id="679" status="active">
+                <name>Hollywood.pm</name>
+                <location>
+                        <city>Hollywood</city>
+                        <state>California</state>
+                        <region></region>
+                        <country>United States</country>
+                        <continent>North America</continent>
+                        <longitude>-118.32583</longitude>
+                        <latitude>34.09833</latitude>
+                </location>
+                <tsar>
+                        <name>Robin Rowe</name>
+                        <email type="personal">rower@movieeditor.com</email>
+                </tsar>
+                <web>http://hollywood.pm.org</web>
+                <date type="inception">20060129</date>
+        </group>
 </perl_mongers>
 
