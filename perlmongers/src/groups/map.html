@@ -1,0 +1,55 @@
+[% WRAPPER layout title = "Perl Mongers: User groups map" %]
+<!-- 
+This doesn't work yet... If we use:
+     <body onload="onLoad()">
+then it works fine, but under the WRAPPER above that onload doesn't happen and I can't figure out
+how to trigger it manually. The rest of this should work fine?
+-jhannah Jan 29, 2006
+-->
+
+
+<!-- This key good for http://www.pm.org/groups -->
+<script type="text/javascript" src="http://maps.google.com/maps?file=api&amp;v=1&amp;key=ABQIAAAAO2q1Qw8WMy2g6gAzM1M95BSPznBE1oMJF9enXdb4QQuxAma-ghQKupuzFcdYtigoHoYD84Mf16m15Q"></script>
+
+<script src="map.js" type="text/javascript"></script> 
+
+<br>
+<table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td colspan="10" rowspan="1">
+      <form action="map.jsp" method="post">
+        <table border="1" id="form" bgcolor="#999999" cellspacing="0" width="800">
+            <tr>
+              <td><font color="#ffffff">Recenter &amp; Zoom</font></td>
+              <td><input name="World" value="World" onclick="javascript:cz(world, 15)" style="background-color: rgb(52, 52, 52); color: rgb(255, 255, 255);" type="button" /></td>
+              <td><input name="USA" value="USA" onclick="javascript:cz(usa, 13)" style="background-color: rgb(52, 52, 52); color: rgb(255, 255, 255);" type="button" /></td>
+              <td><input name="North America" value="North America" onclick="javascript:cz(na, 14)" style="background-color: rgb(52, 52, 52); color: rgb(255, 255, 255);" type="button" /></td>
+              <td><input name="South America" value="South America" onclick="javascript:cz(sa, 14)" style="background-color: rgb(52, 52, 52); color: rgb(255, 255, 255);" type="button" /></td>
+              <td><input name="Europe" value="Europe" onclick="javascript:cz(europe, 13)" style="background-color: rgb(52, 52, 52); color: rgb(255, 255, 255);" type="button" /></td>
+              <td><input name="Asia" value="Asia" onclick="javascript:cz(asia, 14)" style="background-color: rgb(52, 52, 52); color: rgb(255, 255, 255);" type="button" /></td>
+               <td><input name="Africa" value="Africa" onclick="javascript:cz(africa, 14)" style="background-color: rgb(52, 52, 52); color: rgb(255, 255, 255);" type="button" /></td>
+              <td><input name="Australia" value="Australia" onclick="javascript:cz(australia, 13)" style="background-color: rgb(52, 52, 52); color: rgb(255, 255, 255);" type="button" /></td>
+             </tr>
+        </table>
+       </form>
+         <div id="map" style="width: 800px; height: 500px;"></div>
+         </td>
+       </tr>
+
+
+       <tr>
+         <td>
+<ul>
+  <li>Maps provided by <a href="http://www.google.com">Google</a>.
+  <a href="http://www.google.com/apis/maps/">Google Maps API</a> and Javascript example lifted from 
+  <a href="http://www.mailinator.com/mailinator/map.html">Mailinator</a>.
+  <li>Don't know your lat/long? In the US maybe <a href="http://geocoder.us">geocoder.us</a> can help?
+  <li>Status 2005-10-15: AFAIK its working fine in every browser that Google maps supports. If you have
+      evidence to the contrary please email me.
+</ul>
+- jay(at)jays(dot)net, <a href="http://omaha.pm.org">Omaha.pm</a>
+      </td>
+    </tr>
+</table>
+
+[% END %]
