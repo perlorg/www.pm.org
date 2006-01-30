@@ -418,8 +418,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-71.01789</longitude>
-			<latitude>42.33602</latitude>
+			<longitude>-71.067695</longitude>
+			<latitude>42.352397</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -1201,8 +1201,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-95.23</longitude>
-			<latitude>29.45</latitude>
+			<longitude>-95.4507</longitude>
+			<latitude>29.7503</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -11626,8 +11626,8 @@
 			<region></region>
 			<country>Argentina</country>
 			<continent>South America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-58.459769</longitude>
+			<latitude>-34.574165</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -14236,8 +14236,8 @@
 			<region></region>
 			<country>Germany</country>
 			<continent>Europe</continent>
-                        <longitude>54.335278</longitude>
-                        <latitude>10.116389</latitude>
+                        <longitude>10.116389</longitude>
+                        <latitude>54.335278</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -15124,8 +15124,8 @@
 			<region>Castilla y Leon</region>
 			<country>Spain</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-4.7</longitude>
+			<latitude>41.6</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -16704,8 +16704,8 @@
                         <region></region>
                         <country>Taiwan</country>
                         <continent>Asia</continent>
-                        <longitude>121.0</longitude>
-                        <latitude>24.4</latitude>
+                        <longitude>121.010166</longitude>
+                        <latitude>24.492554</latitude>
                 </location>
                 <tsar>
                         <name>Kang-min Liu</name>
