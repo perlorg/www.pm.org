@@ -11599,8 +11599,8 @@
 			<region></region>
 			<country>Italy</country>
 			<continent>Europe</continent>
-                        <longitude>17.35</longitude>
-                        <latitude>45.45</latitude>
+                        <longitude>12.3</longitude>
+                        <latitude>45.5</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -13993,8 +13993,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-78.5308</longitude>
+                        <latitude>42.5345</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -15124,8 +15124,8 @@
 			<region>Castilla y Leon</region>
 			<country>Spain</country>
 			<continent>Europe</continent>
-			<longitude>-4.7</longitude>
-			<latitude>41.6</latitude>
+                        <longitude>-4.7440338134765625</longitude>
+                        <latitude>41.65470159090441</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -16411,8 +16411,8 @@
                         <region></region>
                         <country>Netherlands</country>
                         <continent>Europe</continent>
-                        <longitude>53.2</longitude>
-                        <latitude>6.55</latitude>
+                        <longitude>53.21333</longitude>
+                        <latitude>6.56499</latitude>
                 </location>
                 <email type="group"></email>
                 <tsar>
