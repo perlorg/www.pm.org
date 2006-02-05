@@ -15286,8 +15286,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>-81.52365</longitude>
+                        <latitude>41.07478</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
