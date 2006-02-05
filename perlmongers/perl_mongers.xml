@@ -14155,8 +14155,8 @@
 			<region></region>
 			<country>Japan</country>
 			<continent>Asia</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+                        <longitude>139.7018</longitude>
+                        <latitude>35.6590</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
