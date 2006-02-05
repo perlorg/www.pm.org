@@ -1,21 +1,4 @@
 [% WRAPPER layout title = "Perl Mongers: User groups map" onload="onLoad" %]
-<!-- 
-This doesn't work yet... If we use:
-     <body onload="onLoad()">
-then it works fine, but under the WRAPPER above that onload doesn't happen
-and I can't figure out how to trigger it manually. The rest of this should
-work fine?
--jhannah Jan 29, 2006
-
-Needed changes to lib/layout to optionally accept the name of a Javascript
-function to call in the onLoad event. See the "onload" argument in the
-WRAPPER call above.
-
-- davorg 2006-01-26
-
--->
-
-
 <!-- This key good for http://www.pm.org/groups -->
 <script type="text/javascript" src="http://maps.google.com/maps?file=api&amp;v=1&amp;key=ABQIAAAAO2q1Qw8WMy2g6gAzM1M95BSPznBE1oMJF9enXdb4QQuxAma-ghQKupuzFcdYtigoHoYD84Mf16m15Q"></script>
 
@@ -48,14 +31,15 @@ WRAPPER call above.
        <tr>
          <td>
 <ul>
+  <li>Is your local group's latitude/longitude data wrong or missing? Please contact your 
+group leader, and they can submit new coordinates to us. (This map is only as good as
+<a href="http://www.pm.org/groups/perl_mongers.xml">our data</a>.)
   <li>Maps provided by <a href="http://www.google.com">Google</a>.
   <a href="http://www.google.com/apis/maps/">Google Maps API</a> and Javascript example lifted from 
   <a href="http://www.mailinator.com/mailinator/map.html">Mailinator</a>.
+  <li>If this isn't working at all please check your <a href="http://www.google.com/apis/maps/documentation/#Browser_Compatibility">browser compatibility</a>. 
   <li>Don't know your lat/long? In the US maybe <a href="http://geocoder.us">geocoder.us</a> can help?
-  <li>Status 2005-10-15: AFAIK its working fine in every browser that Google maps supports. If you have
-      evidence to the contrary please email me.
 </ul>
-- jay(at)jays(dot)net, <a href="http://omaha.pm.org">Omaha.pm</a>
       </td>
     </tr>
 </table>
