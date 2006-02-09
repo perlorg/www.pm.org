@@ -2224,8 +2224,8 @@
 			<region>Research Triangle</region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-78.637323</longitude>
-			<latitude>35.794183</latitude>
+                        <longitude>-78.638209</longitude>
+                        <latitude>35.794123</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -8034,8 +8034,8 @@
 			<region></region>
 			<country>United Kingdom</country>
 			<continent>Europe</continent>
-			<longitude>-1.908999</longitude>
-			<latitude>52.47855</latitude>
+			<longitude>-1.8965</longitude>
+			<latitude>52.47435</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -16202,8 +16202,8 @@
 			<region>Cascais</region>
 			<country>Portugal</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-9.43</longitude>
+			<latitude>38.7</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
