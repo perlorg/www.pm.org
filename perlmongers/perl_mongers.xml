@@ -1423,7 +1423,7 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Garrett Goebel</name>
-			<email type="personal">garrett@scriptpro.com</email>
+			<email type="personal">ggoebel@goebel.ws</email>
 		</tsar>
 		<web>http://kc.pm.org/</web>
 		<mailing_list>
@@ -16673,7 +16673,7 @@
                 </location>
                 <tsar>
                         <name>Garrett Goebel</name>
-                        <email type="personal">garrett@goebel.ws</email>
+                        <email type="personal">ggoebel@goebel.ws</email>
                 </tsar>
                 <web>http://pbp.pm.org</web>
                 <date type="inception">20051111</date>
