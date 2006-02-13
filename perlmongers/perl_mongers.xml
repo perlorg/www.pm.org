@@ -3046,7 +3046,7 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Sollo Moreira Hon&atilde;rio</name>
+			<name>Solli Moreira Honorio</name>
 			<email type="personal">shonorio@terra.com.br</email>
 		</tsar>
 		<web>http://sao-paulo.pm.org/</web>
@@ -3608,8 +3608,8 @@
 			<region>England</region>
 			<country>United Kingdom</country>
 			<continent>Europe</continent>
-			<longitude>-0.1302</longitude>
-			<latitude>51.4844</latitude>
+			<longitude>-0.115387</longitude>
+			<latitude>51.517955</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -7660,8 +7660,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Marco Lima</name>
-			<email type="personal">mago@rio.pm.org</email>
+			<name>Marco A P D'Andrade</name>
+			<email type="personal">mda@rio.pm.org</email>
 		</tsar>
 		<web>http://rio.pm.org/</web>
 		<mailing_list>
