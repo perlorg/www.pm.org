@@ -12037,13 +12037,13 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Jerome Quelin</name>
-			<email type="personal">jquelin@mongeurs.net</email>
+			<email type="personal">jquelin@gmail.com</email>
 		</tsar>
 		<web>http://lyon.pm.org/</web>
 		<mailing_list>
 			<name>General Lyon Perl Mongers discussion</name>
 			<email type="list">lyon-pm.org</email>
-			<email type="list_admin">jquelin@mongeurs.net</email>
+			<email type="list_admin">jquelin@gmail.com</email>
 			<subscribe>subscribe members email_address</subscribe>
 			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
