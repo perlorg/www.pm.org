@@ -16782,5 +16782,23 @@
                 <web>http://hollywood.pm.org</web>
                 <date type="inception">20060129</date>
         </group>
+        <group id="682" status="active">
+                <name>Darmstadt.pm</name>
+                <location>
+                        <city>Darmstadt</city>
+                        <state>Hessen</state>
+                        <region></region>
+                        <country>Germany</country>
+                        <continent>Europe</continent>
+                        <longitude>8.650483455775188</longitude>
+                        <latitude>49.86996423855037</latitude>
+                </location>
+                <tsar>
+                        <name>Ronnie Neumann</name>
+                        <email type="personal">ronnie.neumann@t-online.de</email>
+                </tsar>
+                <web>http://darmstadt.pm.org</web>
+                <date type="inception">20060221</date>
+        </group>
 </perl_mongers>
 
