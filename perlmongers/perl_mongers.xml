@@ -9247,7 +9247,7 @@
 		<location>
 			<city>Berkeley</city>
 			<state>California</state>
-			<region>United States of America</region>
+			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
                         <longitude>-122.267</longitude>
@@ -16684,7 +16684,7 @@
                         <city>Rockford</city>
                         <state>Illinois</state>
                         <region>Upper Midwest</region>
-                        <country>United States</country>
+                        <country>United States of America</country>
                         <continent>North America</continent>
                         <longitude>-89.08333</longitude>
                         <latitude>42.30099</latitude>
@@ -16770,7 +16770,7 @@
                         <city>Hollywood</city>
                         <state>California</state>
                         <region></region>
-                        <country>United States</country>
+                        <country>United States of America</country>
                         <continent>North America</continent>
                         <longitude>-118.32583</longitude>
                         <latitude>34.09833</latitude>
@@ -16792,6 +16792,24 @@
                         <continent>Europe</continent>
                         <longitude>8.650483455775188</longitude>
                         <latitude>49.86996423855037</latitude>
+                </location>
+                <tsar>
+                        <name>Ronnie Neumann</name>
+                        <email type="personal">ronnie.neumann@t-online.de</email>
+                </tsar>
+                <web>http://darmstadt.pm.org</web>
+                <date type="inception">20060221</date>
+        </group>
+        <group id="683" status="active">
+                <name>Akasaka.pm</name>
+                <location>
+                        <city>Akasaka</city>
+                        <state>Minato-ku, Tokyo-to</state>
+                        <region></region>
+                        <country>Japan</country>
+                        <continent>Asia</continent>
+                        <longitude>139.732667</longitude>
+                        <latitude>35.669612</latitude>
                 </location>
                 <tsar>
                         <name>Ronnie Neumann</name>
