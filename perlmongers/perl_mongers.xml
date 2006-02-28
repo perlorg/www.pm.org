@@ -16650,8 +16650,8 @@
 			<region></region>
 			<country>United Kingdom</country>
 			<continent>Europe</continent>
-			<longitude>-0.4525</longitude>
-			<latitude>52.0231</latitude>
+			<longitude>-0.754</longitude>
+			<latitude>52.029</latitude>
 		</location>
 		<tsar>
 			<name>Tom Hukins</name>
@@ -16817,6 +16817,24 @@
                 </tsar>
                 <web>http://darmstadt.pm.org</web>
                 <date type="inception">20060221</date>
+        </group>
+        <group id="684" status="active">
+                <name>Ruhr.pm</name>
+                <location>
+                        <city>Essen</city>
+                        <state>North Rhine-Westphalia</state>
+                        <region></region>
+                        <country>Germany</country>
+                        <continent>Europe</continent>
+                        <longitude>7.01667</longitude>
+                        <latitude>51.45</latitude>
+                </location>
+                <tsar>
+                        <name>Veit Wahlich</name>
+                        <email type="personal">cru@ircnet.de</email>
+                </tsar>
+                <web>http://ruhr.pm.org</web>
+                <date type="inception">20060228</date>
         </group>
 </perl_mongers>
 
