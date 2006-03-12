@@ -5781,7 +5781,8 @@
 		<date type="inception">19991024</date>
 	</group>
 	
-	<group id="223" status="active">
+        <!-- See Tempe/East Valley Perl Mongers (id 617) below -->
+	<group id="223" status="inactive">
 		<name>Tempe.pm</name>
 		<location>
 			<city>Tempe</city>
@@ -15416,7 +15417,7 @@
 	<group id="617" status="active">
 		<name>Tempe/East Valley Perlmongers.pm</name>
 		<location>
-			<city>Tempe/East Valley Perlmongers</city>
+			<city>Tempe/East Valley</city>
 			<state>Arizona</state>
 			<region>East Valley, Arizona</region>
 			<country>United States of America</country>
