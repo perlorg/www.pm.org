@@ -16837,5 +16837,23 @@
                 <web>http://ruhr.pm.org</web>
                 <date type="inception">20060228</date>
         </group>
+        <group id="685" status="active">
+                <name>Poznan.pm</name>
+                <location>
+                        <city>Poznan</city>
+                        <state>Wielkopolska</state>
+                        <region></region>
+                        <country>Poland</country>
+                        <continent>Europe</continent>
+                        <longitude>16.74</longitude>
+                        <latitude>52.292</latitude>
+                </location>
+                <tsar>
+                        <name>Dariusz Dwornikowski</name>
+                        <email type="personal">tdi@pozman.pl</email>
+                </tsar>
+                <web>http://poznan.pm.org</web>
+                <date type="inception">20060401</date>
+        </group>
 </perl_mongers>
 
