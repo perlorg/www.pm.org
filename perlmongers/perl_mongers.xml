@@ -16855,5 +16855,23 @@
                 <web>http://poznan.pm.org</web>
                 <date type="inception">20060401</date>
         </group>
+        <group id="686" status="active">
+                <name>Krakow.pm</name>
+                <location>
+                        <city>Krakow</city>
+                        <state></state>
+                        <region>Malopolska Voivodship</region>
+                        <country>Poland</country>
+                        <continent>Europe</continent>
+                        <longitude>19.98</LOngitude>
+                        <latitude>50.07</latitude>
+                </location>
+                <tsar>
+                        <name>Bartosz Jakubski</name>
+                        <email type="personal">migo@pld-linux.org</email>
+                </tsar>
+                <web>http://krakow.pm.org</web>
+                <date type="inception">20060421</date>
+        </group>
 </perl_mongers>
 
