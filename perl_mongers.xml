@@ -13832,13 +13832,13 @@
 			<region></region>
 			<country>Sweden</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>12.7500</longitude>
+			<latitude>56.0833</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Hayri Cicek</name>
-			<email type="personal">hayri_cicek@home.se</email>
+			<name>Stefan Midjich</name>
+			<email type="personal">nocturnal@swehack.se</email>
 		</tsar>
 		<web>http://helsingborg.pm.org/</web>
 		<mailing_list>
