@@ -7973,31 +7973,23 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="313" status="mlb">
-		<name>Moldova.pm.pm</name>
+	<group id="313" status="active">
+		<name>Chisinau.pm</name>
 		<location>
-			<city>Chishianu</city>
+			<city>Chisinau</city>
 			<state>Moldova</state>
 			<region></region>
-			<country>Moldova</country>
+			<country>Moldova, Republic of</country>
 			<continent>Europe</continent>
 			<longitude>28.8558</longitude>
 			<latitude>47.0201</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Pulbere Igor</name>
-			<email type="personal">nomer1@mail.com</email>
+			<name>Sergiu Mihai</name>
+			<email type="personal">serhio@programmer.net</email>
 		</tsar>
-		<web>http://moldova.pm.org/</web>
-		<mailing_list>
-			<name>General Moldova.pm Perl Mongers discussion</name>
-			<email type="list">moldova-pm@pm.org</email>
-			<email type="list_admin">moldova-pm-owner@pm.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
-		<date type="inception"></date>
+		<web>http://chisinau.pm.org/</web>
+                <date type="inception">20060526</date>
 	</group>
 
 	<group id="314" status="active">
