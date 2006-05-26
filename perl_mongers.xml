@@ -16873,5 +16873,23 @@
                 <web>http://krakow.pm.org</web>
                 <date type="inception">20060421</date>
         </group>
+        <group id="687" status="active">
+                <name>Kaiserslautern.pm</name>
+                <location>
+                        <city>Kaiserslautern</city>
+                        <state></state>
+                        <region></region>
+                        <country>Germany</country>
+                        <continent>Europe</continent>
+                        <longitude>7.75</longitude>
+                        <latitude>49.45</latitude>
+                </location>
+                <tsar>
+                        <name>Darko Obradovic</name>
+                        <email type="personal">dobradovic@gmx.de</email>
+                </tsar>
+                <web>http://kaiserslautern.pm.org</web>
+                <date type="inception">20060526</date>
+        </group>
 </perl_mongers>
 
