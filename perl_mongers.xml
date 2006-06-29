@@ -4098,7 +4098,7 @@
 		<date type="inception">19990124</date>
 	</group>
 	
-	<group id="157">
+	<group id="157" status="active">
 		<name>Torino.pm</name>
 		<location>
 			<city>Torino</city>
@@ -4111,17 +4111,10 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Massimo Balestra</name>
-			<email type="personal">massimobalestra@hotmail.com</email>
+			<name>Vittorio ZuccalÃ</name>
+			<email type="personal">nathanvi@gmail.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Torino.pm discussion</name>
-			<email type="list">torino-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe torino-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe torino-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990707</date>
 	</group>
 	
