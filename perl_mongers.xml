@@ -6111,17 +6111,10 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Er Galv&atilde;o Abbott</name>
-			<email type="personal">galvao@perl.org.br</email>
+			<name>Igor Sutton Lopes</name>
+			<email type="personal">igor@izut.com</email>
 		</tsar>
 		<web>http://porto-alegre.pm.org/</web>
-		<mailing_list>
-			<name>General PortoAlegre Perl Mongers discussion</name>
-			<email type="list">portoalegre-pm@pm.org</email>
-			<email type="list_admin">pmpoa@galvao.eti.br</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
 
