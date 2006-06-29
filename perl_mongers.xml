@@ -12385,17 +12385,10 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Bryan C. Warnock</name>
-			<email type="personal">bryan.warnock@raba.com</email>
+			<name>Wesley Craft</name>
+			<email type="personal">wesley@craftbros.com</email>
 		</tsar>
 		<web>http://camel.pm.org/</web>
-		<mailing_list>
-			<name>General CAMEL Perl Mongers discussion</name>
-			<email type="list">camel-pm@pm.org</email>
-			<email type="list_admin">bwarnock@capita.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20020306</date>
 	</group>
 
