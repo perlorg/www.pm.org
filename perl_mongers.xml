@@ -3393,13 +3393,6 @@
 			<email type="personal">jonas@paranormal.se</email>
 		</tsar>
 		<web>http://goteborg.pm.org/</web>
-		<mailing_list>
-			<name>General Goteborg.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">19980918</date>
 	</group>
 	
