@@ -1571,7 +1571,7 @@
 		<date type="inception">19990311</date>
 	</group>
 	
-	<group id="56" status="sleeping">
+	<group id="56" status="active">
 		<name>Madison.pm</name>
 		<location>
 			<city>Madison</city>
@@ -1579,23 +1579,15 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-89.38751</longitude>
-			<latitude>43.0798</latitude>
+			<longitude>-89.401</longitude>
+			<latitude>43.073</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>John D. Cotter</name>
-			<email type="personal">jdcotter@yahoo.com</email>
+			<name>JT Smith</name>
+			<email type="personal">jt@plainblack.com</email>
 		</tsar>
-		<web>http://madison.pm.org/</web>
-		<mailing_list>
-			<name>General Madison.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
-		<date type="inception">replace</date>
+		<web>http://www.madmongers.org/</web>
+		<date type="inception">20060628</date>
 	</group>
 	
 	<group id="57" status="active">
@@ -16879,6 +16871,25 @@
                 <tsar>
                         <name>Darko Obradovic</name>
                         <email type="personal">dobradovic@gmx.de</email>
+                </tsar>
+                <web>http://kaiserslautern.pm.org</web>
+                <date type="inception">20060526</date>
+        </group>
+
+        <group id="688" status="active">
+                <name>Women.pm</name>
+                <location>
+                        <city></city>
+                        <state></state>
+                        <region></region>
+                        <country></country>
+                        <continent></continent>
+                        <longitude></longitude>
+                        <latitude></latitude>
+                </location>
+                <tsar>
+                        <name>Camila Mattos</name>
+                        <email type="personal">mk@rio.pm.org</email>
                 </tsar>
                 <web>http://kaiserslautern.pm.org</web>
                 <date type="inception">20060526</date>
