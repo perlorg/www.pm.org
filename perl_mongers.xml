@@ -16866,5 +16866,24 @@
                 <web>http://kaiserslautern.pm.org</web>
                 <date type="inception">20060526</date>
         </group>
+
+        <group id="689" status="active">
+                <name>Coimbatore.pm</name>
+                <location>
+                        <city>Coimbatore</city>
+                        <state>Tamilnadu</state>
+                        <region></region>
+                        <country>India</country>
+                        <continent>Asia</continent>
+                        <longitude>77.00</longitude>
+                        <latitude>11.00</latitude>
+                </location>
+                <tsar>
+                        <name>S.Raja Renga Bashyam</name>
+                        <email type="personal">webstarspostbox@yahoo.com</email>
+                </tsar>
+                <web>http://coimbatore.pm.org</web>
+                <date type="inception">20060716</date>
+        </group>
 </perl_mongers>
 
