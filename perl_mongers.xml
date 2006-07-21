@@ -572,30 +572,22 @@
 		<date type="inception">19990127</date>
 	</group>
 	
-	<group id="18">
+	<group id="18" status="active">
 		<name>Charlottesville.pm</name>
 		<location>
 			<city>Charlottesville</city>
 			<state>Virginia</state>
-			<region>Central Virginia</region>
+			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-78.48574</longitude>
-			<latitude>38.03745</latitude>
+			<longitude>-78.476</longitude>
+			<latitude>38.029</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Tim Stevens</name>
-			<email type="personal">codeboy@chv.mindspring.com</email>
+			<name>Greg Brennan</name>
+			<email type="personal">greg@rimmkaufman.com</email>
 		</tsar>
 		<web>http://charlottesville.pm.org/</web>
-		<mailing_list>
-			<name>General Charlottesville.pm discussion</name>
-			<email type="list">charlottesville-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe charlottesville-list email_address</subscribe>
-			<unsubscribe>unsubscribe charlottesville-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19981124</date>
 	</group>
 	
