@@ -16877,5 +16877,24 @@
                 <web>http://coimbatore.pm.org</web>
                 <date type="inception">20060716</date>
         </group>
+
+        <group id="690" status="active">
+                <name>Altoona.pm</name>
+                <location>
+                        <city>Altoona</city>
+                        <state>Pennsylvania</state>
+                        <region></region>
+                        <country>United States of America</country>
+                        <continent>North America</continent>
+                        <longitude>-78.395</longitude>
+                        <latitude>40.519</latitude>
+                </location>
+                <tsar>
+                        <name>Ben Milliron</name>
+                        <email type="personal">bmillrion@gmail.com</email>
+                </tsar>
+                <web>http://altoona.pm.org</web>
+                <date type="inception">20060724</date>
+        </group>
 </perl_mongers>
 
