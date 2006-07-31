@@ -7801,31 +7801,24 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="308">
+	<group id="308" status="active">
 		<name>Qatar.pm</name>
 		<location>
-			<city>Qatar</city>
+			<city>Doha</city>
 			<state></state>
-			<region></region>
+			<region>Middle East</region>
 			<country>Qatar</country>
 			<continent>Asia</continent>
-			<longitude>51.3761</longitude>
-			<latitude>25.5673</latitude>
+			<longitude>51.460839</longitude>
+			<latitude>25.255789</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Issam Alameh</name>
-			<email type="personal">issam@alameh.net</email>
+			<name>Nigel Wetters Gourlay</name>
+			<email type="personal">nwetters@cpan.org</email>
 		</tsar>
 		<web>http://qatar.pm.org/</web>
-		<mailing_list>
-			<name>General Qatar Perl Mongers discussion</name>
-			<email type="list">qatar-pm@pm.org</email>
-			<email type="list_admin">owner-qatar-pm@pm.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
-		<date type="inception"></date>
+		<date type="inception">20060731</date>
 	</group>
 
 	<group id="309">
