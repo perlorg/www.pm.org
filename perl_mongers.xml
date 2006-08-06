@@ -4644,7 +4644,7 @@
 		<date type="inception">19981102</date>
 	</group>
 	
-	<group id="180" status="inactive">
+	<group id="180" status="active">
 		<name>Bandung.pm</name>
 		<location>
 			<city>Bandung</city>
@@ -4657,18 +4657,11 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Steven Haryanto</name>
-			<email type="personal">sh@hhh.indoglobal.com</email>
+			<name>Zakarias</name>
+			<email type="personal">doctor_moron@yahoo.com</email>
 		</tsar>
-		<web>http://bandungpm.or.id/</web>
-		<mailing_list>
-			<name></name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
-		<date type="inception">19990131</date>
+		<web>http://bandungpm.pm.org/</web>
+		<date type="inception">20060806</date>
 	</group>
 	
 	<group id="181" status="active">
