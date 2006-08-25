@@ -9387,7 +9387,7 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Assad arnaud</name>
-			<email type="personal">arnaud.assad@free.fr</email>
+			<email type="personal">arnaud@underlands.org</email>
 		</tsar>
 		<web>http://marseille.pm.org/</web>
 		<mailing_list>
@@ -16444,8 +16444,8 @@
                 </location>
                 <email type="group"></email>
                 <tsar>
-                        <name>Jose Castro</name>
-                        <email type="personal">cog@cpan.org</email>
+                        <name>Francisco Cabrita</name>
+                        <email type="personal">francisco@nortenet.pt</email>
                 </tsar>
                 <web>http://viana.pm.org</web>
                 <date type="inception">20050728</date>
@@ -16825,7 +16825,6 @@
                 <web>http://kaiserslautern.pm.org</web>
                 <date type="inception">20060526</date>
         </group>
-
         <group id="688" status="active">
                 <name>Women.pm</name>
                 <location>
@@ -16844,7 +16843,6 @@
                 <web>http://kaiserslautern.pm.org</web>
                 <date type="inception">20060526</date>
         </group>
-
         <group id="689" status="active">
                 <name>Coimbatore.pm</name>
                 <location>
@@ -16863,7 +16861,6 @@
                 <web>http://coimbatore.pm.org</web>
                 <date type="inception">20060716</date>
         </group>
-
         <group id="690" status="active">
                 <name>Altoona.pm</name>
                 <location>
@@ -16881,6 +16878,24 @@
                 </tsar>
                 <web>http://altoona.pm.org</web>
                 <date type="inception">20060724</date>
+        </group>
+        <group id="691" status="active">
+                <name>Banking.pm</name>
+                <location>
+                        <city>London & Docklands</city>
+                        <state></state>
+                        <region></region>
+                        <country>England</country>
+                        <continent>Europe</continent>
+                        <longitude></longitude>
+                        <latitude></latitude>
+                </location>
+                <tsar>
+                        <name>Alex McLintock</name>
+                        <email type="personal">alex@owal.co.uk</email>
+                </tsar>
+                <web>http://banking.pm.org</web>
+                <date type="inception">20060824</date>
         </group>
 </perl_mongers>
 
