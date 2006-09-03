@@ -11371,7 +11371,7 @@
 		<date type="inception">20011021</date>
 	</group>
 
-	<group id="446" status="active">
+	<group id="446" status="inactive">
 		<name>Jogja.pm</name>
 		<location>
 			<city>Jogja</city>
@@ -11425,8 +11425,8 @@
 		<date type="inception">20011021</date>
 	</group>
 
-	<group id="448" status="active">
-		<name>stttelkom.pm</name>
+	<group id="448" status="inactive">
+		<name>Stttelkom.pm</name>
 		<location>
 			<city>Dayeuh Kolot</city>
 			<state></state>
@@ -12390,8 +12390,8 @@
 		<date type="inception">20020307</date>
 	</group>
 
-	<group id="485" status="active">
-		<name>bali.pm</name>
+	<group id="485" status="inactive">
+		<name>Bali.pm</name>
 		<location>
 			<city>denpasar</city>
 			<state>Bali</state>
@@ -13333,7 +13333,7 @@
 		</mailing_list>
 		<date type="inception">20020806</date>
 	</group>
-	<group id="531" status="active">
+	<group id="531" status="inactive">
 		<name>Depok.pm</name>
 		<location>
 			<city>Depok</city>
@@ -14916,7 +14916,7 @@
 		<date type="inception">20030817</date>
 	</group>
 
-	<group id="599" status="active">
+	<group id="599" status="inactive">
 		<name>Jakarta.pm</name>
 		<location>
 			<city>Jakarta</city>
