@@ -62,30 +62,14 @@ foreach my $g ($doc->findnodes('//group')) {
 
   next unless $status eq 'active' || $status eq 'sleeping';
   die "$name has no id\n" unless defined $id;
-  if ($name eq 'MarsNeedsWomen.pm' ||
-      $name eq 'Nomads.pm' ||
-      $name eq 'PerlMonks.pm' ||
-      $name eq 'Camelot.pm' ||
-      $name eq 'German.pm' ||
-      $name eq 'Amiga.pm' ||
-      $name eq '#Perl.pm' ||
-      $name eq 'PBP.pm' ||
-      $name eq 'dahut.pm'
-     ) {
-    $continent = 'Non-geographical';
-    $country = 'Non-geographical';
-  }
-  if ($name eq 'EU.pm') {
-    $country = 'Non-geographical';
-  }
-
+  
   unless ($continent) {
-     warn "$name has no continent";
-     next;
+     warn "$name has no continent. Assuming Non-geographical.\n";
+     $continent = 'Non-geographical';
   }
   unless ($country) {
-     warn "$name has no country";
-     next;
+     warn "$name has no country. Assuming Non-geographical.\n";
+     $country = 'Non-geographical';
   }
 
   # joined up city, state, region, country, continent
@@ -109,7 +93,7 @@ foreach my $g ($doc->findnodes('//group')) {
       # $image = "graphics/$id.png";
     }
   } else {
-    warn "Group $name in $location missing location\n";
+    #warn "Group $name missing lat/long\n";
   }
 
   $tsaremail =~ s/@/ at /g;
