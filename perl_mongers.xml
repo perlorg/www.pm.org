@@ -2814,16 +2814,13 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Helen Cook</name>
-			<email type="personal">hvc@cpan.org</email>
+			<name>mock</name>
+			<email type="personal">mock@obscurity.org</email>
 		</tsar>
 		<web>http://vancouver.pm.org/</web>
 		<mailing_list>
 			<name>General Vancouver Perl Mongers discussion</name>
 			<email type="list">vancouver-pm@pm.org</email>
-			<email type="list_admin">hvc@cpan.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">19980826</date>
 	</group>
