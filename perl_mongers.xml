@@ -3827,13 +3827,6 @@
 			<email type="personal">carlos.andrade@karlus.net</email>
 		</tsar>
 		<web>http://porto.pm.org/</web>
-		<mailing_list>
-			<name>General Porto.pm discussion</name>
-			<email type="list">porto-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe porto-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe porto-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990707</date>
 	</group>
 	
@@ -4334,13 +4327,6 @@
 			<email type="personal">whazaaaaahp@central-coast.pm.org</email>
 		</tsar>
 		<web>http://central-coast.pm.org/</web>
-		<mailing_list>
-			<name>General CentralCoast.pm discussion</name>
-			<email type="list">central-coast-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe central-coast-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe central-coast-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990707</date>
 	</group>
 	
