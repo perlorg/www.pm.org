@@ -16864,5 +16864,41 @@
                 <web>http://banking.pm.org</web>
                 <date type="inception">20060824</date>
         </group>
+        <group id="692" status="active">
+                <name>Maracay.pm</name>
+                <location>
+                        <city>Maracay</city>
+                        <state>Aragua</state>
+                        <region></region>
+                        <country>Venezuela</country>
+                        <continent>South America</continent>
+                        <longitude>-67.28</longitude>
+                        <latitude>10.15</latitude>
+                </location>
+                <tsar>
+                        <name>Javier E. Pérez P.</name>
+                        <email type="personal">templeofdvst@gmail.com</email>
+                </tsar>
+                <web>http://maracay.pm.org</web>
+                <date type="inception">20060922</date>
+        </group>
+        <group id="693" status="active">
+                <name>Cumbria.pm</name>
+                <location>
+                        <city>Alston</city>
+                        <state>Cumbria</state>
+                        <region></region>
+                        <country>United Kingdom</country>
+                        <continent>Europe</continent>
+                        <longitude>-2.344214</longitude>
+                        <latitude>54.786989</latitude>
+                </location>
+                <tsar>
+                        <name>Andy Armstrong</name>
+                        <email type="personal">andy@hexten.net</email>
+                </tsar>
+                <web>http://cumbria.pm.org</web>
+                <date type="inception">20060922</date>
+        </group>
 </perl_mongers>
 
