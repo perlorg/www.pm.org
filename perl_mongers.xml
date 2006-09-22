@@ -14769,25 +14769,17 @@
 		<location>
 			<city>Orlando</city>
 			<state>Florida</state>
-			<region>orlando</region>
+			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-81.368533</longitude>
+			<latitude>28.533611</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Scott Anderson</name>
-			<email type="personal">sand@anderfam.net</email>
+			<name>Andrew Silvernail</name>
+			<email type="personal">buff3r@gmail.com</email>
 		</tsar>
 		<web>http://orlando.pm.org/</web>
-		<mailing_list>
-			<name>General Orlando Perl Mongers discussion</name>
-			<email type="list">orlando-pm@pm.org</email>
-			<email type="list_admin">sand@anderfam.net</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20030705</date>
 	</group>
 
