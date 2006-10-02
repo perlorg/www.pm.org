@@ -11292,7 +11292,7 @@
 		<date type="inception">20010930</date>
 	</group>
 
-	<group id="444" status="active">
+	<group id="444" status="inactive">
 		<name>WYPUG.pm</name>
 		<location>
 			<city>Leeds</city>
@@ -11309,13 +11309,6 @@
 			<email type="personal">perlmonger@digital-word.com</email>
 		</tsar>
 		<web>http://wypug.pm.org/</web>
-		<mailing_list>
-			<name>General WYPUG Perl Mongers discussion</name>
-			<email type="list">wypug-pm@pm.org</email>
-			<email type="list_admin">perlmonger@digital-word.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20011004</date>
 	</group>
 
