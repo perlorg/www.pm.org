@@ -15983,7 +15983,7 @@
 	</group>
 
 	<group id="650" status="active">
-		<name>italia.pm</name>
+		<name>Italia.pm</name>
 		<location>
 			<city></city>
 			<state></state>
@@ -16864,7 +16864,7 @@
                         <city>Offutt Air Force Base</city>
                         <state>Nebraska</state>
                         <region></region>
-                        <country>United States</country>
+                        <country>United States of America</country>
                         <continent>North America</continent>
                         <longitude>-95.93</longitude>
                         <latitude>41.13</latitude>
