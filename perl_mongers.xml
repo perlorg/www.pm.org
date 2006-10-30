@@ -3202,17 +3202,10 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Jos&eacute; Pedro Oliveira</name>
-                        <email type="personal">jpo@di.uminho.pt</email>
+			<name>Alberto Simões</name>
+                        <email type="personal">ambs@cpan.org</email>
 		</tsar>
 		<web>http://braga.pm.org/</web>
-		<mailing_list>
-			<name>General Braga.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">19990331</date>
 	</group>
 	
