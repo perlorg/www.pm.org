@@ -905,13 +905,6 @@
 			<email type="personal">bhess@techrg.com</email>
 		</tsar>
 		<web>http://detroit.pm.org/</web>
-		<mailing_list>
-			<name>General Detroit.pm discussion</name>
-			<email type="list">detroit-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe detroit-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe detroit-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990607</date>
 	</group>
 	
@@ -2706,8 +2699,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Phillip Beazley</name>
-			<email type="personal">perlmonger@tampabay.pm.org</email>
+			<name>Tracey Birch</name>
+			<email type="personal">tab@pobox.com</email>
 		</tsar>
 		<web>http://tampabay.pm.org/</web>
 		<mailing_list>
@@ -12627,11 +12620,11 @@
 		<date type="inception">20020406</date>
 	</group>
 
-	<group id="496" status="dead">
+	<group id="496" status="active">
 		<name>Zurich.pm</name>
 		<location>
-			<city>Zurich</city>
-			<state>Zurich</state>
+			<city>Zürich</city>
+			<state>Zürich</state>
 			<region></region>
 			<country>Switzerland</country>
 			<continent>Europe</continent>
@@ -12644,13 +12637,6 @@
 			<email type="personal">steven@accognoscere.org</email>
 		</tsar>
 		<web>http://zurich.pm.org/</web>
-		<mailing_list>
-			<name>General Zurich Perl Mongers discussion</name>
-			<email type="list">zurich-pm@pm.org</email>
-			<email type="list_admin">perl@problemlos.ch</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20020406</date>
 	</group>
 
@@ -13861,7 +13847,7 @@
 		<date type="inception">20030109</date>
 	</group>
 
-	<group id="518" status="active">
+	<group id="518" status="dead">
 		<name>Galicia.pm</name>
 		<location>
 			<city>A Coru&ntilde;a</city>
@@ -13878,13 +13864,6 @@
 			<email type="personal">leader@galicia.pm.org</email>
 		</tsar>
 		<web>http://galicia.pm.org/</web>
-		<mailing_list>
-			<name>General Galicia Perl Mongers discussion</name>
-			<email type="list">galicia-pm@pm.org</email>
-			<email type="list_admin">4pm@k-offline.net</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20030109</date>
 	</group>
 
@@ -14453,9 +14432,9 @@
 	</group>
 
 	<group id="580" status="active">
-		<name>arnhem.pm</name>
+		<name>Arnhem.pm</name>
 		<location>
-			<city>arnhem</city>
+			<city>Arnhem</city>
 			<state></state>
 			<region></region>
 			<country>Netherlands</country>
@@ -14469,13 +14448,6 @@
 			<email type="personal">mark@overmeer.net</email>
 		</tsar>
 		<web>http://arnhem.pm.org/</web>
-		<mailing_list>
-			<name>General arnhem Perl Mongers discussion</name>
-			<email type="list">arnhem-pm@pm.org</email>
-			<email type="list_admin">mark@overmeer.net</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20030628</date>
 	</group>
 
@@ -16023,17 +15995,10 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Angelo Selvini</name>
-			<email type="personal">jontk@perl.it</email>
+			<name>Andrea Maestrutti</name>
+			<email type="personal">info@perl.it</email>
 		</tsar>
 		<web>http://italia.pm.org/</web>
-		<mailing_list>
-			<name>General Italia Perl Mongers discussion</name>
-			<email type="list">italia-pm@pm.org</email>
-			<email type="list_admin">jontk@perl.it</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20040621</date>
 	</group>
 
@@ -16892,6 +16857,24 @@
                 </tsar>
                 <web>http://cumbria.pm.org</web>
                 <date type="inception">20060922</date>
+        </group>
+        <group id="694" status="active">
+                <name>Offutt.pm</name>
+                <location>
+                        <city>Offutt Air Force Base</city>
+                        <state>Nebraska</state>
+                        <region></region>
+                        <country>United States</country>
+                        <continent>North America</continent>
+                        <longitude>-95.93</longitude>
+                        <latitude>41.13</latitude>
+                </location>
+                <tsar>
+                        <name>Steven Bush</name>
+                        <email type="personal">steven.bush@afwa.af.mil</email>
+                </tsar>
+                <web>http://offutt.pm.org</web>
+                <date type="inception">20061029</date>
         </group>
 </perl_mongers>
 
