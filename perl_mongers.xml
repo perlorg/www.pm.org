@@ -2703,13 +2703,6 @@
 			<email type="personal">tab@pobox.com</email>
 		</tsar>
 		<web>http://tampabay.pm.org/</web>
-		<mailing_list>
-			<name>General TampaBay.pm discussion</name>
-			<email type="list">chatter@tampabay.pm.org</email>
-			<email type="list_admin">perlmonger@tampabay.pm.org</email>
-			<subscribe>http://romano.futuresights.com:81/guest/RemoteListSummary/chatter</subscribe>
-			<unsubscribe>http://romano.futuresights.com:81/guest/RemoteListSummary/chatter</unsubscribe>
-		</mailing_list>
 		<date type="inception">19980916</date>
 	</group>
 	
