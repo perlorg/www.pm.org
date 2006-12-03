@@ -1110,17 +1110,10 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Kevin Meltzer</name>
-			<email type="personal">perlguy@perlguy.com</email>
+			<name>Bob Mariotti</name>
+			<email type="personal">r.mariotti@fdcx.net</email>
 		</tsar>
 		<web>http://hartford.pm.org/</web>
-		<mailing_list>
-			<name>General Hartford.pm discussion</name>
-			<email type="list">hartford-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe hartford-list email_address</subscribe>
-			<unsubscribe>unsubscribe hartford-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19981124</date>
 	</group>
 	
