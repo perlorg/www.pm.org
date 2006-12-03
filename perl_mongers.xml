@@ -6604,7 +6604,7 @@
 		<date type="inception">20000116</date>
 	</group>
 
-	<group id="261" status="active">
+	<group id="261" status="inactive">
 		<name>Tijuana.pm</name>
 		<location>
 			<city>Tijuana</city>
@@ -6621,13 +6621,6 @@
 			<email type="personal">feliper@cronopio.net</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Tijuana.pm discussion</name>
-			<email type="list">tijuana-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe tijuana-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe tijuana-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000116</date>
 	</group>
 
@@ -13657,7 +13650,7 @@
 		<date type="inception">20021121</date>
 	</group>
 
-	<group id="511" status="active">
+	<group id="511" status="inactive">
 		<name>Guatemala.pm</name>
 		<location>
 			<city></city>
@@ -14322,7 +14315,7 @@
 		<date type="inception">20030425</date>
 	</group>
 
-	<group id="571" status="active">
+	<group id="571" status="inactive">
 		<name>Dominican Republic.pm</name>
 		<location>
 			<city>Santo Domingo</city>
@@ -14874,7 +14867,7 @@
 		<date type="inception">20030817</date>
 	</group>
 
-	<group id="601" status="active">
+	<group id="601" status="disbanded to make room for other groups -jhannah 20061203">
 		<name>Mexico.pm</name>
 		<location>
 			<city></city>
@@ -16857,6 +16850,24 @@
                         <email type="personal">sebastien@aperghis.net</email>
                 </tsar>
                 <web>http://sophia.mongueurs.net</web>
+                <date type="inception">20061203</date>
+        </group>
+        <group id="696" status="active">
+                <name>Triangulo.pm</name>
+                <location>
+                        <city>Uberlândia</city>
+                        <state>Minas Gerais</state>
+                        <region>Triângulo Mineiro</region>
+                        <country>Brazil</country>
+                        <continent>South America</continent>
+                        <longitude>-48.20</longitude>
+                        <latitude>-19.05</latitude>
+                </location>
+                <tsar>
+                        <name>Adriano Ferreira</name>
+                        <email type="personal">a.r.ferreira@gmail.com</email>
+                </tsar>
+                <web>http://triangulo.pm.org</web>
                 <date type="inception">20061203</date>
         </group>
 </perl_mongers>
