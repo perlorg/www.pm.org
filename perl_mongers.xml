@@ -16172,8 +16172,8 @@
                 </location>
                 <email type="group"></email>
                 <tsar>
-                        <name>Luciano Pizarro</name>
-                        <email type="personal">qlp002@email.mot.com</email>
+                        <name>Luis Dosso</name>
+                        <email type="personal">dosso@dextra.com.br</email>
                 </tsar>
                 <web>http://campinas.pm.org/</web>
                 <date type="inception">20050420</date>
@@ -16847,6 +16847,24 @@
                 </tsar>
                 <web>http://offutt.pm.org</web>
                 <date type="inception">20061029</date>
+        </group>
+        <group id="695" status="active">
+                <name>Sophia.pm</name>
+                <location>
+                        <city>Sophia-Antipolis</city>
+                        <state>Antibes</state>
+                        <region></region>
+                        <country>France</country>
+                        <continent>Europe</continent>
+                        <longitude>7.120857</longitude>
+                        <latitude>43.58064</latitude>
+                </location>
+                <tsar>
+                        <name>Sébastien Aperghis-Tramoni</name>
+                        <email type="personal">sebastien@aperghis.net</email>
+                </tsar>
+                <web>http://sophia.mongueurs.net</web>
+                <date type="inception">20061203</date>
         </group>
 </perl_mongers>
 
