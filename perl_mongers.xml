@@ -5375,7 +5375,7 @@
 		<date type="inception">19990914</date>
 	</group>
 
-	<group id="211">
+	<group id="211" status="active">
 		<name>Seoul.pm</name>
 		<location>
 			<city>Seoul</city>
@@ -14901,13 +14901,13 @@
 		<date type="inception">20030817</date>
 	</group>
 
-	<group id="602" status="active">
-		<name>Korean Perl User Group.pm</name>
+	<group id="602" status="inactive">
+		<name>Korea.pm</name>
 		<location>
-			<city> </city>
+			<city>??</city>
 			<state></state>
 			<region></region>
-			<country>Korea, Republic of</country>
+			<country>Korea (Republic of)</country>
 			<continent>Asia</continent>
 			<longitude></longitude>
 			<latitude></latitude>
@@ -14918,13 +14918,6 @@
 			<email type="personal">bckang@pusan.ac.kr</email>
 		</tsar>
 		<web>http://korea.pm.org/</web>
-		<mailing_list>
-			<name>General Korean Perl User Group Perl Mongers discussion</name>
-			<email type="list">korea.pm.org-pm@pm.org</email>
-			<email type="list_admin">bckang@pusan.ac.kr</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20030817</date>
 	</group>
 
