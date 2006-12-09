@@ -4997,30 +4997,22 @@
 		<date type="inception">19990131</date>
 	</group>
 	
-	<group id="196" status="mlb">
+	<group id="196" status="active">
 		<name>Dubai.pm</name>
 		<location>
 			<city>Dubai</city>
-			<state></state>
+			<state>Dubai</state>
 			<region></region>
 			<country>United Arab Emirates</country>
 			<continent>Asia</continent>
 			<longitude>55.300</longitude>
 			<latitude>25.300</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Gibran baba</name>
-			<email type="personal">perlnet@hotmail.com</email>
+			<name>Sascha Kiefer</name>
+			<email type="personal">sk@intertivity.com</email>
 		</tsar>
 		<web>http://dubai.pm.org/</web>
-		<mailing_list>
-			<name>General Dubai.pm discussion</name>
-			<email type="list">dubai-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe dubai-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe dubai-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990311</date>
 	</group>
 	
