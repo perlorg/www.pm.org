@@ -9154,19 +9154,11 @@
                         <longitude>-44.4333</longitude>
                         <latitude>-16.2000</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Jose Melo de Assis Fonseca</name>
-			<email type="personal">zefonseca@gmail.com</email>
+                        <name>Rondon</name>
+                        <email type="personal">djrondon@gmail.com</email>
 		</tsar>
 		<web>http://brasilia.pm.org/</web>
-		<mailing_list>
-			<name>General Brasilia Perl Mongers discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20010313</date>
 	</group>
 
