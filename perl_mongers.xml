@@ -1946,7 +1946,7 @@
 		<date type="inception">19981013</date>
 	</group>
 	
-	<group id="72" status="inactive">
+	<group id="72" status="active">
 		<name>Ottawa.pm</name>
 		<location>
 			<city>Ottawa</city>
@@ -1954,22 +1954,15 @@
 			<region></region>
 			<country>Canada</country>
 			<continent>North America</continent>
-			<longitude>-73.967</longitude>
-			<latitude>45.333</latitude>
+			<longitude>-75.5</longitude>
+			<latitude>45.34</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Jay Lawrence</name>
-			<email type="personal">jlawrenc@infonium.com</email>
+			<name>Yanick Champoux</name>
+			<email type="personal">yanick@cpan.org</email>
 		</tsar>
 		<web>http://ottawa.pm.org/</web>
-		<mailing_list>
-			<name>General Ottawa.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">19990331</date>
 	</group>
 	
@@ -16845,6 +16838,24 @@
                 </tsar>
                 <web>http://triangulo.pm.org</web>
                 <date type="inception">20061203</date>
+        </group>
+        <group id="697" status="active">
+                <name>SanAngelo.pm</name>
+                <location>
+                        <city>San Angelo</city>
+                        <state>Texas</state>
+                        <region></region>
+                        <country>United States of America</country>
+                        <continent>North America</continent>
+                        <longitude>-100.43695</longitude>
+                        <latitude>31.4639</latitude>
+                </location>
+                <tsar>
+                        <name>Jeremy Fluhmann</name>
+                        <email type="personal">fluhmann@gmail.com</email>
+                </tsar>
+                <web>http://sanangelo.pm.org</web>
+                <date type="inception">20070111</date>
         </group>
 </perl_mongers>
 
