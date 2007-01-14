@@ -5860,17 +5860,10 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Devdas Bhagat</name>
-			<email type="personal">devdas@dvb.homelinux.org</email>
+			<name>Abhishek jain</name>
+			<email type="personal">mail@webbee.biz</email>
 		</tsar>
 		<web>http://bangalore.pm.org/</web>
-		<mailing_list>
-			<name>General Bangalore Perl Mongers discussion</name>
-			<email type="list">bangalore-pm@pm.org</email>
-			<email type="list_admin">natarajin2k@yahoo.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
 
