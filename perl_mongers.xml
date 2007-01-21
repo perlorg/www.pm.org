@@ -16850,5 +16850,24 @@
                 <web>http://sanangelo.pm.org</web>
                 <date type="inception">20070111</date>
         </group>
+        <group id="698" status="active">
+                <name>WindyCity.pm</name>
+                <location>
+                        <city>Chicago</city>
+                        <state>IL</state>
+                        <region></region>
+                        <country>United States of America</country>
+                        <continent>North America</continent>
+                        <longitude>-87.6686</longitude>
+                        <latitude>42.0106</latitude>
+                </location>
+                <tsar>
+                        <name>brian d foy</name>
+                        <email type="personal">brian.d.foy@gmail.com</email>
+                </tsar>
+                <web>http://windycity.pm.org</web>
+                <date type="inception">20070121</date>
+        </group>
+
 </perl_mongers>
 
