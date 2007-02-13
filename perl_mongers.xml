@@ -2662,13 +2662,6 @@
 			<email type="personal">benh@jpj.net</email>
 		</tsar>
 		<web>http://stlouis.pm.org/</web>
-		<mailing_list>
-			<name>General StLouis.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">19980214</date>
 	</group>
 	
@@ -12020,13 +12013,6 @@
 			<email type="personal">c.hauser@itassistance.ch</email>
 		</tsar>
 		<web>http://basel.pm.org/</web>
-		<mailing_list>
-			<name>General Basel Perl Mongers discussion</name>
-			<email type="list">basel-pm@pm.org</email>
-			<email type="list_admin">c.hauser@itassistance.ch</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20020214</date>
 	</group>
 
@@ -16442,6 +16428,7 @@
 	</group>
         <group id="676" status="active">
                 <name>PBP.pm</name>
+                <!-- Perl Best Practices -->
                 <location>
                         <city></city>
                         <state></state>
