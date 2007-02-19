@@ -7814,8 +7814,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-97.037764</longitude>
-			<latitude>37.067788</latitude>
+			<longitude></longitude>
+			<latitude></latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -7823,13 +7823,6 @@
 			<email type="personal">djasmine@tnsgroup.com</email>
 		</tsar>
 		<web>http://nwarkansas.pm.org/</web>
-		<mailing_list>
-			<name>General NWArkansas Perl Mongers discussion</name>
-			<email type="list">nwarkansas-pm@pm.org</email>
-			<email type="list_admin">owner-nwarkansas-pm@pm.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception"></date>
 	</group>
 
@@ -16841,7 +16834,7 @@
                 <name>WindyCity.pm</name>
                 <location>
                         <city>Chicago</city>
-                        <state>IL</state>
+                        <state>Illinois</state>
                         <region></region>
                         <country>United States of America</country>
                         <continent>North America</continent>
@@ -16854,6 +16847,24 @@
                 </tsar>
                 <web>http://windycity.pm.org</web>
                 <date type="inception">20070121</date>
+        </group>
+        <group id="699" status="active">
+                <name>Wichita.pm</name>
+                <location>
+                        <city>Wichita</city>
+                        <state>Kansas</state>
+                        <region></region>
+                        <country>United States of America</country>
+                        <continent>North America</continent>
+                        <longitude>-97.43</longitude>
+                        <latitude>37.65</latitude>
+                </location>
+                <tsar>
+                        <name>Matthew Wilson</name>
+                        <email type="personal">matthew@veradox.com</email>
+                </tsar>
+                <web>http://wichita.pm.org</web>
+                <date type="inception">20070219</date>
         </group>
 
 </perl_mongers>
