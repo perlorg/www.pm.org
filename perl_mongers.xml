@@ -2650,8 +2650,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Ben Hockenhull</name>
-			<email type="personal">benh@jpj.net</email>
+			<name>Bill Odum</name>
+			<email type="personal">billodom@gmail.com</email>
 		</tsar>
 		<web>http://stlouis.pm.org/</web>
 		<date type="inception">19980214</date>
@@ -12878,7 +12878,7 @@
 	</group>
 
 	<group id="509">
-		<name>Piotrkow .pm</name>
+		<name>Piotrkow.pm</name>
 		<location>
 			<city>Piotrkow </city>
 			<state></state>
@@ -12894,13 +12894,6 @@
 			<email type="personal">jjhop@perl.randal.qp.pl</email>
 		</tsar>
 		<web>http://piotrkow.pm.org/</web>
-		<mailing_list>
-			<name>General Piotrkow  Perl Mongers discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20020618</date>
 	</group>
 
@@ -16857,6 +16850,24 @@
                 </tsar>
                 <web>http://wichita.pm.org</web>
                 <date type="inception">20070219</date>
+        </group>
+        <group id="700" status="active">
+                <name>Warszawa.pm</name>
+                <location>
+                        <city>Warszawa</city>
+                        <state></state>
+                        <region></region>
+                        <country>Poland</country>
+                        <continent>Europe</continent>
+                        <longitude>21.0</longitude>
+                        <latitude>52.13</latitude>
+                </location>
+                <tsar>
+                        <name>Lukasz Madrzycki</name>
+                        <email type="personal">uksza@uksza.net</email>
+                </tsar>
+                <web>http://warszawa.pm.org</web>
+                <date type="inception">20070306</date>
         </group>
 
 </perl_mongers>
