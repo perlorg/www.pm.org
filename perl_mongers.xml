@@ -699,7 +699,7 @@
 		<date type="inception">19990331</date>
 	</group>
 	
-	<group id="23" status="sleeping">
+	<group id="23" status="active">
 		<name>Columbus.pm</name>
 		<location>
 			<city>Columbus</city>
@@ -710,19 +710,11 @@
 			<longitude>-82.883</longitude>
 			<latitude>40.0</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Jason Alexander</name>
 			<email type="personal">alexander.232@osu.edu</email>
 		</tsar>
 		<web>http://columbus.pm.org/</web>
-		<mailing_list>
-			<name>General Columbus.pm discussion</name>
-			<email type="list">columbus-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe columbus-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe columbus-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990707</date>
 	</group>
 	
