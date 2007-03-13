@@ -2744,8 +2744,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Indy Singh</name>
-			<email type="personal">indy@indigostar.com</email>
+			<name>Michael Graham</name>
+			<email type="personal">magog@the-wire.com</email>
 		</tsar>
 		<web>http://to.pm.org/</web>
 		<mailing_list>
@@ -3523,7 +3523,7 @@
 		</mailing_list>
 		<date type="inception">19980828</date>
 	</group>
-	
+
 	<group id="136" status="active">
 		<name>London.pm</name>
 		<location>
@@ -14316,8 +14316,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Vinicio Tavares de Melo Costa da Silva</name>
-			<email type="personal">vtmcs@cin.ufpe.br</email>
+			<name>Marco Aurélio</name>
+			<email type="personal">interativa@pcp.org.br</email>
 		</tsar>
 		<web>http://recife.pm.org/</web>
 		<mailing_list>
