@@ -16870,5 +16870,24 @@
                 <date type="inception">20070306</date>
         </group>
 
+        <group id="701" status="active">
+                <name>Hanover.pm</name>
+                <location>
+                        <city>Hanover</city>
+                        <state>Lower Saxony</state>
+                        <region></region>
+                        <country>Germany</country>
+                        <continent>Europe</continent>
+                        <longitude>52.2</longitude>
+                        <latitude>9.44</latitude>
+                </location>
+                <tsar>
+                        <name>Sven Newhaus</name>
+                        <email type="personal">ws@heise.de</email>
+                </tsar>
+                <web></web>
+                <date type="inception">20070313</date>
+        </group>
+
 </perl_mongers>
 
