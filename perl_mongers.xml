@@ -2748,13 +2748,6 @@
 			<email type="personal">magog@the-wire.com</email>
 		</tsar>
 		<web>http://to.pm.org/</web>
-		<mailing_list>
-			<name>General Toronto.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">19980916</date>
 	</group>
 	
@@ -7798,7 +7791,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="312" status="active">
+	<group id="312" status="sleeping">
 		<name>NWArkansas.pm</name>
 		<location>
 			<city></city>
@@ -16883,9 +16876,9 @@
                 </location>
                 <tsar>
                         <name>Sven Newhaus</name>
-                        <email type="personal">ws@heise.de</email>
+                        <email type="personal">sven@sven.de</email>
                 </tsar>
-                <web></web>
+                <web>http://hanover.pm.org</web>
                 <date type="inception">20070313</date>
         </group>
 
