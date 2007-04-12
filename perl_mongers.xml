@@ -13500,19 +13500,11 @@
 			<longitude>10</longitude>
 			<latitude>53.5</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Sandra Hennig</name>
-			<email type="personal">snadra@snadra.de</email>
+			<name>Jörg Plate</name>
+			<email type="personal">plate@patterner.eu</email>
 		</tsar>
 		<web>http://hamburg.pm.org/</web>
-		<mailing_list>
-			<name>General Hamburg Perl Mongers discussion</name>
-			<email type="list">hamburg-pm@pm.org</email>
-			<email type="list_admin">snadra@snadra.de</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20021010</date>
 	</group>
 
