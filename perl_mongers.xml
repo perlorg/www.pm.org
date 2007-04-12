@@ -870,13 +870,6 @@
 			<email type="personal">tman@technologist.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General DesMoines.pm discussion</name>
-			<email type="list">des-moines-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe des-moines-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe des-moines-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
 	
@@ -15086,13 +15079,6 @@
 			<email type="personal">wells@cedarnet.org</email>
 		</tsar>
 		<web>http://cedarvalleyperlmongers.pm.org/</web>
-		<mailing_list>
-			<name>General Cedar Valley Perl Mongers Perl Mongers discussion</name>
-			<email type="list">cedarvalleyperlmongers-pm@pm.org</email>
-			<email type="list_admin">wells@cedarnet.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20031108</date>
 	</group>
 
