@@ -13542,16 +13542,9 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Fabiano Reese Righetti</name>
-			<email type="personal">frighetti@cascavel.pm.org</email>
+			<email type="personal">frighetti@perl.org.br</email>
 		</tsar>
 		<web>http://cascavel.pm.org/</web>
-		<mailing_list>
-			<name>General Cascavel Perl Mongers discussion</name>
-			<email type="list">cascavel-pm@pm.org</email>
-			<email type="list_admin">fabiano@seng.com.br</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20021121</date>
 	</group>
 
