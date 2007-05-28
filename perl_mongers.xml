@@ -987,17 +987,10 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Matt Hahnfeld</name>
-			<email type="personal">matth@everysoft.com</email>
+			<name>Ed Eddington</name>
+			<email type="personal">ed.eddington@priorityhealth.com</email>
 		</tsar>
 		<web>http://grand-rapids.pm.org/</web>
-		<mailing_list>
-			<name>General GrandRapids.pm discussion</name>
-			<email type="list">grand-rapids-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe grand-rapids-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe grand-rapids-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19980921</date>
 	</group>
 	
@@ -1915,19 +1908,11 @@
 			<longitude>-117.77739</longitude>
 			<latitude>33.67496</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Douglas Wilson</name>
 			<email type="personal">dgwilson1@cox.net</email>
 		</tsar>
 		<web>http://oc.pm.org/</web>
-		<mailing_list>
-			<name></name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">19981013</date>
 	</group>
 	
@@ -11501,7 +11486,7 @@
 		<date type="inception">20011112</date>
 	</group>
 
-	<group id="456" status="active">
+	<group id="456" status="sleeping">
 		<name>SiouxLand.pm</name>
 		<location>
 			<city>Sioux City</city>
@@ -15055,7 +15040,7 @@
 		<date type="inception">20031108</date>
 	</group>
 
-	<group id="614" status="active">
+	<group id="614" status="sleeping">
 		<name>Cedar Valley Perl Mongers.pm</name>
 		<location>
 			<city>Cedar Valley Perl Mongers</city>
@@ -16700,7 +16685,7 @@
                 <web>http://cumbria.pm.org</web>
                 <date type="inception">20060922</date>
         </group>
-        <group id="694" status="active">
+        <group id="694" status="sleeping">
                 <name>Offutt.pm</name>
                 <location>
                         <city>Offutt Air Force Base</city>
