@@ -290,14 +290,11 @@
 			<name>Rob Elsworth</name>
 			<email type="personal">bbbbosox@bellsouth.net</email>
 		</tsar>
+		<tsar>
+			<name>Stephen Cristol</name>
+			<email type="personal">stephen@bee.net</email>
+		</tsar>
 		<web>http://atlanta.pm.org/</web>
-		<mailing_list>
-			<name>General Atlanta.pm discussion</name>
-			<email type="list">atlanta-pm@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe atlanta-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe atlanta-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19980704</date>
 	</group>
 	
@@ -1378,17 +1375,10 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Garrett Goebel</name>
-			<email type="personal">ggoebel@goebel.ws</email>
+			<name>Andy Moore</name>
+			<email type="personal">amoore@mooresystems.com</email>
 		</tsar>
 		<web>http://kc.pm.org/</web>
-		<mailing_list>
-			<name>General KansasCity.pm discussion</name>
-			<email type="list">kansas-city-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe kansas-city-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe kansas-city-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990120</date>
 	</group>
 	
