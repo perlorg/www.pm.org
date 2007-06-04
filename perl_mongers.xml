@@ -14256,16 +14256,9 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Marco Aurélio</name>
-			<email type="personal">interativa@pcp.org.br</email>
+			<email type="personal">marcoaureliomacae@gmail.com</email>
 		</tsar>
 		<web>http://recife.pm.org/</web>
-		<mailing_list>
-			<name>General Recife Perl Mongers discussion</name>
-			<email type="list">recife-pm@pm.org</email>
-			<email type="list_admin">vtmcs@cin.ufpe.br</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20030628</date>
 	</group>
 
@@ -16819,6 +16812,25 @@
                 </tsar>
                 <web>http://hanover.pm.org</web>
                 <date type="inception">20070313</date>
+        </group>
+
+        <group id="702" status="active">
+                <name>Kiev.pm</name>
+                <location>
+                        <city>Kiev</city>
+                        <state>Kievskaya</state>
+                        <region></region>
+                        <country>Ukraine</country>
+                        <continent>Europe</continent>
+                        <longitude>50.42</longitude>
+                        <latitude>30.50</latitude>
+                </location>
+                <tsar>
+                        <name>Serg V. Gulko</name>
+                        <email type="personal">s.gulko@gmail.com</email>
+                </tsar>
+                <web>http://kiev.pm.org</web>
+                <date type="inception">20070603</date>
         </group>
 
 </perl_mongers>
