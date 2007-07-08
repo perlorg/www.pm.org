@@ -16814,6 +16814,13 @@
                         <email type="personal">robert.olejnik@gmail.com</email>
                 </tsar>
                 <web>http://szczecin.pm.org</web>
+		<mailing_list>
+			<name>General Szczecin Perl Mongers discussion</name>
+			<email type="list">szczecin-pm@pm.org</email>
+			<email type="list_admin">robert.olejnik@gmail.com</email>
+			<subscribe>subscribe members email_address</subscribe>
+			<unsubscribe>unsubscribe members email_address</unsubscribe>
+		</mailing_list>
                 <date type="inception">20070708</date>
         </group>
 
@@ -16859,6 +16866,25 @@
                         <email type="personal">toddr@null.net</email>
                 </tsar>
                 <web>http://thewoodlands.pm.org</web>
+                <date type="inception">20070708</date>
+        </group>
+
+        <group id="706" status="active">
+                <name>ThamesValley.pm</name>
+                <location>
+                        <city>Reading</city>
+                        <state>Berkshire/South Oxfordshire</state>
+                        <region>Thames Valley</region>
+                        <country>UK</country>
+                        <continent>Europe</continent>
+                        <longitude>-0.97</longitude>
+                        <latitude>51.41</latitude>
+                </location>
+                <tsar>
+                        <name>Rafiq Ismail</name>
+                        <email type="personal">rafiq@dreamthought.com</email>
+                </tsar>
+                <web>http://thamesvalley.pm.org</web>
                 <date type="inception">20070708</date>
         </group>
 
