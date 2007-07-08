@@ -16833,5 +16833,24 @@
                 <date type="inception">20070603</date>
         </group>
 
+        <group id="703" status="active">
+                <name>Szczecin.pm</name>
+                <location>
+                        <city>Kiev</city>
+                        <state>Kievskaya</state>
+                        <region></region>
+                        <country>Poland</country>
+                        <continent>Europe</continent>
+                        <longitude>14.27</longitude>
+                        <latitude>53.27</latitude>
+                </location>
+                <tsar>
+                        <name>Robert Olejnik</name>
+                        <email type="personal">robert.olejnik@gmail.com</email>
+                </tsar>
+                <web>http://szczecin.pm.org</web>
+                <date type="inception">20070708</date>
+        </group>
+
 </perl_mongers>
 
