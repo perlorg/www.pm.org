@@ -156,13 +156,6 @@
 			<email type="personal">will@coleda.com</email>
 		</tsar>
 		<web>http://albany.pm.org/</web>
-		<mailing_list>
-			<name>General Albany.pm discussion</name>
-			<email type="list">albany-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe albany-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe albany-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19981005</date>
 	</group>
 	
@@ -210,13 +203,6 @@
 			<email type="personal">corliss@alaskapm.org</email>
 		</tsar>
 		<web>http://anchorage.pm.org/</web>
-		<mailing_list>
-			<name>General Anchorage.pm discussion</name>
-			<email type="list">anchorage-pm@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe anchorage-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe anchorage-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990214</date>
 	</group>
 	
@@ -342,14 +328,6 @@
 			<email type="personal">lalvey@ffguide.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Bakersfield.pm discussion</name>
-			<email type="list">bakersfield-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-
-			<subscribe>subscribe bakersfield-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe bakersfield-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990331</date>
 	</group>
 	
@@ -370,13 +348,6 @@
 			<email type="personal">waldo@cos.com</email>
 		</tsar>
 		<web>http://baltimore.pm.org/</web>
-		<mailing_list>
-			<name>General Baltimore.pm discussion</name>
-			<email type="list">baltimore-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe baltimore-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe baltimore-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
 	
@@ -451,13 +422,6 @@
 			<email type="personal">walter@pienciak.org</email>
 		</tsar>
 		<web>http://boulder.pm.org/</web>
-		<mailing_list>
-			<name>General Boulder.pm discussion</name>
-			<email type="list">boulder-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe boulder-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe boulder-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990311</date>
 	</group>
 	
@@ -478,13 +442,6 @@
 			<email type="personal">purp@selequa.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Burbank.pm discussion</name>
-			<email type="list">burbank-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe burbank-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe burbank-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990607</date>
 	</group>
 	
@@ -505,13 +462,6 @@
 			<email type="personal">Jim@cyberlewis.com</email>
 		</tsar>
 		<web>http://cambridge.pm.org/</web>
-		<mailing_list>
-			<name>General Cambridge.pm discussion</name>
-			<email type="list">cambridge-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe cambridge-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe cambridge-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990607</date>
 	</group>
 	
@@ -559,13 +509,6 @@
 			<email type="personal">william@knowmad.com</email>
 		</tsar>
 		<web>http://charlotte.pm.org/</web>
-		<mailing_list>
-			<name>General Charlotte.pm discussion</name>
-			<email type="list">charlotte-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe charlotte-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe charlotte-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990127</date>
 	</group>
 	
@@ -659,13 +602,6 @@
 			<email type="personal">mike@archlug.org</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-            <name>General CGI.pm discussion</name>
-            <email type="list">cgi-pm-list@pm.org</email>
-            <email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe cgi-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe cgi-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990331</date>
 	</group>
 	
@@ -686,13 +622,6 @@
 			<email type="personal">colossus@lightstream.net</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Cleveland.pm discussion</name>
-			<email type="list">cleveland-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe cleveland-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe cleveland-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990331</date>
 	</group>
 	
@@ -786,13 +715,6 @@
 			<email type="personal">paulv@canonical.org</email>
 		</tsar>
 		<web>http://dayton.pm.org/</web>
-		<mailing_list>
-			<name>General Dayton.pm discussion</name>
-			<email type="list">dayton-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe dayton-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe dayton-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990801</date>
 	</group>
 	
@@ -907,13 +829,6 @@
 			<email type="personal">jerryw@avantdigital.com</email>
 		</tsar>
 		<web>http://edmond.pm.org/</web>
-		<mailing_list>
-			<name>General Edmond.pm discussion</name>
-			<email type="list">edmond-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe edmond-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe edmond-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990120</date>
 	</group>
 	
@@ -934,13 +849,6 @@
 			<email type="personal">manishd@informix.com</email>
 		</tsar>
 		<web>http://fayetteville.pm.org/</web>
-		<mailing_list>
-			<name>General Fayetteville.pm discussion</name>
-			<email type="list">fayetteville-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe fayetteville-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe fayetteville-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
 	
@@ -961,13 +869,6 @@
 			<email type="personal">solution@gina.net</email>
 		</tsar>
 		<web>http://gainesville.pm.org/</web>
-		<mailing_list>
-			<name>General Gainesville.pm discussion</name>
-			<email type="list">gainesville-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe gainesville-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe gainesville-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
 	
@@ -1035,13 +936,6 @@
 			<email type="personal">fujin@netZero.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Hanford.pm discussion</name>
-			<email type="list">hanford-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe hanford-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe hanford-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990515</date>
 	</group>
 	
@@ -1109,13 +1003,6 @@
 			<email type="personal">aramos@sunyorange.edu</email>
 		</tsar>
 		<web>http://hudson-valley.pm.org/</web>
-		<mailing_list>
-			<name>General HudsonValley.pm discussion</name>
-			<email type="list">hudson-valley-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe hudson-valley-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe hudson-valley-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990607</date>
 	</group>
 	
@@ -1217,13 +1104,6 @@
 			<email type="personal">conmara@oaktree.net</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Indianapolis.pm discussion</name>
-			<email type="list">indianapolis-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe indianapolis-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe indianapolis-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990707</date>
 	</group>
 	
@@ -1244,13 +1124,6 @@
 			<email type="personal">Perl@JimSproul.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Irving.pm discussion</name>
-			<email type="list">irving-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe irving-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe irving-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990707</date>
 	</group>
 	
@@ -1271,13 +1144,6 @@
 			<email type="personal">jax@pm.org</email>
 		</tsar>
 		<web>http://jacksonville.pm.org/</web>
-		<mailing_list>
-			<name>General Jacksonville.pm discussion</name>
-			<email type="list">jacksonville-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe jacksonville-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe jacksonville-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990214</date>
 	</group>
 	
@@ -1298,13 +1164,6 @@
 			<email type="personal">ed.wright@jpl.nasa.gov</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General JPL.pm discussion</name>
-			<email type="list">jpl-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe jpl-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe jpl-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19980916</date>
 	</group>
 	
@@ -1325,13 +1184,6 @@
 			<email type="personal">mslack@ameritech.net</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Kalamazoo.pm discussion</name>
-			<email type="list">kalamazoo-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe kalamazoo-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe kalamazoo-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990707</date>
 	</group>
 	
@@ -1352,13 +1204,6 @@
 			<email type="personal">defyance@comcast.net</email>
 		</tsar>
 		<web>http://knoxville.pm.org/</web>
-		<mailing_list>
-			<name>General Knoxville.pm discussion</name>
-			<email type="list">knoxville-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe knoxville-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe knoxville-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990127</date>
 	</group>
 	
@@ -1399,13 +1244,6 @@
 			<email type="personal">chrisangell@chrisangell.com</email>
 		</tsar>
 		<web>http://lasvegas.pm.org/</web>
-		<mailing_list>
-			<name>General LasVegas.pm discussion</name>
-			<email type="list">lasvegas-pm@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">19990105</date>
 	</group>
 	
@@ -1426,13 +1264,6 @@
 			<email type="personal">rcbowen@rcbowen.com</email>
 		</tsar>
 		<web>http://lexington.pm.org/</web>
-		<mailing_list>
-			<name>General Lexington.pm discussion</name>
-			<email type="list">lexington-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe lexington-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe lexington-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19981008</date>
 	</group>
 	
@@ -1453,13 +1284,6 @@
 			<email type="personal">jladick@insightbb.com</email>
 		</tsar>
 		<web>http://louisville.pm.org/</web>
-		<mailing_list>
-			<name>General Louisville.pm discussion</name>
-			<email type="list">louisville-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe louisville-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe louisville-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990707</date>
 	</group>
 	
@@ -1480,13 +1304,6 @@
 			<email type="personal">alanrice@rocketmail.com</email>
 		</tsar>
 		<web>http://lynchburg.pm.org/</web>
-		<mailing_list>
-			<name>General Lynchburg.pm discussion</name>
-			<email type="list">lynchburg-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe lynchburg-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe lynchburg-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990131</date>
 	</group>
 	
@@ -1553,13 +1370,6 @@
 			<email type="personal">mikeaccardo@yahoo.com</email>
 		</tsar>
 		<web>http://miami.pm.org/</web>
-		<mailing_list>
-			<name>General Miami.pm discussion</name>
-			<email type="list">miami-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe miami-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe miami-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990131</date>
 	</group>
 	
@@ -1580,13 +1390,6 @@
 			<email type="personal">rhollister@iname.com</email>
 		</tsar>
 		<web>http://midlothian.pm.org/</web>
-		<mailing_list>
-			<name>General Midlothian.pm discussion</name>
-			<email type="list">midlothian-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe midlothian-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe midlothian-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
 	
@@ -1607,13 +1410,6 @@
 			<email type="personal">ccrandall77@yahoo.com</email>
 		</tsar>
 		<web>http://milwaukee.pm.org/</web>
-		<mailing_list>
-			<name>General Milwaukee.pm discussion</name>
-			<email type="list">milwaukee-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe milwaukee-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe milwaukee-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990607</date>
 	</group>
 	
@@ -1715,13 +1511,6 @@
 			<email type="personal">mohansun@hotmail.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Nashua.pm discussion</name>
-			<email type="list">nashua-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe nashua-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe nashua-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990120</date>
 	</group>
 	
@@ -1742,13 +1531,6 @@
 			<email type="personal">perl@dimp.com</email>
 		</tsar>
 		<web>http://nashville.pm.org/</web>
-		<mailing_list>
-			<name>General Nashville.pm discussion</name>
-			<email type="list">nashville-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe nashville-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe nashville-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
 	
@@ -1769,13 +1551,6 @@
 			<email type="personal">skitt@naisp.net</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General NorthAttleboro.pm discussion</name>
-			<email type="list">north-attleboro-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe north-attleboro-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe north-attleboro-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
 	
@@ -1823,13 +1598,6 @@
 			<email type="personal">paymerich@snet.net</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Norwalk.pm discussion</name>
-			<email type="list">norwalk-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe norwalk-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe norwalk-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990108</date>
 	</group>
 	
@@ -2041,13 +1809,6 @@
 			<email type="personal">virginia.wiswell@dowjones.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General PioneerValley.pm discussion</name>
-			<email type="list">pioneer-valley-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe pioneer-valley-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe pioneer-valley-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990515</date>
 	</group>
 	
@@ -2095,13 +1856,6 @@
 			<email type="personal">ewilhelm@cpan.org</email>
 		</tsar>
 		<web>http://portland.pm.org/</web>
-		<mailing_list>
-			<name>General Portland.pm discussion</name>
-			<email type="list">pdx-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe pdx-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe pdx-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990120</date>
 	</group>
 	
@@ -2122,13 +1876,6 @@
 			<email type="personal">alany@idiglobal.com</email>
 		</tsar>
 		<web>http://provo.pm.org/</web>
-		<mailing_list>
-			<name>General Provo.pm discussion</name>
-			<email type="list">provo-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe provo-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe provo-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
 	
@@ -2149,13 +1896,6 @@
 			<email type="personal">bradoaks@gmail.com</email>
 		</tsar>
 		<web>http://raleigh.pm.org/</web>
-		<mailing_list>
-			<name>General Raleigh.pm discussion</name>
-			<email type="list">raleigh-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe raleigh-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe raleigh-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19981008</date>
 	</group>
 	
@@ -2230,13 +1970,6 @@
 			<email type="personal">psionic@csh.rit.edu</email>
 		</tsar>
 		<web>http://rochester.pm.org/</web>
-		<mailing_list>
-			<name>General Rochester.pm discussion</name>
-			<email type="list">rochester-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe rochester-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe rochester-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19981013</date>
 	</group>
 	
@@ -2257,13 +1990,6 @@
 			<email type="personal">lane@wavecomputers.net</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Rolla.pm discussion</name>
-			<email type="list">rolla-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe rolla-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe rolla-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990311</date>
 	</group>
 	
@@ -2284,13 +2010,6 @@
 			<email type="personal">rcarrico@unlimited.net</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Sacramento.pm discussion</name>
-			<email type="list">sacramento-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe sacramento-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe sacramento-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990707</date>
 	</group>
 	
@@ -2338,13 +2057,6 @@
 			<email type="personal">del@downinit.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General SanBernardino.pm discussion</name>
-			<email type="list">san-bernardino-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe san-bernardino-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe san-bernardino-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990607</date>
 	</group>
 	
@@ -2365,13 +2077,6 @@
 			<email type="personal">rkleeman@energoncube.net</email>
 		</tsar>
 		<web>http://sandiego.pm.org/</web>
-		<mailing_list>
-			<name>General SanDiego.pm discussion</name>
-			<email type="list">san-diego-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe san-diego-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe san-diego-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990127</date>
 	</group>
 	
@@ -2419,13 +2124,6 @@
 			<email type="personal">perlgroup@one-click.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General SantaMaria.pm discussion</name>
-			<email type="list">santa-maria-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe santa-maria-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe santa-maria-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990331</date>
 	</group>
 	
@@ -2473,13 +2171,6 @@
 			<email type="personal">contact@info-wiz.com</email>
 		</tsar>
 		<web>http://sarasota.pm.org/</web>
-		<mailing_list>
-			<name>General Sarasota.pm discussion</name>
-			<email type="list">sarasota-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe sarasota-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe sarasota-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990607</date>
 	</group>
 	
@@ -2527,13 +2218,6 @@
 			<email type="personal">Alteredrel@aol.com</email>
 		</tsar>
 		<web>http://sherman-oaks.pm.org/</web>
-		<mailing_list>
-			<name>General ShermanOaks.pm discussion</name>
-			<email type="list">sherman-oaks-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe sherman-oaks-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe sherman-oaks-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990108</date>
 	</group>
 
@@ -2655,13 +2339,6 @@
 			<email type="personal">jtillman@bigfoot.com</email>
 		</tsar>
 		<web>http://tallahassee.pm.org/</web>
-		<mailing_list>
-			<name>General Tallahassee.pm discussion</name>
-			<email type="list">tallahassee-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe tallahassee-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe tallahassee-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990214</date>
 	</group>
 	
@@ -2682,13 +2359,6 @@
 			<email type="personal">perl@sherer.org</email>
 		</tsar>
 		<web>http://thousand-oaks.pm.org/</web>
-		<mailing_list>
-			<name>General ThousandOaks.pm discussion</name>
-			<email type="list">thousand-oaks-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe thousand-oaks-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe thousand-oaks-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990802</date>
 	</group>
 	
@@ -2861,13 +2531,6 @@
 			<email type="personal">lsaud@manaus.br</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Franca.pm discussion</name>
-			<email type="list">franca-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe franca-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe franca-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990802</date>
 	</group>
 	
@@ -2888,13 +2551,6 @@
 			<email type="personal">lima@farol.com.br</email>
 		</tsar>
 		<web>http://maceio.pm.org/</web>
-		<mailing_list>
-			<name>General Maceio.pm discussion</name>
-			<email type="list">maceio-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe maceio-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe maceio-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990515</date>
 	</group>
 	
@@ -2915,13 +2571,6 @@
 			<email type="personal">mguelfi@acm.org</email>
 		</tsar>
 		<web>http://montevideo.pm.org/</web>
-		<mailing_list>
-			<name>General Montevideo.pm discussion</name>
-			<email type="list">montevideo-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe montevideo-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe montevideo-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990120</date>
 	</group>
 	
@@ -2942,13 +2591,6 @@
 			<email type="personal">shonorio@gmail.com</email>
 		</tsar>
 		<web>http://sao-paulo.pm.org/</web>
-		<mailing_list>
-			<name>General SaoPaulo.pm discussion</name>
-			<email type="list">sao-paulo-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe sao-paulo-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe sao-paulo-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990802</date>
 	</group>
 	
@@ -3077,13 +2719,6 @@
 			<email type="personal">Craig.Webster1@Virgin.Net</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Bathgate.pm discussion</name>
-			<email type="list">bathgate-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe bathgate-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe bathgate-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990707</date>
 	</group>
 	
@@ -3104,13 +2739,6 @@
 			<email type="personal">tony@tmtm.com</email>
 		</tsar>
 		<web>http://belfast.pm.org/</web>
-		<mailing_list>
-			<name>General Belfast.pm discussion</name>
-			<email type="list">belfast-pm@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe belfast-pm email_address</subscribe>
-			<unsubscribe>unsubscribe belfast-pm email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990108</date>
 	</group>
 	
@@ -3151,13 +2779,6 @@
 			<email type="personal">trabalka@gurmania.sk</email>
 		</tsar>
 		<web>http://bratislava.pm.org/</web>
-		<mailing_list>
-			<name>General Bratislava.pm discussion</name>
-			<email type="list">bratislava-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe bratislava-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe bratislava-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990607</date>
 	</group>
 	
@@ -3205,13 +2826,6 @@
 			<email type="personal">gonzalo@aller.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Canarias.pm discussion</name>
-			<email type="list">canarias-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe canarias-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe canarias-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990515</date>
 	</group>
 	
@@ -3232,13 +2846,6 @@
 			<email type="personal">rory@employees.org</email>
 		</tsar>
 		<web>http://edinburgh.pm.org/</web>
-		<mailing_list>
-			<name>General Edinburgh.pm discussion</name>
-			<email type="list">edinburgh-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe edinburgh-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe edinburgh-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990707</date>
 	</group>
 	
@@ -3259,13 +2866,6 @@
 			<email type="personal">0105381p@student.gla.ac.uk</email>
 		</tsar>
 		<web>http://glasgow.pm.org/</web>
-		<mailing_list>
-			<name>General Glasgow.pm discussion</name>
-			<email type="list">glasgow-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe glasgow-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe glasgow-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990131</date>
 	</group>
 	
@@ -3306,13 +2906,6 @@
 			<email type="personal">si@iki.fi</email>
 		</tsar>
 		<web>http://helsinki.pm.org/</web>
-		<mailing_list>
-			<name>General Helsinki.pm discussion</name>
-			<email type="list">helsinki-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe helsinki-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe helsinki-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990115</date>
 	</group>
 	
@@ -3333,13 +2926,6 @@
 			<email type="personal">Kai.Jendrian@perl-mongers.de</email>
 		</tsar>
 		<web>http://karlsruhe.pm.org/</web>
-		<mailing_list>
-			<name>General Karlsruhe.pm discussion</name>
-			<email type="list">karlsruhe-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe karlsruhe-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe karlsruhe-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990311</date>
 	</group>
 	
@@ -3387,13 +2973,6 @@
 			<email type="personal">hoehne@hotpop.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Leipzig.pm discussion</name>
-			<email type="list">leipzig-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe leipzig-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe leipzig-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990331</date>
 	</group>
 	
@@ -3414,13 +2993,6 @@
 			<email type="personal">rondal@usa.net</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Liege.pm discussion</name>
-			<email type="list">liege-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe liege-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe liege-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990127</date>
 	</group>
 	
@@ -3441,13 +3013,6 @@
 			<email type="personal">foranp@tinet.ie</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Limerick.pm discussion</name>
-			<email type="list">limerick-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe limerick-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe limerick-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990214</date>
 	</group>
 	
@@ -3495,13 +3060,6 @@
 			<email type="personal">leader@london.pm.org</email>
 		</tsar>
 		<web>http://london.pm.org/</web>
-		<mailing_list>
-			<name>General London.pm discussion</name>
-			<email type="list">london.pm@london.pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe london-list</subscribe>
-			<unsubscribe>unsubscribe london-list</unsubscribe>
-		</mailing_list>
 		<date type="inception">19980716</date>
 	</group>
 	
@@ -3522,13 +3080,6 @@
 			<email type="personal">markus@eurolinux.net</email>
 		</tsar>
 		<web>http://lucerne.pm.org/</web>
-		<mailing_list>
-			<name>General Lucerne.pm discussion</name>
-			<email type="list">lucerne-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe lucerne-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe lucerne-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990515</date>
 	</group>
 	
@@ -3599,13 +3150,6 @@
 			<email type="personal">simon.oliver@umist.ac.uk</email>
 		</tsar>
 		<web>http://manchester.pm.org/</web>
-		<mailing_list>
-			<name>General Manchester.pm discussion</name>
-			<email type="list">manchester-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe manchester-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe manchester-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990707</date>
 	</group>
 	
@@ -3704,13 +3248,6 @@
 			<email type="personal">david@landgren.net</email>
 		</tsar>
 		<web>http://paris.pm.org/</web>
-		<mailing_list>
-			<name>General Paris.pm discussion</name>
-			<email type="list">paris-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe paris-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe paris-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990208</date>
 	</group>
 	
@@ -3751,13 +3288,6 @@
 			<email type="personal">dada@perl.it</email>
 		</tsar>
 		<web>http://roma.pm.org/</web>
-		<mailing_list>
-			<name>General Roma.pm discussion</name>
-			<email type="list">roma-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe roma-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe roma-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990131</date>
 	</group>
 	
@@ -3778,13 +3308,6 @@
 			<email type="personal">d.rietsch@prokom.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Salzburg.pm discussion</name>
-			<email type="list">salzburg-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe salzburg-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe salzburg-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990120</date>
 	</group>
 	
@@ -3805,13 +3328,6 @@
 			<email type="personal">toronb@atc.unican.es</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Santander.pm discussion</name>
-			<email type="list">santander-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe santander-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe santander-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
 	
@@ -3886,13 +3402,6 @@
 			<email type="personal">wass@algonet.se</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General StAnna.pm discussion</name>
-			<email type="list">st-anna-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe st-anna-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe st-anna-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990311</date>
 	</group>
 	
@@ -3940,13 +3449,6 @@
 			<email type="personal">dsi@xinit.se</email>
 		</tsar>
 		<web>http://sundsvall.pm.org/</web>
-		<mailing_list>
-			<name>General Sundsvall.pm discussion</name>
-			<email type="list">sundsvall-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe sundsvall-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe sundsvall-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
 	
@@ -4014,13 +3516,6 @@
 			<email type="personal">lenz@mypad.com</email>
 		</tsar>
 		<web>http://varese.pm.org/</web>
-		<mailing_list>
-			<name>General Varese.pm discussion</name>
-			<email type="list">varese-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe varese-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe varese-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990515</date>
 	</group>
 	
@@ -4150,13 +3645,6 @@
 			<email type="personal">dan.horne@redbone.co.nz</email>
 		</tsar>
 		<web>http://auckland.pm.org/</web>
-		<mailing_list>
-			<name>General Auckland.pm discussion</name>
-			<email type="list">auckland-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe auckland-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe auckland-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
 	
@@ -4177,13 +3665,6 @@
 			<email type="personal">djames@thehub.com.au</email>
 		</tsar>
 		<web>http://brisbane.pm.org/</web>
-		<mailing_list>
-			<name>General Brisbane.pm discussion</name>
-			<email type="list">brisbane-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe brisbane-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe brisbane-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990131</date>
 	</group>
 	
@@ -4204,13 +3685,6 @@
 			<email type="personal">kbelait@hotmail.com</email>
 		</tsar>
 		<web>http://brunei.pm.org/</web>
-		<mailing_list>
-			<name>General Brunei.pm discussion</name>
-			<email type="list">brunei-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe brunei-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe brunei-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990131</date>
 	</group>
 	
@@ -4305,13 +3779,6 @@
 			<email type="personal">afn19769@afn.org</email>
 		</tsar>
 		<web>http://sarawak.pm.org/</web>
-		<mailing_list>
-			<name>General Sarawak.pm discussion</name>
-			<email type="list">sarawak-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe sarawak-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe sarawak-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990131</date>
 	</group>
 	
@@ -4332,13 +3799,6 @@
 			<email type="personal">fred@skyinet.net</email>
 		</tsar>
 		<web>http://manila.pm.org/</web>
-		<mailing_list>
-			<name>General Manila.pm discussion</name>
-			<email type="list">manila-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe manila-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe manila-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990331</date>
 	</group>
 	
@@ -4386,13 +3846,6 @@
 			<email type="personal">editor@midcan.co.nz</email>
 		</tsar>
 		<web>http://new-zealand.pm.org/</web>
-		<mailing_list>
-			<name>General NewZealand.pm discussion</name>
-			<email type="list">new-zealand-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe new-zealand-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe new-zealand-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990127</date>
 	</group>
 	
@@ -4413,13 +3866,6 @@
 			<email type="personal">mpeh@xpression.net</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Penang.pm discussion</name>
-			<email type="list">penang-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe penang-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe penang-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990311</date>
 	</group>
 	
@@ -4440,13 +3886,6 @@
 			<email type="personal">newtons@iinet.net</email>
 		</tsar>
 		<web>http://perth.pm.org/</web>
-		<mailing_list>
-			<name>General Perth.pm discussion</name>
-			<email type="list">perth-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe perth-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe perth-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990127</date>
 	</group>
 	
@@ -4467,13 +3906,6 @@
 			<email type="personal">pm@vyxn.net</email>
 		</tsar>
 		<web>http://singapore.pm.org/</web>
-		<mailing_list>
-			<name>General Singapore.pm discussion</name>
-			<email type="list">singapore-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe singapore-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe singapore-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990120</date>
 	</group>
 	
@@ -4494,13 +3926,6 @@
 			<email type="personal">ed.pratomo@computer.org</email>
 		</tsar>
 		<web>http://semarang.pm.org/</web>
-		<mailing_list>
-			<name>General Semarang.pm discussion</name>
-			<email type="list">semarang-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe semarang-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe semarang-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990311</date>
 	</group>
 	
@@ -4521,13 +3946,6 @@
 			<email type="personal">stephen@sydney.pm.org</email>
 		</tsar>
 		<web>http://sydney.pm.org/</web>
-		<mailing_list>
-			<name>General Sydney.pm discussion</name>
-			<email type="list">sydney-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe sydney-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe sydney-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19981102</date>
 	</group>
 	
@@ -4568,13 +3986,6 @@
 			<email type="personal">rapichai@gmail.com</email>
 		</tsar>
 		<web>http://bangkok.pm.org/</web>
-		<mailing_list>
-			<name>General Bangkok.pm discussion</name>
-			<email type="list">bangkok-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe bangkok-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe bangkok-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
 	
@@ -4595,13 +4006,6 @@
 			<email type="personal">simon@itc.com.cn</email>
 		</tsar>
 		<web>http://beijing.pm.org/</web>
-		<mailing_list>
-			<name>General Beijing.pm discussion</name>
-			<email type="list">beijing-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe beijing-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe beijing-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990214</date>
 	</group>
 	
@@ -4622,13 +4026,6 @@
 			<email type="personal">cnb@softhome.net</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Bombay.pm discussion</name>
-			<email type="list">bombay-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe bombay-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe bombay-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
 	
@@ -4676,13 +4073,6 @@
 			<email type="personal">lenin_66@hotmail.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Chennai.pm discussion</name>
-			<email type="list">chennai-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe chennai-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe chennai-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990108</date>
 	</group>
 	
@@ -4750,13 +4140,6 @@
 			<email type="personal">vsats@hotmail.com</email>
 		</tsar>
 		<web>http://islamabad.pm.org/</web>
-		<mailing_list>
-			<name>General Islamabad.pm discussion</name>
-			<email type="list">islamabad-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe islamabad-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe islamabad-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990214</date>
 	</group>
 	
@@ -4804,13 +4187,6 @@
 			<email type="personal">akasaka@mx.biwa.ne.jp</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Kyoto.pm discussion</name>
-			<email type="list">kyoto-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe kyoto-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe kyoto-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
 	
@@ -4831,13 +4207,6 @@
 			<email type="personal">aalhad@gmail.com</email>
 		</tsar>
 		<web>http://pune.pm.org/</web>
-		<mailing_list>
-			<name>General Pune.pm discussion</name>
-			<email type="list">pune-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe pune-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe pune-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
 	
@@ -4858,13 +4227,6 @@
 			<email type="personal">lftian@public2.sta.net.cn</email>
 		</tsar>
 		<web>http://shanghai.pm.org/</web>
-		<mailing_list>
-			<name>General Shanghai.pm discussion</name>
-			<email type="list">shanghai-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe shanghai-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe shanghai-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990108</date>
 	</group>
 	
@@ -4885,13 +4247,6 @@
 			<email type="personal">maeda@jus.or.jp</email>
 		</tsar>
 		<web>http://tokyo.pm.org/</web>
-		<mailing_list>
-			<name>General Tokyo.pm discussion</name>
-			<email type="list">tokyo-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe tokyo-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe tokyo-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990111</date>
 	</group>
 	
@@ -4912,13 +4267,6 @@
 			<email type="personal">jammy@371.net</email>
 		</tsar>
 		<web>http://zhenzhou.pm.org/</web>
-		<mailing_list>
-			<name>General Zhengzhou.pm discussion</name>
-			<email type="list">zhengzhou-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe zhengzhou-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe zhengzhou-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990131</date>
 	</group>
 	
@@ -4958,13 +4306,6 @@
 			<email type="personal">szabgab@gmail.com</email>
 		</tsar>
 		<web>http://israel.pm.org/</web>
-		<mailing_list>
-			<name>General Israel.pm discussion</name>
-			<email type="list">israel-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe israel-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe israel-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990119</date>
 	</group>
 	
@@ -4985,13 +4326,6 @@
 			<email type="personal">Jaime.Prilusky@weizmann.ac.il</email>
 		</tsar>
 		<web>http://rehovot.pm.org/</web>
-		<mailing_list>
-			<name>General Rehovot.pm discussion</name>
-			<email type="list">rehovot-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe rehovot-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe rehovot-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990311</date>
 	</group>
 	
@@ -5039,13 +4373,6 @@
 			<email type="personal">jacm@ip.pt</email>
 		</tsar>
 		<web>http://algarve.pm.org/</web>
-		<mailing_list>
-			<name>General Algarve.pm discussion</name>
-			<email type="list">algarve-pm@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe algarve-pm-list</subscribe>
-			<unsubscribe>unsubscribe algarve-pm-list</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990914</date>
 	</group>
 
@@ -5066,13 +4393,6 @@
 			<email type="personal">perl@tilian.co.uk</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Reading.pm discussion</name>
-			<email type="list">reading-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe reading-pm-list</subscribe>
-			<unsubscribe>unsubscribe reading-pm-list</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990914</date>
 	</group>
 	
@@ -5093,13 +4413,6 @@
 			<email type="personal">pete@clueball.com</email>
 		</tsar>
 		<web>http://oxford.pm.org/</web>
-		<mailing_list>
-			<name>General Oxford.pm discussion</name>
-			<email type="list">oxford-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe oxford-pm-list</subscribe>
-			<unsubscribe>unsubscribe oxford-pm-list</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990914</date>
 	</group>	
 	
@@ -5120,13 +4433,6 @@
 			<email type="personal">jdevlin@nwnexus.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Tacoma.pm discussion</name>
-			<email type="list">tacoma-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe tacoma-pm-list</subscribe>
-			<unsubscribe>unsubscribe tacoma-pm-list</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990914</date>
 	</group>	
 	
@@ -5147,13 +4453,6 @@
 			<email type="personal">jgarrett@ccnet.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General WalnutCreek.pm discussion</name>
-			<email type="list">walnut-creek-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe walnut-creek-pm-list</subscribe>
-			<unsubscribe>unsubscribe walnut-creek-pm-list</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990914</date>
 	</group>
 
@@ -5174,13 +4473,6 @@
 			<email type="personal">perl@imchat.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Lawton.pm discussion</name>
-			<email type="list">lawton-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe lawton-pm-list</subscribe>
-			<unsubscribe>unsubscribe lawton-pm-list</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990914</date>
 	</group>
 
@@ -5201,13 +4493,6 @@
 			<email type="personal">gvoit@cyber-ville.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Sussex.pm discussion</name>
-			<email type="list">sussex-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe sussex-pm-list</subscribe>
-			<unsubscribe>unsubscribe sussex-pm-list</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990914</date>
 	</group>
 
@@ -5228,13 +4513,6 @@
 			<email type="personal">HancockDC@missouri.edu</email>
 		</tsar>
 		<web>http://columbia.pm.org/</web>
-		<mailing_list>
-			<name>General Columbia.pm discussion</name>
-			<email type="list">columbia-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe columbia-pm-list</subscribe>
-			<unsubscribe>unsubscribe columbia-pm-list</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990914</date>
 	</group>
 
@@ -5282,13 +4560,6 @@
 			<email type="personal">yaowe@hotmail.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Taipe.pm discussion</name>
-			<email type="list">taipe-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe taipe-pm-list</subscribe>
-			<unsubscribe>unsubscribe taipe-pm-list</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990914</date>
 	</group>
 
@@ -5309,13 +4580,6 @@
 			<email type="personal">seoulpm@okclub.com</email>
 		</tsar>
 		<web>http://seoul.pm.org/</web>
-		<mailing_list>
-			<name>General Seoul.pm discussion</name>
-			<email type="list">seoul-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe seoul-pm-list</subscribe>
-			<unsubscribe>unsubscribe seoul-pm-list</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990914</date>
 	</group>
 
@@ -5336,13 +4600,6 @@
 			<email type="personal">michael_tong@263.net</email>
 		</tsar>
 		<web>http://peking.pm.org/</web>
-		<mailing_list>
-			<name>General Peking.pm discussion</name>
-			<email type="list">peking-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe peking-pm-list</subscribe>
-			<unsubscribe>unsubscribe peking-pm-list</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990914</date>
 	</group>
 
@@ -5417,13 +4674,6 @@
 		    <email type="personal">elaine@chaos.wustl.edu</email>
 		</tsar>
 		<web>http://marsneedswomen.pm.org/</web>
-		<mailing_list>
-			<name>General Annapolis.pm discussion</name>
-			<email type="list">marsneedswomen@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe marsneedswomen email_address</subscribe>
-			<unsubscribe>unsubscribe marsneedswomen email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19980930</date>
 	</group>
 	
@@ -5444,13 +4694,6 @@
 			<email type="personal">murry-mmm@softhome.net</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Sofia.pm discussion</name>
-			<email type="list">sofia-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe sofia-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe sofia-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
 
@@ -5525,13 +4768,6 @@
 			<email type="personal">griffinc@ameritech.net</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Aurora.pm discussion</name>
-			<email type="list">aurora-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe aurora-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe aurora-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
 
@@ -5552,13 +4788,6 @@
 			<email type="personal">gehorne@westvaco.com</email>
 		</tsar>
 		<web>http://charleston.pm.org/</web>
-		<mailing_list>
-			<name>General Charleston.pm discussion</name>
-			<email type="list">charleston-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe charleston-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe charleston-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
 
@@ -5634,13 +4863,6 @@
 			<email type="personal">pablo@dosomething.org</email>
 		</tsar>
 		<web>http://tempe.pm.org</web>
-		<mailing_list>
-			<name>General Tempe.pm discussion</name>
-			<email type="list">tempe-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe tempe-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe tempe-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
 
@@ -5661,13 +4883,6 @@
 			<email type="personal">ywlee@honam.honam.ac.kr</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Kwangju.pm discussion</name>
-			<email type="list">kwangju-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe kwangju-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe kwangju-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
 
@@ -5742,13 +4957,6 @@
 			<email type="personal">jhall@perigee.net</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Monroe.pm discussion</name>
-			<email type="list">monroe-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe monroe-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe monroe-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
 	
@@ -5843,13 +5051,6 @@
 			<email type="personal">initium@toldyouso.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Peoria.pm discussion</name>
-			<email type="list">peoria-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe peoria-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe peoria-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
 	
@@ -5963,13 +5164,6 @@
 			<email type="personal">nagaraju.k@mailcity.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Hyderabad.pm discussion</name>
-			<email type="list">hyderabad-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe hyderabad-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe hyderabad-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
 
@@ -6017,13 +5211,6 @@
 			<email type="personal">mark@purdue.edu</email>
 		</tsar>
 		<web>http://purdue.pm.org/</web>
-		<mailing_list>
-			<name>General Purdue.pm discussion</name>
-			<email type="list">purdue-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe purdue-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe purdue-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
 	
@@ -6044,13 +5231,6 @@
 			<email type="personal">m1024@hotmail.com</email>
 		</tsar>
 		<web>http://canton.pm.org/</web>
-		<mailing_list>
-			<name>General Canton.pm discussion</name>
-			<email type="list">canton-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe canton-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe canton-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
 
@@ -6071,13 +5251,6 @@
 			<email type="personal">perl@myobj.com</email>
 		</tsar>
 		<web>http://frankfurt-pm.org/</web>
-		<mailing_list>
-			<name>General Frankfurt.pm discussion</name>
-			<email type="list">frankfurt-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe frankfurt-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe frankfurt-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
 
@@ -6152,13 +5325,6 @@
 			<email type="personal">chicks@chicks.net</email>
 		</tsar>
 		<web>http://norfolk.pm.org/</web>
-		<mailing_list>
-			<name>General Norfolk.pm discussion</name>
-			<email type="list">norfolk-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe norfolk-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe norfolk-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
 
@@ -6179,13 +5345,6 @@
 			<email type="personal">tjmoore@racesearch.com</email>
 		</tsar>
 		<web>http://www.racesearch.com/Developer.html</web>
-		<mailing_list>
-			<name>General CostaMesa.pm discussion</name>
-			<email type="list">costa-mesa-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe costa-mesa-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe costa-mesa-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
 
@@ -6233,13 +5392,6 @@
 			<email type="personal">jont@perl4u.demon.co.uk</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General WestMidlands.pm discussion</name>
-			<email type="list">west-midlands-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe west-midlands-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe west-midlands-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
 
@@ -6260,13 +5412,6 @@
 			<email type="personal">jqs@qad.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General SantaBarbara.pm discussion</name>
-			<email type="list">santabarbara-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe santabarbara-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe santabarbara-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000116</date>
 	</group>
 
@@ -6287,13 +5432,6 @@
 			<email type="personal">xuan@microtecweb.com</email>
 		</tsar>
 		<web>http://hanoi.pm.org/</web>
-		<mailing_list>
-			<name>General Hanoi.pm discussion</name>
-			<email type="list">hanoi-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe hanoi-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe hanoi-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000116</date>
 	</group>
 
@@ -6342,13 +5480,6 @@
 			<email type="personal">r.siano@interactivework.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Milano.pm discussion</name>
-			<email type="list">milano-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe milano-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe milano-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000116</date>
 	</group>
 
@@ -6369,13 +5500,6 @@
 			<email type="personal">nnickee@nnickee.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General SanMarcos.pm discussion</name>
-			<email type="list">sanmarcos-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe sanmarcos-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe sanmarcos-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000116</date>
 	</group>
 
@@ -6396,13 +5520,6 @@
 			<email type="personal">aytekin@bridgeport.edu</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Stamford.pm discussion</name>
-			<email type="list">stamford-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe stamford-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe stamford-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000116</date>
 	</group>
 
@@ -6423,13 +5540,6 @@
 			<email type="personal">wieland@k-town.de</email>
 		</tsar>
 		<web>http://www.perl-stammtisch.de/</web>
-		<mailing_list>
-			<name>General Pirmasens.pm discussion</name>
-			<email type="list">pirmasens-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe pirmasens-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe pirmasens-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000116</date>
 	</group>
 
@@ -6450,13 +5560,6 @@
 			<email type="personal">ravn@unixsnedkeren.dk</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Odense.pm discussion</name>
-			<email type="list">odense-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe odense-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe odense-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000116</date>
 	</group>
 
@@ -6477,13 +5580,6 @@
 			<email type="personal">dutch0@mail.ru</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Tyumen.pm discussion</name>
-			<email type="list">tyumen-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe tyumen-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe tyumen-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000116</date>
 	</group>
 
@@ -6504,13 +5600,6 @@
 			<email type="personal">sadness@gmx.com.tr</email>
 		</tsar>
 		<web>http://bursa.pm.org/</web>
-		<mailing_list>
-			<name>General Bursa.pm discussion</name>
-			<email type="list">bursa-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe bursa-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe bursa-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000116</date>
 	</group>
 
@@ -6551,13 +5640,6 @@
 			<email type="personal">radu@netsoft.ro</email>
 		</tsar>
 		<web>http://bunny.netsoft.ro/</web>
-		<mailing_list>
-			<name>General TirguMures.pm discussion</name>
-			<email type="list">tirgumures-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe tirgumures-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe tirgumures-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000116</date>
 	</group>
 
@@ -6578,13 +5660,6 @@
 			<email type="personal">rlandrum@capitoladvantage.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Fairfax.pm discussion</name>
-			<email type="list">fairfax-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe fairfax-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe fairfax-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000116</date>
 	</group>
 
@@ -6605,13 +5680,6 @@
 			<email type="personal">swayan@symonds.net</email>
 		</tsar>
 		<web>http://calcutta.pm.org/</web>
-		<mailing_list>
-			<name>General Calcutta.pm discussion</name>
-			<email type="list">calcutta-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe calcutta-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe calcutta-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000116</date>
 	</group>
 
@@ -6659,13 +5727,6 @@
 			<email type="personal">valkaryn@hotmail.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General NewportBeach.pm discussion</name>
-			<email type="list">newportbeach-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe newportbeach-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe newportbeach-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000116</date>
 	</group>
 
@@ -6706,13 +5767,6 @@
 			<email type="personal">tremblaym@cybertronik.qc.ca</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General QuebecCity.pm discussion</name>
-			<email type="list">quebeccity-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe quebeccity-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe quebeccity-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000116</date>
 	</group>
 
@@ -6733,13 +5787,6 @@
 			<email type="personal">antunes@student.dei.uc.pt</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Coimbra.pm discussion</name>
-			<email type="list">coimbra-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe coimbra-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe coimbra-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000227</date>
 	</group>
 
@@ -6760,13 +5807,6 @@
 			<email type="personal">kwitknr@cpan.org</email>
 		</tsar>
 		<web>http://kansai.pm.org/</web>
-		<mailing_list>
-			<name>General Kansai.pm discussion</name>
-			<email type="list">kansai-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe kansai-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe kansai-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000227</date>
 	</group>
 
@@ -6787,13 +5827,6 @@
 			<email type="personal">napavalley.pm@creason.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General NapaValley.pm discussion</name>
-			<email type="list">napavalley-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe napavalley-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe napavalley-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000227</date>
 	</group>
 
@@ -6814,13 +5847,6 @@
 			<email type="personal">arva@cshl.edu</email>
 		</tsar>
 		<web>http://iasi.pm.org/</web>
-		<mailing_list>
-			<name>General Iasi.pm discussion</name>
-			<email type="list">iasi-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe iasi-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe iasi-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000227</date>
 	</group>
 
@@ -6841,13 +5867,6 @@
 			<email type="personal">pm@lapsan.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General CedarFalls.pm discussion</name>
-			<email type="list">cedarfalls-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe cedarfalls-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe cedarfalls-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000227</date>
 	</group>
 
@@ -6868,13 +5887,6 @@
 			<email type="personal">source@gmx.net</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Collogne.pm discussion</name>
-			<email type="list">collogne-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe collogne-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe collogne-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000227</date>
 	</group>
 
@@ -6895,13 +5907,6 @@
 			<email type="personal">bsides@towery.com</email>
 		</tsar>
 		<web>http://memphis.pm.org/</web>
-		<mailing_list>
-			<name>General Memphis.pm discussion</name>
-			<email type="list">memphis-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe memphis-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe memphis-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000227</date>
 	</group>
 
@@ -6970,13 +5975,6 @@
 			<email type="personal">christopher_sagx@yahoo.com</email>
 		</tsar>
 		<web>http://madras.pm.org/</web>
-		<mailing_list>
-			<name>General Madras.pm discussion</name>
-			<email type="list">madras-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe madras-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe madras-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000227</date>
 	</group>
 
@@ -6997,13 +5995,6 @@
 			<email type="personal">barc@netdud.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Burnaby.pm discussion</name>
-			<email type="list">burnaby-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe burnaby-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe burnaby-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000227</date>
 	</group>
 
@@ -7024,13 +6015,6 @@
 			<email type="personal">jmerelo@geneura.ugr.es</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Granada.pm discussion</name>
-			<email type="list">granada-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe granada-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe granada-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000317</date>
 	</group>
 
@@ -7051,13 +6035,6 @@
 			<email type="personal">perlmonger@senecac.on.ca</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Seneca.pm discussion</name>
-			<email type="list">seneca-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe seneca-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe seneca-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000317</date>
 	</group>
 
@@ -7078,13 +6055,6 @@
 			<email type="personal">JR-Dalcher@wiu.edu</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Pekin.pm discussion</name>
-			<email type="list">pekin-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe pekin-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe pekin-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000317</date>
 	</group>
 
@@ -7105,13 +6075,6 @@
 			<email type="personal">michaelk@nowonder.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Tiffin.pm discussion</name>
-			<email type="list">tiffin-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe tiffin-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe tiffin-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000317</date>
 	</group>
 
@@ -7132,13 +6095,6 @@
 			<email type="personal">dave@davew.com</email>
 		</tsar>
 		<web>http://plymouth.pm.org/</web>
-		<mailing_list>
-			<name>General Plymouth.pm discussion</name>
-			<email type="list">plymouth-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe plymouth-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe plymouth-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000317</date>
 	</group>
 
@@ -7159,13 +6115,6 @@
 			<email type="personal">amitpagarwal@hotmail.com</email>
 		</tsar>
 		<web></web>
-		<mailing_list>
-			<name>General Agra.pm discussion</name>
-			<email type="list">agra-pm@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe agra-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe agra-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20000317</date>
 	</group>
 
@@ -9177,13 +8126,6 @@
 			<email type="personal">perlmongers@catalyst.net.nz</email>
 		</tsar>
 		<web>http://wellington.pm.org/</web>
-		<mailing_list>
-			<name>General Wellington Perl Mongers discussion</name>
-			<email type="list">wellington-pm-list@pm.org</email>
-			<email type="list_admin">majordomo@pm.org</email>
-			<subscribe>subscribe wellington-pm-list email_address</subscribe>
-			<unsubscribe>unsubscribe wellington-pm-list email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20010317</date>
 	</group>
 
@@ -15795,7 +14737,8 @@
                 <mailing_list>
                         <name>General Geneva Perl Mongueurs discussion</name>
                         <email type="list">geneve@mongueurs.net</email>
-                        <email tpye="list_admin">majordomo@mongueurs.net</email>                        <subscribe>subscribe geneve email_address</subscribe>
+                        <email tpye="list_admin">majordomo@mongueurs.net</email>
+                        <subscribe>subscribe geneve email_address</subscribe>
                         <unsubscribe>unsubscribe geneve email_address</unsubscribe>
                 </mailing_list>
          </group>
