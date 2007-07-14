@@ -5147,23 +5147,22 @@
 		<date type="inception">19991024</date>
 	</group>
 
-	<group id="236">
+	<group id="236" status="active">
 		<name>Hyderabad.pm</name>
 		<location>
 			<city>Hyderabad</city>
-			<state></state>
+			<state>Andhra Pradesh</state>
 			<region></region>
 			<country>India</country>
 			<continent>Asia</continent>
-			<longitude>78.4998</longitude>
-			<latitude>17.4405</latitude>
+			<longitude>78.467</longitude>
+			<latitude>17.383</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>nagaraju</name>
-			<email type="personal">nagaraju.k@mailcity.com</email>
+			<name>Nagaraju Kancherla</name>
+			<email type="personal">wingsof5r@gmail.com</email>
 		</tsar>
-		<web></web>
+		<web>http://hyderabad.pm.org/</web>
 		<date type="inception">19991024</date>
 	</group>
 
@@ -5770,7 +5769,7 @@
 		<date type="inception">20000116</date>
 	</group>
 
-	<group id="270">
+	<group id="270" status="active">
 		<name>Coimbra.pm</name>
 		<location>
 			<city>Coimbra</city>
@@ -5778,15 +5777,14 @@
 			<region></region>
 			<country>Portugal</country>
 			<continent>Europe</continent>
-			<longitude>-8.429599</longitude>
-			<latitude>40.2045</latitude>
+			<longitude>-8.4167</longitude>
+			<latitude>40.2000</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Nuno Antunes</name>
-			<email type="personal">antunes@student.dei.uc.pt</email>
+			<name>Filipe Dutra</name>
+			<email type="personal">filipe.dutra@gmail.com</email>
 		</tsar>
-		<web></web>
+		<web>http://coimbra.pm.org</web>
 		<date type="inception">20000227</date>
 	</group>
 
