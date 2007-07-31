@@ -5777,8 +5777,8 @@
 			<region></region>
 			<country>Portugal</country>
 			<continent>Europe</continent>
-			<longitude>-8.4167</longitude>
-			<latitude>40.2000</latitude>
+			<longitude>-8.41</longitude>
+			<latitude>40.20</latitude>
 		</location>
 		<tsar>
 			<name>Filipe Dutra</name>
@@ -15771,7 +15771,7 @@
                         <city>Ithaca</city>
                         <state>NY</state>
                         <region>northeast USA</region>
-                        <country>USA</country>
+                        <country>United States of America</country>
                         <continent>North America</continent>
                         <longitude>-76.47</longitude>
                         <latitude>42.48</latitude>
@@ -15797,7 +15797,7 @@
                         <city>The Woodlands</city>
                         <state>Texas</state>
                         <region></region>
-                        <country>USA</country>
+                        <country>United States of America</country>
                         <continent>North America</continent>
                         <longitude>95.47</longitude>
                         <latitude>30.15</latitude>
@@ -15816,7 +15816,7 @@
                         <city>Reading</city>
                         <state>Berkshire/South Oxfordshire</state>
                         <region>Thames Valley</region>
-                        <country>UK</country>
+                        <country>United Kingdom</country>
                         <continent>Europe</continent>
                         <longitude>-0.97</longitude>
                         <latitude>51.41</latitude>
