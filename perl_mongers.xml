@@ -15829,5 +15829,24 @@
                 <date type="inception">20070708</date>
         </group>
 
+        <group id="707" status="active">
+                <name>Kochi.pm</name>
+                <location>
+                        <city>Kochi</city>
+                        <state>Kerala</state>
+                        <region></region>
+                        <country>India</country>
+                        <continent>Asia</continent>
+                        <longitude>76.23333</longitude>
+                        <latitude>9.96667</latitude>
+                </location>
+                <tsar>
+                        <name>Varghese Chacko</name>
+                        <email type="personal">varghese.c@gmail.com</email>
+                </tsar>
+                <web>http://kochi.pm.org</web>
+                <date type="inception">20070814</date>
+        </group>
+
 </perl_mongers>
 
