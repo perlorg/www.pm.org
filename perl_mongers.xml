@@ -12755,18 +12755,18 @@
 	<group id="554" status="active">
 		<name>Saarland.pm</name>
 		<location>
-			<city>Saarbr&uuml;cken</city>
+			<city>Mandelbachtal</city>
 			<state>Saarland</state>
 			<region></region>
 			<country>Germany</country>
 			<continent>Europe</continent>
-			<longitude>6.967</longitude>
-			<latitude>49.400</latitude>
+			<longitude>6.996145</longitude>
+			<latitude>49.233124</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Andreas Petto</name>
-			<email type="personal">andreas.petto@gmx.de</email>
+			<name>Martin von Oertzen</name>
+			<email type="personal">maletin@cpan.org</email>
 		</tsar>
 		<web>http://saarland.pm.org/</web>
 		<mailing_list>
