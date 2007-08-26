@@ -13261,17 +13261,10 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Christian Renz</name>
-			<email type="personal">crenz@web42.com</email>
+			<name>Rolf Schaufelberger</name>
+			<email type="personal">rs@plusw.de</email>
 		</tsar>
 		<web>http://stuttgart.pm.org/</web>
-		<mailing_list>
-			<name>General Stuttgart Perl Mongers discussion</name>
-			<email type="list">stuttgart-pm@pm.org</email>
-			<email type="list_admin">crenz@web42.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20030628</date>
 	</group>
 
@@ -15846,6 +15839,25 @@
                 </tsar>
                 <web>http://kochi.pm.org</web>
                 <date type="inception">20070814</date>
+        </group>
+
+        <group id="708" status="active">
+                <name>Monterrey.pm</name>
+                <location>
+                        <city>Monterrey</city>
+                        <state>Nuevo Leon</state>
+                        <region>Latin America</region>
+                        <country>Mexico</country>
+                        <continent>North America</continent>
+                        <longitude>-100.3</longitude>
+                        <latitude>25.6666</latitude>
+                </location>
+                <tsar>
+                        <name>Jose Mtanous</name>
+                        <email type="personal">pm@mtanous.com</email>
+                </tsar>
+                <web>http://monterrey.pm.org</web>
+                <date type="inception">20070826</date>
         </group>
 
 </perl_mongers>
