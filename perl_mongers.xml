@@ -2762,21 +2762,20 @@
 		<date type="inception">19990331</date>
 	</group>
 	
-	<group id="121">
+	<group id="121" status="active">
 		<name>Bratislava.pm</name>
 		<location>
 			<city>Bratislava</city>
 			<state></state>
 			<region></region>
-			<country>Slovakia</country>
+			<country>Slovak Republic</country>
 			<continent>Europe</continent>
-			<longitude>17.117</longitude>
-			<latitude>48.150</latitude>
+			<longitude>17.112778</longitude>
+			<latitude>48.144722</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Marek Trabalka</name>
-			<email type="personal">trabalka@gurmania.sk</email>
+			<name>Jozef Kutej</name>
+			<email type="personal">jozef@kutej.net</email>
 		</tsar>
 		<web>http://bratislava.pm.org/</web>
 		<date type="inception">19990607</date>
@@ -8053,30 +8052,22 @@
 		<date type="inception">20010313</date>
 	</group>
 
-	<group id="368" status="mlb">
+	<group id="368" status="active">
 		<name>Leeds.pm</name>
 		<location>
 			<city>Leeds</city>
-			<state></state>
-			<region>West Yorkshire</region>
+			<state>West Yorkshire</state>
+			<region></region>
 			<country>United Kingdom</country>
 			<continent>Europe</continent>
-                        <longitude>-1.583</longitude>
-                        <latitude>53.833</latitude>
+                        <longitude>-1</longitude>
+                        <latitude>53.9</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Elliot Bowes</name>
-			<email type="personal">elliotb@madasafish.com</email>
+			<name>Charles Colbourn</name>
+			<email type="personal">charles.colbourn@googlemail.com</email>
 		</tsar>
 		<web>http://leeds.pm.org/</web>
-		<mailing_list>
-			<name>General Leeds Perl Mongers discussion</name>
-			<email type="list">leeds-pm@pm.org</email>
-			<email type="list_admin">elliotb@madasafish.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20010313</date>
 	</group>
 
