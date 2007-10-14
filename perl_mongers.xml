@@ -2659,7 +2659,6 @@
 			<longitude>2.183</longitude>
 			<latitude>41.383</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Lou Hevly</name>
 			<email type="personal">lou@visca.com</email>
@@ -2683,22 +2682,14 @@
 			<region>England</region>
 			<country>United Kingdom</country>
 			<continent>Europe</continent>
-			<longitude>-2.355399</longitude>
-			<latitude>51.3828</latitude>
+			<longitude>-2.22</longitude>
+			<latitude>51.23</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Dave Hodgkinson</name>
-			<email type="personal">daveh@davehodgkinson.com</email>
+			<name>Lyle Hopkins</name>
+			<email type="personal">webmaster@cosmicperl.com</email>
 		</tsar>
 		<web>http://bath.pm.org/</web>
-		<mailing_list>
-			<name>General Bath.pm discussion</name>
-			<email type="list">bath-pm@pm.org</email>
-			<email type="list_admin">bath-pm-admin@pm.org</email>
-			<subscribe>subscribe bath-pm email_address</subscribe>
-			<unsubscribe>unsubscribe bath-pm- email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19990101</date>
 	</group>
 	
@@ -2713,7 +2704,6 @@
 			<longitude>-3.633</longitude>
 			<latitude>55.900</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Craig Webster</name>
 			<email type="personal">Craig.Webster1@Virgin.Net</email>
@@ -2781,7 +2771,7 @@
 		<date type="inception">19990607</date>
 	</group>
 	
-	<group id="122" status="leb">
+	<group id="122" status="active">
 		<name>Bristol.pm</name>
 		<location>
 			<city>Bristol</city>
@@ -2789,22 +2779,14 @@
 			<region>England</region>
 			<country>United Kingdom</country>
 			<continent>Europe</continent>
-			<longitude>-2.5838</longitude>
-			<latitude>51.4446</latitude>
+			<longitude>-2.35</longitude>
+			<latitude>51.26</latitude>
 		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Andy Osborne</name>
-			<email type="personal">andy@sift.co.uk</email>
-		</tsar>
+                <tsar>
+                        <name>Lyle Hopkins</name>
+                        <email type="personal">webmaster@cosmicperl.com</email>
+                </tsar>
 		<web>http://bristol.pm.org/</web>
-		<mailing_list>
-			<name>General Bristol.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">19990124</date>
 	</group>
 	
@@ -15068,8 +15050,8 @@
                 </location>
                 <email type="group"></email>
                 <tsar>
-                        <name>Francisco Cabrita</name>
-                        <email type="personal">francisco@nortenet.pt</email>
+                        <name>Luis Azevedo</name>
+                        <email type="personal">braceta@sapo.pt</email>
                 </tsar>
                 <web>http://viana.pm.org</web>
                 <date type="inception">20050728</date>
