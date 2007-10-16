@@ -2682,8 +2682,8 @@
 			<region>England</region>
 			<country>United Kingdom</country>
 			<continent>Europe</continent>
-			<longitude>-2.22</longitude>
-			<latitude>51.23</latitude>
+			<longitude>-2.36206</longitude>
+			<latitude>51.38550</latitude>
 		</location>
 		<tsar>
 			<name>Lyle Hopkins</name>
@@ -2779,8 +2779,8 @@
 			<region>England</region>
 			<country>United Kingdom</country>
 			<continent>Europe</continent>
-			<longitude>-2.35</longitude>
-			<latitude>51.26</latitude>
+			<longitude>-2.59277</longitude>
+			<latitude>51.44716</latitude>
 		</location>
                 <tsar>
                         <name>Lyle Hopkins</name>
@@ -8042,8 +8042,8 @@
 			<region></region>
 			<country>United Kingdom</country>
 			<continent>Europe</continent>
-                        <longitude>-1</longitude>
-                        <latitude>53.9</latitude>
+                        <longitude>-1.56006</longitude>
+                        <latitude>53.79741</latitude>
 		</location>
 		<tsar>
 			<name>Charles Colbourn</name>
@@ -9134,8 +9134,8 @@
 			<region></region>
 			<country>United Kingdom</country>
 			<continent>Europe</continent>
-                        <longitude>-2.3667</longitude>
-                        <latitude>51.7333</latitude>
+                        <longitude>0.12634</longitude>
+                        <latitude>52.19077</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
