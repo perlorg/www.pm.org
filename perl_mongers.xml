@@ -15832,6 +15832,24 @@
                 <web>http://monterrey.pm.org</web>
                 <date type="inception">20070826</date>
         </group>
+        <group id="709" status="active">
+                <name>Tomar.pm</name>
+                <location>
+                        <city>Tomar</city>
+                        <state>Ribatejo</state>
+                        <region></region>
+                        <country>Portugal</country>
+                        <continent>Europe</continent>
+                        <longitude>-8.422393798828125</longitude>
+                        <latitude>39.59828141820854</latitude>
+                </location>
+                <tsar>
+                        <name>Mário Silva</name>
+                        <email type="personal">marricardo@gmail.com</email>
+                </tsar>
+                <web>http://tomar.pm.org</web>
+                <date type="inception">20071029</date>
+        </group>
 
 </perl_mongers>
 
