@@ -236,7 +236,7 @@
 	<group id="6" status="active">
 		<name>AOL.pm</name>
 		<location>
-			<city>Reston</city>
+			<city>Dulles</city>
 			<state>Virginia</state>
 			<region></region>
 			<country>United States of America</country>
@@ -247,16 +247,9 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Les Peters</name>
-			<email type="personal">lpeters@aol.net</email>
+			<email type="personal">les.peters+perl@gmail.com</email>
 		</tsar>
 		<web>http://aol.pm.org/</web>
-		<mailing_list>
-			<name>General AOL.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">19981102</date>
 	</group>
 	
@@ -3554,30 +3547,22 @@
 		<date type="inception">19990707</date>
 	</group>
 	
-	<group id="161">
+	<group id="161" status="active">
 		<name>Zagreb.pm</name>
 		<location>
 			<city>Zagreb</city>
 			<state></state>
 			<region></region>
-			<country>Croatia</country>
+			<country>Hrvatska (Croatia)</country>
 			<continent>Europe</continent>
-			<longitude>16</longitude>
-			<latitude>45.8</latitude>
+			<longitude>15.96211</longitude>
+			<latitude>45.79981</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Ivan Stojic</name>
-			<email type="personal">ivans@mioc.hr</email>
+			<name>Igor Rumiha</name>
+			<email type="personal">igorrumiha@gmail.com</email>
 		</tsar>
-		<web></web>
-		<mailing_list>
-			<name>General Zagreb.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
+		<web>http://zagreb.pm.org</web>
 		<date type="inception">19990311</date>
 	</group>
 	
@@ -15850,6 +15835,25 @@
                 <web>http://tomar.pm.org</web>
                 <date type="inception">20071029</date>
         </group>
+        <group id="710" status="active">
+                <name>Fukuoka.pm</name>
+                <location>
+                        <city>Fukuoka</city>
+                        <state></state>
+                        <region></region>
+                        <country>Japan</country>
+                        <continent>Asia</continent>
+                        <longitude>130.401639</longitude>
+                        <latitude>33.590278</latitude>
+                </location>
+                <tsar>
+                        <name>Makoto SUGIYAMA</name>
+                        <email type="personal">sugiyama@fww.cc</email>
+                </tsar>
+                <web>http://fukuoka.pm.org</web>
+                <date type="inception">20071103</date>
+        </group>
+
 
 </perl_mongers>
 
