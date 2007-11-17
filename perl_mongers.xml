@@ -3138,16 +3138,11 @@
 			<longitude>37.583</longitude>
 			<latitude>55.75</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Ruslan U. Zakirov</name>
-			<email type="personal">Ruslan.Zakirov@miet.ru</email>
+			<name>Andrew Shitov</name>
+			<email type="personal">andy@shitov.ru</email>
 		</tsar>
-		<web></web>
-		<mailing_list>
-			<name>General Moscow.pm discussion</name>
-			<email type="list">moscow-pm@pm.org</email>
-		</mailing_list>
+		<web>http://moscow.pm.org</web>
 		<date type="inception">19990131</date>
 	</group>
 	
