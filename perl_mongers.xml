@@ -4699,7 +4699,7 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Ernesto Hern&aacute;ndez-Novich</name>
-			<email type="personal">emhn@telcel.net.ve</email>
+			<email type="personal">emhn@usb.ve</email>
 		</tsar>
 		<web></web>
 		<mailing_list>
@@ -6359,19 +6359,11 @@
 			<longitude>-43.1748</longitude>
 			<latitude>-22.9062</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Marco A P D'Andrade</name>
-			<email type="personal">mdacwb@gmail.com</email>
+			<name>Breno Guimaraes</name>
+			<email type="personal">breno@rio.pm.org</email>
 		</tsar>
 		<web>http://rio.pm.org/</web>
-		<mailing_list>
-			<name>General Rio Perl Mongers discussion</name>
-			<email type="list">rio-pm@hfb.pm.org</email>
-			<email type="list_admin">rio-pm-owner@hfb.pm.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception"></date>
 	</group>
 
@@ -11137,29 +11129,22 @@
 		<date type="inception">20020325</date>
 	</group>
 
-	<group id="487">
-		<name>Floripa.pm</name>
+	<group id="487" status="active">
+		<name>Florian&oacute;polis.pm</name>
 		<location>
 			<city>Florian&oacute;polis</city>
 			<state>Brazil</state>
 			<region>South America</region>
 			<country>Brazil</country>
 			<continent>South America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-48.30</longitude>
+			<latitude>-27.30</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Graciliano Monteiro Passos</name>
-			<email type="personal">gm@virtuasites.com.br</email>		</tsar>
-		<web>http://floripa.pm.org/</web>
-		<mailing_list>
-			<name>General Floripa Perl Mongers discussion</name>
-			<email type="list">floripa@pm.org</email>
-			<email type="list_admin">gm@virtuasites.com.br</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
+			<name>Rodrigo Panchiniak Fernandes</name>
+			<email type="personal">fernandes@cpan.org</email>
+		</tsar>
+		<web>http://florianopolis.pm.org/</web>
 		<date type="inception">20020330</date>
 	</group>
 
