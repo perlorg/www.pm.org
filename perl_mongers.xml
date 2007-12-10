@@ -496,7 +496,6 @@
 			<longitude>-80.83451</longitude>
 			<latitude>35.19755</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>William McKee</name>
 			<email type="personal">william@knowmad.com</email>
@@ -2657,13 +2656,6 @@
 			<email type="personal">lou@visca.com</email>
 		</tsar>
 		<web>http://catalunya.pm.org/</web>
-		<mailing_list>
-			<name>General Barcelona.pm discussion</name>
-			<email type="list">catalunya-pm@pm.org</email>
-			<email type="list_admin">lou@visca.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19981002</date>
 	</group>
 	
@@ -7653,13 +7645,6 @@
 			<email type="personal">pincky@soon.com</email>
 		</tsar>
 		<web>http://barcelona.pm.org/</web>
-		<mailing_list>
-			<name>General Barcelona Perl Mongers discussion</name>
-			<email type="list">barcelona-pm@pm.org</email>
-			<email type="list_admin">zeno@timallen.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20010204</date>
 	</group>
 
@@ -12293,17 +12278,10 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Michael Lamertz</name>
-			<email type="personal">mike@perl-ronin.de</email>
+			<name>Aristotle Pagaltzis</name>
+			<email type="personal">pagaltzis@gmx.de</email>
 		</tsar>
 		<web>http://Cologne.pm.org/</web>
-		<mailing_list>
-			<name>General Cologne Perl Mongers discussion</name>
-			<email type="list">Cologne-pm@pm.org</email>
-			<email type="list_admin">mike@perl-ronin.de</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20020929</date>
 	</group>
 
@@ -15833,7 +15811,42 @@
                 <web>http://fukuoka.pm.org</web>
                 <date type="inception">20071103</date>
         </group>
-
+        <group id="711" status="active">
+                <name>Vladivostok.pm</name>
+                <location>
+                        <city>Vladivostok</city>
+                        <state>Primorsky Krai</state>
+                        <region></region>
+                        <country>Russia</country>
+                        <continent>Asia</continent>
+                        <longitude>131.891867</longitude>
+                        <latitude>43.118121</latitude>
+                </location>
+                <tsar>
+                        <name>Dmitriy Dzema</name>
+                        <email type="personal">dmitriy@dzema.name</email>
+                </tsar>
+                <web>http://vladivostok.pm.org</web>
+                <date type="inception">20071209</date>
+        </group>
+        <group id="712" status="active">
+                <name>Kazan.pm</name>
+                <location>
+                        <city>Kazan</city>
+                        <state>Tatarstan</state>
+                        <region></region>
+                        <country>Russian Federation</country>
+                        <continent>Europe</continent>
+                        <longitude>49.1082</longitude>
+                        <latitude>55.796538</latitude>
+                </location>
+                <tsar>
+                        <name>Denis Ibaev</name>
+                        <email type="personal">dionys@gmail.com</email>
+                </tsar>
+                <web>http://kazan.pm.org</web>
+                <date type="inception">20071209</date>
+        </group>
 
 </perl_mongers>
 
