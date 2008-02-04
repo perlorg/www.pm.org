@@ -4226,8 +4226,8 @@
 			<latitude>25.300</latitude>
 		</location>
 		<tsar>
-			<name>Sascha Kiefer</name>
-			<email type="personal">sk@intertivity.com</email>
+			<name>Florian Merges</name>
+			<email type="personal">fmerges@cpan.org</email>
 		</tsar>
 		<web>http://dubai.pm.org/</web>
 		<date type="inception">19990311</date>
@@ -9722,30 +9722,23 @@
 		<date type="inception">20010812</date>
 	</group>
 
-	<group id="434">
-		<name>Hawaii.pm</name>
+	<group id="434" status="active">
+		<name>Honolulu.pm</name>
 		<location>
 			<city>Honolulu</city>
 			<state>Hawaii</state>
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-157.857056</longitude>
+			<latitude>21.317522</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Beau E. Cox</name>
-			<email type="personal">beau@aloha.com</email>
+			<name>Toru Hisai</name>
+			<email type="personal">toru@torus.jp</email>
 		</tsar>
-		<web>http://hawaii.pm.org/</web>
-		<mailing_list>
-			<name>General Hawaii Perl Mongers discussion</name>
-			<email type="list">hawaii-pm@pm.org</email>
-			<email type="list_admin">beau@aloha.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
+		<web>http://honolulu.pm.org/</web>
 		<date type="inception">20010826</date>
 	</group>
 
@@ -15855,6 +15848,24 @@
                 </tsar>
                 <web>http://RostovOnDon.pm.org</web>
                 <date type="inception">20080102</date>
+        </group>
+        <group id="714" status="active">
+                <name>Minsk.pm</name>
+                <location>
+                        <city>Minsk</city>
+                        <state></state>
+                        <region></region>
+                        <country>The Republic of Belarus</country>
+                        <continent>Europe</continent>
+                        <longitude>27.56667</longitude>
+                        <latitude>53.9</latitude>
+                </location>
+                <tsar>
+                        <name>Andrei Protasovitski</name>
+                        <email type="personal">andrei.protasovitski@gmail.com</email>
+                </tsar>
+                <web>http://minsk.pm.org</web>
+                <date type="inception">20080203</date>
         </group>
 
 </perl_mongers>
