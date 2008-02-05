@@ -3149,19 +3149,11 @@
 			<longitude>11.583</longitude>
 			<latitude>48.150</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Harald J&ouml;rg</name>
-			<email type="personal">haj@oook.m.uunet.de</email>
+			<email type="personal">haj.perl-mongers@arcor.de</email>
 		</tsar>
 		<web>http://munich.pm.org/</web>
-		<mailing_list>
-			<name>General Munich.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">19990707</date>
 	</group>
 	
