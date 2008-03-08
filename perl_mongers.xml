@@ -504,7 +504,7 @@
 		<date type="inception">19990127</date>
 	</group>
 	
-	<group id="18" status="active">
+	<group id="18" status="sleeping">
 		<name>Charlottesville.pm</name>
 		<location>
 			<city>Charlottesville</city>
@@ -3237,8 +3237,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Aldo Calpini</name>
-			<email type="personal">dada@perl.it</email>
+			<name>Flavio Poletti</name>
+			<email type="personal">flavio@polettix.it</email>
 		</tsar>
 		<web>http://roma.pm.org/</web>
 		<date type="inception">19990131</date>
