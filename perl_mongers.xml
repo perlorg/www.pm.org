@@ -14514,16 +14514,9 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Mehmet Ali Suzen</name>
-			<email type="personal">mehmet@suzen.org</email>
+			<email type="personal">mehmet.suzen@physics.org</email>
 		</tsar>
 		<web>http://cypriots.pm.org/</web>
-		<mailing_list>
-			<name>General cypriots Perl Mongers discussion</name>
-			<email type="list">cypriots-pm@pm.org</email>
-			<email type="list_admin">mehmet@suzen.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20040425</date>
 	</group>
 
@@ -15858,6 +15851,60 @@
                 </tsar>
                 <web>http://minsk.pm.org</web>
                 <date type="inception">20080203</date>
+        </group>
+        <group id="715" status="active">
+                <name>Breckenridge.pm</name>
+                <location>
+                        <city>Breckenridge</city>
+                        <state>Colorado</state>
+                        <region></region>
+                        <country>United States of America</country>
+                        <continent>North America</continent>
+                        <longitude>-106.03778</longitude>
+                        <latitude>39.48167</latitude>
+                </location>
+                <tsar>
+                        <name>Steve Wilder</name>
+                        <email type="personal">stevew@wildersolutions.com</email>
+                </tsar>
+                <web>http://breckenridge.pm.org</web>
+                <date type="inception">20080504</date>
+        </group>
+        <group id="716" status="active">
+                <name>Worcestershire.pm</name>
+                <location>
+                        <city>Astley</city>
+                        <state>Worcestershire</state>
+                        <region></region>
+                        <country>United Kingdom</country>
+                        <continent>North America</continent>
+                        <longitude>-2.2</longitude>
+                        <latitude>52.2</latitude>
+                </location>
+                <tsar>
+                        <name>Andy Dixon</name>
+                        <email type="personal">andy@twistedindustries.co.uk</email>
+                </tsar>
+                <web>http://worcestershire.pm.org</web>
+                <date type="inception">20080504</date>
+        </group>
+        <group id="717" status="active">
+                <name>Odessa.pm</name>
+                <location>
+                        <city>Odessa</city>
+                        <state>OD</state>
+                        <region></region>
+                        <country>Ukraine</country>
+                        <continent>Europe</continent>
+                        <longitude>30.73333</longitude>
+                        <latitude>46.46667</latitude>
+                </location>
+                <tsar>
+                        <name>Eugen J. Sobchenko</name>
+                        <email type="personal">ejs@cpan.org</email>
+                </tsar>
+                <web>http://odessa.pm.org</web>
+                <date type="inception">20080504</date>
         </group>
 
 </perl_mongers>
