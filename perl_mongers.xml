@@ -7624,8 +7624,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Joel Pinckheard</name>
-			<email type="personal">pincky@soon.com</email>
+			<name>Xavier Noria</name>
+			<email type="personal">fxn@hashref.com</email>
 		</tsar>
 		<web>http://barcelona.pm.org/</web>
 		<date type="inception">20010204</date>
@@ -9913,13 +9913,6 @@
 			<email type="personal">larioja.pm@fitipaldis.com</email>
 		</tsar>
 		<web>http://rioja.pm.org/</web>
-		<mailing_list>
-			<name>General Rioja Perl Mongers discussion</name>
-			<email type="list">rioja-pm@pm.org</email>
-			<email type="list_admin">larioja.pm@fitipaldis.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20010912</date>
 	</group>
 
@@ -14136,16 +14129,9 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Ricardo Signes</name>
-			<email type="personal">rjbs-perl-mongers@public.manxome.org</email>
+			<email type="personal">rjbs@cpan.org</email>
 		</tsar>
 		<web>http://abe.pm.org/</web>
-		<mailing_list>
-			<name>General ABE Perl Mongers discussion</name>
-			<email type="list">abe-pm@pm.org</email>
-			<email type="list_admin">rjbs-perl-mongers@public.manxome.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20040208</date>
 	</group>
 
