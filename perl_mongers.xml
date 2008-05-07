@@ -6638,7 +6638,7 @@
                 <date type="inception">20060526</date>
 	</group>
 
-	<group id="314" status="active">
+	<group id="314" status="sleeping">
 		<name>Oakland.pm</name>
 		<location>
 			<city>Oakland</city>
@@ -6655,13 +6655,6 @@
 			<email type="personal">georgepw@metaart.org</email>
 		</tsar>
 		<web>http://oakland.pm.org/</web>
-		<mailing_list>
-			<name>General Oakland Perl Mongers discussion</name>
-			<email type="list">oakland-pm@pm.org</email>
-			<email type="list_admin">georgepw@metaart.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception"></date>
 	</group>
 
