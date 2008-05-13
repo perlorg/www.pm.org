@@ -3060,15 +3060,11 @@
 			<longitude>13.04</longitude>
 			<latitude>55.07</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Nadim Khemir</name>
-			<email type="personal">Nadim.Khemir@tmt.teleca.se</email>
+			<email type="personal">Nadim@khemir.net</email>
 		</tsar>
 		<web>http://lund.pm.org/</web>
-		<mailing_list>
-			<name>General Lund.pm discussion</name>
-		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
 	
@@ -10588,19 +10584,11 @@
 			<longitude></longitude>
 			<latitude></latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Joe Kline</name>
-			<email type="personal">jkline@insightbb.com</email>
+			<email type="personal">gizmomathboy@gmail.com</email>
 		</tsar>
 		<web>http://nomads.pm.org/</web>
-		<mailing_list>
-			<name>General Nomads Perl Mongers discussion</name>
-			<email type="list">nomads-pm@pm.org</email>
-			<email type="list_admin">jkline@one.net</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20020205</date>
 	</group>
 
@@ -11315,19 +11303,11 @@
                         <longitude>116.390934205</longitude>
                         <latitude>39.9158489677</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Fayland Lam</name>
-			<email type="personal">fayland@fayland.org</email>
+			<email type="personal">fayland@gmail.com</email>
 		</tsar>
 		<web>http://china.pm.org/</web>
-		<mailing_list>
-			<name>General China Perl Mongers discussion</name>
-			<email type="list">china-pm@pm.org</email>
-			<email type="list_admin">fayland@fayland.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20020413</date>
 	</group>
 
@@ -11358,7 +11338,7 @@
 		<date type="inception">20041201</date>
 	</group>
 
-	<group id="499" status="active">
+	<group id="499" status="dead">
 		<name>Boise.pm</name>
 		<location>
 			<city>Boise</city>
@@ -11375,13 +11355,6 @@
 			<email type="personal">ryanparr@precisiontechonline.com</email>
 		</tsar>
 		<web>http://boise.pm.org/</web>
-		<mailing_list>
-			<name>General Boise Perl Mongers discussion</name>
-			<email type="list">boise@pm.org</email>
-			<email type="list_admin">ryanparr@precisiontechonline.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20020513</date>
 	</group>
 
@@ -12113,19 +12086,11 @@
                         <longitude>149.1667</longitude>
                         <latitude>-35.3333</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Jeremy Price</name>
 			<email type="personal">jeremy.price@member.sage-au.org.au</email>
 		</tsar>
 		<web>http://Canberra.pm.org/</web>
-		<mailing_list>
-			<name>General Canberra Perl Mongers discussion</name>
-			<email type="list">Canberra-pm@pm.org</email>
-			<email type="list_admin">jeremy.price@member.sage-au.org.au</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20020925</date>
 	</group>
 	<group id="538" status="active">
