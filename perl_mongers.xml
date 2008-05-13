@@ -6882,19 +6882,11 @@
 			<longitude>-78.63889</longitude>
 			<latitude>35.77194</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Will Emigh</name>
 			<email type="personal">wgemigh@unity.ncsu.edu</email>
 		</tsar>
 		<web>http://ncsu.pm.org/</web>
-		<mailing_list>
-			<name>General NCSU.pm Perl Mongers discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception"></date>
 	</group>
 
@@ -6909,19 +6901,11 @@
                         <longitude>1.4333</longitude>
                         <latitude>43.6000</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Christophe Mertz</name>
 			<email type="personal">mertz@intuilab.com</email>
 		</tsar>
 		<web>http://toulouse.pm.org/</web>
-		<mailing_list>
-			<name>General Toulouse Perl Mongers discussion</name>
-			<email type="list">toulouse-pm@pm.org</email>
-			<email type="list_admin">m.v.rodriguez@ieee.org      </email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception"></date>
 	</group>
 
@@ -6936,19 +6920,11 @@
                         <longitude>6.7500</longitude>
                         <latitude>51.4333</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Regina Burbach</name>
 			<email type="personal">burbach@gwl.de</email>
 		</tsar>
 		<web>http://niederrhein.pm.org/</web>
-		<mailing_list>
-			<name>General Niederrhein Perl Mongers discussion</name>
-			<email type="list">niederrhein-pm@pm.org</email>
-			<email type="list_admin">burbach@gwl.de</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception"></date>
 	</group>
 
