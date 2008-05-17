@@ -449,7 +449,6 @@
 			<longitude>-71.04833</longitude>
 			<latitude>42.3669</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>James Wm. Lewis</name>
 			<email type="personal">Jim@cyberlewis.com</email>
@@ -10155,19 +10154,11 @@
                         <longitude>12.3</longitude>
                         <latitude>45.5</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Michele Beltrame</name>
 			<email type="personal">mb@italpro.net</email>
 		</tsar>
 		<web>http://nordest.pm.org/</web>
-		<mailing_list>
-			<name>General Nordest Perl Mongers discussion</name>
-			<email type="list">nordest@pm.org</email>
-			<email type="list_admin">mb@italpro.net</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20011108</date>
 	</group>
 
