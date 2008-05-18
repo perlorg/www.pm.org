@@ -10,11 +10,11 @@
 	(
 	name, 
 	location, 
-	(email)+, 
+	(email)*, 
 	tsar,
 	web,
-	(mailing_list)+,
-	(date)+
+	(mailing_list)*,
+	(date)*
 	)
 	>
 <!ATTLIST group		id CDATA #REQUIRED>
