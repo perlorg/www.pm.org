@@ -11,7 +11,7 @@
 	name, 
 	location, 
 	(email)*, 
-	tsar,
+	tsar+,
 	web,
 	(mailing_list)*,
 	(date)*
