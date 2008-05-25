@@ -11223,19 +11223,11 @@
 			<longitude></longitude>
 			<latitude></latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Popescu Mihai</name>
 			<email type="personal">mishutzu@moocow.com</email>
 		</tsar>
 		<web>http://constanta.pm.org/</web>
-		<mailing_list>
-			<name>General Constanta Perl Mongers discussion</name>
-			<email type="list">constanta@pm.org</email>
-			<email type="list_admin">mishutzu@moocow.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20020406</date>
 	</group>
 
@@ -11250,10 +11242,9 @@
 			<longitude>8.55</longitude>
 			<latitude>47.37</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Steven P Schubiger</name>
-			<email type="personal">steven@accognoscere.org</email>
+			<name>Steven Schubiger</name>
+			<email type="personal">schubiger@cpan.org</email>
 		</tsar>
 		<web>http://zurich.pm.org/</web>
 		<date type="inception">20020406</date>
@@ -12050,12 +12041,12 @@
 			<region></region>
 			<country>Australia</country>
 			<continent>Oceania</continent>
-                        <longitude>149.1667</longitude>
-                        <latitude>-35.3333</latitude>
+                        <longitude>149.08</longitude>
+                        <latitude>-35.13</latitude>
 		</location>
 		<tsar>
-			<name>Jeremy Price</name>
-			<email type="personal">jeremy.price@member.sage-au.org.au</email>
+			<name>Michael Potter</name>
+			<email type="personal">megamic@gmail.com</email>
 		</tsar>
 		<web>http://Canberra.pm.org/</web>
 		<date type="inception">20020925</date>
@@ -13089,19 +13080,11 @@
 			<longitude></longitude>
 			<latitude></latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Flavio Soibelmann Glock</name>
 			<email type="personal">fglock@pucrs.br</email>
 		</tsar>
 		<web>http://brasil.pm.org/</web>
-		<mailing_list>
-			<name>General Brasil Perl Mongers discussion</name>
-			<email type="list">brasil-pm@pm.org</email>
-			<email type="list_admin">fglock@pucrs.br</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20030628</date>
 	</group>
 
@@ -13244,19 +13227,11 @@
 			<longitude></longitude>
 			<latitude></latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Marco Lima</name>
 			<email type="personal">marco.lima@e-via.com.br</email>
 		</tsar>
 		<web>http://guapimirim.pm.org/</web>
-		<mailing_list>
-			<name>General Guapimirim Perl Mongers discussion</name>
-			<email type="list">guapimirim-pm@pm.org</email>
-			<email type="list_admin">marco.lima@e-via.com.br</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20030628</date>
 	</group>
 
@@ -13272,8 +13247,8 @@
 			<latitude>28.533611</latitude>
 		</location>
 		<tsar>
-			<name>Andrew Silvernail</name>
-			<email type="personal">buff3r@gmail.com</email>
+			<name>Roy L. Johnson</name>
+			<email type="personal">roy.l.johnson@gmail.com</email>
 		</tsar>
 		<web>http://orlando.pm.org/</web>
 		<date type="inception">20030705</date>
@@ -13290,19 +13265,11 @@
 			<longitude></longitude>
 			<latitude></latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Darrell Golliher</name>
 			<email type="personal">darrell@golliher.net</email>
 		</tsar>
 		<web>http://classiccity.pm.org/</web>
-		<mailing_list>
-			<name>General ClassicCity Perl Mongers discussion</name>
-			<email type="list">classiccity-pm@pm.org</email>
-			<email type="list_admin">darrell@golliher.net</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20030817</date>
 	</group>
 
@@ -15816,6 +15783,24 @@
                 </tsar>
                 <web>http://odessa.pm.org</web>
                 <date type="inception">20080504</date>
+        </group>
+        <group id="718" status="active">
+                <name>Yokohama.pm</name>
+                <location>
+                        <city>Yokohama</city>
+                        <state>Kanagawa</state>
+                        <region></region>
+                        <country>Japan</country>
+                        <continent>Asia</continent>
+                        <longitude>139.637797</longitude>
+                        <latitude>35.443837</latitude>
+                </location>
+                <tsar>
+                        <name>Yoshiki Kurihara</name>
+                        <email type="personal">kurihara@cpan.org</email>
+                </tsar>
+                <web>http://yokohama.pm.org</web>
+                <date type="inception">20080525</date>
         </group>
 
 </perl_mongers>
