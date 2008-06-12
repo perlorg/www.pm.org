@@ -3353,30 +3353,22 @@
 		<date type="inception">19990311</date>
 	</group>
 	
-	<group id="154" status="leb">
-		<name>StPetersburg.pm</name>
+	<group id="154" status="active">
+		<name>SPb.pm</name>
 		<location>
 			<city>St. Petersburg</city>
 			<state></state>
 			<region></region>
 			<country>Russia</country>
 			<continent>Europe</continent>
-			<longitude>30.264</longitude>
-			<latitude>59.894</latitude>
+			<longitude>30.266</longitude>
+			<latitude>59.933</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Dmitry Dorofeev</name>
-			<email type="personal">butthead@ruxy.org.ru</email>
+			<name>Alex Kotov</name>
+			<email type="personal">kotov_a@rain.ifmo.ru</email>
 		</tsar>
-		<web>http://st-petersburg.pm.org/</web>
-		<mailing_list>
-			<name>General StPetersburg.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
+		<web>http://SPb.pm.org/</web>
 		<date type="inception">19980918</date>
 	</group>
 	
@@ -15234,7 +15226,7 @@
                 </location>
                 <tsar>
                         <name>Camila Mattos</name>
-                        <email type="personal">mk@rio.pm.org</email>
+                        <email type="personal">misskaapow@gmail.com</email>
                 </tsar>
                 <web>http://kaiserslautern.pm.org</web>
                 <date type="inception">20060526</date>
@@ -15801,6 +15793,25 @@
                 <web>http://yokohama.pm.org</web>
                 <date type="inception">20080525</date>
         </group>
+        <group id="719" status="active">
+                <name>Leicester.pm</name>
+                <location>
+                        <city>Leicester</city>
+                        <state>Leicestershire</state>
+                        <region></region>
+                        <country>United Kingdom</country>
+                        <continent>Europe</continent>
+                        <longitude>-1.10000</longitude>
+                        <latitude>52.6078</latitude>
+                </location>
+                <tsar>
+                        <name>Peter Lock</name>
+                        <email type="personal">petelock@gmail.com</email>
+                </tsar>
+                <web>http://leicester.pm.org</web>
+                <date type="inception">20080612</date>
+        </group>
+
 
 </perl_mongers>
 
