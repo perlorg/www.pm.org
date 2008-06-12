@@ -6330,8 +6330,8 @@
 			<latitude>-22.9062</latitude>
 		</location>
 		<tsar>
-			<name>Breno Guimaraes</name>
-			<email type="personal">breno@rio.pm.org</email>
+			<name>Fernando Oliveira</name>
+			<email type="personal">fernandocorrea@gmail.com</email>
 		</tsar>
 		<web>http://rio.pm.org/</web>
 		<date type="inception"></date>
@@ -13081,8 +13081,8 @@
 			<latitude></latitude>
 		</location>
 		<tsar>
-			<name>Flavio Soibelmann Glock</name>
-			<email type="personal">fglock@pucrs.br</email>
+			<name>Breno Guimarães</name>
+			<email type="personal">oainikusama@gmail.com</email>
 		</tsar>
 		<web>http://brasil.pm.org/</web>
 		<date type="inception">20030628</date>
@@ -14463,10 +14463,9 @@
 			<longitude></longitude>
 			<latitude></latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Andrea Maestrutti</name>
-			<email type="personal">info@perl.it</email>
+			<name>Michele Beltrame</name>
+			<email type="personal">mb@italpro.net</email>
 		</tsar>
 		<web>http://italia.pm.org/</web>
 		<date type="inception">20040621</date>
