@@ -1,4 +1,4 @@
-<?xml version="1.0" standalone="no"?>
+﻿<?xml version="1.0" standalone="no"?>
 <!DOCTYPE perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN" 
 	"http://www.pm.org/groups/perl_mongers.dtd"
 [
@@ -15812,6 +15812,24 @@
                         <email type="personal">bricas@cpan.org</email>
                 </tsar>
                 <web>http://fredericton.pm.org</web>
+                <date type="inception">20080719</date>
+        </group>
+       <group id="723" status="active">
+                <name>Timbuktu.pm</name>
+                <location>
+                        <city>Timbuktu</city>
+                        <state>Timbuktu/Tombouctou</state>
+                        <region> </region>
+                        <country>Mali</country>
+                        <continent>Africa</continent>
+                        <longitude>-02.59</longitude>
+                        <latitude>16.49</latitude>
+                </location>
+                <tsar>
+                        <name>Israel Ag Nouh Yattara</name>
+                        <email type="personal">israelagnouhyattara@hotmail.com</email>
+                </tsar>
+                <web>http://Timbukto.pm.org</web>
                 <date type="inception">20080719</date>
         </group>
 
