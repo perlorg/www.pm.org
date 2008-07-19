@@ -343,7 +343,6 @@
 		<web>http://baltimore.pm.org/</web>
 		<date type="inception">19990503</date>
 	</group>
-	
 	<group id="11">
 		<name>Blacksburg.pm</name>
 		<location>
@@ -355,22 +354,13 @@
 			<longitude>-80.42841</longitude>
 			<latitude>37.23274</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Tripp Lilley</name>
 			<email type="personal">tripp.lilley@perspex.com</email>
 		</tsar>
 		<web>http://blacksburg.pm.org/</web>
-		<mailing_list>
-			<name>General Blacksburg.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">19980828</date>
 	</group>
-	
 	<group id="12" status="active">
 		<name>Boston.pm</name>
 		<location>
@@ -382,22 +372,13 @@
 			<longitude>-71.067695</longitude>
 			<latitude>42.352397</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Ronald J. Kimball</name>
+			<name>Bill Ricker</name>
 			<email type="personal">rjk-pm-boston@tamias.net</email>
 		</tsar>
 		<web>http://boston.pm.org/</web>
-		<mailing_list>
-			<name>General Boston.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">19980207</date>
 	</group>
-	
 	<group id="13" status="active">
 		<name>Boulder.pm</name>
 		<location>
@@ -409,7 +390,6 @@
 			<longitude>-105.25102</longitude>
 			<latitude>40.4731865</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Walter Pienciak</name>
 			<email type="personal">walter@pienciak.org</email>
@@ -3359,7 +3339,7 @@
 			<city>St. Petersburg</city>
 			<state></state>
 			<region></region>
-			<country>Russia</country>
+			<country>Russian Federation</country>
 			<continent>Europe</continent>
 			<longitude>30.266</longitude>
 			<latitude>59.933</latitude>
@@ -4497,7 +4477,6 @@
 			<longitude>126.9769</longitude>
 			<latitude>37.5631</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Jong-Pork Park</name>
 			<email type="personal">seoulpm@okclub.com</email>
@@ -6625,7 +6604,7 @@
                 <date type="inception">20060526</date>
 	</group>
 
-	<group id="314" status="sleeping">
+	<group id="314" status="active">
 		<name>Oakland.pm</name>
 		<location>
 			<city>Oakland</city>
@@ -6636,13 +6615,12 @@
 			<longitude>-122.271743</longitude>
 			<latitude>37.804761</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>George Woolley</name>
-			<email type="personal">georgepw@metaart.org</email>
+			<name>David Fetter</name>
+			<email type="personal">david@fetter.org</email>
 		</tsar>
 		<web>http://oakland.pm.org/</web>
-		<date type="inception"></date>
+		<date type="inception">20050119</date>
 	</group>
 
 	<group id="315" status="active">
@@ -9642,7 +9620,6 @@
 		</mailing_list>
 		<date type="inception">20010812</date>
 	</group>
-
 	<group id="433" status="mlb">
 		<name>cheese.pm</name>
 		<location>
@@ -9654,22 +9631,13 @@
 			<longitude></longitude>
 			<latitude></latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Richard Hoop</name>
 			<email type="personal">rhoop@gmx.net</email>
 		</tsar>
 		<web>http://cheese.pm.org/</web>
-		<mailing_list>
-			<name>General cheese Perl Mongers discussion</name>
-			<email type="list">cheese-pm@pm.org</email>
-			<email type="list_admin">rhoop@gmx.net</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20010812</date>
 	</group>
-
 	<group id="434" status="active">
 		<name>Honolulu.pm</name>
 		<location>
@@ -9681,7 +9649,6 @@
 			<longitude>-157.857056</longitude>
 			<latitude>21.317522</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Toru Hisai</name>
 			<email type="personal">toru@torus.jp</email>
@@ -9689,7 +9656,6 @@
 		<web>http://honolulu.pm.org/</web>
 		<date type="inception">20010826</date>
 	</group>
-
 	<group id="435" status="active">
 		<name>Shadrinsk.pm</name>
 		<location>
@@ -10852,22 +10818,13 @@
                         <longitude>4.3333</longitude>
                         <latitude>50.8333</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Gilles Paquet</name>
 			<email type="personal">gilles@paquet.net</email>
 		</tsar>
 		<web>http://bruxelles.pm.org/</web>
-		<mailing_list>
-			<name>General Bruxelles Perl Mongers discussion</name>
-			<email type="list">bruxelles@pm.org</email>
-			<email type="list_admin">gilles@paquet.net</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20020305</date>
 	</group>
-
 	<group id="481">
 		<name>Frederick.pm</name>
 		<location>
@@ -10879,19 +10836,11 @@
 			<longitude></longitude>
 			<latitude></latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Duncan McGreggor</name>
 			<email type="personal">oubiwann@yahoo.com</email>
 		</tsar>
 		<web>http://frederick.pm.org/</web>
-		<mailing_list>
-			<name>General Frederick Perl Mongers discussion</name>
-			<email type="list">frederick@pm.org</email>
-			<email type="list_admin">oubiwann@yahoo.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20020306</date>
 	</group>
 
@@ -15189,8 +15138,8 @@
                         <latitude>50.07</latitude>
                 </location>
                 <tsar>
-                        <name>Bartosz Jakubski</name>
-                        <email type="personal">migo@pld-linux.org</email>
+                        <name>Malgorzata Krakowian</name>
+                        <email type="personal">krakowian@gmail.com</email>
                 </tsar>
                 <web>http://krakow.pm.org</web>
                 <date type="inception">20060421</date>
@@ -15811,7 +15760,60 @@
                 <web>http://leicester.pm.org</web>
                 <date type="inception">20080612</date>
         </group>
-
+        <group id="720" status="active">
+                <name>Krasnodar.pm</name>
+                <location>
+                        <city>Krasnodar</city>
+                        <state>Krasnodar Krai</state>
+                        <region></region>
+                        <country>Russia</country>
+                        <continent>Europe</continent>
+                        <longitude>38.98</longitude>
+                        <latitude>45.09</latitude>
+                </location>
+                <tsar>
+                        <name>Dmitriy Mosencev</name>
+                        <email type="personal">support@perlon.ru</email>
+                </tsar>
+                <web>http://krasnodar.pm.org</web>
+                <date type="inception">20080718</date>
+        </group>
+        <group id="721" status="active">
+                <name>Fredericton.pm</name>
+                <location>
+                        <city>Fredericton</city>
+                        <state>New Brunswick</state>
+                        <region>Atlantic Canada</region>
+                        <country>Canada</country>
+                        <continent>North America</continent>
+                        <longitude>-66.646241</longitude>
+                        <latitude>45.959363</latitude>
+                </location>
+                <tsar>
+                        <name>Brian Cassidy</name>
+                        <email type="personal">bricas@cpan.org</email>
+                </tsar>
+                <web>http://fredericton.pm.org</web>
+                <date type="inception">20080719</date>
+        </group>
+        <group id="722" status="active">
+                <name>Fredericton.pm</name>
+                <location>
+                        <city>Fredericton</city>
+                        <state>New Brunswick</state>
+                        <region>Atlantic Canada</region>
+                        <country>Canada</country>
+                        <continent>North America</continent>
+                        <longitude>-66.646241</longitude>
+                        <latitude>45.959363</latitude>
+                </location>
+                <tsar>
+                        <name>Brian Cassidy</name>
+                        <email type="personal">bricas@cpan.org</email>
+                </tsar>
+                <web>http://fredericton.pm.org</web>
+                <date type="inception">20080719</date>
+        </group>
 
 </perl_mongers>
 
