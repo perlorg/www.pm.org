@@ -1,8 +1,8 @@
-This is the source files for the new perlmongers site. Check it out by
-doing the following (replacing leon with your username on hfb and
-making sure you've set CVS_RSH to "ssh"):
+$HeadURL$
+$Id$
 
-  cvs -d :ext:leon@www.pm.org:/home/groupleaders/leon/cvsroot co perlmongers
+Perl Monger Admin wiki:
+   http://jays.net/wiki/Perl_Mongers_Administration
 
 Directory layout is as follows:
 
@@ -23,8 +23,6 @@ What this does is it takes the source files from src/ applies any
 templates to them (from lib/), and writes the output to the www/
 directory. Now have a look at the www directory - it contains the
 site!
-
-To push the site live, run "bin/makelive".
 
 lib/layout is the template which is applied to every page.
 

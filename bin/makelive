@@ -1,8 +1,0 @@
-#!/usr/bin/perl -w
-use strict;
-
-system('rm pm.tgz');
-system('cp perl_mongers.* www/XML');
-system('tar fzcv pm.tgz www/');
-system('scp pm.tgz dave@hfb.pm.org:');
-system('ssh dave@hfb.pm.org "cd /pm.org; tar fvzx ~/pm.tgz"');
