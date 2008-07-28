@@ -15796,24 +15796,6 @@
                 <web>http://fredericton.pm.org</web>
                 <date type="inception">20080719</date>
         </group>
-        <group id="722" status="active">
-                <name>Fredericton.pm</name>
-                <location>
-                        <city>Fredericton</city>
-                        <state>New Brunswick</state>
-                        <region>Atlantic Canada</region>
-                        <country>Canada</country>
-                        <continent>North America</continent>
-                        <longitude>-66.646241</longitude>
-                        <latitude>45.959363</latitude>
-                </location>
-                <tsar>
-                        <name>Brian Cassidy</name>
-                        <email type="personal">bricas@cpan.org</email>
-                </tsar>
-                <web>http://fredericton.pm.org</web>
-                <date type="inception">20080719</date>
-        </group>
         <group id="723" status="active">
                 <name>Timbuktu.pm</name>
                 <location>
