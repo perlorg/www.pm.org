@@ -4478,8 +4478,8 @@
 			<latitude>37.5631</latitude>
 		</location>
 		<tsar>
-			<name>Jong-Pork Park</name>
-			<email type="personal">seoulpm@okclub.com</email>
+			<name>Keedi Kim</name>
+			<email type="personal">keedi.k@gmail.com</email>
 		</tsar>
 		<web>http://seoul.pm.org/</web>
 		<date type="inception">19990914</date>
@@ -15766,7 +15766,7 @@
                         <city>Krasnodar</city>
                         <state>Krasnodar Krai</state>
                         <region></region>
-                        <country>Russia</country>
+                        <country>Russian Federation</country>
                         <continent>Europe</continent>
                         <longitude>38.98</longitude>
                         <latitude>45.09</latitude>
@@ -15813,6 +15813,24 @@
                 </tsar>
                 <web>http://Timbuktu.pm.org</web>
                 <date type="inception">20080719</date>
+        </group>
+        <group id="724" status="active">
+                <name>WesternMontana.pm</name>
+                <location>
+                        <city>Stevensville</city>
+                        <state>Montana</state>
+                        <region></region>
+                        <country>United States of America</country>
+                        <continent>North America</continent>
+                        <longitude>-113.99</longitude>
+                        <latitude>46.55</latitude>
+                </location>
+                <tsar>
+                        <name>Tomas Hood</name>
+                        <email type="personal">nw7us.heliophile@gmail.com</email>
+                </tsar>
+                <web>http://WesternMontana.pm.org</web>
+                <date type="inception">20080810</date>
         </group>
 
 </perl_mongers>
