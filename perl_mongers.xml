@@ -1422,19 +1422,11 @@
 			<longitude>-73.750</longitude>
 			<latitude>45.467</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Luc St-Louis</name>
-			<email type="personal">lucs@cam.org</email>
+			<email type="personal">lucs@pobox.com</email>
 		</tsar>
 		<web>http://montreal.pm.org/</web>
-		<mailing_list>
-			<name>General Montr&eacute;al.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">19980615</date>
 	</group>
 	
@@ -5079,19 +5071,11 @@
 			<longitude>19.0711</longitude>
 			<latitude>47.5105</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Gabor Szabo</name>
 			<email type="personal">szabgab@gmail.com</email>
 		</tsar>
 		<web>http://budapest.pm.org/</web>
-		<mailing_list>
-			<name></name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
 
