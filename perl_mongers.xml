@@ -3503,8 +3503,7 @@
 		<web>http://zagreb.pm.org</web>
 		<date type="inception">19990311</date>
 	</group>
-	
-	
+
 	<group id="163">
 		<name>AngMoKio.pm</name>
 		<location>
@@ -3522,13 +3521,6 @@
 			<email type="personal">tedchong@hotmail.com</email>
 		</tsar>
 		<web>http://ang-mo-kio.pm.org/</web>
-		<mailing_list>
-			<name>General AngMoKio.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">19990119</date>
 	</group>
 	
@@ -3793,21 +3785,20 @@
 		<date type="inception">19990127</date>
 	</group>
 	
-	<group id="177">
+	<group id="177" status="active">
 		<name>Singapore.pm</name>
 		<location>
-			<city></city>
+			<city>Singapore</city>
 			<state></state>
 			<region></region>
 			<country>Singapore</country>
 			<continent>Asia</continent>
-			<longitude>103.855</longitude>
-			<latitude>1.293</latitude>
+			<longitude>103.85</longitude>
+			<latitude>1.283333</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Balmik Soin</name>
-			<email type="personal">pm@vyxn.net</email>
+			<name>Gaurav Vaidya</name>
+			<email type="personal">gaurav@ggvaidya.com</email>
 		</tsar>
 		<web>http://singapore.pm.org/</web>
 		<date type="inception">19990120</date>
@@ -5072,8 +5063,8 @@
 			<latitude>47.5105</latitude>
 		</location>
 		<tsar>
-			<name>Gabor Szabo</name>
-			<email type="personal">szabgab@gmail.com</email>
+			<name>BÃ¡lint Szilakszi</name>
+			<email type="personal">szbalint@inf.elte.hu</email>
 		</tsar>
 		<web>http://budapest.pm.org/</web>
 		<date type="inception">19991024</date>
@@ -15816,6 +15807,41 @@
                 <web>http://WesternMontana.pm.org</web>
                 <date type="inception">20080810</date>
         </group>
-
+        <group id="725" status="active">
+                <name>Certification.pm</name>
+                <location>
+                        <city></city>
+                        <state></state>
+                        <region></region>
+                        <country></country>
+                        <continent></continent>
+                        <longitude></longitude>
+                        <latitude></latitude>
+                </location>
+                <tsar>
+                        <name>Lyle Hopkins</name>
+                        <email type="personal">webmaster@cosmicperl.com</email>
+                </tsar>
+                <web>http://Certification.pm.org</web>
+                <date type="inception">20080921</date>
+        </group>
+        <group id="726" status="active">
+                <name>Tallinn.pm</name>
+                <location>
+                        <city>Tallinn</city>
+                        <state></state>
+                        <region></region>
+                        <country>Estonia</country>
+                        <continent>Europe</continent>
+                        <longitude>24.75</longitude>
+                        <latitude>59.433333</latitude>
+                </location>
+                <tsar>
+                        <name>Andri MÃ¶ll</name>
+                        <email type="personal">andri@dot.ee</email>
+                </tsar>
+                <web>http://tallinn.pm.org</web>
+                <date type="inception">20080921</date>
+        </group>
 </perl_mongers>
 
