@@ -1477,7 +1477,7 @@
 		<date type="inception">19990120</date>
 	</group>
 	
-	<group id="64">
+	<group id="64" status="active">
 		<name>Nashville.pm</name>
 		<location>
 			<city>Nashville</city>
@@ -1488,10 +1488,9 @@
 			<longitude>-86.683</longitude>
 			<latitude>36.117</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Ralph Mellor</name>
-			<email type="personal">perl@dimp.com</email>
+			<name>Cory G Watson</name>
+			<email type="personal">cory@onemogin.com</email>
 		</tsar>
 		<web>http://nashville.pm.org/</web>
 		<date type="inception">19990503</date>
@@ -2258,8 +2257,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Bill Odum</name>
-			<email type="personal">billodom@gmail.com</email>
+			<name>Michael Kiwala</name>
+			<email type="personal">michael.kiwala@gmail.com</email>
 		</tsar>
 		<web>http://stlouis.pm.org/</web>
 		<date type="inception">19980214</date>
@@ -15807,7 +15806,7 @@
                 <web>http://WesternMontana.pm.org</web>
                 <date type="inception">20080810</date>
         </group>
-        <group id="725" status="active">
+        <group id="725" status="Vetoed by Robert. See RT 57812.">
                 <name>Certification.pm</name>
                 <location>
                         <city></city>
@@ -15837,7 +15836,7 @@
                         <latitude>59.433333</latitude>
                 </location>
                 <tsar>
-                        <name>Andri MÃ¶ll</name>
+                        <name>Andri M&ouml;ll</name>
                         <email type="personal">andri@dot.ee</email>
                 </tsar>
                 <web>http://tallinn.pm.org</web>
