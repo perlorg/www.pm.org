@@ -7,8 +7,8 @@ use XML::LibXML;
 use DBI;
 use Digest::MD5 'md5_hex';
 
-my $dbh = DBI->connect('dbi:mysql:database=pm_census;host=tara.mag-sol.com',
-                       'pm_census', 'pm_c3n5u5')
+my $dbh = DBI->connect("dbi:mysql:database=$ENV{PM_DB};host=$ENV{PM_HOST}",
+                       $PM_USER, $PM_PASS)
            or die DBI::errstr;
 
 my $xml_file = 'perl_mongers.xml';
