@@ -1,0 +1,42 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use XML::LibXML;
+use DBI;
+use Digest::MD5 'md5_hex';
+
+my $dbh = DBI->connect('dbi:mysql:database=pm_census;host=tara.mag-sol.com',
+                       'pm_census', 'pm_c3n5u5')
+           or die DBI::errstr;
+
+my $xml_file = 'perl_mongers.xml';
+
+my $xml_parser = XML::LibXML->new;
+open my $xml_fh, '<', $xml_file or die "$xml_file: $!\n";
+
+my $xml = $xml_parser->parse_fh($xml_fh);
+
+my $sql = '
+insert into pm_group (id, xml_key, name, leader_name, leader_email,
+                      country, continent)
+values (?, ?, ?, ?, ?, ?, ?)';
+
+my $sth = $dbh->prepare($sql) or die $dbh->errstr;
+
+foreach ($xml->findnodes('//group[@status="active" or @status="on hold" or @status="sleeping"]')) {
+  my $name = $_->findvalue('name');
+  my $mail = $_->findvalue('tsar/email');
+  my $md5 = md5_hex("$name|$mail");
+  $sth->execute(
+		$md5,
+		$_->findvalue('@id'),
+		$name,
+		$_->findvalue('tsar/name'),
+		$mail,
+		$_->findvalue('location/country'),
+		$_->findvalue('location/continent'),
+		)
+    or die $sth->errstr;
+}
