@@ -5843,7 +5843,6 @@
 			<longitude>80.2558</longitude>
 			<latitude>13.0797</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Christopher Sagayam</name>
 			<email type="personal">christopher_sagx@yahoo.com</email>
@@ -5872,7 +5871,7 @@
 		<date type="inception">20000227</date>
 	</group>
 
-	<group id="283" status="dead">
+	<group id="283" status="active">
 		<name>Granada.pm</name>
 		<location>
 			<city>Granada</city>
@@ -5880,15 +5879,14 @@
 			<region></region>
 			<country>Spain</country>
 			<continent>Europe</continent>
-			<longitude>-3.5998</longitude>
-			<latitude>37.17344</latitude>
+			<longitude>-3.600833</longitude>
+			<latitude>37.178056</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>J. J. Merelo</name>
-			<email type="personal">jmerelo@geneura.ugr.es</email>
+			<email type="personal">jjmerelo@gmail.com</email>
 		</tsar>
-		<web></web>
+		<web>http://granada.pm.org</web>
 		<date type="inception">20000317</date>
 	</group>
 
@@ -15841,6 +15839,24 @@
                 </tsar>
                 <web>http://tallinn.pm.org</web>
                 <date type="inception">20080921</date>
+        </group>
+        <group id="727" status="active">
+                <name>Guincho.pm</name>
+                <location>
+                        <city>Cascais</city>
+                        <state></state>
+                        <region></region>
+                        <country>Portugal</country>
+                        <continent>Europe</continent>
+                        <longitude>-9.47669</longitude>
+                        <latitude>38.72834</latitude>
+                </location>
+                <tsar>
+                        <name>Nuno Nunes</name>
+                        <email type="personal">nuno@nunonunes.org</email>
+                </tsar>
+                <web>http://guincho.pm.org</web>
+                <date type="inception">20081125</date>
         </group>
 </perl_mongers>
 
