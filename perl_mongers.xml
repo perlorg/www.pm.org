@@ -5337,27 +5337,24 @@
 		</mailing_list>
 		<date type="inception">20000116</date>
 	</group>
-
-	<group id="252">
-		<name>Milano.pm</name>
-		<location>
-			<city>Milano</city>
-			<state></state>
-			<region></region>
-			<country>Italy</country>
-			<continent>Europe</continent>
-			<longitude>9.18084</longitude>
-			<latitude>45.46884</latitude>
-		</location>
-		<email type="group"></email>
-		<tsar>
-			<name>Roberto Siano</name>
-			<email type="personal">r.siano@interactivework.com</email>
-		</tsar>
-		<web></web>
-		<date type="inception">20000116</date>
-	</group>
-
+        <group id="252" status="active">
+                <name>Milan.pm</name>
+                <location>
+                        <city>Milan</city>
+                        <state>Lombardia</state>
+                        <region></region>
+                        <country>Italy</country>
+                        <continent>Europe</continent>
+                        <longitude>9.18084</longitude>
+                        <latitude>45.46884</latitude>
+                </location>
+                <tsar>
+                        <name>Marcos Rebelo</name>
+                        <email type="personal">oleber@gmail.com</email>
+                </tsar>
+                <web>http://milan.pm.org</web>
+                <date type="inception">20000116</date>
+        </group>
 	<group id="253" status="inactive">
 		<name>SanMarcos.pm</name>
 		<location>
@@ -10854,10 +10851,9 @@
 			<longitude></longitude>
 			<latitude></latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Wesley Craft</name>
-			<email type="personal">wesley@craftbros.com</email>
+			<email type="personal">wesley.craft@gmail.com</email>
 		</tsar>
 		<web>http://camel.pm.org/</web>
 		<date type="inception">20020306</date>
