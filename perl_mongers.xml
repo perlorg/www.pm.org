@@ -513,19 +513,11 @@
 			<longitude>-87.68496</longitude>
 			<latitude>41.83705</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Andy Lester</name>
 			<email type="personal">andy@petdance.com</email>
 		</tsar>
 		<web>http://chicago.pm.org/</web>
-		<mailing_list>
-			<name>General Chicago.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">19980410</date>
 	</group>
 	
@@ -2055,17 +2047,10 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Quinn Weaver</name>
-			<email type="personal">qw@sf.pm.org</email>
+			<name>Fred Moyer</name>
+			<email type="personal">fred@redhotpenguin.com</email>
 		</tsar>
 		<web>http://sf.pm.org/</web>
-		<mailing_list>
-			<name>General SanFrancisco.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">19980615</date>
 	</group>
 	
@@ -3204,7 +3189,7 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Flavio Poletti</name>
-			<email type="personal">flavio@polettix.it</email>
+			<email type="personal">polettix@gmail.com</email>
 		</tsar>
 		<web>http://roma.pm.org/</web>
 		<date type="inception">19990131</date>
@@ -15853,6 +15838,24 @@
                 </tsar>
                 <web>http://guincho.pm.org</web>
                 <date type="inception">20081125</date>
+        </group>
+        <group id="728" status="active">
+                <name>northwestengland.pm</name>
+                <location>
+                        <city>Lancaster/Preston</city>
+                        <state>Lancaster-Fylde-Cheshire</state>
+                        <region>North West England</region>
+                        <country>United Kingdom</country>
+                        <continent>Europe</continent>
+                        <longitude>-2.8125</longitude>
+                        <latitude>54.0400</latitude>
+                </location>
+                <tsar>
+                        <name>Mark Keating</name>
+                        <email type="personal">mdk@shadowcat.co.uk</email>
+                </tsar>
+                <web>http://northwestengland.pm.org</web>
+                <date type="inception">20081228</date>
         </group>
 </perl_mongers>
 
