@@ -2340,10 +2340,9 @@
 			<longitude>-123.133</longitude>
 			<latitude>49.25</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Chris Simmons</name>
-			<email type="personal">simmons.chris@gmail.com</email>
+			<name>Scott McWhirter</name>
+			<email type="personal">scott@konobi.co.uk</email>
 		</tsar>
 		<web>http://vancouver.pm.org/</web>
 		<mailing_list>
@@ -3749,7 +3748,7 @@
 		<date type="inception">19990311</date>
 	</group>
 	
-	<group id="176" status="dead">
+	<group id="176" status="active">
 		<name>Perth.pm</name>
 		<location>
 			<city>Perth</city>
@@ -3762,8 +3761,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Simon Newton</name>
-			<email type="personal">newtons@iinet.net</email>
+			<name>Matthew Lock</name>
+			<email type="personal">lockster@gmail.com</email>
 		</tsar>
 		<web>http://perth.pm.org/</web>
 		<date type="inception">19990127</date>
@@ -11754,21 +11753,14 @@
                         <longitude>120.18108</longitude>
                         <latitude>22.38225</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Matthew Lien</name>
-			<email type="personal">matthew@bluet.org</email>
+			<email type="personal">BlueT@BlueT.org</email>
 		</tsar>
 		<web>http://kaohsiung.pm.org/</web>
-		<mailing_list>
-			<name>General Kaohsiung Perl Mongers discussion</name>
-			<email type="list">kaohsiung-pm@pm.org</email>
-			<email type="list_admin">matthewno1@yahoo.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20020806</date>
 	</group>
+
 	<group id="531" status="inactive">
 		<name>Depok.pm</name>
 		<location>
