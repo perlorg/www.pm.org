@@ -8963,19 +8963,15 @@
                         <longitude>0.12634</longitude>
                         <latitude>52.19077</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Lucy McWilliam</name>
 			<email type="personal">lucifer@chiark.greenend.org.uk</email>
 		</tsar>
+		<tsar>
+			<name>Robbie Bow</name>
+			<email type="personal">robbiebow@gmail.com</email>
+		</tsar>
 		<web>http://cam.pm.org/</web>
-		<mailing_list>
-			<name>General Cambridge Perl Mongers discussion</name>
-			<email type="list">cam-pm@pm.org</email>
-			<email type="list_admin">lucifer@plus.colondot.net</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20010620</date>
 	</group>
 
