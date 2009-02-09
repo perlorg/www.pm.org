@@ -766,7 +766,6 @@
 			<longitude>-83.0456</longitude>
 			<latitude>42.3317</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Bill Hess</name>
 			<email type="personal">bhess@techrg.com</email>
@@ -4445,7 +4444,7 @@
 		</location>
 		<tsar>
 			<name>Keedi Kim</name>
-			<email type="personal">keedi.k@gmail.com</email>
+			<email type="personal">keedi@perl.kr</email>
 		</tsar>
 		<web>http://seoul.pm.org/</web>
 		<date type="inception">19990914</date>
