@@ -2530,7 +2530,6 @@
 			<longitude>-46.617</longitude>
 			<latitude>-23.533</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Solli Moreira Honorio</name>
 			<email type="personal">shonorio@gmail.com</email>
@@ -12337,19 +12336,11 @@
 			<longitude></longitude>
 			<latitude></latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Geert Theys</name>
 			<email type="personal">geert@toadi.org</email>
 		</tsar>
 		<web>http://vlaanderen.pm.org/</web>
-		<mailing_list>
-			<name>General Vlaanderen Perl Mongers discussion</name>
-			<email type="list">vlaanderen-pm@pm.org</email>
-			<email type="list_admin">geert@toadi.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20030109</date>
 	</group>
 
