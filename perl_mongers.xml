@@ -12337,8 +12337,9 @@
 			<latitude></latitude>
 		</location>
 		<tsar>
-			<name>Geert Theys</name>
-			<email type="personal">geert@toadi.org</email>
+			<name>Chris Vertonghen</name>
+			<email type="personal">chris@vertonghen.org</email>
+                        <pause_id>chrisv</pause_id>
 		</tsar>
 		<web>http://vlaanderen.pm.org/</web>
 		<date type="inception">20030109</date>
