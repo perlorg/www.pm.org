@@ -100,9 +100,10 @@
 <!ENTITY yuml   "&#255;">
 ]>
 
-<!-- This file is maintained by user_groups@pm.org -->
-
-<!-- $Id$ -->
+<!-- This file is maintained by support@pm.org 
+     $HeadURL$
+     $Id$ 
+-->
 <perl_mongers>
 	<group id="0" status="active">
 		<!-- new york was the first group -->
