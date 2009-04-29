@@ -2255,14 +2255,16 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-82.48212</longitude>
-			<latitude>27.959</latitude>
+			<longitude>-82.6385</longitude>
+			<latitude>27.7671</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Tracey Birch</name>
-			<email type="personal">tab@pobox.com</email>
+			<name>Christian Brink</name>
+			<email type="personal">cbrink@christianbrink.com</email>
 		</tsar>
+		<mailing_list>
+			<email type="list">tampa-pm@pm.org</email>
+		</mailing_list>
 		<web>http://tampabay.pm.org/</web>
 		<date type="inception">19980916</date>
 	</group>
@@ -2814,13 +2816,13 @@
 			<region></region>
 			<country>Finland</country>
 			<continent>Europe</continent>
-			<longitude>24.9425</longitude>
-			<latitude>60.1675</latitude>
+			<longitude>24.9405</longitude>
+			<latitude>60.1627</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Sami Itkonen</name>
-			<email type="personal">si@iki.fi</email>
+			<name>Panu Ervamaa</name>
+			<email type="personal">panu.ervamaa@frantic.com</email>
 		</tsar>
 		<web>http://helsinki.pm.org/</web>
 		<date type="inception">19990115</date>
