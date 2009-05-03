@@ -736,7 +736,7 @@
 		<date type="inception">19981124</date>
 	</group>
 	
-	<group id="29" status="sleeping">
+	<group id="29" status="active">
 		<name>DesMoines.pm</name>
 		<location>
 			<city>Des Moines</city>
@@ -744,12 +744,12 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-93.6087</longitude>
-			<latitude>41.6006</latitude>
+			<longitude>-93.603709</longitude>
+			<latitude>41.591086</latitude>
 		</location>
 		<tsar>
-			<name>Richard P. Thielman</name>
-			<email type="personal">tman@technologist.com</email>
+			<name>Jon Backstrom</name>
+			<email type="personal">backstrom@yahoo.com</email>
 		</tsar>
 		<web>http://desmoines.pm.org</web>
 		<date type="inception">19990503</date>
