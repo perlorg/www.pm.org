@@ -2809,7 +2809,7 @@
 		<date type="inception">19980918</date>
 	</group>
 	
-	<group id="129">
+	<group id="129" status="active">
 		<name>Helsinki.pm</name>
 		<location>
 			<city>Helsinki</city>
@@ -14592,18 +14592,18 @@
         <group id="661" status="active">
                 <name>brazosvalley.pm</name>
                 <location>
-                        <city>Brazos Valley</city>
+                        <city>Bryan</city>
                         <state>Texas</state>
                         <region></region>
                         <country>United States of America</country>
                         <continent>North America</continent>
-                        <longitude>-96.33</longitude>
-                        <latitude>30.63</latitude>
+                        <longitude>-96.36616</longitude>
+                        <latitude>30.632698</latitude>
                 </location>
                 <email type="group"></email>
                 <tsar>
-                        <name>Jeremy Fluhmann</name>
-                        <email type="personal">jfluhmann@hotmail.com</email>
+                        <name>Herb Nowell</name>
+                        <email type="personal">herb.nowell@gmail.com</email>
                 </tsar>
                 <web>http://brazosvalley.pm.org/</web>
                 <date type="inception">20050630</date>
@@ -15802,7 +15802,7 @@
                 <web>http://tallinn.pm.org</web>
                 <date type="inception">20080921</date>
         </group>
-        <group id="727" status="active">
+        <group id="727" status="sleeping">
                 <name>Guincho.pm</name>
                 <location>
                         <city>Cascais</city>
@@ -15837,6 +15837,24 @@
                 </tsar>
                 <web>http://northwestengland.pm.org</web>
                 <date type="inception">20081228</date>
+        </group>
+        <group id="729" status="active">
+                <name>SanCristobal.pm</name>
+                <location>
+                        <city>San CristÃ³bal</city>
+                        <state>TÃ¡chira</state>
+                        <region>Occidental</region>
+                        <country>Venezuela</country>
+                        <continent>South America</continent>
+                        <longitude>-72.192667</longitude>
+                        <latitude>7.808306</latitude>
+                </location>
+                <tsar>
+                        <name>Walter A. Vargas M.</name>
+                        <email type="personal">walter@covetel.com.ve</email>
+                </tsar>
+                <web>http://sancristobal.pm.org</web>
+                <date type="inception">20090603</date>
         </group>
 </perl_mongers>
 
