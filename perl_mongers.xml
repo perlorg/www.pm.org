@@ -12071,7 +12071,7 @@
 		<date type="inception">20021010</date>
 	</group>
 
-	<group id="549" status="active">
+	<group id="549" status="spam">
 		<name>Iassy.pm</name>
 		<location>
 			<city>Iassy</city>
@@ -12082,19 +12082,11 @@
 			<longitude></longitude>
 			<latitude></latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Marius Feraru</name>
 			<email type="personal">altblue@n0i.net</email>
 		</tsar>
 		<web>http://iassy.pm.org/</web>
-		<mailing_list>
-			<name>General Iassy Perl Mongers discussion</name>
-			<email type="list">isassy-pm@pm.org</email>
-			<email type="list_admin">altblue@n0i.net</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20021010</date>
 	</group>
 
@@ -15855,6 +15847,24 @@
                 </tsar>
                 <web>http://sancristobal.pm.org</web>
                 <date type="inception">20090603</date>
+        </group>
+        <group id="730" status="active">
+                <name>Kostroma.pm</name>
+                <location>
+                        <city>Kostroma</city>
+                        <state></state>
+                        <region></region>
+                        <country>Russia</country>
+                        <continent>Asia</continent>
+                        <longitude>40.928471</longitude>
+                        <latitude>57.768567</latitude>
+                </location>
+                <tsar>
+                        <name>Igor Zakharov</name>
+                        <email type="personal">garikz@gmail.com</email>
+                </tsar>
+                <web>http://kostroma.pm.org</web>
+                <date type="inception">20090624</date>
         </group>
 </perl_mongers>
 
