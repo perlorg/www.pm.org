@@ -6342,7 +6342,6 @@
 		<date type="inception"></date>
 	</group>
 
-
 	<group id="305" status="active">
 		<name>Los_Angeles.pm</name>
 		<location>
@@ -12982,7 +12981,7 @@
 		<date type="inception">20030628</date>
 	</group>
 
-	<group id="586" status="active">
+	<group id="586" status="sleeping">
 		<name>Oegstgeest.pm</name>
 		<location>
 			<city>Oegstgeest</city>
@@ -12993,19 +12992,11 @@
                         <longitude>4.4667</longitude>
                         <latitude>52.1833</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Eric Veldhuyzen</name>
 			<email type="personal">eric@terra.nu</email>
 		</tsar>
 		<web>http://oegstgeest.pm.org/</web>
-		<mailing_list>
-			<name>General Oegstgeest Perl Mongers discussion</name>
-			<email type="list">oegstgeest-pm@pm.org</email>
-			<email type="list_admin">eric@terra.nu</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20030628</date>
 	</group>
 
@@ -14912,7 +14903,7 @@
                 <web>http://chupei.pm.org</web>
                 <date type="inception">20060116</date>
         </group>
-        <group id="679" status="active">
+        <group id="679" status="sleeping">
                 <name>Thailand.pm</name>
                 <location>
                         <city>Bangkok</city>
@@ -14929,13 +14920,6 @@
                         <email type="personal">rapichai@gmail.com</email>
                 </tsar>
                 <web>http://thailand.pm.org/</web>
-                <mailing_list>
-                        <name>General Thailand.pm discussion</name>
-                        <email type="list">thailand-pm@pm.org</email>
-                        <email type="list_admin">thailand-pm-owner@pm.org</email>
-                        <subscribe>subscribe thailand-pm-list email_address</subscribe>
-                        <unsubscribe>unsubscribe thailand-pm-list email_address</unsubscribe>
-                </mailing_list>
                 <date type="inception">20060120</date>
         </group>
         <group id="680" status="active">
@@ -15854,8 +15838,8 @@
                         <city>Kostroma</city>
                         <state></state>
                         <region></region>
-                        <country>Russia</country>
-                        <continent>Asia</continent>
+                        <country>Russian Federation</country>
+                        <continent>Europe</continent>
                         <longitude>40.928471</longitude>
                         <latitude>57.768567</latitude>
                 </location>
@@ -15865,6 +15849,24 @@
                 </tsar>
                 <web>http://kostroma.pm.org</web>
                 <date type="inception">20090624</date>
+        </group>
+        <group id="731" status="active">
+                <name>Quito.pm</name>
+                <location>
+                        <city>Quito</city>
+                        <state>Pichincha</state>
+                        <region></region>
+                        <country>Ecuador</country>
+                        <continent>South America</continent>
+                        <longitude>-78.78</longitude>
+                        <latitude>-0.25</latitude>
+                </location>
+                <tsar>
+                        <name>JosÃ© Miguel Parrella Romero</name>
+                        <email type="personal">joseparrella@gmail.com</email>
+                </tsar>
+                <web>http://quito.pm.org</web>
+                <date type="inception">20090722</date>
         </group>
 </perl_mongers>
 
