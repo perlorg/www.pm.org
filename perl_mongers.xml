@@ -6353,10 +6353,9 @@
 			<longitude>-118.243444</longitude>
 			<latitude>34.052207</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Pablo Velasquez</name>
-			<email type="personal">pablo@paeli.com</email>
+			<name>Andrew Grangaard</name>
+			<email type="personal">agrangaard@rubiconproject.com</email>
 		</tsar>
 		<web>http://la.pm.org/</web>
 		<date type="inception"></date>
@@ -6556,7 +6555,7 @@
                 <date type="inception">20060526</date>
 	</group>
 
-	<group id="314" status="active">
+	<group id="314" status="disabled">
 		<name>Oakland.pm</name>
 		<location>
 			<city>Oakland</city>
@@ -12703,13 +12702,6 @@
                         <email type="personal">bepi@modperl.it</email>
                 </tsar>
                 <web>http://pisa.pm.org/</web>
-                <mailing_list>
-                        <name>General Pisa Perl Mongers discussion</name>
-                        <email type="list"></email>
-                        <email type="list_admin"></email>
-                        <subscribe></subscribe>
-                        <unsubscribe></unsubscribe>
-                </mailing_list>
                 <date type="inception">20030410</date>
         </group>
 
@@ -14313,13 +14305,13 @@
 	<group id="650" status="active">
 		<name>Italia.pm</name>
 		<location>
-			<city></city>
+			<city>Pisa</city>
 			<state></state>
 			<region></region>
 			<country>Italy</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>10.38</longitude>
+			<latitude>43.72</latitude>
 		</location>
 		<tsar>
 			<name>Michele Beltrame</name>
@@ -15315,8 +15307,8 @@
                         <region></region>
                         <country>Germany</country>
                         <continent>Europe</continent>
-                        <longitude>52.2</longitude>
-                        <latitude>9.44</latitude>
+                        <longitude>9.44</longitude>
+                        <latitude>52.2</latitude>
                 </location>
                 <tsar>
                         <name>Sven Newhaus</name>
@@ -15334,8 +15326,8 @@
                         <region></region>
                         <country>Ukraine</country>
                         <continent>Europe</continent>
-                        <longitude>50.42</longitude>
-                        <latitude>30.50</latitude>
+                        <longitude>30.50</longitude>
+                        <latitude>50.42</latitude>
                 </location>
                 <tsar>
                         <name>Serg V. Gulko</name>
@@ -15383,17 +15375,10 @@
                         <latitude>42.48</latitude>
                 </location>
                 <tsar>
-                        <name>Beth Skwarecki</name>
-                        <email type="personal">beth@loxosceles.org</email>
+                        <name>Adri Mills</name>
+                        <email type="personal">aamills@gmail.com</email>
                 </tsar>
                 <web>http://ithaca.pm.org</web>
-		<mailing_list>
-			<name>General Ithaca Perl Mongers discussion</name>
-			<email type="list">ithaca-pm@pm.org</email>
-			<email type="list_admin">beth@loxosceles.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
                 <date type="inception">20070708</date>
 	        </group>
 
@@ -15867,6 +15852,24 @@
                 </tsar>
                 <web>http://quito.pm.org</web>
                 <date type="inception">20090722</date>
+        </group>
+        <group id="732" status="active">
+                <name>Kushiro.pm</name>
+                <location>
+                        <city>Kushiro</city>
+                        <state>Hokkaido</state>
+                        <region></region>
+                        <country>Japan</country>
+                        <continent>Asia</continent>
+                        <longitude>144.381292</longitude>
+                        <latitude>42.984799</latitude>
+                </location>
+                <tsar>
+                        <name>Satoshi Futaya</name>
+                        <email type="personal">futaya@cpan.org</email>
+                </tsar>
+                <web>http://kushiro.pm.org</web>
+                <date type="inception">20090817</date>
         </group>
 </perl_mongers>
 
