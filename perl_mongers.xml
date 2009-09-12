@@ -3847,7 +3847,7 @@
 		<date type="inception">20060806</date>
 	</group>
 	
-	<group id="181" status="active">
+	<group id="181" status="sleeping">
 		<name>Bangkok.pm</name>
 		<location>
 			<city>Bangkok</city>
@@ -8982,22 +8982,14 @@
 			<region></region>
 			<country>Ireland</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-6.2</longitude>
+			<latitude>53.4</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Dave O'Connor</name>
 			<email type="personal">doc@redbrick.dcu.ie</email>
 		</tsar>
 		<web>http://dublin.pm.org/</web>
-		<mailing_list>
-			<name>General Dublin Perl Mongers discussion</name>
-			<email type="list">dublin-pm@pm.org</email>
-			<email type="list_admin">doc@redbrick.dcu.ie</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20010621</date>
 	</group>
 
@@ -15367,7 +15359,7 @@
                 <name>Ithaca.pm</name>
                 <location>
                         <city>Ithaca</city>
-                        <state>NY</state>
+                        <state>New York</state>
                         <region>northeast USA</region>
                         <country>United States of America</country>
                         <continent>North America</continent>
