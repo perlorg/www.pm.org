@@ -8,8 +8,6 @@ Directory layout is as follows:
 
 bin/ 
   contains programs to build the site etc.
-etc/
-  contains configuration files
 lib/
   contains Template Toolkit templates
 src/
