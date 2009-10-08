@@ -52,6 +52,13 @@
 %]
 
 [% INCLUDE sideheader
+  major = {"Non-English" => "http://www.perlfoundation.org/perl5/index.cgi?international_perl_resources"}
+  minor = {
+    "Magyar" => "http://www.perlfoundation.org/perl5/index.cgi?hungarian",
+  }
+%]
+
+[% INCLUDE sideheader
   major = {"Affiliates" => "/"}
   minor = {
     "The Perl Foundation" => "http://www.perlfoundation.org/",
@@ -65,6 +72,7 @@
     "mod_perl" => "http://perl.apache.org/",
   }
 %]
+
 </td>
 <td valign="top">
 [% INCLUDE heading %]
