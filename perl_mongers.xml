@@ -15075,6 +15075,7 @@
                 <date type="inception">20060526</date>
         </group>
         <group id="688" status="active">
+        <!-- 2009.10.08 after exchanging e-mail with Camila the web link was changed to woman.perl.org.br - szabgab -->
                 <name>Women.pm</name>
                 <location>
                         <city></city>
@@ -15089,7 +15090,7 @@
                         <name>Camila Mattos</name>
                         <email type="personal">misskaapow@gmail.com</email>
                 </tsar>
-                <web>http://kaiserslautern.pm.org</web>
+                <web>http://women.perl.org.br/</web>
                 <date type="inception">20060526</date>
         </group>
         <group id="689" status="active">
