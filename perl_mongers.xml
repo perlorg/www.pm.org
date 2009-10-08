@@ -6656,7 +6656,8 @@
 	</group>
 
 
-	<group id="318" status="active">
+	<group id="318" status="inactive">
+	<!-- 2009.10.08 website inactive, contact e-mail bounces. - szabgab -->
 		<name>Bangsar.pm</name>
 		<location>
 			<city>Bangsar</city>
@@ -12726,7 +12727,8 @@
 		<date type="inception">20030425</date>
 	</group>
 
-	<group id="570" status="active">
+	<group id="570" status="inactive">
+	<!-- 2009.10.08 website inactive, contact e-mail bounces. - szabgab -->
 		<name>PhPerl.pm</name>
 		<location>
 			<city>Pateros</city>
@@ -13407,7 +13409,8 @@
 		<date type="inception">20031108</date>
 	</group>
 
-	<group id="608" status="active">
+	<group id="608" status="inactive">
+	<!-- 2009.10.08 website inactive, contact e-mail bounces. - szabgab -->
 		<name>tutorial.pm.org.pm</name>
 		<location>
 			<city>tutorial.pm.org</city>
@@ -13461,7 +13464,8 @@
 		<date type="inception">20031108</date>
 	</group>
 
-	<group id="610" status="active">
+	<group id="610" status="inactive">
+	<!-- 2009.10.08 website inactive, contact e-mail bounces. - szabgab -->
 		<name>JERL.pm</name>
 		<location>
 			<city>JERL</city>
@@ -13770,7 +13774,8 @@
 		<date type="inception">20031224</date>
 	</group>
 
-	<group id="623" status="active">
+	<group id="623" status="inactive">
+	<!-- 2009.10.08 website inactive, contact e-mail bounces. - szabgab -->
 		<name>ph.pm</name>
 		<location>
 			<city>ph</city>
@@ -13871,7 +13876,8 @@
 		<date type="inception">20040208</date>
 	</group>
 
-	<group id="627" status="active">
+	<group id="627" status="inactive">
+	<!-- 2009.10.08 website inactive, contact e-mail bounces. - szabgab -->
 		<name>mytutorial.pm</name>
 		<location>
 			<city>mytutorial</city>
@@ -14968,7 +14974,8 @@
                 <web>http://darmstadt.pm.org</web>
                 <date type="inception">20060221</date>
         </group>
-        <group id="683" status="active">
+        <group id="683" status="inactive">
+	    <!-- 2009.10.08 website inactive, contact e-mail bounces. - szabgab -->
                 <name>Akasaka.pm</name>
                 <location>
                         <city>Akasaka</city>
