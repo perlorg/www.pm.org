@@ -36,13 +36,13 @@ Asia - DONE
   Lebanon
   - Lebanon.pm
   Malaysia
-  - Bangsar.pm - bounced - XML mareked inactive
+  - Bangsar.pm - bounced - XML marked inactive
   - Malaysia.pm - asked for help to get hostname redirection
   Pakistan
   - JERL.pm - bounced - XML marked inactive
-  - Pakistan.pm - WARNING received
+  - Pakistan.pm - could not deliver - XML marked inactive
   Philippinies
-  - Mignon.pm
+  - Mignon.pm - Chame answered and told me to remove group - XML marked inactive
   - ph.pm - bounced - XML marked inactive
   - phPerl.pm - bounced - XML marked inactive
   Quatar
@@ -65,14 +65,14 @@ Asia - DONE
 Central America - DONE
 
 non-geographical - DONE
-  - Woman.pm - answer received, URL updated
-  - Camelot.pm
-  - Dahut.pm
+  - Woman.pm - answer received, URL updated to http://women.perl.org.br/
+  - Camelot.pm - could not deliver - XML marked inactive
+  - Dahut.pm - the Tsar confirmed they exist just ahve issues with the server.
   - PBP.pm
   - Banking.pm - Alex wrote that the group should be removed - XML makred inactive
 
 Oceania - DONE
-  - Auckland.pm
+  - Auckland.pm - answer received from Dan, XML marked inactive
 
 Europe - DONE up to and including Italy
   - Tallin.pm
