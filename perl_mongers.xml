@@ -3974,7 +3974,8 @@
 		<date type="inception">19990131</date>
 	</group>
 	
-	<group id="187" status="active">
+	<group id="187" status="inactive">
+	<!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
 		<name>HongKong.pm</name>
 		<location>
 			<city>Hong Kong</city>
@@ -6393,7 +6394,8 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="307" status="active">
+	<group id="307" status="inactive">
+	<!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
 		<name>Athens.pm</name>
 		<location>
 			<city>Athens</city>
@@ -6633,7 +6635,8 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="317" status="active">
+	<group id="317" status="inactive">
+	<!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
 		<name>Colombo.pm</name>
 		<location>
 			<city>Colombo</city>
@@ -7151,7 +7154,8 @@
 		<date type="inception">20001231</date>
 	</group>
 
-	<group id="340" status="active">
+	<group id="340" status="inactive">
+	<!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
 		<name>iran.pm</name>
 		<location>
 			<city>Tehran</city>
@@ -12191,7 +12195,8 @@
 	</group>
 
 
-	<group id="515" status="active">
+	<group id="515" status="inactive">
+	<!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
 		<name>Lebanon.pm</name>
 		<location>
 			<city>Beirut</city>
@@ -12858,7 +12863,8 @@
 		<date type="inception">20030628</date>
 	</group>
 
-	<group id="581" status="active">
+	<group id="581" status="inactive">
+	<!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
 		<name>Thane.pm</name>
 		<location>
 			<city>Thane</city>
@@ -13026,7 +13032,8 @@
 		<date type="inception">20030628</date>
 	</group>
 
-	<group id="588" status="active">
+	<group id="588" status="inactive">
+	<!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
 		<name>Gombe.pm</name>
 		<location>
 			<city>Gombe</city>
@@ -13760,7 +13767,8 @@
 		<date type="inception">20031224</date>
 	</group>
 
-	<group id="622" status="active">
+	<group id="622" status="inactive">
+	<!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
 		<name>ooubafsan.pm</name>
 		<location>
 			<city>ooubafsan</city>
@@ -13843,7 +13851,8 @@
 		<date type="inception">20031224</date>
 	</group>
 
-	<group id="625" status="active">
+	<group id="625" status="inactive">
+	<!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
 		<name>Sri Lanka.pm</name>
 		<location>
 			<city>Sri Lanka</city>
@@ -13972,7 +13981,8 @@
 		<date type="inception">20040208</date>
 	</group>
 
-	<group id="633" status="active">
+	<group id="633" status="inactive">
+	<!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
 		<name>Angola.pm</name>
 		<location>
 			<city>Angola</city>
@@ -14854,7 +14864,8 @@
 		<web>http://miltonkeynes.pm.org</web>
 		<date type="inception">20051011</date>
 	</group>
-        <group id="676" status="active">
+        <group id="676" status="inactive">
+	    <!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
                 <name>PBP.pm</name>
                 <!-- Perl Best Practices -->
                 <location>
@@ -15437,7 +15448,8 @@
                 <date type="inception">20070708</date>
         </group>
 
-        <group id="707" status="active">
+        <group id="707" status="inactive">
+	    <!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
                 <name>Kochi.pm</name>
                 <location>
                         <city>Kochi</city>
@@ -15708,7 +15720,8 @@
                 <web>http://fredericton.pm.org</web>
                 <date type="inception">20080719</date>
         </group>
-        <group id="723" status="active">
+        <group id="723" status="inactive">
+	    <!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
                 <name>Timbuktu.pm</name>
                 <location>
                         <city>Timbuktu</city>

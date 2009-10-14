@@ -1,89 +1,92 @@
 PM.log
 
-2009.10.08 
+
+2009.10.08-14
 
 Going over the websites and sending e-mails to those that 
 are not responding or that have a "coming soon" page.
 
 Afica - DONE
-  - Africa.pm - bounced - XML marked inactive
-  - ZA.pm - bounced - XML marked inactive
-  - Angola.pm
-  - Timbuktu.pm
-  - Gombe.pm
-  - Ooubafsan.pm
-  - Kampala.pm
+  - Africa.pm           - bounced - XML marked inactive
+  - ZA.pm               - bounced - XML marked inactive
+  - Angola.pm           - no answer - XML marked inactive
+  - Timbuktu.pm         - no answer - XML marked inactive
+  - Gombe.pm            - no answer - XML marked inactive
+  - Ooubafsan.pm        - no answer - XML marked inactive
+  Uganda
+  - Kampala.pm          - got answer, told to send mail to support@pm.org - TODO
 
 Asia - DONE
   Armenia
   China
-  - HongKong.pm
+  - HongKong.pm         - no answer - XML marked inactive
   India
-  - Delhi.pm
-  - Hyderabad.pm
-  - Kochi.pm
-  - mytutorial.pm - bounced - XML marked inactive
-  - Thane.pm
-  - tutorial.pm.org.pm - bounced - XML marked inactive
+  - Delhi.pm            - TODO
+  - Hyderabad.pm        - got response, directed Raj to open ticket at support - TODO
+  - Kochi.pm            - no answer - XML marked inactive
+  - mytutorial.pm       - bounced - XML marked inactive
+  - Thane.pm            - no answer - XML marked inactive
+  - tutorial.pm.org.pm  - bounced - XML marked inactive
   Indonesia
   Iran
-  - Iran.pm
+  - Iran.pm             - no answer - XML marked inactive
   Israel
   Japan
-  - Akasaka.pm - bounced - XML marked inactive
+  - Akasaka.pm          - bounced - XML marked inactive
   Korea
-  - Seoul.pm - web not answering but they must be there somewhere
+  - Seoul.pm            - web not answering but they must be there somewhere TODO
   Lebanon
-  - Lebanon.pm
+  - Lebanon.pm          - no answer - XML marked inactive
   Malaysia
-  - Bangsar.pm - bounced - XML marked inactive
-  - Malaysia.pm - asked for help to get hostname redirection
+  - Bangsar.pm          - bounced - XML marked inactive
+  - Malaysia.pm         - asked for help to get hostname redirection, directed to support - TODO
   Pakistan
-  - JERL.pm - bounced - XML marked inactive
-  - Pakistan.pm - could not deliver - XML marked inactive
+  - JERL.pm - bounced   - XML marked inactive
+  - Pakistan.pm         - could not deliver - XML marked inactive
   Philippinies
-  - Mignon.pm - Chame answered and told me to remove group - XML marked inactive
-  - ph.pm - bounced - XML marked inactive
-  - phPerl.pm - bounced - XML marked inactive
+  - Mignon.pm           - Chame answered and told me to remove group - XML marked inactive
+  - ph.pm - bounced     - XML marked inactive
+  - phPerl.pm           - bounced - XML marked inactive
   Quatar
   Russia
-  - Shadrinski.pm - bounced - XML marked inactive
+  - Shadrinski.pm       - bounced - XML marked inactive
   Singapore
   Sri Lanka
-  - SriLanka.pm
-  - Colombo.pm
+  - SriLanka.pm         - no answer - XML marked inactive
+  - Colombo.pm          - no answer - XML marked inactive
   Taiwan
-  - Taichung.pm - bounced - XML marked inactive
-  - Taipei.pm - answered that working on it
+  - Taichung.pm         - bounced - XML marked inactive
+  - Taipei.pm           - answered that working on it, told the tsar to send request to support - TODO
   Turkey
-  - Istanbul.pm  - bounced - XML marked inactive
+  - Istanbul.pm         - bounced - XML marked inactive
   United Arab Emirates
-  - Dubai.pm - answered that the group can be removed - XML marked inactive
+  - Dubai.pm            - answered that the group can be removed - XML marked inactive
   Vietnam
-  - hanoi.pm - bounced - XML marked inactive
+  - hanoi.pm            - bounced - XML marked inactive
 
 Central America - DONE
 
 non-geographical - DONE
-  - Woman.pm - answer received, URL updated to http://women.perl.org.br/
-  - Camelot.pm - could not deliver - XML marked inactive
-  - Dahut.pm - the Tsar confirmed they exist just ahve issues with the server.
-  - PBP.pm
-  - Banking.pm - Alex wrote that the group should be removed - XML makred inactive
+  - Woman.pm            - answer received, URL updated to http://women.perl.org.br/
+  - Camelot.pm          - could not deliver - XML marked inactive
+  - Dahut.pm            - the Tsar confirmed they exist just ahve issues with the server. - TODO
+  - PBP.pm              - no answer - XML marked inactive
+  - Banking.pm          - Alex wrote that the group should be removed - XML makred inactive
 
 Oceania - DONE
-  - Auckland.pm - answer received from Dan, XML marked inactive
+  - Auckland.pm         - answer received from Dan, XML marked inactive
 
 Europe - DONE up to and including Italy
-  - Tallin.pm
-  - Athens.pm
-  - Budapest.pm - talked on IRC, should try to setup redirect to http://www.perlfoundation.org/perl5/index.cgi?hungarian
-  - may.pm - bounced - XML marked inactive
-  - Bologna.pm
-  - salerno.pm - bounced - XML marked inactive
-  - Firenze.pm
-  - torino.pm - bounced - XML marked inactive
-  - Torino.pm - Vitto answered to the other to remove group - XML marked inactive
+  - Tallin.pm           - answered, I suggested to create an Estonian page on TPF wiki and to contact support - TODO
+  - Athens.pm           - no answer - XML marked inactive
+  - Budapest.pm         - talked on IRC, should try to setup redirect to http://www.perlfoundation.org/perl5/index.cgi?hungarian
+                          I sent request to support@pm.org - TODO
+  - may.pm - bounced    - XML marked inactive
+  - Bologna.pm          - got a response, I sent a request to support@pm.org - TODO
+  - salerno.pm          - bounced - XML marked inactive
+  - Firenze.pm          - TODO
+  - torino.pm           - bounced - XML marked inactive
+  - Torino.pm           - Vitto answered to the other to remove group - XML marked inactive
 
 North America - TODO
 South America - TODO
