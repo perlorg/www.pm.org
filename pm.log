@@ -1,9 +1,34 @@
 PM.log
 
+TODO
+- go over all the PM groups, and contact the group leader that have no web site or
+  where the web site is broken.
+  - mark the group as inactive if I the mail bounces or if the group leader tells so
+    or if no answer is received within a week.
+  - later check the other resources of these groups 
+    (mailing list, DNS of the group name, what else?)
+    remove the DNS
+    freeze the mailing list if it has archive or delete it if there is 
+    no content in the archive (backup list of users?)
+    
+- include the link to the pm group to the page listing the groups on the continent
+- on the individual pm pages (if we keep them) include the name of the group and 
+  other info in the html title (e.g. links to the mailing list pages or instructions
+  how to sign up).
+
+- Once utf-8 is enabled add language links to the left side of the pm.org we site
+- clean up the "Invite a guru" page - remove most of the people, maybe change the whole 
+  title ("guru ?") ask who else wants to be added
+- move all the entries that are not 'alive' to another xml file
+
+- add multiple "langauge" fields to each pm group
+- create pages grouping the groups according to language  German", "French"
+
+
 
 2009.10.14
 
-Europe - DONE including Slovenia
+Europe - DONE
   Macedonia
   - Mk.pm
   Moldova, Republic of
@@ -48,6 +73,11 @@ Europe - DONE including Slovenia
   - kraljevo.pm - bounced - XML marked inactive
 
 North America - TODO
+  Canada
+  - Burnaby.pm
+  - Calgary.pm
+  - Fredericton.pm
+  
 South America
   Argentina
   Brazil - TODO
