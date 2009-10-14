@@ -10,7 +10,10 @@ TODO
     remove the DNS
     freeze the mailing list if it has archive or delete it if there is 
     no content in the archive (backup list of users?)
-    
+
+- remove the webmaster@pm.org address from the contact list as it goes to the same
+  place as support.pm.org and that will reduce any potential confusion.
+
 - include the link to the pm group to the page listing the groups on the continent
 - on the individual pm pages (if we keep them) include the name of the group and 
   other info in the html title (e.g. links to the mailing list pages or instructions
@@ -24,6 +27,18 @@ TODO
 - add multiple "langauge" fields to each pm group
 - create pages grouping the groups according to language  German", "French"
 
+- list the valid status values and their meaning (and probably better to reduce the list of valid values)
+  active
+  inactive
+  mlb
+  leb
+  disbanded
+  sleeping
+  Vetoed by Robert...  (I guess this should be in a separate field or in a comment)
+  unknown
+- add status to groups that do not have one
+- improve the bin/ping.pl (or the bin/xml ?) to validate that the fields in the
+  xml file are valid values and are not missing.
 
 
 2009.10.14
@@ -93,7 +108,40 @@ North America - TODO, done till California
   - KernCounty.pm
   - LagunaNiguel.pm - bounced - XML marked inactive
   - ValleyPerl.pm - TODO send mail ?
-  
+  Colorado
+  - Breckenridge.pm
+  Connecticut
+  - Hartford.pm
+  Delaware
+  - NewCastle.pm
+  Florida
+  - Destin.pm
+  - Miami.pm - TODO send mail?
+  - Orlando.pm
+  Georgia
+  - ClassicCity.pm  - TODO check this out!
+  Illinois
+  - Rockford.pm - bounced - XML marked inactive
+  Kansas
+  - Wichita.pm
+  Maine
+  - Maine.pm
+  Minnesota
+  - Northfield.pm
+  - StPaul.pm
+  Mississippi
+  - Lafayette.pm
+  Missouri
+  - SpringfieldMO.pm
+  New Jersey
+  - Morris County.pm
+  New York
+  - Csy.pm - bounced - XML marked inactive
+  North Carolina
+  - Asheville.pm - bounced - XML marked inactive
+  Ohio
+  - Dayton.pm
+  - rubbercity.pm
   
 South America
   Argentina

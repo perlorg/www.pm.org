@@ -12170,7 +12170,8 @@
 		<date type="inception">20021121</date>
 	</group>
 
-	<group id="514" status="active">
+	<group id="514" status="unactive">
+    <!-- 2009.10.14 - web site is dead, email bounced - szabgab -->
 		<name>Csy.pm</name>
 		<location>
 			<city>Queen</city>
@@ -14819,7 +14820,8 @@
 		<web>http://charleston.pm.org</web>
 		<date type="inception">20051011</date>
 	</group>
-	<group id="673" status="active">
+	<group id="673" status="inactive">
+    <!-- 2009.10.14 - web site is dead, email bounced - szabgab -->
 		<name>Asheville.pm</name>
 		<location>
 			<city>Asheville</city>
@@ -14893,7 +14895,8 @@
                 <web>http://pbp.pm.org</web>
                 <date type="inception">20051111</date>
         </group>
-        <group id="677" status="active">
+        <group id="677" status="inactive">
+        <!-- 2009.10.14 - web site is dead, email bounced - szabgab -->
                 <name>Rockford.pm</name>
                 <location>
                         <city>Rockford</city>
