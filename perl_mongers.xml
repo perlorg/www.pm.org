@@ -11840,7 +11840,8 @@
 		<date type="inception">20020925</date>
 	</group>
 	
-	<group id="534" status="active">
+	<group id="534" status="inactive">
+    <!-- 2009.10.14 - web site is dead, Abigail responded that group is dead - szabgab -->
 		<name>Alphen.pm</name>
 		<location>
 			<city>Alphen aan den Rijn</city>
@@ -14117,7 +14118,8 @@
 		<date type="inception">20040222</date>
 	</group>
 
-	<group id="638" status="active">
+	<group id="638" status="inactive">
+    <!-- 2009.10.14 - web site is dead, Edwin responded that group is dead - szabgab -->
 		<name>Eindhoven.pm</name>
 		<location>
 			<city>Eindhoven</city>
