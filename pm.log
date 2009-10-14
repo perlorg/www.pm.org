@@ -43,7 +43,7 @@ TODO
 
 2009.10.14
 
-Europe - DONE
+Europe
   Macedonia
   - Mk.pm
   Moldova, Republic of
@@ -87,7 +87,7 @@ Europe - DONE
   Yugoslavia
   - kraljevo.pm - bounced - XML marked inactive
 
-North America - TODO, done till California
+North America
   Canada
   - Burnaby.pm
   - Calgary.pm
@@ -142,7 +142,26 @@ North America - TODO, done till California
   Ohio
   - Dayton.pm
   - rubbercity.pm
-  
+  Oklahoma
+  - Lawton.pm - TODO send mail
+  - NE Oklahoma Perl Users Group.pm - bounced - XML marked inactive
+  - OklahomaCity.pm - TODO send mail
+  - SWOK.pm
+  Pennsylvania
+  - Altoona.pm - bounced - XML marked inactive
+  - LA-Belle.pm
+  - NEPenn.pm
+  - Pittsburgh.pm - TODO check it again
+  Rhode Island 
+  - RhodeIsland.pm  - Brian answered that we can close it - XML marked inactive
+  South Carolina
+  - Charleston.pm - bounced - XML marked inactive
+  - Clemson.pm - bounced - XML marked inactive
+  - Cola.pm - TODO send mail
+  Texas
+  - SanAntonio.pm - bounced - XML marked inactive
+  - TheWoodlands.pm
+  - HamptonRoads.pm 
 South America
   Argentina
   Brazil - TODO
@@ -174,7 +193,7 @@ South America
 Going over the websites and sending e-mails to those that 
 are not responding or that have a "coming soon" page.
 
-Afica - DONE
+Afica
   - Africa.pm           - bounced - XML marked inactive
   - ZA.pm               - bounced - XML marked inactive
   - Angola.pm           - no answer - XML marked inactive
@@ -184,7 +203,7 @@ Afica - DONE
   Uganda
   - Kampala.pm          - got answer, told to send mail to support@pm.org - TODO
 
-Asia - DONE
+Asia
   Armenia
   China
   - HongKong.pm         - no answer - XML marked inactive
@@ -232,19 +251,19 @@ Asia - DONE
   Vietnam
   - hanoi.pm            - bounced - XML marked inactive
 
-Central America - DONE
+Central America
 
-non-geographical - DONE
+non-geographical
   - Woman.pm            - answer received, URL updated to http://women.perl.org.br/
   - Camelot.pm          - could not deliver - XML marked inactive
   - Dahut.pm            - the Tsar confirmed they exist just ahve issues with the server. - TODO
   - PBP.pm              - no answer - XML marked inactive
   - Banking.pm          - Alex wrote that the group should be removed - XML makred inactive
 
-Oceania - DONE
+Oceania
   - Auckland.pm         - answer received from Dan, XML marked inactive
 
-Europe - DONE up to and including Italy
+Europe
   - Tallin.pm           - answered, I suggested to create an Estonian page on TPF wiki and to contact support - TODO
   - Athens.pm           - no answer - XML marked inactive
   - Budapest.pm         - talked on IRC, should try to setup redirect to http://www.perlfoundation.org/perl5/index.cgi?hungarian

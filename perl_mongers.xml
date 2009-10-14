@@ -1852,7 +1852,8 @@
 		<date type="inception">19981008</date>
 	</group>
 	
-	<group id="82" status="active">
+	<group id="82" status="inactive">
+    <!-- 2009.10.14 - web site is dead, response received confirming it is dead  - szabgab -->
 		<name>RhodeIsland.pm</name>
 		<location>
 			<city></city>
@@ -1966,7 +1967,8 @@
 		<date type="inception">19990707</date>
 	</group>
 	
-	<group id="87" status="active">
+	<group id="87" status="inactive">
+    <!-- 2009.10.14 - web site is dead, email bounced - szabgab -->
 		<name>SanAntonio.pm</name>
 		<location>
 			<city>San Antonio</city>
@@ -9519,7 +9521,8 @@
 		<date type="inception">20010812</date>
 	</group>
 
-	<group id="431" status="active">
+	<group id="431" status="inactive">
+    <!-- 2009.10.14 - web site is dead, email bounced - szabgab -->
 		<name>Clemson.pm</name>
 		<location>
 			<city>Clemson</city>
@@ -14015,7 +14018,8 @@
 		<date type="inception">20040222</date>
 	</group>
 
-	<group id="634" status="active">
+	<group id="634" status="inactive">
+    <!-- 2009.10.14 - web site is dead, email bounced - szabgab -->
 		<name>NE Oklahoma Perl Users Group.pm</name>
 		<location>
 			<city>NE Oklahoma Perl Users Group</city>
@@ -14802,7 +14806,8 @@
 		<web>http://amiga.pm.org</web>
 		<date type="inception">20050919</date>
 	</group>
-	<group id="672" status="active">
+	<group id="672" status="inactive">
+    <!-- 2009.10.14 - web site is dead, email bounced - szabgab -->
 		<name>Charleston.pm</name>
 		<location>
 			<city>Charleston</city>
@@ -15139,7 +15144,8 @@
                 <web>http://coimbatore.pm.org</web>
                 <date type="inception">20060716</date>
         </group>
-        <group id="690" status="active">
+        <group id="690" status="inactive">
+        <!-- 2009.10.14 - web site is dead, email bounced - szabgab -->
                 <name>Altoona.pm</name>
                 <location>
                         <city>Altoona</city>
