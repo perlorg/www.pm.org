@@ -1,10 +1,9 @@
 [% WRAPPER layout title = "Perl Mongers: User group" %]
 
-[% IF image %]
-<img src="[% image %]"
-     alt="Perl Monger World Map for [% name | html_entity %]"
-     title="Perl Monger World Map for [% name | html_entity %]" ><p>
-[% END %]
+<a href="/groups/map.html"><img border=0
+     src="/groups/world_map.png" 
+     alt  ="Perl Monger World Map"
+     title="Perl Monger World Map">
 
 [% IF web %]
 <b><a href="[% web %]">[% name | html_entity %]</a></b> ([% location | html_entity %])<br>

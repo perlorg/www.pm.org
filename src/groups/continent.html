@@ -1,11 +1,10 @@
 [% WRAPPER layout title = "Perl Mongers: $continent" %]
 
-[% IF image %]
 <a href="/groups/map.html"><img border=0
-     src="[% image %]" alt="Perl Monger World Map for [% continent %]"
-     title="Perl Monger World Map for [% continent %]">
+     src="/groups/world_map.png" 
+     alt  ="Perl Monger World Map"
+     title="Perl Monger World Map">
 </a>
-[% END %]
 
 [% IF groups.keys.size %]
 
