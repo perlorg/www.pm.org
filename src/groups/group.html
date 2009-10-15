@@ -1,5 +1,7 @@
-[% title = name _ " (" _ location _ ") Perl Mongers" | html_entity %]
-[% WRAPPER layout title = title %]
+[% title = name _ " (" _ location _ ") Perl Mongers" | html_entity;
+   subtitle = name;
+   WRAPPER layout title = title 
+%]
 
 <a href="/groups/map.html"><img border=0
      src="/groups/world_map.png" 
