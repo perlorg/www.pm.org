@@ -1,6 +1,7 @@
 PM.log
 
 TODO
+=======
 - go over all the PM groups, and contact the group leader that have no web site or
   where the web site is broken.
   - mark the group as inactive if I the mail bounces or if the group leader tells so
@@ -39,9 +40,28 @@ TODO
 - add status to groups that do not have one
 - improve the bin/ping.pl (or the bin/xml ?) to validate that the fields in the
   xml file are valid values and are not missing.
+- Setup Nagios to monitor the websites?
+
+
+MENTORING
+==========
+Mentors:
+  Dave Cross <dave@dave.org.uk>
+  Andrew Shitov <andy@shitov.ru>
+  James E Keenan <jkeen@verizon.net>
+  Peter Lock <petelock@gmail.com>
+  breno <oainikusama@gmail.com>  (garu) running the groups in Brazil
+  Gabor Szabo <szabgab@gmail.com>
+
+
+Mentees:
+  Nagaraju Kancherla <wingsof5r@gmail.com>   (Raj) of Hyderabad.pm
+
 
 
 2009.10.14
+=============
+
 
 Europe
   Macedonia
@@ -59,6 +79,8 @@ Europe
   - Oeiras.pm
   - Porto.pm
   - Viana.pm
+  Romania
+  - Bucharest.pm - one mail bounced, TODO
   Russian Federation
   - Kazan.pm
   Slovenia
@@ -132,7 +154,7 @@ North America
   Mississippi
   - Lafayette.pm
   Missouri
-  - SpringfieldMO.pm
+  - SpringfieldMO.pm - got replay, in discussion - TODO
   New Jersey
   - Morris County.pm
   New York
@@ -187,8 +209,16 @@ South America
   - Caracas.pm - Ernesto mailed that they will have perl.org.ve by the end of November - TODO
   - Maracaibo.pm
   - Maracay.pm
-    
+
+Asia
+  Indonesia
+  - Bandung.pm - got reply that they are ok
+
+
+
 2009.10.08-14
+===============
+
 
 Going over the websites and sending e-mails to those that 
 are not responding or that have a "coming soon" page.
@@ -214,7 +244,6 @@ Asia
   - mytutorial.pm       - bounced - XML marked inactive
   - Thane.pm            - no answer - XML marked inactive
   - tutorial.pm.org.pm  - bounced - XML marked inactive
-  Indonesia
   Iran
   - Iran.pm             - no answer - XML marked inactive
   Israel
