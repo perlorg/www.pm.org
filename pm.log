@@ -25,7 +25,7 @@ TODO
   title ("guru ?") ask who else wants to be added
 - move all the entries that are not 'alive' to another xml file
 
-- add multiple "langauge" fields to each pm group
+- add multiple "language" fields to each pm group
 - create pages grouping the groups according to language  German", "French"
 
 - list the valid status values and their meaning (and probably better to reduce the list of valid values)

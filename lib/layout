@@ -77,7 +77,7 @@
   INCLUDE sideheader
   major = {"Non-English" => "http://www.perlfoundation.org/perl5/index.cgi?international_perl_resources"}
   minor = {
-    "Catalan"          => pfbase _ "catalan",
+    "Català"           => pfbase _ "catalan",
     "Čeština"          => pfbase _ "czech",
     "中文"             => pfbase _ "chinese",
     "Hrvatski"         => pfbase _ "croatian",
