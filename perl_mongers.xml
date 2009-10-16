@@ -11865,7 +11865,7 @@
 		<date type="inception">20020925</date>
 	</group>
 	<group id="535" status="active">
-		<name>kw.pm</name>
+		<name>Kw.pm</name>
 		<location>
 			<city>Kitchener-Waterloo</city>
 			<state>Ontario</state>
@@ -13514,9 +13514,9 @@
 	</group>
 
 	<group id="611" status="active">
-		<name>rubbercity.pm</name>
+		<name>Rubbercity.pm</name>
 		<location>
-			<city>rubbercity</city>
+			<city>Rubbercity</city>
 			<state>Ohio</state>
 			<region></region>
 			<country>United States of America</country>
@@ -13531,7 +13531,7 @@
 		</tsar>
 		<web>http://rubbercity.pm.org/</web>
 		<mailing_list>
-			<name>General rubbercity Perl Mongers discussion</name>
+			<name>General Rubbercity Perl Mongers discussion</name>
 			<email type="list">rubbercity-pm@pm.org</email>
 			<email type="list_admin">markymoon@mac.com</email>
 			<subscribe>subscribe members email_address</subscribe>
@@ -13588,9 +13588,9 @@
 	</group>
 
 	<group id="615" status="active">
-		<name>aalborg.pm</name>
+		<name>Aalborg.pm</name>
 		<location>
-			<city>aalborg</city>
+			<city>Aalborg</city>
 			<state>N/A</state>
 			<region>Northern Jutland</region>
 			<country>Denmark</country>
@@ -13615,9 +13615,9 @@
 	</group>
 
 	<group id="616" status="active">
-		<name>plovdiv.pm</name>
+		<name>Plovdiv.pm</name>
 		<location>
-			<city>plovdiv</city>
+			<city>Plovdiv</city>
 			<state>Plovdiv</state>
 			<region>Europe</region>
 			<country>Bulgaria</country>
@@ -14175,9 +14175,9 @@
 	</group>
 
 	<group id="642" status="active">
-		<name>turkperl.pm</name>
+		<name>Turkperl.pm</name>
 		<location>
-			<city>turkperl</city>
+			<city>Trkperl</city>
 			<state></state>
 			<region></region>
 			<country>Turkey</country>
@@ -14256,9 +14256,9 @@
 	</group>
 
 	<group id="645" status="active">
-		<name>cypriots.pm</name>
+		<name>Cypriots.pm</name>
 		<location>
-			<city>cypriots</city>
+			<city>Cypriots</city>
 			<state>Cyprus</state>
 			<region> </region>
 			<country>Cyprus</country>
@@ -14595,7 +14595,7 @@
                 <date type="inception">20000101</date>
         </group>
         <group id="661" status="active">
-                <name>brazosvalley.pm</name>
+                <name>Brazosvalley.pm</name>
                 <location>
                         <city>Bryan</city>
                         <state>Texas</state>
@@ -14633,7 +14633,7 @@
                 <date type="inception">20050710</date>
         </group>
         <group id="663" status="active">
-                <name>innsbruck.pm</name>
+                <name>Innsbruck.pm</name>
                 <location>
                         <city>Innsbruck</city>
                         <state>Tirol</state>
@@ -15822,7 +15822,7 @@
                 <date type="inception">20081125</date>
         </group>
         <group id="728" status="active">
-                <name>northwestengland.pm</name>
+                <name>Northwestengland.pm</name>
                 <location>
                         <city>Lancaster/Preston</city>
                         <state>Lancaster-Fylde-Cheshire</state>
