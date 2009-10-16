@@ -147,6 +147,13 @@ foreach my $continent (@continents) {
     || die $tt->error();
 }
 
+{
+  my $conf = {
+    allgroups => \%allgroups
+  };
+  $tt->process('src/groups/index.html', $conf, "www/groups/index.html")
+    || die $tt->error();
+}
 
 __END__
 =head1 NAME

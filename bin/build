@@ -29,7 +29,10 @@ $rule->or(
 my @files = $rule->file()->name(qr/^.[^~]+$/)->in($source);
 
 foreach my $file (@files) {
-print STDERR $file, "\n";
+  next if $file eq 'src/groups/index.html'; # processed by bin/xml
+  
+  print STDERR $file, "\n";
+
   my $destfile = $file;
   $destfile =~ s/^$source/$destination/;
   my($volume, $directories, $filepart) = splitpath($destfile);
