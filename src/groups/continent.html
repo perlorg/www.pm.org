@@ -13,32 +13,27 @@
 [% FOREACH country = groups.keys.sort %]
 <h2>[% country %]</h2>
 
-[% IF country == 'United States of America' %]
-[% FOREACH state = groups.$country.keys.sort %]
-<h3>[% state %]</h3>
-<ul>
-
-[% FOREACH group = groups.$country.$state %]
-<li><a href="[% group.id %].html">[% group.name | html_entity %]</a></br>
+  [% IF country == 'United States of America' %]
+    [% FOREACH state = groups.$country.keys.sort %]
+    <h3>[% state %]</h3>
+    <ul>
+      [% FOREACH group = groups.$country.$state %]
+        <li><a href="[% group.id %].html">[% group.name | html_entity %]</a></li>
+      [% END %]
+    </ul>
+    [% END %]
+  [% ELSE %]
+    <ul>
+      [% FOREACH group = groups.$country %]
+        <li><a href="[% group.id %].html">[% group.name | html_entity %]</a></li>
+      [% END %]
+    </ul>
+  [% END %]
 
 [% END %]
-</ul>
 
-[% END %]
 [% ELSE %]
-<ul>
-
-[% FOREACH group = groups.$country %]
-<li><a href="[% group.id %].html">[% group.name | html_entity %]</a></br>
-
-[% END %]
-</ul>
-
-[% END %]
-[% END %]
-[% ELSE %]
-
 <p>There are currently no groups in [% continent %].</p>
-
 [% END %]
+
 [% END %]
