@@ -5765,7 +5765,8 @@
 		<date type="inception">20000227</date>
 	</group>
 
-	<group id="278" status="active">
+	<group id="278" status="inactive">
+	<!-- 2009.10.17 website inactive, mail bounced, mailing list never used - szabgab -->
 		<name>Aalesund.pm</name>
 		<location>
 			<city>Aalesund</city>
@@ -12642,7 +12643,7 @@
 	</group>
 
 	<group id="563" status="inactive">
-	<!-- 2009.10.08 website inactive, contact e-mail bounces. - szabgab -->
+	<!-- 2009.10.08 website inactive, contact e-mail bounces., mailing list was never used - szabgab -->
 		<name>Africa.pm</name>
 		<location>
 			<city>Addis Ababa</city>
@@ -13881,6 +13882,7 @@
 	</group>
 
 	<group id="626" status="active">
+    <!-- <comment date="2009.10.17">mailing list is active</comment> -->
 		<name>ABE.pm</name>
 		<location>
 			<city>Allentown-Bethlehem-Easton</city>
@@ -14376,6 +14378,7 @@
 
 
         <group id="652" status="active">
+        <!-- <comment date="2009.10.17">mailing list used once every few month</comment> -->
                 <name>Aarau.pm</name>
                 <location>
                         <city>Aarau</city>
@@ -14486,6 +14489,7 @@
 	</group>
 
         <group id="656" status="active">
+        <!-- <comment date="2009.10.17">list is unused since 2006</comment> -->
                 <name>Aberdeen.pm</name>
                 <location>
                         <city>Aberdeen</city>
@@ -15917,7 +15921,7 @@
                         <city>Lima</city>
                         <state>Santiago de Surco</state>
                         <region></region>
-                        <country>Lima</country>
+                        <country>Peru</country>
                         <continent>South America</continent>
                         <longitude>-76.9797876</longitude>
                         <latitude>-12.132417</latitude>
