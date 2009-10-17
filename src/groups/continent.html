@@ -25,7 +25,8 @@
   [% ELSE %]
     <ul>
       [% FOREACH group = groups.$country %]
-        <li><a href="[% group.web %]">[% group.name | html_entity %]</a> (<a href="[% group.id %].html">?</a>)</li>
+        <li><a href="[% group.id %].html">[% group.name | html_entity %]</a></li>
+      <!--  <li><a href="[% group.web %]">[% group.name | html_entity %]</a> (<a href="[% group.id %].html">?</a>)</li> -->
       [% END %]
     </ul>
   [% END %]
