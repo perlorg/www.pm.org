@@ -38,9 +38,40 @@ TODO
   Vetoed by Robert...  (I guess this should be in a separate field or in a comment)
   unknown
 - add status to groups that do not have one
+
+- Reagrding status I think we need
+  - active 
+  - XXX  (could be inactive, sleeping or dormant) - 
+     this should be still displayed on the web, the mailing list if exists
+     should be linked and we should display a message saying that the list 
+     went dromant but there are messages in the archive and if the person is 
+     interested s/he should contact support@pm.org
+  - YYY (dead ??) Lists that once existed but now they don't have a website
+     and there was no mailing list or no content in the archive
+     (in which case we can remove the mailing list)
+     We don't show these on the web site.
+  That's it, is there are other kind of status? What about cases where the group
+  used only external services (its own web site and mailing list) and they are
+  gone?
+
+- Maybe there should be a field in the XML for some free text that can be displayed
+  on the web site explaining the situaton of specific groups.
+
+
 - improve the bin/ping.pl (or the bin/xml ?) to validate that the fields in the
   xml file are valid values and are not missing.
 - Setup Nagios to monitor the websites?
+
+- using the PM mailing list for more discussion on how to attract more users?
+- setting up an IRC channel for pm.org administration, PM leader mentoring 
+  and general monegring discussion?
+
+- Implement some game asking for people to reate the web sites of the PM groups
+  or to adpot a pm group or some other way to draw more attention to each group.
+
+- Remove mailing lists:
+  - Aalesund.pm
+  - Africa.pm
 
 
 MENTORING
@@ -55,7 +86,8 @@ Mentors:
 
 
 Mentees:
-  Nagaraju Kancherla <wingsof5r@gmail.com>   (Raj) of Hyderabad.pm
+  Nagaraju Kancherla <wingsof5r@gmail.com>   (Raj) of Hyderabad.pm (by Dave Cross)
+  Revence Kalibwani <revence27@gmail.com> of Kampala.pm (by Gabor Szabo)
 
 
 
@@ -72,10 +104,10 @@ Europe
   - Alphen.pm - Abigail responded that it is dead - XML marked inactive
   - Eindhoven.pm - Edwin responded that it is dead - XML marked inactive
   Norway
-  - Aalesund.pm - email bounced but also sent to Oslo.pm so now waiting - TODO
+  - Aalesund.pm - email bounced but also sent to Oslo.pm so now waiting - XML marked inactive
   Portugal
   - Cascais.pm - got reply that it was merged into Lisbon.pm and I can remove the link - XML marked inactive
-  - Guimaraes.pm - got reply, Ricardo is fixing it in a few days. - TODO
+  - Guimaraes.pm - got reply, Ricardo is fixing it in a few days.,  - TODO
   - Oeiras.pm
   - Porto.pm
   - Viana.pm
@@ -120,14 +152,14 @@ North America
   - Jalisco.pm TODO - need to check this!!
   - Monterrey.pm 
   United Kingdom
-  - Worcestershire.pm
+  - Worcestershire.pm - WARNING - TODO
   
   USA
   Arizona
   - Yuma - the site says it is disbanded - TODO send mail?
   California
   - JPL - TODO send mail?
-  - KernCounty.pm
+  - KernCounty.pm - WARNING - TODO
   - LagunaNiguel.pm - bounced - XML marked inactive
   - ValleyPerl.pm - TODO send mail ?
   Colorado
@@ -149,7 +181,7 @@ North America
   Maine
   - Maine.pm
   Minnesota
-  - Northfield.pm
+  - Northfield.pm - WARNING - TODO
   - StPaul.pm
   Mississippi
   - Lafayette.pm
@@ -212,7 +244,7 @@ South America
 
 Asia
   Indonesia
-  - Bandung.pm - got reply that they are ok
+  - Bandung.pm - got reply that they are ok (even though zr([at])lenn-biz.com  listed on the web site is giving WARNINGs)
 
 
 
@@ -231,7 +263,7 @@ Afica
   - Gombe.pm            - no answer - XML marked inactive
   - Ooubafsan.pm        - no answer - XML marked inactive
   Uganda
-  - Kampala.pm          - got answer, told to send mail to support@pm.org - TODO
+  - Kampala.pm          - got answer, told to send mail to support@pm.org, now mentored by Gabor Szabo - TODO
 
 Asia
   Armenia
@@ -239,7 +271,7 @@ Asia
   - HongKong.pm         - no answer - XML marked inactive
   India
   - Delhi.pm            - TODO
-  - Hyderabad.pm        - got response, directed Raj to open ticket at support - TODO
+  - Hyderabad.pm        - got response, directed Raj to open ticket at support. Dave Cross is not the mentor. TODO
   - Kochi.pm            - no answer - XML marked inactive
   - mytutorial.pm       - bounced - XML marked inactive
   - Thane.pm            - no answer - XML marked inactive
