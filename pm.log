@@ -2,30 +2,10 @@ PM.log
 
 TODO
 =======
-- go over all the PM groups, and contact the group leader that have no web site or
-  where the web site is broken.
-  - mark the group as inactive if I the mail bounces or if the group leader tells so
-    or if no answer is received within a week.
-  - later check the other resources of these groups 
-    (mailing list, DNS of the group name, what else?)
-    remove the DNS
-    freeze the mailing list if it has archive or delete it if there is 
-    no content in the archive (backup list of users?)
-
-- remove the webmaster@pm.org address from the contact list as it goes to the same
-  place as support.pm.org and that will reduce any potential confusion.
-
-- include the link to the pm group to the page listing the groups on the continent
-- on the individual pm pages (if we keep them) include the name of the group and 
-  other info in the html title (e.g. links to the mailing list pages or instructions
-  how to sign up).
-
-- Once utf-8 is enabled add language links to the left side of the pm.org we site
-- clean up the "Invite a guru" page - remove most of the people, maybe change the whole 
-  title ("guru ?") ask who else wants to be added
 - move all the entries that are not 'alive' to another xml file
 
 - add multiple "language" fields to each pm group
+
 - create pages grouping the groups according to language  German", "French"
 
 - list the valid status values and their meaning (and probably better to reduce the list of valid values)
@@ -57,17 +37,52 @@ TODO
 - Maybe there should be a field in the XML for some free text that can be displayed
   on the web site explaining the situaton of specific groups.
 
+- setting up an IRC channel for pm.org administration, PM leader mentoring 
+  and general monegring discussion?
+
+
+More TODO
+=========
+
+- go over all the PM groups, and contact the group leader that have no web site or
+  where the web site is broken.
+  - mark the group as inactive if I the mail bounces or if the group leader tells so
+    or if no answer is received within a week.
+  - later check the other resources of these groups 
+    (mailing list, DNS of the group name, what else?)
+    remove the DNS
+    freeze the mailing list if it has archive or delete it if there is 
+    no content in the archive (backup list of users?)
+
+- include the link to the pm group to the page listing the groups on the continent
+
+- on the individual pm pages (if we keep them) include the name of the group and 
+  other info in the html title (e.g. links to the mailing list pages or instructions
+  how to sign up).
+
+- Once utf-8 is enabled add language links to the left side of the pm.org we site
+
+- clean up the "Invite a guru" page - remove most of the people, maybe change the whole 
+  title ("guru ?") ask who else wants to be added
+
+
 
 - improve the bin/ping.pl (or the bin/xml ?) to validate that the fields in the
   xml file are valid values and are not missing.
 - Setup Nagios to monitor the websites?
 
 - using the PM mailing list for more discussion on how to attract more users?
-- setting up an IRC channel for pm.org administration, PM leader mentoring 
-  and general monegring discussion?
 
 - Implement some game asking for people to reate the web sites of the PM groups
   or to adpot a pm group or some other way to draw more attention to each group.
+  "Adopt a pm group" to get other individuals help with pushing the group forward?
+  "Introduce a PM group a day" - every day visit another PM group, analyse their web site
+  
+- Somehow get the PM groups to publish blogs about their activity that we can 
+  then collect and either syndicate in a planet or send as a feed to the various 
+  perl planets and aggregators.
+
+
 
 - Remove mailing lists:
   - Aalesund.pm
@@ -114,7 +129,7 @@ Europe
   Romania
   - Bucharest.pm - one mail bounced, TODO
   Russian Federation
-  - Kazan.pm
+  - Kazan.pm - got reply that he will pay the hosting fee - TODO
   Slovenia
   - Ljubljana.pm - bounced - XML marked inactive
   Spain - all of the seem to have some trouble so I sent a mail to all the group 
@@ -159,7 +174,7 @@ North America
   - Yuma - the site says it is disbanded - TODO send mail?
   California
   - JPL - TODO send mail?
-  - KernCounty.pm - WARNING - TODO
+  - KernCounty.pm - mail could not be delivered - XML marked inactive
   - LagunaNiguel.pm - bounced - XML marked inactive
   - ValleyPerl.pm - TODO send mail ?
   Colorado
