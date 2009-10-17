@@ -10,11 +10,17 @@
 <br/><br/>
 
 [% IF web %]
-<b><a href="[% web %]">[% name | html_entity %]</a></b> ([% location | html_entity %])<br>
+  <b><a href="[% web %]">[% name | html_entity %]</a></b> ([% location | html_entity %])<br>
 [% ELSE %]
-<b>[% name | html_entity %]</b> ([% location | html_entity %])<br>
+  <b>[% name | html_entity %]</b> ([% location | html_entity %])<br>
 [% END %]
 
 [% tsar | html_entity %] &lt;[% tsaremail %]&gt;<br>
+
+<!--
+[% IF mailing_list %]
+  [% mailing_list.name %]
+[% END %]
+-->
 
 [% END %]

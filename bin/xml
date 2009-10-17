@@ -54,6 +54,9 @@ foreach my $g ($doc->findnodes('//group')) {
   my $tsar = $g->findvalue('tsar/name/text()');
   my $tsaremail = $g->findvalue('tsar/email/text()');
 
+  my $mailing_lists_name = $g->findvalue('mailing_list/name/text()');
+#  if ($mailing_lists_name) { print STDERR "M $mailing_lists_name\n" }
+
   die "Duplicate group id $id\n" if $ids{$id}++;
 
   next unless $status eq 'active';
@@ -96,6 +99,9 @@ foreach my $g ($doc->findnodes('//group')) {
 	       state => $state,
 	       status => $status,
 	       web => $web,
+	       mailing_list => {
+	         name => $mailing_lists_name,
+	       },
 	      };
   $allgroups{$name} = $group;
 
