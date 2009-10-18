@@ -13139,7 +13139,8 @@
 		<date type="inception">20030817</date>
 	</group>
 
-	<group id="596" status="active">
+	<group id="596" status="inactive">
+	<!-- 2009.10.18 website is down, email cannot be delivered, szabgab -->
 		<name>Northfield.pm</name>
 		<location>
 			<city>Northfield</city>
