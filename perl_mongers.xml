@@ -15973,5 +15973,23 @@
                 <web>http://lima.pm.org</web>
                 <date type="inception">20091015</date>
         </group>
+        <group id="734" status="active">
+                <name>Advent.pm</name>
+                <location>
+                        <city></city>
+                        <state></state>
+                        <region></region>
+                        <country></country>
+                        <continent></continent>
+                        <longitude></longitude>
+                        <latitude></latitude>
+                </location>
+                <tsar>
+                        <name></name>
+                        <email type="personal"></email>
+                </tsar>
+                <web>http://advent.pm.org</web>
+                <date type="inception">20091015</date>
+        </group>
 </perl_mongers>
 
