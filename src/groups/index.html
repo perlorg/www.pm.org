@@ -30,11 +30,14 @@ The canonical source for the Perl Mongers groups is now an
 
 <h2>All the active groups</h2>
 
+
 <ul>
 [% FOREACH group = allgroups.keys.sort %]
   <li><a href="[% allgroups.$group.id %].html">[% group | html_entity %]</a></li>
 [% END %]
 </ul>
+
+Total number of groups is [% allgroupsnum %]
 
 [% END %]
 

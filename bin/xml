@@ -155,7 +155,8 @@ foreach my $continent (@continents) {
 
 {
   my $conf = {
-    allgroups => \%allgroups
+    allgroups => \%allgroups,
+    allgroupsnum => scalar(keys %allgroups),
   };
   $tt->process('src/groups/index.html', $conf, "www/groups/index.html")
     || die $tt->error();
