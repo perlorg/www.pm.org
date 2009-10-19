@@ -1111,7 +1111,8 @@
 		<date type="inception">19990214</date>
 	</group>
 	
-	<group id="47" status="active">
+	<group id="47" status="inactive">
+	<!-- 2009.10.19 - got answer that group is private and to remove it - szabgab -->
 		<name>JPL.pm</name>
 		<location>
 			<city>Pasadena</city>
@@ -3006,8 +3007,7 @@
 		<date type="inception">19990515</date>
 	</group>
 	
-	<group id="138" status="inactive">
-	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
+	<group id="138" status="active">
 		<name>Lund.pm</name>
 		<location>
 			<city>Lund</city>
@@ -4328,7 +4328,8 @@
 		<date type="inception">19990914</date>
 	</group>
 
-	<group id="206" status="active">
+	<group id="206" status="inactive">
+	<!-- 2009.10.19 - mail bouncing - szabgab -->
 		<name>Lawton.pm</name>
 		<location>
 			<city>Lawton</city>
@@ -4689,7 +4690,8 @@
 		<date type="inception">19991024</date>
 	</group>
 
-	<group id="222" status="active">
+	<group id="222" status="inactive">
+	<!-- 2009.10.19 - bounces - szabgab -->
 		<name>Cola.pm</name>
 		<location>
 			<city>Columbia</city>
@@ -10904,7 +10906,8 @@
 		<date type="inception">20020311</date>
 	</group>
 
-	<group id="486" status="active">
+	<group id="486" status="inactive">
+	<!-- 2009.10.19 - the website said the group was disbanded - szabgab -->
 		<name>Yuma.pm</name>
 		<location>
 			<city>Yuma</city>
@@ -12416,7 +12419,8 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="523" status="active">
+	<group id="523" status="inactive">
+	<!-- 2009.10.19 - web has strange content, mail bounced - szabgab -->
 		<name>Jalisco.pm</name>
 		<location>
 			<city>Ojuelos</city>

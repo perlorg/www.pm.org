@@ -137,10 +137,10 @@ Europe
   - Valladolid.pm - no answer - XML marked inactive
   - Malaga.pm - got reply from David, will work in a few days - TODO
   - Granada.pm - it will be up in a few days - TODO
-  - Madrid.pm - it will be up in a few days
-  - Barcelona.pm - it will be up in a few days
+  - Madrid.pm - it will be up in a few days - TODO
+  - Barcelona.pm - it will be up in a few days - TODO
   Sweden
-  - Lund.pm - no answer - XML marked inactive
+  - Lund.pm - chatted with Nadim on IRC, they are trying to get it from backup - TODO
   Belarus
   - Minsk.pm - Andrei responded that he opened an IP request #69744 last week, OK
   Turkey
@@ -163,19 +163,19 @@ North America
   - Seneca.pm - got reply that it is internal, asked Jay about it - TODO
   Mexico
   - Guadalajara.pm - no answer - XML marked inactive
-  - Jalisco.pm - TODO - need to check this!!
+  - Jalisco.pm - mail bounced - XML marked inactive - TODO remove DNS!
   - Monterrey.pm - no answer - XML marked inactive
   United Kingdom
   - Worcestershire.pm - could not be delivered - XML marked inactive
   
   USA
   Arizona
-  - Yuma - the site says it is disbanded - TODO send mail?
+  - Yuma - the site says it is disbanded - XML marked inactive
   California
-  - JPL - TODO send mail?
+  - JPL - Ed answered that the group is internal for JPL employees and I should remove it
   - KernCounty.pm - mail could not be delivered - XML marked inactive
   - LagunaNiguel.pm - bounced - XML marked inactive
-  - ValleyPerl.pm - TODO send mail ?
+  - ValleyPerl.pm - TODO
   Colorado
   - Breckenridge.pm - no answer - XML marked inactive
   Connecticut
@@ -184,10 +184,10 @@ North America
   - NewCastle.pm - no answer - XML marked inactive
   Florida
   - Destin.pm - no answer - XML marked inactive
-  - Miami.pm - TODO send mail?
+  - Miami.pm - TODO
   - Orlando.pm - no answer - XML marked inactive
   Georgia
-  - ClassicCity.pm - TODO check this out!
+  - ClassicCity.pm - TODO
   Illinois
   - Rockford.pm - bounced - XML marked inactive
   Kansas
@@ -211,9 +211,9 @@ North America
   - Dayton.pm - no answer - XML marked inactive
   - rubbercity.pm - no answer - XML marked inactive
   Oklahoma
-  - Lawton.pm - TODO send mail
+  - Lawton.pm - mail bounced - XML makred inactive
   - NE Oklahoma Perl Users Group.pm - bounced - XML marked inactive
-  - OklahomaCity.pm - TODO send mail
+  - OklahomaCity.pm - TODO
   - SWOK.pm - no answer - XML marked inactive
   Pennsylvania
   - Altoona.pm - bounced - XML marked inactive
@@ -225,7 +225,7 @@ North America
   South Carolina
   - Charleston.pm - bounced - XML marked inactive
   - Clemson.pm - bounced - XML marked inactive
-  - Cola.pm - TODO send mail
+  - Cola.pm - bounced - XML marked inactive
   Texas
   - SanAntonio.pm - bounced - XML marked inactive
   - TheWoodlands.pm - got reply, directed Todd to support@pm.org - TODO
@@ -331,7 +331,7 @@ Central America
 non-geographical
   - Woman.pm            - answer received, URL updated to http://women.perl.org.br/
   - Camelot.pm          - could not deliver - XML marked inactive
-  - Dahut.pm            - the Tsar confirmed they exist just ahve issues with the server. - TODO
+  - Dahut.pm            - the Tsar confirmed they exist just have issues with the server. - TODO
   - PBP.pm              - no answer - XML marked inactive
   - Banking.pm          - Alex wrote that the group should be removed - XML makred inactive
 
@@ -349,7 +349,4 @@ Europe
   - Firenze.pm          - TODO
   - torino.pm           - bounced - XML marked inactive
   - Torino.pm           - Vitto answered to the other to remove group - XML marked inactive
-
-North America - TODO
-South America - TODO
 
