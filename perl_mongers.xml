@@ -662,7 +662,8 @@
 		<date type="inception">19990503</date>
 	</group>
 	
-	<group id="26" status="active">
+	<group id="26" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Dayton.pm</name>
 		<location>
 			<city>Dayton</city>
@@ -928,7 +929,8 @@
 		<date type="inception">19990707</date>
 	</group>
 	
-	<group id="39" status="active">
+	<group id="39" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Hartford.pm</name>
 		<location>
 			<city>Hartford</city>
@@ -3004,7 +3006,8 @@
 		<date type="inception">19990515</date>
 	</group>
 	
-	<group id="138" status="active">
+	<group id="138" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Lund.pm</name>
 		<location>
 			<city>Lund</city>
@@ -3155,7 +3158,8 @@
 		<date type="inception">19990208</date>
 	</group>
 	
-	<group id="146" status="active">
+	<group id="146" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Porto.pm</name>
 		<location>
 			<city>Porto</city>
@@ -5166,7 +5170,8 @@
 		<date type="inception">19991024</date>
 	</group>
 
-	<group id="243" status="active">
+	<group id="243" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>HamptonRoads.pm</name>
 		<location>
 			<city>Norfolk</city>
@@ -5833,7 +5838,8 @@
 		<date type="inception">20000227</date>
 	</group>
 
-	<group id="282" status="active">
+	<group id="282" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Burnaby.pm</name>
 		<location>
 			<city>Burnaby</city>
@@ -6538,7 +6544,8 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="313" status="active">
+	<group id="313" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Chisinau.pm</name>
 		<location>
 			<city>Chisinau</city>
@@ -8040,7 +8047,8 @@
 		<date type="inception">20010326</date>
 	</group>
 
-	<group id="376" status="active">
+	<group id="376" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Oeiras.pm</name>
 		<location>
 			<city>Oeiras</city>
@@ -8526,7 +8534,8 @@
 		<date type="inception">20010422</date>
 	</group>
 
-	<group id="394" status="active">
+	<group id="394" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>StPaul.pm</name>
 		<location>
 			<city>St. Paul</city>
@@ -8878,7 +8887,8 @@
 		<date type="inception">20010607</date>
 	</group>
 
-	<group id="407" status="active">
+	<group id="407" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Guadalajara.pm</name>
 		<location>
 			<city>Guadalajara</city>
@@ -9082,7 +9092,8 @@
 		<date type="inception">20010705</date>
 	</group>
 
-	<group id="415" status="active">
+	<group id="415" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Morris County.pm</name>
 		<location>
 			<city>Morristown</city>
@@ -11205,7 +11216,8 @@
 		<date type="inception">20020513</date>
 	</group>
 
-	<group id="500" status="active">
+	<group id="500" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Destin.pm</name>
 		<location>
 			<city>Destin</city>
@@ -11340,7 +11352,8 @@
 		<date type="inception">20020514</date>
 	</group>
 
-	<group id="505" status="active">
+	<group id="505" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>NEPenn.pm</name>
 		<location>
 			<city>Tobyhanna</city>
@@ -11935,7 +11948,8 @@
 		<web>http://Canberra.pm.org/</web>
 		<date type="inception">20020925</date>
 	</group>
-	<group id="538" status="active">
+	<group id="538" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Terere.pm</name>
 		<location>
 			<city>Asuncion</city>
@@ -12007,7 +12021,8 @@
 		<date type="inception">20020925</date>
 	</group>
 
-	<group id="542" status="active">
+	<group id="542" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Maine.pm</name>
 		<location>
 			<city>Portland</city>
@@ -12222,7 +12237,8 @@
 		</mailing_list>
 		<date type="inception">20021121</date>
 	</group>
-	<group id="516" status="active">
+	<group id="516" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Calgary.pm</name>
 		<location>
 			<city>Calgary</city>
@@ -12249,7 +12265,8 @@
 		<date type="inception">20030109</date>
 	</group>
 
-	<group id="517" status="active">
+	<group id="517" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>SWOK.pm</name>
 		<location>
 			<city>Altus</city>
@@ -12343,7 +12360,8 @@
 		<date type="inception">20030109</date>
 	</group>
 
-	<group id="521" status="active">
+	<group id="521" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>NewCastle.pm</name>
 		<location>
 			<city>Newark</city>
@@ -13101,7 +13119,8 @@
 		<date type="inception">20030628</date>
 	</group>
 
-	<group id="592" status="active">
+	<group id="592" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Orlando.pm</name>
 		<location>
 			<city>Orlando</city>
@@ -13351,7 +13370,8 @@
 		<date type="inception">20030817</date>
 	</group>
 
-	<group id="604" status="active">
+	<group id="604" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Valladolid.pm</name>
 		<location>
 			<city>Valladolid</city>
@@ -13516,7 +13536,8 @@
 		<date type="inception">20031108</date>
 	</group>
 
-	<group id="611" status="active">
+	<group id="611" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Rubbercity.pm</name>
 		<location>
 			<city>Rubbercity</city>
@@ -13717,7 +13738,8 @@
 		<date type="inception">20031224</date>
 	</group>
 
-	<group id="620" status="active">
+	<group id="620" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Maracaibo.pm</name>
 		<location>
 			<city>Maracaibo</city>
@@ -13744,7 +13766,8 @@
 		<date type="inception">20031224</date>
 	</group>
 
-	<group id="621" status="active">
+	<group id="621" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>LA-Belle.pm</name>
 		<location>
 			<city>LA-Belle</city>
@@ -13932,7 +13955,8 @@
 		<date type="inception">20040208</date>
 	</group>
 
-	<group id="630" status="active">
+	<group id="630" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Mk.pm</name>
 		<location>
 			<city>Mk</city>
@@ -14178,7 +14202,8 @@
 		<date type="inception">20040425</date>
 	</group>
 
-	<group id="642" status="active">
+	<group id="642" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Turkperl.pm</name>
 		<location>
 			<city>Trkperl</city>
@@ -14712,7 +14737,8 @@
                 <web>http://www.perlmongers.de/?ErlangenPM</web>
                 <date type="inception">20050726</date>
         </group>
-        <group id="667" status="active">
+        <group id="667" status="inactive">
+	    <!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
                 <name>Viana.pm</name>
                 <location>
                         <city>Viana do Castelo</city>
@@ -14768,7 +14794,8 @@
                 <web>http://taubate.pm.org</web>
                 <date type="inception">20050905</date>
         </group>
-	<group id="670" status="active">
+	<group id="670" status="inactive">
+	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Lafayette.pm</name>
 		<location>
 			<city>Oxford</city>
@@ -15180,7 +15207,8 @@
                 <web>http://banking.pm.org</web>
                 <date type="inception">20060824</date>
         </group>
-        <group id="692" status="active">
+        <group id="692" status="inactive">
+	    <!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
                 <name>Maracay.pm</name>
                 <location>
                         <city>Maracay</city>
@@ -15198,7 +15226,8 @@
                 <web>http://maracay.pm.org</web>
                 <date type="inception">20060922</date>
         </group>
-        <group id="693" status="active">
+        <group id="693" status="inactive">
+	    <!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
                 <name>Cumbria.pm</name>
                 <location>
                         <city>Alston</city>
@@ -15306,7 +15335,8 @@
                 <web>http://windycity.pm.org</web>
                 <date type="inception">20070121</date>
         </group>
-        <group id="699" status="active">
+        <group id="699" status="inactive">
+	    <!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
                 <name>Wichita.pm</name>
                 <location>
                         <city>Wichita</city>
@@ -15445,7 +15475,8 @@
                 <date type="inception">20070708</date>
         </group>
 
-        <group id="706" status="active">
+        <group id="706" status="inactive">
+	    <!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
                 <name>ThamesValley.pm</name>
                 <location>
                         <city>Reading</city>
@@ -15484,7 +15515,8 @@
                 <date type="inception">20070814</date>
         </group>
 
-        <group id="708" status="active">
+        <group id="708" status="inactive">
+	    <!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
                 <name>Monterrey.pm</name>
                 <location>
                         <city>Monterrey</city>
@@ -15610,7 +15642,8 @@
                 <web>http://minsk.pm.org</web>
                 <date type="inception">20080203</date>
         </group>
-        <group id="715" status="active">
+        <group id="715" status="inactive">
+	    <!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
                 <name>Breckenridge.pm</name>
                 <location>
                         <city>Breckenridge</city>
@@ -15628,7 +15661,8 @@
                 <web>http://breckenridge.pm.org</web>
                 <date type="inception">20080504</date>
         </group>
-        <group id="716" status="active">
+        <group id="716" status="inactive">
+        <!-- 2009.10.19 website not accessible, e-mail could not be delivered, szabgab -->
                 <name>Worcestershire.pm</name>
                 <location>
                         <city>Astley</city>

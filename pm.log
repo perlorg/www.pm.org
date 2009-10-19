@@ -2,12 +2,6 @@ PM.log
 
 TODO
 =======
-- move all the entries that are not 'alive' to another xml file
-
-- add multiple "language" fields to each pm group
-
-- create pages grouping the groups according to language  German", "French"
-
 - list the valid status values and their meaning (and probably better to reduce the list of valid values)
   active
   inactive
@@ -37,8 +31,13 @@ TODO
 - Maybe there should be a field in the XML for some free text that can be displayed
   on the web site explaining the situaton of specific groups.
 
-- setting up an IRC channel for pm.org administration, PM leader mentoring 
-  and general monegring discussion?
+- move all the entries that are not 'alive' to another xml file
+
+- add multiple "language" fields to each pm group
+
+- create pages grouping the groups according to language  German", "French"
+
+- What is pm_admins@pm.org ? (I have it in Gmail)
 
 
 More TODO
@@ -112,9 +111,9 @@ Mentees:
 
 Europe
   Macedonia
-  - Mk.pm
+  - Mk.pm - no answer - XML marked inactive
   Moldova, Republic of
-  - Chisinau.pm 
+  - Chisinau.pm - no answer - XML marked inactive
   Netherlands
   - Alphen.pm - Abigail responded that it is dead - XML marked inactive
   - Eindhoven.pm - Edwin responded that it is dead - XML marked inactive
@@ -123,9 +122,9 @@ Europe
   Portugal
   - Cascais.pm - got reply that it was merged into Lisbon.pm and I can remove the link - XML marked inactive
   - Guimaraes.pm - got reply, Ricardo is fixing it in a few days.,  - TODO
-  - Oeiras.pm
-  - Porto.pm
-  - Viana.pm
+  - Oeiras.pm - no answer - XML marked inactive
+  - Porto.pm - no answer - XML marked inactive
+  - Viana.pm - no answer - XML marked inactive
   Romania
   - Bucharest.pm - one mail bounced, TODO
   Russian Federation
@@ -135,39 +134,39 @@ Europe
   Spain - all of the seem to have some trouble so I sent a mail to all the group 
           leaders and the Madrid.pm mailing list - TODO
   - ValleKas.pm - Diego wrote that this group is dead - XML marked inactive
-  - Valladolid.pm
+  - Valladolid.pm - no answer - XML marked inactive
   - Malaga.pm - got reply from David, will work in a few days - TODO
   - Granada.pm - it will be up in a few days - TODO
   - Madrid.pm - it will be up in a few days
   - Barcelona.pm - it will be up in a few days
   Sweden
-  - Lund.pm       
+  - Lund.pm - no answer - XML marked inactive
   Belarus
-  - Minsk.pm - Andrei responded that he opened an IP request #69744 last week - TODO
+  - Minsk.pm - Andrei responded that he opened an IP request #69744 last week, OK
   Turkey
   - Ankara.pm - bounced - XML marked inactive
-  - TurkPerl.pm
+  - TurkPerl.pm - no answer - XML marked inactive
   Ukraine
   United Kingdom
-  - Cumbria.pm
+  - Cumbria.pm - no answer - XML marked inactive
   - Leeds.pm - Charles responded that they are thinking now - TODO
   - Leicester.pm - will send mail to support to fix IP - TODO
-  - ThamesValley.pm 
+  - ThamesValley.pm - no answer - XML marked inactive
   Yugoslavia
   - kraljevo.pm - bounced - XML marked inactive
 
 North America
   Canada
-  - Burnaby.pm
-  - Calgary.pm
+  - Burnaby.pm - no answer - XML marked inactive
+  - Calgary.pm - no answer - XML marked inactive
   - Fredericton.pm - Brian said it is alive but he is alone.
-  - Seneca.pm
+  - Seneca.pm - got reply that it is internal, asked Jay about it - TODO
   Mexico
-  - Guadalajara.pm
-  - Jalisco.pm TODO - need to check this!!
-  - Monterrey.pm 
+  - Guadalajara.pm - no answer - XML marked inactive
+  - Jalisco.pm - TODO - need to check this!!
+  - Monterrey.pm - no answer - XML marked inactive
   United Kingdom
-  - Worcestershire.pm - WARNING - TODO
+  - Worcestershire.pm - could not be delivered - XML marked inactive
   
   USA
   Arizona
@@ -178,48 +177,48 @@ North America
   - LagunaNiguel.pm - bounced - XML marked inactive
   - ValleyPerl.pm - TODO send mail ?
   Colorado
-  - Breckenridge.pm
+  - Breckenridge.pm - no answer - XML marked inactive
   Connecticut
-  - Hartford.pm
+  - Hartford.pm - no answer - XML marked inactive
   Delaware
-  - NewCastle.pm
+  - NewCastle.pm - no answer - XML marked inactive
   Florida
-  - Destin.pm
+  - Destin.pm - no answer - XML marked inactive
   - Miami.pm - TODO send mail?
-  - Orlando.pm
+  - Orlando.pm - no answer - XML marked inactive
   Georgia
-  - ClassicCity.pm  - TODO check this out!
+  - ClassicCity.pm - TODO check this out!
   Illinois
   - Rockford.pm - bounced - XML marked inactive
   Kansas
-  - Wichita.pm
+  - Wichita.pm - no answer - XML marked inactive
   Maine
-  - Maine.pm
+  - Maine.pm - no answer - XML marked inactive
   Minnesota
   - Northfield.pm - mail cannot be delivered - XML marked inactive
-  - StPaul.pm
+  - StPaul.pm - no answer - XML marked inactive
   Mississippi
-  - Lafayette.pm
+  - Lafayette.pm - no answer - XML marked inactive
   Missouri
   - SpringfieldMO.pm - got replay, in discussion - TODO
   New Jersey
-  - Morris County.pm
+  - Morris County.pm - no answer - XML marked inactive
   New York
   - Csy.pm - bounced - XML marked inactive
   North Carolina
   - Asheville.pm - bounced - XML marked inactive
   Ohio
-  - Dayton.pm
-  - rubbercity.pm
+  - Dayton.pm - no answer - XML marked inactive
+  - rubbercity.pm - no answer - XML marked inactive
   Oklahoma
   - Lawton.pm - TODO send mail
   - NE Oklahoma Perl Users Group.pm - bounced - XML marked inactive
   - OklahomaCity.pm - TODO send mail
-  - SWOK.pm
+  - SWOK.pm - no answer - XML marked inactive
   Pennsylvania
   - Altoona.pm - bounced - XML marked inactive
-  - LA-Belle.pm
-  - NEPenn.pm
+  - LA-Belle.pm - no answer - XML marked inactive
+  - NEPenn.pm - no answer - XML marked inactive
   - Pittsburgh.pm - TODO check it again
   Rhode Island 
   - RhodeIsland.pm  - Brian answered that we can close it - XML marked inactive
@@ -230,32 +229,32 @@ North America
   Texas
   - SanAntonio.pm - bounced - XML marked inactive
   - TheWoodlands.pm - got reply, directed Todd to support@pm.org - TODO
-  - HamptonRoads.pm 
+  - HamptonRoads.pm - no answer - XML marked inactive
 South America
   Argentina
   Brazil - TODO
-    Belem.pm - (coming soon since 2004)
-    Brasil.pm - temp unavailable
-    Campinas.pm  - not accessible
-    Cascavel.pm - has web page from 2005
-    Florianópolis.pm  - not accessible
-    Recife.pm - ???
-    Salvador.pm - temp unavailable
-    Sao-Paulo.pm - temp unavailable
-    Taubate.pm - coming soon
-    Triangulo.pm  - not accessible
-    Vitoria.pm - mkdir /home/.higgins: Permission
+  - Belem.pm - (coming soon since 2004)
+  - Brasil.pm - temp unavailable
+  - Campinas.pm  - not accessible
+  - Cascavel.pm - has web page from 2005
+  - Florianópolis.pm  - not accessible
+  - Recife.pm - ???
+  - Salvador.pm - temp unavailable
+  - Sao-Paulo.pm - temp unavailable
+  - Taubate.pm - coming soon
+  - Triangulo.pm  - not accessible
+  - Vitoria.pm - mkdir /home/.higgins: Permission
 
   Chile
   Dominican Republic
   - SantoDomingo.pm - bounced - XML marked inactive
   Ecuador
   Paraguay
-  - Terere.pm 
+  - Terere.pm - no answer - XML marked inactive
   Venezuela
   - Caracas.pm - Ernesto mailed that they will have perl.org.ve by the end of November - TODO
-  - Maracaibo.pm
-  - Maracay.pm
+  - Maracaibo.pm - no answer - XML marked inactive
+  - Maracay.pm - no answer - XML marked inactive
 
 Asia
   Indonesia
@@ -286,7 +285,7 @@ Asia
   - HongKong.pm         - no answer - XML marked inactive
   India
   - Delhi.pm            - TODO
-  - Hyderabad.pm        - got response, directed Raj to open ticket at support. Dave Cross is not the mentor. TODO
+  - Hyderabad.pm        - got response, directed Raj to open ticket at support. Dave Cross is now the mentor. TODO
   - Kochi.pm            - no answer - XML marked inactive
   - mytutorial.pm       - bounced - XML marked inactive
   - Thane.pm            - no answer - XML marked inactive
@@ -302,7 +301,7 @@ Asia
   - Lebanon.pm          - no answer - XML marked inactive
   Malaysia
   - Bangsar.pm          - bounced - XML marked inactive
-  - Malaysia.pm         - asked for help to get hostname redirection, directed to support - TODO
+  - Malaysia.pm         - asked for help to get hostname redirection, directed to support, done
   Pakistan
   - JERL.pm - bounced   - XML marked inactive
   - Pakistan.pm         - could not deliver - XML marked inactive
@@ -345,7 +344,7 @@ Europe
   - Budapest.pm         - talked on IRC, should try to setup redirect to http://www.perlfoundation.org/perl5/index.cgi?hungarian
                           I sent request to support@pm.org - TODO
   - may.pm - bounced    - XML marked inactive
-  - Bologna.pm          - got a response, I sent a request to support@pm.org - TODO
+  - Bologna.pm          - got a response, I sent a request to support@pm.org, done
   - salerno.pm          - bounced - XML marked inactive
   - Firenze.pm          - TODO
   - torino.pm           - bounced - XML marked inactive
