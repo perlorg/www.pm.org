@@ -5,23 +5,17 @@ use warnings FATAL => 'all';
 use Getopt::Long qw(GetOptions);
 use XML::Simple  qw(XMLin);
 use Data::Dumper qw(Dumper);
-use LWP::Simple  qw(mirror);
 use LWP::UserAgent;
 
 
 my %opts;
-GetOptions(\%opts, "refresh", "help", "ping") or usage();
+usage() if not @ARGV;
+GetOptions(\%opts, "help", "ping") or usage();
 usage() if $opts{help};
 
 $| = 1;
 
 my $source = 'perl_mongers.xml';
-my $remote_source = 'http://www.pm.org/groups/perl_mongers.xml';
-
-if ($opts{refresh} or not -e $source) {
-    print "Fetching $remote_source\n";
-    mirror($remote_source, $source);
-}
 die "Cannot fine '$source'\n" if not -e $source;
 
 my $ref = XMLin($source,  ForceArray => 1);
@@ -81,9 +75,10 @@ sub ping {
 sub usage {
     print <<"END_USAGE";
 Usage: $0
-    --refresh      force pulling xml file from www.pm.org
     --help         this help
     --ping         ping the web servers
 END_USAGE
     exit;
 }
+
+
