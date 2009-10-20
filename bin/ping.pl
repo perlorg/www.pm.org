@@ -10,7 +10,7 @@ use LWP::UserAgent;
 
 my %opts;
 usage() if not @ARGV;
-GetOptions(\%opts, "help", "ping") or usage();
+GetOptions(\%opts, "help", "check", "ping") or usage();
 usage() if $opts{help};
 
 $| = 1;
@@ -23,11 +23,11 @@ my $ref = XMLin($source,  ForceArray => 1);
 #print join ", ", keys %$ref;
 #print Dumper $ref;
 
-if ($opts{ping}) {
-    ping();
+if ($opts{check} or $opts{ping}) {
+    check();
 }
 
-sub ping {
+sub check {
     my $ua = LWP::UserAgent->new;
     $ua->timeout(5);
     foreach my $group (@{$ref->{group}}) {
@@ -61,13 +61,15 @@ sub ping {
             next;
         }
 
-        print "pinging $group->{web}[0]";
-        my $response  = $ua->get($group->{web}[0]);
-        if ($response->is_success) {
-            print " - DONE\n";
-        } else {
-            print " - $group->{name}[0] FAILED " . $response->status_line . "\n";
-        }
+		if ($opts{ping}) {
+        	print "pinging $group->{web}[0]";
+        	my $response  = $ua->get($group->{web}[0]);
+	        if ($response->is_success) {
+	            print " - DONE\n";
+	        } else {
+	            print " - $group->{name}[0] FAILED " . $response->status_line . "\n";
+	        }
+		}
     }
 }
 
@@ -77,6 +79,7 @@ sub usage {
 Usage: $0
     --help         this help
     --ping         ping the web servers
+    --check        check the xml file
 END_USAGE
     exit;
 }
