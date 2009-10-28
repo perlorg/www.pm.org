@@ -13123,8 +13123,7 @@
 		<date type="inception">20030628</date>
 	</group>
 
-	<group id="592" status="inactive">
-	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
+	<group id="592" status="active">
 		<name>Orlando.pm</name>
 		<location>
 			<city>Orlando</city>
@@ -13136,8 +13135,8 @@
 			<latitude>28.533611</latitude>
 		</location>
 		<tsar>
-			<name>Roy L. Johnson</name>
-			<email type="personal">roy.l.johnson@gmail.com</email>
+			<name>Chris Prather</name>
+			<email type="personal">chris@prather.org</email>
 		</tsar>
 		<web>http://orlando.pm.org/</web>
 		<date type="inception">20030705</date>
