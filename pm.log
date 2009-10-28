@@ -91,18 +91,19 @@ More TODO
 MENTORING
 ==========
 Mentors:
-  Dave Cross <dave@dave.org.uk>
-  Andrew Shitov <andy@shitov.ru>
-  James E Keenan <jkeen@verizon.net>
-  Peter Lock <petelock@gmail.com>
-  breno <oainikusama@gmail.com>  (garu) running the groups in Brazil
-  Gabor Szabo <szabgab@gmail.com>
+  Dave Cross <dave@dave.org.uk> London.pm
+  Andrew Shitov <andy@shitov.ru> Moscow.pm
+  James E Keenan <jkeen@verizon.net> PerlSemNY.pm
+  Peter Lock <petelock@gmail.com> Leicester.pm
+  breno <oainikusama@gmail.com>  Brazil.pm (garu) running the groups in Brazil
+  Gabor Szabo <szabgab@gmail.com> Israel.pm
+  Stephen Cristol <stephen@bee.net> Atlanta.pm (asked to be both mentor and mentee :-)
 
 
 Mentees:
   Nagaraju Kancherla <wingsof5r@gmail.com>   (Raj) of Hyderabad.pm (by Dave Cross)
   Revence Kalibwani <revence27@gmail.com> of Kampala.pm (by Gabor Szabo)
-
+  Stephen Cristol <stephen@bee.net>  of Atlanta.pm (by James E Keenan)
 
 
 2009.10.14
@@ -123,7 +124,7 @@ Europe
   - Cascais.pm - got reply that it was merged into Lisbon.pm and I can remove the link - XML marked inactive
   - Guimaraes.pm - got reply, Ricardo is fixing it in a few days.,  - TODO
   - Oeiras.pm - no answer - XML marked inactive
-  - Porto.pm - no answer - XML marked inactive
+  - Porto.pm - directed them to support 
   - Viana.pm - no answer - XML marked inactive
   Romania
   - Bucharest.pm - one mail bounced, TODO
@@ -175,7 +176,7 @@ North America
   - JPL - Ed answered that the group is internal for JPL employees and I should remove it
   - KernCounty.pm - mail could not be delivered - XML marked inactive
   - LagunaNiguel.pm - bounced - XML marked inactive
-  - ValleyPerl.pm - TODO
+  - ValleyPerl.pm - could not deliver email - XML marked inactive
   Colorado
   - Breckenridge.pm - no answer - XML marked inactive
   Connecticut
@@ -219,7 +220,7 @@ North America
   - Altoona.pm - bounced - XML marked inactive
   - LA-Belle.pm - no answer - XML marked inactive
   - NEPenn.pm - no answer - XML marked inactive
-  - Pittsburgh.pm - TODO check it again
+  - Pittsburgh.pm - mail sent, TODO 
   Rhode Island 
   - RhodeIsland.pm  - Brian answered that we can close it - XML marked inactive
   South Carolina
