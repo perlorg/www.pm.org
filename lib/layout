@@ -54,25 +54,7 @@
   }
 %]
 
-[%# Partial list till utf-8 works, the full list is below %]
-[%
-  pfbase = "http://www.perlfoundation.org/perl5/index.cgi?"; 
-  INCLUDE sideheader
-  major = {"Non-English" => "http://www.perlfoundation.org/perl5/index.cgi?international_perl_resources"}
-  minor = {
-    "Catalan"          => pfbase _ "catalan",
-    "Hrvatski"         => pfbase _ "croatian",
-    "Nederlands"       => pfbase _ "dutch",
-    "Deutsch"          => pfbase _ "german",
-    "Magyar"           => pfbase _ "hungarian",
-    "Italiano"         => pfbase _ "italian",
-    "Norsk"            => pfbase _ "norwegian",
-    "Polski"           => pfbase _ "polish",
-    "Svenska"          => pfbase _ "swedish",
-   }
-%]
-
-[%# This will be cool once utf-8 works on our web server...
+[% 
   pfbase = "http://www.perlfoundation.org/perl5/index.cgi?"; 
   INCLUDE sideheader
   major = {"Non-English" => "http://www.perlfoundation.org/perl5/index.cgi?international_perl_resources"}
