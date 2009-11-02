@@ -76,7 +76,7 @@
     "Polski"           => pfbase _ "polish",
     "Português"        => pfbase _ "potuguese",
     "Română"           => pfbase _ "romanian",
-    "на русском языке" => pfbase _ "russian",
+    "По-русски"        => pfbase _ "russian",
     "Slovenčina"       => pfbase _ "slovakian",
     "Español"          => pfbase _ "spanish",
     "Svenska"          => pfbase _ "swedish",
