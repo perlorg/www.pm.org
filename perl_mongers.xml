@@ -262,8 +262,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-84.42259</longitude>
-			<latitude>33.7629</latitude>
+			<longitude>-84.351289</longitude>
+			<latitude>33.924453</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -961,10 +961,9 @@
 			<longitude>-74.422466</longitude>
 			<latitude>41.445661</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Arthur Ramos Jr.</name>
-			<email type="personal">aramos@sunyorange.edu</email>
+			<email type="personal">art.ramos@sunyorange.edu</email>
 		</tsar>
 		<web>http://hudson-valley.pm.org/</web>
 		<date type="inception">19990607</date>
@@ -3169,7 +3168,6 @@
 			<longitude>-9.200</longitude>
 			<latitude>38.783</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Carlos Jorge Andrade</name>
 			<email type="personal">carlos.andrade@gmail.com</email>
@@ -3837,7 +3835,6 @@
 			<longitude>115.18</longitude>
 			<latitude>-8.5</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Zakarias</name>
 			<email type="personal">doctor_moron@yahoo.com</email>
@@ -6280,19 +6277,11 @@
 			<longitude>121.4972</longitude>
 			<latitude>25.0439</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Hsin-Chan Chien</name>
 			<email type="personal">hcchien@hcchien.org</email>
 		</tsar>
 		<web>http://taipei.pm.org/</web>
-		<mailing_list>
-			<name>General Taipei Perl Mongers discussion</name>
-			<email type="list">taipei-pm@hfb.pm.org</email>
-			<email type="list_admin">taipei-pm-owner@hfb.pm.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception"></date>
 	</group>
 
