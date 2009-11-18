@@ -9,16 +9,6 @@ my $src_file = shift || './perl_mongers.xml';
 
 my %ids;
 
-my %colours = (
-	       africa => [64,255,64],
-	       asia => [255,255,0],
-	       europe => [128,128,255],
-	       north_america => [255,0,0],
-	       central_america => [0,255,0],
-	       south_america => [255,0,255],
-	       oceania => [0,255,255],
-	      );
-
 $| = 1;
 
 my $tt = Template->new({
@@ -74,16 +64,6 @@ foreach my $g ($doc->findnodes('//group')) {
   # joined up city, state, region, country, continent
   my $location = join ', ', grep { $_ }
     ($city, $state, $region, $country, $continent);
-
-  if ($longitude && $latitude) {
-
-    # first add to world map
-    my $c = lc $continent;
-    $c =~ s/\W/_/g;
-    my $colour = $colours{$c} || die;
-  } else {
-    #warn "Group $name missing lat/long\n";
-  }
 
   $tsaremail =~ s/@/ at /g;
 
@@ -141,8 +121,6 @@ foreach my $continent (@continents) {
 			      @{$groups{$continent}{$country}} ];
     }
   }
-
-  my $colour = $colours{$name};
 
   my $conf = {
 	      groups => $groups,
