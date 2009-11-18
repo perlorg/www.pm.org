@@ -2309,6 +2309,10 @@
 			<name>Daniel Sherer</name>
 			<email type="personal">perl@sherer.org</email>
 		</tsar>
+		<tsar>
+			<name>Aran Deltac</name>
+			<email type="personal">bluefeet@gmail.com</email>
+		</tsar>
 		<web>http://thousand-oaks.pm.org/</web>
 		<date type="inception">19990802</date>
 	</group>
@@ -11172,19 +11176,11 @@
 			<longitude>-38.53</longitude>
 			<latitude>-3.72</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Daniel Ruoso</name>
 			<email type="personal">daniel@ruoso.com</email>
 		</tsar>
 		<web>http://fortaleza.pm.org/</web>
-		<mailing_list>
-			<name>General Fortaleza Perl Mongers discussion</name>
-			<email type="list">fortaleza-pm@pm.org</email>
-			<email type="list_admin">daniel@ruoso.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20041201</date>
 	</group>
 
@@ -15979,6 +15975,24 @@
                 </tsar>
                 <web>http://advent.pm.org</web>
                 <date type="inception">20091015</date>
+        </group>
+        <group id="735" status="active">
+                <name>Adelaide.pm</name>
+                <location>
+                        <city>Adelaide</city>
+                        <state>South Australia</state>
+                        <region></region>
+                        <country>Australia</country>
+                        <continent>Australia</continent>
+                        <longitude>138.599732</longitude>
+                        <latitude>-34.92577</latitude>
+                </location>
+                <tsar>
+                        <name>Justin Hawkins</name>
+                        <email type="personal">justin@hawkins.id.au</email>
+                </tsar>
+                <web>http://adelaide.pm.org</web>
+                <date type="inception">20091117</date>
         </group>
 </perl_mongers>
 
