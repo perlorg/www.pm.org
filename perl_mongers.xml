@@ -1783,13 +1783,6 @@
 			<email type="personal">casey@geeknest.com</email>
 		</tsar>
 		<web>http://pittsburgh.pm.org/</web>
-		<mailing_list>
-			<name>General Pittsburgh.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">replace</date>
 	</group>
 	
@@ -4965,19 +4958,11 @@
 			<longitude>10.7524</longitude>
 			<latitude>59.9104</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Salve J. Nilsen</name>
-			<email type="personal">sjn+oslo.pm@pvv.org</email>
+			<name>Marcus Ramberg</name>
+			<email type="personal">marcus@nordaaker.com</email>
 		</tsar>
 		<web>http://oslo.pm.org/</web>
-		<mailing_list>
-			<name>General Oslo Perl Mongers discussion</name>
-			<email type="list">oslo-pm@pm.org</email>
-			<email type="list_admin">sjn+oslo.pm@pvv.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
 
