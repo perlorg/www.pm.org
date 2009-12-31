@@ -3166,8 +3166,8 @@
 			<latitude>38.783</latitude>
 		</location>
 		<tsar>
-			<name>Carlos Jorge Andrade</name>
-			<email type="personal">carlos.andrade@gmail.com</email>
+			<name>Bruno Vieira</name>
+			<email type="personal">giuliapo@gmail.com</email>
 		</tsar>
 		<web>http://porto.pm.org/</web>
 		<date type="inception">19990707</date>
@@ -10341,19 +10341,11 @@
                         <latitude>50.7384</latitude>
                         <longitude>-4.0042</longitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Steve Marvell</name>
 			<email type="personal">steve@fysh.org</email>
 		</tsar>
 		<web>http://devoncornwall.pm.org/</web>
-		<mailing_list>
-			<name>General Devon and Cornwall Perl Mongers discussion</name>
-			<email type="list">devoncornwall@pm.org</email>
-			<email type="list_admin">steve@fysh.org</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20011213</date>
 	</group>
 
@@ -11921,8 +11913,7 @@
 		<web>http://Canberra.pm.org/</web>
 		<date type="inception">20020925</date>
 	</group>
-	<group id="538" status="inactive">
-	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
+	<group id="538" status="active">
 		<name>Terere.pm</name>
 		<location>
 			<city>Asuncion</city>
@@ -11936,7 +11927,7 @@
 		<email type="group"></email>
 		<tsar>
 			<name>Roger Armoa</name>
-			<email type="personal">rogerarmoa@yahoo.com</email>
+			<email type="personal">rogerarmoa@gmail.com</email>
 		</tsar>
 		<web>http://Terere.pm.org/</web>
 		<date type="inception">20020925</date>
