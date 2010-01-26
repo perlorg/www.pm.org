@@ -2533,8 +2533,12 @@
 			<latitude>-23.533</latitude>
 		</location>
 		<tsar>
-			<name>Solli Moreira Honorio</name>
-			<email type="personal">shonorio@gmail.com</email>
+			<name>Otávio Fernandes</name>
+                        <email type="personal">otaviof@gmail.com</email>
+		</tsar>
+		<tsar>
+			<name>Thiago Rondon</name>
+                        <email type="personal">thiago.rondon@gmail.com</email>
 		</tsar>
 		<web>http://sao-paulo.pm.org/</web>
 		<date type="inception">19990802</date>
@@ -10002,13 +10006,6 @@
 			<email type="personal">uwe.voelker@gmx.de</email>
 		</tsar>
 		<web>http://sachsen.pm.org/</web>
-		<mailing_list>
-			<name>General Sachsen Perl Mongers discussion</name>
-			<email type="list">sachsen-pm</email>
-			<email type="list_admin">uwe.voelker@gmx.de</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20011105</date>
 	</group>
 
@@ -15967,6 +15964,24 @@
                 </tsar>
                 <web>http://adelaide.pm.org</web>
                 <date type="inception">20091117</date>
+        </group>
+        <group id="736" status="active">
+                <name>Madurai.pm</name>
+                <location>
+                        <city>Madurai</city>
+                        <state>Tamil Nadu</state>
+                        <region></region>
+                        <country>India</country>
+                        <continent>Asia</continent>
+                        <longitude>78.1167</longitude>
+                        <latitude>9.9167</latitude>
+                </location>
+                <tsar>
+                        <name>M. Varadharajan</name>
+                        <email type="personal">srinathsmn@gmail.com</email>
+                </tsar>
+                <web>http://madurai.pm.org</web>
+                <date type="inception">20100126</date>
         </group>
 </perl_mongers>
 
