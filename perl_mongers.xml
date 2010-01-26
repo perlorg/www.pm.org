@@ -4542,23 +4542,22 @@
 		<date type="inception">19980930</date>
 	</group>
 	
-	<group id="216" status="dead">
+	<group id="216" status="active">
 		<name>Sofia.pm</name>
 		<location>
-			<city></city>
+			<city>Sofia</city>
 			<state></state>
 			<region></region>
 			<country>Bulgaria</country>
 			<continent>Europe</continent>
-			<longitude>23.317</longitude>
-			<latitude>42.683</latitude>
+			<longitude>23.3166667</longitude>
+			<latitude>42.6833333</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Marin Marinov</name>
-			<email type="personal">murry-mmm@softhome.net</email>
+			<name>Peter Shangov</name>
+			<email type="personal">pshangov@yahoo.com</email>
 		</tsar>
-		<web></web>
+		<web>http://sofia.pm.org</web>
 		<date type="inception">19991024</date>
 	</group>
 
@@ -5677,21 +5676,20 @@
 		<date type="inception">20000227</date>
 	</group>
 
-	<group id="274" status="undef">
+	<group id="274" status="active">
 		<name>Iasi.pm</name>
 		<location>
 			<city>Iasi</city>
-			<state></state>
+			<state>Iasi</state>
 			<region></region>
 			<country>Romania</country>
 			<continent>Europe</continent>
-			<longitude>27.5822</longitude>
-			<latitude>47.1559</latitude>
+			<longitude>27.57</longitude>
+			<latitude>47.15</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Adrian Arva</name>
-			<email type="personal">arva@cshl.edu</email>
+			<name>Emil Perhinschi</name>
+			<email type="personal">emilper@gmail.com</email>
 		</tsar>
 		<web>http://iasi.pm.org/</web>
 		<date type="inception">20000227</date>
@@ -14834,7 +14832,7 @@
 		<web>http://asheville.pm.org</web>
 		<date type="inception">20051011</date>
 	</group>
-	<group id="674" status="active">
+	<group id="674" status="inactive">
 		<name>Chemnitz.pm</name>
 		<location>
 			<city>Chemnitz</city>
