@@ -207,30 +207,22 @@
 		<date type="inception">19990214</date>
 	</group>
 	
-	<group id="5" status="dead">
+	<group id="5" status="active">
 		<name>AnnArbor.pm</name>
 		<location>
 			<city>Ann Arbor</city>
 			<state>Michigan</state>
-			<region></region>
+			<region>Midwest</region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-83.73084</longitude>
-			<latitude>42.27535</latitude>
+			<longitude>-83.747264</longitude>
+			<latitude>42.280442</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Kevin McGowan</name>
-			<email type="personal">clunis@umich.edu</email>
+			<name>Tommy Stanton</name>
+			<email type="personal">tommystanton@gmail.com</email>
 		</tsar>
 		<web>http://annarbor.pm.org/</web>
-		<mailing_list>
-			<name>General AnnArbor.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">19981102</date>
 	</group>
 	
@@ -375,7 +367,7 @@
 		</location>
 		<tsar>
 			<name>Bill Ricker</name>
-			<email type="personal">rjk-pm-boston@tamias.net</email>
+			<email type="personal">bill.n1vux@gmail.com</email>
 		</tsar>
 		<web>http://boston.pm.org/</web>
 		<date type="inception">19980207</date>
@@ -13642,13 +13634,6 @@
 			<email type="personal">intertwingled@qwest.net</email>
 		</tsar>
 		<web>http://tempe.pm.org/</web>
-		<mailing_list>
-			<name>General Tempe/East Valley Perlmongers Perl Mongers discussion</name>
-			<email type="list">tempe/eastvalleyperlmongers-pm@pm.org</email>
-			<email type="list_admin">intertwingled@qwest.net</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20031108</date>
 	</group>
 
@@ -15982,6 +15967,42 @@
                 </tsar>
                 <web>http://madurai.pm.org</web>
                 <date type="inception">20100126</date>
+        </group>
+        <group id="737" status="active">
+                <name>Linnaeus.pm</name>
+                <location>
+                        <city>Gothenburg</city>
+                        <state>Tamil Nadu</state>
+                        <region>Västra Götalands Län</region>
+                        <country>Sweden</country>
+                        <continent>Europe</continent>
+                        <longitude>11.947645</longitude>
+                        <latitude>57.698164</latitude>
+                </location>
+                <tsar>
+                        <name>Jeremiah C. Foster</name>
+                        <email type="personal">jeremiah@cpan.org</email>
+                </tsar>
+                <web>http://linnaeus.pm.org</web>
+                <date type="inception">20100223</date>
+        </group>
+        <group id="738" status="active">
+                <name>Cali.pm</name>
+                <location>
+                        <city>Cali</city>
+                        <state>Valle del Cauca</state>
+                        <region>Pacifico</region>
+                        <country>Colombia</country>
+                        <continent>South America</continent>
+                        <longitude>-76.52252197265625</longitude>
+                        <latitude>3.42294984623391</latitude>
+                </location>
+                <tsar>
+                        <name>Daniel Mera</name>
+                        <email type="personal">danimera@hotmail.com</email>
+                </tsar>
+                <web>http://cali.pm.org</web>
+                <date type="inception">20100223</date>
         </group>
 </perl_mongers>
 
