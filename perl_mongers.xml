@@ -16004,5 +16004,23 @@
                 <web>http://cali.pm.org</web>
                 <date type="inception">20100223</date>
         </group>
+        <group id="739" status="active">
+                <name>BragancaPaulista.pm</name>
+                <location>
+                        <city>Bragança Paulista</city>
+                        <state>São Paulo</state>
+                        <region>Southeast</region>
+                        <country>Brazil</country>
+                        <continent>South America</continent>
+                        <longitude>-46.3231</longitude>
+                        <latitude>-22.5707</latitude>
+                </location>
+                <tsar>
+                        <name>Lucas Tiago de Moraes</name>
+                        <email type="personal">mineiro@live.be</email>
+                </tsar>
+                <web>http://BragancaPaulista.pm.org</web>
+                <date type="inception">20100303</date>
+        </group>
 </perl_mongers>
 
