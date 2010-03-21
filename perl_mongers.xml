@@ -15310,21 +15310,21 @@
         </group>
 
         <group id="701" status="active">
-                <name>Hanover.pm</name>
+                <name>Hannover.pm</name>
                 <location>
-                        <city>Hanover</city>
+                        <city>Hannover</city>
                         <state>Lower Saxony</state>
                         <region></region>
                         <country>Germany</country>
                         <continent>Europe</continent>
-                        <longitude>9.44</longitude>
-                        <latitude>52.2</latitude>
+                        <longitude>9.684716</longitude>
+                        <latitude>52.461666</latitude>
                 </location>
                 <tsar>
-                        <name>Sven Newhaus</name>
-                        <email type="personal">sven@sven.de</email>
+                        <name>Sebastian Willing</name>
+                        <email type="personal">sewi@cpan.org</email>
                 </tsar>
-                <web>http://hanover.pm.org</web>
+                <web>http://hannover.pm.org</web>
                 <date type="inception">20070313</date>
         </group>
 
