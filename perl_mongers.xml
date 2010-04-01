@@ -12339,21 +12339,20 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="522" status="inactive">
-	<!-- 2009.10.08 website inactive, contact e-mail bounces. - szabgab -->
+	<group id="522" status="active">
 		<name>ZA.pm</name>
 		<location>
-			<city>Johannesburg</city>
-			<state>Gauteng</state>
+			<city>Grahamstown</city>
+			<state>Eastern Cape</state>
 			<region></region>
 			<country>South Africa</country>
 			<continent>Africa</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>26.5333</longitude>
+			<latitude>-33.3000</latitude>
 		</location>
 		<tsar>
-			<name>Rory Austin</name>
-			<email type="personal">rory@mighty.co.za</email>
+			<name>Anne Wainwright</name>
+			<email type="personal">anotheranne@fables.co.za</email>
 		</tsar>
 		<web>http://za.pm.org/</web>
 		<date type="inception">20030317</date>
