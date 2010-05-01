@@ -3007,8 +3007,8 @@
 			<region></region>
 			<country>Sweden</country>
 			<continent>Europe</continent>
-			<longitude>13.04</longitude>
-			<latitude>55.07</latitude>
+			<longitude>13.192906</longitude>
+			<latitude>55.702863</latitude>
 		</location>
 		<tsar>
 			<name>Nadim Khemir</name>
@@ -6517,8 +6517,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="313" status="inactive">
-	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
+	<group id="313" status="active">
 		<name>Chisinau.pm</name>
 		<location>
 			<city>Chisinau</city>
@@ -6531,7 +6530,7 @@
 		</location>
 		<tsar>
 			<name>Sergiu Mihai</name>
-			<email type="personal">serhio@programmer.net</email>
+			<email type="personal">sergiu.mihai@devlibre.net</email>
 		</tsar>
 		<web>http://chisinau.pm.org/</web>
                 <date type="inception">20060526</date>
@@ -8156,30 +8155,22 @@
 		<date type="inception">20010401</date>
 	</group>
 
-	<group id="381" status="mlb">
+	<group id="381" status="active">
 		<name>Timisoara.pm</name>
 		<location>
-			<city>Timisoara</city>
-			<state>Timis</state>
+			<city>Timişoara</city>
+			<state>Timiş</state>
 			<region></region>
 			<country>Romania</country>
 			<continent>Europe</continent>
                         <longitude>21.217</longitude>
                         <latitude>45.750</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Grun Christian</name>
-			<email type="personal">cristian@abc.ro</email>
+			<name>Grün Christian-Rolf</name>
+			<email type="personal">kixx.tm@gmail.com</email>
 		</tsar>
 		<web>http://timisoara.pm.org/</web>
-		<mailing_list>
-			<name>General Timisoara Perl Mongers discussion</name>
-			<email type="list">timisoara-pm@pm.org</email>
-			<email type="list_admin">cristian@abc.ro</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20010401</date>
 	</group>
 
@@ -10738,8 +10729,8 @@
                         <latitude>50.8333</latitude>
 		</location>
 		<tsar>
-			<name>Gilles Paquet</name>
-			<email type="personal">gilles@paquet.net</email>
+			<name>Serge Hoffmann</name>
+			<email type="personal">serge.hoffmann@gmail.com</email>
 		</tsar>
 		<web>http://bruxelles.pm.org/</web>
 		<date type="inception">20020305</date>
