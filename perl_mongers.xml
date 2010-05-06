@@ -2199,20 +2199,6 @@
 			<email type="personal">steve@silug.org</email>
 		</tsar>
 		<web>http://springfield.pm.org/</web>
-		<mailing_list>
-			<name>Springfield.pm announcements</name>
-			<email type="list">pm-announce@springfield.pm.org</email>
-			<email type="list_admin">majordomo@springfield.pm.org</email>
-			<subscribe>subscribe pm-announce email_address</subscribe>
-			<unsubscribe>unsubscribe pm-announce email_address</unsubscribe>
-		</mailing_list>
-		<mailing_list>
-			<name>General Springfield.pm discussion</name>
-			<email type="list">pm-discuss@springfield.pm.org</email>
-			<email type="list_admin">majordomo@springfield.pm.org</email>
-			<subscribe>subscribe pm-discuss email_address</subscribe>
-			<unsubscribe>unsubscribe pm-discuss email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19980916</date>
 	</group>
 	
@@ -4475,19 +4461,11 @@
 			<longitude></longitude>
 			<latitude></latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Blake Mills</name>
 			<email type="personal">blakem@blakem.com</email>
 		</tsar>
 		<web>http://www.rf.net/~sv-pm-org/</web>
-		<mailing_list>
-			<name>General SiliconValley.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-			<subscribe>http://www.rf.net/~sv-pm-org/</subscribe>
-			<unsubscribe></unsubscribe>
-		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
 
@@ -11864,13 +11842,6 @@
 			<email type="personal">jbodoni@hotmail.com</email>
 		</tsar>
 		<web>http://SpringfieldMO.pm.org/</web>
-		<mailing_list>
-			<name>General Springfield Perl Mongers discussion</name>
-			<email type="list">SpringfieldMO-pm@pm.org</email>
-			<email type="list_admin">jbodoni@hotmail.com</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">20020925</date>
 	</group>
 	<group id="537" status="active">
