@@ -562,6 +562,7 @@
 	</group>
 	
 	<group id="22" status="undef">
+	<!-- 2010.05.21 mailing is spam, no web site  TODO:DELETE - szabgab -->
 		<name>Cleveland.pm</name>
 		<location>
 			<city>Cleveland</city>
@@ -2577,6 +2578,7 @@
 	</group>
 	
 	<group id="115" status="undef">
+	<!-- 2010.05.21 mailing list full of spam, web site empty TODO:DELETE - szabgab -->
 		<name>Catalunya.pm</name>
 		<location>
 			<city>Tossal dels Cigalons</city>
@@ -3823,6 +3825,7 @@
 	</group>
 	
 	<group id="181" status="sleeping">
+	<!-- 2010.05.21 web site is nice but under construction, mailing list empty, mail sent, TODO - szabgab -->
 		<name>Bangkok.pm</name>
 		<location>
 			<city>Bangkok</city>
@@ -4827,6 +4830,7 @@
 	</group>
 
 	<group id="229" status="active">
+	<!-- 2010.05.21 no web site, some activity on list  - szabgab -->
 		<name>Bangalore.pm</name>
 		<location>
 			<city>Bangalore</city>
@@ -5485,6 +5489,7 @@
 	</group>
 
 	<group id="264" status="active">
+	<!-- 2010.05.21 - no mailing list, website redirect to Calcutta.pm.org - szabgab -->
 		<name>Kolkata.pm</name>
 		<location>
 			<city>Kolkata</city>
@@ -6395,6 +6400,7 @@
 	</group>
 
 	<group id="309" status="undef">
+	<!-- 2010.05.21  mailing list full of SPAM, no name resilving  TODO:DELETE - szabgab -->
 		<name>BuenosAires.pm</name>
 		<location>
 			<city>Buenos Aires</city>
@@ -7162,7 +7168,8 @@
 		<date type="inception">20010110</date>
 	</group>
 
-	<group id="342" status="leb">
+	<group id="342" status="inactive">
+	<!-- 2010.05.21 - web site is dead, group was already "leb", mailing list only contains SPAM - TODO:DELETE - szabgab -->
 		<name>Ahmedabad.pm</name>
 		<location>
 			<city>Ahmedabad</city>
@@ -10860,7 +10867,8 @@
 		<date type="inception">20020325</date>
 	</group>
 
-	<group id="487" status="active">
+	<group id="487" status="inactive">
+	<!-- 2010.05.21 - garu confirmed it is dead -->
 		<name>Florian&oacute;polis.pm</name>
 		<location>
 			<city>Florian&oacute;polis</city>
@@ -11645,7 +11653,8 @@
 		<date type="inception">20020728</date>
 	</group>
 
-	<group id="529" status="undef">
+	<group id="529" status="inactive">
+	<!-- 2010.05.21 no website, mailing list SPAM only  TODO:DELETE - szabgab -->
 		<name>Beirut.pm</name>
 		<location>
 			<city>Beirut</city>
@@ -14386,7 +14395,8 @@
                 <date type="inception">20040919</date>
          </group>
 
-	<group id="655" status="active">
+	<group id="655" status="inactive">
+	<!-- 2010.05.21 - no web site, mailing list almost empty, mail sent, bounced, garu confirmed it dead - TODO - szabgab--> 
 		<name>Belem.pm</name>
 		<location>
 			<city>Belém</city>
@@ -14673,7 +14683,8 @@
                 <web>http://salvador.pm.org</web>
                 <date type="inception">20050815</date>
         </group>
-        <group id="669" status="active">
+        <group id="669" status="inactive">
+        <!-- 2010.05.21 garu confirmed it is dead - szabgab -->
                 <name>Taubate.pm</name>
                 <location>
                         <city>Taubaté</city>
@@ -14711,6 +14722,7 @@
 		<date type="inception">20050919</date>
 	</group>
 	<group id="671" status="active">
+	<!-- 2010.05.21, mailing list is empty, website was last updated in 2006, mail bounced  TODO -->
 		<name>Amiga.pm</name>
 		<location>
 			<city></city>
@@ -14860,6 +14872,7 @@
                 <date type="inception">20060116</date>
         </group>
         <group id="679" status="sleeping">
+        <!-- 2010.05.21 web site is empty, mailing list is empty, mail sent - TODO - szabgab -->
                 <name>Thailand.pm</name>
                 <location>
                         <city>Bangkok</city>
@@ -15975,4 +15988,4 @@
                 <date type="inception">20100303</date>
         </group>
 </perl_mongers>
-
+<!-- 2010.05.21 Be.pm, mailing list empty, web site from 2002, it was not in this xml at all -  TODO:DELETE - szabgab -->
