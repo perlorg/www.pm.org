@@ -2501,6 +2501,7 @@
 	</group>
 	
 	<group id="112" status="active">
+	<!-- 2010.05.21 confirmed active by garu - szabgab -->
 		<name>Sao-Paulo.pm</name>
 		<location>
 			<city>Sao Paulo</city>
@@ -6214,6 +6215,7 @@
 	</group>
 
 	<group id="301" status="active">
+	<!-- 2010.05.21 confirmed active by garu - szabgab -->
 		<name>Rio.pm</name>
 		<location>
 			<city>Rio de Janeiro</city>
@@ -7758,6 +7760,7 @@
 	</group>
 
 	<group id="365" status="active">
+	<!-- 2010.05.21 - confirmed alive-ish by garu - szabgab--> 
 		<name>Brasilia.pm</name>
 		<location>
 			<city>Brasilia</city>
@@ -11107,6 +11110,7 @@
 	</group>
 
 	<group id="498" status="active">
+	<!-- 2010.05.21 confirmed active by garu - szabgab -->
 		<name>Fortaleza.pm</name>
 		<location>
 			<city>Fortaleza</city>
@@ -12030,6 +12034,7 @@
 	</group>
 
 	<group id="510" status="active">
+	<!-- 2010.05.21 confirmed active by garu - szabgab -->
 		<name>Cascavel.pm</name>
 		<location>
 			<city>Cascavel</city>
@@ -12758,6 +12763,7 @@
 	</group>
 
 	<group id="579" status="active">
+	<!-- 2010.05.21 confirmed active by garu - szabgab -->
 		<name>Recife.pm</name>
 		<location>
 			<city>Recife</city>
@@ -12873,6 +12879,7 @@
 	</group>
 
 	<group id="584" status="active">
+	<!-- 2010.05.21 confirmed active by garu - szabgab -->
 		<name>Brasil.pm</name>
 		<location>
 			<city>Brazil</city>
@@ -14165,6 +14172,7 @@
 	</group>
 
 	<group id="644" status="active">
+	<!-- 2010.05.21 confirmed active by garu - szabgab -->
 		<name>Vitoria.pm</name>
 		<location>
 			<city>Vitoria</city>
@@ -14477,6 +14485,7 @@
                 <date type="inception">20050320</date>
         </group>
         <group id="658" status="active">
+	<!-- 2010.05.21 - confirmed alive-ish by garu - szabgab--> 
                 <name>Campinas.pm</name>
                 <location>
                         <city>Campinas</city>
@@ -14665,6 +14674,7 @@
                 <date type="inception">20050728</date>
         </group>
         <group id="668" status="active">
+	<!-- 2010.05.21 confirmed active by garu - szabgab -->
                 <name>Salvador.pm</name>
                 <location>
                         <city>Salvador</city>
@@ -15192,6 +15202,7 @@
                 <date type="inception">20061203</date>
         </group>
         <group id="696" status="active">
+	<!-- 2010.05.21 confirmed active by garu - szabgab -->
                 <name>Triangulo.pm</name>
                 <location>
                         <city>Uberlândia</city>
@@ -15970,6 +15981,7 @@
                 <date type="inception">20100223</date>
         </group>
         <group id="739" status="active">
+	<!-- 2010.05.21 confirmed newborn by garu - szabgab -->
                 <name>BragancaPaulista.pm</name>
                 <location>
                         <city>Bragança Paulista</city>
