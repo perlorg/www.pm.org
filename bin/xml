@@ -42,7 +42,10 @@ foreach my $g ($doc->findnodes('//group')) {
   my $latitude = $g->findvalue('location/latitude/text()');
   my $web = $g->findvalue('web/text()');
   my $tsar = $g->findvalue('tsar/name/text()');
-  my $tsaremail = $g->findvalue('tsar/email/text()');
+  my $tsaremail = $g->findvalue('tsar/email/user/text()');
+  #$tsaremail .= ' &lt;' . int(rand(100)) . '&gt; ';
+  $tsaremail .= ' &lt;replace me by @&gt; ';
+  $tsaremail .= $g->findvalue('tsar/email/domain/text()');
 
   my $mailing_lists_name = $g->findvalue('mailing_list/name/text()');
 #  if ($mailing_lists_name) { print STDERR "M $mailing_lists_name\n" }
@@ -65,7 +68,7 @@ foreach my $g ($doc->findnodes('//group')) {
   my $location = join ', ', grep { $_ }
     ($city, $state, $region, $country, $continent);
 
-  $tsaremail =~ s/@/ at /g;
+  #$tsaremail =~ s/@/ at /g;
 
   my $group = {
 	       continent => $continent,
