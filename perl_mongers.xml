@@ -14312,7 +14312,7 @@
                 <mailing_list>
                         <name>General Geneva Perl Mongueurs discussion</name>
                         <email type="list">geneve@mongueurs.net</email>
-                        <email tpye="list_admin">majordomo@mongueurs.net</email>
+                        <email type="list_admin">majordomo@mongueurs.net</email>
                         <subscribe>subscribe geneve email_address</subscribe>
                         <unsubscribe>unsubscribe geneve email_address</unsubscribe>
                 </mailing_list>
