@@ -2969,6 +2969,7 @@
 	</group>
 	
 	<group id="137" status="undef">
+	<!-- 2010.05.22 website from 1999, mailing has 3 messages from 1999, no activity -->
 		<name>Lucerne.pm</name>
 		<location>
 			<city>Luzern</city>
@@ -3332,6 +3333,7 @@
 	</group>
 	
 	<group id="156" status="undef">
+	<!-- 2010.05.22 - no DNS, no maling list - szabgab -->
 		<name>Swiss.pm</name>
 		<location>
 			<city></city>
@@ -4521,6 +4523,7 @@
 	</group>
 	
 	<group id="216" status="active">
+	<!-- 2010.05.22 probably old web site, last message on list from 2005, mail sent  TODO - szabgab -->
 		<name>Sofia.pm</name>
 		<location>
 			<city>Sofia</city>
@@ -6281,6 +6284,7 @@
 	</group>
 
 	<group id="304" status="undef">
+	<!-- 2010.05.22 almost empty web site, no mailing list - szabgab -->
 		<name>Zug.pm</name>
 		<location>
 			<city>Zug</city>
@@ -7625,6 +7629,7 @@
 	</group>
 
 	<group id="360" status="active">
+	<!-- 2010.05.22 web site from 2004, no mailing list, mail send TODO - szabgab -->
 		<name>Rousse.pm</name>
 		<location>
 			<city>Rousse</city>
@@ -9155,6 +9160,7 @@
 	</group>
 
 	<group id="419" status="undef">
+	<!-- 2010.05.22 DNS works but no web site, no mailing list - szabgab -->
 		<name>Bern.pm</name>
 		<location>
 			<city>Bern</city>
@@ -11072,6 +11078,7 @@
 	</group>
 
 	<group id="496" status="active">
+	<!-- 2010.05.22 - looks alive - szabgab -->
 		<name>Zurich.pm</name>
 		<location>
 			<city>Zürich</city>
@@ -13560,6 +13567,7 @@
 	</group>
 
 	<group id="616" status="active">
+	<!-- 2010.05.22 web site has bad encoding, last message on mailing list is from 2003, mail sent TODO - szabgab -->
 		<name>Plovdiv.pm</name>
 		<location>
 			<city>Plovdiv</city>
@@ -14200,6 +14208,7 @@
 	</group>
 
 	<group id="645" status="active">
+	<!-- 2010.05.22 both web site and mailing list last active in 2007, mail sent - TODO - szabgab -->
 		<name>Cypriots.pm</name>
 		<location>
 			<city>Cypriots</city>
@@ -15747,6 +15756,7 @@
                 <date type="inception">20080921</date>
         </group>
         <group id="726" status="active">
+        <!-- 2010.05.22 web site is 404, last mail in 2009, recommended to redirect to TPF wiki - TODO - szabgab -->
                 <name>Tallinn.pm</name>
                 <location>
                         <city>Tallinn</city>
