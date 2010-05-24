@@ -15425,8 +15425,9 @@
                 <date type="inception">20070708</date>
         </group>
 
-        <group id="707" status="inactive">
+        <group id="707" status="active">
 	    <!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
+		<!-- 2010.05.24 group admin sent message to pm.org list, turning it active - szabgab -->
                 <name>Kochi.pm</name>
                 <location>
                         <city>Kochi</city>
@@ -15720,6 +15721,7 @@
                 <date type="inception">20080719</date>
         </group>
         <group id="724" status="active">
+        <!-- 2010.05.23 website from 2008, no messages in mailing list, leader sked not to delete it - szabgab -->
                 <name>WesternMontana.pm</name>
                 <location>
                         <city>Stevensville</city>
