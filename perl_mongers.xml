@@ -265,7 +265,7 @@
 		</tsar>
 		<tsar>
 			<name>Stephen Cristol</name>
-			<email type="personal"><user>stephen</user><domain>bee.net</domain></email>
+			<email type="personal"><user>atlanta-pm</user><domain>bee.net</domain></email>
 		</tsar>
 		<web>http://atlanta.pm.org/</web>
 		<date type="inception">19980704</date>
@@ -923,8 +923,9 @@
 		<date type="inception">19990707</date>
 	</group>
 	
-	<group id="39" status="inactive">
-	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
+	<group id="39" status="active">
+	        <!-- 2010.05.27 - New leader - jhannah -->
+	        <!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
 		<name>Hartford.pm</name>
 		<location>
 			<city>Hartford</city>
@@ -932,13 +933,12 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-72.68386</longitude>
-			<latitude>41.7657</latitude>
+			<longitude>-72.65</longitude>
+			<latitude>41.73</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Bob Mariotti</name>
-			<email type="personal"><user>r.mariotti</user><domain>fdcx.net</domain></email>
+			<name>Michael Kroher</name>
+			<email type="personal"><user>mkroher</user><domain>gmail.com</domain></email>
 		</tsar>
 		<web>http://hartford.pm.org/</web>
 		<date type="inception">19981124</date>
@@ -1702,8 +1702,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Brock Wilcox</name>
-			<email type="personal"><user>awwaiid</user><domain>thelackthereof.org</domain></email>
+			<name>Douglas E. Miles</name>
+			<email type="personal"><user>doug</user><domain>veritablesoftware.com</domain></email>
 		</tsar>
 		<web>http://phoenix.pm.org/</web>
 		<mailing_list>
