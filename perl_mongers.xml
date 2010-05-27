@@ -917,8 +917,6 @@
 			<name>General Harrisburg Perl Mongers discussion</name>
 			<email type="list"><user>harrisburg-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>hpm</user><domain>openthought.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">19990707</date>
 	</group>
@@ -984,8 +982,6 @@
 			<name>General Humboldt Perl Mongers discussion</name>
 			<email type="list"><user>humboldt.pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>eriks21</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">19981113</date>
 	</group>
@@ -3272,8 +3268,6 @@
 			<name>General Stockholm Perl Mongers discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">19980826</date>
 	</group>
@@ -3688,8 +3682,6 @@
 			<name>General Melbourne Perl Mongers discussion</name>
 			<email type="list"><user>melbourne-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>sharkey</user><domain>zoic.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">19980730</date>
 	</group>
@@ -4396,8 +4388,6 @@
 			<name>General Guimaraes Perl Mongers discussion</name>
 			<email type="list"><user>guimaraes-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>scorpio</user><domain>gil.di.uminho.pt</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">19990914</date>
 	</group>
@@ -5295,8 +5285,6 @@
 			<name>General Istanbul Perl Mongers discussion</name>
 			<email type="list"><user>istanbul-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>sori</user><domain>sorix.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20000116</date>
 	</group>
@@ -5540,8 +5528,6 @@
 			<name>General situs@sdf.lonestar.org Perl Mongers discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20000116</date>
 	</group>
@@ -5767,8 +5753,6 @@
 			<name>General Aalesund Perl Mongers discussion</name>
 			<email type="list"><user>aalesund-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>kent</user><domain>laget.kicks-ass.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20000227</date>
 
@@ -5975,8 +5959,6 @@
 			<name>General Ulm.pm discussion</name>
 			<email type="list"><user>members</user><domain>ulm.pm.org</domain></email>
 			<email type="list_admin"><user>majordomo</user><domain>ulm.pm.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20000601</date>
 	</group>
@@ -6003,8 +5985,6 @@
 			<name>General Algoma discussion</name>
 			<email type="list"><user>algoma-pm</user><domain>hfb.pm.org</domain></email>
 			<email type="list_admin"><user>algoma-pm-owner</user><domain>hfb.pm.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6030,8 +6010,6 @@
 			<name>General AtlanticCity discussion</name>
 			<email type="list"><user>atlanticcity-pm</user><domain>hfb.pm.org</domain></email>
 			<email type="list_admin"><user>atlanticcity-pm-owner</user><domain>hfb.pm.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6057,8 +6035,6 @@
 			<name>General Concepcion Perl Mongers discussion</name>
 			<email type="list"><user>concepcion-pm</user><domain>hfb.pm.org</domain></email>
 			<email type="list_admin"><user>concepcion-pm-owner</user><domain>hfb.pm.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6084,8 +6060,6 @@
 			<name>General Gettysburg Perl Mongers discussion</name>
 			<email type="list"><user>gettysburg-pm</user><domain>hfb.pm.org</domain></email>
 			<email type="list_admin"><user>gettysburg-pm-owner</user><domain>hfb.pm.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6111,8 +6085,6 @@
 			<name>General Taos Perl Mongers discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6138,8 +6110,6 @@
 			<name>General LongBeach Perl Mongers discussion</name>
 			<email type="list"><user>longbeach-pm</user><domain>hfb.pm.org</domain></email>
 			<email type="list_admin"><user>longbeach-pm-owner</user><domain>hfb.pm.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6165,8 +6135,6 @@
 			<name>General MetroWest Perl Mongers discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6192,8 +6160,6 @@
 			<name>General Nicholasville Perl Mongers discussion</name>
 			<email type="list"><user>nicholasville-pm</user><domain>hfb.pm.org</domain></email>
 			<email type="list_admin"><user>nicholasville-pm-owner</user><domain>hfb.pm.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6219,8 +6185,6 @@
 			<name>General Novosibirsk Perl Mongers discussion</name>
 			<email type="list"><user>novosibirsk-pm</user><domain>hfb.pm.org</domain></email>
 			<email type="list_admin"><user>novosibirsk-pm-owner</user><domain>hfb.pm.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6285,8 +6249,6 @@
 			<name>General Trivandrum Perl Mongers discussion</name>
 			<email type="list"><user>trivandrum-pm</user><domain>hfb.pm.org</domain></email>
 			<email type="list_admin"><user>trivandrum-pm-owner</user><domain>hfb.pm.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6313,8 +6275,6 @@
 			<name>General Zug Perl Mongers discussion</name>
 			<email type="list"><user>zug-pm</user><domain>hfb.pm.org</domain></email>
 			<email type="list_admin"><user>zug-pm-owner</user><domain>hfb.pm.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6359,8 +6319,6 @@
 			<name>General Erie Perl Mongers discussion</name>
 			<email type="list"><user>erie-pm</user><domain>hfb.pm.org</domain></email>
 			<email type="list_admin"><user>erie-pm-owner</user><domain>hfb.pm.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6387,8 +6345,6 @@
 			<name>General Athens Perl Mongers discussion</name>
 			<email type="list"><user>athens-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>owner-athens-pm</user><domain>pm.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6435,8 +6391,6 @@
 			<name>General BuenosAires Perl Mongers discussion</name>
 			<email type="list"><user>BuenosAires-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>owner-BuenosAires-pm</user><domain>pm.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6462,8 +6416,6 @@
 			<name>General Bismarck Perl Mongers discussion</name>
 			<email type="list"><user>bismarck-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>owner-bismarck-pm</user><domain>pm.org    </domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6489,8 +6441,6 @@
 			<name>General Ploiesti Perl Mongers discussion</name>
 			<email type="list"><user>ploiesti-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>owner-ploiesti-pm</user><domain>pm.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6574,8 +6524,6 @@
 			<name>General Birmingham Perl Mongers discussion</name>
 			<email type="list"><user>birmingham-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>barbie</user><domain>missbarbell.co.uk</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6601,8 +6549,6 @@
 			<name>General Bloomington-Normal.pm Perl Mongers discussion</name>
 			<email type="list"><user>bloomington-normal-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>cluemein</user><domain>hotmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6629,8 +6575,6 @@
 			<name>General colombo-pm Perl Mongers discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6658,8 +6602,6 @@
 			<name>General Bangsar.pm Perl Mongers discussion</name>
 			<email type="list"><user>bangsar-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>potatoe</user><domain>asia.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6685,8 +6627,6 @@
 			<name>General RenoTahoe Perl Mongers discussion</name>
 			<email type="list"><user>renotahoe-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>tompoe</user><domain>source.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6712,8 +6652,6 @@
 			<name>General Milpitas Perl Mongers discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6739,8 +6677,6 @@
 			<name>General Genova Perl Mongers discussion</name>
 			<email type="list"><user>genova.pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>andy_z</user><domain>freemail.it</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6766,8 +6702,6 @@
 			<name>General Orange City Perl Mongers discussion</name>
 			<email type="list"><user>orange-city-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>-nova-</user><domain>anonymous.to </domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6850,8 +6784,6 @@
 			<name>General CedarRapids Perl Mongers discussion</name>
 			<email type="list"><user>cedarrapids-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>dale</user><domain>newworldpartnership.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6877,8 +6809,6 @@
 			<name>General Florence Perl Mongers discussion</name>
 			<email type="list"><user>florence-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>selleri</user><domain>ingfi9.det.unifi.it</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6904,8 +6834,6 @@
 			<name>General Wilmore Perl Mongers discussion</name>
 			<email type="list"><user>wilmore-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>matt</user><domain>cre8tivegroup.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6931,8 +6859,6 @@
 			<name>General babloo Perl Mongers discussion</name>
 			<email type="list"><user>babloo-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>hthukral</user><domain>hotmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6958,8 +6884,6 @@
 			<name>General glenside Perl Mongers discussion</name>
 			<email type="list"><user>glenside-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>apuschak</user><domain>juno.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -6985,8 +6909,6 @@
 			<name>General tr Perl Mongers discussion</name>
 			<email type="list"><user>izmir-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>sgulsuner</user><domain>hekim.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20001221</date>
 	</group>
@@ -7013,8 +6935,6 @@
 			<name>General kraljevo Perl Mongers discussion</name>
 			<email type="list"><user>kraljevo-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>bojankv</user><domain>ptt.yu</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20001228</date>
 	</group>
@@ -7040,8 +6960,6 @@
 			<name>General mbs Perl Mongers discussion</name>
 			<email type="list"><user>mbs-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>perl</user><domain>rootslash.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20001228</date>
 	</group>
@@ -7067,8 +6985,6 @@
 			<name>General assam Perl Mongers discussion</name>
 			<email type="list"><user>assam-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>vedanta_barooah</user><domain>yahoo.co.in</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20001228</date>
 	</group>
@@ -7094,8 +7010,6 @@
 			<name>General bismon Perl Mongers discussion</name>
 			<email type="list"><user>bismon-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>jlong_27</user><domain>hotmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20001231</date>
 	</group>
@@ -7121,8 +7035,6 @@
 			<name>General wheaton Perl Mongers discussion</name>
 			<email type="list"><user>wheaton-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>dave</user><domain>redsquirreldesign.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20001231</date>
 	</group>
@@ -7149,8 +7061,6 @@
 			<name>General iran Perl Mongers discussion</name>
 			<email type="list"><user>iran-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>babak</user><domain>farrokhi.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010103</date>
 	</group>
@@ -7176,8 +7086,6 @@
 			<name>General Jongher Perl Mongers discussion</name>
 			<email type="list"><user>jongher-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>skr</user><domain>mail2000.com.tw</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010110</date>
 	</group>
@@ -7204,8 +7112,6 @@
 			<name>General Ahmedabad Perl Mongers discussion</name>
 			<email type="list"><user>ahmedabad-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>imran</user><domain>linuxfan.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010125</date>
 	</group>
@@ -7231,8 +7137,6 @@
 			<name>General aarschot Perl Mongers discussion</name>
 			<email type="list"><user>aarschot-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>geert</user><domain>toadi.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010125</date>
 	</group>
@@ -7259,8 +7163,6 @@
 			<name>General Taichung Perl Mongers discussion</name>
 			<email type="list"><user>taichung-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>jack</user><domain>inpro.com.tw</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010129</date>
 	</group>
@@ -7286,8 +7188,6 @@
 			<name>General Savannah Perl Mongers discussion</name>
 			<email type="list"><user>savannah-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>savannahdotpm</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010129</date>
 	</group>
@@ -7313,8 +7213,6 @@
 			<name>General Manresa Perl Mongers discussion</name>
 			<email type="list"><user>manresa-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>lou</user><domain>visca.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010129</date>
 	</group>
@@ -7340,8 +7238,6 @@
 			<name>General Philippine Perl Mongers discussion</name>
 			<email type="list"><user>philippines-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>ralampitoc</user><domain>hotmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010129</date>
 	</group>
@@ -7367,8 +7263,6 @@
 			<name>General Almada Perl Mongers discussion</name>
 			<email type="list"><user>almada-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>nuno</user><domain>clix.pt</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010203</date>
 	</group>
@@ -7394,8 +7288,6 @@
 			<name>General Luberon Perl Mongers discussion</name>
 			<email type="list"><user>luberon-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>jcdurant</user><domain>t-online.fr</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010203</date>
 	</group>
@@ -7421,8 +7313,6 @@
 			<name>General Haifa Perl Mongers discussion</name>
 			<email type="list"><user>haifa.pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>geniek</user><domain>bigfoot.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010203</date>
 	</group>
@@ -7448,8 +7338,6 @@
 			<name>General Guangzhou Perl Mongers discussion</name>
 			<email type="list"><user>guangzhou-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>dragonsky</user><domain>21cn.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010203</date>
 	</group>
@@ -7475,8 +7363,6 @@
 			<name>General Bahrain Perl Mongers discussion</name>
 			<email type="list"><user>bahrain-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>genie</user><domain>genienet.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010203</date>
 	</group>
@@ -7521,8 +7407,6 @@
 			<name>General Tyneside Perl Mongers discussion</name>
 			<email type="list"><user>tyneside-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>cb</user><domain>jesmond.demon.co.uk</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010206</date>
 	</group>
@@ -7548,8 +7432,6 @@
 			<name>General Santa Fe-Los Alamos Perl Mongers discussion</name>
 			<email type="list"><user>santafelosalamos-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010208</date>
 	</group>
@@ -7575,8 +7457,6 @@
 			<name>General Northern Virginia Perl Mongers discussion</name>
 			<email type="list"><user>northernvirginia-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>rana</user><domain>akr.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010208</date>
 	</group>
@@ -7602,8 +7482,6 @@
 			<name>General Victoria Perl Mongers discussion</name>
 			<email type="list"><user>victoria-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>peter</user><domain>psdt.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010210</date>
 	</group>
@@ -7629,8 +7507,6 @@
 			<name>General IdahoFalls Perl Mongers discussion</name>
 			<email type="list"><user>if-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>mitch</user><domain>icserv.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010313</date>
 	</group>
@@ -7657,8 +7533,6 @@
 			<name>General Rousse Perl Mongers discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010313</date>
 	</group>
@@ -7684,8 +7558,6 @@
 			<name>General Conway Perl Mongers discussion</name>
 			<email type="list"><user>conway-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>casey.milford</user><domain>conwaycorp.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010313</date>
 	</group>
@@ -7711,8 +7583,6 @@
 			<name>General Ceduna Perl Mongers discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010313</date>
 	</group>
@@ -7738,8 +7608,6 @@
 			<name>General France Perl Mongers discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010313</date>
 	</group>
@@ -7765,8 +7633,6 @@
 			<name>General Berkeley Perl Mongers discussion</name>
 			<email type="list"><user>berkeley-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>Laktar</user><domain>LogicalDisconnect.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010313</date>
 	</group>
@@ -7812,8 +7678,6 @@
 			<name>General Dobrich Perl Mongers discussion</name>
 			<email type="list"><user>dobrich-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>nikolayotov</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010313</date>
 	</group>
@@ -7839,8 +7703,6 @@
 			<name>General Geraldton Perl Mongers discussion</name>
 			<email type="list"><user>geraldton-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>mpjob</user><domain>badfish.ca</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010313</date>
 	</group>
@@ -7886,8 +7748,6 @@
 			<name>General PerlMonks Perl Mongers discussion</name>
 			<email type="list"><user>perlmonks-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>perlguy</user><domain>perlguy.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010317</date>
 	</group>
@@ -7933,8 +7793,6 @@
 			<name>General Marseille Perl Mongers discussion</name>
 			<email type="list"><user>marseille-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>arnaud.assad</user><domain>free.fr</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010326</date>
 	</group>
@@ -7960,8 +7818,6 @@
 			<name>General Farmingdale Perl Mongers discussion</name>
 			<email type="list"><user>farmingdale-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>shawn.qureshi</user><domain>us.pm.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010326</date>
 	</group>
@@ -7988,8 +7844,6 @@
 			<name>General Hull Perl Mongers discussion</name>
 			<email type="list"><user>hull-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>ian.bissett</user><domain>tekuiti.co.uk</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010326</date>
 	</group>
@@ -8015,8 +7869,6 @@
 			<name>General Godam Perl Mongers discussion</name>
 			<email type="list"><user>godam-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>xtreme_shell</user><domain>hotmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010326</date>
 	</group>
@@ -8043,8 +7895,6 @@
 			<name>General Oeiras Perl Mongers discussion</name>
 			<email type="list"><user>oeiras-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>bat</user><domain>ip.pt</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010326</date>
 	</group>
@@ -8070,8 +7920,6 @@
 			<name>General Mandurah Perl Mongers discussion</name>
 			<email type="list"><user>mandurah-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>soapbox02</user><domain>hotmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010401</date>
 	</group>
@@ -8097,8 +7945,6 @@
 			<name>General Bengal Perl Mongers discussion</name>
 			<email type="list"><user>bengal-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>sswapan</user><domain>caltiger.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010401</date>
 	</group>
@@ -8124,8 +7970,6 @@
 			<name>General Tartu Perl Mongers discussion</name>
 			<email type="list"><user>tartu-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>madis</user><domain>one.ee</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010401</date>
 	</group>
@@ -8151,8 +7995,6 @@
 			<name>General Cordoba Perl Mongers discussion</name>
 			<email type="list"><user>cordoba-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>matiasreyes</user><domain>arnet.com.ar</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010401</date>
 	</group>
@@ -8197,8 +8039,6 @@
 			<name>General BBPC Perl Mongers discussion</name>
 			<email type="list"><user>bbpc-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>gbetim</user><domain>hotmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010401</date>
 	</group>
@@ -8224,8 +8064,6 @@
 			<name>General LarsOle Perl Mongers discussion</name>
 			<email type="list"><user>larsole-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>ma-karl2</user><domain>online.no</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010401</date>
 	</group>
@@ -8251,8 +8089,6 @@
 			<name>General Modesto Perl Mongers discussion</name>
 			<email type="list"><user>modesto-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>chall650</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010402</date>
 	</group>
@@ -8278,8 +8114,6 @@
 			<name>General Salem Perl Mongers discussion</name>
 			<email type="list"><user>salem-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>perl</user><domain>drapple.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010412</date>
 	</group>
@@ -8305,8 +8139,6 @@
 			<name>General Longva Perl Mongers discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010412</date>
 	</group>
@@ -8332,8 +8164,6 @@
 			<name>General Nordsee Perl Mongers discussion</name>
 			<email type="list"><user>nordsee-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>lothar</user><domain>webpanda.de</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010412</date>
 	</group>
@@ -8359,8 +8189,6 @@
 			<name>General Plum Perl Mongers discussion</name>
 			<email type="list"><user>plum-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>dootgrog</user><domain>ufies.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010412</date>
 	</group>
@@ -8386,8 +8214,6 @@
 			<name>General Nijmegen Perl Mongers discussion</name>
 			<email type="list"><user>nijmegen-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>royi</user><domain>eastsite.nl</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010413</date>
 	</group>
@@ -8413,8 +8239,6 @@
 			<name>General gwl Perl Mongers discussion</name>
 			<email type="list"><user>gwl-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>ritesh</user><domain>inorbit.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010422</date>
 	</group>
@@ -8440,8 +8264,6 @@
 			<name>General LR Perl Mongers discussion</name>
 			<email type="list"><user>lr-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>lrytas</user><domain>centras.lt</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010422</date>
 	</group>
@@ -8467,8 +8289,6 @@
 			<name>General Gum Perl Mongers discussion</name>
 			<email type="list"><user>gum-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>mrp</user><domain>hafatel.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010422</date>
 	</group>
@@ -8494,8 +8314,6 @@
 			<name>General DelMarVa Perl Mongers discussion</name>
 			<email type="list"><user>delmarva-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>admin</user><domain>futuristic.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010422</date>
 	</group>
@@ -8522,8 +8340,6 @@
 			<name>General StPaul Perl Mongers discussion</name>
 			<email type="list"><user>stpaul-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>corwin</user><domain>mpls.cx</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010428</date>
 	</group>
@@ -8549,8 +8365,6 @@
 			<name>General Prague Perl Mongers discussion</name>
 			<email type="list"><user>prague-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>Jenda</user><domain>Krynicky.cz</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010428</date>
 	</group>
@@ -8576,8 +8390,6 @@
 			<name>General Bender Perl Mongers discussion</name>
 			<email type="list"><user>bender-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>RWalter44</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010428</date>
 	</group>
@@ -8603,8 +8415,6 @@
 			<name>General Manx Perl Mongers discussion</name>
 			<email type="list"><user>manx-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>AlanJWright</user><domain>manx.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010428</date>
 	</group>
@@ -8630,8 +8440,6 @@
 			<name>General Valsad Perl Mongers discussion</name>
 			<email type="list"><user>valsad-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>pralaydesai</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010504</date>
 	</group>
@@ -8658,8 +8466,6 @@
 			<name>General ValleKas Perl Mongers discussion</name>
 			<email type="list"><user>vallekas-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>ivillar</user><domain>inicia.es</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010508</date>
 	</group>
@@ -8685,8 +8491,6 @@
 			<name>General Kingsport Perl Mongers discussion</name>
 			<email type="list"><user>kingsport-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>sml</user><domain>zfx.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010603</date>
 	</group>
@@ -8712,8 +8516,6 @@
 			<name>General Stary-Oksol Perl Mongers discussion</name>
 			<email type="list"><user>stary-oksol</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>daapp</user><domain>chat.ru</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010603</date>
 	</group>
@@ -8739,8 +8541,6 @@
 			<name>General SoCo Perl Mongers discussion</name>
 			<email type="list"><user>soco-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>vuelto</user><domain>netscape.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010603</date>
 	</group>
@@ -8766,8 +8566,6 @@
 			<name>General Oly Perl Mongers discussion</name>
 			<email type="list"><user>oly-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>olypm</user><domain>morelater.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010603</date>
 	</group>
@@ -8793,8 +8591,6 @@
 			<name>General Bend Perl Mongers discussion</name>
 			<email type="list"><user>bend-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>gene</user><domain>ology.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010603</date>
 	</group>
@@ -8821,8 +8617,6 @@
 			<name>General ValleyPerl Perl Mongers discussion</name>
 			<email type="list"><user>valleyperl</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>valkaryn</user><domain>valkaryn.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010603</date>
 	</group>
@@ -8848,8 +8642,6 @@
 			<name>General Khaskovo Perl Mongers discussion</name>
 			<email type="list"><user>khaskovo-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>todorov</user><domain>space.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010607</date>
 	</group>
@@ -8876,8 +8668,6 @@
 			<name>General Guadalajara Perl Mongers discussion</name>
 			<email type="list"><user>guadalajara</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>mejjico</user><domain>mexico.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010607</date>
 	</group>
@@ -8903,8 +8693,6 @@
 			<name>General Barranquilla Perl Mongers discussion</name>
 			<email type="list"><user>barranquilla</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>tech</user><domain>fluxcenter.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010607</date>
 	</group>
@@ -8930,8 +8718,6 @@
 			<name>General Bucuresti Perl Mongers discussion</name>
 			<email type="list"><user>bucuresti</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>pastrav1</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010607</date>
 	</group>
@@ -8999,8 +8785,6 @@
 			<name>General Courbevoie Perl Mongers discussion</name>
 			<email type="list"><user>courbevoie</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>nicolasz</user><domain>ifrance.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010621</date>
 	</group>
@@ -9026,8 +8810,6 @@
 			<name>General luxpost Perl Mongers discussion</name>
 			<email type="list"><user>luxpost-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>schroeder.r</user><domain>web.de</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010621</date>
 	</group>
@@ -9053,8 +8835,6 @@
 			<name>General Dales Perl Mongers discussion</name>
 			<email type="list"><user>dales-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>sue</user><domain>pennine.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010705</date>
 	</group>
@@ -9082,8 +8862,6 @@
 			<name>General Morris County Perl Mongers discussion</name>
 			<email type="list"><user>morriscounty</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>andy</user><domain>murren.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010720</date>
 	</group>
@@ -9109,8 +8887,6 @@
 			<name>General Berliner Perl Mongers discussion</name>
 			<email type="list"><user>berliner-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>simonhf</user><domain>web.de</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010720</date>
 	</group>
@@ -9136,8 +8912,6 @@
 			<name>General Tulsa Perl Mongers discussion</name>
 			<email type="list"><user>tulsa-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>brockers</user><domain>dps.state.ok.us</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010720</date>
 	</group>
@@ -9163,8 +8937,6 @@
 			<name>General SPC_PerlGeeks Perl Mongers discussion</name>
 			<email type="list"><user>SPC_PerlGeeks</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>yourthb</user><domain>hotmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010720</date>
 	</group>
@@ -9191,8 +8963,6 @@
 			<name>General Bern Perl Mongers discussion</name>
 			<email type="list"><user>bern-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>webmaster</user><domain>usersolutions.ch</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010720</date>
 	</group>
@@ -9218,8 +8988,6 @@
 			<name>General ColoradoRiver Perl Mongers discussion</name>
 			<email type="list"><user>coloradoriver</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>anthony</user><domain>rizos.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010720</date>
 	</group>
@@ -9245,8 +9013,6 @@
 			<name>General Ikmamadina Perl Mongers discussion</name>
 			<email type="list"><user>ikmamadina</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>asad_sadly</user><domain>plasa.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010720</date>
 	</group>
@@ -9272,8 +9038,6 @@
 			<name>General gps Perl Mongers discussion</name>
 			<email type="list"><user>gps</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>p_borah</user><domain>usa.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010720</date>
 	</group>
@@ -9299,8 +9063,6 @@
 			<name>General Bergen Perl Mongers discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010729</date>
 	</group>
@@ -9326,8 +9088,6 @@
 			<name>General Molde Perl Mongers discussion</name>
 			<email type="list"><user>molde-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>kent</user><domain>kent.zzn.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010729</date>
 	</group>
@@ -9353,8 +9113,6 @@
 			<name>General Modiin Perl Mongers discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010729</date>
 	</group>
@@ -9380,8 +9138,6 @@
 			<name>General Setubal Perl Mongers discussion</name>
 			<email type="list"><user>setubal-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>pecus</user><domain>netvisao.pt</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010809</date>
 	</group>
@@ -9407,8 +9163,6 @@
 			<name>General Prahran Perl Mongers discussion</name>
 			<email type="list"><user>prahran-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>greg_adkins</user><domain>hotmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010809</date>
 	</group>
@@ -9434,8 +9188,6 @@
 			<name>General WestTexas Perl Mongers discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010809</date>
 	</group>
@@ -9461,8 +9213,6 @@
 			<name>General Ranchi Perl Mongers discussion</name>
 			<email type="list"><user>ranchi-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>sanjay</user><domain>cybersanjay.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010812</date>
 	</group>
@@ -9488,8 +9238,6 @@
 			<name>General Bologna Perl Mongers discussion</name>
 			<email type="list"><user>bologna-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>paolini</user><domain>students.cs.unibo.it</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010812</date>
 	</group>
@@ -9516,8 +9264,6 @@
 			<name>General Clemson Perl Mongers discussion</name>
 			<email type="list"><user>clemson-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>perl</user><domain>turpin.us</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010812</date>
 	</group>
@@ -9543,8 +9289,6 @@
 			<name>General Bham Perl Mongers discussion</name>
 			<email type="list"><user>bham-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>bham</user><domain>pm.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010812</date>
 	</group>
@@ -9606,8 +9350,6 @@
 			<name>General Shadrinsk Perl Mongers discussion</name>
 			<email type="list"><user>shadrinsk-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>mshock</user><domain>shadrinsk.zaural.ru</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010826</date>
 	</group>
@@ -9633,8 +9375,6 @@
 			<name>General Stavanger Perl Mongers discussion</name>
 			<email type="list"><user>stavanger</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>kstokke</user><domain>pogostick.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010901</date>
 	</group>
@@ -9660,8 +9400,6 @@
 			<name>General cairo Perl Mongers discussion</name>
 			<email type="list"><user>cairo-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>wfareed</user><domain>b-hacker.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010901</date>
 	</group>
@@ -9687,8 +9425,6 @@
 			<name>General NewDelhi Perl Mongers discussion</name>
 			<email type="list"><user>newdelhi-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>skshambhu</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010908</date>
 	</group>
@@ -9714,8 +9450,6 @@
 			<name>General DullesTech Perl Mongers discussion</name>
 			<email type="list"><user>dullestech</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>jason</user><domain>quanack.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010908</date>
 	</group>
@@ -9741,8 +9475,6 @@
 			<name>General ZuidLimburg Perl Mongers discussion</name>
 			<email type="list"><user>zuidlimburg</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>koen</user><domain>softhome.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010908</date>
 	</group>
@@ -9788,8 +9520,6 @@
 			<name>General Rotterdam Perl Mongers discussion</name>
 			<email type="list"><user>rotterdam</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>jouke+perlmongers</user><domain>pvoice.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010930</date>
 	</group>
@@ -9815,8 +9545,6 @@
 			<name>General Markegem Perl Mongers discussion</name>
 			<email type="list"><user>markegam-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>pmorg</user><domain>vandenberghe-neirinck.be</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20010930</date>
 	</group>
@@ -9862,8 +9590,6 @@
 			<name>General Aasen Perl Mongers discussion</name>
 			<email type="list"><user>aasen-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>010218</user><domain>stud.hials.no</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20011021</date>
 	</group>
@@ -9889,8 +9615,6 @@
 			<name>General Jogja Perl Mongers discussion</name>
 			<email type="list"><user>jogja-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>valens</user><domain>debritto.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20011021</date>
 	</group>
@@ -9916,8 +9640,6 @@
 			<name>General Haarlem Perl Mongers discussion</name>
 			<email type="list"><user>haarlem-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>jvromans+pm</user><domain>squirrel.nl</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20011021</date>
 	</group>
@@ -9943,8 +9665,6 @@
 			<name>General stttelkom Perl Mongers discussion</name>
 			<email type="list"><user>stttelkom-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>hasibuan</user><domain>web.de</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20011021</date>
 	</group>
@@ -9970,8 +9690,6 @@
 			<name>General Maui Perl Mongers discussion</name>
 			<email type="list"><user>maui-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>casper5597</user><domain>aol.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20011105</date>
 	</group>
@@ -10017,8 +9735,6 @@
 			<name>General SaltLake Perl Mongers discussion</name>
 			<email type="list"><user>saltlake-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>spencer</user><domain>mecworks.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20011105</date>
 	</group>
@@ -10063,8 +9779,6 @@
 			<name>General CaFe Perl Mongers discussion</name>
 			<email type="list"><user>cafe-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>caos</user><domain>ezkracho.com.ar</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20011112</date>
 	</group>
@@ -10090,8 +9804,6 @@
 			<name>General EU Perl Mongers discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20011112</date>
 	</group>
@@ -10117,8 +9829,6 @@
 			<name>General Monterey Perl Mongers discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20011112</date>
 	</group>
@@ -10144,8 +9854,6 @@
 			<name>General SiouxLand Perl Mongers discussion</name>
 			<email type="list"><user>siouxland</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>tboell0</user><domain>earthlink.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20011115</date>
 	</group>
@@ -10171,8 +9879,6 @@
 			<name>General Toledo.pm Perl Mongers discussion</name>
 			<email type="list"><user>toledo-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>bdilworth</user><domain>hortonsbay.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception"></date>
 	</group>
@@ -10198,8 +9904,6 @@
 			<name>General Malaga Perl Mongers discussion</name>
 			<email type="list"><user>malaga</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>irbis</user><domain>orcero.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20011125</date>
 	</group>
@@ -10225,8 +9929,6 @@
 			<name>General GunpowderTea Perl Mongers discussion</name>
 			<email type="list"><user>gunpowdertea-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>KeyiakiAmbrosia</user><domain>aol.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20011125</date>
 	</group>
@@ -10252,8 +9954,6 @@
 			<name>General ResistenciaAria Perl Mongers discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20011128</date>
 	</group>
@@ -10279,8 +9979,6 @@
 			<name>General Ashland Perl Mongers discussion</name>
 			<email type="list"><user>ashland-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>yoda</user><domain>f00bar.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20011213</date>
 	</group>
@@ -10306,8 +10004,6 @@
 			<name>General Tucson Perl Mongers discussion</name>
 			<email type="list"><user>tucson-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>cn-4-perl-users-group</user><domain>bitboost.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20011213</date>
 	</group>
@@ -10352,8 +10048,6 @@
 			<name>General CostaRica Perl Mongers discussion</name>
 			<email type="list"><user>costarica-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>marcelo.magallon</user><domain>gmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20011219</date>
 	</group>
@@ -10379,8 +10073,6 @@
 			<name>General SaintGall Perl Mongers discussion</name>
 			<email type="list"><user>saintgall</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>netscipio</user><domain>gmx.ch</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020104</date>
 	</group>
@@ -10406,8 +10098,6 @@
 			<name>General Huntington Perl Mongers discussion</name>
 			<email type="list"><user>huntington-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>arwa</user><domain>optonline.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020205</date>
 	</group>
@@ -10452,8 +10142,6 @@
 			<name>General Lyon Perl Mongers discussion</name>
 			<email type="list">lyon-pm.org</email>
 			<email type="list_admin"><user>jquelin</user><domain>gmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020205</date>
 	</group>
@@ -10479,8 +10167,6 @@
 			<name>General indiantrail-pm.org Perl Mongers discussion</name>
 			<email type="list">indiantrail-pm.org</email>
 			<email type="list_admin"><user>skhan</user><domain>carolinas.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020205</date>
 	</group>
@@ -10506,8 +10192,6 @@
 			<name>General belgian Perl Mongers discussion</name>
 			<email type="list"><user>belgian-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin">Geert Theys</email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020205</date>
 	</group>
@@ -10533,8 +10217,6 @@
 			<name>General HawkesBay Perl Mongers discussion</name>
 			<email type="list"><user>hawkesbay-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>perl</user><domain>hoppers99.cjb.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020205</date>
 	</group>
@@ -10560,8 +10242,6 @@
 			<name>General Cairo Perl Mongers discussion</name>
 			<email type="list"><user>cairo-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>ayman_m_galal</user><domain>hotmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020214</date>
 	</group>
@@ -10607,8 +10287,6 @@
 			<name>General DataBuilt, Inc. Perl Mongers discussion</name>
 			<email type="list"><user>dbi</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>dbi.pm</user><domain>databuilt.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020219</date>
 	</group>
@@ -10634,8 +10312,6 @@
 			<name>General pcity Perl Mongers discussion</name>
 			<email type="list"><user>pcity-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>ramasus_the_great</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020219</date>
 	</group>
@@ -10661,8 +10337,6 @@
 			<name>General Cantabria Perl Mongers discussion</name>
 			<email type="list"><user>cantabria</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>jprellezo</user><domain>eresmas.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020219</date>
 	</group>
@@ -10688,8 +10362,6 @@
 			<name>General PerlSemNY Perl Mongers discussion</name>
 			<email type="list"><user>perlsemny</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>jkeen</user><domain>concentric.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020219</date>
 	</group>
@@ -10715,8 +10387,6 @@
 			<name>General Toowoomba Perl Mongers discussion</name>
 			<email type="list"><user>toowoomba</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>lenina_crowne</user><domain>hotmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020305</date>
 	</group>
@@ -10779,8 +10449,6 @@
 			<name>General South Florida Perl Mongers discussion</name>
 			<email type="list"><user>southflorida-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>southflorida-pm</user><domain>jbisbee.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020306</date>
 	</group>
@@ -10825,8 +10493,6 @@
 			<name>General Belgrade Perl Mongers discussion</name>
 			<email type="list"><user>belgrade-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>mire</user><domain>modperldev.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020307</date>
 	</group>
@@ -10852,8 +10518,6 @@
 			<name>General bali Perl Mongers discussion</name>
 			<email type="list"><user>bali-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>sumarjaya</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020311</date>
 	</group>
@@ -10880,8 +10544,6 @@
 			<name>General Yuma Perl Mongers discussion</name>
 			<email type="list"><user>yuma-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>clif</user><domain>posey.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020325</date>
 	</group>
@@ -10927,8 +10589,6 @@
 			<name>General Bp Perl Mongers discussion</name>
 			<email type="list"><user>bp-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>s.bmm</user><domain>mailcity.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020330</date>
 	</group>
@@ -10954,8 +10614,6 @@
 			<name>General Brownsville Perl Mongers discussion</name>
 			<email type="list"><user>brownsville</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>MAWarGod</user><domain>hotmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020406</date>
 	</group>
@@ -10981,8 +10639,6 @@
 			<name>General Bg Perl Mongers discussion</name>
 			<email type="list"><user>bg</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>benn</user><domain>benn.tc</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020406</date>
 	</group>
@@ -11008,8 +10664,6 @@
 			<name>General Blagoevgrad Perl Mongers discussion</name>
 			<email type="list"><user>blagoevgrad</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>exco_bl</user><domain>mbox.digsys.bg</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020406</date>
 	</group>
@@ -11035,8 +10689,6 @@
 			<name>General Razgrad Perl Mongers discussion</name>
 			<email type="list"><user>razgrad-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>sofit</user><domain>razgrad.pm.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020406</date>
 	</group>
@@ -11062,8 +10714,6 @@
 			<name>General Pemalang Perl Mongers discussion</name>
 			<email type="list"><user>pemalang-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>Prakas</user><domain>telkom.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020406</date>
 	</group>
@@ -11188,8 +10838,6 @@
 			<name>General Destin Perl Mongers discussion</name>
 			<email type="list"><user>destin-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>chip</user><domain>chipcastle.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020513</date>
 	</group>
@@ -11215,8 +10863,6 @@
 			<name>General Poneke Perl Mongers discussion</name>
 			<email type="list"><user>poneke-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>pokoka</user><domain>mascanc.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020514</date>
 	</group>
@@ -11242,8 +10888,6 @@
 			<name>General Whyalla Perl Mongers discussion</name>
 			<email type="list"><user>whyalla-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>perl_whyalla</user><domain>hotmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020514</date>
 	</group>
@@ -11269,8 +10913,6 @@
 			<name>General EggPerl Perl Mongers discussion</name>
 			<email type="list"><user>eggperl-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>alexmart</user><domain>xnet.ro</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020514</date>
 	</group>
@@ -11296,8 +10938,6 @@
 			<name>General tarc2000 Perl Mongers discussion</name>
 			<email type="list"><user>tarc2000-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>kelvin</user><domain>postmaster.co.uk</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020514</date>
 	</group>
@@ -11324,8 +10964,6 @@
 			<name>General NEPenn Perl Mongers discussion</name>
 			<email type="list"><user>nepenn-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>arodland</user><domain>noln.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020518</date>
 	</group>
@@ -11351,8 +10989,6 @@
 			<name>General gucheng Perl Mongers discussion</name>
 			<email type="list"><user>gucheng-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>tongjifan</user><domain>183.ha.cn</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020519</date>
 	</group>
@@ -11378,8 +11014,6 @@
 			<name>General Gabrovo Perl Mongers discussion</name>
 			<email type="list"><user>gabrovo-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>stoian_j</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020522</date>
 	</group>
@@ -11405,8 +11039,6 @@
 			<name>General Bucharest Perl Mongers discussion</name>
 			<email type="list"><user>bucharest-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>alinbsp</user><domain>fx.ro</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020618</date>
 	</group>
@@ -11452,8 +11084,6 @@
 			<name>General Arad Perl Mongers discussion</name>
 			<email type="list"><user>arad-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>mishutzu</user><domain>hotmail.ro</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020626</date>
 	</group>
@@ -11479,8 +11109,6 @@
 			<name>General Ukraine Perl Mongers discussion</name>
 			<email type="list"><user>ukraine-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>ukraine</user><domain>pm.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020626</date>
 	</group>
@@ -11506,8 +11134,6 @@
 			<name>General Calicut Perl Mongers discussion</name>
 			<email type="list"><user>calicut</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>shiju</user><domain>infovillage.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020721</date>
 	</group>
@@ -11533,8 +11159,6 @@
 			<name>General mus Perl Mongers discussion</name>
 			<email type="list"><user>mus-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>apo</user><domain>mochamail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020721</date>
 	</group>
@@ -11560,8 +11184,6 @@
 			<name>General jackson Perl Mongers discussion</name>
 			<email type="list"><user>jackson-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>WilliamGunther</user><domain>aol.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020721</date>
 	</group>
@@ -11587,8 +11209,6 @@
 			<name>General Norwich Perl Mongers discussion</name>
 			<email type="list"><user>norwich-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>perl</user><domain>d3n.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020721</date>
 	</group>
@@ -11614,8 +11234,6 @@
 			<name>General mumbai Perl Mongers discussion</name>
 			<email type="list"><user>mumbai-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>tima</user><domain>redij.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020726</date>
 	</group>
@@ -11641,8 +11259,6 @@
 			<name>General WhiteMountain Perl Mongers discussion</name>
 			<email type="list"><user>whitemountain-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>andrew</user><domain>broscom.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020728</date>
 	</group>
@@ -11668,8 +11284,6 @@
 			<name>General NH Perl Mongers discussion</name>
 			<email type="list"><user>nh-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>farinella</user><domain>mcttelecom.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020728</date>
 	</group>
@@ -11696,8 +11310,6 @@
 			<name>General Beirut Perl Mongers discussion</name>
 			<email type="list"><user>beirut-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>tarek990</user><domain>hotmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020802</date>
 	</group>
@@ -11742,8 +11354,6 @@
 			<name>General Depok Perl Mongers discussion</name>
 			<email type="list"><user>depok-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>haries</user><domain>haries.nu</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020925</date>
 	</group>
@@ -11769,8 +11379,6 @@
 			<name>General Mignon Perl Mongers discussion</name>
 			<email type="list"><user>Mignon-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>chame</user><domain>gmx.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020925</date>
 	</group>
@@ -11796,8 +11404,6 @@
 			<name>General Karachi Perl Mongers discussion</name>
 			<email type="list"><user>tranners-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>firstchoise2001</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020925</date>
 	</group>
@@ -11824,8 +11430,6 @@
 			<name>General Alphen aan den Rijn Perl Mongers discussion</name>
 			<email type="list"><user>Alphen-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>$alphen-pm$</user><domain>abigail.nl</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020925</date>
 	</group>
@@ -11850,8 +11454,6 @@
 			<name>General Kitchener-Waterloo Perl Mongers discussion</name>
 			<email type="list"><user>kw-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>da</user><domain>coder.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020925</date>
 	</group>
@@ -11933,8 +11535,6 @@
 			<name>General Dresden Perl Mongers discussion</name>
 			<email type="list"><user>Dresden-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>joerg.westphal</user><domain>gmx.de</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020925</date>
 	</group>
@@ -11959,8 +11559,6 @@
 			<name>General Leuven Perl Mongers discussion</name>
 			<email type="list"><user>Leuven-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>pm</user><domain>quickndirty.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020925</date>
 	</group>
@@ -11987,8 +11585,6 @@
 			<name>General Portland Perl Mongers discussion</name>
 			<email type="list"><user>Maine-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>jminieri</user><domain>mindspring.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20020929</date>
 	</group>
@@ -12093,8 +11689,6 @@
 			<name>General Guatemala Perl Mongers discussion</name>
 			<email type="list"><user>guatemala-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>santo</user><domain>galileo.edu</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20021121</date>
 	</group>
@@ -12120,8 +11714,6 @@
 			<name>General Helsingborg Perl Mongers discussion</name>
 			<email type="list"><user>helsingborg-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>hayri_cicek</user><domain>home.se</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20021121</date>
 	</group>
@@ -12148,8 +11740,6 @@
 			<name>General Perl Mongers discussion</name>
 			<email type="list"><user>csy-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>anilgs</user><domain>anilsingh.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20021121</date>
 	</group>
@@ -12177,8 +11767,6 @@
 			<name>General Perl Mongers discussion</name>
 			<email type="list"><user>csy-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>majordomo</user><domain>lists.pm.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20021121</date>
 	</group>
@@ -12204,8 +11792,6 @@
 			<name>General Calgary Perl Mongers discussion</name>
 			<email type="list"><user>calgary-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>dwight</user><domain>thurston.ws</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030109</date>
 	</group>
@@ -12232,8 +11818,6 @@
 			<name>General SWOK Perl Mongers discussion</name>
 			<email type="list"><user>swok-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>brian3</user><domain>intellisys.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030109</date>
 	</group>
@@ -12279,8 +11863,6 @@
 			<name>General Buffalo Perl Mongers discussion</name>
 			<email type="list"><user>buffalo-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>kevin</user><domain>binarymojo.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030109</date>
 	</group>
@@ -12327,8 +11909,6 @@
 			<name>General NewCastle Perl Mongers discussion</name>
 			<email type="list"><user>newcastle-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>mactech</user><domain>webdragon.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030317</date>
 	</group>
@@ -12375,8 +11955,6 @@
 			<name>General Jalisco Perl Mongers discussion</name>
 			<email type="list"><user>jalisco-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>mejjico</user><domain>tin.it</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030317</date>
 	</group>
@@ -12402,8 +11980,6 @@
 			<name>General Saarland Perl Mongers discussion</name>
 			<email type="list"><user>saarland-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>andreas.petto</user><domain>gmx.de</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030317</date>
 	</group>
@@ -12429,8 +12005,6 @@
 			<name>General Shibuya Perl Mongers discussion</name>
 			<email type="list"><user>shibuya-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>miyagawa</user><domain>bulknews.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030317</date>
 	</group>
@@ -12456,8 +12030,6 @@
 			<name>General PerlChina Perl Mongers discussion</name>
 			<email type="list"><user>china-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>tsingson</user><domain>963.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030317</date>
 	</group>
@@ -12483,8 +12055,6 @@
 			<name>General German Perl Mongers discussion</name>
 			<email type="list"><user>german-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>info</user><domain>perlmongers.de</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030317</date>
 	</group>
@@ -12510,8 +12080,6 @@
 			<name>General Kiel Perl Mongers discussion</name>
 			<email type="list"><user>kiel-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>hsch</user><domain>mooseware.de</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030317</date>
 	</group>
@@ -12538,8 +12106,6 @@
 			<name>General Camelot Perl Mongers discussion</name>
 			<email type="list"><user>camelot-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>george</user><domain>metaart.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030317</date>
 	</group>
@@ -12565,8 +12131,6 @@
 			<name>General Malazgirt Perl Mongers discussion</name>
 			<email type="list"><user>malazgirt-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>awreng</user><domain>hotmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030317</date>
 	</group>
@@ -12593,8 +12157,6 @@
 			<name>General KernCounty Perl Mongers discussion</name>
 			<email type="list"><user>kerncounty-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>chris</user><domain>linuxisle.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030317</date>
 	</group>
@@ -12621,8 +12183,6 @@
 			<name>General Africa Perl Mongers discussion</name>
 			<email type="list"><user>africa-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>myperl2003</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030317</date>
 	</group>
@@ -12693,8 +12253,6 @@
 			<name>General LagunaNiguel Perl Mongers discussion</name>
 			<email type="list"><user>lagunaniguel-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>jeffchilton</user><domain>sbcglobal.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030425</date>
 	</group>
@@ -12721,8 +12279,6 @@
 			<name>General PhPerl Perl Mongers discussion</name>
 			<email type="list"><user>phperl-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>jeramil</user><domain>angelfire.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030425</date>
 	</group>
@@ -12748,8 +12304,6 @@
 			<name>General Dominican Republic Perl Mongers discussion</name>
 			<email type="list"><user>dominicanrepublic-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>me</user><domain>husoft.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030425</date>
 	</group>
@@ -12775,8 +12329,6 @@
 			<name>General uperl Perl Mongers discussion</name>
 			<email type="list"><user>uperl-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>attastone</user><domain>linuxforum.net</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030425</date>
 	</group>
@@ -12844,8 +12396,6 @@
 			<name>General Thane Perl Mongers discussion</name>
 			<email type="list"><user>thane-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>amey_pathak</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030628</date>
 	</group>
@@ -12871,8 +12421,6 @@
 			<name>General US Virgin Islands Perl Mongers discussion</name>
 			<email type="list"><user>usvirginislands-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>meejurum</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030628</date>
 	</group>
@@ -12939,8 +12487,6 @@
 			<name>General torino Perl Mongers discussion</name>
 			<email type="list"><user>torino-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>perlmonk_233437</user><domain>nathanvi.it</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030628</date>
 	</group>
@@ -12986,8 +12532,6 @@
 			<name>General salerno Perl Mongers discussion</name>
 			<email type="list"><user>salerno-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>dev</user><domain>pigmalion.info</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030628</date>
 	</group>
@@ -13014,8 +12558,6 @@
 			<name>General Gombe Perl Mongers discussion</name>
 			<email type="list"><user>gombe-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>johnke12</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030628</date>
 	</group>
@@ -13121,8 +12663,6 @@
 			<name>General Northfield Perl Mongers discussion</name>
 			<email type="list"><user>northfield-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>troy</user><domain>troywill.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030817</date>
 	</group>
@@ -13148,8 +12688,6 @@
 			<name>General Samara Perl Mongers discussion</name>
 			<email type="list"><user>samara-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>greg</user><domain>webzavod.ru</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030817</date>
 	</group>
@@ -13176,8 +12714,6 @@
 			<name>General SantoDomingo Perl Mongers discussion</name>
 			<email type="list"><user>santodomingo-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>rgeorge</user><domain>linux.org.do</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030817</date>
 	</group>
@@ -13203,8 +12739,6 @@
 			<name>General Jakarta Perl Mongers discussion</name>
 			<email type="list"><user>jakarta-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>maxnamara</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030817</date>
 	</group>
@@ -13230,8 +12764,6 @@
 			<name>General Roederbergweg Perl Mongers discussion</name>
 			<email type="list"><user>roederbergweg-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>info</user><domain>perlmongers.de</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030817</date>
 	</group>
@@ -13257,8 +12789,6 @@
 			<name>General Mexico Perl Mongers discussion</name>
 			<email type="list"><user>mexico-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>mejjico</user><domain>hotmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030817</date>
 	</group>
@@ -13305,8 +12835,6 @@
 			<name>General may Perl Mongers discussion</name>
 			<email type="list"><user>may-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>vishal.vatsa</user><domain>may.ie</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20030817</date>
 	</group>
@@ -13333,8 +12861,6 @@
 			<name>General Valladolid Perl Mongers discussion</name>
 			<email type="list"><user>valladolid-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>explorer</user><domain>joaquinferrero.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20031108</date>
 	</group>
@@ -13360,8 +12886,6 @@
 			<name>General Kamloops Perl Mongers discussion</name>
 			<email type="list"><user>kamloops-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>bke</user><domain>bkecc.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20031108</date>
 	</group>
@@ -13388,8 +12912,6 @@
 			<name>General Pakistan Perl Mongers discussion</name>
 			<email type="list"><user>pakistan-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>imran</user><domain>pak.fw.nu</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20031108</date>
 	</group>
@@ -13416,8 +12938,6 @@
 			<name>General tutorial.pm.org Perl Mongers discussion</name>
 			<email type="list"><user>tutorial.pm.org-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>paragkatare</user><domain>indiatimes.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20031108</date>
 	</group>
@@ -13443,8 +12963,6 @@
 			<name>General austria.marchfeld Perl Mongers discussion</name>
 			<email type="list"><user>austria.marchfeld-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>gernot</user><domain>havranek.at</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20031108</date>
 	</group>
@@ -13471,8 +12989,6 @@
 			<name>General JERL Perl Mongers discussion</name>
 			<email type="list"><user>jerl-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>ahmedshaihkm</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20031108</date>
 	</group>
@@ -13499,8 +13015,6 @@
 			<name>General Rubbercity Perl Mongers discussion</name>
 			<email type="list"><user>rubbercity-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>markymoon</user><domain>mac.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20031108</date>
 	</group>
@@ -13526,8 +13040,6 @@
 			<name>General Bielefeld Perl Mongers discussion</name>
 			<email type="list"><user>bielefeld-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>christian</user><domain>duehl.de</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20031108</date>
 	</group>
@@ -13574,8 +13086,6 @@
 			<name>General aalborg Perl Mongers discussion</name>
 			<email type="list"><user>aalborg-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>thomas</user><domain>starnix.dk</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20031108</date>
 	</group>
@@ -13602,8 +13112,6 @@
 			<name>General plovdiv Perl Mongers discussion</name>
 			<email type="list"><user>plovdiv-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>radunchev</user><domain>abv.bg</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20031108</date>
 	</group>
@@ -13670,8 +13178,6 @@
 			<name>General StonyBrook Perl Mongers discussion</name>
 			<email type="list"><user>stonybrook-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>kostas</user><domain>cs.sunysb.edu</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20031224</date>
 	</group>
@@ -13698,8 +13204,6 @@
 			<name>General Maracaibo Perl Mongers discussion</name>
 			<email type="list"><user>maracaibo-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>luisfranaraujo</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20031224</date>
 	</group>
@@ -13726,8 +13230,6 @@
 			<name>General LA-Belle Perl Mongers discussion</name>
 			<email type="list"><user>la-belle-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>MAWarGod</user><domain>hotmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20031224</date>
 	</group>
@@ -13754,8 +13256,6 @@
 			<name>General ooubafsan Perl Mongers discussion</name>
 			<email type="list"><user>ooubafsan-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>xoji03</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20031224</date>
 	</group>
@@ -13782,8 +13282,6 @@
 			<name>General ph Perl Mongers discussion</name>
 			<email type="list"><user>ph-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>anh</user><domain>pinoywebdesigner.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20031224</date>
 	</group>
@@ -13810,8 +13308,6 @@
 			<name>General hanoi Perl Mongers discussion</name>
 			<email type="list"><user>hanoi-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>hncryptologist</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20031224</date>
 	</group>
@@ -13838,8 +13334,6 @@
 			<name>General Sri Lanka Perl Mongers discussion</name>
 			<email type="list"><user>srilanka-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>mahintha</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20040101</date>
 	</group>
@@ -13887,8 +13381,6 @@
 			<name>General mytutorial Perl Mongers discussion</name>
 			<email type="list"><user>mytutorial-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>katarepk_bcps</user><domain>yahoo.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20040208</date>
 	</group>
@@ -13915,8 +13407,6 @@
 			<name>General Mk Perl Mongers discussion</name>
 			<email type="list"><user>mk-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>vaskot</user><domain>mail.ru</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20040208</date>
 	</group>
@@ -13942,8 +13432,6 @@
 			<name>General mississippi Perl Mongers discussion</name>
 			<email type="list"><user>mississippi-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>jonas</user><domain>pbmhr.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20040208</date>
 	</group>
@@ -13970,8 +13458,6 @@
 			<name>General Angola Perl Mongers discussion</name>
 			<email type="list"><user>angola-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>snnangola</user><domain>yahoo.com.br</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20040222</date>
 	</group>
@@ -13998,8 +13484,6 @@
 			<name>General NE Oklahoma Perl Users Group Perl Mongers discussion</name>
 			<email type="list"><user>neoklahomaperlusersgroup-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>anthonysaffer</user><domain>safferconsulting.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20040222</date>
 	</group>
@@ -14026,8 +13510,6 @@
 			<name>General Nottingham Perl Mongers discussion</name>
 			<email type="list"><user>nottingham-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>michael.erskine</user><domain>jasmin.plc.uk</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">19990707</date>
 	</group>
@@ -14054,8 +13536,6 @@
 			<name>General Yerevan Perl Mongers discussion</name>
 			<email type="list"><user>yerevan-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>aria</user><domain>sdf.lonestar.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20040222</date>
 	</group>
@@ -14081,8 +13561,6 @@
 			<name>General nova Perl Mongers discussion</name>
 			<email type="list"><user>nova-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>mthurn</user><domain>cpan.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20040222</date>
 	</group>
@@ -14109,8 +13587,6 @@
 			<name>General Eindhoven Perl Mongers discussion</name>
 			<email type="list"><user>eindhoven-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>perl_mongers</user><domain>edwinm.ik.nu</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20040425</date>
 	</group>
@@ -14136,8 +13612,6 @@
 			<name>General Peregrino Perl Mongers discussion</name>
 			<email type="list"><user>peregrino-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>marco.lima</user><domain>e-via.com.br</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20040425</date>
 	</group>
@@ -14164,8 +13638,6 @@
 			<name>General turkperl Perl Mongers discussion</name>
 			<email type="list"><user>turkperl-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>maruf</user><domain>bilisimokul.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20040425</date>
 	</group>
@@ -14191,8 +13663,6 @@
 			<name>General Jerusalem Perl Mongers discussion</name>
 			<email type="list"><user>jerusalem</user><domain>perl.org.il</domain></email>
 			<email type="list_admin"><user>isaac</user><domain>cpan.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20040425</date>
 	</group>
@@ -14219,8 +13689,6 @@
 			<name>General Vitoria Perl Mongers discussion</name>
 			<email type="list"><user>vitoria-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>jamorreu</user><domain>gmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20040425</date>
 	</group>
@@ -14267,8 +13735,6 @@
 			<name>General Nanuque Perl Mongers discussion</name>
 			<email type="list"><user>nanuque-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>alex</user><domain>fis.unb.br</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20040425</date>
 	</group>
@@ -14295,8 +13761,6 @@
 			<name>General ankara Perl Mongers discussion</name>
 			<email type="list"><user>ankara-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>faik.sarialioglu</user><domain>mynet.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20040425</date>
 	</group>
@@ -14368,8 +13832,6 @@
                         <name>General Aarau Perl Mongers discussion</name>
                         <email type="list"><user>aarau-pm</user><domain>pm.org</domain></email>
                         <email type="list_admin"><user>stotz</user><domain>gmx.ch</domain></email>
-                        <subscribe>subscribe members email_address</subscribe>
-                        <unsubscribe>unsubscribe members email_address</unsubscribe>
                 </mailing_list>
                 <date type="inception">20041111</date>
         </group>
@@ -14396,8 +13858,6 @@
 			<name>General Cascais Perl Mongers discussion</name>
 			<email type="list"><user>cascais-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>nuno</user><domain>nunonunes.org</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20041113</date>
 	</group>
@@ -14452,8 +13912,6 @@
 			<name>General Belem Perl Mongers discussion</name>
 			<email type="list"><user>belem-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>vanderson</user><domain>aldeiavirtual.com.br</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
 		<date type="inception">20041205</date>
 	</group>
@@ -14481,8 +13939,6 @@
                         <name>General Aberdeen Perl Mongers discussion</name>
                         <email type="list"><user>aberdeen-pm</user><domain>pm.org</domain></email>
                         <email type="list_admin"><user>ghenry</user><domain>suretecsystems.com</domain></email>
-                        <subscribe>subscribe members email_address</subscribe>
-                        <unsubscribe>unsubscribe members email_address</unsubscribe>
                 </mailing_list>
                 <date type="inception">20050218</date>
         </group>
@@ -14507,8 +13963,6 @@
                         <name>General Paderborn Perl Mongers discussion</name>
                         <email type="list"><user>paderborn-pm</user><domain>pm.org</domain></email>
                         <email type="list_admin"><user>paderbornpm</user><domain>grolmsnet.de</domain></email>
-                        <subscribe>subscribe members email_address</subscribe>
-                        <unsubscribe>unsubscribe members email_address</unsubscribe>
                 </mailing_list>
                 <date type="inception">20050320</date>
         </group>
@@ -15381,8 +14835,6 @@
 			<name>General Szczecin Perl Mongers discussion</name>
 			<email type="list"><user>szczecin-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>robert.olejnik</user><domain>gmail.com</domain></email>
-			<subscribe>subscribe members email_address</subscribe>
-			<unsubscribe>unsubscribe members email_address</unsubscribe>
 		</mailing_list>
                 <date type="inception">20070708</date>
         </group>
