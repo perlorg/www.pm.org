@@ -226,7 +226,8 @@
 		<date type="inception">19981102</date>
 	</group>
 	
-	<group id="6" status="active">
+	<group id="6" status="inactive">
+	<!-- 2010.05.22 Les reported that they become inactive as there was little participation - szabgab -->
 		<name>AOL.pm</name>
 		<location>
 			<city>Dulles</city>
@@ -2266,6 +2267,7 @@
 	</group>
 	
 	<group id="102" status="active">
+	<!-- 2010.05.25 website using meetup, they are active - szabgab -->
 		<name>ThousandOaks.pm</name>
 		<location>
 			<city>Thousand Oaks</city>
@@ -4523,7 +4525,7 @@
 	</group>
 	
 	<group id="216" status="active">
-	<!-- 2010.05.22 probably old web site, last message on list from 2005, mail sent  TODO - szabgab -->
+	<!-- 2010.05.22 probably old web site, last message on list from 2005, Peter replied that he will try to reignite it - szabgab -->
 		<name>Sofia.pm</name>
 		<location>
 			<city>Sofia</city>
@@ -5660,6 +5662,7 @@
 	</group>
 
 	<group id="274" status="active">
+	<!-- 2010.05.23 has web site, has mailing list on Google, admin sent mail that they all work at the same place - szabgab -->
 		<name>Iasi.pm</name>
 		<location>
 			<city>Iasi</city>
@@ -13049,6 +13052,7 @@
 	</group>
 
 	<group id="592" status="active">
+	<!-- 2010.05.26 They have a nice web site and are using Google groups as mailing list, the list on pm.org has archive - szabgab -->
 		<name>Orlando.pm</name>
 		<location>
 			<city>Orlando</city>
@@ -13596,6 +13600,7 @@
 	</group>
 
 	<group id="617" status="active">
+	<!-- 2010.05.23 simple web site. No activity on list since 2005. Group admin responded - szabgab -->
 		<name>Tempe/East Valley Perlmongers.pm</name>
 		<location>
 			<city>Tempe/East Valley</city>
@@ -14210,8 +14215,8 @@
 		<date type="inception">20040425</date>
 	</group>
 
-	<group id="645" status="active">
-	<!-- 2010.05.22 both web site and mailing list last active in 2007, mail sent - TODO - szabgab -->
+	<group id="645" status="inactive">
+	<!-- 2010.05.22 both web site and mailing list last active in 2007, admin responded that he moved we can delete the group - TODO - szabgab -->
 		<name>Cypriots.pm</name>
 		<location>
 			<city>Cypriots</city>
