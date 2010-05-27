@@ -7,7 +7,8 @@ use HTTP::DAV;
 use FindBin '$Bin';
 use Getopt::Std;
 use Term::ReadKey;
-use File::Find;
+use File::Find::Rule;
+use File::Basename qw(basename);
 
 my %opt;
 getopts('u:p:s:', \%opt);
@@ -25,9 +26,12 @@ unless ($opt{p}) {
 }
 
 my $start = $opt{s} || "$Bin/../www/";
-$start .= '/' unless $start =~ m|/$|;
 
-my $root = 'https://groups.pm.org/groups/www';
+if ($start !~ m|/$| and -d $start) {
+  $start .= '/';
+}
+
+my $root = 'https://groups.pm.org/admin/groups';
 
 my $dav = HTTP::DAV->new;
 
@@ -35,13 +39,20 @@ $dav->credentials($opt{u}, $opt{p}, $root);
 
 $dav->open($root) or die "Unable to open $root: '" . $dav->message . "'\n";
 
-find(\&do_this, $start);
+if (-d $start) {
+  foreach my $file (File::Find::Rule->file->relative->in($start)) {
+    do_this("www/$file");
+  }
+} elsif (-f $start) {
+  do_this($start); 
+} else {
+  die "not good. '$start' is not a directory nor a file\n";
+}
 
 sub do_this {
-  return unless -f;
-  my $file =  $File::Find::name;
-  $file =~ s|^$start||;
+  my $file = shift;
   print "$file -> $root/$file\n";
-  $dav->put($_, "$root/$file")
+  $dav->put($file, "$root/$file")
     or die "Unable to put $root/$file: '" . $dav->message . "'\n";
 }
+
