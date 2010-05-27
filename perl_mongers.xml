@@ -1204,7 +1204,8 @@
 		<date type="inception">19990105</date>
 	</group>
 	
-	<group id="52" status="active">
+	<group id="52" status="inactive">
+	<!-- 2010.05.24 admin said it is inactive and he would turn it over to someone to maintain - szabgab -->
 		<name>Lexington.pm</name>
 		<location>
 			<city>Lexington</city>
@@ -2777,6 +2778,7 @@
 	</group>
 	
 	<group id="128" status="active">
+    <!-- 2010.05.24 seem to be inactive, they have their own mailing list with only a few messages (thoug some of them from 2009) - szabgab -->
 		<name>Goteborg.pm</name>
 		<location>
 			<city>Goteborg</city>
@@ -3249,6 +3251,7 @@
 	</group>
 	
 	<group id="152" status="active">
+	<!-- 2010.05.24 admin said they are active - szabgab -->
 		<name>Stockholm.pm</name>
 		<location>
 			<city>Stockholm</city>
@@ -4572,6 +4575,7 @@
 	</group>
 	
 	<group id="218" status="active">
+	<!-- 2010.05.25 no web site but mailing list is active. admin wrote they are active - szabgab -->
 		<name>Caracas.pm</name>
 		<location>
 			<city>Caracas</city>
@@ -5770,7 +5774,8 @@
 
 	</group>
 
-	<group id="279" status="active">
+	<group id="279" status="inactive">
+	<!-- 2010.05.27 mailing list empty, site is almost empty, admin wrote group is inactive - szabgab -->
 		<name>OklahomaCity.pm</name>
 		<location>
 			<city>Oklahoma City</city>
@@ -7840,7 +7845,8 @@
 		<date type="inception">20010313</date>
 	</group>
 
-	<group id="368" status="active">
+	<group id="368" status="inactive">
+	<!-- 2010.05.24 - Leeds.pm is now inactive - it's been merged into NorthWestEngland.pm from admin - szabgab -->
 		<name>Leeds.pm</name>
 		<location>
 			<city>Leeds</city>
@@ -7960,7 +7966,8 @@
 		<date type="inception">20010326</date>
 	</group>
 
-	<group id="374" status="sleeping">
+	<group id="374" status="inactive">
+	<!-- 2010.05.24 admin contacted me that the group can be removed or passed to someone else - szabgab -->
 		<name>Hull.pm</name>
 		<location>
 			<city>Hull</city>
@@ -9054,6 +9061,7 @@
 
 	<group id="415" status="inactive">
 	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
+	<!-- 2010.05.25 - admin even sent message that they are inactive - szabgab -->
 		<name>Morris County.pm</name>
 		<location>
 			<city>Morristown</city>
@@ -11885,6 +11893,7 @@
 		<date type="inception">20020925</date>
 	</group>
 	<group id="538" status="active">
+	<!-- 2010.05.24 admin wrote they are active (even though no web site and no message in mailing list) - szabgab -->
 		<name>Terere.pm</name>
 		<location>
 			<city>Asuncion</city>
@@ -13544,6 +13553,7 @@
 	</group>
 
 	<group id="615" status="active">
+	<!-- 2010.05.27 old looking website, no archived for external mailing list - szabgab -->
 		<name>Aalborg.pm</name>
 		<location>
 			<city>Aalborg</city>
@@ -13994,7 +14004,8 @@
 		<date type="inception">20040222</date>
 	</group>
 
-	<group id="635" status="active">
+	<group id="635" status="inactive">
+	<!-- 2010.05.26 website redirects, mailing list stopped in 2007, admin wrote lack of interes - szabgab -->
 		<name>Nottingham.pm</name>
 		<location>
 			<city>Nottingham</city>
@@ -14448,7 +14459,8 @@
 	</group>
 
         <group id="656" status="active">
-        <!-- <comment date="2009.10.17">list is unused since 2006</comment> -->
+        <!-- 2009.10.17 list is unused since 2006 -->
+		<!-- 2010.05.04 admin wrote that there is no activity but he would like to keep it - szabgab -->
                 <name>Aberdeen.pm</name>
                 <location>
                         <city>Aberdeen</city>
@@ -15330,6 +15342,7 @@
         </group>
 
         <group id="702" status="active">
+        <!-- 2010.05.22 got mail from admin that they are active - szabgab -->
                 <name>Kiev.pm</name>
                 <location>
                         <city>Kiev</city>
@@ -15820,6 +15833,7 @@
                 <date type="inception">20081228</date>
         </group>
         <group id="729" status="active">
+        <!-- 2010.05.25 admin wrote that they are active, website redirects to mailing list, there are a few messages - szabgab -->
                 <name>SanCristobal.pm</name>
                 <location>
                         <city>San Crist&oacute;bal</city>
@@ -15964,6 +15978,7 @@
                 <date type="inception">20100126</date>
         </group>
         <group id="737" status="active">
+        <!-- 2010.05.24 admin wrote: just starting up - szabgab -->
                 <name>Linnaeus.pm</name>
                 <location>
                         <city>Gothenburg</city>
