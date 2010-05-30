@@ -14616,6 +14616,7 @@
                 <date type="inception">20070111</date>
         </group>
         <group id="698" status="active">
+        <!-- 2010.05.30, they are using chicago.pm.org for now #74952 -->
                 <name>WindyCity.pm</name>
                 <location>
                         <city>Chicago</city>
@@ -14630,7 +14631,7 @@
                         <name>brian d foy</name>
                         <email type="personal"><user>brian.d.foy</user><domain>gmail.com</domain></email>
                 </tsar>
-                <web>http://windycity.pm.org</web>
+                <web>http://chicago.pm.org</web>
                 <date type="inception">20070121</date>
         </group>
         <group id="699" status="inactive">
