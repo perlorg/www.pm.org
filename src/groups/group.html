@@ -15,7 +15,9 @@
   <b>[% name | html_entity %]</b> ([% location | html_entity %])<br>
 [% END %]
 
-[% tsar | html_entity %] &lt;[% tsaremail %]&gt;<br>
+[% FOREACH t IN tsar %] 
+[% t.name | html_entity %] &lt;[% t.mail %]&gt;<br>
+[% END %]
 
 <!--
 [% IF mailing_list %]

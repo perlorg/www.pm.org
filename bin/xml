@@ -44,11 +44,17 @@ foreach my $g ($doc->findnodes('//group')) {
   my $longitude = $g->findvalue('location/longitude/text()');
   my $latitude = $g->findvalue('location/latitude/text()');
   my $web = $g->findvalue('web/text()');
-  my $tsar = $g->findvalue('tsar/name/text()');
-  my $tsaremail = $g->findvalue('tsar/email/user/text()');
-  #$tsaremail .= ' &lt;' . int(rand(100)) . '&gt; ';
-  $tsaremail .= ' &lt;replace me by @&gt; ';
-  $tsaremail .= $g->findvalue('tsar/email/domain/text()');
+
+  my @tsar;
+  foreach my $t ($g->findnodes('tsar')) {
+    my $tsar = $t->findvalue('name/text()');
+    my $tsaremail = $g->findvalue('email/user/text()');
+    #$tsaremail .= ' &lt;' . int(rand(100)) . '&gt; ';
+    $tsaremail .= ' &lt;replace me by @&gt; ';
+    $tsaremail .= $g->findvalue('email/domain/text()');
+    push @tsar, { name => $tsar, mail => $tsaremail };
+  }
+
 
   my $mailing_lists_name = $g->findvalue('mailing_list/name/text()');
 #  if ($mailing_lists_name) { print STDERR "M $mailing_lists_name\n" }
@@ -80,8 +86,7 @@ foreach my $g ($doc->findnodes('//group')) {
 	       location => $location,
 	       longitude => $longitude,
 	       name => $name,
-	       tsar => $tsar,
-	       tsaremail => $tsaremail,
+	       tsar => \@tsar,
 	       state => $state,
 	       status => $status,
 	       web => $web,
