@@ -182,7 +182,6 @@
 			<email type="list"><user>abq-pm</user><domain>swcp.com</domain></email>
 			<email type="list_admin"><user>owner-abq-pm</user><domain>swcp.com</domain></email>
 			<subscribe>abq-pm-request@swcp.com</subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19981225</date>
 	</group>
@@ -292,8 +291,6 @@
 			<name>General Austin.pm discussion</name>
 			<email type="list"><user>austin-pm</user><domain>pm.org</domain></email>
 			<email type="list_admin"><user>mlehmann</user><domain>marklehmann.com</domain></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19980028</date>
 	</group>
@@ -452,8 +449,6 @@
 			<name>General Champaign-Urbana.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19980808</date>
 	</group>
@@ -536,8 +531,6 @@
 			<name>General Cincinnati.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19980016</date>
 	</group>
@@ -650,8 +643,6 @@
 			<name>General Davenport.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
@@ -698,8 +689,6 @@
 			<name>General DC.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">replace</date>
 	</group>
@@ -725,8 +714,6 @@
 			<name>General Denver.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19981124</date>
 	</group>
@@ -870,8 +857,6 @@
 			<name>General GreenBay.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990515</date>
 	</group>
@@ -1007,8 +992,6 @@
 			<name>General Houston.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19981016</date>
 	</group>
@@ -1034,8 +1017,6 @@
 			<name>General Huntsville.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19980622</date>
 	</group>
@@ -1282,8 +1263,6 @@
 			<name>General Long Valley.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990311</date>
 	</group>
@@ -1388,8 +1367,6 @@
 			<name>General Minneapolis.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19980428</date>
 	</group>
@@ -1434,8 +1411,6 @@
 			<name>General Naperville.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
@@ -1520,8 +1495,6 @@
 			<name>General NorthernColorado.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19980827</date>
 	</group>
@@ -1567,8 +1540,6 @@
 			<name>General Northwoods.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990214</date>
 	</group>
@@ -1653,8 +1624,6 @@
 			<name>General PalmCoast.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990331</date>
 	</group>
@@ -1680,8 +1649,6 @@
 			<name>General Philadelphia.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19980501</date>
 	</group>
@@ -1859,8 +1826,6 @@
 			<name>General RhodeIsland.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19980826</date>
 	</group>
@@ -1886,8 +1851,6 @@
 			<name>General Richmond.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990515</date>
 	</group>
@@ -1974,8 +1937,6 @@
 			<name>General SanAntonio.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990115</date>
 	</group>
@@ -2081,8 +2042,6 @@
 			<name>General SantaMonica.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990331</date>
 	</group>
@@ -2175,8 +2134,6 @@
 			<name>General Sonoma.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990214</date>
 	</group>
@@ -2352,8 +2309,6 @@
 			<name>General Winnipeg.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19981124</date>
 	</group>
@@ -2379,8 +2334,6 @@
 			<name>General ValleMexico.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990214</date>
 	</group>
@@ -2406,8 +2359,6 @@
 			<name>General Bogot&aacute;.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
@@ -2433,8 +2384,6 @@
 			<name>General Curitiba.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19981124</date>
 	</group>
@@ -2544,8 +2493,6 @@
 			<name>General Aarhus.pm discussion</name>
 			<email type="list"><user>pm</user><domain>aarhus.pm.org</domain></email>
 			<email type="list_admin"><user>majordomo</user><domain>aarhus.pm.org</domain></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19981225</date>
 	</group>
@@ -2571,8 +2518,6 @@
 			<name>General Amsterdam.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19980826</date>
 	</group>
@@ -2855,8 +2800,6 @@
 			<name>General Copenhagen.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990331</date>
 	</group>
@@ -2942,8 +2885,6 @@
 			<name>General Lisbon.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19980828</date>
 	</group>
@@ -3029,8 +2970,6 @@
 			<name>General Magyar.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990131</date>
 	</group>
@@ -3114,8 +3053,6 @@
 			<name>General Pacos de Ferreira.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990331</date>
 	</group>
@@ -3240,8 +3177,6 @@
 			<name>General Southampton.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
@@ -3353,8 +3288,6 @@
 			<name>General Swiss.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990124</date>
 	</group>
@@ -3448,8 +3381,6 @@
 			<name>General Wageningen.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990707</date>
 	</group>
@@ -3595,8 +3526,6 @@
 			<name>General GoldCoast.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
@@ -3906,8 +3835,6 @@
 			<name>General Chandigarh.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990802</date>
 	</group>
@@ -4012,8 +3939,6 @@
 			<name>General Karachi.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990131</date>
 	</group>
@@ -4200,8 +4125,6 @@
 			<name>General CapeTown.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990515</date>
 	</group>
@@ -4491,8 +4414,6 @@
 			<name>General Stanford.pm discussion</name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
@@ -4558,8 +4479,6 @@
 			<name></name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
@@ -4586,8 +4505,6 @@
 			<name></name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
@@ -4653,8 +4570,6 @@
 			<name></name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
@@ -4681,8 +4596,6 @@
 			<name></name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
@@ -4749,8 +4662,6 @@
 			<name></name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
@@ -4776,8 +4687,6 @@
 			<name></name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
@@ -4823,8 +4732,6 @@
 			<name></name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
@@ -4871,8 +4778,6 @@
 			<name></name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
@@ -4918,8 +4823,6 @@
 			<name></name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
@@ -5101,8 +5004,6 @@
 			<name></name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
@@ -5128,8 +5029,6 @@
 			<name></name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
@@ -5196,8 +5095,6 @@
 			<name></name>
 			<email type="list"></email>
 			<email type="list_admin"></email>
-			<subscribe></subscribe>
-			<unsubscribe></unsubscribe>
 		</mailing_list>
 		<date type="inception">19991024</date>
 	</group>
@@ -13884,8 +13781,6 @@
                        <name>General Ljubljana.pm discussion</name>
                        <email type="list"></email>
                        <email type="list_admin"></email>
-                       <subscribe></subscribe>
-                       <unsubscribe></unsubscribe>
                 </mailing_list>
                 <date type="inception">20040919</date>
          </group>
