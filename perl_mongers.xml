@@ -15382,5 +15382,23 @@
                 <web>http://BragancaPaulista.pm.org</web>
                 <date type="inception">20100303</date>
         </group>
+        <group id="740" status="active">
+                <name>Lansing.pm</name>
+                <location>
+                        <city>Lansing</city>
+                        <state>Michigan</state>
+                        <region></region>
+                        <country>USA</country>
+                        <continent>North America</continent>
+                        <longitude>-84.60</longitude>
+                        <latitude>42.77</latitude>
+                </location>
+                <tsar>
+                        <name>Caleb Cushing</name>
+                        <email type="personal"><user>xenoterracide</user><domain>gmail.com</domain></email>
+                </tsar>
+                <web>http://lansing.pm.org</web>
+                <date type="inception">20100603</date>
+        </group>
 </perl_mongers>
 <!-- 2010.05.21 Be.pm, mailing list empty, web site from 2002, it was not in this xml at all -  TODO:DELETE - szabgab -->
