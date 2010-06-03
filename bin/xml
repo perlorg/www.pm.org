@@ -1,6 +1,7 @@
 #!/usr/bin/perl -w
 
 use strict;
+use Data::Dumper          qw(Dumper);
 use File::Copy            qw(copy);
 use File::Find::Rule;
 use File::Path            qw(mkpath);
@@ -48,10 +49,10 @@ foreach my $g ($doc->findnodes('//group')) {
   my @tsar;
   foreach my $t ($g->findnodes('tsar')) {
     my $tsar = $t->findvalue('name/text()');
-    my $tsaremail = $g->findvalue('email/user/text()');
+    my $tsaremail = $t->findvalue('email/user/text()');
     #$tsaremail .= ' &lt;' . int(rand(100)) . '&gt; ';
     $tsaremail .= ' &lt;replace me by @&gt; ';
-    $tsaremail .= $g->findvalue('email/domain/text()');
+    $tsaremail .= $t->findvalue('email/domain/text()');
     push @tsar, { name => $tsar, mail => $tsaremail };
   }
 
