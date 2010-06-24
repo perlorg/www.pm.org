@@ -15401,5 +15401,23 @@
                 <web>http://lansing.pm.org</web>
                 <date type="inception">20100603</date>
         </group>
+        <group id="741" status="active">
+                <name>Hokkaido.pm</name>
+                <location>
+                        <city>Obihiro City</city>
+                        <state>Hokkaido</state>
+                        <region></region>
+                        <country>Japan</country>
+                        <continent>Asia</continent>
+                        <longitude>141.346815</longitude>
+                        <latitude>43.065956</latitude>
+                </location>
+                <tsar>
+                        <name>Osamu Nagatani</name>
+                        <email type="personal"><user>osamu</user><domain>onagatani.com</domain></email>
+                </tsar>
+                <web>http://hokkaido.pm.org</web>
+                <date type="inception">20100623</date>
+        </group>
 </perl_mongers>
 <!-- 2010.05.21 Be.pm, mailing list empty, web site from 2002, it was not in this xml at all -  TODO:DELETE - szabgab -->
