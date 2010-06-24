@@ -588,8 +588,8 @@
 			<latitude>40.0</latitude>
 		</location>
 		<tsar>
-			<name>Jason Alexander</name>
-			<email type="personal"><user>alexander.232</user><domain>osu.edu</domain></email>
+			<name>Jonathan Hogue</name>
+			<email type="personal"><user>jon</user><domain>hogue.org></domain></email>
 		</tsar>
 		<web>http://columbus.pm.org/</web>
 		<date type="inception">19990707</date>
@@ -718,7 +718,8 @@
 		<date type="inception">19981124</date>
 	</group>
 	
-	<group id="29" status="active">
+	<group id="29" status="inactive">
+                <!-- No contact info on site, only old information. -jhannah 20100623 -->
 		<name>DesMoines.pm</name>
 		<location>
 			<city>Des Moines</city>
@@ -737,7 +738,8 @@
 		<date type="inception">19990503</date>
 	</group>
 	
-	<group id="30" status="active">
+	<group id="30" status="inactive">
+                <!-- Site 10 years out of date. RT 74810 -jhannah 20100623 -->
 		<name>Detroit.pm</name>
 		<location>
 			<city>Detroit</city>
@@ -11750,10 +11752,9 @@
                         <longitude>-78.8562</longitude>
                         <latitude>42.9648</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Daniel Magnuszewski</name>
-			<email type="personal"><user>dmagnuszewski</user><domain>mandtbank.com</domain></email>
+			<name>Mike Canzoneri</name>
+			<email type="personal"><user>mikecanzoneri</user><domain>gmail.com</domain></email>
 		</tsar>
 		<web>http://buffalo.pm.org/</web>
 		<mailing_list>
