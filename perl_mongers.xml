@@ -883,7 +883,8 @@
 		<date type="inception">19990515</date>
 	</group>
 	
-	<group id="38" status="active">
+	<group id="38" status="inactive">
+	<!-- 2010.07.05 web site is quite broken, mail to admin bounced - szabgab -->
 		<name>Harrisburg.pm</name>
 		<location>
 			<city>Harrisburg</city>
@@ -9782,7 +9783,8 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="458" status="active">
+	<group id="458" status="inactive">
+	<!-- 2010.07.05 - website not responsive, mailed to admin who said everyone moved, we can close the group - szabgab -->
 		<name>Malaga.pm</name>
 		<location>
 			<city>Malaga</city>
