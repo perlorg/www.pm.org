@@ -883,8 +883,9 @@
 		<date type="inception">19990515</date>
 	</group>
 	
-	<group id="38" status="inactive">
+	<group id="38" status="active">
 	<!-- 2010.07.05 web site is quite broken, mail to admin bounced - szabgab -->
+	<!-- 2010.07.06 Eric contacted me and fixed his e-mail and the web site - szabgab -->
 		<name>Harrisburg.pm</name>
 		<location>
 			<city>Harrisburg</city>
