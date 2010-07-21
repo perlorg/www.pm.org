@@ -10251,8 +10251,9 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-73.993481</longitude>
+			<latitude>40.752756</latitude>
+			<!-- 481 8th Avenue, New York NY 10001 USA -->
 		</location>
 		<email type="group"></email>
 		<tsar>
