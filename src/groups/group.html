@@ -10,9 +10,9 @@
 </a><br/>
 
 [% IF web %]
-  <b><a href="[% web %]">[% name | html_entity %]</a></b> ([% location | html_entity %])<br>
+  <b><a href="[% web %]">[% name | html_entity %]</a></b> ([% linked_location %])<br>
 [% ELSE %]
-  <b>[% name | html_entity %]</b> ([% location | html_entity %])<br>
+  <b>[% name | html_entity %]</b> ([% linked_location  %])<br>
 [% END %]
 
 [% FOREACH t IN tsar %] 

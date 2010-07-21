@@ -78,6 +78,13 @@ foreach my $g ($doc->findnodes('//group')) {
   my $location = join ', ', grep { $_ }
     ($city, $state, $region, $country, $continent);
 
+  my $linked_location = join ', ', grep { $_ }
+    ($city, $state, $region, $country, );
+  if ($continent) {
+    my $continent_link = $continent eq 'Non-geographical' ? 'non_geographical' : lc($continent);
+	$continent_link =~ s/ /_/;
+    $linked_location .= qq(, <a href="$continent_link.html">$continent</a>);
+  }
   #$tsaremail =~ s/@/ at /g;
 
   my $group = {
@@ -85,6 +92,7 @@ foreach my $g ($doc->findnodes('//group')) {
 	       id => $id,
 	       latitude => $latitude,
 	       location => $location,
+	       linked_location => $linked_location,
 	       longitude => $longitude,
 	       name => $name,
 	       tsar => \@tsar,
@@ -154,6 +162,7 @@ foreach my $continent (@continents) {
 	my $rule = File::Find::Rule->new;
 	$rule->or(
 		$rule->new->directory->name('.svn')->prune->discard,
+		$rule->new->file->name(qr/.swp$/)->prune->discard,
 		$rule->new->directory->name('census')->prune->discard,
 		$rule->new
 	);
