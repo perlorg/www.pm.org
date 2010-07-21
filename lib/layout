@@ -30,18 +30,18 @@
 [%# <br> %]
 
 [% INCLUDE sideheader
-  major = {"Perl Mongers" => "/index.html"}
+  major = {"Perl Mongers" => "/"}
   minor = {
-    "Contact" => "/contact/index.html",
-    "FAQ" => "/faq/index.html",
-    "Running a group" => "/successful/index.html",
-    "Invite a guru" => "/invite/index.html",
-    "Start a group" => "/start/index.html",
+    "Contact" => "/contact/",
+    "FAQ" => "/faq/",
+    "Running a group" => "/successful/",
+    "Invite a guru" => "/invite/",
+    "Start a group" => "/start/",
   }
 %]
 
 [% INCLUDE sideheader
-  major = {"User groups" => "/groups/index.html"}
+  major = {"User groups" => "/groups/"}
   minor = {
     "North America" => "/groups/north_america.html",
     "South America" => "/groups/south_america.html",

@@ -160,8 +160,6 @@ foreach my $continent (@continents) {
 	my @files = $rule->file()->name(qr/^.[^~]+$/)->in($source);
 
 	foreach my $file (@files) {
-		#next if $file eq 'src/groups/index.html'; # processed by bin/xml
-  
 		print STDERR $file, "\n";
 
 		my $destfile = $file;
