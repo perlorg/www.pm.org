@@ -91,11 +91,18 @@
     "Search CPAN" => "http://search.cpan.org/",
     "Perl advocacy" => "http://www.perl.org/",
     "Use Perl" => "http://use.perl.org/",
+    "Perl Blogs"  => "http://blogs.perl.org/",
+    "Iron Man"    => "http://ironman.enlightenedperl.org/",
+    "Perl Sphere" => "http://perlsphere.net/",
+    "Perl Planet" => "http://planet.perl.org/",
+    "Enlightened Perl" => "http://ironman.enlightenedperl.org/",
     "Perl.com" => "http://www.perl.com/",
     "Perlmonks" => "http://www.perlmonks.com/",
     "YAPC" => "http://www.yapc.org/",
     "Perl training" => "http://www.perltraining.org/",
     "mod_perl" => "http://perl.apache.org/",
+    "Perl 6 planet" => "http://planetsix.perl.org/",
+    "Rakudo" => "http://www.rakudo.org/",
   }
 %]
 
