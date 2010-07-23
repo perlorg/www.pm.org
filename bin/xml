@@ -23,7 +23,7 @@ my $tt = Template->new({
 			EVAL_PERL => 1 ,
 			INCLUDE_PATH => ['.', 'lib', 'src'],
 			# PROCESS => 'layout',
-		       });
+		});
 
 my %allgroups;
 
@@ -34,121 +34,121 @@ mkdir 'www/groups/graphics';
 my $xml = XML::LibXML->new();
 my $doc = $xml->parse_file($src_file);
 foreach my $g ($doc->findnodes('//group')) {
-  my $id = $g->getAttribute('id');
-  my $status = $g->getAttribute('status') || 'not-specified-in-xml-file';
-  my $name = $g->findvalue('name/text()');
-  my $city = $g->findvalue('location/city/text()');
-  my $state = $g->findvalue('location/state/text()');
-  my $region = $g->findvalue('location/region/text()');
-  my $country = $g->findvalue('location/country/text()');
-  my $continent = $g->findvalue('location/continent/text()');
-  my $longitude = $g->findvalue('location/longitude/text()');
-  my $latitude = $g->findvalue('location/latitude/text()');
-  my $web = $g->findvalue('web/text()');
+	my $id = $g->getAttribute('id');
+	my $status = $g->getAttribute('status') || 'not-specified-in-xml-file';
+	my $name = $g->findvalue('name/text()');
+	my $city = $g->findvalue('location/city/text()');
+	my $state = $g->findvalue('location/state/text()');
+	my $region = $g->findvalue('location/region/text()');
+	my $country = $g->findvalue('location/country/text()');
+	my $continent = $g->findvalue('location/continent/text()');
+	my $longitude = $g->findvalue('location/longitude/text()');
+	my $latitude = $g->findvalue('location/latitude/text()');
+	my $web = $g->findvalue('web/text()');
 
-  my @tsar;
-  foreach my $t ($g->findnodes('tsar')) {
-    my $tsar = $t->findvalue('name/text()');
-    my $tsaremail = $t->findvalue('email/user/text()');
-    #$tsaremail .= ' &lt;' . int(rand(100)) . '&gt; ';
-    $tsaremail .= ' &lt;replace me by @&gt; ';
-    $tsaremail .= $t->findvalue('email/domain/text()');
-    push @tsar, { name => $tsar, mail => $tsaremail };
-  }
+	my @tsar;
+	foreach my $t ($g->findnodes('tsar')) {
+		my $tsar = $t->findvalue('name/text()');
+		my $tsaremail = $t->findvalue('email/user/text()');
+		#$tsaremail .= ' &lt;' . int(rand(100)) . '&gt; ';
+		$tsaremail .= ' &lt;replace me by @&gt; ';
+		$tsaremail .= $t->findvalue('email/domain/text()');
+		push @tsar, { name => $tsar, mail => $tsaremail };
+	}
 
 
-  my $mailing_lists_name = $g->findvalue('mailing_list/name/text()');
-#  if ($mailing_lists_name) { print STDERR "M $mailing_lists_name\n" }
+	my $mailing_lists_name = $g->findvalue('mailing_list/name/text()');
+#	if ($mailing_lists_name) { print STDERR "M $mailing_lists_name\n" }
 
-  die "Duplicate group id $id\n" if $ids{$id}++;
+	die "Duplicate group id $id\n" if $ids{$id}++;
 
-  next unless $status eq 'active';
-  die "$name has no id\n" unless defined $id;
+	next unless $status eq 'active';
+	die "$name has no id\n" unless defined $id;
   
-  unless ($continent) {
-     warn "$name has no continent. Assuming Non-geographical.\n";
-     $continent = 'Non-geographical';
-  }
-  unless ($country) {
-     warn "$name has no country. Assuming Non-geographical.\n";
-     $country = 'Non-geographical';
-  }
+	unless ($continent) {
+		warn "$name has no continent. Assuming Non-geographical.\n";
+		$continent = 'Non-geographical';
+	}
+	unless ($country) {
+		warn "$name has no country. Assuming Non-geographical.\n";
+		$country = 'Non-geographical';
+	}
 
-  # joined up city, state, region, country, continent
-  my $location = join ', ', grep { $_ }
-    ($city, $state, $region, $country, $continent);
+	# joined up city, state, region, country, continent
+	my $location = join ', ', grep { $_ } 
+		($city, $state, $region, $country, $continent);
 
-  my $linked_location = join ', ', grep { $_ }
-    ($city, $state, $region, $country, );
-  if ($continent) {
-    my $continent_link = $continent eq 'Non-geographical' ? 'non_geographical' : lc($continent);
-	$continent_link =~ s/ /_/;
-    $linked_location .= qq(, <a href="$continent_link.html">$continent</a>);
-  }
-  #$tsaremail =~ s/@/ at /g;
+	my $linked_location = join ', ', grep { $_ }
+		($city, $state, $region, $country, );
+	if ($continent) {
+		my $continent_link = $continent eq 'Non-geographical' ? 'non_geographical' : lc($continent);
+		$continent_link =~ s/ /_/;
+		$linked_location .= qq(, <a href="$continent_link.html">$continent</a>);
+	}
+	#$tsaremail =~ s/@/ at /g;
 
-  my $group = {
-	       continent => $continent,
-	       id => $id,
-	       latitude => $latitude,
-	       location => $location,
-	       linked_location => $linked_location,
-	       longitude => $longitude,
-	       name => $name,
-	       tsar => \@tsar,
-	       state => $state,
-	       status => $status,
-	       web => $web,
-	       mailing_list => {
-	         name => $mailing_lists_name,
-	       },
-	      };
-  $allgroups{$name} = $group;
+	my $group = {
+		continent => $continent,
+		id => $id,
+		latitude => $latitude,
+		location => $location,
+		linked_location => $linked_location,
+		longitude => $longitude,
+		name => $name,
+		tsar => \@tsar,
+		state => $state,
+		status => $status,
+		web => $web,
+		mailing_list => {
+			name => $mailing_lists_name,
+		},
+	};
+	$allgroups{$name} = $group;
 
-  if ($country eq 'United States of America') {
-    push @{$groups{$continent}{$country}{$state}}, $group;
-  } else {
-    push @{$groups{$continent}{$country}}, $group;
-  }
+	if ($country eq 'United States of America') {
+		push @{$groups{$continent}{$country}{$state}}, $group;
+	} else {
+		push @{$groups{$continent}{$country}}, $group;
+	}
 
-  unless (-f "www/groups/$id.html") {
-    $tt->process('src/groups/group.html', $group, "www/groups/$id.html")
-      || die $tt->error();
-  }
+	unless (-f "www/groups/$id.html") {
+		$tt->process('src/groups/group.html', $group, "www/groups/$id.html")
+			|| die $tt->error();
+	}
 }
 
 copy('./perl_mongers.xml', 'www/groups/perl_mongers.xml');
 copy('./perl_mongers.dtd', 'www/groups/perl_mongers.dtd');
 
 my @continents = ('Africa', 'Asia', 'Europe', 'North America',
-		  'Central America', 'South America', 'Oceania',
-		  'Non-geographical');
+		'Central America', 'South America', 'Oceania',
+		'Non-geographical');
 
 foreach my $continent (@continents) {
-  my $name = lc $continent;
-  $name =~ s/\W/_/g;
-  my $file = "www/groups/$name.html";
-  my $groups;
-  foreach my $country (sort keys %{$groups{$continent}}) {
-    if ($country eq 'United States of America') {
-      foreach my $state (keys %{$groups{$continent}{$country}}) {
-	$groups->{$country}{$state} = [ sort  { lc $a->{name} cmp
-						  lc $b->{name} }
+	my $name = lc $continent;
+	$name =~ s/\W/_/g;
+	my $file = "www/groups/$name.html";
+	my $groups;
+	foreach my $country (sort keys %{$groups{$continent}}) {
+		if ($country eq 'United States of America') {
+			foreach my $state (keys %{$groups{$continent}{$country}}) {
+				$groups->{$country}{$state} = [ 
+					sort { lc $a->{name} cmp lc $b->{name} } 
 					@{$groups{$continent}{$country}{$state}} ];
-      }
-    } else {
-      $groups->{$country} = [ sort { lc $a->{name} cmp lc $b->{name} }
-			      @{$groups{$continent}{$country}} ];
-    }
-  }
+			}
+		} else {
+			$groups->{$country} = [ 
+				sort { lc $a->{name} cmp lc $b->{name} }
+					@{$groups{$continent}{$country}} ];
+		}
+	}
 
-  my $conf = {
-	      groups => $groups,
-	      continent => $continent,
-	     };
+	my $conf = {
+		groups => $groups,
+		continent => $continent,
+	};
 
-  $tt->process('src/groups/continent.html', $conf, $file)
-    || die $tt->error();
+	$tt->process('src/groups/continent.html', $conf, $file) || die $tt->error();
 }
 
 {
