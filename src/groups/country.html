@@ -1,10 +1,28 @@
-[% WRAPPER layout title = "Perl Mongers: $continent" %]
+[% 
+   WRAPPER layout title = "Perl Mongers: $continent"
+   onload="initialize()"
+   onunload="GUnload()"
+%]
 
-<a href="/groups/map.html"><img border=0
-     src="/groups/world_map.png" 
-     alt  ="Perl Monger World Map"
-     title="Perl Monger World Map">
-</a>
+<script type="text/javascript">
+var zoom = 10;
+var coords = [
+
+[% IF country == 'United States of America' %]
+  [% FOREACH state = groups.keys.sort %]
+    [% FOREACH group = groups.$state %]
+      [ [% group.latitude %], [% group.longitude %] ],
+    [% END %]
+  [% END %]
+[% ELSE %]
+    [% FOREACH group = groups %]
+      [ [% group.latitude %], [% group.longitude %] ],
+    [% END %]
+[% END %]
+];
+</script> 
+
+<div id="map-canvas" style="width: 500px; height: 400px"></div>
 
 [% IF groups.size %]
 

@@ -1,13 +1,20 @@
 [% title = name _ " (" _ location _ ") Perl Mongers" | html_entity;
    subtitle = name;
    WRAPPER layout title = title 
+   onload="initialize()"
+   onunload="GUnload()"
 %]
 
-<a href="/groups/map.html"><img border=0
-     src="/groups/world_map.png" 
-     alt  ="Perl Monger World Map"
-     title="Perl Monger World Map">
-</a><br/>
+<script type="text/javascript">
+var zoom = 13;
+var coords = [
+	[[% latitude %], [% longitude %]],
+];
+</script> 
+
+
+<div id="map-canvas" style="width: 500px; height: 400px"></div>
+<br/>
 
 [% IF web %]
   <b><a href="[% web %]">[% name | html_entity %]</a></b> ([% linked_location %])<br>
