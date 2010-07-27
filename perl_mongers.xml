@@ -11777,8 +11777,8 @@
 			<region></region>
 			<country>Belgium</country>
 			<continent>Europe</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>4.482309</longitude>
+			<latitude>51.017904</latitude>
 		</location>
 		<tsar>
 			<name>Chris Vertonghen</name>
@@ -13028,8 +13028,8 @@
 			<region>East Valley, Arizona</region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-111.916389</longitude>
+			<latitude>33.421389</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -13042,15 +13042,15 @@
 
 	<group id="618" status="active">
 	<!-- 2010.05.24 simple web site. No activity on list. Group admin responsive - szabgab -->
-		<name>kampala.pm</name>
+		<name>Kampala.pm</name>
 		<location>
-			<city>kampala</city>
+			<city>Kampala</city>
 			<state>Uganda</state>
 			<region>Africa</region>
 			<country>Uganda</country>
 			<continent>Africa</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>32.581111</longitude>
+			<latitude>0.313611</latitude>
 		</location>
 		<tsar>
 			<name>Revence Kalibwani</name>

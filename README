@@ -31,3 +31,5 @@ relative one so that we can build the site anywhere we want:
   See [% link_to("foo.html", "the best foo") %].
 
 Leon Brocard / Wed Aug 21 14:21:15 GMT 2002
+
+Coordinate converter: http://boulter.com/gps/
