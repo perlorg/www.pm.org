@@ -90,6 +90,7 @@ function initialize() {
   if (GBrowserIsCompatible()) {
     var map = new GMap2(document.getElementById("map-canvas"));
     map.setCenter(new GLatLng(latitude['center'], longitude['center']), zoom);
+    map.setUIToDefault();
 
     // Add 10 markers to the map at random locations
     var bounds = map.getBounds();
