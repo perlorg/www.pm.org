@@ -1,0 +1,35 @@
+[% WRAPPER layout title = "Perl Mongers: $continent" %]
+
+<a href="/groups/map.html"><img border=0
+     src="/groups/world_map.png" 
+     alt  ="Perl Monger World Map"
+     title="Perl Monger World Map">
+</a>
+
+[% IF groups.size %]
+
+<p>The following groups are in [% country %], <a href="[% continent_link %]">[% continent %]</a>:</p>
+
+[% IF country == 'United States of America' %]
+  [% FOREACH state = groups.keys.sort %]
+  <h3>[% state %]</h3>
+  <ul>
+    [% FOREACH group = groups.$state %]
+      <li><a href="[% group.id %].html">[% group.name | html_entity %]</a></li>
+    [% END %]
+  </ul>
+  [% END %]
+[% ELSE %]
+  <ul>
+    [% FOREACH group = groups %]
+      <li><a href="[% group.id %].html">[% group.name | html_entity %]</a></li>
+    <!--  <li><a href="[% group.web %]">[% group.name | html_entity %]</a> (<a href="[% group.id %].html">?</a>)</li> -->
+    [% END %]
+  </ul>
+[% END %]
+
+[% ELSE %]
+<p>There are currently no groups in [% continent %].</p>
+[% END %]
+
+[% END %]

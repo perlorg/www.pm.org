@@ -79,7 +79,12 @@ foreach my $g ($doc->findnodes('//group')) {
 		($city, $state, $region, $country, $continent);
 
 	my $linked_location = join ', ', grep { $_ }
-		($city, $state, $region, $country, );
+		($city, $state, $region);
+	if ($country and $country ne 'Non-geographical') {
+		my $country_link = lc $country;
+		$country_link =~ s/\W/_/g;
+		$linked_location .= qq(, <a href="$country_link.html">$country</a>);
+	}
 	if ($continent) {
 		my $continent_link = $continent eq 'Non-geographical' ? 'non_geographical' : lc($continent);
 		$continent_link =~ s/ /_/;
@@ -141,6 +146,18 @@ foreach my $continent (@continents) {
 				sort { lc $a->{name} cmp lc $b->{name} }
 					@{$groups{$continent}{$country}} ];
 		}
+
+		my $country_file = lc $country;
+		$country_file =~ s/\W/_/g;
+		$country_file = "www/groups/$country_file.html";
+		my $conf = {
+			groups => $groups->{$country},
+			country => $country,
+			#country_file => $country_file,
+			continent => $continent,
+			continent_link => "$name.html",
+		};
+		$tt->process('src/groups/country.html', $conf, $country_file) || die $tt->error();
 	}
 
 	my $conf = {
