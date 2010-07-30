@@ -16,14 +16,81 @@ my %ids;
 $| = 1;
 
 
+# longitude, latitude, zoom
 my %map_coordinates = (
-    africa          => [20, 0, 8],
-    asia            => [95, 45, 8],
-    central_america => [9,  10, 8],
-	europe          => [15.029297, 49.61071, 8],
-    north_america   => [10, 10, 8],
-    oceania         => [134.296875, -25.641526, 8],
-	south_america   => [-63.63, -25.00, 8],
+    africa           => [20, -1, 3],
+    asia             => [95, 45, 2],
+    central_america  => [-76,  9, 3],
+	europe           => [15.029297, 49.61071, 3],
+    north_america    => [-90, 40, 3],
+    oceania          => [134.296875, -25.641526, 3],
+	south_america    => [-63.63, -20.00, 3],
+	non_geographical => [0, 0, 1],
+
+	'South Africa'   => [20, -1, 3],
+	Uganda           => [20, -1, 3],
+
+	Armenia => [95, 45, 2],
+	China => [95, 45, 2],
+	India => [95, 45, 2],
+	Indonesia => [95, 45, 2],
+	Israel => [95, 45, 2],
+	Japan => [95, 45, 2],
+	'Korea (Republic of)' => [95, 45, 2],
+	Malaysia => [95, 45, 2],
+	Qatar => [95, 45, 2],
+	Russia => [95, 45, 2],
+	Singapore => [95, 45, 2],
+	Taiwan => [95, 45, 2],
+	Turkey => [95, 45, 2],
+
+	Austria  => [15.029297, 49.61071, 3],
+	Belgium  => [15.029297, 49.61071, 3],
+	Bulgaria  => [15.029297, 49.61071, 3],
+	Denmark  => [15.029297, 49.61071, 3],
+	Estonia  => [15.029297, 49.61071, 3],
+	Finland  => [15.029297, 49.61071, 3],
+	France  => [15.029297, 49.61071, 3],
+	Germany  => [15.029297, 49.61071, 3],
+	'Hrvatska (Croatia)'  => [15.029297, 49.61071, 3],
+	Hungary  => [15.029297, 49.61071, 3],
+	Ireland  => [15.029297, 49.61071, 3],
+	Italy  => [15.029297, 49.61071, 3],
+	'Moldova, Republic of'  => [15.029297, 49.61071, 3],
+	Netherlands  => [15.029297, 49.61071, 3],
+	Norway  => [15.029297, 49.61071, 3],
+	Poland  => [15.029297, 49.61071, 3],
+	Portugal  => [15.029297, 49.61071, 3],
+	Romania  => [15.029297, 49.61071, 3],
+	'Russian Federation'  => [15.029297, 49.61071, 3],
+	'Slovak Republic'  => [15.029297, 49.61071, 3],
+	Spain  => [15.029297, 49.61071, 3],
+	Sweden  => [15.029297, 49.61071, 3],
+	Switzerland  => [15.029297, 49.61071, 3],
+	'The Republic of Belarus'  => [15.029297, 49.61071, 3],
+	Ukraine  => [15.029297, 49.61071, 3],
+	'United Kingdom'  => [15.029297, 49.61071, 3],
+	Yugoslavia  => [15.029297, 49.61071, 3],
+
+	Canada   => [-90, 40, 3],
+	USA   => [-90, 40, 3],
+	'United States of America'   => [-90, 40, 3],
+
+	'Costa Rica'  => [-76,  9, 3],
+
+	Argentina   => [-63.63, -20.00, 3],
+	Brazil      => [-63.63, -20.00, 3],
+	Chile       => [-63.63, -20.00, 3],
+	Colombia    => [-63.63, -20.00, 3],
+	Ecuador     => [-63.63, -20.00, 3],
+	Paraguay    => [-63.63, -20.00, 3],
+	Peru        => [-63.63, -20.00, 3],
+	Venezuela   => [-63.63, -20.00, 3],
+
+	'Australia'          => [134.296875, -25.641526, 3],
+	'New Zealand'        => [134.296875, -25.641526, 3],
+
+	'Non-geographical'   => [0, 0, 1],
 );
 
 
@@ -108,10 +175,11 @@ foreach my $g ($doc->findnodes('//group')) {
 	my $group = {
 		continent => $continent,
 		id => $id,
-		latitude => $latitude,
 		location => $location,
 		linked_location => $linked_location,
 		longitude => $longitude,
+		latitude => $latitude,
+		zoom => 13,
 		name => $name,
 		tsar => \@tsar,
 		state => $state,
@@ -163,19 +231,27 @@ foreach my $continent (@continents) {
 		my $country_file = lc $country;
 		$country_file =~ s/\W/_/g;
 		$country_file = "www/groups/$country_file.html";
+		warn "WARN: Missing map_coordinates for $country" if not $map_coordinates{$country};
 		my $conf = {
 			groups => $groups->{$country},
 			country => $country,
 			#country_file => $country_file,
 			continent => $continent,
 			continent_link => "$name.html",
+			longitude => $map_coordinates{$country}[0],
+			latitude  => $map_coordinates{$country}[1],
+			zoom      => $map_coordinates{$country}[2],
 		};
 		$tt->process('src/groups/country.html', $conf, $country_file) || die $tt->error();
 	}
 
+	warn "WARN: Missing map_coordinates for $name" if not $map_coordinates{$name};
 	my $conf = {
 		groups => $groups,
 		continent => $continent,
+		longitude => $map_coordinates{$name}[0],
+		latitude  => $map_coordinates{$name}[1],
+		zoom      => $map_coordinates{$name}[2],
 	};
 
 	$tt->process('src/groups/continent.html', $conf, $file) || die $tt->error();
