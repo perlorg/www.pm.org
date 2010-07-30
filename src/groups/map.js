@@ -7,6 +7,8 @@ var asia = new GPoint(95, 45);
 var africa = new GPoint(20, 0);
 var sa = new GPoint(-63.63, -25.00);
 
+
+
     var map;
     function onLoad() {
       // Center the map
@@ -75,17 +77,24 @@ function initialize() {
 	max: coords[0][1],
 	min: coords[0][1],
   }
-  for(i = 1; i < coords.length; i++) {
-     latitude['min'] = Math.min(coords[i][0], latitude['min']);
-     latitude['max'] = Math.max(coords[i][0], latitude['max']);
-     longitude['min'] = Math.min(coords[i][1], longitude['min']);
-     longitude['max'] = Math.max(coords[i][1], longitude['max']);
-  }
-  //var zoom = 13; // TODO should be calculated?
-  //alert(longitude['min'] + " " + longitude['max']);
-  //alert(latitude['min']  + " " + latitude['max']);
-  longitude['center'] = (longitude['max'] + longitude['min'])/2;
-  latitude['center']  = (latitude['max']  + latitude['min'])/2;
+//  if (map_coordinates[file_name]) {
+//    longitude['center'] = map_coordinates[file_name][0];
+//    latitude['center']  = map_coordinates[file_name][1];
+//    zoom                = map_coordinates[file_name][2]; 
+//  } else {
+//    for(i = 1; i < coords.length; i++) {
+//       latitude['min'] = Math.min(coords[i][0], latitude['min']);
+//       latitude['max'] = Math.max(coords[i][0], latitude['max']);
+//       longitude['min'] = Math.min(coords[i][1], longitude['min']);
+//       longitude['max'] = Math.max(coords[i][1], longitude['max']);
+//    }
+  
+    //var zoom = 13; // TODO should be calculated?
+    //alert(longitude['min'] + " " + longitude['max']);
+    //alert(latitude['min']  + " " + latitude['max']);
+    longitude['center'] = (longitude['max'] + longitude['min'])/2;
+    latitude['center']  = (latitude['max']  + latitude['min'])/2;
+//  }
 
   if (GBrowserIsCompatible()) {
     var map = new GMap2(document.getElementById("map-canvas"));

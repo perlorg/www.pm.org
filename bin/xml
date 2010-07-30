@@ -15,6 +15,19 @@ my %ids;
 
 $| = 1;
 
+
+my %map_coordinates = (
+    africa          => [20, 0, 8],
+    asia            => [95, 45, 8],
+    central_america => [9,  10, 8],
+	europe          => [15.029297, 49.61071, 8],
+    north_america   => [10, 10, 8],
+    oceania         => [134.296875, -25.641526, 8],
+	south_america   => [-63.63, -25.00, 8],
+);
+
+
+
 my $tt = Template->new({
 			PRE_PROCESS => [ 'lib/macros' ],
 			POST_CHOMP => 1,

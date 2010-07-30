@@ -17,7 +17,9 @@
           title="basic" />
     <link rel="shortcut icon" href="/groups/favicon.ico">
     <!-- This key good for http://www.pm.org/groups -->
-    <script type="text/javascript" src="http://maps.google.com/maps?file=api&amp;v=1&amp;key=ABQIAAAAjrB1EtK9LGPa_E4v8BqfIhTlJQKl_2NMosGPJ4kJAF_u_Vcv4hQ6A7lpErcC3Q23mBu5eRPQ_SGvBA&amp;sensor=false"></script>
+    <script type="text/javascript"
+    src="http://maps.google.com/maps?file=api&amp;v=1&amp;key=ABQIAAAAjrB1EtK9LGPa_E4v8BqfIhTlJQKl_2NMosGPJ4kJAF_u_Vcv4hQ6A7lpErcC3Q23mBu5eRPQ_SGvBA&amp;sensor=false">
+    </script>
     
     <script type="text/javascript" src="/groups/map.js"></script> 
 </head>
