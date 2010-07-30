@@ -10,8 +10,24 @@ use Term::ReadKey;
 use File::Find::Rule;
 use File::Basename qw(basename);
 
+usage() if not @ARGV;
+
+sub usage {
+	print <<"END_USAGE";
+
+Usage: $0
+        -u username   will ask if not supplied
+        -p password   will ask if not supplied
+        -s filename  defaults to the www directory
+        -h           this help
+END_USAGE
+	exit;
+}
+
 my %opt;
-getopts('u:p:s:', \%opt);
+getopts('u:p:s:h', \%opt);
+
+usage() if $opt{h};
 
 unless ($opt{u}) {
   print 'username: ';
