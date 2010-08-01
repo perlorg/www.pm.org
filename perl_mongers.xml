@@ -1154,9 +1154,10 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-94.552</longitude>
-			<latitude>39.12231</latitude>
+			<longitude>-94.778666</longitude>
+			<latitude>38.998483</latitude>
 		</location>
+		<!-- Barley's Brewhaus 16649 Midland Drive Shawnee, KS 66217-3042 -->
 		<email type="group"></email>
 		<tsar>
 			<name>Andy Moore</name>
@@ -2612,8 +2613,8 @@
 			<region></region>
 			<country>Portugal</country>
 			<continent>Europe</continent>
-			<longitude>-8.433</longitude>
-			<latitude>41.550</latitude>
+			<longitude>-8.39725</longitude>
+			<latitude>41.56156</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -2632,9 +2633,10 @@
 			<region></region>
 			<country>Slovak Republic</country>
 			<continent>Europe</continent>
-			<longitude>17.112778</longitude>
-			<latitude>48.144722</latitude>
+			<longitude>17.1586014</longitude>
+			<latitude>48.1627512</latitude>
 		</location>
+		<!-- Tomášikovej 26, Bratislava, SK -->
 		<tsar>
 			<name>Jozef Kutej</name>
 			<email type="personal"><user>jozef</user><domain>kutej.net</domain></email>
@@ -3345,9 +3347,10 @@
 			<region></region>
 			<country>Austria</country>
 			<continent>Europe</continent>
-			<longitude>16.37</longitude>
-			<latitude>48.25</latitude>
+			<longitude>16.3579058</longitude>
+			<latitude>48.2140336</latitude>
 		</location>
+		<!-- Universitätsstraße 7, 1010 Vienna, AT -->
 		<email type="group"></email>
 		<tsar>
 			<name>Thomas Klausner</name>
