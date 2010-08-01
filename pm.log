@@ -2,6 +2,16 @@ PM.log
 
 TODO
 =======
+
+pm.org web site:
+
+- pages for each country
+- link from various places to the countries
+- change maps on the individual/countr/continent pages to show only the relevant groups
+- try to fetch some information relevant to the group and show them on
+
+
+
 - list the valid status values and their meaning (and probably better to reduce the list of valid values)
   active
   inactive
