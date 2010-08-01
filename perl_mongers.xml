@@ -11559,8 +11559,8 @@
 			<region></region>
 			<country>Brazil</country>
 			<continent>South America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-53.433333</longitude>
+			<latitude>-24.966667</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -12244,8 +12244,8 @@
 			<region>Nordeste</region>
 			<country>Brazil</country>
 			<continent>South America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-34.9</longitude>
+			<latitude>-8.05</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -12356,8 +12356,8 @@
 			<region></region>
 			<country>Brazil</country>
 			<continent>South America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-47.95</longitude>
+			<latitude>-15.75</latitude>
 		</location>
 		<tsar>
 			<name>Breno Guimarães</name>

@@ -33,7 +33,7 @@ var coords = [
 <p>The following groups are in [% continent %]:</p>
 
 [% FOREACH country = groups.keys.sort %]
-<h2>[% country %]</h2>
+<h2><a href="[% country_links.$country %]">[% country %]</a></h2>
 
   [% IF country == 'United States of America' %]
     [% FOREACH state = groups.$country.keys.sort %]

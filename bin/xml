@@ -27,14 +27,14 @@ my %map_coordinates = (
 	south_america    => [-63.63, -20.00, 3],
 	non_geographical => [0, 0, 1],
 
-	'South Africa'   => [20, -1, 3],
-	Uganda           => [20, -1, 3],
+	'South Africa'   => [24, -29, 5],
+	Uganda           => [32, 1.5, 6],
 
 	Armenia => [95, 45, 2],
-	China => [95, 45, 2],
-	India => [95, 45, 2],
-	Indonesia => [95, 45, 2],
-	Israel => [95, 45, 2],
+	China => [95, 35, 3],
+	India => [80, 20, 4],
+	Indonesia => [115, -5, 4],
+	Israel => [35, 31.5, 7],
 	Japan => [95, 45, 2],
 	'Korea (Republic of)' => [95, 45, 2],
 	Malaysia => [95, 45, 2],
@@ -79,7 +79,7 @@ my %map_coordinates = (
 	'Costa Rica'  => [-76,  9, 3],
 
 	Argentina   => [-63.63, -20.00, 3],
-	Brazil      => [-63.63, -20.00, 3],
+	Brazil      => [-50.63, -14.00, 4],
 	Chile       => [-63.63, -20.00, 3],
 	Colombia    => [-63.63, -20.00, 3],
 	Ecuador     => [-63.63, -20.00, 3],
@@ -215,6 +215,7 @@ foreach my $continent (@continents) {
 	$name =~ s/\W/_/g;
 	my $file = "www/groups/$name.html";
 	my $groups;
+	my %country_links;
 	foreach my $country (sort keys %{$groups{$continent}}) {
 		if ($country eq 'United States of America') {
 			foreach my $state (keys %{$groups{$continent}{$country}}) {
@@ -230,6 +231,7 @@ foreach my $continent (@continents) {
 
 		my $country_file = lc $country;
 		$country_file =~ s/\W/_/g;
+		$country_links{$country} = "$country_file.html";
 		$country_file = "www/groups/$country_file.html";
 		warn "WARN: Missing map_coordinates for $country" if not $map_coordinates{$country};
 		my $conf = {
@@ -247,6 +249,7 @@ foreach my $continent (@continents) {
 
 	warn "WARN: Missing map_coordinates for $name" if not $map_coordinates{$name};
 	my $conf = {
+		country_links => \%country_links,
 		groups => $groups,
 		continent => $continent,
 		longitude => $map_coordinates{$name}[0],
