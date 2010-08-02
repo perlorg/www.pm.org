@@ -1,5 +1,6 @@
 $HeadURL$
 $Id$
+Leon Brocard / Wed Aug 21 14:21:15 GMT 2002
 
 Perl Monger Admin wiki:
    http://jays.net/wiki/Perl_Mongers_Administration
@@ -15,7 +16,10 @@ src/
 www/
   the output goes here
 
-To build the site, run "bin/build" and "bin/xml" from this directory.
+To build the site, run "bin/xml" from this directory.
+
+To upload the site or a single file run "perl bin/dav2pm"
+
 
 What this does is it takes the source files from src/ applies any
 templates to them (from lib/), and writes the output to the www/
@@ -30,6 +34,7 @@ relative one so that we can build the site anywhere we want:
 
   See [% link_to("foo.html", "the best foo") %].
 
-Leon Brocard / Wed Aug 21 14:21:15 GMT 2002
 
 Coordinate converter: http://www.fcc.gov/mb/audio/bickel/DDDMMSS-decimal.html
+
+
