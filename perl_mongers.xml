@@ -983,8 +983,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-95.4507</longitude>
-			<latitude>29.7503</latitude>
+			<longitude>-95.677068</longitude>
+			<latitude>37.0625</latitude><!-- was 29.7503 -->
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -6378,8 +6378,8 @@
 			<region></region>
 			<country>Moldova, Republic of</country>
 			<continent>Europe</continent>
-			<longitude>28.8558</longitude>
-			<latitude>47.0201</latitude>
+			<longitude>28.838325</longitude>
+			<latitude>47.023301</latitude>
 		</location>
 		<tsar>
 			<name>Sergiu Mihai</name>
@@ -7280,8 +7280,8 @@
 			<region></region>
 			<country>Spain</country>
 			<continent>Europe</continent>
-                        <longitude>2.183</longitude>
-                        <latitude>41.383</latitude>
+                        <longitude>2.16598</longitude>
+                        <latitude>41.385827</latitude>
 		</location>
 		<tsar>
 			<name>Alex Muntada</name>
@@ -14258,8 +14258,8 @@
                         <region></region>
                         <country>Taiwan</country>
                         <continent>Asia</continent>
-                        <longitude>121.010166</longitude>
-                        <latitude>24.492554</latitude>
+                        <longitude>121.01253</longitude>
+                        <latitude>24.830033</latitude>
                 </location>
                 <tsar>
                         <name>Kang-min Liu</name>
@@ -14375,8 +14375,9 @@
                         <region></region>
                         <country>Germany</country>
                         <continent>Europe</continent>
-                        <longitude>7.01667</longitude>
-                        <latitude>51.45</latitude>
+                        <longitude>7.013948</longitude>
+                        <latitude>51.460074</latitude>
+			<!-- Cafe maze, Viehofer Str. 60, 45127 Essen, Germany -->
                 </location>
                 <tsar>
                         <name>Veit Wahlich</name>
