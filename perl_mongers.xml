@@ -1797,8 +1797,8 @@
 			<region>Research Triangle</region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-                        <longitude>-78.638209</longitude>
-                        <latitude>35.794123</latitude>
+                        <longitude>-78.678482</longitude>
+                        <latitude>35.773984</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -14773,8 +14773,8 @@
                         <region></region>
                         <country>United States of America</country>
                         <continent>North America</continent>
-                        <longitude>95.47</longitude>
-                        <latitude>30.15</latitude>
+                        <longitude>-95.549841</longitude>
+                        <latitude>30.213279</latitude>
                 </location>
                 <tsar>
                         <name>Todd Rinaldo</name>
