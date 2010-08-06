@@ -5751,8 +5751,8 @@
 			<region></region>
 			<country>Canada</country>
 			<continent>North America</continent>
-			<longitude>-79.85</longitude>
-			<latitude>43.03</latitude>
+			<longitude>-79.500003</longitude>
+			<latitude>43.771794</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -6122,8 +6122,8 @@
 			<region>Taiwan</region>
 			<country>Taiwan</country>
 			<continent>Asia</continent>
-			<longitude>121.4972</longitude>
-			<latitude>25.0439</latitude>
+			<longitude>121.614585</longitude>
+			<latitude>25.00166</latitude>
 		</location>
 		<tsar>
 			<name>Hsin-Chan Chien</name>
@@ -6192,8 +6192,9 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-118.243444</longitude>
-			<latitude>34.052207</latitude>
+			<longitude>-118.456585</longitude>
+			<latitude>34.034817</latitude>
+			<!-- Rubicon Project HQ: 1925 S. Bundy.  Los Angeles, CA 90025 -->
 		</location>
 		<tsar>
 			<name>Andrew Grangaard</name>
