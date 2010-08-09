@@ -12242,6 +12242,7 @@
 
 	<group id="579" status="active">
 	<!-- 2010.05.21 confirmed active by garu - szabgab -->
+	<!--  the Commonwealth of Perl Mongers Recife (PE) -->
 		<name>Recife.pm</name>
 		<location>
 			<city>Recife</city>
@@ -12249,8 +12250,8 @@
 			<region>Nordeste</region>
 			<country>Brazil</country>
 			<continent>South America</continent>
-			<longitude>-34.9</longitude>
-			<latitude>-8.05</latitude>
+			<longitude>-34.8715899</longitude>
+			<latitude>-8.0629316</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
