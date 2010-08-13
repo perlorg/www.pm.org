@@ -510,7 +510,7 @@
 		<date type="inception">19980410</date>
 	</group>
 	
-	<group id="20" status="undef">
+	<group id="20" status="active">
 		<name>Cincinnati.pm</name>
 		<location>
 			<city>Cincinnati</city>
@@ -523,15 +523,10 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>James M. Carter and Bradley M. Kuhn</name>
-			<email type="personal"><user>cinti-pm-leaders</user><domain>ebb.org</domain></email>
+			<name>Chuck Phillips</name>
+			<email type="personal"><user>cphillips</user><domain>safeschools.com</domain></email>
 		</tsar>
 		<web>http://cincinnati.pm.org/</web>
-		<mailing_list>
-			<name>General Cincinnati.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-		</mailing_list>
 		<date type="inception">19980016</date>
 	</group>
 	
@@ -606,19 +601,11 @@
 			<longitude>-96.76524</longitude>
 			<latitude>32.79415</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Colin Jitlal</name>
 			<email type="personal"><user>cjitlal</user><domain>ti.com</domain></email>
 		</tsar>
 		<web>http://dfw.pm.org/</web>
-		<mailing_list>
-                <name>General DFW discussion</name>
-		<email type="list"><user>dfw-pm</user><domain>hex.net</domain></email>
-		<email type="list_admin"><user>majordomo</user><domain>hex.net</domain></email>
-		<subscribe>subscribe dfw-pm email_address</subscribe>
-		<unsubscribe>unsubscribe dfw-pm email_address</unsubscribe>
-		</mailing_list>
 		<date type="inception">19980707</date>
 	</group>
 	
@@ -3885,8 +3872,9 @@
 		<date type="inception">19990131</date>
 	</group>
 	
-	<group id="187" status="inactive">
+	<group id="187" status="active">
 	<!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
+	<!-- 2010.08.13 activated again per RT 76262 - jhannah -->
 		<name>HongKong.pm</name>
 		<location>
 			<city>Hong Kong</city>
@@ -3897,10 +3885,9 @@
 			<longitude>114.15</longitude>
 			<latitude>22.283</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Andrew Leung</name>
-			<email type="personal"><user>hongkongpm</user><domain>gmail.com</domain></email>
+			<email type="personal"><user>aleunpkc</user><domain>netvigator.com</domain></email>
 		</tsar>
 		<web>http://hongkong.pm.org/</web>
 		<date type="inception">19990207</date>
