@@ -218,8 +218,8 @@
 			<latitude>42.280442</latitude>
 		</location>
 		<tsar>
-			<name>Tommy Stanton</name>
-			<email type="personal"><user>tommystanton</user><domain>gmail.com</domain></email>
+			<name>Jamie Pitts</name>
+			<email type="personal"><user>james.pitts</user><domain>gmail.com</domain></email>
 		</tsar>
 		<web>http://annarbor.pm.org/</web>
 		<date type="inception">19981102</date>
@@ -602,8 +602,8 @@
 			<latitude>32.79415</latitude>
 		</location>
 		<tsar>
-			<name>Colin Jitlal</name>
-			<email type="personal"><user>cjitlal</user><domain>ti.com</domain></email>
+			<name>Nick Perez</name>
+			<email type="personal"><user>nick</user><domain>nickandperla.net</domain></email>
 		</tsar>
 		<web>http://dfw.pm.org/</web>
 		<date type="inception">19980707</date>
@@ -2692,7 +2692,7 @@
 		<date type="inception">19990707</date>
 	</group>
 	
-	<group id="127" status="dead">
+	<group id="127" status="active">
 		<name>Glasgow.pm</name>
 		<location>
 			<city>Glasgow</city>
@@ -2700,13 +2700,12 @@
 			<region>Scotland</region>
 			<country>United Kingdom</country>
 			<continent>Europe</continent>
-			<longitude>-4.25</longitude>
-			<latitude>55.83</latitude>
+			<longitude>-4.254729</longitude>
+			<latitude>55.865541</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Jeff T. Parsons</name>
-			<email type="personal"><user>0105381p</user><domain>student.gla.ac.uk</domain></email>
+			<name>Marco Fontani</name>
+			<email type="personal"><user>MFONTANI</user><domain>cpan.org</domain></email>
 		</tsar>
 		<web>http://glasgow.pm.org/</web>
 		<date type="inception">19990131</date>
@@ -15416,6 +15415,24 @@
                 </tsar>
                 <web>http://hokkaido.pm.org</web>
                 <date type="inception">20100623</date>
+        </group>
+        <group id="742" status="active">
+                <name>Linz.pm</name>
+                <location>
+                        <city>Linz</city>
+                        <state>Upper Austria</state>
+                        <region></region>
+                        <country>Austria</country>
+                        <continent>Europe</continent>
+                        <longitude>14.286293</longitude>
+                        <latitude>48.306074</latitude>
+                </location>
+                <tsar>
+                        <name>Mathias Reitinger</name>
+                        <email type="personal"><user>mathias.reitinger</user><domain>loop0.org</domain></email>
+                </tsar>
+                <web>http://linz.pm.org</web>
+                <date type="inception">20100928</date>
         </group>
 </perl_mongers>
 <!-- 2010.05.21 Be.pm, mailing list empty, web site from 2002, it was not in this xml at all -  TODO:DELETE - szabgab -->
