@@ -80,7 +80,7 @@
     "Lietuvių kalba"   => pfbase _ "lithuanian",
     "Norsk"            => pfbase _ "norwegian",
     "Polski"           => pfbase _ "polish",
-    "Português"        => pfbase _ "potuguese",
+    "Português"        => pfbase _ "portuguese",
     "Română"           => pfbase _ "romanian",
     "По-русски"        => pfbase _ "russian",
     "Slovenčina"       => pfbase _ "slovakian",
