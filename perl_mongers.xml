@@ -378,8 +378,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-105.25102</longitude>
-			<latitude>40.4731865</latitude>
+			<longitude>-105.25</longitude>
+			<latitude>40.02</latitude>
 		</location>
 		<tsar>
 			<name>Walter Pienciak</name>
@@ -680,7 +680,7 @@
 		<date type="inception">replace</date>
 	</group>
 	
-	<group id="28" status="undef">
+	<group id="28" status="active">
 		<name>Denver.pm</name>
 		<location>
 			<city>Denver</city>
@@ -691,17 +691,11 @@
 			<longitude>-104.87265</longitude>
 			<latitude>39.76803</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Chris Fedde</name>
-			<email type="personal"><user>chris</user><domain>fedde.littleton.co.us</domain></email>
+			<email type="personal"><user>cfedde</user><domain>cpan.org</domain></email>
 		</tsar>
 		<web>http://denver.pm.org/</web>
-		<mailing_list>
-			<name>General Denver.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-		</mailing_list>
 		<date type="inception">19981124</date>
 	</group>
 	
@@ -3660,10 +3654,9 @@
 			<longitude>115.85</longitude>
 			<latitude>-31.95</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Matthew Lock</name>
-			<email type="personal"><user>lockster</user><domain>gmail.com</domain></email>
+			<name>James Bromberger</name>
+			<email type="personal"><user>james</user><domain>rcpt.to</domain></email>
 		</tsar>
 		<web>http://perth.pm.org/</web>
 		<date type="inception">19990127</date>
@@ -15380,13 +15373,13 @@
                 <web>http://BragancaPaulista.pm.org</web>
                 <date type="inception">20100303</date>
         </group>
-        <group id="740" status="active">
+        <group id="740" status="sleeping">
                 <name>Lansing.pm</name>
                 <location>
                         <city>Lansing</city>
                         <state>Michigan</state>
                         <region></region>
-                        <country>USA</country>
+                        <country>United States of America</country>
                         <continent>North America</continent>
                         <longitude>-84.60</longitude>
                         <latitude>42.77</latitude>
@@ -15433,6 +15426,42 @@
                 </tsar>
                 <web>http://linz.pm.org</web>
                 <date type="inception">20100928</date>
+        </group>
+        <group id="743" status="active">
+                <name>Voronezh.pm</name>
+                <location>
+                        <city>Voronezh</city>
+                        <state>Voronezhskaya oblast</state>
+                        <region></region>
+                        <country>Russian Federation</country>
+                        <continent>Europe</continent>
+                        <longitude>39.214167</longitude>
+                        <latitude>51.670833</latitude>
+                </location>
+                <tsar>
+                        <name>Alexander Nusov</name>
+                        <email type="personal"><user>alexander.nusov+pm</user><domain>gmail.com</domain></email>
+                </tsar>
+                <web>http://linz.pm.org</web>
+                <date type="inception">20100928</date>
+        </group>
+        <group id="744" status="active">
+                <name>Nagoya.pm</name>
+                <location>
+                        <city>Nagoya</city>
+                        <state>Aichi Prefacture</state>
+                        <region></region>
+                        <country>Japan</country>
+                        <continent>Asia</continent>
+                        <longitude>136.906398</longitude>
+                        <latitude>35.1814464</latitude>
+                </location>
+                <tsar>
+                        <name>NAGAYA Shinichiro</name>
+                        <email type="personal"><user>clairvy</user><domain>gmail.com</domain></email>
+                </tsar>
+                <web>http://nagoya.pm.org</web>
+                <date type="inception">20101018</date>
         </group>
 </perl_mongers>
 <!-- 2010.05.21 Be.pm, mailing list empty, web site from 2002, it was not in this xml at all -  TODO:DELETE - szabgab -->
