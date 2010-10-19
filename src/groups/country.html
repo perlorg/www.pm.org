@@ -13,12 +13,16 @@ var coords = [
 [% IF country == 'United States of America' %]
   [% FOREACH state = groups.keys.sort %]
     [% FOREACH group = groups.$state %]
-      [ [% group.latitude %], [% group.longitude %] ],
+        [% IF group.latitude %]
+          [ [% group.latitude %], [% group.longitude %] ],
+        [% END %]
     [% END %]
   [% END %]
 [% ELSE %]
     [% FOREACH group = groups %]
-      [ [% group.latitude %], [% group.longitude %] ],
+        [% IF group.latitude %]
+          [ [% group.latitude %], [% group.longitude %] ],
+        [% END %]
     [% END %]
 [% END %]
 ];
