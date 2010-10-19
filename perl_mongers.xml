@@ -15463,5 +15463,23 @@
                 <web>http://nagoya.pm.org</web>
                 <date type="inception">20101018</date>
         </group>
+        <group id="745" status="active">
+                <name>Kamakura.pm</name>
+                <location>
+                        <city>Kamakura</city>
+                        <state>Kanagawa</state>
+                        <region></region>
+                        <country>Japan</country>
+                        <continent>Asia</continent>
+                        <longitude>139.547524</longitude>
+                        <latitude>35.318242</latitude>
+                </location>
+                <tsar>
+                        <name>Daisuke Murase</name>
+                        <email type="personal"><user>typester</user><domain>cpan.org</domain></email>
+                </tsar>
+                <web>http://nagoya.pm.org</web>
+                <date type="inception">20101018</date>
+        </group>
 </perl_mongers>
 <!-- 2010.05.21 Be.pm, mailing list empty, web site from 2002, it was not in this xml at all -  TODO:DELETE - szabgab -->
