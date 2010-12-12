@@ -326,10 +326,9 @@
 			<longitude>-76.6125</longitude>
 			<latitude>39.2905</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>David Waldo</name>
-			<email type="personal"><user>waldo</user><domain>cos.com</domain></email>
+			<name>Brad Lhotsky</name>
+			<email type="personal"><user>brad.lhotsky</user><domain>gmail.com</domain></email>
 		</tsar>
 		<web>http://baltimore.pm.org/</web>
 		<date type="inception">19990503</date>
@@ -6632,20 +6631,20 @@
 	<group id="328" status="active">
 		<name>Niederrhein.pm</name>
 		<location>
-			<city>Duisburg</city>
+			<city>M&ouml;nchengladbach</city>
 			<state>Nordrhein Westfalen (NRW)</state>
 			<region>Niederrhein (Lower Rhine area)</region>
 			<country>Germany</country>
 			<continent>Europe</continent>
-                        <longitude>6.7500</longitude>
-                        <latitude>51.4333</latitude>
+                        <longitude>6.45185</longitude>
+                        <latitude>51.15479</latitude>
 		</location>
 		<tsar>
-			<name>Regina Burbach</name>
-			<email type="personal"><user>burbach</user><domain>gwl.de</domain></email>
+			<name>Torsten Raudssus</name>
+			<email type="personal"><user>torsten</user><domain>raudssus.de</domain></email>
 		</tsar>
 		<web>http://niederrhein.pm.org/</web>
-		<date type="inception"></date>
+		<date type="inception">20001218</date>
 	</group>
 
 	<group id="329" status="undef">
@@ -13872,21 +13871,20 @@
                 <web>http://campinas.pm.org/</web>
                 <date type="inception">20050420</date>
         </group>
-        <group id="659" status="inactive">
+        <group id="659" status="active">
                 <name>BH.pm</name>
                 <location>
                         <city>Belo Horizonte</city>
-                        <state>MG</state>
+                        <state>Minas Gerais</state>
                         <region></region>
                         <country>Brazil</country>
                         <continent>South America</continent>
                         <longitude>-43.93</longitude>
                         <latitude>-19.92</latitude>
                 </location>
-                <email type="group"></email>
                 <tsar>
-                        <name>Celio Marcio Soares Ferreira (Bruxo)</name>
-                        <email type="personal"><user>celio</user><domain>linuxplace.com.br</domain></email>
+                        <name>Lucas Tiago de Moraes</name>
+                        <email type="personal"><user>purga</user><domain>live.be</domain></email>
                 </tsar>
                 <web>http://bh.pm.org/</web>
                 <date type="inception">20050506</date>
@@ -15442,7 +15440,7 @@
                         <name>Alexander Nusov</name>
                         <email type="personal"><user>alexander.nusov+pm</user><domain>gmail.com</domain></email>
                 </tsar>
-                <web>http://linz.pm.org</web>
+                <web>http://voronezh.pm.org</web>
                 <date type="inception">20100928</date>
         </group>
         <group id="744" status="active">
@@ -15480,6 +15478,41 @@
                 </tsar>
                 <web>http://kamakura.pm.org</web>
                 <date type="inception">20101018</date>
+        </group>
+        <group id="746" status="active">
+                <name>KPUG.pm</name>
+                <location>
+                        <city>Port Orchard</city>
+                        <state>Washington</state>
+                        <region>Kitsap Peninsula</region>
+                        <country>United States</country>
+                        <continent>North America</continent>
+                        <longitude>-122.64</longitude>
+                        <latitude>47.54</latitude>
+                </location>
+                <tsar>
+                        <name>Gryphon Shafer</name>
+                        <email type="personal"><user>gryphon</user><domain>gryphonshafer.com</domain></email>
+                </tsar>
+                <web>http://kpug.pm.org</web>
+                <date type="inception">20101211</date>
+        <group id="746" status="active">
+                <name>Kathmandu.pm</name>
+                <location>
+                        <city>Kathmandu</city>
+                        <state></state>
+                        <region>Bagmati</region>
+                        <country>Nepol</country>
+                        <continent>Asia</continent>
+                        <longitude>85.33</longitude>
+                        <latitude>27.75</latitude>
+                </location>
+                <tsar>
+                        <name>Daya Ram Budhathoki</name>
+                        <email type="personal"><user>dayaramb</user><domain>gmail.com</domain></email>
+                </tsar>
+                <web>http://kathmandu.pm.org</web>
+                <date type="inception">20101211</date>
         </group>
 </perl_mongers>
 <!-- 2010.05.21 Be.pm, mailing list empty, web site from 2002, it was not in this xml at all -  TODO:DELETE - szabgab -->
