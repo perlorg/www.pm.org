@@ -15515,5 +15515,23 @@
                 <web>http://kathmandu.pm.org</web>
                 <date type="inception">20101211</date>
         </group>
+        <group id="748" status="active">
+                <name>TelAviv.pm</name>
+                <location>
+                        <city>Tel Aviv</city>
+                        <state></state>
+                        <region></region>
+                        <country>Israel</country>
+                        <continent>Asia</continent>
+			            <longitude>34.75</longitude>
+			            <latitude>31.5</latitude>
+                </location>
+                <tsar>
+                        <name>Sawyer X</name>
+                        <email type="personal"><user>xsawyerx</user><domain>gmail.com</domain></email>
+                </tsar>
+                <web>http://telaviv.pm.org</web>
+                <date type="inception">20101213</date>
+        </group>
 </perl_mongers>
 <!-- 2010.05.21 Be.pm, mailing list empty, web site from 2002, it was not in this xml at all -  TODO:DELETE - szabgab -->
