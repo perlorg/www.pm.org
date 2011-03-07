@@ -408,7 +408,7 @@
 		<date type="inception">19990607</date>
 	</group>
 	
-	<group id="15" status="active">
+	<group id="15" status="sleeping">
 		<name>Cambridge.pm</name>
 		<location>
 			<city>Cambridge</city>
@@ -1624,17 +1624,11 @@
 			<longitude>-75.13467</longitude>
 			<latitude>40.00681</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Walt Mankowski</name>
 			<email type="personal"><user>waltman</user><domain>pobox.com</domain></email>
 		</tsar>
 		<web>http://philly.pm.org/</web>
-		<mailing_list>
-			<name>General Philadelphia.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-		</mailing_list>
 		<date type="inception">19980501</date>
 	</group>
 	
@@ -8606,7 +8600,7 @@
 		<date type="inception">20010607</date>
 	</group>
 
-	<group id="410" status="active">
+	<group id="410" status="sleeping">
 		<name>Cambridge.pm</name>
 		<location>
 			<city>Cambridge</city>
@@ -15479,7 +15473,7 @@
                 <web>http://kamakura.pm.org</web>
                 <date type="inception">20101018</date>
         </group>
-        <group id="746" status="active">
+        <group id="746" status="sleeping">
                 <name>KPUG.pm</name>
                 <location>
                         <city>Port Orchard</city>
@@ -15532,6 +15526,60 @@
                 </tsar>
                 <web>http://telaviv.pm.org</web>
                 <date type="inception">20101213</date>
+        </group>
+        <group id="749" status="active">
+                <name>Makati.pm</name>
+                <location>
+                        <city>Makati</city>
+                        <state>Metro Manila</state>
+                        <region>National Capital Region</region>
+                        <country>Philippines</country>
+                        <continent>Asia</continent>
+                        <longitude>121.019248</longitude>
+                        <latitude>14.558513</latitude>
+                </location>
+                <tsar>
+                        <name>Ian Dela Cruz</name>
+                        <email type="personal"><user>iandelacruz.ph</user><domain>gmail.com</domain></email>
+                </tsar>
+                <web>http://makati.pm.org</web>
+                <date type="inception">20110306</date>
+        </group>
+        <group id="750" status="active">
+                <name>Bordeaux.pm</name>
+                <location>
+                        <city>Bordeaux</city>
+                        <state></state>
+                        <region></region>
+                        <country>France</country>
+                        <continent>Europe</continent>
+                        <longitude>-0.567</longitude>
+                        <latitude>44.833</latitude>
+                </location>
+                <tsar>
+                        <name>Pierrick DINTRAT</name>
+                        <email type="personal"><user>pierrickdintrat</user><domain>laposte.net</domain></email>
+                </tsar>
+                <web>http://bordeaux.pm.org</web>
+                <date type="inception">20110306</date>
+        </group>
+        <group id="751" status="active">
+                <name>HradecKralove.pm</name>
+                <location>
+                        <city>Hradec Kralove</city>
+                        <state></state>
+                        <region>Vychodni Cechy</region>
+                        <country>Czech Republic</country>
+                        <continent>Europe</continent>
+                        <longitude>15.8441667</longitude>
+                        <latitude>50.2116667</latitude>
+                </location>
+                <tsar>
+                        <name>Lubos Kolouch</name>
+                        <email type="personal"><user>lubos.kolouch</user><domain>gmail.com</domain></email>
+                </tsar>
+                <web>http://HradecKralove.pm.org</web>
+                <date type="inception">20110306</date>
         </group>
 </perl_mongers>
 <!-- 2010.05.21 Be.pm, mailing list empty, web site from 2002, it was not in this xml at all -  TODO:DELETE - szabgab -->
