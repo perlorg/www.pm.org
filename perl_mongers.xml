@@ -1159,8 +1159,8 @@
 			<latitude>36.189741</latitude>
 		</location>
 		<tsar>
-			<name>James Wright</name>
-			<email type="personal"><user>james2vegas</user><domain>aim.com</domain></email>
+			<name>Chris Hart</name>
+			<email type="personal"><user>the.hippsta</user><domain>gmail.com</domain></email>
 		</tsar>
 		<web>http://lasvegas.pm.org/</web>
 		<date type="inception">19990105</date>
@@ -15580,6 +15580,42 @@
                 </tsar>
                 <web>http://HradecKralove.pm.org</web>
                 <date type="inception">20110306</date>
+        </group>
+        <group id="752" status="active">
+                <name>Goiania.pm</name>
+                <location>
+                        <city>Goiânia</city>
+                        <state>Goiás</state>
+                        <region></region>
+                        <country>Brazil</country>
+                        <continent>South America</continent>
+                        <longitude>-49.25</longitude>
+                        <latitude>-16.666667</latitude>
+                </location>
+                <tsar>
+                        <name>Ole Peter Smith</name>
+                        <email type="personal"><user>ole.ufg</user><domain>gmail.com</domain></email>
+                </tsar>
+                <web>http://goiania.pm.org</web>
+                <date type="inception">20110323</date>
+        </group>
+        <group id="753" status="active">
+                <name>Petropolis.pm</name>
+                <location>
+                        <city>Petrópolis</city>
+                        <state>Rio de Janeiro</state>
+                        <region></region>
+                        <country>Brazil</country>
+                        <continent>South America</continent>
+                        <longitude>-43.178889</longitude>
+                        <latitude>-22.505</latitude>
+                </location>
+                <tsar>
+                        <name>Vinicius Miasato</name>
+                        <email type="personal"><user>viniciusmiasato</user><domain>gmail.com</domain></email>
+                </tsar>
+                <web>http://petropolis.pm.org</web>
+                <date type="inception">20110323</date>
         </group>
 </perl_mongers>
 <!-- 2010.05.21 Be.pm, mailing list empty, web site from 2002, it was not in this xml at all -  TODO:DELETE - szabgab -->
