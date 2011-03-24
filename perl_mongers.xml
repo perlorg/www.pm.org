@@ -2237,8 +2237,8 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Michael Graham</name>
-			<email type="personal"><user>magog</user><domain>the-wire.com</domain></email>
+			<name>Mike Stok</name>
+			<email type="personal"><user>mike</user><domain>stock.ca</domain></email>
 		</tsar>
 		<web>http://to.pm.org/</web>
 		<date type="inception">19980916</date>
@@ -2292,28 +2292,22 @@
 		<date type="inception">19981124</date>
 	</group>
 	
-	<group id="106" status="undef">
-		<name>ValleMexico.pm</name>
+	<group id="106" status="active">
+		<name>MexicoCity.pm</name>
 		<location>
 			<city>Mexico City</city>
-			<state></state>
+			<state>DF</state>
 			<region></region>
 			<country>Mexico</country>
 			<continent>North America</continent>
-			<longitude>-99.15</longitude>
-			<latitude>19.4</latitude>
+			<longitude>-99.138611</longitude>
+			<latitude>19.434167</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Roberto Andrade Fonseca</name>
-			<email type="personal"><user>randrade</user><domain>campus.iztacala.unam.mx</domain></email>
+			<name>Jose Biskofski</name>
+			<email type="personal"><user>jbiskofski</user><domain>algebraix.com</domain></email>
 		</tsar>
-		<web>http://valle-mexico.pm.org/</web>
-		<mailing_list>
-			<name>General ValleMexico.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-		</mailing_list>
+		<web>http://mexicocity.pm.org/</web>
 		<date type="inception">19990214</date>
 	</group>
 	
@@ -15615,6 +15609,24 @@
                         <email type="personal"><user>viniciusmiasato</user><domain>gmail.com</domain></email>
                 </tsar>
                 <web>http://petropolis.pm.org</web>
+                <date type="inception">20110323</date>
+        </group>
+        <group id="754" status="active">
+                <name>Brno.pm</name>
+                <location>
+                        <city>Brno</city>
+                        <state></state>
+                        <region>South Moravian Region (Jihomoravský kraj, JM)</region>
+                        <country>Czech Republic</country>
+                        <continent>Europe</continent>
+                        <longitude>16.607530117034912</longitude>
+                        <latitude>49.20016789485192</latitude>
+                </location>
+                <tsar>
+                        <name>Michal Jurosz</name>
+                        <email type="personal"><user>mj</user><domain>mj41.cz</domain></email>
+                </tsar>
+                <web>http://brno.pm.org</web>
                 <date type="inception">20110323</date>
         </group>
 </perl_mongers>
