@@ -863,9 +863,10 @@
 		<date type="inception">19990515</date>
 	</group>
 	
-	<group id="38" status="active">
+	<group id="38" status="inactive">
 	<!-- 2010.07.05 web site is quite broken, mail to admin bounced - szabgab -->
 	<!-- 2010.07.06 Eric contacted me and fixed his e-mail and the web site - szabgab -->
+	<!-- 2011.05.01 deactivated. see ticket 86634 - jhannah -->
 		<name>Harrisburg.pm</name>
 		<location>
 			<city>Harrisburg</city>
@@ -11388,7 +11389,7 @@
 		<web>http://Terere.pm.org/</web>
 		<date type="inception">20020925</date>
 	</group>
-	<group id="539" status="active">
+	<group id="539" status="inactive">
 		<name>Dresden.pm</name>
 		<location>
 			<city>Dresden</city>
@@ -15628,6 +15629,24 @@
                 </tsar>
                 <web>http://brno.pm.org</web>
                 <date type="inception">20110323</date>
+        </group>
+        <group id="755" status="active">
+                <name>Logan.pm</name>
+                <location>
+                        <city>Logan</city>
+                        <state>Utah</state>
+                        <region></region>
+                        <country>United States of America</country>
+                        <continent>North America</continent>
+                        <longitude>-111.8336111</longitude>
+                        <latitude>41.7355556</latitude>
+                </location>
+                <tsar>
+                        <name>David Scholes</name>
+                        <email type="personal"><user>david</user><domain>davidscholes.com</domain></email>
+                </tsar>
+                <web>http://logan.pm.org</web>
+                <date type="inception">20110501</date>
         </group>
 </perl_mongers>
 <!-- 2010.05.21 Be.pm, mailing list empty, web site from 2002, it was not in this xml at all -  TODO:DELETE - szabgab -->
