@@ -863,10 +863,11 @@
 		<date type="inception">19990515</date>
 	</group>
 	
-	<group id="38" status="inactive">
+	<group id="38" status="active">
 	<!-- 2010.07.05 web site is quite broken, mail to admin bounced - szabgab -->
 	<!-- 2010.07.06 Eric contacted me and fixed his e-mail and the web site - szabgab -->
 	<!-- 2011.05.01 deactivated. see ticket 86634 - jhannah -->
+	<!-- 2011.06.01 new leader. activated - jhannah -->
 		<name>Harrisburg.pm</name>
 		<location>
 			<city>Harrisburg</city>
@@ -877,17 +878,11 @@
 			<longitude>-77.032329</longitude>
 			<latitude>40.262852</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Eric Andreychek</name>
-			<email type="personal"><user>hpm</user><domain>openthought.net</domain></email>
+			<name>Jason May</name>
+			<email type="personal"><user>jason.a.may</user><domain>gmail.com</domain></email>
 		</tsar>
 		<web>http://harrisburg.pm.org/</web>
-		<mailing_list>
-			<name>General Harrisburg Perl Mongers discussion</name>
-			<email type="list"><user>harrisburg-pm</user><domain>pm.org</domain></email>
-			<email type="list_admin"><user>hpm</user><domain>openthought.net</domain></email>
-		</mailing_list>
 		<date type="inception">19990707</date>
 	</group>
 	
@@ -2218,8 +2213,8 @@
 			<email type="personal"><user>perl</user><domain>sherer.org</domain></email>
 		</tsar>
 		<tsar>
-			<name>Aran Deltac</name>
-			<email type="personal"><user>bluefeet</user><domain>gmail.com</domain></email>
+			<name>Tommy Stanton</name>
+			<email type="personal"><user>tommystanton</user><domain>gmail.com</domain></email>
 		</tsar>
 		<web>http://thousand-oaks.pm.org/</web>
 		<date type="inception">19990802</date>
@@ -15632,6 +15627,24 @@
         </group>
         <group id="755" status="active">
                 <name>Logan.pm</name>
+                <location>
+                        <city>Logan</city>
+                        <state>Utah</state>
+                        <region></region>
+                        <country>United States of America</country>
+                        <continent>North America</continent>
+                        <longitude>-111.8336111</longitude>
+                        <latitude>41.7355556</latitude>
+                </location>
+                <tsar>
+                        <name>David Scholes</name>
+                        <email type="personal"><user>david</user><domain>davidscholes.com</domain></email>
+                </tsar>
+                <web>http://logan.pm.org</web>
+                <date type="inception">20110501</date>
+        </group>
+        <group id="756" status="active">
+                <name>Tolyatti.pm</name>
                 <location>
                         <city>Logan</city>
                         <state>Utah</state>
