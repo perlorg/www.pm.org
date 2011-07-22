@@ -2430,12 +2430,8 @@
 			<latitude>-23.533</latitude>
 		</location>
 		<tsar>
-			<name>Otávio Fernandes</name>
-                        <email type="personal"><user>otaviof</user><domain>gmail.com</domain></email>
-		</tsar>
-		<tsar>
-			<name>Thiago Rondon</name>
-                        <email type="personal"><user>thiago.rondon</user><domain>gmail.com</domain></email>
+			<name>Alexei Znamensky</name>
+                        <email type="personal"><user>russoz</user><domain>gmail.com</domain></email>
 		</tsar>
 		<web>http://sao-paulo.pm.org/</web>
 		<date type="inception">19990802</date>
@@ -14168,8 +14164,12 @@
 			<latitude>52.029</latitude>
 		</location>
 		<tsar>
-			<name>Tom Hukins</name>
-			<email type="personal"><user>tom</user><domain>eborcom.com</domain></email>
+			<name>Tony Edwardson</name>
+			<email type="personal"><user>tony.edwardson</user><domain>usa.net</domain></email>
+		</tsar>
+		<tsar>
+			<name>Colin Bradford</name>
+			<email type="personal"><user>cjbradford</user><domain>gmail.com</domain></email>
 		</tsar>
 		<web>http://miltonkeynes.pm.org</web>
 		<date type="inception">20051011</date>
@@ -15661,5 +15661,42 @@
                 <web>http://logan.pm.org</web>
                 <date type="inception">20110501</date>
         </group>
+        <group id="757" status="active">
+                <name>LGBT.pm</name>
+                <location>
+                        <city></city>
+                        <state></state>
+                        <region></region>
+                        <country></country>
+                        <continent></continent>
+                        <longitude></longitude>
+                        <latitude></latitude>
+                </location>
+                <tsar>
+                        <name>James Layer</name>
+                        <email type="personal"><user>james</user><domain>jameslaver.com</domain></email>
+                </tsar>
+                <web>http://LGBT.pm.org/</web>
+                <date type="inception">20110722</date>
+        </group>
+        <group id="758" status="active">
+                <name>SouthernOregon.pm</name>
+                <location>
+                        <city>Medford</city>
+                        <state>Oregon</state>
+                        <region>Southern Oregon</region>
+                        <country>United States of America</country>
+                        <continent>North America</continent>
+                        <longitude>-122.875595</longitude>
+                        <latitude>42.326515</latitude>
+                </location>
+                <tsar>
+                        <name>Logan Bell</name>
+                        <email type="personal"><user>loganbell</user><domain>gmail.com</domain></email>
+                </tsar>
+                <web>http://SouthernOregon.pm.org/</web>
+                <date type="inception">20110722</date>
+        </group>
+
 </perl_mongers>
 <!-- 2010.05.21 Be.pm, mailing list empty, web site from 2002, it was not in this xml at all -  TODO:DELETE - szabgab -->
