@@ -1122,7 +1122,7 @@
 		<date type="inception">19990127</date>
 	</group>
 	
-	<group id="50" status="active">
+	<group id="50" status="gone">
 		<name>KansasCity.pm</name>
 		<location>
 			<city>Kansas City</city>
@@ -1143,7 +1143,7 @@
 		<date type="inception">19990120</date>
 	</group>
 	
-	<group id="51" status="active">
+	<group id="51" status="gone">
 		<name>LasVegas.pm</name>
 		<location>
 			<city>Las Vegas</city>
@@ -1545,7 +1545,7 @@
 		<date type="inception">19980924</date>
 	</group>
 	
-	<group id="70" status="active">
+	<group id="70" status="gone">
 		<name>OrangeCounty.pm</name>
 		<location>
 			<city>Orange County</city>
@@ -2546,7 +2546,7 @@
 		<date type="inception">19990707</date>
 	</group>
 	
-	<group id="118" status="active">
+	<group id="118" status="gone">
 		<name>Belfast.pm</name>
 		<location>
 			<city>Belfast</city>
@@ -2896,7 +2896,7 @@
 		<date type="inception">19990515</date>
 	</group>
 	
-	<group id="138" status="active">
+	<group id="138" status="gone">
 		<name>Lund.pm</name>
 		<location>
 			<city>Lund</city>
@@ -3497,7 +3497,7 @@
 		<date type="inception">19990503</date>
 	</group>
 	
-	<group id="170" status="active">
+	<group id="170" status="gone">
 		<name>Malaysia.pm</name>
 		<location>
 			<city>Kuala Lumpur</city>
@@ -4974,7 +4974,7 @@
 		<date type="inception">19991024</date>
 	</group>
 
-	<group id="242" status="active">
+	<group id="242" status="gone">
 		<name>Richmond.pm</name>
 		<location>
 			<city>Richmond</city>
@@ -6072,7 +6072,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="302" status="active">
+	<group id="302" status="gone">
 		<name>Taipei.pm</name>
 		<location>
 			<city>Taipei</city>
@@ -8609,7 +8609,7 @@
 		<date type="inception">20010620</date>
 	</group>
 
-	<group id="411" status="active">
+	<group id="411" status="gone">
 		<name>Dublin.pm</name>
 		<location>
 			<city>Dublin</city>
@@ -9174,7 +9174,7 @@
 		<web>http://cheese.pm.org/</web>
 		<date type="inception">20010812</date>
 	</group>
-	<group id="434" status="active">
+	<group id="434" status="gone">
 		<name>Honolulu.pm</name>
 		<location>
 			<city>Honolulu</city>
@@ -11975,7 +11975,7 @@
 		<date type="inception">20030317</date>
 	</group>
 
-	<group id="561" status="active">
+	<group id="561" status="gone">
 		<name>Malazgirt.pm</name>
 		<location>
 			<city>Malazgirt</city>
@@ -12533,7 +12533,7 @@
 		<date type="inception">20030817</date>
 	</group>
 
-	<group id="597" status="active">
+	<group id="597" status="gone">
 		<name>Samara.pm</name>
 		<location>
 			<city>Samara</city>
@@ -13831,7 +13831,7 @@
                 </mailing_list>
                 <date type="inception">20050320</date>
         </group>
-        <group id="658" status="active">
+        <group id="658" status="gone">
 	<!-- 2010.05.21 - confirmed alive-ish by garu - szabgab--> 
                 <name>Campinas.pm</name>
                 <location>
@@ -14019,7 +14019,7 @@
                 <web>http://viana.pm.org</web>
                 <date type="inception">20050728</date>
         </group>
-        <group id="668" status="active">
+        <group id="668" status="gone">
 	<!-- 2010.05.21 confirmed active by garu - szabgab -->
                 <name>Salvador.pm</name>
                 <location>
@@ -14251,7 +14251,7 @@
                 <web>http://thailand.pm.org/</web>
                 <date type="inception">20060120</date>
         </group>
-        <group id="680" status="active">
+        <group id="680" status="gone">
                 <name>Firenze.pm</name>
                 <location>
                         <city>Firenze</city>
@@ -14349,7 +14349,7 @@
                 <web>http://ruhr.pm.org</web>
                 <date type="inception">20060228</date>
         </group>
-        <group id="685" status="active">
+        <group id="685" status="gone">
                 <name>Poznan.pm</name>
                 <location>
                         <city>Poznan</city>
@@ -14552,7 +14552,7 @@
                 <web>http://sophia.mongueurs.net</web>
                 <date type="inception">20061203</date>
         </group>
-        <group id="696" status="active">
+        <group id="696" status="gone">
 	<!-- 2010.05.21 confirmed active by garu - szabgab -->
                 <name>Triangulo.pm</name>
                 <location>
@@ -14728,7 +14728,7 @@
                 <date type="inception">20070708</date>
 	        </group>
 
-        <group id="705" status="active">
+        <group id="705" status="gone">
                 <name>TheWoodlands.pm</name>
                 <location>
                         <city>The Woodlands</city>
@@ -14767,7 +14767,7 @@
                 <date type="inception">20070708</date>
         </group>
 
-        <group id="707" status="active">
+        <group id="707" status="gone">
 	    <!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
 		<!-- 2010.05.24 group admin sent message to pm.org list, turning it active - szabgab -->
                 <name>Kochi.pm</name>
@@ -14861,7 +14861,7 @@
                 <web>http://vladivostok.pm.org</web>
                 <date type="inception">20071209</date>
         </group>
-        <group id="712" status="active">
+        <group id="712" status="gone">
                 <name>Kazan.pm</name>
                 <location>
                         <city>Kazan</city>
@@ -15299,7 +15299,7 @@
                 <web>http://madurai.pm.org</web>
                 <date type="inception">20100126</date>
         </group>
-        <group id="737" status="active">
+        <group id="737" status="gone">
         <!-- 2010.05.24 admin wrote: just starting up - szabgab -->
                 <name>Linnaeus.pm</name>
                 <location>
