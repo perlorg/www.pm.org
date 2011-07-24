@@ -233,9 +233,9 @@ foreach my $continent (@continents) {
 					country => $state,
 					continent => $continent,
 					continent_link => "$name.html",
-					#longitude => $map_coordinates{$country}[0],
-					#latitude  => $map_coordinates{$country}[1],
-					#zoom      => $map_coordinates{$country}[2],
+					longitude => $map_coordinates{$country}[0],
+					latitude  => $map_coordinates{$country}[1],
+					zoom      => $map_coordinates{$country}[2],
 					#states    => \%states,
 				};
 				$conf->{description} = "Perl Mongers in $state are the Perl users groups that organize meetings";
