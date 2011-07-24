@@ -13,7 +13,7 @@
     <title>[% title or "Perl Mongers" %]</title>
  
     <link rel="stylesheet" type="text/css"
-          href="[% relative_url("/graphics/basic.css") %]" 
+          href="/graphics/basic.css" 
           title="basic" />
     <link rel="shortcut icon" href="/groups/favicon.ico">
     <!-- This key good for http://www.pm.org/groups -->
@@ -30,7 +30,7 @@
     <td class="side" width="120" valign="top">
       <table cellpadding="2" cellspacing="0" border="0">
         <tr>
-          <td bgcolor="#000000"><a href="[% PROCESS relative url="/" %]"><img src="[% PROCESS relative url="/graphics/title.png" %]" width="150" height="65" border="0" alt="Perl Mongers" /></a></td>
+          <td bgcolor="#000000"><a href="/"><img src="/graphics/title.png" width="150" height="65" border="0" alt="Perl Mongers" /></a></td>
         </tr>
       </table>
 [%# <br> %]
