@@ -217,19 +217,35 @@ foreach my $continent (@continents) {
 	my $file = "www/groups/$name.html";
 	my $groups;
 	my %country_links;
+	my %states;
 	foreach my $country (sort keys %{$groups{$continent}}) {
 		if ($country eq 'United States of America') {
 			foreach my $state (keys %{$groups{$continent}{$country}}) {
 				$groups->{$country}{$state} = [ 
 					sort { lc $a->{name} cmp lc $b->{name} } 
 					@{$groups{$continent}{$country}{$state}} ];
+				$states{$state} = 'usa_' . lc $state;
+				$states{$state} =~ s/\W/_/g;
+				$states{$state} .= '.html';
+				#warn "WARN: Missing map_coordinates for $country" if not $map_coordinates{$country};
+				my $conf = {
+					groups => $groups->{$country}{$state},
+					country => $state,
+					continent => $continent,
+					continent_link => "$name.html",
+					#longitude => $map_coordinates{$country}[0],
+					#latitude  => $map_coordinates{$country}[1],
+					#zoom      => $map_coordinates{$country}[2],
+					#states    => \%states,
+				};
+				$conf->{description} = "Perl Mongers in $state are the Perl users groups that organize meetings";
+				$tt->process('src/groups/country.html', $conf, "www/groups/$states{$state}") || die $tt->error();
 			}
 		} else {
 			$groups->{$country} = [ 
 				sort { lc $a->{name} cmp lc $b->{name} }
 					@{$groups{$continent}{$country}} ];
 		}
-
 		my $country_file = lc $country;
 		$country_file =~ s/\W/_/g;
 		$country_links{$country} = "$country_file.html";
@@ -244,6 +260,7 @@ foreach my $continent (@continents) {
 			longitude => $map_coordinates{$country}[0],
 			latitude  => $map_coordinates{$country}[1],
 			zoom      => $map_coordinates{$country}[2],
+			states    => \%states,
 		};
 		$conf->{description} = "Perl Mongers in $country are the Perl users groups that organize meetings";
 		$tt->process('src/groups/country.html', $conf, $country_file) || die $tt->error();
@@ -257,6 +274,7 @@ foreach my $continent (@continents) {
 		longitude => $map_coordinates{$name}[0],
 		latitude  => $map_coordinates{$name}[1],
 		zoom      => $map_coordinates{$name}[2],
+		states    => \%states,
 	};
 
 	$conf->{description} = "Perl Mongers in $continent are the Perl users groups that organize meetings";

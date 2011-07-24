@@ -41,7 +41,7 @@ var coords = [
 
   [% IF country == 'United States of America' %]
     [% FOREACH state = groups.$country.keys.sort %]
-    <h3>[% state %]</h3>
+    <h3><a href="/groups/[% states.$state %]">[% state %]</a></h3>
     <ul>
       [% FOREACH group = groups.$country.$state %]
         <li><a href="[% group.id %].html">[% group.name | html_entity %]</a></li>
