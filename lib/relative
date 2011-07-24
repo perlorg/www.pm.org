@@ -6,7 +6,7 @@ my $url = $stash->get('url');
 if ($url !~ /http/) {
   $url =~ s{^/}{};
   $url = catfile "/src", $url;
-  $url .= 'index.html' if $url =~ m|/$|;
+#  $url .= 'index.html' if $url =~ m|/$|;
   my($volume, $directories, $filepart) = splitpath($template);
   my $uri = abs2rel($url, $directories);
 #  warn "$template -> $url = $uri\n";
