@@ -6,7 +6,7 @@
        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
     -->
     <meta name="description" 
-          content="Perl Mongers organises local Perl user groups and meetings" />
+          content="[% description %]" />
     <meta name="keywords"
           content="Perl,Perl Mongers,Mongers,User Group,Meeting" />
     <meta name="MsSmartTagsPreventParsing" content="TRUE" />
