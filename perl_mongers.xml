@@ -15257,8 +15257,8 @@
                         <latitude></latitude>
                 </location>
                 <tsar>
-                        <name></name>
-                        <email type="personal"></email>
+                        <name>Ricardo Signes</name>
+                        <email type="personal"><user>rjbs</user><domain>cpan.org</domain></email>
                 </tsar>
                 <web>http://advent.pm.org</web>
                 <date type="inception">20091015</date>
