@@ -14678,8 +14678,8 @@
                         <latitude>50.42</latitude>
                 </location>
                 <tsar>
-                        <name>Serg V. Gulko</name>
-                        <email type="personal"><user>s.gulko</user><domain>gmail.com</domain></email>
+                        <name>Yaroslav Korshak</name>
+                        <email type="personal"><user>yko</user><domain>cpan.org</domain></email>
                 </tsar>
                 <web>http://kiev.pm.org</web>
                 <date type="inception">20070603</date>
@@ -15696,6 +15696,24 @@
                 </tsar>
                 <web>http://SouthernOregon.pm.org/</web>
                 <date type="inception">20110722</date>
+        </group>
+        <group id="759" status="active">
+                <name>Plzen.pm</name>
+                <location>
+                        <city>Plzen</city>
+                        <state>West Bohemia (Západočeský kraj)</state>
+                        <region></region>
+                        <country>Czech Republic</country>
+                        <continent>Europe</continent>
+                        <longitude>13.377397</longitude>
+                        <latitude>49.747189</latitude>
+                </location>
+                <tsar>
+                        <name>Lukas Rampa</name>
+                        <email type="personal"><user>lukas.rampa</user><domain>centrum.cz</domain></email>
+                </tsar>
+                <web>http://plzen.pm.org/</web>
+                <date type="inception">20110830</date>
         </group>
 
 </perl_mongers>
