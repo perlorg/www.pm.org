@@ -2204,8 +2204,8 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-118.867557</longitude>
-			<latitude>34.1927</latitude>
+			<longitude>-118.79499435424805</longitude>
+			<latitude>34.15092875174315</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
@@ -2213,8 +2213,8 @@
 			<email type="personal"><user>perl</user><domain>sherer.org</domain></email>
 		</tsar>
 		<tsar>
-			<name>Tommy Stanton</name>
-			<email type="personal"><user>tommystanton</user><domain>gmail.com</domain></email>
+			<name>Chuck Hardin</name>
+			<email type="personal"><user>chardin</user><domain>gmail.com</domain></email>
 		</tsar>
 		<web>http://thousand-oaks.pm.org/</web>
 		<date type="inception">19990802</date>
@@ -4340,7 +4340,7 @@
 		<date type="inception">19990914</date>
 	</group>
 
-	<group id="213" status="undef">
+	<group id="213" status="active">
 		<name>SiliconValley.pm</name>
 		<location>
 			<city></city>
@@ -5852,7 +5852,7 @@
 		<date type="inception"></date>
 	</group>
 
-	<group id="292" status="mlb">
+	<group id="292" status="active">
 		<name>AtlanticCity.pm</name>
 		<location>
 			<city>AtlanticCity</city>
@@ -5860,21 +5860,15 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-74.436927</longitude>
-			<latitude>39.358538</latitude>
+			<longitude>-74.496485</longitude>
+			<latitude>39.465305</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Derek Martin   </name>
-			<email type="personal"><user>derek1m1</user><domain>aol.com</domain></email>
+			<name>Rev. Mike Greb</name>
+			<email type="personal"><user>michael</user><domain>thegrebs.com</domain></email>
 		</tsar>
 		<web>http://atlanticcity.pm.org/</web>
-		<mailing_list>
-			<name>General AtlanticCity discussion</name>
-			<email type="list"><user>atlanticcity-pm</user><domain>hfb.pm.org</domain></email>
-			<email type="list_admin"><user>atlanticcity-pm-owner</user><domain>hfb.pm.org</domain></email>
-		</mailing_list>
-		<date type="inception"></date>
+		<date type="inception">20110927</date>
 	</group>
 
 	<group id="293" status="leb">
@@ -15714,6 +15708,42 @@
                 </tsar>
                 <web>http://plzen.pm.org/</web>
                 <date type="inception">20110830</date>
+        </group>
+        <group id="760" status="active">
+                <name>Sendai.pm</name>
+                <location>
+                        <city>Sendai</city>
+                        <state>Miyagi</state>
+                        <region></region>
+                        <country>Japan</country>
+                        <continent>Asia</continent>
+                        <longitude>140.869356</longitude>
+                        <latitude>38.268215</latitude>
+                </location>
+                <tsar>
+                        <name>Eikichi Gotoh</name>
+                        <email type="personal"><user>egopro.jp</user><domain>gmail.com</domain></email>
+                </tsar>
+                <web>http://sendai.pm.org/</web>
+                <date type="inception">20110927</date>
+        </group>
+        <group id="761" status="active">
+                <name>WestVirginia.pm</name>
+                <location>
+                        <city>Morgantown</city>
+                        <state>West Virginia</state>
+                        <region></region>
+                        <country>United States of America</country>
+                        <continent>North America</continent>
+                        <longitude>-79.950556</longitude>
+                        <latitude>39.633611</latitude>
+                </location>
+                <tsar>
+                        <name>Daniel Bolton</name>
+                        <email type="personal"><user>dbb008</user><domain>gmail.com</domain></email>
+                </tsar>
+                <web>http://westvirginia.pm.org/</web>
+                <date type="inception">20110927</date>
         </group>
 
 </perl_mongers>
