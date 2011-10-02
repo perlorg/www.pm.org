@@ -1,0 +1,1499 @@
+# Generated on October 1, 2011
+# using bin/archive_stats.pl
+# for the last 6 months (April - September)
+# gz files were skipped but I think none was encountered anyway
+# 404 means private archive. Probably in every case.
+Report for aarau-pm
+Total:  0
+People: 0
+Top:    0
+Report for abe-pm
+Total:  37
+People: 9
+Top:    14
+Report for aberdeen-pm
+Total:  0
+People: 0
+Top:    0
+Report for adelaide-pm
+Total:  25
+People: 9
+Top:    10
+Report for ahmedabad-pm
+Total:  0
+People: 0
+Top:    0
+Report for albany-pm
+Total:  0
+People: 0
+Top:    0
+Report for albuquerque-pm
+Total:  0
+People: 0
+Top:    0
+Report for amiga-pm
+Total:  0
+People: 0
+Top:    0
+Report for anchorage-pm
+Total:  0
+People: 0
+Top:    0
+Report for annarbor-pm
+Total:  19
+People: 5
+Top:    12
+Report for argentina-pm
+Total:  0
+People: 0
+Top:    0
+Report for asheville-pm
+Total:  0
+People: 0
+Top:    0
+Report for athens-pm
+Total:  0
+People: 0
+Top:    0
+Report for atlanta-pm
+atlanta-pm is 404
+Report for atlanticcity-pm
+Total:  0
+People: 0
+Top:    0
+Report for auckland-pm
+Total:  0
+People: 0
+Top:    0
+Report for baltimore-pm
+Total:  53
+People: 14
+Top:    19
+Report for bandung-pm
+Total:  24
+People: 13
+Top:    12
+Report for bangalore-pm
+Total:  56
+People: 16
+Top:    13
+Report for bangkok-pm
+Total:  1
+People: 1
+Top:    1
+Report for banking-pm
+Total:  0
+People: 0
+Top:    0
+Report for barcelona-pm
+Total:  0
+People: 0
+Top:    0
+Report for bath-pm
+Total:  0
+People: 0
+Top:    0
+Report for be-pm
+Total:  0
+People: 0
+Top:    0
+Report for beirut-pm
+Total:  0
+People: 0
+Top:    0
+Report for belfast-pm
+Total:  11
+People: 10
+Top:    2
+Report for berlin-pm
+berlin-pm is 404
+Report for bh-pm
+Total:  0
+People: 0
+Top:    0
+Report for bham-pm
+Total:  0
+People: 0
+Top:    0
+Report for bielefeld-pm
+Total:  54
+People: 6
+Top:    16
+Report for birmingham-pm
+birmingham-pm is 404
+Report for bloomington-normal-pm
+Total:  0
+People: 0
+Top:    0
+Report for bogota-pm
+Total:  0
+People: 0
+Top:    0
+Report for boise-pm
+Total:  0
+People: 0
+Top:    0
+Report for bologna-pm
+bologna-pm is 404
+Report for bombay-pm
+Total:  0
+People: 0
+Top:    0
+Report for bordeaux-pm
+Total:  0
+People: 0
+Top:    0
+Report for boston-pm
+boston-pm is 404
+Report for boulder-pm
+Total:  2
+People: 1
+Top:    2
+Report for bragancapaulista-pm
+Total:  0
+People: 0
+Top:    0
+Report for brasil-pm
+Total:  0
+People: 0
+Top:    0
+Report for brasilia-pm
+Total:  0
+People: 0
+Top:    0
+Report for bratislava-pm
+bratislava-pm is 404
+Report for brazosvalley-pm
+Total:  0
+People: 0
+Top:    0
+Report for breckenridge-pm
+Total:  0
+People: 0
+Top:    0
+Report for brisbane-pm
+Total:  0
+People: 0
+Top:    0
+Report for brno-pm
+Total:  0
+People: 0
+Top:    0
+Report for bruxelles-pm
+bruxelles-pm is 404
+Report for bucharest-pm
+Total:  0
+People: 0
+Top:    0
+Report for buenosaires-pm
+Total:  0
+People: 0
+Top:    0
+Report for buffalo-pm
+Total:  37
+People: 9
+Top:    11
+Report for burbank-pm
+Total:  0
+People: 0
+Top:    0
+Report for bursa-pm
+Total:  0
+People: 0
+Top:    0
+Report for calcutta-pm
+Total:  0
+People: 0
+Top:    0
+Report for calgary-pm
+Total:  0
+People: 0
+Top:    0
+Report for cam-pm
+Total:  0
+People: 0
+Top:    0
+Report for cambridge-pm
+Total:  0
+People: 0
+Top:    0
+Report for camelot-pm
+Total:  0
+People: 0
+Top:    0
+Report for canberra-pm
+Total:  4
+People: 3
+Top:    2
+Report for caracas-pm
+Total:  11
+People: 7
+Top:    3
+Report for cascais-pm
+Total:  0
+People: 0
+Top:    0
+Report for cascavel-pm
+Total:  0
+People: 0
+Top:    0
+Report for catalunya-pm
+Total:  0
+People: 0
+Top:    0
+Report for cedarfalls-pm
+Total:  0
+People: 0
+Top:    0
+Report for central-coast-pm
+Total:  0
+People: 0
+Top:    0
+Report for charleston-pm
+Total:  0
+People: 0
+Top:    0
+Report for charlottesville-pm
+Total:  0
+People: 0
+Top:    0
+Report for chemnitz-pm
+Total:  0
+People: 0
+Top:    0
+Report for china-pm
+Total:  0
+People: 0
+Top:    0
+Report for chisinau-pm
+Total:  0
+People: 0
+Top:    0
+Report for cinci-pm
+Total:  0
+People: 0
+Top:    0
+Report for cincinnati-pm
+Total:  0
+People: 0
+Top:    0
+Report for classiccity-pm
+Total:  0
+People: 0
+Top:    0
+Report for cleveland-pm
+Total:  0
+People: 0
+Top:    0
+Report for coasties-pm
+Total:  0
+People: 0
+Top:    0
+Report for coimbatore-pm
+Total:  0
+People: 0
+Top:    0
+Report for coimbra-pm
+Total:  0
+People: 0
+Top:    0
+Report for cola-pm
+Total:  0
+People: 0
+Top:    0
+Report for cologne-pm
+Total:  27
+People: 13
+Top:    6
+Report for columbia-pm
+Total:  0
+People: 0
+Top:    0
+Report for columbus-pm
+Total:  8
+People: 5
+Top:    4
+Report for comodoro-pm
+Total:  0
+People: 0
+Top:    0
+Report for costarica-pm
+Total:  0
+People: 0
+Top:    0
+Report for csy-pm
+Total:  0
+People: 0
+Top:    0
+Report for cypriots-pm
+Total:  0
+People: 0
+Top:    0
+Report for dahut-pm
+Total:  6
+People: 2
+Top:    5
+Report for dales-pm
+Total:  0
+People: 0
+Top:    0
+Report for darmstadt-pm
+darmstadt-pm is 404
+Report for delhi-pm
+Total:  1
+People: 1
+Top:    1
+Report for delmarva-pm
+Total:  0
+People: 0
+Top:    0
+Report for denver-pm
+Total:  0
+People: 0
+Top:    0
+Report for destin-pm
+Total:  0
+People: 0
+Top:    0
+Report for detroit-pm
+Total:  1
+People: 1
+Top:    1
+Report for devoncornwall-pm
+Total:  11
+People: 5
+Top:    6
+Report for dfw-pm
+Total:  56
+People: 20
+Top:    10
+Report for dominicanrepublic-pm
+Total:  0
+People: 0
+Top:    0
+Report for dresden-pm
+Total:  19
+People: 9
+Top:    5
+Report for dubai-pm
+Total:  0
+People: 0
+Top:    0
+Report for dublin-pm
+Total:  5
+People: 3
+Top:    2
+Report for duhok-pm
+Total:  0
+People: 0
+Top:    0
+Report for dullestech-pm
+Total:  0
+People: 0
+Top:    0
+Report for edinburgh-pm
+Total:  161
+People: 18
+Top:    34
+Report for eggperl-pm
+Total:  0
+People: 0
+Top:    0
+Report for egypt-pm
+Total:  0
+People: 0
+Top:    0
+Report for eindhoven-pm
+Total:  0
+People: 0
+Top:    0
+Report for elkins-pm
+Total:  0
+People: 0
+Top:    0
+Report for erlangen-pm
+erlangen-pm is 404
+Report for fairfax-pm
+Total:  0
+People: 0
+Top:    0
+Report for firenze-pm
+Total:  0
+People: 0
+Top:    0
+Report for florence-pm
+Total:  0
+People: 0
+Top:    0
+Report for florianopolis-pm
+Total:  0
+People: 0
+Top:    0
+Report for frankfurt-pm
+frankfurt-pm is 404
+Report for frederick-pm
+Total:  0
+People: 0
+Top:    0
+Report for fredericton-pm
+Total:  0
+People: 0
+Top:    0
+Report for gabrovo-pm
+Total:  0
+People: 0
+Top:    0
+Report for gainesville-pm
+gainesville-pm is 404
+Report for german-pm
+german-pm is 404
+Report for gettysburg-pm
+Total:  0
+People: 0
+Top:    0
+Report for goiania-pm
+Total:  0
+People: 0
+Top:    0
+Report for gombe-pm
+Total:  0
+People: 0
+Top:    0
+Report for groningen-pm
+Total:  53
+People: 8
+Top:    13
+Report for guapimirim-pm
+Total:  0
+People: 0
+Top:    0
+Report for guatemala-pm
+Total:  0
+People: 0
+Top:    0
+Report for gucheng-pm
+Total:  0
+People: 0
+Top:    0
+Report for guimaraes-pm
+Total:  0
+People: 0
+Top:    0
+Report for guincho-pm
+Total:  0
+People: 0
+Top:    0
+Report for hannover-pm
+hannover-pm is 404
+Report for hanoi-pm
+Total:  0
+People: 0
+Top:    0
+Report for hanover-pm
+Total:  0
+People: 0
+Top:    0
+Report for harrisburg-pm
+Total:  1
+People: 1
+Top:    1
+Report for hartford-pm
+Total:  0
+People: 0
+Top:    0
+Report for helsingborg-pm
+Total:  0
+People: 0
+Top:    0
+Report for helsinki-pm
+Total:  0
+People: 0
+Top:    0
+Report for hfb-pm
+Total:  0
+People: 0
+Top:    0
+Report for hongkong-pm
+hongkong-pm is 404
+Report for hradeckralove-pm
+Total:  0
+People: 0
+Top:    0
+Report for hudson-valley-pm
+Total:  0
+People: 0
+Top:    0
+Report for hull-pm
+Total:  0
+People: 0
+Top:    0
+Report for humboldt-pm
+Total:  0
+People: 0
+Top:    0
+Report for hyderabad-pm
+Total:  0
+People: 0
+Top:    0
+Report for indianapolis-pm
+Total:  0
+People: 0
+Top:    0
+Report for innsbruck-pm
+Total:  0
+People: 0
+Top:    0
+Report for iran-pm
+Total:  0
+People: 0
+Top:    0
+Report for italia-pm
+Total:  0
+People: 0
+Top:    0
+Report for ithaca-pm
+ithaca-pm is 404
+Report for jacksonville-pm
+Total:  0
+People: 0
+Top:    0
+Report for jakarta-pm
+Total:  0
+People: 0
+Top:    0
+Report for jalisco-pm
+Total:  0
+People: 0
+Top:    0
+Report for jerl-pm
+Total:  0
+People: 0
+Top:    0
+Report for kaiserslautern-pm
+Total:  5
+People: 1
+Top:    5
+Report for kalamazoo-pm
+Total:  0
+People: 0
+Top:    0
+Report for kamloops-pm
+Total:  0
+People: 0
+Top:    0
+Report for kampala-pm
+Total:  0
+People: 0
+Top:    0
+Report for kansai-pm
+Total:  0
+People: 0
+Top:    0
+Report for kaoh-pm
+Total:  0
+People: 0
+Top:    0
+Report for kaohsiung-pm
+Total:  0
+People: 0
+Top:    0
+Report for kathmandu-pm
+Total:  0
+People: 0
+Top:    0
+Report for kazan-pm
+Total:  0
+People: 0
+Top:    0
+Report for kiel-pm
+Total:  0
+People: 0
+Top:    0
+Report for knoxville-pm
+Total:  0
+People: 0
+Top:    0
+Report for kochi-pm
+Total:  0
+People: 0
+Top:    0
+Report for korea-pm
+Total:  0
+People: 0
+Top:    0
+Report for kostroma-pm
+Total:  0
+People: 0
+Top:    0
+Report for kpug-pm
+Total:  0
+People: 0
+Top:    0
+Report for krakow-pm
+Total:  0
+People: 0
+Top:    0
+Report for krasnodar-pm
+Total:  0
+People: 0
+Top:    0
+Report for ku-pm
+Total:  0
+People: 0
+Top:    0
+Report for kuta-pm
+Total:  0
+People: 0
+Top:    0
+Report for kw-pm
+Total:  28
+People: 12
+Top:    10
+Report for kyoto-pm
+Total:  0
+People: 0
+Top:    0
+Report for la-belle-pm
+Total:  0
+People: 0
+Top:    0
+Report for lafayette-pm
+Total:  0
+People: 0
+Top:    0
+Report for lagunaniguel-pm
+Total:  0
+People: 0
+Top:    0
+Report for lansing-pm
+Total:  0
+People: 0
+Top:    0
+Report for larioja-pm
+Total:  0
+People: 0
+Top:    0
+Report for lasvegas-pm
+Total:  6
+People: 3
+Top:    3
+Report for latina-pm
+Total:  0
+People: 0
+Top:    0
+Report for lebabnon-pm
+Total:  0
+People: 0
+Top:    0
+Report for leeds-pm
+leeds-pm is 404
+Report for leicester-pm
+Total:  0
+People: 0
+Top:    0
+Report for leuven-pm
+Total:  0
+People: 0
+Top:    0
+Report for lexington-pm
+Total:  0
+People: 0
+Top:    0
+Report for lgbt-pm
+Total:  1
+People: 1
+Top:    1
+Report for liege-pm
+Total:  0
+People: 0
+Top:    0
+Report for lima-pm
+Total:  0
+People: 0
+Top:    0
+Report for linnaeus-pm
+Total:  0
+People: 0
+Top:    0
+Report for linz-pm
+Total:  0
+People: 0
+Top:    0
+Report for logan-pm
+Total:  0
+People: 0
+Top:    0
+Report for long-valley-pm
+Total:  0
+People: 0
+Top:    0
+Report for losangeles-pm
+Total:  74
+People: 24
+Top:    17
+Report for louisville-pm
+louisville-pm is 404
+Report for lr-pm
+Total:  0
+People: 0
+Top:    0
+Report for lucerne-pm
+Total:  0
+People: 0
+Top:    0
+Report for lynchburg-pm
+Total:  0
+People: 0
+Top:    0
+Report for madrid-pm
+Total:  0
+People: 0
+Top:    0
+Report for madurai-pm
+Total:  0
+People: 0
+Top:    0
+Report for maine-pm
+Total:  1
+People: 1
+Top:    1
+Report for makati-pm
+Total:  0
+People: 0
+Top:    0
+Report for manchester-pm
+Total:  1
+People: 1
+Top:    1
+Report for manresa-pm
+Total:  0
+People: 0
+Top:    0
+Report for maracaibo-pm
+Total:  0
+People: 0
+Top:    0
+Report for maracay-pm
+Total:  0
+People: 0
+Top:    0
+Report for marseille-pm
+Total:  0
+People: 0
+Top:    0
+Report for marsneedswomen-pm
+Total:  0
+People: 0
+Top:    0
+Report for melbourne-pm
+Total:  147
+People: 40
+Top:    47
+Report for memphis-pm
+Total:  0
+People: 0
+Top:    0
+Report for miami-pm
+miami-pm is 404
+Report for mignon-pm
+Total:  0
+People: 0
+Top:    0
+Report for milan-pm
+Total:  18
+People: 4
+Top:    7
+Report for milano-pm
+Total:  0
+People: 0
+Top:    0
+Report for miltonkeynes-pm
+Total:  46
+People: 15
+Top:    11
+Report for milwaukee-pm
+Total:  0
+People: 0
+Top:    0
+Report for minsk-pm
+Total:  0
+People: 0
+Top:    0
+Report for mississippi-pm
+Total:  0
+People: 0
+Top:    0
+Report for mk-pm
+Total:  0
+People: 0
+Top:    0
+Report for modena-pm
+Total:  0
+People: 0
+Top:    0
+Report for monger-mag-pm
+Total:  0
+People: 0
+Top:    0
+Report for monterrey-pm
+Total:  0
+People: 0
+Top:    0
+Report for montreal-pm
+Total:  58
+People: 9
+Top:    20
+Report for morriscounty-pm
+Total:  0
+People: 0
+Top:    0
+Report for moscow-pm
+Total:  0
+People: 0
+Top:    0
+Report for mpls-pm
+Total:  23
+People: 12
+Top:    4
+Report for mumbai-pm
+Total:  1
+People: 1
+Top:    1
+Report for munich-pm
+Total:  60
+People: 21
+Top:    7
+Report for mus-pm
+Total:  0
+People: 0
+Top:    0
+Report for mytutorial-pm
+Total:  0
+People: 0
+Top:    0
+Report for nagoya-pm
+Total:  10
+People: 1
+Top:    10
+Report for nanuque-pm
+Total:  0
+People: 0
+Top:    0
+Report for napavalley-pm
+Total:  0
+People: 0
+Top:    0
+Report for nashua-pm
+Total:  0
+People: 0
+Top:    0
+Report for nashville-pm
+Total:  0
+People: 0
+Top:    0
+Report for ncsu-pm
+Total:  0
+People: 0
+Top:    0
+Report for neoklahoma-pm
+Total:  0
+People: 0
+Top:    0
+Report for nepenn-pm
+Total:  0
+People: 0
+Top:    0
+Report for new-zealand-pm
+Total:  0
+People: 0
+Top:    0
+Report for newcastle-pm
+Total:  0
+People: 0
+Top:    0
+Report for neworleans-pm
+Total:  0
+People: 0
+Top:    0
+Report for nh-pm
+Total:  8
+People: 5
+Top:    3
+Report for nicholasville-pm
+Total:  0
+People: 0
+Top:    0
+Report for niederrhein-pm
+Total:  0
+People: 0
+Top:    0
+Report for nomads-pm
+Total:  0
+People: 0
+Top:    0
+Report for nordest-pm
+nordest-pm is 404
+Report for norfolk-pm
+Total:  1
+People: 1
+Top:    1
+Report for north-attleboro-pm
+Total:  0
+People: 0
+Top:    0
+Report for north-co-pm
+Total:  0
+People: 0
+Top:    0
+Report for northfield-pm
+Total:  0
+People: 0
+Top:    0
+Report for nottingham-pm
+Total:  0
+People: 0
+Top:    0
+Report for nova-pm
+Total:  0
+People: 0
+Top:    0
+Report for nyc-perl-jobs-pm
+Total:  0
+People: 0
+Top:    0
+Report for oc-pm
+Total:  0
+People: 0
+Top:    0
+Report for odense-pm
+Total:  0
+People: 0
+Top:    0
+Report for odessa-pm
+Total:  0
+People: 0
+Top:    0
+Report for offutt-pm
+Total:  0
+People: 0
+Top:    0
+Report for okc-pm
+Total:  0
+People: 0
+Top:    0
+Report for oly-pm
+Total:  0
+People: 0
+Top:    0
+Report for omaha-pm
+Total:  79
+People: 21
+Top:    15
+Report for orlando-pm
+Total:  0
+People: 0
+Top:    0
+Report for ottawa-pm
+Total:  72
+People: 18
+Top:    16
+Report for oxford-pm
+Total:  0
+People: 0
+Top:    0
+Report for paderborn-pm
+paderborn-pm is 404
+Report for pakistan-pm
+Total:  0
+People: 0
+Top:    0
+Report for paris-pm
+paris-pm is 404
+Report for pbp-pm
+Total:  0
+People: 0
+Top:    0
+Report for peregrino-pm
+Total:  0
+People: 0
+Top:    0
+Report for perlmonks-pm
+Total:  0
+People: 0
+Top:    0
+Report for perth-pm
+Total:  27
+People: 10
+Top:    9
+Report for petropolis-pm
+Total:  0
+People: 0
+Top:    0
+Report for pgh-pm
+Total:  12
+People: 7
+Top:    6
+Report for ph-pm
+Total:  0
+People: 0
+Top:    0
+Report for philadelphia-pm
+Total:  93
+People: 28
+Top:    19
+Report for phoenix-pm
+Total:  38
+People: 12
+Top:    21
+Report for phperl-pm
+Total:  0
+People: 0
+Top:    0
+Report for pikes-peak-pm
+Total:  14
+People: 2
+Top:    10
+Report for pioneer-valley-pm
+Total:  0
+People: 0
+Top:    0
+Report for pisa-pm
+pisa-pm is 404
+Report for plovdiv-pm
+Total:  0
+People: 0
+Top:    0
+Report for plymouth-pm
+Total:  0
+People: 0
+Top:    0
+Report for poneke-pm
+Total:  0
+People: 0
+Top:    0
+Report for porto-pm
+Total:  0
+People: 0
+Top:    0
+Report for portoalegre-pm
+Total:  0
+People: 0
+Top:    0
+Report for poznan-pm
+Total:  0
+People: 0
+Top:    0
+Report for prague-pm
+Total:  0
+People: 0
+Top:    0
+Report for princeton-pm
+Total:  1
+People: 1
+Top:    1
+Report for purdue-pm
+Total:  75
+People: 10
+Top:    22
+Report for qatar-pm
+Total:  1
+People: 1
+Top:    1
+Report for quito-pm
+Total:  0
+People: 0
+Top:    0
+Report for raleigh-pm
+raleigh-pm is 404
+Report for reading-pm
+Total:  0
+People: 0
+Top:    0
+Report for recife-pm
+Total:  0
+People: 0
+Top:    0
+Report for renotahoe-pm
+Total:  0
+People: 0
+Top:    0
+Report for rio-pm
+Total:  0
+People: 0
+Top:    0
+Report for rochester-pm
+Total:  0
+People: 0
+Top:    0
+Report for roederbergweg-pm
+Total:  0
+People: 0
+Top:    0
+Report for rostovondon-pm
+Total:  0
+People: 0
+Top:    0
+Report for ruhr-pm
+Total:  38
+People: 6
+Top:    22
+Report for saarland-pm
+Total:  0
+People: 0
+Top:    0
+Report for sachsen-pm
+Total:  0
+People: 0
+Top:    0
+Report for salem-pm
+Total:  0
+People: 0
+Top:    0
+Report for salerno-pm
+Total:  0
+People: 0
+Top:    0
+Report for saltlake-pm
+Total:  0
+People: 0
+Top:    0
+Report for salvador-pm
+Total:  0
+People: 0
+Top:    0
+Report for samara-pm
+Total:  0
+People: 0
+Top:    0
+Report for san-diego-pm
+Total:  41
+People: 12
+Top:    20
+Report for sanangelo-pm
+Total:  0
+People: 0
+Top:    0
+Report for sancristobal-pm
+Total:  0
+People: 0
+Top:    0
+Report for sanfrancisco-pm
+Total:  213
+People: 53
+Top:    46
+Report for santa-rosa-pm
+Total:  6
+People: 1
+Top:    6
+Report for santabarbara-pm
+Total:  0
+People: 0
+Top:    0
+Report for santander-pm
+Total:  0
+People: 0
+Top:    0
+Report for santodomingo-pm
+Total:  0
+People: 0
+Top:    0
+Report for saopaulo-pm
+Total:  0
+People: 0
+Top:    0
+Report for sarasota-pm
+Total:  0
+People: 0
+Top:    0
+Report for semarang-pm
+Total:  0
+People: 0
+Top:    0
+Report for sendai-pm
+Total:  0
+People: 0
+Top:    0
+Report for sheffield-pm
+Total:  0
+People: 0
+Top:    0
+Report for sherman-oaks-pm
+Total:  0
+People: 0
+Top:    0
+Report for shibuya-pm
+Total:  0
+People: 0
+Top:    0
+Report for singapore-pm
+Total:  1
+People: 1
+Top:    1
+Report for sofia-pm
+Total:  6
+People: 5
+Top:    2
+Report for sonoma-pm
+Total:  0
+People: 0
+Top:    0
+Report for southampton-pm
+Total:  0
+People: 0
+Top:    0
+Report for southernoregon-pm
+Total:  0
+People: 0
+Top:    0
+Report for southflorida-pm
+southflorida-pm is 404
+Report for spb-pm
+Total:  18
+People: 8
+Top:    7
+Report for springfieldmo-pm
+Total:  0
+People: 0
+Top:    0
+Report for srilanka-pm
+Total:  0
+People: 0
+Top:    0
+Report for st-anna-pm
+Total:  0
+People: 0
+Top:    0
+Report for stamford-pm
+Total:  0
+People: 0
+Top:    0
+Report for stonybrook-pm
+Total:  0
+People: 0
+Top:    0
+Report for stuttgart-pm
+stuttgart-pm is 404
+Report for swok-pm
+Total:  0
+People: 0
+Top:    0
+Report for sydney-pm
+sydney-pm is 404
+Report for szczecin-pm
+Total:  0
+People: 0
+Top:    0
+Report for taichung-pm
+Total:  0
+People: 0
+Top:    0
+Report for taipei-pm
+Total:  0
+People: 0
+Top:    0
+Report for tallinn-pm
+Total:  0
+People: 0
+Top:    0
+Report for tampa-pm
+Total:  0
+People: 0
+Top:    0
+Report for tarc2000-pm
+Total:  0
+People: 0
+Top:    0
+Report for taubate-pm
+Total:  0
+People: 0
+Top:    0
+Report for tempe-pm
+Total:  0
+People: 0
+Top:    0
+Report for terere-pm
+Total:  0
+People: 0
+Top:    0
+Report for thailand-pm
+Total:  0
+People: 0
+Top:    0
+Report for thamesvalley-pm
+Total:  5
+People: 3
+Top:    3
+Report for thane-pm
+Total:  0
+People: 0
+Top:    0
+Report for thewoodlands-pm
+Total:  0
+People: 0
+Top:    0
+Report for thousand-oaks-pm
+Total:  48
+People: 16
+Top:    16
+Report for tijuana-pm
+Total:  0
+People: 0
+Top:    0
+Report for timbuktu-pm
+Total:  0
+People: 0
+Top:    0
+Report for timisoara-pm
+Total:  1
+People: 1
+Top:    1
+Report for tokyo-pm
+Total:  0
+People: 0
+Top:    0
+Report for toledo-pm
+Total:  0
+People: 0
+Top:    0
+Report for tolyatti-pm
+Total:  0
+People: 0
+Top:    0
+Report for tomar-pm
+Total:  0
+People: 0
+Top:    0
+Report for toowoomba-pm
+Total:  0
+People: 0
+Top:    0
+Report for torino-pm
+Total:  0
+People: 0
+Top:    0
+Report for toronto-pm
+Total:  151
+People: 44
+Top:    38
+Report for toulouse-pm
+Total:  3
+People: 2
+Top:    2
+Report for triangulo-pm
+Total:  0
+People: 0
+Top:    0
+Report for tulsa-pm
+Total:  0
+People: 0
+Top:    0
+Report for turkperl-pm
+Total:  0
+People: 0
+Top:    0
+Report for tutorial-pm
+Total:  0
+People: 0
+Top:    0
+Report for tyneside-pm
+Total:  0
+People: 0
+Top:    0
+Report for ukraine-pm
+Total:  0
+People: 0
+Top:    0
+Report for uppsala-pm
+Total:  0
+People: 0
+Top:    0
+Report for valladolid-pm
+Total:  0
+People: 0
+Top:    0
+Report for vallekas-pm
+Total:  0
+People: 0
+Top:    0
+Report for vancouver-pm
+Total:  5
+People: 4
+Top:    2
+Report for varna-pm
+Total:  0
+People: 0
+Top:    0
+Report for viana-pm
+Total:  0
+People: 0
+Top:    0
+Report for victoria-pm
+Total:  1
+People: 1
+Top:    1
+Report for vienna-pm
+Total:  100
+People: 20
+Top:    21
+Report for vladivostok-pm
+Total:  0
+People: 0
+Top:    0
+Report for voronezh-pm
+Total:  0
+People: 0
+Top:    0
+Report for warszawa-pm
+Total:  49
+People: 9
+Top:    23
+Report for wayne-pm
+Total:  0
+People: 0
+Top:    0
+Report for wellington-pm
+Total:  37
+People: 12
+Top:    20
+Report for westernmontana-pm
+Total:  7
+People: 5
+Top:    2
+Report for whitemountain-pm
+whitemountain-pm is 404
+Report for whyalla-pm
+Total:  0
+People: 0
+Top:    0
+Report for wichita-pm
+Total:  0
+People: 0
+Top:    0
+Report for wilmore-pm
+Total:  0
+People: 0
+Top:    0
+Report for windycity-pm
+Total:  15
+People: 5
+Top:    7
+Report for woosteroh-pm
+Total:  0
+People: 0
+Top:    0
+Report for yerevan-pm
+Total:  0
+People: 0
+Top:    0
+Report for yokohama-pm
+Total:  0
+People: 0
+Top:    0
+Report for za-pm
+Total:  0
+People: 0
+Top:    0
+Report for zurich-pm
+Total:  4
+People: 3
+Top:    2
