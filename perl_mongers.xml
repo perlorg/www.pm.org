@@ -960,7 +960,7 @@
 			<country>United States of America</country>
 			<continent>North America</continent>
 			<longitude>-95.677068</longitude>
-			<latitude>37.0625</latitude><!-- was 29.7503 -->
+			<latitude>29.7503</latitude>
 		</location>
 		<email type="group"></email>
 		<tsar>
