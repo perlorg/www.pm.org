@@ -427,7 +427,7 @@
 		<date type="inception">19990607</date>
 	</group>
 	
-	<group id="16" status="active">
+	<group id="16" status="sleeping">
 		<name>Champaign-Urbana.pm</name>
 		<location>
 			<city></city>
@@ -444,11 +444,6 @@
 			<email type="personal"><user>lewart</user><domain>uiuc.edu</domain></email>
 		</tsar>
 		<web>http://champaign-urbana.pm.org/</web>
-		<mailing_list>
-			<name>General Champaign-Urbana.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-		</mailing_list>
 		<date type="inception">19980808</date>
 	</group>
 	
@@ -2332,28 +2327,22 @@
 		<date type="inception">19990503</date>
 	</group>
 	
-	<group id="108" status="leb">
+	<group id="108" status="active">
 		<name>Curitiba.pm</name>
 		<location>
 			<city>Curitiba</city>
-			<state></state>
+			<state>Paraná</state>
 			<region></region>
 			<country>Brazil</country>
 			<continent>South America</continent>
 			<longitude>-49.25</longitude>
-			<latitude>-25.416</latitude>
+			<latitude>-25.416667</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Adriano de Camargo Bueno</name>
-			<email type="personal"><user>acb</user><domain>email.com</domain></email>
+			<name>Felipe Leprevost</name>
+			<email type="personal"><user>leprevostfv</user><domain>gmail.com</domain></email>
 		</tsar>
 		<web>http://curitiba.pm.org/</web>
-		<mailing_list>
-			<name>General Curitiba.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-		</mailing_list>
 		<date type="inception">19981124</date>
 	</group>
 	
@@ -11422,29 +11411,22 @@
 		<date type="inception">20020925</date>
 	</group>
 
-	<group id="542" status="inactive">
-	<!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
-		<name>Maine.pm</name>
+	<group id="542" status="active">
+		<name>PortlandMaine.pm</name>
 		<location>
 			<city>Portland</city>
 			<state>Maine</state>
 			<region>New England</region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude></longitude>
-			<latitude></latitude>
+			<longitude>-70.32</longitude>
+			<latitude>43.65</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Joe Minieri</name>
-			<email type="personal"><user>jminieri</user><domain>mindspring.com</domain></email>
+			<name>Scott Adams</name>
+			<email type="personal"><user>scott</user><domain>codewriter.info</domain></email>
 		</tsar>
-		<web>http://Maine.pm.org/</web>
-		<mailing_list>
-			<name>General Portland Perl Mongers discussion</name>
-			<email type="list"><user>Maine-pm</user><domain>pm.org</domain></email>
-			<email type="list_admin"><user>jminieri</user><domain>mindspring.com</domain></email>
-		</mailing_list>
+		<web>http://PortlandMaine.pm.org/</web>
 		<date type="inception">20020929</date>
 	</group>
 
