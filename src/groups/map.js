@@ -18,8 +18,8 @@ function onLoad() {
   //map.centerAndZoom(new GPoint(-78.6588, 35.8219), 16);
   map.centerAndZoom(new GPoint(0.0, 18.0), 15);
   var spamicon = new GIcon();
-  spamicon.image = "http://labs.google.com/ridefinder/images/mm_20_red.png";
-  spamicon.shadow = "http://labs.google.com/ridefinder/images/mm_20_shadow.png";
+  spamicon.image = "map.mm_20_red.png";
+  spamicon.shadow = "map.mm_20_shadow.png";
   spamicon.iconSize = new GSize(12, 20);
   spamicon.shadowSize = new GSize(22, 20);
   spamicon.iconAnchor = new GPoint(6, 20);
