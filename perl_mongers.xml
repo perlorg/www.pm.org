@@ -15726,6 +15726,24 @@
                 <web>http://westvirginia.pm.org/</web>
                 <date type="inception">20110927</date>
         </group>
+        <group id="762" status="active">
+                <name>Kerman.pm</name>
+                <location>
+                        <city>Kerman</city>
+                        <state>Kerman</state>
+                        <region></region>
+                        <country>Iran</country>
+                        <continent>Asia</continent>
+                        <longitude>57.247079</longitude>
+                        <latitude>30.047564</latitude>
+                </location>
+                <tsar>
+                        <name>Mohammadreza Abdollahzadeh</name>
+                        <email type="personal"><user>morealaz</user><domain>gmail.com</domain></email>
+                </tsar>
+                <web>http://kerman.pm.org/</web>
+                <date type="inception">20111127</date>
+        </group>
 
 </perl_mongers>
 <!-- 2010.05.21 Be.pm, mailing list empty, web site from 2002, it was not in this xml at all -  TODO:DELETE - szabgab -->
