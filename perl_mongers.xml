@@ -1262,7 +1262,7 @@
 		<date type="inception">20060628</date>
 	</group>
 	
-	<group id="57" status="active">
+	<group id="57" status="sleeping">
 		<name>Miami.pm</name>
 		<location>
 			<city>Miami</city>
@@ -3102,7 +3102,6 @@
 			<longitude>-3.800</longitude>
 			<latitude>43.450</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Borja Toron</name>
 			<email type="personal"><user>toronb</user><domain>atc.unican.es</domain></email>
@@ -3111,7 +3110,7 @@
 		<date type="inception">19990503</date>
 	</group>
 	
-	<group id="150" status="leb">
+	<group id="150" status="active">
 		<name>Southampton.pm</name>
 		<location>
 			<city>Southampton</city>
@@ -3119,20 +3118,14 @@
 			<region>England</region>
 			<country>United Kingdom</country>
 			<continent>Europe</continent>
-			<longitude>-1.3903</longitude>
-			<latitude>50.9061</latitude>
+			<longitude>-1.40416</longitude>
+			<latitude>50.90226</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Pap Taylor</name>
-			<email type="personal"><user>pap</user><domain>sotonians.net</domain></email>
+			<name>Tim Retout</name>
+			<email type="personal"><user>tim</user><domain>retout.co.uk</domain></email>
 		</tsar>
 		<web>http://southampton.pm.org/</web>
-		<mailing_list>
-			<name>General Southampton.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-		</mailing_list>
 		<date type="inception">19990503</date>
 	</group>
 	
@@ -15743,6 +15736,42 @@
                 </tsar>
                 <web>http://kerman.pm.org/</web>
                 <date type="inception">20111127</date>
+        </group>
+        <group id="763" status="active">
+                <name>Mumbai.pm</name>
+                <location>
+                        <city>Mumbai</city>
+                        <state>Maharashtra</state>
+                        <region></region>
+                        <country>India</country>
+                        <continent>Asia</continent>
+                        <longitude>73.02959650754928</longitude>
+                        <latitude>19.166709648838974</latitude>
+                </location>
+                <tsar>
+                        <name>Irfan Shaikh</name>
+                        <email type="personal"><user>Irfan.shaikh</user><domain>me.com</domain></email>
+                </tsar>
+                <web>http://mumbai.pm.org/</web>
+                <date type="inception">20120112</date>
+        </group>
+        <group id="764" status="active">
+                <name>Weston.pm</name>
+                <location>
+                        <city>Weston</city>
+                        <state>Florida</state>
+                        <region></region>
+                        <country>United States of America</country>
+                        <continent>North America</continent>
+                        <longitude>-80.4</longitude>
+                        <latitude>26.1</latitude>
+                </location>
+                <tsar>
+                        <name>Richard Bucker</name>
+                        <email type="personal"><user>richard</user><domain>bucker.net</domain></email>
+                </tsar>
+                <web>http://weston.pm.org/</web>
+                <date type="inception">20120112</date>
         </group>
 
 </perl_mongers>
