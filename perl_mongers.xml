@@ -2224,10 +2224,9 @@
 			<longitude>-79.416</longitude>
 			<latitude>43.666</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Mike Stok</name>
-			<email type="personal"><user>mike</user><domain>stock.ca</domain></email>
+			<name>J Z Tam</name>
+			<email type="personal"><user>jztam</user><domain>yahoo.com</domain></email>
 		</tsar>
 		<web>http://to.pm.org/</web>
 		<date type="inception">19980916</date>
