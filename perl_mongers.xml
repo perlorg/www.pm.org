@@ -3548,7 +3548,6 @@
 			<longitude>144.966</longitude>
 			<latitude>-37.816</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Scott Penrose</name>
 			<email type="personal"><user>scottp</user><domain>dd.com.au</domain></email>
@@ -3556,8 +3555,6 @@
 		<web>http://melbourne.pm.org/</web>
 		<mailing_list>
 			<name>General Melbourne Perl Mongers discussion</name>
-			<email type="list"><user>melbourne-pm</user><domain>pm.org</domain></email>
-			<email type="list_admin"><user>sharkey</user><domain>zoic.org</domain></email>
 		</mailing_list>
 		<date type="inception">19980730</date>
 	</group>
@@ -3889,7 +3886,7 @@
 		<date type="inception">19990131</date>
 	</group>
 	
-	<group id="190" status="inactive">
+	<group id="190" status="active">
 		<name>Kyoto.pm</name>
 		<location>
 			<city>Kyoto</city>
@@ -3897,15 +3894,14 @@
 			<region></region>
 			<country>Japan</country>
 			<continent>Asia</continent>
-			<longitude>135.767</longitude>
-			<latitude>34.983</latitude>
+			<longitude>135.777236</longitude>
+			<latitude>35.003759</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
-			<name>Thai</name>
-			<email type="personal"><user>akasaka</user><domain>mx.biwa.ne.jp</domain></email>
+			<name>Yuki Shibazaki</name>
+			<email type="personal"><user>shibayu36</user><domain>gmail.com</domain></email>
 		</tsar>
-		<web></web>
+		<web>http://kyoto.pm.org</web>
 		<date type="inception">19990503</date>
 	</group>
 	
@@ -11500,7 +11496,7 @@
 		<date type="inception">20021121</date>
 	</group>
 
-	<group id="511" status="inactive">
+	<group id="511" status="active">
 		<name>Guatemala.pm</name>
 		<location>
 			<city></city>
@@ -11511,17 +11507,11 @@
 			<longitude></longitude>
 			<latitude></latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Gerardo Santove&ntilde;a</name>
 			<email type="personal"><user>santo</user><domain>galileo.edu</domain></email>
 		</tsar>
 		<web>http://guatemala.pm.org/</web>
-		<mailing_list>
-			<name>General Guatemala Perl Mongers discussion</name>
-			<email type="list"><user>guatemala-pm</user><domain>pm.org</domain></email>
-			<email type="list_admin"><user>santo</user><domain>galileo.edu</domain></email>
-		</mailing_list>
 		<date type="inception">20021121</date>
 	</group>
 
@@ -15770,6 +15760,24 @@
                 </tsar>
                 <web>http://weston.pm.org/</web>
                 <date type="inception">20120112</date>
+        </group>
+        <group id="765" status="active">
+                <name>Cluj.pm</name>
+                <location>
+                        <city>Cluj Napoca</city>
+                        <state>Cluj</state>
+                        <region></region>
+                        <country>Romania</country>
+                        <continent>Europe</continent>
+                        <longitude>23.6</longitude>
+                        <latitude>46.7667</latitude>
+                </location>
+                <tsar>
+                        <name>Robert Masic</name>
+                        <email type="personal"><user>robert.masic</user><domain>evozon.com</domain></email>
+                </tsar>
+                <web>http://cluj.pm.org/</web>
+                <date type="inception">20120302</date>
         </group>
 
 </perl_mongers>
