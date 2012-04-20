@@ -13336,8 +13336,9 @@
 		<date type="inception">19990707</date>
 	</group>
 
-	<group id="636" status="active">
-	<!-- 2010.05.24 web site seem to be broken, mailin list had one message in 2007, mail sent -  TODO szabgab -->
+	<group id="636" status="inactive">
+	<!-- 2010.05.24 web site seem to be broken, mailing list had one message in 2007, mail sent - szabgab -->
+    <!-- 2012.04.20 same status. marking inactive - szabgab -->
 		<name>Yerevan.pm</name>
 		<location>
 			<city>Yerevan</city>
