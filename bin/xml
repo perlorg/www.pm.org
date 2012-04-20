@@ -102,6 +102,7 @@ my $tt = Template->new({
 			TRIM => 1,
 			EVAL_PERL => 1 ,
 			INCLUDE_PATH => ['.', 'lib', 'src'],
+			ENCODING => 'utf8',
 			# PROCESS => 'layout',
 		});
 
@@ -199,7 +200,8 @@ foreach my $g ($doc->findnodes('//group')) {
 
 	unless (-f "www/groups/$id.html") {
 		$group->{description} = "Perl Mongers $location is the Perl users group that organizes meetings";
-		$tt->process('src/groups/group.html', $group, "www/groups/$id.html")
+		#print "PROCESS group: www/groups/$id.html\n";
+		$tt->process('src/groups/group.html', $group, "www/groups/$id.html", binmode => ':utf8')
 			|| die $tt->error();
 	}
 }
@@ -239,7 +241,8 @@ foreach my $continent (@continents) {
 					#states    => \%states,
 				};
 				$conf->{description} = "Perl Mongers in $state are the Perl users groups that organize meetings";
-				$tt->process('src/groups/country.html', $conf, "www/groups/$states{$state}") || die $tt->error();
+				#print "PROCESS US state: www/groups/$states{$state}\n";
+				$tt->process('src/groups/country.html', $conf, "www/groups/$states{$state}", binmode => ':utf8') || die $tt->error();
 			}
 		} else {
 			$groups->{$country} = [ 
@@ -263,7 +266,8 @@ foreach my $continent (@continents) {
 			states    => \%states,
 		};
 		$conf->{description} = "Perl Mongers in $country are the Perl users groups that organize meetings";
-		$tt->process('src/groups/country.html', $conf, $country_file) || die $tt->error();
+		#print "PROCESS country: $country_file\n";
+		$tt->process('src/groups/country.html', $conf, $country_file, binmode => ':utf8') || die $tt->error();
 	}
 
 	warn "WARN: Missing map_coordinates for $name" if not $map_coordinates{$name};
@@ -278,7 +282,8 @@ foreach my $continent (@continents) {
 	};
 
 	$conf->{description} = "Perl Mongers in $continent are the Perl users groups that organize meetings";
-	$tt->process('src/groups/continent.html', $conf, $file) || die $tt->error();
+	#print "PROCESS continent: $file\n";
+	$tt->process('src/groups/continent.html', $conf, $file, binmode => ':utf8') || die $tt->error();
 }
 
 {
@@ -315,7 +320,8 @@ foreach my $continent (@continents) {
 			copy($file, $destfile);
 		} else {
 			$parms->{description} = "Perl Mongers organise local Perl user groups and meetings";
-			$tt->process($file, $parms, $destfile) || die $tt->error;
+			#print "PROCESS: $destfile\n";
+			$tt->process($file, $parms, $destfile, binmode => ':utf8') || die $tt->error;
 		}
 	}
 }
