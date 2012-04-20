@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" standalone="no"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN" 
 	"http://www.pm.org/groups/perl_mongers.dtd"
 [
@@ -11498,7 +11498,7 @@
 	<group id="511" status="active">
 		<name>Guatemala.pm</name>
 		<location>
-			<city></city>
+			<city>Guatemala</city>
 			<state></state>
 			<region></region>
 			<country>Guatemala</country>
@@ -15113,8 +15113,8 @@
         <!-- 2010.05.25 admin wrote that they are active, website redirects to mailing list, there are a few messages - szabgab -->
                 <name>SanCristobal.pm</name>
                 <location>
-                        <city>San Crist&oacute;bal</city>
-                        <state>T&aacute;chira</state>
+                        <city>San Cristóbal</city>
+                        <state>Táchira</state>
                         <region>Occidental</region>
                         <country>Venezuela</country>
                         <continent>South America</continent>
@@ -15158,7 +15158,7 @@
                         <latitude>-0.25</latitude>
                 </location>
                 <tsar>
-                        <name>JosÃ© Miguel Parrella Romero</name>
+                        <name>José Miguel Parrella Romero</name>
                         <email type="personal"><user>joseparrella</user><domain>gmail.com</domain></email>
                 </tsar>
                 <web>http://quito.pm.org</web>
