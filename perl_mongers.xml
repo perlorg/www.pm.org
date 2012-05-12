@@ -473,6 +473,7 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
+s
 			<longitude>-78.476</longitude>
 			<latitude>38.029</latitude>
 		</location>
@@ -700,11 +701,11 @@
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-93.603709</longitude>
-			<latitude>41.591086</latitude>
+			<longitude>-93.620833</longitude>
+			<latitude>41.590833</latitude>
 		</location>
 		<tsar>
-			<name>Jon Backstrom</name>
+			<name>Will Rubel</name>
 			<email type="personal"><user>backstrom</user><domain>yahoo.com</domain></email>
 		</tsar>
 		<web>http://desmoines.pm.org</web>
@@ -1136,7 +1137,7 @@
 		<date type="inception">19990120</date>
 	</group>
 	
-	<group id="51" status="gone">
+	<group id="51" status="active">
 		<name>LasVegas.pm</name>
 		<location>
 			<city>Las Vegas</city>
@@ -1144,12 +1145,12 @@
 			<region>Clark County</region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-115.235088</longitude>
-			<latitude>36.189741</latitude>
+			<longitude>-115.1658417</longitude>
+			<latitude>36.1272588</latitude>
 		</location>
 		<tsar>
-			<name>Chris Hart</name>
-			<email type="personal"><user>the.hippsta</user><domain>gmail.com</domain></email>
+			<name>Jon Unger</name>
+			<email type="personal"><user>junger8</user><domain>gmail.com</domain></email>
 		</tsar>
 		<web>http://lasvegas.pm.org/</web>
 		<date type="inception">19990105</date>
@@ -2255,7 +2256,7 @@
 		<date type="inception">19980826</date>
 	</group>
 	
-	<group id="105" status="active">
+	<group id="105" status="sleeping">
 		<name>Winnipeg.pm</name>
 		<location>
 			<city>Winnipeg</city>
@@ -2854,7 +2855,7 @@
 		</location>
 		<email type="group"></email>
 		<tsar>
-			<name>Simon Wistow</name>
+			<name>Tom Hukins</name>
 			<email type="personal"><user>leader</user><domain>london.pm.org</domain></email>
 		</tsar>
 		<web>http://london.pm.org/</web>
@@ -11310,7 +11311,7 @@
 		<web>http://SpringfieldMO.pm.org/</web>
 		<date type="inception">20020925</date>
 	</group>
-	<group id="537" status="active">
+	<group id="537" status="sleeping">
 		<name>Canberra.pm</name>
 		<location>
 			<city>Canberra</city>
@@ -15778,6 +15779,24 @@
                 </tsar>
                 <web>http://cluj.pm.org/</web>
                 <date type="inception">20120302</date>
+        </group>
+        <group id="766" status="active">
+                <name>Niigata.pm</name>
+                <location>
+                        <city>Niigata</city>
+                        <state>Niigata</state>
+                        <region></region>
+                        <country>Japan</country>
+                        <continent>Asia</continent>
+                        <longitude>139.021</longitude>
+                        <latitude>37.5459</latitude>
+                </location>
+                <tsar>
+                        <name>Shinpei Maruyama</name>
+                        <email type="personal"><user>shinpeim</user><domain>gmail.com</domain></email>
+                </tsar>
+                <web>http://niigata.pm.org/</web>
+                <date type="inception">20120511</date>
         </group>
 
 </perl_mongers>
