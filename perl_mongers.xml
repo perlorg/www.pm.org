@@ -692,8 +692,7 @@ s
 		<date type="inception">19981124</date>
 	</group>
 	
-	<group id="29" status="inactive">
-                <!-- No contact info on site, only old information. -jhannah 20100623 -->
+	<group id="29" status="active">
 		<name>DesMoines.pm</name>
 		<location>
 			<city>Des Moines</city>
@@ -706,7 +705,7 @@ s
 		</location>
 		<tsar>
 			<name>Will Rubel</name>
-			<email type="personal"><user>backstrom</user><domain>yahoo.com</domain></email>
+			<email type="personal"><user>will.rubel</user><domain>gmail.com</domain></email>
 		</tsar>
 		<web>http://desmoines.pm.org</web>
 		<date type="inception">19990503</date>
@@ -15788,8 +15787,8 @@ s
                         <region></region>
                         <country>Japan</country>
                         <continent>Asia</continent>
-                        <longitude>139.021</longitude>
-                        <latitude>37.5459</latitude>
+                        <longitude>139.036531</longitude>
+                        <latitude>37.915967</latitude>
                 </location>
                 <tsar>
                         <name>Shinpei Maruyama</name>
