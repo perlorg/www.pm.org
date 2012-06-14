@@ -15797,6 +15797,24 @@ s
                 <web>http://niigata.pm.org/</web>
                 <date type="inception">20120511</date>
         </group>
+        <group id="767" status="active">
+                <name>Hardware.pm</name>
+                <location>
+                        <city></city>
+                        <state></state>
+                        <region></region>
+                        <country></country>
+                        <continent></continent>
+                        <longitude></longitude>
+                        <latitude></latitude>
+                </location>
+                <tsar>
+                        <name>Robert Blackwell</name>
+                        <email type="personal"><user>robert</user><domain>robertblackwell.com</domain></email>
+                </tsar>
+                <web>http://hardware.pm.org/</web>
+                <date type="inception">20120614</date>
+        </group>
 
 </perl_mongers>
 <!-- 2010.05.21 Be.pm, mailing list empty, web site from 2002, it was not in this xml at all -  TODO:DELETE - szabgab -->
