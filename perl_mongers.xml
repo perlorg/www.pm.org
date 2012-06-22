@@ -500,6 +500,10 @@ s
 			<name>Andy Lester</name>
 			<email type="personal"><user>andy</user><domain>petdance.com</domain></email>
 		</tsar>
+		<tsar>
+			<name>Doug Bell</name>
+			<email type="personal"><user>madcityzen</user><domain>gmail.com</domain></email>
+		</tsar>
 		<web>http://chicago.pm.org/</web>
 		<date type="inception">19980410</date>
 	</group>
@@ -3548,8 +3552,8 @@ s
 			<latitude>-37.816</latitude>
 		</location>
 		<tsar>
-			<name>Scott Penrose</name>
-			<email type="personal"><user>scottp</user><domain>dd.com.au</domain></email>
+			<name>Toby Corkindale</name>
+			<email type="personal"><user>toby</user><domain>dryft.net</domain></email>
 		</tsar>
 		<web>http://melbourne.pm.org/</web>
 		<mailing_list>
@@ -14545,7 +14549,7 @@ s
                 <web>http://sanangelo.pm.org</web>
                 <date type="inception">20070111</date>
         </group>
-        <group id="698" status="active">
+        <group id="698" status="inactive">
         <!-- 2010.05.30, they are using chicago.pm.org for now #74952 -->
                 <name>WindyCity.pm</name>
                 <location>
