@@ -1,19 +1,28 @@
 [% PERL %]
 use File::Spec::Functions qw(abs2rel catfile splitpath);
 my $template = '/' . $stash->get('template.name');
-my $url = $stash->get('url');
+my $url      = $stash->get('url');
 
-if ($url !~ /http/) {
+if ( $url !~ /http/ ) {
   $url =~ s{^/}{};
+
+  my $is_dir = -d "src/$url" ? 1 : 0;
+
   $url = catfile "/src", $url;
-#  $url .= 'index.html' if $url =~ m|/$|;
-  my($volume, $directories, $filepart) = splitpath($template);
-  my $uri = abs2rel($url, $directories);
-#  warn "$template -> $url = $uri\n";
+
+  my ( $volume, $directories, $filepart ) = splitpath($template);
+  my $uri = abs2rel( $url, $directories );
+  $uri .= '/' if $is_dir;
+
+  # warn "$template -> $url = $uri\n";
   print $uri;
+
 } else {
-#  warn "$template -> $url = $url (URL)\n";
+
+  #  warn "$template -> $url = $url (URL)\n";
   print $url;
+
 }
+
 [% END %]
 
