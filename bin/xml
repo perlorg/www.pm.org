@@ -1,10 +1,10 @@
 #!/usr/bin/perl -w
 
 use strict;
-use Data::Dumper          qw(Dumper);
-use File::Copy            qw(copy);
+use Data::Dumper qw(Dumper);
+use File::Copy qw(copy);
 use File::Find::Rule;
-use File::Path            qw(mkpath);
+use File::Path qw(mkpath);
 use File::Spec::Functions qw(splitpath);
 use Template;
 use XML::LibXML;
@@ -15,96 +15,95 @@ my %ids;
 
 $| = 1;
 
-
 # longitude, latitude, zoom
 my %map_coordinates = (
-    africa           => [20, -1, 3],
-    asia             => [95, 45, 2],
-    central_america  => [-76,  9, 3],
-	europe           => [15.029297, 49.61071, 3],
-    north_america    => [-90, 40, 3],
-    oceania          => [134.296875, -25.641526, 3],
-	south_america    => [-63.63, -20.00, 3],
-	non_geographical => [0, 0, 1],
+    africa           => [ 20,         -1,         3 ],
+    asia             => [ 95,         45,         2 ],
+    central_america  => [ -76,        9,          3 ],
+    europe           => [ 15.029297,  49.61071,   3 ],
+    north_america    => [ -90,        40,         3 ],
+    oceania          => [ 134.296875, -25.641526, 3 ],
+    south_america    => [ -63.63,     -20.00,     3 ],
+    non_geographical => [ 0,          0,          1 ],
 
-	'South Africa'   => [24, -29, 5],
-	Uganda           => [32, 1.5, 6],
+    'South Africa' => [ 24, -29, 5 ],
+    Uganda         => [ 32, 1.5, 6 ],
 
-	Armenia => [95, 45, 2],
-	China => [95, 35, 3],
-	India => [80, 20, 4],
-	Indonesia => [115, -5, 4],
-	Israel => [35, 31.5, 7],
-	Japan => [95, 45, 2],
-	'Korea (Republic of)' => [95, 45, 2],
-	Malaysia => [95, 45, 2],
-	Qatar => [95, 45, 2],
-	Russia => [95, 45, 2],
-	Singapore => [95, 45, 2],
-	Taiwan => [95, 45, 2],
-	Turkey => [95, 45, 2],
+    Armenia               => [ 95,  45,   2 ],
+    China                 => [ 95,  35,   3 ],
+    India                 => [ 80,  20,   4 ],
+    Indonesia             => [ 115, -5,   4 ],
+    Israel                => [ 35,  31.5, 7 ],
+    Japan                 => [ 95,  45,   2 ],
+    'Korea (Republic of)' => [ 95,  45,   2 ],
+    Malaysia              => [ 95,  45,   2 ],
+    Qatar                 => [ 95,  45,   2 ],
+    Russia                => [ 95,  45,   2 ],
+    Singapore             => [ 95,  45,   2 ],
+    Taiwan                => [ 95,  45,   2 ],
+    Turkey                => [ 95,  45,   2 ],
 
-	Austria  => [15.029297, 49.61071, 3],
-	Belgium  => [4.4, 51, 9],
-	Bulgaria  => [15.029297, 49.61071, 3],
-	Denmark  => [15.029297, 49.61071, 3],
-	Estonia  => [15.029297, 49.61071, 3],
-	Finland  => [15.029297, 49.61071, 3],
-	France  => [15.029297, 49.61071, 3],
-	Germany  => [15.029297, 49.61071, 3],
-	'Hrvatska (Croatia)'  => [15.029297, 49.61071, 3],
-	Hungary  => [15.029297, 49.61071, 3],
-	Ireland  => [15.029297, 49.61071, 3],
-	Italy  => [15.029297, 49.61071, 3],
-	'Moldova, Republic of'  => [15.029297, 49.61071, 3],
-	Netherlands  => [15.029297, 49.61071, 3],
-	Norway  => [15.029297, 49.61071, 3],
-	Poland  => [15.029297, 49.61071, 3],
-	Portugal  => [15.029297, 49.61071, 3],
-	Romania  => [15.029297, 49.61071, 3],
-	'Russian Federation'  => [15.029297, 49.61071, 3],
-	'Slovak Republic'  => [15.029297, 49.61071, 3],
-	Spain  => [15.029297, 49.61071, 3],
-	Sweden  => [15.029297, 49.61071, 3],
-	Switzerland  => [15.029297, 49.61071, 3],
-	'The Republic of Belarus'  => [15.029297, 49.61071, 3],
-	Ukraine  => [15.029297, 49.61071, 3],
-	'United Kingdom'  => [15.029297, 49.61071, 3],
-	Yugoslavia  => [15.029297, 49.61071, 3],
+    Austria                   => [ 15.029297, 49.61071, 3 ],
+    Belgium                   => [ 4.4,       51,       9 ],
+    Bulgaria                  => [ 15.029297, 49.61071, 3 ],
+    Denmark                   => [ 15.029297, 49.61071, 3 ],
+    Estonia                   => [ 15.029297, 49.61071, 3 ],
+    Finland                   => [ 15.029297, 49.61071, 3 ],
+    France                    => [ 15.029297, 49.61071, 3 ],
+    Germany                   => [ 15.029297, 49.61071, 3 ],
+    'Hrvatska (Croatia)'      => [ 15.029297, 49.61071, 3 ],
+    Hungary                   => [ 15.029297, 49.61071, 3 ],
+    Ireland                   => [ 15.029297, 49.61071, 3 ],
+    Italy                     => [ 15.029297, 49.61071, 3 ],
+    'Moldova, Republic of'    => [ 15.029297, 49.61071, 3 ],
+    Netherlands               => [ 15.029297, 49.61071, 3 ],
+    Norway                    => [ 15.029297, 49.61071, 3 ],
+    Poland                    => [ 15.029297, 49.61071, 3 ],
+    Portugal                  => [ 15.029297, 49.61071, 3 ],
+    Romania                   => [ 15.029297, 49.61071, 3 ],
+    'Russian Federation'      => [ 15.029297, 49.61071, 3 ],
+    'Slovak Republic'         => [ 15.029297, 49.61071, 3 ],
+    Spain                     => [ 15.029297, 49.61071, 3 ],
+    Sweden                    => [ 15.029297, 49.61071, 3 ],
+    Switzerland               => [ 15.029297, 49.61071, 3 ],
+    'The Republic of Belarus' => [ 15.029297, 49.61071, 3 ],
+    Ukraine                   => [ 15.029297, 49.61071, 3 ],
+    'United Kingdom'          => [ 15.029297, 49.61071, 3 ],
+    Yugoslavia                => [ 15.029297, 49.61071, 3 ],
 
-	Canada   => [-90, 40, 3],
-	USA   => [-90, 40, 3],
-	'United States of America'   => [-90, 40, 3],
+    Canada                     => [ -90, 40, 3 ],
+    USA                        => [ -90, 40, 3 ],
+    'United States of America' => [ -90, 40, 3 ],
 
-	'Costa Rica'  => [-76,  9, 3],
+    'Costa Rica' => [ -76, 9, 3 ],
 
-	Argentina   => [-63.63, -20.00, 3],
-	Brazil      => [-50.63, -14.00, 4],
-	Chile       => [-63.63, -20.00, 3],
-	Colombia    => [-63.63, -20.00, 3],
-	Ecuador     => [-63.63, -20.00, 3],
-	Paraguay    => [-63.63, -20.00, 3],
-	Peru        => [-63.63, -20.00, 3],
-	Venezuela   => [-63.63, -20.00, 3],
+    Argentina => [ -63.63, -20.00, 3 ],
+    Brazil    => [ -50.63, -14.00, 4 ],
+    Chile     => [ -63.63, -20.00, 3 ],
+    Colombia  => [ -63.63, -20.00, 3 ],
+    Ecuador   => [ -63.63, -20.00, 3 ],
+    Paraguay  => [ -63.63, -20.00, 3 ],
+    Peru      => [ -63.63, -20.00, 3 ],
+    Venezuela => [ -63.63, -20.00, 3 ],
 
-	'Australia'          => [134.296875, -25.641526, 3],
-	'New Zealand'        => [134.296875, -25.641526, 3],
+    'Australia'   => [ 134.296875, -25.641526, 3 ],
+    'New Zealand' => [ 134.296875, -25.641526, 3 ],
 
-	'Non-geographical'   => [0, 0, 1],
+    'Non-geographical' => [ 0, 0, 1 ],
 );
 
+my $tt = Template->new(
+    {   PRE_PROCESS  => ['lib/macros'],
+        POST_CHOMP   => 1,
+        PRE_CHOMP    => 1,
+        TRIM         => 1,
+        EVAL_PERL    => 1,
+        INCLUDE_PATH => [ '.', 'lib', 'src' ],
+        ENCODING     => 'utf8',
 
-
-my $tt = Template->new({
-			PRE_PROCESS => [ 'lib/macros' ],
-			POST_CHOMP => 1,
-			PRE_CHOMP => 1,
-			TRIM => 1,
-			EVAL_PERL => 1 ,
-			INCLUDE_PATH => ['.', 'lib', 'src'],
-			ENCODING => 'utf8',
-			# PROCESS => 'layout',
-		});
+        # PROCESS => 'layout',
+    }
+);
 
 my %allgroups;
 
@@ -114,221 +113,250 @@ mkdir 'www/groups/graphics';
 
 my $xml = XML::LibXML->new();
 my $doc = $xml->parse_file($src_file);
-foreach my $g ($doc->findnodes('//group')) {
-	my $id = $g->getAttribute('id');
-	my $status = $g->getAttribute('status') || 'not-specified-in-xml-file';
-	my $name = $g->findvalue('name/text()');
-	my $city = $g->findvalue('location/city/text()');
-	my $state = $g->findvalue('location/state/text()');
-	my $region = $g->findvalue('location/region/text()');
-	my $country = $g->findvalue('location/country/text()');
-	my $continent = $g->findvalue('location/continent/text()');
-	my $longitude = $g->findvalue('location/longitude/text()');
-	my $latitude = $g->findvalue('location/latitude/text()');
-	my $web = $g->findvalue('web/text()');
+foreach my $g ( $doc->findnodes('//group') ) {
+    my $id        = $g->getAttribute('id');
+    my $status    = $g->getAttribute('status') || 'not-specified-in-xml-file';
+    my $name      = $g->findvalue('name/text()');
+    my $city      = $g->findvalue('location/city/text()');
+    my $state     = $g->findvalue('location/state/text()');
+    my $region    = $g->findvalue('location/region/text()');
+    my $country   = $g->findvalue('location/country/text()');
+    my $continent = $g->findvalue('location/continent/text()');
+    my $longitude = $g->findvalue('location/longitude/text()');
+    my $latitude  = $g->findvalue('location/latitude/text()');
+    my $web       = $g->findvalue('web/text()');
 
-	my @tsar;
-	foreach my $t ($g->findnodes('tsar')) {
-		my $tsar = $t->findvalue('name/text()');
-		my $tsaremail = $t->findvalue('email/user/text()');
-		#$tsaremail .= ' &lt;' . int(rand(100)) . '&gt; ';
-		$tsaremail .= ' &lt;replace me by @&gt; ';
-		$tsaremail .= $t->findvalue('email/domain/text()');
-		push @tsar, { name => $tsar, mail => $tsaremail };
-	}
+    my @tsar;
+    foreach my $t ( $g->findnodes('tsar') ) {
+        my $tsar      = $t->findvalue('name/text()');
+        my $tsaremail = $t->findvalue('email/user/text()');
 
+        #$tsaremail .= ' &lt;' . int(rand(100)) . '&gt; ';
+        $tsaremail .= ' &lt;replace me by @&gt; ';
+        $tsaremail .= $t->findvalue('email/domain/text()');
+        push @tsar, { name => $tsar, mail => $tsaremail };
+    }
 
-	my $mailing_lists_name = $g->findvalue('mailing_list/name/text()');
-#	if ($mailing_lists_name) { print STDERR "M $mailing_lists_name\n" }
+    my $mailing_lists_name = $g->findvalue('mailing_list/name/text()');
 
-	die "Duplicate group id $id\n" if $ids{$id}++;
+    #	if ($mailing_lists_name) { print STDERR "M $mailing_lists_name\n" }
 
-	next unless $status eq 'active';
-	die "$name has no id\n" unless defined $id;
-  
-	unless ($continent) {
-		warn "$name has no continent. Assuming Non-geographical.\n";
-		$continent = 'Non-geographical';
-	}
-	unless ($country) {
-		warn "$name has no country. Assuming Non-geographical.\n";
-		$country = 'Non-geographical';
-	}
+    die "Duplicate group id $id\n" if $ids{$id}++;
 
-	# joined up city, state, region, country, continent
-	my $location = join ', ', grep { $_ } 
-		($city, $state, $region, $country, $continent);
+    next unless $status eq 'active';
+    die "$name has no id\n" unless defined $id;
 
-	my $linked_location = join ', ', grep { $_ }
-		($city, $state, $region);
-	if ($country and $country ne 'Non-geographical') {
-		my $country_link = lc $country;
-		$country_link =~ s/\W/_/g;
-		$linked_location .= qq(, <a href="$country_link.html">$country</a>);
-	}
-	if ($continent) {
-		my $continent_link = $continent eq 'Non-geographical' ? 'non_geographical' : lc($continent);
-		$continent_link =~ s/ /_/;
-		$linked_location .= qq(, <a href="$continent_link.html">$continent</a>);
-	}
-	#$tsaremail =~ s/@/ at /g;
+    unless ($continent) {
+        warn "$name has no continent. Assuming Non-geographical.\n";
+        $continent = 'Non-geographical';
+    }
+    unless ($country) {
+        warn "$name has no country. Assuming Non-geographical.\n";
+        $country = 'Non-geographical';
+    }
 
-	my $group = {
-		continent => $continent,
-		id => $id,
-		location => $location,
-		linked_location => $linked_location,
-		longitude => $longitude,
-		latitude => $latitude,
-		zoom => 13,
-		name => $name,
-		tsar => \@tsar,
-		state => $state,
-		status => $status,
-		web => $web,
-		mailing_list => {
-			name => $mailing_lists_name,
-		},
-	};
-	$allgroups{$name} = $group;
+    # joined up city, state, region, country, continent
+    my $location = join ', ',
+        grep {$_} ( $city, $state, $region, $country, $continent );
 
-	if ($country eq 'United States of America') {
-		push @{$groups{$continent}{$country}{$state}}, $group;
-	} else {
-		push @{$groups{$continent}{$country}}, $group;
-	}
+    my $linked_location = join ', ', grep {$_} ( $city, $state, $region );
+    if ( $country and $country ne 'Non-geographical' ) {
+        my $country_link = lc $country;
+        $country_link =~ s/\W/_/g;
+        $linked_location .= qq(, <a href="$country_link.html">$country</a>);
+    }
+    if ($continent) {
+        my $continent_link
+            = $continent eq 'Non-geographical'
+            ? 'non_geographical'
+            : lc($continent);
+        $continent_link =~ s/ /_/;
+        $linked_location
+            .= qq(, <a href="$continent_link.html">$continent</a>);
+    }
 
-	unless (-f "www/groups/$id.html") {
-		$group->{description} = "Perl Mongers $location is the Perl users group that organizes meetings";
-		#print "PROCESS group: www/groups/$id.html\n";
-		$tt->process('src/groups/group.html', $group, "www/groups/$id.html", binmode => ':utf8')
-			|| die $tt->error();
-	}
+    #$tsaremail =~ s/@/ at /g;
+
+    my $group = {
+        continent       => $continent,
+        id              => $id,
+        location        => $location,
+        linked_location => $linked_location,
+        longitude       => $longitude,
+        latitude        => $latitude,
+        zoom            => 13,
+        name            => $name,
+        tsar            => \@tsar,
+        state           => $state,
+        status          => $status,
+        web             => $web,
+        mailing_list    => { name => $mailing_lists_name, },
+    };
+    $allgroups{$name} = $group;
+
+    if ( $country eq 'United States of America' ) {
+        push @{ $groups{$continent}{$country}{$state} }, $group;
+    } else {
+        push @{ $groups{$continent}{$country} }, $group;
+    }
+
+    unless ( -f "www/groups/$id.html" ) {
+        $group->{description}
+            = "Perl Mongers $location is the Perl users group that organizes meetings";
+
+        #print "PROCESS group: www/groups/$id.html\n";
+        $tt->process(
+            'src/groups/group.html', $group,
+            "www/groups/$id.html", binmode => ':utf8'
+        ) || die $tt->error();
+    }
 }
 
-copy('./perl_mongers.xml', 'www/groups/perl_mongers.xml');
-copy('./perl_mongers.dtd', 'www/groups/perl_mongers.dtd');
+copy( './perl_mongers.xml', 'www/groups/perl_mongers.xml' );
+copy( './perl_mongers.dtd', 'www/groups/perl_mongers.dtd' );
 
-my @continents = ('Africa', 'Asia', 'Europe', 'North America',
-		'Central America', 'South America', 'Oceania',
-		'Non-geographical');
+my @continents = (
+    'Africa',          'Asia',
+    'Europe',          'North America',
+    'Central America', 'South America',
+    'Oceania',         'Non-geographical'
+);
 
 foreach my $continent (@continents) {
-	my $name = lc $continent;
-	$name =~ s/\W/_/g;
-	my $file = "www/groups/$name.html";
-	my $groups;
-	my %country_links;
-	my %states;
-	foreach my $country (sort keys %{$groups{$continent}}) {
-		if ($country eq 'United States of America') {
-			foreach my $state (keys %{$groups{$continent}{$country}}) {
-				$groups->{$country}{$state} = [ 
-					sort { lc $a->{name} cmp lc $b->{name} } 
-					@{$groups{$continent}{$country}{$state}} ];
-				$states{$state} = 'usa_' . lc $state;
-				$states{$state} =~ s/\W/_/g;
-				$states{$state} .= '.html';
-				#warn "WARN: Missing map_coordinates for $country" if not $map_coordinates{$country};
-				my $conf = {
-					groups => $groups->{$country}{$state},
-					country => $state,
-					continent => $continent,
-					continent_link => "$name.html",
-					longitude => $map_coordinates{$country}[0],
-					latitude  => $map_coordinates{$country}[1],
-					zoom      => $map_coordinates{$country}[2],
-					#states    => \%states,
-				};
-				$conf->{description} = "Perl Mongers in $state are the Perl users groups that organize meetings";
-				#print "PROCESS US state: www/groups/$states{$state}\n";
-				$tt->process('src/groups/country.html', $conf, "www/groups/$states{$state}", binmode => ':utf8') || die $tt->error();
-			}
-		} else {
-			$groups->{$country} = [ 
-				sort { lc $a->{name} cmp lc $b->{name} }
-					@{$groups{$continent}{$country}} ];
-		}
-		my $country_file = lc $country;
-		$country_file =~ s/\W/_/g;
-		$country_links{$country} = "$country_file.html";
-		$country_file = "www/groups/$country_file.html";
-		warn "WARN: Missing map_coordinates for $country" if not $map_coordinates{$country};
-		my $conf = {
-			groups => $groups->{$country},
-			country => $country,
-			#country_file => $country_file,
-			continent => $continent,
-			continent_link => "$name.html",
-			longitude => $map_coordinates{$country}[0],
-			latitude  => $map_coordinates{$country}[1],
-			zoom      => $map_coordinates{$country}[2],
-			states    => \%states,
-		};
-		$conf->{description} = "Perl Mongers in $country are the Perl users groups that organize meetings";
-		#print "PROCESS country: $country_file\n";
-		$tt->process('src/groups/country.html', $conf, $country_file, binmode => ':utf8') || die $tt->error();
-	}
+    my $name = lc $continent;
+    $name =~ s/\W/_/g;
+    my $file = "www/groups/$name.html";
+    my $groups;
+    my %country_links;
+    my %states;
+    foreach my $country ( sort keys %{ $groups{$continent} } ) {
+        if ( $country eq 'United States of America' ) {
+            foreach my $state ( keys %{ $groups{$continent}{$country} } ) {
+                $groups->{$country}{$state}
+                    = [ sort { lc $a->{name} cmp lc $b->{name} }
+                        @{ $groups{$continent}{$country}{$state} } ];
+                $states{$state} = 'usa_' . lc $state;
+                $states{$state} =~ s/\W/_/g;
+                $states{$state} .= '.html';
 
-	warn "WARN: Missing map_coordinates for $name" if not $map_coordinates{$name};
-	my $conf = {
-		country_links => \%country_links,
-		groups => $groups,
-		continent => $continent,
-		longitude => $map_coordinates{$name}[0],
-		latitude  => $map_coordinates{$name}[1],
-		zoom      => $map_coordinates{$name}[2],
-		states    => \%states,
-	};
+#warn "WARN: Missing map_coordinates for $country" if not $map_coordinates{$country};
+                my $conf = {
+                    groups         => $groups->{$country}{$state},
+                    country        => $state,
+                    continent      => $continent,
+                    continent_link => "$name.html",
+                    longitude      => $map_coordinates{$country}[0],
+                    latitude       => $map_coordinates{$country}[1],
+                    zoom           => $map_coordinates{$country}[2],
 
-	$conf->{description} = "Perl Mongers in $continent are the Perl users groups that organize meetings";
-	#print "PROCESS continent: $file\n";
-	$tt->process('src/groups/continent.html', $conf, $file, binmode => ':utf8') || die $tt->error();
+                    #states    => \%states,
+                };
+                $conf->{description}
+                    = "Perl Mongers in $state are the Perl users groups that organize meetings";
+
+                #print "PROCESS US state: www/groups/$states{$state}\n";
+                $tt->process(
+                    'src/groups/country.html', $conf,
+                    "www/groups/$states{$state}", binmode => ':utf8'
+                ) || die $tt->error();
+            }
+        } else {
+            $groups->{$country} = [ sort { lc $a->{name} cmp lc $b->{name} }
+                    @{ $groups{$continent}{$country} } ];
+        }
+        my $country_file = lc $country;
+        $country_file =~ s/\W/_/g;
+        $country_links{$country} = "$country_file.html";
+        $country_file = "www/groups/$country_file.html";
+        warn "WARN: Missing map_coordinates for $country"
+            if not $map_coordinates{$country};
+        my $conf = {
+            groups  => $groups->{$country},
+            country => $country,
+
+            #country_file => $country_file,
+            continent      => $continent,
+            continent_link => "$name.html",
+            longitude      => $map_coordinates{$country}[0],
+            latitude       => $map_coordinates{$country}[1],
+            zoom           => $map_coordinates{$country}[2],
+            states         => \%states,
+        };
+        $conf->{description}
+            = "Perl Mongers in $country are the Perl users groups that organize meetings";
+
+        #print "PROCESS country: $country_file\n";
+        $tt->process( 'src/groups/country.html', $conf, $country_file,
+            binmode => ':utf8' )
+            || die $tt->error();
+    }
+
+    warn "WARN: Missing map_coordinates for $name"
+        if not $map_coordinates{$name};
+    my $conf = {
+        country_links => \%country_links,
+        groups        => $groups,
+        continent     => $continent,
+        longitude     => $map_coordinates{$name}[0],
+        latitude      => $map_coordinates{$name}[1],
+        zoom          => $map_coordinates{$name}[2],
+        states        => \%states,
+    };
+
+    $conf->{description}
+        = "Perl Mongers in $continent are the Perl users groups that organize meetings";
+
+    #print "PROCESS continent: $file\n";
+    $tt->process( 'src/groups/continent.html', $conf, $file,
+        binmode => ':utf8' )
+        || die $tt->error();
 }
 
 {
-	my $source = 'src';
-	my $destination = 'www';
-	my $parms = {
-		allgroups => \%allgroups,
-		allgroupsnum => scalar(keys %allgroups),
-	};
+    my $source      = 'src';
+    my $destination = 'www';
+    my $parms       = {
+        allgroups    => \%allgroups,
+        allgroupsnum => scalar( keys %allgroups ),
+    };
 
-	my $rule = File::Find::Rule->new;
-	$rule->or(
-		$rule->new->directory->name('.svn')->prune->discard,
-		$rule->new->file->name(qr/.swp$/)->prune->discard,
-		$rule->new->directory->name('census')->prune->discard,
-		$rule->new
-	);
-	my @files = $rule->file()->name(qr/^.[^~]+$/)->in($source);
+    my $rule = File::Find::Rule->new;
+    $rule->or(
+        $rule->new->directory->name('.svn')->prune->discard,
+        $rule->new->file->name(qr/.swp$/)->prune->discard,
+        $rule->new->directory->name('census')->prune->discard,
+        $rule->new
+    );
+    my @files = $rule->file()->name(qr/^.[^~]+$/)->in($source);
 
-	foreach my $file (@files) {
-		next if $file =~ /country.html$/;
-		next if $file =~ /group.html$/;
-		next if $file =~ /continent.html$/;
+    foreach my $file (@files) {
+        next if $file =~ /country.html$/;
+        next if $file =~ /group.html$/;
+        next if $file =~ /continent.html$/;
 
-		print STDERR $file, "\n";
+        print STDERR $file, "\n";
 
-		my $destfile = $file;
-		$destfile =~ s/^$source/$destination/;
-		my($volume, $directories, $filepart) = splitpath($destfile);
-		mkpath $directories;
-		warn "$file -> $destfile\n";
+        my $destfile = $file;
+        $destfile =~ s/^$source/$destination/;
+        my ( $volume, $directories, $filepart ) = splitpath($destfile);
+        mkpath $directories;
+        warn "$file -> $destfile\n";
 
-		if ($file =~ /\.png$/) {
-			copy($file, $destfile);
-		} else {
-			$parms->{description} = "Perl Mongers organise local Perl user groups and meetings";
-			#print "PROCESS: $destfile\n";
-			$tt->process($file, $parms, $destfile, binmode => ':utf8') || die $tt->error;
-		}
-	}
+        if ( $file =~ /\.png$/ ) {
+            copy( $file, $destfile );
+        } else {
+            $parms->{description}
+                = "Perl Mongers organise local Perl user groups and meetings";
+
+            #print "PROCESS: $destfile\n";
+            $tt->process( $file, $parms, $destfile, binmode => ':utf8' )
+                || die $tt->error;
+        }
+    }
 }
 
-
-
 __END__
+
 =head1 NAME
 
 draw.pl - draw the master copies of the Perl Monger World Maps
