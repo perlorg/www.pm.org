@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><markers>
+<marker lat="40.72426868"
+        lng="-73.98771000"
+        name="NY.pm"
+        web="http://ny.pm.org/"
+/>
+<marker lat="42.66575"
+        lng="-73.79901"
+        name="Albany.pm"
+        web="http://albany.pm.org/"
+/>
+<marker lat="35.11721"
+        lng="-106.62463"
+        name="Albuquerque.pm"
+        web="http://albuquerque.pm.org/"
+/>
+<marker lat="61.17836"
+        lng="-149.18641"
+        name="Anchorage.pm"
+        web="http://anchorage.pm.org/"
+/>
+<marker lat="42.280442"
+        lng="-83.747264"
+        name="AnnArbor.pm"
+        web="http://annarbor.pm.org/"
+/>
+<marker lat="33.9251"
+        lng="-84.351289"
+        name="Atlanta.pm"
+        web="http://atlanta.pm.org/"
+/>
+<marker lat="30.30588"
+        lng="-97.75052"
+        name="Austin.pm"
+        web="http://austin.pm.org/"
+/>
+<marker lat="39.2905"
+        lng="-76.6125"
+        name="Baltimore.pm"
+        web="http://baltimore.pm.org/"
+/>
+<marker lat="42.361065"
+        lng="-71.085055"
+        name="Boston.pm"
+        web="http://boston.pm.org/"
+/>
+<marker lat="40.02"
+        lng="-105.25"
+        name="Boulder.pm"
+        web="http://boulder.pm.org/"
+/>
+<marker lat="35.19755"
+        lng="-80.83451"
+        name="Charlotte.pm"
+        web="http://charlotte.pm.org/"
+/>
+<marker lat="41.83705"
+        lng="-87.68496"
+        name="Chicago.pm"
+        web="http://chicago.pm.org/"
+/>
+<marker lat="39.135555"
+        lng="-84.538593"
+        name="Cincinnati.pm"
+        web="http://cincinnati.pm.org/"
+/>
+<marker lat="41.4994444"
+        lng="-81.6955556"
+        name="Cleveland.pm"
+        web="http://cleveland.pm.org"
+/>
+<marker lat="40.0"
+        lng="-82.883"
+        name="Columbus.pm"
+        web="http://columbus.pm.org/"
+/>
+<marker lat="32.79415"
+        lng="-96.76524"
+        name="DFW.pm"
+        web="http://dfw.pm.org/"
+/>
+<marker lat="38.90505"
+        lng="-77.01616"
+        name="DC.pm"
+        web="http://dc.pm.org/"
+/>
+<marker lat="39.76803"
+        lng="-104.87265"
+        name="Denver.pm"
+        web="http://denver.pm.org/"
+/>
+<marker lat="29.6514"
+        lng="-82.3252"
+        name="Gainesville.pm"
+        web="http://gainesville.pm.org/"
+/>
+<marker lat="42.96125"
+        lng="-85.65572"
+        name="GrandRapids.pm"
+        web="http://grand-rapids.pm.org/"
+/>
+<marker lat="40.262852"
+        lng="-77.032329"
+        name="Harrisburg.pm"
+        web="http://harrisburg.pm.org/"
+/>
+<marker lat="41.73"
+        lng="-72.65"
+        name="Hartford.pm"
+        web="http://hartford.pm.org/"
+/>
+<marker lat="41.445661"
+        lng="-74.422466"
+        name="HudsonValley.pm"
+        web="http://hudson-valley.pm.org/"
+/>
+<marker lat="29.7503"
+        lng="-95.677068"
+        name="Houston.pm"
+        web="http://houston.pm.org/"
+/>
+<marker lat="38.998483"
+        lng="-94.778666"
+        name="KansasCity.pm"
+        web="http://kc.pm.org/"
+/>
+<marker lat="36.1272588"
+        lng="-115.1658417"
+        name="LasVegas.pm"
+        web="http://lasvegas.pm.org/"
+/>
+<marker lat="43.073"
+        lng="-89.401"
+        name="Madison.pm"
+        web="http://www.madmongers.org/"
+/>
+<marker lat="44.96185"
+        lng="-93.26684"
+        name="Minneapolis.pm"
+        web="http://minneapolis.pm.org/"
+/>
+<marker lat="45.503896"
+        lng="-73.574452"
+        name="Montréal.pm"
+        web="http://montreal.pm.org/"
+/>
+<marker lat="36.117"
+        lng="-86.683"
+        name="Nashville.pm"
+        web="http://nashville.pm.org/"
+/>
+<marker lat="41.247574"
+        lng="-96.016937"
+        name="Omaha.pm"
+        web="http://omaha.pm.org/"
+/>
+<marker lat="45.419869"
+        lng="-75.700092"
+        name="Ottawa.pm"
+        web="http://ottawa.pm.org/"
+/>
+<marker lat="40.00681"
+        lng="-75.13467"
+        name="Philadelphia.pm"
+        web="http://philly.pm.org/"
+/>
+<marker lat="33.54067927852485"
+        lng="-111.92503094673157"
+        name="Phoenix.pm"
+        web="http://phoenix.pm.org/"
+/>
+<marker lat="38.8632"
+        lng="-104.759899"
+        name="PikesPeak.pm"
+        web="http://pikes-peak.pm.org/"
+/>
+<marker lat="40.4392"
+        lng="-79.9767"
+        name="Pittsburgh.pm"
+        web="http://pittsburgh.pm.org/"
+/>
+<marker lat="45.510354"
+        lng="-122.655206"
+        name="PDX.pm"
+        web="http://portland.pm.org/"
+/>
+<marker lat="35.773984"
+        lng="-78.678482"
+        name="Raleigh.pm"
+        web="http://raleigh.pm.org/"
+/>
+<marker lat="32.81495"
+        lng="-117.13577"
+        name="SanDiego.pm"
+        web="http://sandiego.pm.org/"
+/>
+<marker lat="37.79325"
+        lng="-122.55478"
+        name="SanFrancisco.pm"
+        web="http://sf.pm.org/"
+/>
+<marker lat="47.6218"
+        lng="-122.35032"
+        name="Seattle.pm"
+        web="http://www.seattleperl.org/"
+/>
+<marker lat="38.4049"
+        lng="-122.72641"
+        name="Sonoma.pm"
+        web="http://sonoma.pm.org/"
+/>
+<marker lat="38.63605"
+        lng="-90.24429"
+        name="StLouis.pm"
+        web="http://stlouis.pm.org/"
+/>
+<marker lat="27.7671"
+        lng="-82.6385"
+        name="TampaBay.pm"
+        web="http://tampabay.pm.org/"
+/>
+<marker lat="30.45175"
+        lng="-84.29672"
+        name="Tallahassee.pm"
+        web="http://tallahassee.pm.org/"
+/>
+<marker lat="34.15092875174315"
+        lng="-118.79499435424805"
+        name="ThousandOaks.pm"
+        web="http://thousand-oaks.pm.org/"
+/>
+<marker lat="43.666"
+        lng="-79.416"
+        name="Toronto.pm"
+        web="http://to.pm.org/"
+/>
+<marker lat="49.25"
+        lng="-123.133"
+        name="Vancouver.pm"
+        web="http://vancouver.pm.org/"
+/>
+<marker lat="19.434167"
+        lng="-99.138611"
+        name="MexicoCity.pm"
+        web="http://mexicocity.pm.org/"
+/>
+<marker lat="-25.416667"
+        lng="-49.25"
+        name="Curitiba.pm"
+        web="http://curitiba.pm.org/"
+/>
+<marker lat="-23.533"
+        lng="-46.617"
+        name="Sao-Paulo.pm"
+        web="http://sao-paulo.pm.org/"
+/>
+<marker lat="52.35"
+        lng="4.91"
+        name="Amsterdam.pm"
+        web="http://amsterdam.pm.org/"
+/>
+<marker lat="51.38550"
+        lng="-2.36206"
+        name="Bath.pm"
+        web="http://bath.pm.org/"
+/>
+<marker lat="41.56156"
+        lng="-8.39725"
+        name="Braga.pm"
+        web="http://braga.pm.org/"
+/>
+<marker lat="48.1627512"
+        lng="17.1586014"
+        name="Bratislava.pm"
+        web="http://bratislava.pm.org/"
+/>
+<marker lat="51.44716"
+        lng="-2.59277"
+        name="Bristol.pm"
+        web="http://bristol.pm.org/"
+/>
+<marker lat="55.950"
+        lng="-3.217"
+        name="Edinburgh.pm"
+        web="http://edinburgh.pm.org/"
+/>
+<marker lat="55.865541"
+        lng="-4.254729"
+        name="Glasgow.pm"
+        web="http://glasgow.pm.org/"
+/>
+<marker lat="57.716"
+        lng="11.966"
+        name="Goteborg.pm"
+        web="http://goteborg.pm.org/"
+/>
+<marker lat="60.1627"
+        lng="24.9405"
+        name="Helsinki.pm"
+        web="http://helsinki.pm.org/"
+/>
+<marker lat="55.667"
+        lng="12.583"
+        name="Copenhagen.pm"
+        web="http://copenhagen.pm.org/"
+/>
+<marker lat="38.716"
+        lng="-9.133"
+        name="Lisbon.pm"
+        web="http://lisbon.pm.org/"
+/>
+<marker lat="51.517955"
+        lng="-0.115387"
+        name="London.pm"
+        web="http://london.pm.org/"
+/>
+<marker lat="55.75"
+        lng="37.583"
+        name="Moscow.pm"
+        web="http://moscow.pm.org"
+/>
+<marker lat="48.150"
+        lng="11.583"
+        name="Munich.pm"
+        web="http://munich.pm.org/"
+/>
+<marker lat="48.866"
+        lng="2.333"
+        name="Paris.pm"
+        web="http://paris.pm.org/"
+/>
+<marker lat="38.783"
+        lng="-9.200"
+        name="Porto.pm"
+        web="http://porto.pm.org/"
+/>
+<marker lat="41.8921"
+        lng="12.4924"
+        name="Roma.pm"
+        web="http://roma.pm.org/"
+/>
+<marker lat="50.90226"
+        lng="-1.40416"
+        name="Southampton.pm"
+        web="http://southampton.pm.org/"
+/>
+<marker lat="59.33"
+        lng="18.06"
+        name="Stockholm.pm"
+        web="http://sthlm.pm.org/"
+/>
+<marker lat="59.933"
+        lng="30.266"
+        name="SPb.pm"
+        web="http://SPb.pm.org/"
+/>
+<marker lat="48.2140336"
+        lng="16.3579058"
+        name="Vienna.pm"
+        web="http://vienna.pm.org/"
+/>
+<marker lat="45.79981"
+        lng="15.96211"
+        name="Zagreb.pm"
+        web="http://zagreb.pm.org"
+/>
+<marker lat="-27.5"
+        lng="153.016"
+        name="Brisbane.pm"
+        web="http://brisbane.pm.org/"
+/>
+<marker lat="-37.816"
+        lng="144.966"
+        name="Melbourne.pm"
+        web="http://melbourne.pm.org/"
+/>
+<marker lat="-31.95"
+        lng="115.85"
+        name="Perth.pm"
+        web="http://perth.pm.org/"
+/>
+<marker lat="1.283333"
+        lng="103.85"
+        name="Singapore.pm"
+        web="http://singapore.pm.org/"
+/>
+<marker lat="-33.883"
+        lng="151.216"
+        name="Sydney.pm"
+        web="http://sydney.pm.org/"
+/>
+<marker lat="-8.5"
+        lng="115.18"
+        name="Bandung.pm"
+        web="http://bandung.pm.org/"
+/>
+<marker lat="28.38"
+        lng="77.12"
+        name="Delhi.pm"
+        web="http://delhi.pm.org/"
+/>
+<marker lat="22.283"
+        lng="114.15"
+        name="HongKong.pm"
+        web="http://hongkong.pm.org/"
+/>
+<marker lat="35.003759"
+        lng="135.777236"
+        name="Kyoto.pm"
+        web="http://kyoto.pm.org"
+/>
+<marker lat="18.533"
+        lng="73.867"
+        name="Pune.pm"
+        web="http://pune.pm.org/"
+/>
+<marker lat="35.7"
+        lng="139.766"
+        name="Tokyo.pm"
+        web="http://tokyo.pm.org/"
+/>
+<marker lat="31.5"
+        lng="34.75"
+        name="Israel.pm"
+        web="http://perl.org.il/"
+/>
+<marker lat="31.896"
+        lng="34.818"
+        name="Rehovot.pm"
+        web="http://rehovot.pm.org/"
+/>
+<marker lat="41.050"
+        lng="-8.567"
+        name="Guimaraes.pm"
+        web="http://guimaraes.pm.org/"
+/>
+<marker lat="37.5631"
+        lng="126.9769"
+        name="Seoul.pm"
+        web="http://seoul.pm.org/"
+/>
+<marker lat="42.6833333"
+        lng="23.3166667"
+        name="Sofia.pm"
+        web="http://sofia.pm.org"
+/>
+<marker lat="10.5"
+        lng="-66.9333"
+        name="Caracas.pm"
+        web=""
+/>
+<marker lat="12.9819"
+        lng="77.5931"
+        name="Bangalore.pm"
+        web="http://bangalore.pm.org/"
+/>
+<marker lat="59.9104"
+        lng="10.7524"
+        name="Oslo.pm"
+        web="http://oslo.pm.org/"
+/>
+<marker lat="40.4063"
+        lng="-3.6924"
+        name="Madrid.pm"
+        web="http://madrid.pm.org/"
+/>
+<marker lat="17.383"
+        lng="78.467"
+        name="Hyderabad.pm"
+        web="http://hyderabad.pm.org/"
+/>
+<marker lat="47.5105"
+        lng="19.0711"
+        name="Budapest.pm"
+        web="http://budapest.pm.org/"
+/>
+<marker lat="40.4229"
+        lng="-86.9156"
+        name="Purdue.pm"
+        web="http://purdue.pm.org/"
+/>
+<marker lat="49.6766"
+        lng="10.5239"
+        name="Frankfurt.pm"
+        web="http://frankfurt-pm.org/"
+/>
+<marker lat="45.46884"
+        lng="9.18084"
+        name="Milan.pm"
+        web="http://milan.pm.org"
+/>
+<marker lat="22.5155"
+        lng="88.3254"
+        name="Kolkata.pm"
+        web="http://calcutta.pm.org/"
+/>
+<marker lat="40.20"
+        lng="-8.41"
+        name="Coimbra.pm"
+        web="http://coimbra.pm.org"
+/>
+<marker lat="34.6762"
+        lng="135.4739"
+        name="Kansai.pm"
+        web="http://kansai.pm.org/"
+/>
+<marker lat="47.15"
+        lng="27.57"
+        name="Iasi.pm"
+        web="http://iasi.pm.org/"
+/>
+<marker lat="13.0797"
+        lng="80.2558"
+        name="Madras.pm"
+        web="http://madras.pm.org/"
+/>
+<marker lat="37.178056"
+        lng="-3.600833"
+        name="Granada.pm"
+        web="http://granada.pm.org"
+/>
+<marker lat="43.771794"
+        lng="-79.500003"
+        name="Seneca.pm"
+        web="http://seneca.pm.org"
+/>
+<marker lat="48.397214"
+        lng="9.989373"
+        name="Ulm.pm"
+        web="http://ulm.pm.org/"
+/>
+<marker lat="39.465305"
+        lng="-74.496485"
+        name="AtlanticCity.pm"
+        web="http://atlanticcity.pm.org/"
+/>
+<marker lat="-22.9062"
+        lng="-43.1748"
+        name="Rio.pm"
+        web="http://rio.pm.org/"
+/>
+<marker lat="34.034817"
+        lng="-118.456585"
+        name="Los_Angeles.pm"
+        web="http://la.pm.org/"
+/>
+<marker lat="25.255789"
+        lng="51.460839"
+        name="Qatar.pm"
+        web="http://qatar.pm.org/"
+/>
+<marker lat="47.023301"
+        lng="28.838325"
+        name="Chisinau.pm"
+        web="http://chisinau.pm.org/"
+/>
+<marker lat="52.47435"
+        lng="-1.8965"
+        name="Birmingham.pm"
+        web="http://birmingham.pm.org/"
+/>
+<marker lat="39.533"
+        lng="-119.817"
+        name="RenoTahoe.pm"
+        web="http://renotahoe.pm.org/"
+/>
+<marker lat="43.6000"
+        lng="1.4333"
+        name="Toulouse.pm"
+        web="http://toulouse.pm.org/"
+/>
+<marker lat="51.15479"
+        lng="6.45185"
+        name="Niederrhein.pm"
+        web="http://niederrhein.pm.org/"
+/>
+<marker lat="41.385827"
+        lng="2.16598"
+        name="Barcelona.pm"
+        web="http://barcelona.pm.org/"
+/>
+<marker lat="35.683"
+        lng="-105.933"
+        name="Santa Fe-Los Alamos.pm"
+        web="http://santafelosalamos.pm.org/"
+/>
+<marker lat="48.43"
+        lng="-123.35"
+        name="Victoria.pm"
+        web="http://victoria.pm.org/"
+/>
+<marker lat="43.83"
+        lng="25.95"
+        name="Rousse.pm"
+        web="http://rousse.pm.org/"
+/>
+<marker lat="-15.799269"
+        lng="-47.879337"
+        name="Brasilia.pm"
+        web="http://brasilia.pm.org/"
+/>
+<marker lat="-41.25"
+        lng="174.75"
+        name="Wellington.pm"
+        web="http://wellington.pm.org/"
+/>
+<marker lat="43.3000"
+        lng="5.4000"
+        name="Marseille.pm"
+        web="http://marseille.pm.org/"
+/>
+<marker lat="45.750"
+        lng="21.217"
+        name="Timisoara.pm"
+        web="http://timisoara.pm.org/"
+/>
+<marker lat="52.5167"
+        lng="13.4000"
+        name="Berlin.pm"
+        web="http://berliner.pm.org/"
+/>
+<marker lat="45.5"
+        lng="12.3"
+        name="Nordest.pm"
+        web="http://nordest.pm.org/"
+/>
+<marker lat="-34.574165"
+        lng="-58.459769"
+        name="CaFe.pm"
+        web="http://cafe.pm.org/"
+/>
+<marker lat="32.3"
+        lng="-111"
+        name="Tucson.pm"
+        web="http://tucson.pm.org/"
+/>
+<marker lat="50.7384"
+        lng="-4.0042"
+        name="Devon and Cornwall.pm"
+        web="http://devoncornwall.pm.org/"
+/>
+<marker lat="9.93"
+        lng="-84.08"
+        name="CostaRica.pm"
+        web="http://costarica.pm.org/"
+/>
+<marker lat="45.7500"
+        lng="4.8500"
+        name="Lyon.pm"
+        web="http://lyon.pm.org/"
+/>
+<marker lat="40.752756"
+        lng="-73.993481"
+        name="PerlSemNY.pm"
+        web="http://perlsemny.pm.org/"
+/>
+<marker lat="50.8333"
+        lng="4.3333"
+        name="Bruxelles.pm"
+        web="http://bruxelles.pm.org/"
+/>
+<marker lat="44.81"
+        lng="20.47"
+        name="Belgrade.pm"
+        web="http://belgrade.pm.org/"
+/>
+<marker lat="47.37"
+        lng="8.55"
+        name="Zurich.pm"
+        web="http://zurich.pm.org/"
+/>
+<marker lat="39.9158489677"
+        lng="116.390934205"
+        name="China.pm"
+        web="http://www.perlchina.org/"
+/>
+<marker lat="-3.72"
+        lng="-38.53"
+        name="Fortaleza.pm"
+        web="http://fortaleza.pm.org/"
+/>
+<marker lat="44.3"
+        lng="26.1"
+        name="Bucharest.pm"
+        web="http://bucharest.pm.org/"
+/>
+<marker lat="44.001111"
+        lng="-70.996736"
+        name="WhiteMountain.pm"
+        web="http://WhiteMountain.pm.org/"
+/>
+<marker lat="22.66192"
+        lng="120.31221"
+        name="Kaohsiung.pm"
+        web="http://kaohsiung.pm.org/"
+/>
+<marker lat="43.473"
+        lng="-80.542"
+        name="Kw.pm"
+        web="http://kw.pm.org/"
+/>
+<marker lat="-25.27"
+        lng="-57.67"
+        name="Terere.pm"
+        web="http://Terere.pm.org/"
+/>
+<marker lat="43.65"
+        lng="-70.32"
+        name="PortlandMaine.pm"
+        web="http://PortlandMaine.pm.org/"
+/>
+<marker lat="50.93"
+        lng="6.9593"
+        name="Cologne.pm"
+        web="http://Cologne.pm.org/"
+/>
+<marker lat="53.5"
+        lng="10"
+        name="Hamburg.pm"
+        web="http://hamburg.pm.org/"
+/>
+<marker lat="-24.966667"
+        lng="-53.433333"
+        name="Cascavel.pm"
+        web="http://cascavel.pm.org/"
+/>
+<marker lat="56.0833"
+        lng="12.7500"
+        name="Helsingborg.pm"
+        web="http://helsingborg.pm.org/"
+/>
+<marker lat="42.9648"
+        lng="-78.8562"
+        name="Buffalo.pm"
+        web="http://buffalo.pm.org/"
+/>
+<marker lat="51.017904"
+        lng="4.482309"
+        name="Vlaanderen.pm"
+        web="http://vlaanderen.pm.org/"
+/>
+<marker lat="-33.3000"
+        lng="26.5333"
+        name="ZA.pm"
+        web="http://za.pm.org/"
+/>
+<marker lat="49.233124"
+        lng="6.996145"
+        name="Saarland.pm"
+        web="http://saarland.pm.org/"
+/>
+<marker lat="35.6590"
+        lng="139.7018"
+        name="Shibuya.pm"
+        web="http://shibuya.pm.org/"
+/>
+<marker lat="54.335278"
+        lng="10.116389"
+        name="Kiel.pm"
+        web="http://kiel.pm.org/"
+/>
+<marker lat="40.34"
+        lng="-74.66"
+        name="Princeton.pm"
+        web="http://princeton.pm.org/"
+/>
+<marker lat="43.717"
+        lng="10.383"
+        name="Pisa.pm"
+        web="http://pisa.pm.org/"
+/>
+<marker lat="-8.0629316"
+        lng="-34.8715899"
+        name="Recife.pm"
+        web="http://recife.pm.org/"
+/>
+<marker lat="52.002615"
+        lng="5.912888"
+        name="Arnhem.pm"
+        web="http://arnhem.pm.org/"
+/>
+<marker lat="48.7214"
+        lng="9.1225"
+        name="Stuttgart.pm"
+        web="http://stuttgart.pm.org/"
+/>
+<marker lat="-15.75"
+        lng="-47.95"
+        name="Brasil.pm"
+        web="http://brasil.pm.org/"
+/>
+<marker lat="28.533611"
+        lng="-81.368533"
+        name="Orlando.pm"
+        web="http://orlando.pm.org/"
+/>
+<marker lat="50.117"
+        lng="8.683"
+        name="Roederbergweg.pm"
+        web="http://roederbergweg.pm.org/"
+/>
+<marker lat="52.033"
+        lng="8.533"
+        name="Bielefeld.pm"
+        web="http://bielefeld.pm.org/"
+/>
+<marker lat="33.421389"
+        lng="-111.916389"
+        name="Tempe/East Valley Perlmongers.pm"
+        web="http://tempe.pm.org/"
+/>
+<marker lat="0.313611"
+        lng="32.581111"
+        name="Kampala.pm"
+        web="http://kampala.pm.org/"
+/>
+<marker lat="40.625833"
+        lng="-75.370833"
+        name="ABE.pm"
+        web="http://abe.pm.org/"
+/>
+<marker lat="31.750795"
+        lng="35.190926"
+        name="Jerusalem.pm"
+        web="http://jerusalem.perl.org.il/"
+/>
+<marker lat="-20.32"
+        lng="-40.33"
+        name="Vitoria.pm"
+        web="http://vitoria.pm.org/"
+/>
+<marker lat="43.72"
+        lng="10.38"
+        name="Italia.pm"
+        web="http://italia.pm.org/"
+/>
+<marker lat="46.21"
+        lng="6.14"
+        name="Geneva.pm"
+        web="http://geneve.mongueurs.net"
+/>
+<marker lat="57.08"
+        lng="-2.07"
+        name="Aberdeen.pm"
+        web="http://aberdeen.pm.org/"
+/>
+<marker lat="51.72"
+        lng="8.75"
+        name="Paderborn.pm"
+        web="http://paderborn.pm.org/"
+/>
+<marker lat="-19.92"
+        lng="-43.93"
+        name="BH.pm"
+        web="http://bh.pm.org/"
+/>
+<marker lat="-34.60"
+        lng="-58.43"
+        name="Argentina.pm"
+        web="http://argentina.pm.org/"
+/>
+<marker lat="30.632698"
+        lng="-96.36616"
+        name="Brazosvalley.pm"
+        web="http://brazosvalley.pm.org/"
+/>
+<marker lat="53.21333"
+        lng="6.56499"
+        name="Groningen.pm"
+        web="http://groningen.pm.org/"
+/>
+<marker lat="47.27"
+        lng="11.35"
+        name="Innsbruck.pm"
+        web="http://innsbruck.pm.org/"
+/>
+<marker lat="-33.47"
+        lng="-70.75"
+        name="Santiago.pm"
+        web="http://santiago.pm.org/"
+/>
+<marker lat="49.36"
+        lng="11.00"
+        name="Erlangen.pm"
+        web="http://www.perlmongers.de/?ErlangenPM"
+/>
+<marker lat="52.029"
+        lng="-0.754"
+        name="MiltonKeynes.pm"
+        web="http://miltonkeynes.pm.org"
+/>
+<marker lat="24.830033"
+        lng="121.01253"
+        name="Chupei.pm"
+        web="http://chupei.pm.org"
+/>
+<marker lat="49.86996423855037"
+        lng="8.650483455775188"
+        name="Darmstadt.pm"
+        web="http://darmstadt.pm.org"
+/>
+<marker lat="51.460074"
+        lng="7.013948"
+        name="Ruhr.pm"
+        web="http://ruhr.pm.org"
+/>
+<marker lat="50.07"
+        lng="19.98"
+        name="Krakow.pm"
+        web="http://krakow.pm.org"
+/>
+<marker lat="49.45"
+        lng="7.75"
+        name="Kaiserslautern.pm"
+        web="http://kaiserslautern.pm.org"
+/>
+<marker lat="11.00"
+        lng="77.00"
+        name="Coimbatore.pm"
+        web="http://coimbatore.pm.org"
+/>
+<marker lat="43.58064"
+        lng="7.120857"
+        name="Sophia.pm"
+        web="http://sophia.mongueurs.net"
+/>
+<marker lat="31.4639"
+        lng="-100.43695"
+        name="SanAngelo.pm"
+        web="http://sanangelo.pm.org"
+/>
+<marker lat="42.0106"
+        lng="-87.6686"
+        name="WindyCity.pm"
+        web="http://chicago.pm.org"
+/>
+<marker lat="52.13"
+        lng="21.0"
+        name="Warszawa.pm"
+        web="http://warszawa.pm.org"
+/>
+<marker lat="52.461666"
+        lng="9.684716"
+        name="Hannover.pm"
+        web="http://hannover.pm.org"
+/>
+<marker lat="50.42"
+        lng="30.50"
+        name="Kiev.pm"
+        web="http://kiev.pm.org"
+/>
+<marker lat="53.27"
+        lng="14.27"
+        name="Szczecin.pm"
+        web="http://szczecin.pm.org"
+/>
+<marker lat="42.48"
+        lng="-76.47"
+        name="Ithaca.pm"
+        web="http://ithaca.pm.org"
+/>
+<marker lat="39.59828141820854"
+        lng="-8.422393798828125"
+        name="Tomar.pm"
+        web="http://tomar.pm.org"
+/>
+<marker lat="33.590278"
+        lng="130.401639"
+        name="Fukuoka.pm"
+        web="http://fukuoka.pm.org"
+/>
+<marker lat="43.118121"
+        lng="131.891867"
+        name="Vladivostok.pm"
+        web="http://vladivostok.pm.org"
+/>
+<marker lat="47.14"
+        lng="39.43"
+        name="RostovOnDon.pm"
+        web="http://RostovOnDon.pm.org"
+/>
+<marker lat="53.9"
+        lng="27.56667"
+        name="Minsk.pm"
+        web="http://minsk.pm.org"
+/>
+<marker lat="46.46667"
+        lng="30.73333"
+        name="Odessa.pm"
+        web="http://odessa.pm.org"
+/>
+<marker lat="35.443837"
+        lng="139.637797"
+        name="Yokohama.pm"
+        web="http://yokohama.pm.org"
+/>
+<marker lat="52.6078"
+        lng="-1.10000"
+        name="Leicester.pm"
+        web="http://leicester.pm.org"
+/>
+<marker lat="45.09"
+        lng="38.98"
+        name="Krasnodar.pm"
+        web="http://krasnodar.pm.org"
+/>
+<marker lat="45.959363"
+        lng="-66.646241"
+        name="Fredericton.pm"
+        web="http://fredericton.pm.org"
+/>
+<marker lat="46.55"
+        lng="-113.99"
+        name="WesternMontana.pm"
+        web="http://WesternMontana.pm.org"
+/>
+<marker lat="59.433333"
+        lng="24.75"
+        name="Tallinn.pm"
+        web="http://tallinn.pm.org"
+/>
+<marker lat="54.0400"
+        lng="-2.8125"
+        name="Northwestengland.pm"
+        web="http://northwestengland.pm.org"
+/>
+<marker lat="7.808306"
+        lng="-72.192667"
+        name="SanCristobal.pm"
+        web="http://sancristobal.pm.org"
+/>
+<marker lat="57.768567"
+        lng="40.928471"
+        name="Kostroma.pm"
+        web="http://kostroma.pm.org"
+/>
+<marker lat="-0.25"
+        lng="-78.78"
+        name="Quito.pm"
+        web="http://quito.pm.org"
+/>
+<marker lat="42.984799"
+        lng="144.381292"
+        name="Kushiro.pm"
+        web="http://kushiro.pm.org"
+/>
+<marker lat="-12.132417"
+        lng="-76.9797876"
+        name="Lima.pm"
+        web="http://lima.pm.org"
+/>
+<marker lat="-34.92577"
+        lng="138.599732"
+        name="Adelaide.pm"
+        web="http://adelaide.pm.org"
+/>
+<marker lat="9.9167"
+        lng="78.1167"
+        name="Madurai.pm"
+        web="http://madurai.pm.org"
+/>
+<marker lat="3.42294984623391"
+        lng="-76.52252197265625"
+        name="Cali.pm"
+        web="http://cali.pm.org"
+/>
+<marker lat="-22.5707"
+        lng="-46.3231"
+        name="BragancaPaulista.pm"
+        web="http://BragancaPaulista.pm.org"
+/>
+<marker lat="43.065956"
+        lng="141.346815"
+        name="Hokkaido.pm"
+        web="http://hokkaido.pm.org"
+/>
+<marker lat="48.306074"
+        lng="14.286293"
+        name="Linz.pm"
+        web="http://linz.pm.org"
+/>
+<marker lat="51.670833"
+        lng="39.214167"
+        name="Voronezh.pm"
+        web="http://voronezh.pm.org"
+/>
+<marker lat="35.1814464"
+        lng="136.906398"
+        name="Nagoya.pm"
+        web="http://nagoya.pm.org"
+/>
+<marker lat="35.318242"
+        lng="139.547524"
+        name="Kamakura.pm"
+        web="http://kamakura.pm.org"
+/>
+<marker lat="27.75"
+        lng="85.33"
+        name="Kathmandu.pm"
+        web="http://kathmandu.pm.org"
+/>
+<marker lat="31.5"
+        lng="34.75"
+        name="TelAviv.pm"
+        web="http://telaviv.pm.org"
+/>
+<marker lat="14.558513"
+        lng="121.019248"
+        name="Makati.pm"
+        web="http://makati.pm.org"
+/>
+<marker lat="44.833"
+        lng="-0.567"
+        name="Bordeaux.pm"
+        web="http://bordeaux.pm.org"
+/>
+<marker lat="50.2116667"
+        lng="15.8441667"
+        name="HradecKralove.pm"
+        web="http://HradecKralove.pm.org"
+/>
+<marker lat="-16.666667"
+        lng="-49.25"
+        name="Goiania.pm"
+        web="http://goiania.pm.org"
+/>
+<marker lat="-22.505"
+        lng="-43.178889"
+        name="Petropolis.pm"
+        web="http://petropolis.pm.org"
+/>
+<marker lat="49.20016789485192"
+        lng="16.607530117034912"
+        name="Brno.pm"
+        web="http://brno.pm.org"
+/>
+<marker lat="41.7355556"
+        lng="-111.8336111"
+        name="Logan.pm"
+        web="http://logan.pm.org"
+/>
+<marker lat="41.7355556"
+        lng="-111.8336111"
+        name="Tolyatti.pm"
+        web="http://logan.pm.org"
+/>
+<marker lat="42.326515"
+        lng="-122.875595"
+        name="SouthernOregon.pm"
+        web="http://SouthernOregon.pm.org/"
+/>
+<marker lat="49.747189"
+        lng="13.377397"
+        name="Plzen.pm"
+        web="http://plzen.pm.org/"
+/>
+<marker lat="38.268215"
+        lng="140.869356"
+        name="Sendai.pm"
+        web="http://sendai.pm.org/"
+/>
+<marker lat="39.633611"
+        lng="-79.950556"
+        name="WestVirginia.pm"
+        web="http://westvirginia.pm.org/"
+/>
+<marker lat="30.047564"
+        lng="57.247079"
+        name="Kerman.pm"
+        web="http://kerman.pm.org/"
+/>
+<marker lat="19.166709648838974"
+        lng="73.02959650754928"
+        name="Mumbai.pm"
+        web="http://mumbai.pm.org/"
+/>
+<marker lat="26.1"
+        lng="-80.4"
+        name="Weston.pm"
+        web="http://weston.pm.org/"
+/>
+<marker lat="46.7667"
+        lng="23.6"
+        name="Cluj.pm"
+        web="http://cluj.pm.org/"
+/>
+<marker lat="37.915967"
+        lng="139.036531"
+        name="Niigata.pm"
+        web="http://niigata.pm.org/"
+/>
+</markers>

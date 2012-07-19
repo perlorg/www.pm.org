@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map_canvas { height: 100% }
+    </style>
+    <script type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+    </script>
+    <script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAQUWXHRLr1r3tu1Kve9Jro3pP_e3_VyWc&sensor=true">
+      </script>
+    <script type="text/javascript">
+    
+    // var usa = new GPoint( - 95.677068, 37.0625);
+    // var world = new GPoint(0.0, 18.0);
+    // var na = new GPoint( - 102.832031, 52.268157);
+    // var europe = new GPoint(15.029297, 49.61071);
+    // var australia = new GPoint(134.296875, -25.641526);
+    // var asia = new GPoint(95, 45);
+    // var africa = new GPoint(20, 0);
+    // var sa = new GPoint( - 63.63, -25.00);
+
+    function initialize() {
+        var mapOptions = {
+            center: new google.maps.LatLng( 52, 0),
+            zoom: 2,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+        mapOptions);
+
+        function processMapXML(data) {
+            $(data).find('marker').each(function() {
+                var pm_group = $(this);
+                var myLatlng = new google.maps.LatLng(pm_group.attr("lat"), pm_group.attr("lng"));
+
+                var marker = new google.maps.Marker({
+                    position: myLatlng,
+                    map: map,
+                    title: "Hello World!"
+                });
+                
+                var msg = "<h3>";
+                msg = msg + "<a href='" + pm_group.attr("web") + "'>" + pm_group.attr("name") + "</a><br/>";
+                msg = msg + "</h3>";
+
+                var infowindow = new google.maps.InfoWindow({
+                    content: msg
+                });
+                
+                google.maps.event.addListener(marker, 'click', function() {
+                      infowindow.open(map,marker);
+                });
+            });
+        }
+
+        $.ajax({
+            url: 'map.xml',
+            dataType: 'xml',
+            success: processMapXML,
+        });
+    }
+    </script>
+  </head>
+  <body onload="initialize()">
+    <div id="map_canvas" style="width:100%; height:100%"></div>
+  </body>
+</html>
