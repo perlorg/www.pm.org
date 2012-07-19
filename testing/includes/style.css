@@ -1,0 +1,126 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:Arial, sans-serif;
+	background:#f5f5f5;
+}
+ul, ol, li, dl, dt, dd, form, fieldset, legend, figure, hgroup, td, h1, h2, h3, h4, h5{
+	margin:0;
+	padding:0;
+	font-family:Arial, sans-serif;
+}
+
+#wrapper{
+	/*width:1200px;*/
+	margin:0 auto;
+	background:#fff;
+	min-width:1000px; /* for ie - overruled with media queries at bottom */
+}
+.sub_holder{
+	max-width:1200px;
+	margin:0 auto;
+	padding:0 12px;
+}
+
+/* header, logo and nav */
+header{
+	display:block;
+	position:absolute;
+	width:100%;
+	z-index:999;
+	min-width:1000px; /* for ie - overruled with media queries */
+}
+#nav_holder{
+/*  margin:12px 0 0; /* if we want a gap at the top */*/
+	margin:8px 0 0 0;
+	padding:7px 20px 8px 100px;
+	background:#000000;
+	color:#fff;
+	overflow:auto;
+}
+
+nav{
+	float:left;
+}
+header p{
+	margin:0;
+	font-size:75%;
+}
+nav a{
+	color:#fff;
+	font-size:85%;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#ccc;
+	display:inline-block;
+	margin-right:16px;
+}
+nav a.selected{
+	color:#B0C659;
+}
+nav a.menu_link{
+	display:none;
+}
+#masthead img,
+#masthead canvas{
+	width:100%;
+}
+#masthead{ /* uses the figure tag */
+	height:auto;
+	min-height:170px;
+	max-height:250px; /* this is the default - it will be over-ruled with javascript depending on screen size */
+	overflow:hidden;
+	background:#fff;
+}
+
+.index #masthead img{
+	min-height:440px;
+}
+.resource #masthead img,
+.resource #masthead canvas{
+	margin-top: -25%; /* position vertically in middle - fine tuned with js */
+}
+/* old code used to put padding and border around images */
+img.masthead{
+	border:1px solid #ddd;
+	padding:1px;
+	background:#fff;
+}
+/* for index pages where content is displayed OVER the main image */
+#masthead_overlay{
+	position:absolute;
+	z-index:2;
+	top:0;
+	padding-top:100px;
+	height:340px;
+	max-height:340px; /* same as masthead to start with  (minus padding-top)*/
+	width:100%;
+	overflow:hidden;
+}
+#masthead_overlay .sub_holder{
+	position:relative;
+	height:inherit;pointer-events: all;
+}
+#masthead_overlay h1{
+	position:relative;
+}
+#masthead_overlay #sections{
+	padding:0;
+	margin:0;
+}
+#masthead_overlay #sections li{
+	list-style:none;
+	display:none;
+	height:350px;
+	position:absolute;
+	width:100%;
+	pointer-events: all;
+}
+#masthead_overlay #sections li li{
+	display:block;
+	height:auto;
+	position:static;
+}
+
+
+
