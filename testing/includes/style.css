@@ -2,7 +2,7 @@ body{
 	margin:0;
 	padding:0;
 	font-family:Arial, sans-serif;
-	background:#f5f5f5;
+	background:#ffffff;
 }
 ul, ol, li, dl, dt, dd, form, fieldset, legend, figure, hgroup, td, h1, h2, h3, h4, h5{
 	margin:0;
@@ -132,6 +132,10 @@ img.masthead{
 #footer {
   clear:both;
 	margin-left: 20px;
+}
+#google_translate_element {
+  padding-right: 40px;
+  float: right;
 }
 
 
