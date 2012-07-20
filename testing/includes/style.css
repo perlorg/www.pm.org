@@ -14,12 +14,7 @@ ul, ol, li, dl, dt, dd, form, fieldset, legend, figure, hgroup, td, h1, h2, h3, 
 	/*width:1200px;*/
 	margin:0 auto;
 	background:#fff;
-	min-width:1000px; /* for ie - overruled with media queries at bottom */
-}
-.sub_holder{
-	max-width:1200px;
-	margin:0 auto;
-	padding:0 12px;
+  min-width:800px; /* for ie - overruled with media queries at bottom */
 }
 
 /* header, logo and nav */
@@ -28,12 +23,18 @@ header{
 	position:absolute;
 	width:100%;
 	z-index:999;
-	min-width:1000px; /* for ie - overruled with media queries */
+	min-width:800px; /* for ie - overruled with media queries */
 }
+#onion_logo{
+	position:absolute;
+	z-index:100;
+	margin: 1px 0 0 15px;
+}
+
 #nav_holder{
 /*  margin:12px 0 0; /* if we want a gap at the top */*/
 	margin:8px 0 0 0;
-	padding:7px 20px 8px 100px;
+	padding:8px 20px 9px 60px;
 	background:#000000;
 	color:#fff;
 	overflow:auto;
@@ -58,8 +59,8 @@ nav a{
 nav a.selected{
 	color:#B0C659;
 }
-nav a.menu_link{
-	display:none;
+nav #small_copy{
+  display:none;
 }
 #masthead img,
 #masthead canvas{
@@ -76,10 +77,6 @@ nav a.menu_link{
 .index #masthead img{
 	min-height:440px;
 }
-.resource #masthead img,
-.resource #masthead canvas{
-	margin-top: -25%; /* position vertically in middle - fine tuned with js */
-}
 /* old code used to put padding and border around images */
 img.masthead{
 	border:1px solid #ddd;
@@ -91,36 +88,99 @@ img.masthead{
 	position:absolute;
 	z-index:2;
 	top:0;
-	padding-top:100px;
+	padding-top:80px;
 	height:340px;
 	max-height:340px; /* same as masthead to start with  (minus padding-top)*/
 	width:100%;
 	overflow:hidden;
 }
-#masthead_overlay .sub_holder{
-	position:relative;
-	height:inherit;pointer-events: all;
-}
 #masthead_overlay h1{
+  padding-left: 20px;
+  font-size: 5em;
 	position:relative;
 }
-#masthead_overlay #sections{
-	padding:0;
-	margin:0;
-}
-#masthead_overlay #sections li{
-	list-style:none;
-	display:none;
-	height:350px;
-	position:absolute;
-	width:100%;
-	pointer-events: all;
-}
-#masthead_overlay #sections li li{
-	display:block;
-	height:auto;
-	position:static;
+#masthead_overlay h3 {
+  padding-left: 20px;
 }
 
+#content_holder{
+	clear:both;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.details{
+	clear:both;
+}
+.details ul{
+	margin:0 0 20px 0px;
+}
+.details li{
+	padding:11px 18px 11px 0px;
+	width:233px;
+/*  height:500px;*/
+	list-style:none;
+	float:left;
+}
+
+.sublist li {
+  width: auto;
+  height: auto;
+  float: none;
+  padding: 0 0 5px 0px;
+}
+
+#footer {
+  clear:both;
+	margin-left: 20px;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  #masthead{ 
+    max-height:150px;
+  }
+  #masthead_overlay{
+    padding-top: 40px;
+  }
+  
+  .details li {
+    padding:5px 0 5px 0px;
+    float: none;
+    height: auto;
+    width: auto;
+  }
+  
+}
+
+@media only screen and (max-width: 700px) {
+  #masthead{
+    max-height:270px;
+  }
+  #masthead_overlay{
+    width: 400px; /* Squish the copy */
+    padding-top: 30px;
+  }
+
+  nav #small_copy{
+    display:block;
+  }
+  nav #large_copy{
+    display:none;
+  }
+
+}
+
+/* all responsive screens - overule IE min width */
+@media only screen and (min-width: 1px){
+ 	#wrapper,
+	header,
+	header,
+	#resources_holder,
+	#cta_holder{
+		min-width:239px;
+	}
+}	
+ 
 
 
