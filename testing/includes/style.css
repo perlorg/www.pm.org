@@ -119,6 +119,12 @@ img.masthead{
 	list-style:none;
 	float:left;
 }
+.details p{
+  color: #888888;
+}
+.details a{
+  color: #888888;
+}
 
 .sublist li {
   width: auto;
