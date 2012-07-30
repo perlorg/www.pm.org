@@ -342,7 +342,7 @@ foreach my $continent (@continents) {
         mkpath $directories;
         warn "$file -> $destfile\n";
 
-        if ( $file =~ /\.png$/ ) {
+        if ( $file =~ /\.png$/ || $file =~ /\.jpg$/ ) {
             copy( $file, $destfile );
         } else {
             $parms->{description}

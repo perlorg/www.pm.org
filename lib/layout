@@ -1,134 +1,59 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-   "http://www.w3.org/TR/2002/REC-xhtml1-20020801/DTD/xhtml1-transitional.dtd">
-<html>
-  <head>
-       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
-    <meta name="description" 
-          content="[% description %]" />
-    <meta name="keywords"
-          content="Perl,Perl Mongers,Mongers,User Group,Meeting" />
-    <meta name="MsSmartTagsPreventParsing" content="TRUE" />
-    <title>[% title or "Perl Mongers" %]</title>
- 
-    <link rel="stylesheet" type="text/css"
-          href="/graphics/basic.css" 
-          title="basic" />
-    <link rel="shortcut icon" href="/groups/favicon.ico">
-    <!-- This key good for http://www.pm.org/groups -->
-    <script type="text/javascript"
-    src="http://maps.google.com/maps?file=api&amp;v=1&amp;key=ABQIAAAAjrB1EtK9LGPa_E4v8BqfIhTlJQKl_2NMosGPJ4kJAF_u_Vcv4hQ6A7lpErcC3Q23mBu5eRPQ_SGvBA&amp;sensor=false">
-    </script>
+<!doctype html>
+    <html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+        <meta name="description" content="[% description %]" />
+        <meta name="keywords" content="Perl,Perl Mongers,Mongers,User Group,Meeting" />
+        <meta name="MsSmartTagsPreventParsing" content="TRUE" />
+        <title>[% title or "Perl Mongers" %]</title>
+        <link rel="stylesheet" href="/includes/style.css">
+    </head>
     
-    <script type="text/javascript" src="/groups/map.js"></script> 
-</head>
+    <body class="index">
+    <div id="wrapper">
 
-<body  [% IF onload %] onload="[% onload %]()"[% END %]  [% IF onunload %] onunload="[% onunload %]()"[% END %] >
-<table border="0" cellpadding="6" cellspacing="0" width="100%">
-  <tr>
-    <td class="side" width="120" valign="top">
-      <table cellpadding="2" cellspacing="0" border="0">
-        <tr>
-          <td bgcolor="#000000"><a href="/"><img src="/graphics/title.png" width="150" height="65" border="0" alt="Perl Mongers" /></a></td>
-        </tr>
-      </table>
-[%# <br> %]
+        <header>
+            <a href="/"><img src="/images/camel.png" height="30px" id="onion_logo" alt="Perl Mongers"></a>
+        	<div id="nav_holder">
+                <nav>
+                    <div id="large_copy">
+                        <a href="/groups/">Find a group</a>
+                        <a href="/start/">Start a group</a>
+                        <a href="/other/">Useful links</a>
+                    </div>
+            		<div id="small_copy">Perl Groups: 
+            			<a href="/groups/">Find</a>
+            			<a href="/start/">Start</a>
+            		</div>
+                </nav>
+        	</div>
+        </header>
 
-[% INCLUDE sideheader
-  major = {"Perl Mongers" => "/"}
-  minor = {
-    "Contact" => "/contact/",
-    "FAQ" => "/faq/",
-    "Running a group" => "/successful/",
-    "Invite a guru" => "/invite/",
-    "Start a group" => "/start/",
-  }
-%]
-
-[% INCLUDE sideheader
-  major = {"User groups" => "/groups/"}
-  minor = {
-    "North America" => "/groups/north_america.html",
-    "South America" => "/groups/south_america.html",
-    "Central America" => "/groups/central_america.html",
-    "Europe" => "/groups/europe.html",
-    "Non-geographical" => "/groups/non_geographical.html",
-    "Oceania" => "/groups/oceania.html",
-    "Asia" => "/groups/asia.html",
-    "Africa" => "/groups/africa.html",
-  }
-%]
-
-[% 
-  pfbase = "http://www.perlfoundation.org/perl5/index.cgi?"; 
-  INCLUDE sideheader
-  major = {"Non-English" => "http://www.perlfoundation.org/perl5/index.cgi?international_perl_resources"}
-  minor = {
-    "Català"           => pfbase _ "catalan",
-    "Čeština"          => pfbase _ "czech",
-    "中文"             => pfbase _ "chinese",
-    "Hrvatski"         => pfbase _ "croatian",
-    "Nederlands"       => pfbase _ "dutch",
-    "Français"         => pfbase _ "french",
-    "Deutsch"          => pfbase _ "german",
-    "עברית"            => pfbase _ "hebrew",
-    "Magyar"           => pfbase _ "hungarian",
-    "Italiano"         => pfbase _ "italian",
-    "日本語"           => pfbase _ "japanese",
-    "한국어"           => pfbase _ "korean",
-    "Lietuvių kalba"   => pfbase _ "lithuanian",
-    "Norsk"            => pfbase _ "norwegian",
-    "Polski"           => pfbase _ "polish",
-    "Português"        => pfbase _ "portuguese",
-    "Română"           => pfbase _ "romanian",
-    "По-русски"        => pfbase _ "russian",
-    "Slovenčina"       => pfbase _ "slovakian",
-    "Español"          => pfbase _ "spanish",
-    "Svenska"          => pfbase _ "swedish",
-    "Türkçe"           => pfbase _ "turkish",
-   }
-%]
-
-[% INCLUDE sideheader
-  major = {"Affiliates" => "/"}
-  minor = {
-    "The Perl Foundation" => "http://www.perlfoundation.org/",
-    "Search CPAN" => "http://search.cpan.org/",
-    "MetaCPAN" => "http://metacpan.org/",
-    "Perl advocacy" => "http://www.perl.org/",
-    "Perl Blogs"  => "http://blogs.perl.org/",
-    "Iron Man"    => "http://ironman.enlightenedperl.org/",
-    "Perl Sphere" => "http://perlsphere.net/",
-    "Perl Buzz"   => "http://perlbuzz.com/",
-    "Perl Weekly News" => "http://perlweekly.com/",
-    "Perl.com" => "http://www.perl.com/",
-    "Perlmonks" => "http://www.perlmonks.com/",
-    "YAPC" => "http://www.yapc.org/",
-    "Perl training" => "http://www.perltraining.org/",
-    "Perl 6 planet" => "http://planetsix.perl.org/",
-    "Rakudo" => "http://www.rakudo.org/",
-  }
-%]
-
-</td>
-<td valign="top">
-[% INCLUDE heading %]
+[%# INCLUDE heading %]
 
 [% content %]
 
-    </td>
-  </tr>
-  <tr>
-    <td class="side" bgcolor="#0087d9" width="120">
-      <br /><br /><br />&nbsp;</td> 
-    <td valign="baseline">
-      <br /><br /><br /><br />
-      <p class="moddate">
-           Copyright &copy; 2010 The Perl Foundation.<br/>
-           The Perl camel image is a trademark of <a href="http://www.oreilly.com">O'Reilly Media, Inc.</a>
-           Used with permission.
-      </p>
-    </td>
-  </tr>
-</table>
-</body>
-</html>
+
+       <div id="footer">
+           <div id="google_translate_element"></div>
+           <p>Copyright © 2012 <a href="http://www.perlfoundation.org/">The Perl Foundation</a>.</p>
+           <p>The Perl camel image is a trademark of <a href="http://www.oreilly.com/">O'Reilly Media, Inc.</a> Used with permission.</p>
+       </div>
+
+       <script type="text/javascript">
+       function googleTranslateElementInit() {
+                 new google.translate.TranslateElement({
+                   pageLanguage: 'en',
+                   autoDisplay: false
+                   ,
+                   gaTrack: true,
+                   gaId: 'UA-50555-1'
+                         }, 'google_translate_element');
+               }
+               </script><script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript">
+       </script>
+   </div>
+
+
+   </body>
+   </html>
