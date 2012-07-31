@@ -12,7 +12,7 @@ function processMapXML(data) {
                 title: pm_group.name
             });
 
-            var msg = "<h3>" + pm_group.name + "</h3>";
+            var msg = "<h4>" + pm_group.name + "</h4>";
             msg = msg + "<a href='/groups/" + pm_group.id + ".html'>More info</a> | ";
             msg = msg + "<a href='" + pm_group.web + "'>Web site</a><br/>";
 
