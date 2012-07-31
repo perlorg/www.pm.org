@@ -1,282 +1,491 @@
 [% WRAPPER layout title = "Perl Mongers: Frequently Asked Questions" %]
 
-<p>Please send any suggestions or corrections to user_groups@pm.org</p>
-<h2>General Questions</h2>
-<h3>What is Perl Mongers?</h3>
-<p>Perl Mongers is a loose association of international Perl User Groups.
-Individual groups vary a great deal in the details of what they actually
-do, but in most cases they are groups of Perl users in a particular 
-location who get together periodically to discuss Perl and related
-topics.</p>
-<p>Perl Mongers is also the name of the organisation that oversees and
-co-ordinates the local groups. It also provides internet services to
-these groups. Perl Mongers was originally set up as a not-for-profit
-organisation in the state of New York, but in July 2001 it joined with
-Yet Another Society.</p>
-<h3>Is there a Perl Mongers group in my area?</h3>
-<p>The list of currently established groups is [% link_to('/groups/', 'here') %]</p>
-<h3>How do I start a Perl Mongers group?</h3>
-<p>Simply find some Perl hackers in your area and ask them if they'd be
-interested in starting a group.</p>
-<p>Experience shows that having a mailing list and a web site help to
-drum up interest in your new group. Almost certainly you'll already
-have access to servers to set them up on, but if you need help with 
-that, we will gladly supply both web space and a mailing list.</p>
-<p>The only other thing to do is to [% link_to('/start/', 'let us know') %] about your new group
-so that we can add you to the list of established groups.</p>
-<h3>Can you provide people to speak at our meetings?</h3>
-<p>Perl Mongers can't actually provide speakers for you. Who do, however,
-maintain a [% link_to('/invite/', 'list') %] of well-known people from the Perl
-community who have indicated that they are happy to speak to Perl
-Monger groups when they are passing through the area.</p>
-<h3>What support exists for group leaders?</h3>
-<p>All group leaders are automatically subscribed to the
-<a href="http://mail.pm.org/mailman/listinfo/pm_groups">pm_groups
-mailing list</a>.  The #mongers channel on
-<a href="http://irc.perl.org/">irc.perl.org</a> exists for leaders to
-discuss anything related to running a group.</p>
-<h2>Internet Services</h2>
-<h3>What Internet services can Perl Mongers provide?</h3>
-<p>If your group does not have a local server that you can use to host
-a mailing list and a web site then we can host it for you on our server.
-If you want to host your mailing list and web site locally then we can
-provide a pm.org domain that points to your server.</p>
-<h3>Why does it sometimes take awhile to get Perl Mongers services set up 
-for my group?</h3>
-<p>Perl Mongers is an all volunteer organization, and almost all of our system 
-administrators have very demanding commitments outside of Perl Mongers. We 
-do things as quickly as is reasonable considering all of our other 
-commitments. Additionally, there's nothing stopping you from operating 
-your group while you are waiting for your Perl Mongers services.</p>
-<h3>How do I set up my group's web site on the Perl Monger server?</h3>
-<p>See below.</p>
-<h3>How can I administer my mailing list </h3>
-<p>All lists are run using <code>mailman</code>. Users can access their <code>mailman</code> 
-configuration at
-<a href="http://www.pm.org/mailman/listinfo/">http://www.pm.org/mailman/listinfo/</a><i>&gt;list name&lt;</i>. List admins
-can access the list administration page at
-<a href="http://www.pm.org/mailman/admin/">http://www.pm.org/mailman/admin/</a><i>&gt;list name&lt;</i>.</p>
-<h3>You use <code>mailman</code> on a Perl web site? Are you a secret Python
-programmer?</h3>
-<p><code>mailman</code> is better than <code>majordomo</code>. Deal with it.</p>
-<h2>The Perl Mongers logo</h2>
-<h3>Can I make my own camel logo?</h3>
-<p>The camel used in association with the Perl language is a trademark of 
-O'Reilly &amp; Associates. Thus, you would have to ask them, although we can 
-help you go through that process if you need to. Be warned that this can be 
-a lengthy process and that only the most professionally designed logos are 
-likely to pass muster with O'Reilly. You should seriously consider using the 
-existing Perl Mongers logo which was chosen after almost a year of effort and 
-many trips back to the ad agency.</p>
-<h3>Can I use the Perl Mongers logo?</h3>
-<p>Perl Mongers groups can use the logo that appears on this page on their own 
-web page as long as they include the following text somewhere (able to be 
-clearly seen) on the page:</p>
-<p>"The use of the camel image in association with the Perl language is a 
-trademark of O'Reilly &amp; Associates, Inc. Used with permission."</p>
-<p>Use of the Perl Mongers logo in other media is evaluated on a case by case 
-basis since Perl Mongers is legally liable for its misuse. Our license with 
-O'Reilly &amp; Associates requires us to report misuse of the Camel logo with the 
-Perl Mongers name. Help us not get in trouble.</p>
-<h3>Can I change the Perl Mongers logo's color, size, and so on?</h3>
-<p>You can only use the image as you find it. Additionally, you cannot 
-incorporate it into a larger logo or make it look like it is part of a larger 
-graphic. If you have other needs, we might be able to work something out. We 
-will, however, be less willing to work out special situations if we have to 
-ask you to remove an improperly used logo before you ask us. We are legally 
-liable for misuse of the logo. </p>
-<h3>Who created the logo?</h3>
-<p>Smith &amp; Jones Advertising and Marketing developed the corporate image and 
-handles all of Perl Mongers logo placement needs. The camel image is used 
-with the permission of O'Reilly &amp; Associates.</p>
-
-<h1>Perl Mongers Group Hosting Service</h1>
-<h2><a name="what_services_are_offered"></a>What Services are Offered?</h2>
+<p>
+    Please send any suggestions or corrections to user_groups@pm.org
+</p>
+<h2>
+    General Questions
+</h2>
+<h3>
+    What is Perl Mongers?
+</h3>
+<p>
+    Perl Mongers is a loose association of international Perl User Groups.
+    Individual groups vary a great deal in the details of what they actually
+    do, but in most cases they are groups of Perl users in a particular
+    location who get together periodically to discuss Perl and related topics.
+</p>
+<p>
+    Perl Mongers is also the name of the organisation that oversees and
+    co-ordinates the local groups. It also provides internet services to these
+    groups. Perl Mongers was originally set up as a not-for-profit organisation
+    in the state of New York, but in July 2001 it joined with Yet Another
+    Society.
+</p>
+<h3>
+    Is there a Perl Mongers group in my area?
+</h3>
+<p>
+    The list of currently established groups is [% link_to('/groups/', 'here')
+    %]
+</p>
+<h3>
+    How do I start a Perl Mongers group?
+</h3>
+<p>
+    Simply find some Perl hackers in your area and ask them if they'd be
+    interested in starting a group.
+</p>
+<p>
+    Experience shows that having a mailing list and a web site help to drum up
+    interest in your new group. Almost certainly you'll already have access to
+    servers to set them up on, but if you need help with that, we will gladly
+    supply both web space and a mailing list.
+</p>
+<p>
+    The only other thing to do is to [% link_to('/start/', 'let us know') %]
+    about your new group so that we can add you to the list of established
+    groups.
+</p>
+<h3>
+    Can you provide people to speak at our meetings?
+</h3>
+<p>
+    Perl Mongers can't actually provide speakers for you. Who do, however,
+    maintain a [% link_to('/invite/', 'list') %] of well-known people from the
+    Perl community who have indicated that they are happy to speak to Perl
+    Monger groups when they are passing through the area.
+</p>
+<h3>
+    What support exists for group leaders?
+</h3>
+<p>
+    All group leaders are automatically subscribed to the <a href=
+    "http://mail.pm.org/mailman/listinfo/pm_groups">pm_groups mailing list</a>.
+    The #mongers channel on <a href="http://irc.perl.org/">irc.perl.org</a>
+    exists for leaders to discuss anything related to running a group.
+</p>
+<h2>
+    Internet Services
+</h2>
+<h3>
+    What Internet services can Perl Mongers provide?
+</h3>
+<p>
+    If your group does not have a local server that you can use to host a
+    mailing list and a web site then we can host it for you on our server. If
+    you want to host your mailing list and web site locally then we can provide
+    a pm.org domain that points to your server.
+</p>
+<h3>
+    Why does it sometimes take awhile to get Perl Mongers services set up for
+    my group?
+</h3>
+<p>
+    Perl Mongers is an all volunteer organization, and almost all of our system
+    administrators have very demanding commitments outside of Perl Mongers. We
+    do things as quickly as is reasonable considering all of our other
+    commitments. Additionally, there's nothing stopping you from operating your
+    group while you are waiting for your Perl Mongers services.
+</p>
+<h3>
+    How do I set up my group's web site on the Perl Monger server?
+</h3>
+<p>
+    See below.
+</p>
+<h3>
+    How can I administer my mailing list
+</h3>
+<p>
+    All lists are run using <code>mailman</code>. Users can access their
+    <code>mailman</code> configuration at <a href=
+    "http://www.pm.org/mailman/listinfo/">http://www.pm.org/mailman/listinfo/</a><i>&gt;list
+    name&lt;</i>. List admins can access the list administration page at
+    <a href=
+    "http://www.pm.org/mailman/admin/">http://www.pm.org/mailman/admin/</a><i>&gt;list
+    name&lt;</i>.
+</p>
+<h3>
+    You use <code>mailman</code> on a Perl web site? Are you a secret Python
+    programmer?
+</h3>
+<p>
+    <code>mailman</code> is better than <code>majordomo</code>. Deal with it.
+</p>
+<h2>
+    The Perl Mongers logo
+</h2>
+<h3>
+    Can I make my own camel logo?
+</h3>
+<p>
+    The camel used in association with the Perl language is a trademark of
+    O'Reilly &amp; Associates. Thus, you would have to ask them, although we
+    can help you go through that process if you need to. Be warned that this
+    can be a lengthy process and that only the most professionally designed
+    logos are likely to pass muster with O'Reilly. You should seriously
+    consider using the existing Perl Mongers logo which was chosen after almost
+    a year of effort and many trips back to the ad agency.
+</p>
+<h3>
+    Can I use the Perl Mongers logo?
+</h3>
+<p>
+    Perl Mongers groups can use the logo that appears on this page on their own
+    web page as long as they include the following text somewhere (able to be
+    clearly seen) on the page:
+</p>
+<p>
+    "The use of the camel image in association with the Perl language is a
+    trademark of O'Reilly &amp; Associates, Inc. Used with permission."
+</p>
+<p>
+    Use of the Perl Mongers logo in other media is evaluated on a case by case
+    basis since Perl Mongers is legally liable for its misuse. Our license with
+    O'Reilly &amp; Associates requires us to report misuse of the Camel logo
+    with the Perl Mongers name. Help us not get in trouble.
+</p>
+<h3>
+    Can I change the Perl Mongers logo's color, size, and so on?
+</h3>
+<p>
+    You can only use the image as you find it. Additionally, you cannot
+    incorporate it into a larger logo or make it look like it is part of a
+    larger graphic. If you have other needs, we might be able to work something
+    out. We will, however, be less willing to work out special situations if we
+    have to ask you to remove an improperly used logo before you ask us. We are
+    legally liable for misuse of the logo.
+</p>
+<h3>
+    Who created the logo?
+</h3>
+<p>
+    Smith &amp; Jones Advertising and Marketing developed the corporate image
+    and handles all of Perl Mongers logo placement needs. The camel image is
+    used with the permission of O'Reilly &amp; Associates.
+</p>
+<h1>
+    Perl Mongers Group Hosting Service
+</h1>
+<h2>
+    <a name="what_services_are_offered" id="what_services_are_offered"></a>What
+    Services are Offered?
+</h2>
 <pre>
   - Basic Web Hosting (via WebDAV)
   - Group Mailing Lists (MailMan) 
-  - .pm.org DNS</pre>
-<p>
-</p>
-<h2><a name="what_services_are_not_offered"></a>What Services are not offered?</h2>
+  - .pm.org DNS
+</pre>
+<h2>
+    <a name="what_services_are_not_offered" id=
+    "what_services_are_not_offered"></a>What Services are not offered?
+</h2>
 <pre>
   - Dynamic Web Hosting (cgi-scripts, mason, tt)
   - Shell Access
-  - FTP</pre>
+  - FTP
+</pre>
+<h2>
+    <a name="why_don_t_you_offer_service_x" id=
+    "why_don_t_you_offer_service_x"></a>Why don't you offer service X?
+</h2>
 <p>
+    Probably for security reasons.
 </p>
-<h2><a name="why_don_t_you_offer_service_x"></a>Why don't you offer service X?</h2>
-<p>Probably for security reasons.</p>
+<h2>
+    <a name="do_i_have_to_host_my_pm_group_website_on_your_server" id=
+    "do_i_have_to_host_my_pm_group_website_on_your_server"></a>Do I have to
+    host my PM group website on your server?
+</h2>
 <p>
+    No. We're happy to point yourgroup.pm.org DNS anywhere you want.
 </p>
-<h2><a name="do_i_have_to_host_my_pm_group_website_on_your_server"></a>Do I have to host my PM group website on your server?</h2>
-<p>No.  We're happy to point yourgroup.pm.org DNS anywhere you want.</p>
+<h2>
+    <a name="who_do_i_contact_for_help" id="who_do_i_contact_for_help"></a>Who
+    do I contact for help?
+</h2>
 <p>
+    Send an email to support(at)pm(dot)org
 </p>
-<h2><a name="who_do_i_contact_for_help"></a>Who do I contact for help?</h2>
-<p>Send an email to support(at)pm(dot)org</p>
+<hr>
+<h1>
+    <a name="maintaining_my_groups_website" id=
+    "maintaining_my_groups_website"></a>Maintaining my groups website
+</h1>
+<h2>
+    <a name="how_do_i_upload_files" id="how_do_i_upload_files"></a>How do I
+    upload files?
+</h2>
 <p>
+    Access is only supported through WebDAV (http://www.webdav.org).
 </p>
-<hr />
-<h1><a name="maintaining_my_groups_website"></a>Maintaining my groups website</h1>
 <p>
+    Recent versions of Windows and Mac OS X have DAV clients built in. Many
+    Linux desktop tools do as well.
 </p>
-<h2><a name="how_do_i_upload_files"></a>How do I upload files?</h2>
-<p>Access is only supported through WebDAV (http://www.webdav.org).</p>
-<p>Recent versions of Windows and Mac OS X have DAV clients built in.
-Many Linux desktop tools do as well.</p>
-<p>For a simple UNIX command line client, try cadaver.
-(http://www.webdav.org/cadaver.)</p>
 <p>
+    For a simple UNIX command line client, try cadaver.
+    (http://www.webdav.org/cadaver.)
 </p>
-<h2><a name="where_do_i_get_a_username_password"></a>Where do I get a username/password?</h2>
-<p>Go to <a href="http://svn.perl.org/">http://svn.perl.org/</a> and sign up for a username.  You must
-notify support(at)pm(dot)org so they can associate that username with your
-pm group.</p>
+<h2>
+    <a name="where_do_i_get_a_username_password" id=
+    "where_do_i_get_a_username_password"></a>Where do I get a
+    username/password?
+</h2>
 <p>
+    Go to <a href="http://svn.perl.org/">http://svn.perl.org/</a> and sign up
+    for a username. You must notify support(at)pm(dot)org so they can associate
+    that username with your pm group.
 </p>
-<h2><a name="what_if_i_forget_my_password"></a>What if I forget my password?</h2>
-<p><a href="http://svn.perl.org/">http://svn.perl.org/</a> tells you how to reset your password.</p>
+<h2>
+    <a name="what_if_i_forget_my_password" id=
+    "what_if_i_forget_my_password"></a>What if I forget my password?
+</h2>
 <p>
+    <a href="http://svn.perl.org/">http://svn.perl.org/</a> tells you how to
+    reset your password.
 </p>
-<h2><a name="where_do_i_upload_files"></a>Where do I upload files?</h2>
-<p><a href="https://groups.pm.org/groups/yourgroup/">https://groups.pm.org/groups/yourgroup/</a></p>
-<p>You must use the 'real' name of your group, not one of its aliases.
-(i.e. philadelphia, not philly or phl)</p>
+<h2>
+    <a name="where_do_i_upload_files" id="where_do_i_upload_files"></a>Where do
+    I upload files?
+</h2>
 <p>
+    <a href=
+    "https://groups.pm.org/groups/yourgroup/">https://groups.pm.org/groups/yourgroup/</a>
 </p>
-<h2><a name="what_is_my_group_website"></a>What is my group website?</h2>
-<p>yourgroup.pm.org</p>
 <p>
+    You must use the 'real' name of your group, not one of its aliases. (i.e.
+    philadelphia, not philly or phl)
 </p>
-<h2><a name="how_do_i_use_cadaver"></a>How do I use cadaver?</h2>
-<p>Cadaver works just like most command line FTP clients.</p>
+<h2>
+    <a name="what_is_my_group_website" id="what_is_my_group_website"></a>What
+    is my group website?
+</h2>
+<p>
+    yourgroup.pm.org
+</p>
+<h2>
+    <a name="how_do_i_use_cadaver" id="how_do_i_use_cadaver"></a>How do I use
+    cadaver?
+</h2>
+<p>
+    Cadaver works just like most command line FTP clients.
+</p>
 <pre>
  $ cadaver https://groups.pm.org/groups/yourgroup
  Authentication required for perl.org on server `groups.pm.org':
  Username: yourusername
  Password: yourpassword
- dav:/groups/yourgroup/&gt;</pre>
-<p>Important commands: 
- get
- put
- ls</p>
+ dav:/groups/yourgroup/&gt;
+</pre>
 <p>
+    Important commands: get put ls
 </p>
-<h2><a name="why_can_t_i_use_a_ftp_client"></a>Why can't I use a FTP client?</h2>
-<p>Because DAV integrates better with our Authentication and Access
-Control system.  Also, DAV runs over SSL (https) so passwords (and
-data) are encrypted in transit.</p>
+<h2>
+    <a name="why_can_t_i_use_a_ftp_client" id=
+    "why_can_t_i_use_a_ftp_client"></a>Why can't I use a FTP client?
+</h2>
 <p>
+    Because DAV integrates better with our Authentication and Access Control
+    system. Also, DAV runs over SSL (https) so passwords (and data) are
+    encrypted in transit.
 </p>
-<h2><a name="webdav_on_windows"></a>WebDAV on Windows</h2>
-<p>On 2007-06-24 Doug of OC.pm wrote:</p>
+<h2>
+    <a name="webdav_on_windows" id="webdav_on_windows"></a>WebDAV on Windows
+</h2>
+<p>
+    On 2007-06-24 Doug of OC.pm wrote:
+</p>
 <pre>
   IE7 must be different...I used this as a guide:
-     <a href="http://www.hss.caltech.edu/help/web/webdav/accessing/windowsxp">http://www.hss.caltech.edu/help/web/webdav/accessing/windowsxp</a></pre>
+     <a href=
+"http://www.hss.caltech.edu/help/web/webdav/accessing/windowsxp">http://www.hss.caltech.edu/help/web/webdav/accessing/windowsxp</a>
+</pre>
 <pre>
   Basically you go to Start-&gt;My Network Places-&gt;Add a Network,
   plug in your group web access URL
      https://groups.pm.org/groups/yourgroup
-  and it creates a directory where you can just copy/paste files.</pre>
-<p>Older (obsolete?) instructions:</p>
-<p>Using Internet Explorer, click File -&gt; Open and enter
-'https://groups.pm.org/groups/yourgroup'. Check the box labelled ``Open
-as web folder'' and hit Ok.  Accept the site certificate and when
-prompted, enter the username and password that you have had associated
-with yourgroup.  In the resulting folder view you may delete, rename,
-move, or copy files and drag new files there to upload.</p>
-<p>And for those who want to mount it as a disk under Windows, this
-little tool is very handfull (and free)
-<a href="http://support.novell.com/servlet/filedownload/uns/pub/ndrv41862.exe">http://support.novell.com/servlet/filedownload/uns/pub/ndrv41862.exe</a></p>
-<p>I use it because the webdav client of Dreamweaver doesn't seems to
-like webdav with SSL, but not sure.</p>
+  and it creates a directory where you can just copy/paste files.
+</pre>
 <p>
+    Older (obsolete?) instructions:
 </p>
-<h2><a name="webdav_on_mac_os_x"></a>WebDAV on Mac OS X</h2>
-<p>Under Finder, choose Go, then Connect to Server. Under server address, enter:</p>
+<p>
+    Using Internet Explorer, click File -&gt; Open and enter
+    'https://groups.pm.org/groups/yourgroup'. Check the box labelled ``Open as
+    web folder'' and hit Ok. Accept the site certificate and when prompted,
+    enter the username and password that you have had associated with
+    yourgroup. In the resulting folder view you may delete, rename, move, or
+    copy files and drag new files there to upload.
+</p>
+<p>
+    And for those who want to mount it as a disk under Windows, this little
+    tool is very handfull (and free) <a href=
+    "http://support.novell.com/servlet/filedownload/uns/pub/ndrv41862.exe">http://support.novell.com/servlet/filedownload/uns/pub/ndrv41862.exe</a>
+</p>
+<p>
+    I use it because the webdav client of Dreamweaver doesn't seems to like
+    webdav with SSL, but not sure.
+</p>
+<h2>
+    <a name="webdav_on_mac_os_x" id="webdav_on_mac_os_x"></a>WebDAV on Mac OS X
+</h2>
+<p>
+    Under Finder, choose Go, then Connect to Server. Under server address,
+    enter:
+</p>
 <pre>
-  https://groups.pm.org/groups/yourgroup</pre>
-<p>That's it. You now have access to our server via WebDAV just like any other
-network drive.</p>
-<p>(This works great on OS X version 10.4.5. Back on 10.3 I had to use cadaver
-because WebDAV over https didn't work. I don't know at what exact version
-they got https working.)</p>
+  https://groups.pm.org/groups/yourgroup
+</pre>
 <p>
+    That's it. You now have access to our server via WebDAV just like any other
+    network drive.
 </p>
-<h2><a name="is_there_a_quota"></a>Is there a quota?</h2>
-<p>There is no hard limit, but we are monitoring disk usage carefully.
-If a group uses an inappropriate amount of disk space, they will be
-removed from the server.</p>
 <p>
+    (This works great on OS X version 10.4.5. Back on 10.3 I had to use cadaver
+    because WebDAV over https didn't work. I don't know at what exact version
+    they got https working.)
 </p>
-<h2><a name="what_can_i_upload"></a>What can I upload?</h2>
-<p>Things related to your perl monger group.</p>
+<h2>
+    <a name="is_there_a_quota" id="is_there_a_quota"></a>Is there a quota?
+</h2>
 <p>
+    There is no hard limit, but we are monitoring disk usage carefully. If a
+    group uses an inappropriate amount of disk space, they will be removed from
+    the server.
 </p>
-<h2><a name="on_the_old_server_my_site_used_mason_or_template_toolkit"></a>On the old server my site used Mason or Template Toolkit</h2>
-<p>Sorry, you can't do this anymore, it's a security risk we're not
-willing to take.</p>
+<h2>
+    <a name="what_can_i_upload" id="what_can_i_upload"></a>What can I upload?
+</h2>
 <p>
+    Things related to your perl monger group.
 </p>
-<h2><a name="on_the_old_server_i_had_a_wiki_running"></a>On the old server I had a wiki running</h2>
-<p>There is no standardized wiki service at this time.</p>
+<h2>
+    <a name="on_the_old_server_my_site_used_mason_or_template_toolkit" id=
+    "on_the_old_server_my_site_used_mason_or_template_toolkit"></a>On the old
+    server my site used Mason or Template Toolkit
+</h2>
 <p>
+    Sorry, you can't do this anymore, it's a security risk we're not willing to
+    take.
 </p>
-<h2><a name="why_don_t_you_have_a_real_ssl_certificate"></a>Why don't you have a real SSL certificate?</h2>
-<p>Because we're cheapskates.</p>
-<p>Go here: <a href="http://ca.develooper.com/install.html">http://ca.develooper.com/install.html</a> to get the Develooper
-Root certificate.</p>
+<h2>
+    <a name="on_the_old_server_i_had_a_wiki_running" id=
+    "on_the_old_server_i_had_a_wiki_running"></a>On the old server I had a wiki
+    running
+</h2>
 <p>
+    There is no standardized wiki service at this time.
 </p>
-<hr />
-<h1><a name="dns"></a>DNS</h1>
+<h2>
+    <a name="why_don_t_you_have_a_real_ssl_certificate" id=
+    "why_don_t_you_have_a_real_ssl_certificate"></a>Why don't you have a real
+    SSL certificate?
+</h2>
 <p>
+    Because we're cheapskates.
 </p>
-<h2><a name="why_would_i_want_to_change_the_dns_for_my_group"></a>Why would I want to change the DNS for my group?</h2>
-<p>Because you want to host your group's web server on a server you control.
-We're happy to point yourgroup.pm.org DNS to your server(s).</p>
 <p>
+    Go here: <a href=
+    "http://ca.develooper.com/install.html">http://ca.develooper.com/install.html</a>
+    to get the Develooper Root certificate.
 </p>
-<h2><a name="will_you_delegate_ns_for_my_group"></a>Will you delegate NS for my group?</h2>
-<p>No, sorry. Recent security exploits have convinced us not to delegate DNS
-offsite.</p>
+<hr>
+<h1>
+    <a name="dns" id="dns"></a>DNS
+</h1>
+<h2>
+    <a name="why_would_i_want_to_change_the_dns_for_my_group" id=
+    "why_would_i_want_to_change_the_dns_for_my_group"></a>Why would I want to
+    change the DNS for my group?
+</h2>
 <p>
+    Because you want to host your group's web server on a server you control.
+    We're happy to point yourgroup.pm.org DNS to your server(s).
 </p>
-<h2><a name="will_you_point_mx_records_to_my_smtp_server"></a>Will you point MX records to my SMTP server?</h2>
-<p>We will only do this for established groups.  After you've had a few meetings, send us your <code>hostname(s)</code> to which you would like yourgroup.pm.org MX 
-to be directed. (MX records work on hostnames, not IP addresses.)</p>
+<h2>
+    <a name="will_you_delegate_ns_for_my_group" id=
+    "will_you_delegate_ns_for_my_group"></a>Will you delegate NS for my group?
+</h2>
 <p>
+    No, sorry. Recent security exploits have convinced us not to delegate DNS
+    offsite.
 </p>
-<hr />
-<h1><a name="email_forwarding"></a>Email Forwarding</h1>
+<h2>
+    <a name="will_you_point_mx_records_to_my_smtp_server" id=
+    "will_you_point_mx_records_to_my_smtp_server"></a>Will you point MX records
+    to my SMTP server?
+</h2>
 <p>
+    We will only do this for established groups. After you've had a few
+    meetings, send us your <code>hostname(s)</code> to which you would like
+    yourgroup.pm.org MX to be directed. (MX records work on hostnames, not IP
+    addresses.)
 </p>
-<h2><a name="can_you_forward_email_sent_to_groupname_pm_org__e_g__omaha_pm_org_"></a>Can you forward email sent to <a href="mailto:groupname@pm.org?">groupname@pm.org?</a> (e.g. <a href="mailto:omaha@pm.org)">omaha@pm.org)</a></h2>
-<p>Yes, if you explicitly ask for that. Send a request to support(at)pm(dot)org, specifing the 
-address you would like us to forward to. You must be the group admin for that group.</p>
+<hr>
+<h1>
+    <a name="email_forwarding" id="email_forwarding"></a>Email Forwarding
+</h1>
+<h2>
+    <a name=
+    "can_you_forward_email_sent_to_groupname_pm_org__e_g__omaha_pm_org_" id=
+    "can_you_forward_email_sent_to_groupname_pm_org__e_g__omaha_pm_org_"></a>Can
+    you forward email sent to <a href=
+    "mailto:groupname@pm.org?">groupname@pm.org?</a> (e.g. <a href=
+    "mailto:omaha@pm.org)">omaha@pm.org)</a>
+</h2>
 <p>
+    Yes, if you explicitly ask for that. Send a request to
+    support(at)pm(dot)org, specifing the address you would like us to forward
+    to. You must be the group admin for that group.
 </p>
-<h2><a name="can_you_forward_email_sent_to_username_pm_org__e_g__jay_hannah_pm_org_"></a>Can you forward email sent to <a href="mailto:username@pm.org?">username@pm.org?</a> (e.g. <a href="mailto:jay_hannah@pm.org)">jay_hannah@pm.org)</a></h2>
-<p>No, we don't do this. It's proven to be too much maintenance. Sorry.</p>
+<h2>
+    <a name=
+    "can_you_forward_email_sent_to_username_pm_org__e_g__jay_hannah_pm_org_"
+    id="can_you_forward_email_sent_to_username_pm_org__e_g__jay_hannah_pm_org_">
+    </a>Can you forward email sent to <a href=
+    "mailto:username@pm.org?">username@pm.org?</a> (e.g. <a href=
+    "mailto:jay_hannah@pm.org)">jay_hannah@pm.org)</a>
+</h2>
 <p>
+    No, we don't do this. It's proven to be too much maintenance. Sorry.
 </p>
-<hr />
-<h1><a name="group_mailing_lists"></a>Group Mailing Lists</h1>
-<p>If you like, we'll host a MailMan mailing list for your group. You'll administer your
-list via the web interface 
-(<a href="http://www.pm.org/mailman/listinfo/groupname">http://www.pm.org/mailman/listinfo/groupname</a>)
-and/or by emailing commands to the MailMan server.</p>
-<p>Also, as a group leader, you'll be added to a mailing list of your fellow administrators
-from around the world. It's a low-volume announcement-centric list.</p>
+<hr>
+<h1>
+    <a name="group_mailing_lists" id="group_mailing_lists"></a>Group Mailing
+    Lists
+</h1>
 <p>
+    If you like, we'll host a MailMan mailing list for your group. You'll
+    administer your list via the web interface (<a href=
+    "http://www.pm.org/mailman/listinfo/groupname">http://www.pm.org/mailman/listinfo/groupname</a>)
+    and/or by emailing commands to the MailMan server.
 </p>
-<hr />
-<h1><a name="how_do_i_request_a_new_group_or_to_reactivate_a_group_that_has_been_inactive"></a>How do I request a new group or to reactivate a group that has been inactive?</h1>
-<p>99% of the time your group name will be the name of the city in which your meetings
-will typically be held. So, since I live in Omaha my group name is Omaha.pm.</p>
-<p>Send an email to support(at)pm(dot)org. The subject should be ``Omaha.pm - new group request''
-or similar.  Your email needs to include all of the following:</p>
+<p>
+    Also, as a group leader, you'll be added to a mailing list of your fellow
+    administrators from around the world. It's a low-volume
+    announcement-centric list.
+</p>
+<hr>
+<h1>
+    <a name=
+    "how_do_i_request_a_new_group_or_to_reactivate_a_group_that_has_been_inactive"
+    id=
+    "how_do_i_request_a_new_group_or_to_reactivate_a_group_that_has_been_inactive">
+    </a>How do I request a new group or to reactivate a group that has been
+    inactive?
+</h1>
+<p>
+    99% of the time your group name will be the name of the city in which your
+    meetings will typically be held. So, since I live in Omaha my group name is
+    Omaha.pm.
+</p>
+<p>
+    Send an email to support(at)pm(dot)org. The subject should be ``Omaha.pm -
+    new group request'' or similar. Your email needs to include all of the
+    following:
+</p>
 <pre>
   Group leader name
   Group leader email address
@@ -286,45 +495,89 @@ or similar.  Your email needs to include all of the following:</p>
   Region (if applicable)
   Continent
   Country
-  Latitude   (in decimal format like &quot;41.224853&quot;)
-  Longitude  (in decimal format like &quot;-96.122798&quot;)
-  ... and the answers to the 2 questions below.</pre>
-<p><strong>(1) Do you want us to host a website for you or are you going to host your own
-website?</strong></p>
-<p>If you want us to host it make sure you've read the parts of this FAQ
-that explain WebDAV. That's the only way you're going to be able to manage your
-site content. Plus, you'll have no CGI access, etc.</p>
-<p>If you want to host your own we'll need the IP address we should 
-point YourGroup.pm.org to, so please provide that.</p>
-<p><strong>(2) Do you want us to host a MailMan mailing list for you?</strong></p>
-<p>Just indicate yes or no.</p>
-<p>Once you've sent that email you should get a reply back from RequestTracker, the ticketing
-system we use. A volunteer administrator should be in touch in a week or so.</p>
+  Latitude   (in decimal format like "41.224853")
+  Longitude  (in decimal format like "-96.122798")
+  ... and the answers to the 2 questions below.
+</pre>
 <p>
+    <strong>(1) Do you want us to host a website for you or are you going to
+    host your own website?</strong>
 </p>
-<hr />
-<h1><a name="who_pays_for_perl_mongers_services"></a>Who pays for Perl Mongers services?</h1>
-<p>Our sponsors: <a href="http://www.perl.org/siteinfo.html#sponsors">http://www.perl.org/siteinfo.html#sponsors</a></p>
 <p>
+    If you want us to host it make sure you've read the parts of this FAQ that
+    explain WebDAV. That's the only way you're going to be able to manage your
+    site content. Plus, you'll have no CGI access, etc.
 </p>
-<h2><a name="can_i_help"></a>Can I help?</h2>
-<p>Sure!</p>
-<p>Send money to the Perl Foundation (http://www.perlfoundation.org/), 
-or send us hard drives and stuff on wishlist (http://www.perl.org/wishlist.html)</p>
-<p>Buy things from our sponsors!</p>
-<p>And put the following ad rotation HTML on your group website:</p>
+<p>
+    If you want to host your own we'll need the IP address we should point
+    YourGroup.pm.org to, so please provide that.
+</p>
+<p>
+    <strong>(2) Do you want us to host a MailMan mailing list for you?</strong>
+</p>
+<p>
+    Just indicate yes or no.
+</p>
+<p>
+    Once you've sent that email you should get a reply back from
+    RequestTracker, the ticketing system we use. A volunteer administrator
+    should be in touch in a week or so.
+</p>
+<hr>
+<h1>
+    <a name="who_pays_for_perl_mongers_services" id=
+    "who_pays_for_perl_mongers_services"></a>Who pays for Perl Mongers
+    services?
+</h1>
+<p>
+    Our sponsors: <a href=
+    "http://www.perl.org/siteinfo.html#sponsors">http://www.perl.org/siteinfo.html#sponsors</a>
+</p>
+<h2>
+    <a name="can_i_help" id="can_i_help"></a>Can I help?
+</h2>
+<p>
+    Sure!
+</p>
+<p>
+    Send money to the Perl Foundation (http://www.perlfoundation.org/), or send
+    us hard drives and stuff on wishlist (http://www.perl.org/wishlist.html)
+</p>
+<p>
+    Buy things from our sponsors!
+</p>
+<p>
+    And put the following ad rotation HTML on your group website:
+</p>
 <pre>
-   &lt;script language=&quot;JavaScript&quot; src=&quot;<a href="http://www.perl.org/misc/site-sponsor-js.html">http://www.perl.org/misc/site-sponsor-js.html</a>&quot;&gt;&lt;/script&gt;</pre>
-<p>The output width is fixed at 180, but the height is variable.  
-If you want to personalize the text message, you can add '?notext=1' to the src string.</p>
-<p>You can probably see that ad rotation in action at the Omaha Perl Mongers website: <a href="http://omaha.pm.org">http://omaha.pm.org</a></p>
+   &lt;script language="JavaScript" src="<a href=
+"http://www.perl.org/misc/site-sponsor-js.html">http://www.perl.org/misc/site-sponsor-js.html</a>"&gt;&lt;/script&gt;
+</pre>
 <p>
+    The output width is fixed at 180, but the height is variable. If you want
+    to personalize the text message, you can add '?notext=1' to the src string.
 </p>
-<hr />
-<h1><a name="about_this_document"></a>About this Document</h1>
-<p>There is a small band of volunteers known as Perl Monger administrators who maintain
-all the services we offer. This document started in January 2005 when we moved the server
-(again) and has been hacked and slashed up by various admins since (or not).</p>
-<p>It officially lives here: <a href="http://www.pm.org/faq/">http://www.pm.org/faq/</a></p>
-<p>Questions/comments to the Perl Mongers admins: support(at)pm(dot)org</p>
+<p>
+    You can probably see that ad rotation in action at the Omaha Perl Mongers
+    website: <a href="http://omaha.pm.org">http://omaha.pm.org</a>
+</p>
+<hr>
+<h1>
+    <a name="about_this_document" id="about_this_document"></a>About this
+    Document
+</h1>
+<p>
+    There is a small band of volunteers known as Perl Monger administrators who
+    maintain all the services we offer. This document started in January 2005
+    when we moved the server (again) and has been hacked and slashed up by
+    various admins since (or not).
+</p>
+<p>
+    It officially lives here: <a href=
+    "http://www.pm.org/faq/">http://www.pm.org/faq/</a>
+</p>
+<p>
+    Questions/comments to the Perl Mongers admins: support(at)pm(dot)org
+</p>
+
 [% END %]
