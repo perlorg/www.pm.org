@@ -7,6 +7,15 @@
         <meta name="MsSmartTagsPreventParsing" content="TRUE" />
         <title>[% title or "Perl Mongers" %]</title>
         <link rel="stylesheet" href="/includes/style.css">
+        <script>
+        document.createElement('nav');
+        document.createElement('header'); // only one we are actually using atm
+        document.createElement('hgroup');
+        document.createElement('article');
+        document.createElement('aside');
+        document.createElement('figure');
+        document.createElement('section');
+        </script>
         <script type="text/javascript" charset="utf-8">
             // Global JS container
             var PM = {};
