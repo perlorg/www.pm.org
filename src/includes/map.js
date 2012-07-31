@@ -12,9 +12,9 @@ function processMapXML(data) {
                 title: pm_group.name
             });
 
-            var msg = "<h3>";
-            msg = msg + "<a href='" + pm_group.web + "'>" + pm_group.name + "</a><br/>";
-            msg = msg + "</h3>";
+            var msg = "<h3>" + pm_group.name + "</h3>";
+            msg = msg + "<a href='/groups/" + pm_group.id + ".html'>More info</a> | ";
+            msg = msg + "<a href='" + pm_group.web + "'>Web site</a><br/>";
 
             var infowindow = new google.maps.InfoWindow({
                 content: msg

@@ -29,28 +29,27 @@ function initialize() {
 
 <p style="clear:both; height: 50px">&nbsp;</p>
 
-
 [% IF web %]
   <b><a href="[% web %]">[% name | html_entity %]</a></b> ([% linked_location %])<br>
 [% ELSE %]
-  <b>[% name | html_entity %]</b> ([% linked_location  %])<br>
+  <b>[% name | html_entity %]</b> ([% linked_location %])<br>
 [% END %]
 
+<p>
 [% FOREACH t IN tsar %] 
 [% t.name | html_entity %] &lt;[% t.mail %]&gt;<br>
 [% END %]
-
+</p>
 <!--
 [% IF mailing_list %]
   [% mailing_list.name %]
 [% END %]
 -->
 
-[% END %]
-
-<p>Is your local group's latitude/longitude data wrong or missing? Please contact your 
-group leader, and they can submit new coordinates to us. (This map is only as good as
+<p>Is this group's latitude/longitude data wrong or missing? Please contact the 
+group leader (above), and they can submit new coordinates to us. (This map is only as good as
 our data: <a href="http://www.pm.org/groups/perl_mongers.xml">Master XML</a>
- <a href="http://www.pm.org/groups/perl_mongers.json">Generated JSON</a>
-.)
+ <a href="http://www.pm.org/groups/perl_mongers.json">Generated JSON</a>)
 </p>
+
+[% END %]

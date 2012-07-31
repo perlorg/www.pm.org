@@ -188,7 +188,7 @@ foreach my $g ( $doc->findnodes('//group') ) {
         linked_location => $linked_location,
         longitude       => $longitude,
         latitude        => $latitude,
-        zoom            => 13,
+        zoom            => 11,
         name            => $name,
         tsar            => \@tsar,
         state           => $state,
