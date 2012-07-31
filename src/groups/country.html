@@ -1,34 +1,30 @@
-[% 
-   WRAPPER layout title = "Perl Mongers: $country"
-   onload="initialize"
-   onunload="GUnload"
+[% WRAPPER layout 
+    title = "Perl Mongers: $country",
+    hide_masthead=1,
+    map_page=1
 %]
 
 <script type="text/javascript">
-var longitude = [% longitude %];
-var latitude = [% latitude %];
-var zoom = [% zoom %];
-var coords = [
 
-[% IF country == 'United States of America' %]
-  [% FOREACH state = groups.keys.sort %]
-    [% FOREACH group = groups.$state %]
-        [% IF group.latitude %]
-          [ [% group.latitude %], [% group.longitude %] ],
-        [% END %]
-    [% END %]
-  [% END %]
-[% ELSE %]
-    [% FOREACH group = groups %]
-        [% IF group.latitude %]
-          [ [% group.latitude %], [% group.longitude %] ],
-        [% END %]
-    [% END %]
-[% END %]
-];
-</script> 
+function initialize() {
+    var mapOptions = {
+        center: new google.maps.LatLng( [% latitude %], [% longitude %]), // show the most pins possible
+        zoom: [% zoom %],
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    PM.map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
 
-<div id="map-canvas" style="width: 500px; height: 400px"></div>
+    $.ajax({
+        url: 'perl_mongers.json',
+        dataType: 'json',
+        success: processMapXML,
+    });
+}
+</script>
+
+<div id="map_canvas" style="width:100%; height:450px"></div>
+
+<p style="clear:both; height: 50px">&nbsp;</p>
 
 [% IF groups.size %]
 

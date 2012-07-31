@@ -7,9 +7,22 @@
         <meta name="MsSmartTagsPreventParsing" content="TRUE" />
         <title>[% title or "Perl Mongers" %]</title>
         <link rel="stylesheet" href="/includes/style.css">
+        <script type="text/javascript" charset="utf-8">
+            // Global JS container
+            var PM = {};
+        </script>
+        [% IF map_page %]
+        <script type="text/javascript"
+          src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+        </script>
+        <script type="text/javascript"
+          src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAQUWXHRLr1r3tu1Kve9Jro3pP_e3_VyWc&sensor=true">
+        </script>
+        <script type="text/javascript" src="/includes/map.js"></script>
+        [% END %]
     </head>
     
-    <body class="index">
+    <body class="index" [% ' onload="initialize()"' IF map_page %]>
     <div id="wrapper">
 
         <header>
@@ -17,7 +30,7 @@
         	<div id="nav_holder">
                 <nav>
                     <div id="large_copy">
-                        <a href="/groups/">Find a group</a>
+                        <a href="/groups/map.html">Find a group</a>
                         <a href="/start/">Start a group</a>
                         <a href="/other/">Useful links</a>
                     </div>
@@ -29,10 +42,13 @@
         	</div>
         </header>
 
-[%# INCLUDE heading %]
+[% INCLUDE heading %]
+
+<div id="content_holder">
 
 [% content %]
 
+</div>
 
        <div id="footer">
            <div id="google_translate_element"></div>

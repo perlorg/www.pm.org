@@ -1,16 +1,5 @@
 [% WRAPPER layout title = "Perl Mongers" %]
 
-
-<figure id="masthead">
-	<img src="/images/background_map_lr.jpg " id="masthead_image" class="photo" alt=""> 
-</figure>
-
-<div id="masthead_overlay">
-		<h1>Perl Mongers</h1>
-		<h3>Perl Mongers is a loose association of 255 international Perl User Groups.</h3>
-</div>
-
-<div id="content_holder">
     	<ol class="details">
     		<li id="d1">
     			<h3>What are Perl Mongers?</h3>
@@ -20,7 +9,7 @@
                     location get together periodically to discuss Perl and related topics,
                     or just to socialize.</p>
                     
-                <p>There are currently 255 Perl monger groups around the world</p>
+                <p>There are currently [% allgroupsnum %] Perl monger groups around the world</p>
                 
                 <img src="/images/title.png">
     		</li>
@@ -31,6 +20,7 @@
     			<h3>Find a group</h3>
                 <p></p>
                 <ul class="sublist">
+                    <li><a href="/groups/map.html">World Map</a>                          </li>
                     <li><a href="/groups/africa.html">Africa</a>                          </li>
                     <li><a href="/groups/asia.html">Asia</a>                              </li>
                     <li><a href="/groups/central_america.html">Central America</a>        </li>
@@ -65,6 +55,5 @@
 
     </ol>
 
-</div>
 
 [% END %]
