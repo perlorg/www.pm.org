@@ -117,10 +117,17 @@ img.masthead{
 
 #content_holder{
 	clear:both;
-	margin-top: 15px;
+  margin-top: 15px;
 	margin-left: 20px;
 	margin-right: 20px;
 }
+#content_holder_map{
+	clear:both;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
 .details{
 	clear:both;
 }

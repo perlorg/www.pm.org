@@ -26,7 +26,7 @@
     <div id="wrapper">
 
         <header>
-            <a href="/"><img src="/images/camel.png" height="30px" id="onion_logo" alt="Perl Mongers"></a>
+            <a href="/"><img src="/images/camel_30w.png" height="30px" id="onion_logo" alt="Perl Mongers"></a>
         	<div id="nav_holder">
                 <nav>
                     <div id="large_copy">
@@ -45,7 +45,7 @@
 
 [% INCLUDE heading %]
 
-<div id="content_holder">
+<div id="content_holder[% '_map' IF map_page %]">
 
 [% content %]
 
