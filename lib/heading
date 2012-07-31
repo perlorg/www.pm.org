@@ -7,6 +7,6 @@
 
 <div id="masthead_overlay">
 		<h1>Perl Mongers</h1>
-		<h3>Perl Mongers is a loose association of [% allgroupsnum %] international Perl User Groups.</h3>
+		<h3>[% allgroupsnum %] international Perl User Groups.</h3>
 </div>
 [% END %]
