@@ -34,9 +34,7 @@ function initialize() {
 [% countries = groups.keys.sort %]
 [% USE table(countries, cols=3) %]
 
-[% col_nums = [0,1,2] %]
-
-[% FOREACH col = col_nums %]
+[% FOREACH col = [0,1,2] %]
 <li id="d[% col + 1 %]">
 [% FOREACH country = table.col(col) %]
 <h2><a href="[% country_links.$country %]">[% country %]</a></h2>

@@ -25,10 +25,8 @@ function initialize() {
 
 <p style="clear:both; height: 50px">&nbsp;</p>
 
-
-
 <p>
-or select a continent:
+View a continent:
 
 [% link_to("/groups/africa.html", "Africa") %], 
 [% link_to("/groups/asia.html", "Asia") %], 
@@ -38,9 +36,6 @@ or select a continent:
 [% link_to("/groups/north_america.html", "North America") %], 
 [% link_to("/groups/oceania.html", "Oceania") %], 
 [% link_to("/groups/south_america.html", "South America") %]. 
-
-Or click the map above. 
-
 <p>
 
 The canonical source for the Perl Mongers groups is now an 
@@ -49,14 +44,25 @@ The canonical source for the Perl Mongers groups is now an
 
 <h2>All the active groups</h2>
 
+[% all = allgroups.values.sort('name') %]
 
-<ul>
-[% FOREACH group = allgroups.keys.sort %]
-  <li><a href="[% allgroups.$group.id %].html">[% group | html_entity %]</a></li>
+<ol class="details">
+
+[% USE table(all, cols=3) %]
+
+[% FOREACH col = [0,1,2] %]
+<li id="d[% col + 1 %]">
+    <ul>
+        [% FOREACH group = table.col(col) %]
+        <li><a href="[% group.id %].html">[% group.name | html_entity %]</a></li>
+        [% END %]
+    </ul>
+</li>
 [% END %]
-</ul>
+</ol>
 
+<p style="clear:both;">
 Total number of groups is [% allgroupsnum %]
-
+</p>
 [% END %]
 
