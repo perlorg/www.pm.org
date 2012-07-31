@@ -1,36 +1,15 @@
 [% WRAPPER layout 
-    title = "Perl Mongers: User groups map",
-    hide_masthead=1,
+    title = "Page no longer exists",
     map_page=1
 %]
 <script type="text/javascript">
-
 function initialize() {
-    var mapOptions = {
-        center: new google.maps.LatLng( 15, 0), // show the most pins possible
-        zoom: 2,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
-    PM.map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
-
-    $.ajax({
-        url: 'perl_mongers.json',
-        dataType: 'json',
-        success: processMapXML,
-    });
+    document.location.href="/groups/";
 }
 </script>
 
-<div id="map_canvas" style="width:100%; height:450px"></div>
-
-<p style="clear:both; height: 50px">&nbsp;</p>
-
-<p>Is your local group's latitude/longitude data wrong or missing? Please contact your 
-group leader, and they can submit new coordinates to us. (This map is only as good as
-our data: <a href="http://www.pm.org/groups/perl_mongers.xml">Master XML</a>
- <a href="http://www.pm.org/groups/perl_mongers.json">Generated JSON</a>
-.)
-</p>
+<h2>This page is no longer active, please see the main group overview</h2>
+<p>Redirecting to... <a href="/groups/">Perl user groups</a></p>
 
 
 [% END %]

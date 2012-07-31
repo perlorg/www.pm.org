@@ -30,7 +30,7 @@
         	<div id="nav_holder">
                 <nav>
                     <div id="large_copy">
-                        <a href="/groups/map.html">Find a group</a>
+                        <a href="/groups/">Find a group</a>
                         <a href="/start/">Start a group</a>
                         <a href="/other/">Useful links</a>
                     </div>

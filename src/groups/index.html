@@ -1,7 +1,31 @@
-[% WRAPPER layout title = "Perl Mongers: User groups" %]
+[% WRAPPER layout 
+    title = "Perl Mongers: User groups",
+    hide_masthead=1,
+    map_page=1
+%]
+<script type="text/javascript">
+
+function initialize() {
+    var mapOptions = {
+        center: new google.maps.LatLng( 15, 0), // show the most pins possible
+        zoom: 2,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    PM.map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+    $.ajax({
+        url: 'perl_mongers.json',
+        dataType: 'json',
+        success: processMapXML,
+    });
+}
+</script>
+
+<div id="map_canvas" style="width:100%; height:450px"></div>
+
+<p style="clear:both; height: 50px">&nbsp;</p>
 
 
-<h3><a href="/groups/map.html">World Map</a></h3>
 
 <p>
 or select a continent:
