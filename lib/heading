@@ -6,7 +6,9 @@
 </figure>
 
 <div id="masthead_overlay">
+    <div class="sub_holder">
 		<h1>Perl Mongers</h1>
 		<h3>[% allgroupsnum %] international Perl User Groups.</h3>
+    </div>
 </div>
 [% END %]

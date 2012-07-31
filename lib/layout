@@ -26,6 +26,7 @@
     <div id="wrapper">
 
         <header>
+            <div class="sub_holder">
             <a href="/"><img src="/images/camel_30w.png" height="30px" id="onion_logo" alt="Perl Mongers"></a>
         	<div id="nav_holder">
                 <nav>
@@ -41,21 +42,26 @@
             		</div>
                 </nav>
         	</div>
+            </div>
         </header>
 
 [% INCLUDE heading %]
 
 <div id="content_holder[% '_map' IF map_page %]">
+    <div class="sub_holder">
 
 [% content %]
 
 </div>
+</div>
 
        <div id="footer">
+           <div class="sub_holder">
            <hr />
            <div id="google_translate_element"></div>
            <p>Copyright © 2012 <a href="http://www.perlfoundation.org/">The Perl Foundation</a> - <a href="https://github.com/perlorg/www.pm.org/">Site repository</a></p>
            <p>The Perl camel image is a trademark of <a href="http://www.oreilly.com/">O'Reilly Media, Inc.</a> Used with permission.</p>
+           </div>
        </div>
 
        <script type="text/javascript">

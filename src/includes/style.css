@@ -132,7 +132,7 @@ img.masthead{
 	clear:both;
 }
 .details li{
-	width:233px;
+	width:300px;
 /*  height:500px;*/
 	float:left;
 }
@@ -141,6 +141,15 @@ img.masthead{
 }
 .details a{
   color: #888888;
+}
+.sub_holder{
+        max-width:1000px;
+        margin:0 auto;
+        padding:0 12px;
+}
+#masthead_overlay .sub_holder{
+        position:relative;
+        height:inherit;pointer-events: all;
 }
 
 .sublist li {
