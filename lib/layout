@@ -32,11 +32,12 @@
                     <div id="large_copy">
                         <a href="/groups/">Find a group</a>
                         <a href="/start/">Start a group</a>
-                        <a href="/other/">Useful links</a>
+                        <a href="/faq/">FAQ</a>
                     </div>
             		<div id="small_copy">Perl Groups: 
             			<a href="/groups/">Find</a>
             			<a href="/start/">Start</a>
+            			<a href="/faq/">FAQ</a>
             		</div>
                 </nav>
         	</div>
@@ -51,6 +52,7 @@
 </div>
 
        <div id="footer">
+           <hr />
            <div id="google_translate_element"></div>
            <p>Copyright © 2012 <a href="http://www.perlfoundation.org/">The Perl Foundation</a>.</p>
            <p>The Perl camel image is a trademark of <a href="http://www.oreilly.com/">O'Reilly Media, Inc.</a> Used with permission.</p>

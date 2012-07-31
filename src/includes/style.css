@@ -9,6 +9,16 @@ ul, ol, li, dl, dt, dd, form, fieldset, legend, figure, hgroup, td, h1, h2, h3, 
 	padding:0;
 	font-family:Arial, sans-serif;
 }
+ul{
+	margin:10px 0 20px 0px;
+}
+li {
+	list-style:none;  
+	padding:5px 18px 5px 0px;
+}
+hr{
+  color: #E1E1E1;
+}
 
 #map_canvas {
   top: 50px;
@@ -107,20 +117,16 @@ img.masthead{
 
 #content_holder{
 	clear:both;
+	margin-top: 15px;
 	margin-left: 20px;
 	margin-right: 20px;
 }
 .details{
 	clear:both;
 }
-.details ul{
-	margin:0 0 20px 0px;
-}
 .details li{
-	padding:5px 18px 5px 0px;
 	width:233px;
 /*  height:500px;*/
-	list-style:none;
 	float:left;
 }
 .details p{
@@ -140,6 +146,7 @@ img.masthead{
 #footer {
   clear:both;
 	margin-left: 20px;
+	margin-right: 20px;
   font-size: 85%;
 }
 #google_translate_element {
