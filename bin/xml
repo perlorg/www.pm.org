@@ -9,6 +9,10 @@ use File::Spec::Functions qw(splitpath);
 use Template;
 use XML::LibXML;
 
+# Added by Leo for perl_mongers.json
+use JSON;
+use File::Slurp;
+
 my $src_file = shift || './perl_mongers.xml';
 
 my %ids;
@@ -24,7 +28,7 @@ my %map_coordinates = (
     north_america    => [ -90,        40,         3 ],
     oceania          => [ 134.296875, -25.641526, 3 ],
     south_america    => [ -63.63,     -20.00,     3 ],
-    non_geographical => [ 0,          0,          1 ],
+    non_geographical => [ 0,          0,          2 ],
 
     'South Africa' => [ 24, -29, 5 ],
     Uganda         => [ 32, 1.5, 6 ],
@@ -310,6 +314,17 @@ foreach my $continent (@continents) {
     $tt->process( 'src/groups/continent.html', $conf, $file,
         binmode => ':utf8' )
         || die $tt->error();
+}
+
+{
+    # just want a list
+    my @allgroups = values %allgroups;
+
+    # Get the perl_monger data as json, makes the map stuff easier
+    my $j    = JSON->new->utf8;
+    my $json = $j->pretty->encode( \@allgroups );
+    write_file( 'www/groups/perl_mongers.json', $json );
+
 }
 
 {
