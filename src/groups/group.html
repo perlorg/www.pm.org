@@ -10,6 +10,7 @@ WRAPPER layout
 <script type="text/javascript">
 
 function initialize() {
+    [% IF latitude && longitude %]
     var mapOptions = {
         center: new google.maps.LatLng( [% latitude %], [% longitude %]), // show the most pins possible
         zoom: [% zoom %],
@@ -22,10 +23,18 @@ function initialize() {
         dataType: 'json',
         success: processMapXML,
     });
+    [% END %]
 }
 </script>
+[% UNLESS latitude && longitude %]
+    <style type="text/css" media="screen">
+        #map_canvas {
+            height: 10px;
+        }
+    </style>
+[% END %]
 
-<div id="map_canvas" style="width:100%; height:450px"></div>
+<div id="map_canvas"></div>
 
 <p style="clear:both; height: 50px">&nbsp;</p>
 
