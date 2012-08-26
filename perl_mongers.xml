@@ -100,9 +100,8 @@
 <!ENTITY yuml   "&#255;">
 ]>
 
-<!-- This file is maintained by support@pm.org 
-     $HeadURL: https://svn.perl.org/pm-admin/trunk/perl_mongers.xml $
-     $Id: perl_mongers.xml 792 2012-08-26 00:48:04Z jhannah $ 
+<!-- This file is maintained by <support@pm.org>
+     Version control: https://github.com/perlorg/www.pm.org/
 -->
 <perl_mongers>
 	<group id="0" status="active">
