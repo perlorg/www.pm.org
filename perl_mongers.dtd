@@ -1,6 +1,5 @@
-
 <!-- Perl Mongers groups DTD -->
-<!-- $Id$ -->
+<!-- https://github.com/perlorg/www.pm.org/blob/master/perl_mongers.dtd -->
 
 <!ELEMENT perl_mongers
 	(group)+

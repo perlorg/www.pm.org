@@ -101,7 +101,7 @@
 ]>
 
 <!-- This file is maintained by <support@pm.org>
-     Version control: https://github.com/perlorg/www.pm.org/
+     https://github.com/perlorg/www.pm.org/blob/master/perl_mongers.xml
 -->
 <perl_mongers>
 	<group id="0" status="active">

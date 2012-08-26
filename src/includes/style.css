@@ -12,9 +12,16 @@ ul, ol, li, dl, dt, dd, form, fieldset, legend, figure, hgroup, td, h1, h2, h3, 
 ul{
 	margin:10px 0 20px 0px;
 }
+ul.faq{
+	margin:0px 0px 0px 20px;
+}
 li {
 	list-style:none;  
 	padding:5px 18px 5px 0px;
+}
+li.faq{
+	list-style:disc;  
+	padding:0px 0px 0px 0px;
 }
 hr{
   color: #E1E1E1;
