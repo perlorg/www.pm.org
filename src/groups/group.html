@@ -55,6 +55,23 @@ function initialize() {
 [% END %]
 -->
 
+[% IF linkedin %]
+  <a href="[% linkedin %]"><img src="/images/linkedin_32.png" alt="LinkedIN of [% name %]" /></a>
+[% END %]
+
+[% IF googleplus %]
+  <a href="[% googleplus %]"><img src="/images/gplus-32.png" alt="Google Plus page of [% name %]"/></a>
+[% END %]
+
+[% IF facebook %]
+  <a href="[% facebook %]"><img src="/images/facebook32.png" alt="Facebook page of [% name %]"/></a>
+[% END %]
+
+[% IF twitter %]
+  <a href="[% twitter %]"><img src="/images/twitter32.png" alt="Twitter of [% name %]"/></a>
+[% END %]
+
+
 <p>Is this group's latitude/longitude data wrong or missing? Please contact the 
 group leader (above), and they can submit new coordinates to us.</p>
 

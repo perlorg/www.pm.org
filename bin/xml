@@ -129,6 +129,10 @@ foreach my $g ( $doc->findnodes('//group') ) {
     my $longitude = $g->findvalue('location/longitude/text()');
     my $latitude  = $g->findvalue('location/latitude/text()');
     my $web       = $g->findvalue('web/text()');
+    my $linkedin  = $g->findvalue('linkedin/text()');
+    my $googleplus = $g->findvalue('googleplus/text()');
+    my $facebook  = $g->findvalue('facebook/text()');
+    my $twitter   = $g->findvalue('twitter/text()');
 
     my @tsar;
     foreach my $t ( $g->findnodes('tsar') ) {
@@ -195,6 +199,10 @@ foreach my $g ( $doc->findnodes('//group') ) {
         status          => $status,
         web             => $web,
         mailing_list    => { name => $mailing_lists_name, },
+        linkedin        => $linkedin,
+        googleplus      => $googleplus,
+        facebook        => $facebook,
+        twitter         => $twitter,
     };
     $allgroups{$name} = $group;
 
