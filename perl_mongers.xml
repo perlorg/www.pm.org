@@ -101,8 +101,8 @@
 ]>
 
 <!-- This file is maintained by support@pm.org 
-     $HeadURL$
-     $Id$ 
+     $HeadURL: https://svn.perl.org/pm-admin/trunk/perl_mongers.xml $
+     $Id: perl_mongers.xml 792 2012-08-26 00:48:04Z jhannah $ 
 -->
 <perl_mongers>
 	<group id="0" status="active">
@@ -493,8 +493,8 @@ s
 			<region></region>
 			<country>United States of America</country>
 			<continent>North America</continent>
-			<longitude>-87.68496</longitude>
-			<latitude>41.83705</latitude>
+			<longitude>-87.641505</longitude>
+			<latitude>41.882104</latitude>
 		</location>
 		<tsar>
 			<name>Andy Lester</name>
@@ -1131,10 +1131,9 @@ s
 			<latitude>38.998483</latitude>
 		</location>
 		<!-- Barley's Brewhaus 16649 Midland Drive Shawnee, KS 66217-3042 -->
-		<email type="group"></email>
 		<tsar>
-			<name>Andy Moore</name>
-			<email type="personal"><user>amoore</user><domain>mooresystems.com</domain></email>
+			<name>Jonathan Otsuka</name>
+			<email type="personal"><user>djgoku</user><domain>gmail.com</domain></email>
 		</tsar>
 		<web>http://kc.pm.org/</web>
 		<date type="inception">19990120</date>
@@ -2096,17 +2095,11 @@ s
 			<longitude>-122.72641</longitude>
 			<latitude>38.4049</latitude>
 		</location>
-		<email type="group"></email>
 		<tsar>
 			<name>Ron Wickersham</name>
 			<email type="personal"><user>rjw</user><domain>alembic.com</domain></email>
 		</tsar>
 		<web>http://sonoma.pm.org/</web>
-		<mailing_list>
-			<name>General Sonoma.pm discussion</name>
-			<email type="list"></email>
-			<email type="list_admin"></email>
-		</mailing_list>
 		<date type="inception">19990214</date>
 	</group>
 	
@@ -6037,8 +6030,8 @@ s
 			<latitude>-22.9062</latitude>
 		</location>
 		<tsar>
-			<name>Fernando Oliveira</name>
-			<email type="personal"><user>fernandocorrea</user><domain>gmail.com</domain></email>
+			<name>Nuba Princigalli</name>
+			<email type="personal"><user>nuba</user><domain>pauleira.com</domain></email>
 		</tsar>
 		<web>http://rio.pm.org/</web>
 		<date type="inception"></date>
