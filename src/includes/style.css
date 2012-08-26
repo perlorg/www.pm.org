@@ -178,6 +178,10 @@ img.masthead{
   padding-right: 40px;
   float: right;
 }
+#sponsor_element {
+  padding-right: 40px;
+  float: right;
+}
 
 @media only screen and (max-width: 767px) {
   #masthead{ 
