@@ -1,6 +1,7 @@
 Version control:   https://github.com/perlorg/www.pm.org/
 pm.org Admin wiki: http://jays.net/wiki/Perl_Mongers_Administration
 
+
 Directory layout is as follows:
 
 bin/ 
@@ -40,4 +41,8 @@ relative one so that we can build the site anywhere we want:
 
 Coordinate converter: http://www.fcc.gov/mb/audio/bickel/DDDMMSS-decimal.html
 
+
+##### To tidy the xml file run the following:
+
+/usr/bin/tidy -utf8 -xml -i -o perl_mongers.xml perl_mongers.xml
 
