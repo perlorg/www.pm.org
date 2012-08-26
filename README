@@ -23,12 +23,13 @@ lib/layout is the template which is applied to every page.
 
    -----------------------------------
    ADMINISTRATOR NOTE:
-   If you're a www.pm.org admin, then your local www directory is a symlink into a WebDAV
-   mount of https://groups.pm.org/admin/. For example, in OS X:
+   If you're a www.pm.org admin, then your local www directory is a symlink into a 
+   WebDAV mount of https://groups.pm.org/admin/. For example, in OS X:
    
       ln -s /Volumes/admin/groups/www www
    
-   At that point, when you run "bin/xml" you're publishing the output directly to www.pm.org.
+   At that point, when you run "bin/xml" you're publishing the output directly to 
+   www.pm.org.
    -----------------------------------
 
 Note: whenever you refer to a page on our site inside a template,
