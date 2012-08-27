@@ -2892,19 +2892,20 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <region></region>
       <country>Slovak Republic</country>
       <continent>Europe</continent>
-      <longitude>17.1586014</longitude>
-      <latitude>48.1627512</latitude>
+      <longitude>17.1184355</longitude>
+      <latitude>48.1470793</latitude>
     </location>
-    <!-- Tomášikovej 26, Bratislava, SK -->
+    <!-- Progressbar, Lazaretská 12, 81108 Bratislava, SK -->
     <tsar>
       <name>Jozef Kutej</name>
       <email type="personal">
-        <user>jozef</user>
-        <domain>kutej.net</domain>
+        <user>jkutej</user>
+        <domain>cpan.org</domain>
       </email>
     </tsar>
     <web>http://bratislava.pm.org/</web>
     <date type="inception">19990607</date>
+    <facebook>http://www.facebook.com/groups/bratislava.pm.org/</facebook>
   </group>
   <group id="122" status="active">
     <name>Bristol.pm</name>
@@ -18699,6 +18700,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     </tsar>
     <web>http://brno.pm.org</web>
     <date type="inception">20110323</date>
+    <facebook>http://www.facebook.com/brnopm</facebook>
   </group>
   <group id="755" status="active">
     <name>Logan.pm</name>
