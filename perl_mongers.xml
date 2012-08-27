@@ -128,6 +128,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       </email>
     </tsar>
     <web>http://ny.pm.org/</web>
+    <meetup>http://www.meetup.com/The-New-York-Perl-Meetup-Group/</meetup>
     <mailing_list>
       <name>General NY.pm discussion</name>
       <email type="list">

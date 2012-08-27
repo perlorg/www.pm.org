@@ -133,6 +133,7 @@ foreach my $g ( $doc->findnodes('//group') ) {
     my $googleplus = $g->findvalue('googleplus/text()');
     my $facebook  = $g->findvalue('facebook/text()');
     my $twitter   = $g->findvalue('twitter/text()');
+    my $meetup    = $g->findvalue('meetup/text()');
 
     my @tsar;
     foreach my $t ( $g->findnodes('tsar') ) {
@@ -203,6 +204,7 @@ foreach my $g ( $doc->findnodes('//group') ) {
         googleplus      => $googleplus,
         facebook        => $facebook,
         twitter         => $twitter,
+        meetup          => $meetup,
     };
     $allgroups{$name} = $group;
 
