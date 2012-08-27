@@ -49,3 +49,13 @@ Coordinate converter: http://www.fcc.gov/mb/audio/bickel/DDDMMSS-decimal.html
 ##### To get coordinates of a street address you can use:
 http://itouchmap.com/latlong.html
 
+
+############## Trying to describe the meaning of each field:
+
+email has 4 types
+   personal    (of a tsar)
+   group
+   list        (of mailing_list)
+   list_admin  (of mailing_list)
+
+
