@@ -46,3 +46,6 @@ Coordinate converter: http://www.fcc.gov/mb/audio/bickel/DDDMMSS-decimal.html
 
 /usr/bin/tidy -utf8 -xml -i -o perl_mongers.xml perl_mongers.xml
 
+##### To get coordinates of a street address you can use:
+http://itouchmap.com/latlong.html
+
