@@ -33,6 +33,16 @@ lib/layout is the template which is applied to every page.
    www.pm.org.
    -----------------------------------
 
+In Linux, to upload files use the following commands:
+
+  $ cadaver https://groups.pm.org/admin/groups/www/groups
+  type in username/password
+  dav:/admin/groups/www> lcd www/groups
+  dav:/admin/groups/www> put 121.html
+  dav:/admin/groups/www> exit
+
+
+
 Note: whenever you refer to a page on our site inside a template,
 please use the following mechanism, which changes the link to a
 relative one so that we can build the site anywhere we want:
