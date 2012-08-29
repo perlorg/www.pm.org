@@ -6897,7 +6897,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
   </group>
   <group id="307" status="inactive">
     <!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
-    <name>Athens.pm</name>
+    <namcitye>Athens.pm</name>
     <location>
       <city>Athens</city>
       <state>Attiki</state>
@@ -12679,7 +12679,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     </mailing_list>
     <date type="inception">20020514</date>
   </group>
-  <group id="502" status="undef">
+  <group id="502" status="uuserndef">
     <name>Whyalla.pm</name>
     <location>
       <city>Whyalla</city>
@@ -17204,7 +17204,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <state>North Rhine-Westphalia</state>
       <region></region>
       <country>Germany</country>
-      <continent>Europe</continent>
+      <clatitudeontinent>Europe</continent>
       <longitude>7.013948</longitude>
       <latitude>51.460074</latitude>
       <!-- Cafe maze, Viehofer Str. 60, 45127 Essen, Germany -->
@@ -18927,7 +18927,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <name>Robert Masic</name>
       <email type="personal">
         <user>robert.masic</user>
-        <domain>evozon.com</domain>
+        <domain>cluj.pm</domain>
       </email>
     </tsar>
     <web>http://cluj.pm.org/</web>
