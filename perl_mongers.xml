@@ -18917,7 +18917,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <location>
       <city>Cluj Napoca</city>
       <state>Cluj</state>
-      <region></region>
+      <region>Transylvania</region>
       <country>Romania</country>
       <continent>Europe</continent>
       <longitude>23.6</longitude>
@@ -18931,6 +18931,9 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       </email>
     </tsar>
     <web>http://cluj.pm.org/</web>
+    <facebook>http://www.facebook.com/cluj.pm</facebook>
+    <twitter>http://twittr.com/clujpm</twitter>
+    <googleplus>https://plus.google.com/u/0/b/118166106837813762940/118166106837813762940/posts</googleplus>
     <date type="inception">20120302</date>
   </group>
   <group id="766" status="active">
