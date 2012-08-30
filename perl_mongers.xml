@@ -8237,8 +8237,8 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <region></region>
       <country>Spain</country>
       <continent>Europe</continent>
-      <longitude>2.16598</longitude>
-      <latitude>41.385827</latitude>
+      <longitude>2.162193</longitude>
+      <latitude>41.389984</latitude>
     </location>
     <tsar>
       <name>Alex Muntada</name>
@@ -8248,6 +8248,8 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       </email>
     </tsar>
     <web>http://barcelona.pm.org/</web>
+    <linkedin>http://www.linkedin.com/groups?gid=4190304</linkedin>
+    <twitter>https://twitter.com/barcelonapm</twitter>
     <date type="inception">20010204</date>
   </group>
   <group id="354" status="dead">
