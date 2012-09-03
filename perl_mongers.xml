@@ -18980,5 +18980,26 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://hardware.pm.org/</web>
     <date type="inception">20120614</date>
   </group>
+  <group id="768" status="active">
+    <name>Baku.pm</name>
+    <location>
+      <city>Baku</city>
+      <state>Baku</state>
+      <region>South Caucasus</region>
+      <country>Azerbaijan</country>
+      <continent>Europe</continent>
+      <longitude>49.882222</longitude>
+      <latitude>40.395278</latitude>
+    </location>
+    <tsar>
+      <name>Naim Shafiev</name>
+      <email type="personal">
+        <user>shafiev</user>
+        <domain>gmail.com</domain>
+      </email>
+    </tsar>
+    <web>http://baku.pm.org/</web>
+    <date type="inception">20120903</date>
+  </group>
 </perl_mongers>
 <!-- 2010.05.21 Be.pm, mailing list empty, web site from 2002, it was not in this xml at all -  TODO:DELETE - szabgab -->
