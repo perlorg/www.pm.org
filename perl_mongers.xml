@@ -13643,10 +13643,10 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <latitude>53.5</latitude>
     </location>
     <tsar>
-      <name>Jörg Plate</name>
+      <name>Uwe Voelker</name>
       <email type="personal">
-        <user>plate</user>
-        <domain>patterner.eu</domain>
+        <user>uwe</user>
+        <domain>uwevoelker.de</domain>
       </email>
     </tsar>
     <web>http://hamburg.pm.org/</web>
