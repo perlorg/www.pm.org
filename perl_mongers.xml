@@ -491,7 +491,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://cambridge.pm.org/</web>
     <date type="inception">19990607</date>
   </group>
-  <group id="16" status="sleeping">
+  <group id="16" status="active">
     <name>Champaign-Urbana.pm</name>
     <location>
       <city></city>
@@ -503,10 +503,10 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <latitude>40.1065</latitude>
     </location>
     <tsar>
-      <name>Daniel Lewart</name>
+      <name>Bob Price</name>
       <email type="personal">
-        <user>lewart</user>
-        <domain>uiuc.edu</domain>
+        <user>ryddler</user>
+        <domain>gmail.com</domain>
       </email>
     </tsar>
     <web>http://champaign-urbana.pm.org/</web>
