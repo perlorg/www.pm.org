@@ -6861,6 +6861,12 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     </tsar>
     <web>http://la.pm.org/</web>
     <date type="inception"></date>
+    <email type="group">
+      <user>losangeles-pm</user>
+      <domain>pm.org</domain>
+    </email>
+    <facebook>http://www.facebook.com/groups/119158178096277/</facebook>
+    <linkedin>http://www.linkedin.com/groups?gid=2804627</linkedin>
   </group>
   <group id="306" status="undef">
     <name>Erie.pm</name>
