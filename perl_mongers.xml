@@ -19001,5 +19001,26 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://baku.pm.org/</web>
     <date type="inception">20120903</date>
   </group>
+  <group id="769" status="active">
+    <name>Shijiazhuang.pm</name>
+    <location>
+      <city>Shijiazhuang</city>
+      <state>Hebei</state>
+      <region></region>
+      <country>China</country>
+      <continent>Asia</continent>
+      <longitude>114.466667</longitude>
+      <latitude>38.033333</latitude>
+    </location>
+    <tsar>
+      <name>zhutingting</name>
+      <email type="personal">
+        <user>120223261</user>
+        <domain>qq.com</domain>
+      </email>
+    </tsar>
+    <web>http://shijiazhuang.pm.org/</web>
+    <date type="inception">20121002</date>
+  </group>
 </perl_mongers>
 <!-- 2010.05.21 Be.pm, mailing list empty, web site from 2002, it was not in this xml at all -  TODO:DELETE - szabgab -->
