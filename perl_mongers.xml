@@ -6847,19 +6847,25 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <region></region>
       <country>United States of America</country>
       <continent>North America</continent>
-      <longitude>-118.456585</longitude>
-      <latitude>34.034817</latitude>
-      <!-- Rubicon Project HQ: 1925 S. Bundy.  Los Angeles, CA 90025 -->
+      <longitude>-118.499219</longitude>
+      <latitude>34.015987</latitude>
+      <!-- Demand Media: 1299 Ocean Ave, Santa Monica, CA 90401 -->
     </location>
     <tsar>
       <name>Andrew Grangaard</name>
       <email type="personal">
-        <user>agrangaard</user>
-        <domain>rubiconproject.com</domain>
+        <user>granny+lapm</user>
+        <domain>gmail.com</domain>
       </email>
     </tsar>
     <web>http://la.pm.org/</web>
     <date type="inception"></date>
+    <email type="group">
+      <user>losangeles-pm</user>
+      <domain>pm.org</domain>
+    </email>
+    <facebook>http://www.facebook.com/groups/119158178096277/</facebook>
+    <linkedin>http://www.linkedin.com/groups?gid=2804627</linkedin>
   </group>
   <group id="306" status="undef">
     <name>Erie.pm</name>
