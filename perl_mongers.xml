@@ -4122,7 +4122,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://bandung.pm.org/</web>
     <date type="inception">20060806</date>
   </group>
-  <group id="181" status="sleeping">
+  <group id="181" status="active">
     <!-- 2010.05.21 web site is nice but under construction, mailing list empty, mail sent, TODO - szabgab -->
     <name>Bangkok.pm</name>
     <location>
@@ -4134,11 +4134,10 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <longitude>100.517</longitude>
       <latitude>13.750</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>Rick Apichairuk</name>
+      <name>Warachet Samtalee</name>
       <email type="personal">
-        <user>rapichai</user>
+        <user>nx2zdk</user>
         <domain>gmail.com</domain>
       </email>
     </tsar>
@@ -13639,8 +13638,8 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <region></region>
       <country>Germany</country>
       <continent>Europe</continent>
-      <longitude>10</longitude>
-      <latitude>53.5</latitude>
+      <longitude>9.988</longitude>
+      <latitude>53.5557751</latitude>
     </location>
     <tsar>
       <name>Uwe Voelker</name>
