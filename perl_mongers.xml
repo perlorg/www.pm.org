@@ -1718,7 +1718,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://omaha.pm.org/</web>
     <date type="inception">19980924</date>
   </group>
-  <group id="70" status="gone">
+  <group id="70" status="active">
     <name>OrangeCounty.pm</name>
     <location>
       <city>Orange County</city>
@@ -1730,10 +1730,10 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <latitude>33.67496</latitude>
     </location>
     <tsar>
-      <name>Douglas Wilson</name>
+      <name>Tony Gasparovic</name>
       <email type="personal">
-        <user>dgwilson1</user>
-        <domain>cox.net</domain>
+        <user>tony</user>
+        <domain>metracom.com</domain>
       </email>
     </tsar>
     <web>http://oc.pm.org/</web>
@@ -13521,7 +13521,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://Terere.pm.org/</web>
     <date type="inception">20020925</date>
   </group>
-  <group id="539" status="inactive">
+  <group id="539" status="active">
     <name>Dresden.pm</name>
     <location>
       <city>Dresden</city>
@@ -13532,7 +13532,6 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <longitude>13.7500</longitude>
       <latitude>51.0500</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
       <name>Joerg Westphal</name>
       <email type="personal">
@@ -19020,6 +19019,27 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     </tsar>
     <web>http://shijiazhuang.pm.org/</web>
     <date type="inception">20121002</date>
+  </group>
+  <group id="770" status="active">
+    <name>WhitePlains.pm</name>
+    <location>
+      <city>White Plains</city>
+      <state>New York</state>
+      <region></region>
+      <country>United States of America</country>
+      <continent>North America</continent>
+      <longitude>73.7633</longitude>
+      <latitude>41.0339</latitude>
+    </location>
+    <tsar>
+      <name>Bhavin Patel</name>
+      <email type="personal">
+        <user>mail4bhavin</user>
+        <domain>gmail.com</domain>
+      </email>
+    </tsar>
+    <web>http://WhitePlains.pm.org/</web>
+    <date type="inception">20121004</date>
   </group>
 </perl_mongers>
 <!-- 2010.05.21 Be.pm, mailing list empty, web site from 2002, it was not in this xml at all -  TODO:DELETE - szabgab -->
