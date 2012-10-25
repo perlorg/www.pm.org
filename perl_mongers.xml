@@ -309,7 +309,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://atlanta.pm.org/</web>
     <date type="inception">19980704</date>
   </group>
-  <group id="8" status="active">
+  <group id="8" status="inactive">
     <name>Austin.pm</name>
     <location>
       <city>Austin</city>
@@ -1480,7 +1480,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://milwaukee.pm.org/</web>
     <date type="inception">19990607</date>
   </group>
-  <group id="60" status="active">
+  <group id="60" status="inactive">
     <name>Minneapolis.pm</name>
     <location>
       <city>Minneapolis</city>
@@ -1838,7 +1838,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     </mailing_list>
     <date type="inception">19981113</date>
   </group>
-  <group id="76" status="active">
+  <group id="76" status="inactive">
     <name>PikesPeak.pm</name>
     <location>
       <city>Colorado Springs</city>
@@ -2186,8 +2186,8 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <region></region>
       <country>United States of America</country>
       <continent>North America</continent>
-      <longitude>-122.55478</longitude>
-      <latitude>37.79325</latitude>
+      <longitude>-122.419349</longitude>
+      <latitude>37.775328</latitude>
     </location>
     <email type="group"></email>
     <tsar>
@@ -16682,7 +16682,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://argentina.pm.org/</web>
     <date type="inception">20000101</date>
   </group>
-  <group id="661" status="active">
+  <group id="661" status="inactive">
     <name>Brazosvalley.pm</name>
     <location>
       <city>Bryan</city>
@@ -17483,7 +17483,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://triangulo.pm.org</web>
     <date type="inception">20061203</date>
   </group>
-  <group id="697" status="active">
+  <group id="697" status="inactive">
     <name>SanAngelo.pm</name>
     <location>
       <city>San Angelo</city>
@@ -19047,5 +19047,27 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://WhitePlains.pm.org/</web>
     <date type="inception">20121004</date>
   </group>
+  <group id="771" status="active">
+    <name>Duesseldorf.pm</name>
+    <location>
+      <city>Duesseldorf</city>
+      <state>Northrhine-Westphalia</state>
+      <region></region>
+      <country>Germany</country>
+      <continent>Europe</continent>
+      <longitude>6.783333</longitude>
+      <latitude>51.233333</latitude>
+    </location>
+    <tsar>
+      <name>Alexander Kluth</name>
+      <email type="personal">
+        <user>derhartmut</user>
+        <domain>niwohlos.org</domain>
+      </email>
+    </tsar>
+    <web>http://Duesseldorf.pm.org/</web>
+    <date type="inception">20121025</date>
+  </group>
 </perl_mongers>
-<!-- 2010.05.21 Be.pm, mailing list empty, web site from 2002, it was not in this xml at all -  TODO:DELETE - szabgab -->
+
+
