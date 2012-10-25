@@ -13592,7 +13592,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     </mailing_list>
     <date type="inception">20020925</date>
   </group>
-  <group id="542" status="active">
+  <group id="542" status="inactive">
     <name>PortlandMaine.pm</name>
     <location>
       <city>Portland</city>
