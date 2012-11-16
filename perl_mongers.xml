@@ -5055,7 +5055,6 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     </mailing_list>
     <date type="inception">19991024</date>
   </group>
-  <!-- See Tempe/East Valley Perl Mongers (id 617) below -->
   <group id="223" status="inactive">
     <name>Tempe.pm</name>
     <location>
@@ -5067,7 +5066,6 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <longitude>-111.917</longitude>
       <latitude>33.419</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
       <name>Pablo Velasquez</name>
       <email type="personal">
@@ -15527,29 +15525,6 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
         <domain>abv.bg</domain>
       </email>
     </mailing_list>
-    <date type="inception">20031108</date>
-  </group>
-  <group id="617" status="active">
-    <!-- 2010.05.23 simple web site. No activity on list since 2005. Group admin responded - szabgab -->
-    <name>Tempe/East Valley Perlmongers.pm</name>
-    <location>
-      <city>Tempe/East Valley</city>
-      <state>Arizona</state>
-      <region>East Valley, Arizona</region>
-      <country>United States of America</country>
-      <continent>North America</continent>
-      <longitude>-111.916389</longitude>
-      <latitude>33.421389</latitude>
-    </location>
-    <email type="group"></email>
-    <tsar>
-      <name>Anthony R. Nemmer</name>
-      <email type="personal">
-        <user>anemmer</user>
-        <domain>gmail.com</domain>
-      </email>
-    </tsar>
-    <web>http://tempe.pm.org/</web>
     <date type="inception">20031108</date>
   </group>
   <group id="618" status="active">
