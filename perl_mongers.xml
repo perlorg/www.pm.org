@@ -680,10 +680,10 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <latitude>32.79415</latitude>
     </location>
     <tsar>
-      <name>Nick Perez</name>
+      <name>Tommy Butler</name>
       <email type="personal">
-        <user>nick</user>
-        <domain>nickandperla.net</domain>
+        <user>dfwpm</user>
+        <domain>internetalias.net</domain>
       </email>
     </tsar>
     <web>http://dfw.pm.org/</web>
@@ -1849,7 +1849,6 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <longitude>-104.759899</longitude>
       <latitude>38.8632</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
       <name>Tim Chambers</name>
       <email type="personal">
@@ -1858,21 +1857,6 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       </email>
     </tsar>
     <web>http://pikes-peak.pm.org/</web>
-    <mailing_list>
-      <name>General PikesPeak.pm discussion</name>
-      <email type="list">
-        <user>pikes-peak-pm-list</user>
-        <domain>pm.org</domain>
-      </email>
-      <email type="list_admin">
-        <user>timc+pm</user>
-        <domain>divide.net</domain>
-      </email>
-      <subscribe>subscribe pikes-peak-pm-list
-      email_address</subscribe>
-      <unsubscribe>unsubscribe pikes-peak-pm-list
-      email_address</unsubscribe>
-    </mailing_list>
     <date type="inception">19990503</date>
   </group>
   <group id="77" status="undef">
@@ -4144,7 +4128,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://bangkok.pm.org/</web>
     <date type="inception">19990503</date>
   </group>
-  <group id="182" status="undef">
+  <group id="182" status="active">
     <name>Beijing.pm</name>
     <location>
       <city>Beijing</city>
@@ -4155,12 +4139,11 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <longitude>116.412</longitude>
       <latitude>39.9</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>Simon</name>
+      <name>Achilles Xu</name>
       <email type="personal">
-        <user>simon</user>
-        <domain>itc.com.cn</domain>
+        <user>formalin14</user>
+        <domain>gmail.com</domain>
       </email>
     </tsar>
     <web>http://beijing.pm.org/</web>
@@ -18893,7 +18876,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://weston.pm.org/</web>
     <date type="inception">20120112</date>
   </group>
-  <group id="765" status="active">
+  <group id="765" status="inactive">
     <name>Cluj.pm</name>
     <location>
       <city>Cluj Napoca</city>
