@@ -512,7 +512,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://champaign-urbana.pm.org/</web>
     <date type="inception">19980808</date>
   </group>
-  <group id="17" status="active">
+  <group id="17" status="inactive">
     <name>Charlotte.pm</name>
     <location>
       <city>Charlotte</city>
@@ -2963,10 +2963,10 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     </location>
     <email type="group"></email>
     <tsar>
-      <name>Rory Macdonald</name>
+      <name>Minty Walker</name>
       <email type="personal">
-        <user>rory</user>
-        <domain>employees.org</domain>
+        <user>murray</user>
+        <domain>minty.org</domain>
       </email>
     </tsar>
     <web>http://edinburgh.pm.org/</web>
