@@ -18942,7 +18942,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://hardware.pm.org/</web>
     <date type="inception">20120614</date>
   </group>
-  <group id="768" status="active">
+  <group id="768" status="inactive">
     <name>Baku.pm</name>
     <location>
       <city>Baku</city>
@@ -18963,7 +18963,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://baku.pm.org/</web>
     <date type="inception">20120903</date>
   </group>
-  <group id="769" status="active">
+  <group id="769" status="inactive">
     <name>Shijiazhuang.pm</name>
     <location>
       <city>Shijiazhuang</city>
