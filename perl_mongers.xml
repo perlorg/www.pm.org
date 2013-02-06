@@ -17550,6 +17550,13 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
         <domain>gmail.com</domain>
       </email>
     </tsar>
+    <tsar>
+      <name>Sören Kornetzki</name>
+      <email type="personal">
+        <user>burnersk</user>
+        <domain>hannover.pm</domain>
+      </email>
+    </tsar>
     <web>http://hannover.pm.org</web>
     <date type="inception">20070313</date>
   </group>
