@@ -1458,7 +1458,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://midlothian.pm.org/</web>
     <date type="inception">19990503</date>
   </group>
-  <group id="59" status="dead">
+  <group id="59" status="active">
     <name>Milwaukee.pm</name>
     <location>
       <city>Milwaukee</city>
@@ -1466,15 +1466,21 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <region></region>
       <country>United States of America</country>
       <continent>North America</continent>
-      <longitude>-87.900</longitude>
-      <latitude>42.950</latitude>
+      <longitude>-87.9064</longitude>
+      <latitude>43.0389</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>Curt Crandall</name>
+      <name>Lee Carmichael</name>
       <email type="personal">
-        <user>ccrandall77</user>
+        <user>lee.carmichael</user>
         <domain>yahoo.com</domain>
+      </email>
+    </tsar>
+    <tsar>
+      <name>Steve Nolte</name>
+      <email type="personal">
+        <user>iam</user>
+        <domain>stevenolte.com</domain>
       </email>
     </tsar>
     <web>http://milwaukee.pm.org/</web>
@@ -2451,10 +2457,10 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       </email>
     </tsar>
     <tsar>
-      <name>Chuck Hardin</name>
+      <name>Peter Bowen</name>
       <email type="personal">
-        <user>chardin</user>
-        <domain>gmail.com</domain>
+        <user>pbowen</user>
+        <domain>valueclick.com</domain>
       </email>
     </tsar>
     <web>http://thousand-oaks.pm.org/</web>
@@ -3022,23 +3028,22 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://helsinki.pm.org/</web>
     <date type="inception">19990115</date>
   </group>
-  <group id="130" status="undef">
+  <group id="130" status="active">
     <name>Karlsruhe.pm</name>
     <location>
       <city>Karlsruhe</city>
-      <state></state>
+      <state>Baden-Württemberg</state>
       <region></region>
       <country>Germany</country>
       <continent>Europe</continent>
-      <longitude>8.400</longitude>
-      <latitude>49.000</latitude>
+      <longitude>8.38</longitude>
+      <latitude>49.0</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>Kai Jendrian</name>
+      <name>Patrick Ringl</name>
       <email type="personal">
-        <user>Kai.Jendrian</user>
-        <domain>perl-mongers.de</domain>
+        <user>p</user>
+        <domain>trick.rin.gl</domain>
       </email>
     </tsar>
     <web>http://karlsruhe.pm.org/</web>
@@ -5038,7 +5043,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     </mailing_list>
     <date type="inception">19991024</date>
   </group>
-  <group id="223" status="inactive">
+  <group id="223" status="active">
     <name>Tempe.pm</name>
     <location>
       <city>Tempe</city>
@@ -5050,10 +5055,10 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <latitude>33.419</latitude>
     </location>
     <tsar>
-      <name>Pablo Velasquez</name>
+      <name>Anthony Nemmer</name>
       <email type="personal">
-        <user>pablo</user>
-        <domain>dosomething.org</domain>
+        <user>anemmer</user>
+        <domain>gmail.com</domain>
       </email>
     </tsar>
     <web>http://tempe.pm.org</web>
@@ -17539,10 +17544,10 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <latitude>52.461666</latitude>
     </location>
     <tsar>
-      <name>Sebastian Willing</name>
+      <name>Christian Walde</name>
       <email type="personal">
-        <user>sewi</user>
-        <domain>cpan.org</domain>
+        <user>walde.christian</user>
+        <domain>gmail.com</domain>
       </email>
     </tsar>
     <web>http://hannover.pm.org</web>
