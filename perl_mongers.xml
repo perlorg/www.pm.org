@@ -9139,7 +9139,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     </mailing_list>
     <date type="inception">20010402</date>
   </group>
-  <group id="385" status="inactive">
+  <group id="385" status="active">
     <name>Salem.pm</name>
     <location>
       <city>Salem</city>
@@ -9150,26 +9150,14 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <longitude>-123.033</longitude>
       <latitude>44.95</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>Mark Hartley</name>
+      <name>John Anderson</name>
       <email type="personal">
-        <user>perl</user>
-        <domain>drapple.com</domain>
+        <user>genehack</user>
+        <domain>genehack.org</domain>
       </email>
     </tsar>
     <web>http://salem.pm.org/</web>
-    <mailing_list>
-      <name>General Salem Perl Mongers discussion</name>
-      <email type="list">
-        <user>salem-pm</user>
-        <domain>pm.org</domain>
-      </email>
-      <email type="list_admin">
-        <user>perl</user>
-        <domain>drapple.com</domain>
-      </email>
-    </mailing_list>
     <date type="inception">20010412</date>
   </group>
   <group id="386" status="unknown">
