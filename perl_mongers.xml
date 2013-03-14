@@ -19014,6 +19014,27 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://Duesseldorf.pm.org/</web>
     <date type="inception">20121025</date>
   </group>
+  <group id="772" status="active">
+    <name>TriCo.pm</name>
+    <location>
+      <city>Crawfordsville, Greencastle, Danville</city>
+      <state>Indiana</state>
+      <region></region>
+      <country>United States of America</country>
+      <continent>North America</continent>
+      <longitude>-87.184001</longitude>
+      <latitude>39.850223</latitude>
+    </location>
+    <tsar>
+      <name>Quade Bauman</name>
+      <email type="personal">
+        <user>quadebauman</user>
+        <domain>gmail.com</domain>
+      </email>
+    </tsar>
+    <web>http://TriCo.pm.org/</web>
+    <date type="inception">20130314</date>
+  </group>
 </perl_mongers>
 
 
