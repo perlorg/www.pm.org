@@ -11216,7 +11216,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://sachsen.pm.org/</web>
     <date type="inception">20011105</date>
   </group>
-  <group id="451" status="undef">
+  <group id="451" status="active">
     <name>SaltLake.pm</name>
     <location>
       <city>Salt Lake City</city>
@@ -11224,29 +11224,17 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <region></region>
       <country>United States of America</country>
       <continent>North America</continent>
-      <longitude></longitude>
-      <latitude></latitude>
+      <longitude>40.75</longitude>
+      <latitude>-111.88</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>Spencer Christensen</name>
+      <name>David Oswald</name>
       <email type="personal">
-        <user>spencer</user>
-        <domain>mecworks.com</domain>
+        <user>daoswald</user>
+        <domain>gmail.com</domain>
       </email>
     </tsar>
     <web>http://saltlake.pm.org/</web>
-    <mailing_list>
-      <name>General SaltLake Perl Mongers discussion</name>
-      <email type="list">
-        <user>saltlake-pm</user>
-        <domain>pm.org</domain>
-      </email>
-      <email type="list_admin">
-        <user>spencer</user>
-        <domain>mecworks.com</domain>
-      </email>
-    </mailing_list>
     <date type="inception">20011105</date>
   </group>
   <group id="452" status="active">
