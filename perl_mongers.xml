@@ -2690,10 +2690,10 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <latitude>-23.533</latitude>
     </location>
     <tsar>
-      <name>Alexei Znamensky</name>
+      <name>Eden Cardim</name>
       <email type="personal">
-        <user>russoz</user>
-        <domain>gmail.com</domain>
+        <user>eden</user>
+        <domain>insoli.de</domain>
       </email>
     </tsar>
     <web>http://sao-paulo.pm.org/</web>
