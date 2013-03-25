@@ -3076,7 +3076,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     </mailing_list>
     <date type="inception">19990331</date>
   </group>
-  <group id="132" status="undef">
+  <group id="132" status="active">
     <name>Leipzig.pm</name>
     <location>
       <city>Leipzig</city>
@@ -3084,18 +3084,17 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <region></region>
       <country>Germany</country>
       <continent>Europe</continent>
-      <longitude>12.333</longitude>
-      <latitude>51.317</latitude>
+      <longitude>12.371569</longitude>
+      <latitude>51.336601</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>Hans-Georg Hoehne</name>
+      <name>Steffen Winkler</name>
       <email type="personal">
-        <user>hoehne</user>
-        <domain>hotpop.com</domain>
+        <user>leipzig-pm</user>
+        <domain>steffen-winkler.de</domain>
       </email>
     </tsar>
-    <web></web>
+    <web>http://leipzig.pm.org</web>
     <date type="inception">19990331</date>
   </group>
   <group id="133" status="undef">
