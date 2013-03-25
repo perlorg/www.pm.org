@@ -17632,23 +17632,23 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://thewoodlands.pm.org</web>
     <date type="inception">20070708</date>
   </group>
-  <group id="706" status="inactive">
+  <group id="706" status="active">
     <!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
     <name>ThamesValley.pm</name>
     <location>
       <city>Reading</city>
-      <state>Berkshire/South Oxfordshire</state>
+      <state>Berkshire (Surrey, Oxfordshire, Hampshire)</state>
       <region>Thames Valley</region>
       <country>United Kingdom</country>
       <continent>Europe</continent>
-      <longitude>-0.97</longitude>
-      <latitude>51.41</latitude>
+      <longitude>-0.9800</longitude>
+      <latitude>51.4500</latitude>
     </location>
     <tsar>
-      <name>Rafiq Ismail</name>
+      <name>Oliver Gorwits</name>
       <email type="personal">
-        <user>rafiq</user>
-        <domain>dreamthought.com</domain>
+        <user>oliver</user>
+        <domain>cpan.org</domain>
       </email>
     </tsar>
     <web>http://thamesvalley.pm.org</web>
