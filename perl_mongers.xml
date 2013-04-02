@@ -625,8 +625,6 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <date type="inception">19990331</date>
   </group>
   <group id="22" status="active">
-    <!-- 2010.05.27 New group leader.  -jhannah -->
-    <!-- 2010.05.21 mailing is spam, no web site  TODO:DELETE - szabgab -->
     <name>Cleveland.pm</name>
     <location>
       <city>Cleveland</city>
@@ -638,10 +636,10 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <latitude>41.4994444</latitude>
     </location>
     <tsar>
-      <name>Alex Fler</name>
+      <name>Adam M Dutko</name>
       <email type="personal">
-        <user>alex.fler</user>
-        <domain>gxs.com</domain>
+        <user>adam</user>
+        <domain>oktud.com</domain>
       </email>
     </tsar>
     <web>http://cleveland.pm.org</web>
