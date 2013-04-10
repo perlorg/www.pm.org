@@ -6883,39 +6883,26 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     </mailing_list>
     <date type="inception"></date>
   </group>
-  <group id="307" status="inactive">
-    <!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
+  <group id="307" status="active">
     <name>Athens.pm</name>
     <location>
       <city>Athens</city>
-      <state>Attiki</state>
+      <state>Attica</state>
       <region></region>
       <country>Greece</country>
       <continent>Europe</continent>
-      <longitude>23.72</longitude>
-      <latitude>37.97</latitude>
+      <longitude>23.72931</longitude>
+      <latitude>37.98372</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>Mark Pors</name>
+      <name>Alexander Karelas</name>
       <email type="personal">
-        <user>mark</user>
-        <domain>dreamzpace.com</domain>
+        <user>alex.karelas</user>
+        <domain>gmail.com</domain>
       </email>
     </tsar>
     <web>http://athens.pm.org/</web>
-    <mailing_list>
-      <name>General Athens Perl Mongers discussion</name>
-      <email type="list">
-        <user>athens-pm</user>
-        <domain>pm.org</domain>
-      </email>
-      <email type="list_admin">
-        <user>owner-athens-pm</user>
-        <domain>pm.org</domain>
-      </email>
-    </mailing_list>
-    <date type="inception"></date>
+    <date type="inception">20130410</date>
   </group>
   <group id="308" status="active">
     <name>Qatar.pm</name>
