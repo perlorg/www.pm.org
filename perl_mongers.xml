@@ -990,7 +990,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://harrisburg.pm.org/</web>
     <date type="inception">19990707</date>
   </group>
-  <group id="39" status="inactive">
+  <group id="39" status="active">
     <name>Hartford.pm</name>
     <location>
       <city>Hartford</city>
@@ -8713,12 +8713,11 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <longitude>5.4000</longitude>
       <latitude>43.3000</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
       <name>Assad arnaud</name>
       <email type="personal">
-        <user>arnaud</user>
-        <domain>underlands.org</domain>
+        <user>arhuman</user>
+        <domain>gmail.com</domain>
       </email>
     </tsar>
     <web>http://marseille.pm.org/</web>
