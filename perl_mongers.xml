@@ -990,9 +990,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://harrisburg.pm.org/</web>
     <date type="inception">19990707</date>
   </group>
-  <group id="39" status="active">
-    <!-- 2010.05.27 - New leader - jhannah -->
-    <!-- 2009.10.19 - no web access, no answer to mail - szabgab -->
+  <group id="39" status="inactive">
     <name>Hartford.pm</name>
     <location>
       <city>Hartford</city>
@@ -8724,17 +8722,6 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       </email>
     </tsar>
     <web>http://marseille.pm.org/</web>
-    <mailing_list>
-      <name>General Marseille Perl Mongers discussion</name>
-      <email type="list">
-        <user>marseille-pm</user>
-        <domain>pm.org</domain>
-      </email>
-      <email type="list_admin">
-        <user>arnaud.assad</user>
-        <domain>free.fr</domain>
-      </email>
-    </mailing_list>
     <date type="inception">20010326</date>
   </group>
   <group id="373" status="mlb">
@@ -17148,7 +17135,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://ruhr.pm.org</web>
     <date type="inception">20060228</date>
   </group>
-  <group id="685" status="gone">
+  <group id="685" status="active">
     <name>Poznan.pm</name>
     <location>
       <city>Poznan</city>
@@ -18522,10 +18509,10 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <latitude>14.558513</latitude>
     </location>
     <tsar>
-      <name>Ian Dela Cruz</name>
+      <name>Zak B. Elep</name>
       <email type="personal">
-        <user>iandelacruz.ph</user>
-        <domain>gmail.com</domain>
+        <user>zakame</user>
+        <domain>cpan.org</domain>
       </email>
     </tsar>
     <web>http://makati.pm.org</web>
