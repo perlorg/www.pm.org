@@ -1,5 +1,9 @@
-Version control:   https://github.com/perlorg/www.pm.org/
-pm.org Admin wiki: http://jays.net/wiki/Perl_Mongers_Administration
+Web:     http://www.pm.org
+Support: support@pm.org
+
+Version control: https://github.com/perlorg/www.pm.org/
+Admin notes:     https://github.com/jhannah/jays.net/blob/master/archives/2012/mediawiki/PerlMongersAdministration.mw
+                 (yup, this is a mess. --jhannah)
 
 
 Directory layout is as follows:
