@@ -1,7 +1,35 @@
 use 5.18.0;
 use Email::Stuffer;
+use XML::Twig;
 
-send_email('Omaha.pm', 'http://omaha.pm.org', 'jay@jays.net');
+
+my $name = 'Omaha.pm';
+
+my ($url, $email) = update_xml($name);
+send_email($name, $url, $email);
+
+exit;
+
+# END MAIN
+
+
+sub update_xml {
+   my ($name) = @_;
+   my $twig = XML::Twig->new(
+      pretty_print => 'indented',
+      # output_text_filter => 'html',
+      twig_handlers => {
+         group => sub { 
+            if ($_->first_child('name')->text eq "Omaha.pm") {
+               $_->{att}->{status} = 'inactive';
+            }
+         },
+      }
+   );
+   $twig->parsefile('perl_mongers.xml');
+   open my $new, '>:utf8', 'new.xml' or die;
+   print $new $twig->sprint;
+}
 
 
 sub send_email {
