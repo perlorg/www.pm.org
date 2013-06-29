@@ -1,3 +1,5 @@
+#! env perl
+
 use 5.18.0;
 use Email::Stuffer;
 use XML::Twig;
@@ -90,13 +92,14 @@ Group hosting FAQ: http://www.pm.org/faq/hosting_faq.html
 EOT
 
    # Create and send the email in one shot
+   say "Sending to $tsar_email";
    Email::Stuffer
       ->from     ('support@pm.org')
       ->to       ($tsar_email)
-      ->bcc      ('jay@jays.net')
+      ->cc       ('jay@jays.net')
       ->subject  ("$group_name deactivated")
       ->html_body($body)
-      ->send_or_die;
+      ->send || die $!;
 }
 
 

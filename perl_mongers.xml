@@ -2,8 +2,7 @@
 <!DOCTYPE perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN" "http://www.pm.org/groups/perl_mongers.dtd">
 <!-- This file is maintained by <support@pm.org>
      https://github.com/perlorg/www.pm.org/blob/master/perl_mongers.xml
--->
-<perl_mongers>
+--><perl_mongers>
   <group id="0" status="active">
     <!-- new york was the first group -->
     <name>NY.pm</name>
@@ -6731,6 +6730,12 @@
       <continent>North America</continent>
       <longitude>-118.499219</longitude>
       <latitude>34.015987</latitude>
+    
+    
+    
+    
+    
+    
       <!-- Demand Media: 1299 Ocean Ave, Santa Monica, CA 90401 -->
     </location>
     <tsar>
@@ -11871,6 +11876,12 @@
       <continent>North America</continent>
       <longitude>-73.993481</longitude>
       <latitude>40.752756</latitude>
+    
+    
+    
+    
+    
+    
       <!-- 481 8th Avenue, New York NY 10001 USA -->
     </location>
     <email type="group"></email>
@@ -17021,6 +17032,12 @@
       <continent>Europe</continent>
       <longitude>7.013948</longitude>
       <latitude>51.460074</latitude>
+    
+    
+    
+    
+    
+    
       <!-- Cafe maze, Viehofer Str. 60, 45127 Essen, Germany -->
     </location>
     <tsar>
@@ -18544,7 +18561,7 @@
     <web>http://logan.pm.org</web>
     <date type="inception">20110501</date>
   </group>
-  <group id="756" status="active">
+  <group id="756" status="inactive">
     <name>Tolyatti.pm</name>
     <location>
       <city>Logan</city>
@@ -18562,7 +18579,7 @@
         <domain>davidscholes.com</domain>
       </email>
     </tsar>
-    <web>http://logan.pm.org</web>
+    <web>http://tolyatti.pm.org</web>
     <date type="inception">20110501</date>
   </group>
   <group id="757" status="active">
