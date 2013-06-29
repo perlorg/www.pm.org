@@ -1,12 +1,105 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE 
-   perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
-   "http://www.pm.org/groups/perl_mongers.dtd"
->
+<!DOCTYPE perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN" "http://www.pm.org/groups/perl_mongers.dtd" [
+<!ENTITY nbsp " ">
+<!ENTITY iexcl "¡">
+<!ENTITY cent "¢">
+<!ENTITY pound "£">
+<!ENTITY curren "¤">
+<!ENTITY yen "¥">
+<!ENTITY brvbar "¦">
+<!ENTITY sect "§">
+<!ENTITY uml "¨">
+<!ENTITY copy "©">
+<!ENTITY ordf "ª">
+<!ENTITY laquo "«">
+<!ENTITY not "¬">
+<!ENTITY shy "­">
+<!ENTITY reg "®">
+<!ENTITY macr "¯">
+<!ENTITY deg "°">
+<!ENTITY plusmn "±">
+<!ENTITY sup2 "²">
+<!ENTITY sup3 "³">
+<!ENTITY acute "´">
+<!ENTITY micro "µ">
+<!ENTITY para "¶">
+<!ENTITY middot "·">
+<!ENTITY cedil "¸">
+<!ENTITY sup1 "¹">
+<!ENTITY ordm "º">
+<!ENTITY raquo "»">
+<!ENTITY frac14 "¼">
+<!ENTITY frac12 "½">
+<!ENTITY frac34 "¾">
+<!ENTITY iquest "¿">
+<!ENTITY Agrave "À">
+<!ENTITY Aacute "Á">
+<!ENTITY Acirc "Â">
+<!ENTITY Atilde "Ã">
+<!ENTITY Auml "Ä">
+<!ENTITY Aring "Å">
+<!ENTITY AElig "Æ">
+<!ENTITY Ccedil "Ç">
+<!ENTITY Egrave "È">
+<!ENTITY Eacute "É">
+<!ENTITY Ecirc "Ê">
+<!ENTITY Euml "Ë">
+<!ENTITY Igrave "Ì">
+<!ENTITY Iacute "Í">
+<!ENTITY Icirc "Î">
+<!ENTITY Iuml "Ï">
+<!ENTITY ETH "Ð">
+<!ENTITY Ntilde "Ñ">
+<!ENTITY Ograve "Ò">
+<!ENTITY Oacute "Ó">
+<!ENTITY Ocirc "Ô">
+<!ENTITY Otilde "Õ">
+<!ENTITY Ouml "Ö">
+<!ENTITY times "×">
+<!ENTITY Oslash "Ø">
+<!ENTITY Ugrave "Ù">
+<!ENTITY Uacute "Ú">
+<!ENTITY Ucirc "Û">
+<!ENTITY Uuml "Ü">
+<!ENTITY Yacute "Ý">
+<!ENTITY THORN "Þ">
+<!ENTITY szlig "ß">
+<!ENTITY agrave "à">
+<!ENTITY aacute "á">
+<!ENTITY acirc "â">
+<!ENTITY atilde "ã">
+<!ENTITY auml "ä">
+<!ENTITY aring "å">
+<!ENTITY aelig "æ">
+<!ENTITY ccedil "ç">
+<!ENTITY egrave "è">
+<!ENTITY eacute "é">
+<!ENTITY ecirc "ê">
+<!ENTITY euml "ë">
+<!ENTITY igrave "ì">
+<!ENTITY iacute "í">
+<!ENTITY icirc "î">
+<!ENTITY iuml "ï">
+<!ENTITY eth "ð">
+<!ENTITY ntilde "ñ">
+<!ENTITY ograve "ò">
+<!ENTITY oacute "ó">
+<!ENTITY ocirc "ô">
+<!ENTITY otilde "õ">
+<!ENTITY ouml "ö">
+<!ENTITY divide "÷">
+<!ENTITY oslash "ø">
+<!ENTITY ugrave "ù">
+<!ENTITY uacute "ú">
+<!ENTITY ucirc "û">
+<!ENTITY uuml "ü">
+<!ENTITY yacute "ý">
+<!ENTITY thorn "þ">
+<!ENTITY yuml "ÿ">
+]>
 <!-- This file is maintained by <support@pm.org>
      https://github.com/perlorg/www.pm.org/blob/master/perl_mongers.xml
--->
-<perl_mongers>
+--><perl_mongers>
   <group id="0" status="active">
     <!-- new york was the first group -->
     <name>NY.pm</name>
@@ -439,13 +532,14 @@
   <group id="18" status="sleeping">
     <name>Charlottesville.pm</name>
     <location>
-    <city>Charlottesville</city>
-    <state>Virginia</state>
-    <region></region>
-    <country>United States of America</country>
-    <continent>North America</continent>
-    <longitude>-78.476</longitude>
-    <latitude>38.029</latitude></location>
+      <city>Charlottesville</city>
+      <state>Virginia</state>
+      <region></region>
+      <country>United States of America</country>
+      <continent>North America</continent>
+      <longitude>-78.476</longitude>
+      <latitude>38.029</latitude>
+    </location>
     <tsar>
       <name>Greg Brennan</name>
       <email type="personal">
@@ -1601,7 +1695,7 @@
     </mailing_list>
     <date type="inception">19990214</date>
   </group>
-  <group id="69" status="active">
+  <group id="69" status="inactive">
     <name>Omaha.pm</name>
     <location>
       <city>Omaha</city>
@@ -6733,6 +6827,8 @@
       <continent>North America</continent>
       <longitude>-118.499219</longitude>
       <latitude>34.015987</latitude>
+    
+    
       <!-- Demand Media: 1299 Ocean Ave, Santa Monica, CA 90401 -->
     </location>
     <tsar>
@@ -11873,6 +11969,8 @@
       <continent>North America</continent>
       <longitude>-73.993481</longitude>
       <latitude>40.752756</latitude>
+    
+    
       <!-- 481 8th Avenue, New York NY 10001 USA -->
     </location>
     <email type="group"></email>
@@ -14912,9 +15010,7 @@
     </mailing_list>
     <date type="inception">20030817</date>
   </group>
-  <group id="601"
-  status="disbanded to make room for other groups -jhannah 20061203">
-
+  <group id="601" status="disbanded to make room for other groups -jhannah 20061203">
     <name>Mexico.pm</name>
     <location>
       <city></city>
@@ -17025,6 +17121,8 @@
       <continent>Europe</continent>
       <longitude>7.013948</longitude>
       <latitude>51.460074</latitude>
+    
+    
       <!-- Cafe maze, Viehofer Str. 60, 45127 Essen, Germany -->
     </location>
     <tsar>
@@ -18909,5 +19007,3 @@
     <date type="inception">20130314</date>
   </group>
 </perl_mongers>
-
-

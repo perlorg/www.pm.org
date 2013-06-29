@@ -2,7 +2,7 @@ use 5.18.0;
 use Email::Stuffer;
 use XML::Twig;
 
-
+my $xml = 'perl_mongers.xml';
 my $name = 'Omaha.pm';
 
 my ($url, $email) = update_xml($name);
@@ -26,9 +26,11 @@ sub update_xml {
          },
       }
    );
-   $twig->parsefile('perl_mongers.xml');
+   $twig->parsefile($xml);
    open my $new, '>:utf8', 'new.xml' or die;
    print $new $twig->sprint;
+   close $new;
+   rename('new.xml', $xml);
 }
 
 
@@ -62,6 +64,7 @@ EOT
    Email::Stuffer
       ->from     ('support@pm.org')
       ->to       ($leader_email)
+      ->bcc      ('jay@jays.net')
       ->subject  ("$group deactivated")
       ->html_body($body)
       ->send;
