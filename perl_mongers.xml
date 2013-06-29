@@ -1,109 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE 
-perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
-"http://www.pm.org/groups/perl_mongers.dtd"
-[
-<!ENTITY nbsp   "&#160;">
-<!ENTITY iexcl  "&#161;">
-<!ENTITY cent   "&#162;">
-<!ENTITY pound  "&#163;">
-<!ENTITY curren "&#164;">
-<!ENTITY yen    "&#165;">
-<!ENTITY brvbar "&#166;">
-<!ENTITY sect   "&#167;">
-<!ENTITY uml    "&#168;">
-<!ENTITY copy   "&#169;">
-<!ENTITY ordf   "&#170;">
-<!ENTITY laquo  "&#171;">
-<!ENTITY not    "&#172;">
-<!ENTITY shy    "&#173;">
-<!ENTITY reg    "&#174;">
-<!ENTITY macr   "&#175;">
-<!ENTITY deg    "&#176;">
-<!ENTITY plusmn "&#177;">
-<!ENTITY sup2   "&#178;">
-<!ENTITY sup3   "&#179;">
-<!ENTITY acute  "&#180;">
-<!ENTITY micro  "&#181;">
-<!ENTITY para   "&#182;">
-<!ENTITY middot "&#183;">
-<!ENTITY cedil  "&#184;">
-<!ENTITY sup1   "&#185;">
-<!ENTITY ordm   "&#186;">
-<!ENTITY raquo  "&#187;">
-<!ENTITY frac14 "&#188;">
-<!ENTITY frac12 "&#189;">
-<!ENTITY frac34 "&#190;">
-<!ENTITY iquest "&#191;">
-<!ENTITY Agrave "&#192;">
-<!ENTITY Aacute "&#193;">
-<!ENTITY Acirc  "&#194;">
-<!ENTITY Atilde "&#195;">
-<!ENTITY Auml   "&#196;">
-<!ENTITY Aring  "&#197;">
-<!ENTITY AElig  "&#198;">
-<!ENTITY Ccedil "&#199;">
-<!ENTITY Egrave "&#200;">
-<!ENTITY Eacute "&#201;">
-<!ENTITY Ecirc  "&#202;">
-<!ENTITY Euml   "&#203;">
-<!ENTITY Igrave "&#204;">
-<!ENTITY Iacute "&#205;">
-<!ENTITY Icirc  "&#206;">
-<!ENTITY Iuml   "&#207;">
-<!ENTITY ETH    "&#208;">
-<!ENTITY Ntilde "&#209;">
-<!ENTITY Ograve "&#210;">
-<!ENTITY Oacute "&#211;">
-<!ENTITY Ocirc  "&#212;">
-<!ENTITY Otilde "&#213;">
-<!ENTITY Ouml   "&#214;">
-<!ENTITY times  "&#215;">
-<!ENTITY Oslash "&#216;">
-<!ENTITY Ugrave "&#217;">
-<!ENTITY Uacute "&#218;">
-<!ENTITY Ucirc  "&#219;">
-<!ENTITY Uuml   "&#220;">
-<!ENTITY Yacute "&#221;">
-<!ENTITY THORN  "&#222;">
-<!ENTITY szlig  "&#223;">
-<!ENTITY agrave "&#224;">
-<!ENTITY aacute "&#225;">
-<!ENTITY acirc  "&#226;">
-<!ENTITY atilde "&#227;">
-<!ENTITY auml   "&#228;">
-<!ENTITY aring  "&#229;">
-<!ENTITY aelig  "&#230;">
-<!ENTITY ccedil "&#231;">
-<!ENTITY egrave "&#232;">
-<!ENTITY eacute "&#233;">
-<!ENTITY ecirc  "&#234;">
-<!ENTITY euml   "&#235;">
-<!ENTITY igrave "&#236;">
-<!ENTITY iacute "&#237;">
-<!ENTITY icirc  "&#238;">
-<!ENTITY iuml   "&#239;">
-<!ENTITY eth    "&#240;">
-<!ENTITY ntilde "&#241;">
-<!ENTITY ograve "&#242;">
-<!ENTITY oacute "&#243;">
-<!ENTITY ocirc  "&#244;">
-<!ENTITY otilde "&#245;">
-<!ENTITY ouml   "&#246;">
-<!ENTITY divide "&#247;">
-<!ENTITY oslash "&#248;">
-<!ENTITY ugrave "&#249;">
-<!ENTITY uacute "&#250;">
-<!ENTITY ucirc  "&#251;">
-<!ENTITY uuml   "&#252;">
-<!ENTITY yacute "&#253;">
-<!ENTITY thorn  "&#254;">
-<!ENTITY yuml   "&#255;">
-]>
+<!DOCTYPE perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN" "http://www.pm.org/groups/perl_mongers.dtd">
 <!-- This file is maintained by <support@pm.org>
      https://github.com/perlorg/www.pm.org/blob/master/perl_mongers.xml
--->
-<perl_mongers>
+--><perl_mongers>
   <group id="0" status="active">
     <!-- new york was the first group -->
     <name>NY.pm</name>
@@ -214,7 +113,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     </mailing_list>
     <date type="inception">19981225</date>
   </group>
-  <group id="3" status="active">
+  <group id="3" status="inactive">
     <name>Anchorage.pm</name>
     <location>
       <city>Anchorage</city>
@@ -225,7 +124,6 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <longitude>-149.18641</longitude>
       <latitude>61.17836</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
       <name>Arthur Corliss</name>
       <email type="personal">
@@ -536,13 +434,14 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
   <group id="18" status="sleeping">
     <name>Charlottesville.pm</name>
     <location>
-    <city>Charlottesville</city>
-    <state>Virginia</state>
-    <region></region>
-    <country>United States of America</country>
-    <continent>North America</continent>s 
-    <longitude>-78.476</longitude>
-    <latitude>38.029</latitude></location>
+      <city>Charlottesville</city>
+      <state>Virginia</state>
+      <region></region>
+      <country>United States of America</country>
+      <continent>North America</continent>
+      <longitude>-78.476</longitude>
+      <latitude>38.029</latitude>
+    </location>
     <tsar>
       <name>Greg Brennan</name>
       <email type="personal">
@@ -660,7 +559,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <name>Jonathan Hogue</name>
       <email type="personal">
         <user>jon</user>
-        <domain>hogue.org&gt;</domain>
+        <domain>hogue.org</domain>
       </email>
     </tsar>
     <web>http://columbus.pm.org/</web>
@@ -1274,7 +1173,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://kc.pm.org/</web>
     <date type="inception">19990120</date>
   </group>
-  <group id="51" status="active">
+  <group id="51" status="inactive">
     <name>LasVegas.pm</name>
     <location>
       <city>Las Vegas</city>
@@ -1579,7 +1478,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web></web>
     <date type="inception">19990120</date>
   </group>
-  <group id="64" status="active">
+  <group id="64" status="inactive">
     <name>Nashville.pm</name>
     <location>
       <city>Nashville</city>
@@ -6830,7 +6729,6 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <continent>North America</continent>
       <longitude>-118.499219</longitude>
       <latitude>34.015987</latitude>
-      <!-- Demand Media: 1299 Ocean Ave, Santa Monica, CA 90401 -->
     </location>
     <tsar>
       <name>Andrew Grangaard</name>
@@ -7217,7 +7115,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     </mailing_list>
     <date type="inception"></date>
   </group>
-  <group id="319" status="active">
+  <group id="319" status="inactive">
     <name>RenoTahoe.pm</name>
     <location>
       <city>Reno</city>
@@ -9654,7 +9552,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     </mailing_list>
     <date type="inception">20010603</date>
   </group>
-  <group id="402" status="active">
+  <group id="402" status="inactive">
     <name>SoCo.pm</name>
     <location>
       <city>Trinidad</city>
@@ -11970,7 +11868,6 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <continent>North America</continent>
       <longitude>-73.993481</longitude>
       <latitude>40.752756</latitude>
-      <!-- 481 8th Avenue, New York NY 10001 USA -->
     </location>
     <email type="group"></email>
     <tsar>
@@ -13103,7 +13000,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     </mailing_list>
     <date type="inception">20020726</date>
   </group>
-  <group id="527" status="active">
+  <group id="527" status="inactive">
     <name>WhiteMountain.pm</name>
     <location>
       <city></city>
@@ -13136,7 +13033,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     </mailing_list>
     <date type="inception">20020728</date>
   </group>
-  <group id="528" status="active">
+  <group id="528" status="inactive">
     <name>NH.pm</name>
     <location>
       <city>Manchester</city>
@@ -14288,7 +14185,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     </mailing_list>
     <date type="inception">20030317</date>
   </group>
-  <group id="564" status="active">
+  <group id="564" status="inactive">
     <name>Princeton.pm</name>
     <location>
       <city>Princeton</city>
@@ -15009,9 +14906,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     </mailing_list>
     <date type="inception">20030817</date>
   </group>
-  <group id="601"
-  status="disbanded to make room for other groups -jhannah 20061203">
-
+  <group id="601" status="disbanded to make room for other groups -jhannah 20061203">
     <name>Mexico.pm</name>
     <location>
       <city></city>
@@ -17122,7 +17017,6 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
       <continent>Europe</continent>
       <longitude>7.013948</longitude>
       <latitude>51.460074</latitude>
-      <!-- Cafe maze, Viehofer Str. 60, 45127 Essen, Germany -->
     </location>
     <tsar>
       <name>Veit Wahlich</name>
@@ -17134,7 +17028,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://ruhr.pm.org</web>
     <date type="inception">20060228</date>
   </group>
-  <group id="685" status="active">
+  <group id="685" status="inactive">
     <name>Poznan.pm</name>
     <location>
       <city>Poznan</city>
@@ -18496,7 +18390,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://telaviv.pm.org</web>
     <date type="inception">20101213</date>
   </group>
-  <group id="749" status="active">
+  <group id="749" status="inactive">
     <name>Makati.pm</name>
     <location>
       <city>Makati</city>
@@ -18559,7 +18453,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://HradecKralove.pm.org</web>
     <date type="inception">20110306</date>
   </group>
-  <group id="752" status="active">
+  <group id="752" status="inactive">
     <name>Goiania.pm</name>
     <location>
       <city>Goiânia</city>
@@ -18645,7 +18539,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://logan.pm.org</web>
     <date type="inception">20110501</date>
   </group>
-  <group id="756" status="active">
+  <group id="756" status="inactive">
     <name>Tolyatti.pm</name>
     <location>
       <city>Logan</city>
@@ -18663,7 +18557,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
         <domain>davidscholes.com</domain>
       </email>
     </tsar>
-    <web>http://logan.pm.org</web>
+    <web>http://tolyatti.pm.org</web>
     <date type="inception">20110501</date>
   </group>
   <group id="757" status="active">
@@ -18750,7 +18644,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://sendai.pm.org/</web>
     <date type="inception">20110927</date>
   </group>
-  <group id="761" status="active">
+  <group id="761" status="inactive">
     <name>WestVirginia.pm</name>
     <location>
       <city>Morgantown</city>
@@ -18834,7 +18728,7 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://weston.pm.org/</web>
     <date type="inception">20120112</date>
   </group>
-  <group id="765" status="inactive">
+  <group id="765" status="active">
     <name>Cluj.pm</name>
     <location>
       <city>Cluj Napoca</city>
@@ -19005,6 +18899,46 @@ perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN"
     <web>http://TriCo.pm.org/</web>
     <date type="inception">20130314</date>
   </group>
+  <group id="773" status="active">
+    <name>Augsburg.pm</name>
+    <location>
+      <city>Augsburg</city>
+      <state>Bavaria</state>
+      <region></region>
+      <country>Germany</country>
+      <continent>Europe</continent>
+      <longitude>10.9067</longitude>
+      <latitude>48.3621</latitude>
+    </location>
+    <tsar>
+      <name>Ulrich Reining</name>
+      <email type="personal">
+        <user>ulrich.schneider13</user>
+        <domain>googlemail.com</domain>
+      </email>
+    </tsar>
+    <web>http://augsburg.pm.org/</web>
+    <date type="inception">20130628</date>
+  </group>
+  <group id="774" status="active">
+    <name>CorpusChristi.pm</name>
+    <location>
+      <city>Corpus Christi</city>
+      <state>Texas</state>
+      <region></region>
+      <country>United States of America</country>
+      <continent>North America</continent>
+      <longitude>-97.328793</longitude>
+      <latitude>27.714524</latitude>
+    </location>
+    <tsar>
+      <name>Jonathan Scott Duff</name>
+      <email type="personal">
+        <user>duff</user>
+        <domain>pobox.com</domain>
+      </email>
+    </tsar>
+    <web>http://CorpusChristi.pm.org/</web>
+    <date type="inception">20130628</date>
+  </group>
 </perl_mongers>
-
-
