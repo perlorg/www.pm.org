@@ -1599,7 +1599,7 @@
     </mailing_list>
     <date type="inception">19990214</date>
   </group>
-  <group id="69" status="inactive">
+  <group id="69" status="active">
     <name>Omaha.pm</name>
     <location>
       <city>Omaha</city>
