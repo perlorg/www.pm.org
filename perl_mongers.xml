@@ -17033,7 +17033,7 @@
     <web>http://ruhr.pm.org</web>
     <date type="inception">20060228</date>
   </group>
-  <group id="685" status="active">
+  <group id="685" status="inactive">
     <name>Poznan.pm</name>
     <location>
       <city>Poznan</city>
@@ -18395,7 +18395,7 @@
     <web>http://telaviv.pm.org</web>
     <date type="inception">20101213</date>
   </group>
-  <group id="749" status="active">
+  <group id="749" status="inactive">
     <name>Makati.pm</name>
     <location>
       <city>Makati</city>
@@ -18903,5 +18903,47 @@
     </tsar>
     <web>http://TriCo.pm.org/</web>
     <date type="inception">20130314</date>
+  </group>
+  <group id="773" status="active">
+    <name>Augsburg.pm</name>
+    <location>
+      <city>Augsburg</city>
+      <state>Bavaria</state>
+      <region></region>
+      <country>Germany</country>
+      <continent>Europe</continent>
+      <longitude>10.9067</longitude>
+      <latitude>48.3621</latitude>
+    </location>
+    <tsar>
+      <name>Ulrich Reining</name>
+      <email type="personal">
+        <user>ulrich.schneider13</user>
+        <domain>googlemail.com</domain>
+      </email>
+    </tsar>
+    <web>http://augsburg.pm.org/</web>
+    <date type="inception">20130628</date>
+  </group>
+  <group id="774" status="active">
+    <name>CorpusChristi.pm</name>
+    <location>
+      <city>Corpus Christi</city>
+      <state>Texas</state>
+      <region></region>
+      <country>United States of America</country>
+      <continent>North America</continent>
+      <longitude>-97.328793</longitude>
+      <latitude>27.714524</latitude>
+    </location>
+    <tsar>
+      <name>Jonathan Scott Duff</name>
+      <email type="personal">
+        <user>duff</user>
+        <domain>pobox.com</domain>
+      </email>
+    </tsar>
+    <web>http://CorpusChristi.pm.org/</web>
+    <date type="inception">20130628</date>
   </group>
 </perl_mongers>
