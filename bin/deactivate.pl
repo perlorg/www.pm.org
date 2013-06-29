@@ -84,8 +84,8 @@ has gone wrong on our side.
 </p><p>
 Thank you for your attention!
 </p><p>
-pm.org support staff<br/>
-support\@pm.org
+pm.org support staff &lt;support\@pm.org&gt;<br/>
+Group hosting FAQ: http://www.pm.org/faq/hosting_faq.html
 </p>
 EOT
 
