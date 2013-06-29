@@ -1480,7 +1480,7 @@
     <web></web>
     <date type="inception">19990120</date>
   </group>
-  <group id="64" status="active">
+  <group id="64" status="inactive">
     <name>Nashville.pm</name>
     <location>
       <city>Nashville</city>
@@ -9555,7 +9555,7 @@
     </mailing_list>
     <date type="inception">20010603</date>
   </group>
-  <group id="402" status="active">
+  <group id="402" status="inactive">
     <name>SoCo.pm</name>
     <location>
       <city>Trinidad</city>

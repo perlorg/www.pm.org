@@ -96,7 +96,7 @@ EOT
       ->bcc      ('jay@jays.net')
       ->subject  ("$group_name deactivated")
       ->html_body($body)
-      ->send;
+      ->send_or_die;
 }
 
 
