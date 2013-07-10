@@ -1815,7 +1815,6 @@
       <longitude>-122.655206</longitude>
       <latitude>45.510354</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
       <name>Eric Wilhelm</name>
       <email type="personal">
@@ -1823,7 +1822,7 @@
         <domain>cpan.org</domain>
       </email>
     </tsar>
-    <web>http://portland.pm.org/</web>
+    <web>http://pdx.pm.org/</web>
     <date type="inception">19990120</date>
   </group>
   <group id="80" status="undef">
@@ -15808,8 +15807,7 @@
     </mailing_list>
     <date type="inception">20040222</date>
   </group>
-  <group id="635" status="inactive">
-    <!-- 2010.05.26 website redirects, mailing list stopped in 2007, admin wrote lack of interes - szabgab -->
+  <group id="635" status="active">
     <name>Nottingham.pm</name>
     <location>
       <city>Nottingham</city>
@@ -15817,29 +15815,17 @@
       <region>East Midlands</region>
       <country>United Kingdom</country>
       <continent>Europe</continent>
-      <longitude>-1.142499</longitude>
-      <latitude>52.9394</latitude>
+      <longitude>-1.14857</longitude>
+      <latitude>52.948621</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>Michael Erskine</name>
+      <name>James Green</name>
       <email type="personal">
-        <user>michael.erskine</user>
-        <domain>tecspy.com</domain>
+        <user>jkg</user>
+        <domain>earth.li</domain>
       </email>
     </tsar>
     <web>http://nottingham.pm.org/</web>
-    <mailing_list>
-      <name>General Nottingham Perl Mongers discussion</name>
-      <email type="list">
-        <user>nottingham-pm</user>
-        <domain>pm.org</domain>
-      </email>
-      <email type="list_admin">
-        <user>michael.erskine</user>
-        <domain>jasmin.plc.uk</domain>
-      </email>
-    </mailing_list>
     <date type="inception">19990707</date>
   </group>
   <group id="636" status="inactive">
@@ -18390,7 +18376,7 @@
     <web>http://telaviv.pm.org</web>
     <date type="inception">20101213</date>
   </group>
-  <group id="749" status="inactive">
+  <group id="749" status="active">
     <name>Makati.pm</name>
     <location>
       <city>Makati</city>
@@ -18940,5 +18926,26 @@
     </tsar>
     <web>http://CorpusChristi.pm.org/</web>
     <date type="inception">20130628</date>
+  </group>
+  <group id="775" status="active">
+    <name>Cochin.pm</name>
+    <location>
+      <city>Cochin</city>
+      <state>Kerala / Ernakulam</state>
+      <region></region>
+      <country>India</country>
+      <continent>Asia</continent>
+      <longitude>76.2338</longitude>
+      <latitude>9.96667</latitude>
+    </location>
+    <tsar>
+      <name>Paul Cleetus</name>
+      <email type="personal">
+        <user>paulcleetus</user>
+        <domain>gmail.com</domain>
+      </email>
+    </tsar>
+    <web>http://cochin.pm.org/</web>
+    <date type="inception">20130709</date>
   </group>
 </perl_mongers>
