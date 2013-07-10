@@ -1,6 +1,7 @@
-#!/usr/bin/perl -w
+#! env perl
 
 use strict;
+use warnings;
 use Data::Dumper qw(Dumper);
 use File::Copy qw(copy);
 use File::Find::Rule;
