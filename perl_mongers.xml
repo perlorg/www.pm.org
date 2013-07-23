@@ -274,9 +274,9 @@
       <latitude>39.2905</latitude>
     </location>
     <tsar>
-      <name>Brad Lhotsky</name>
+      <name>Dawn Wallis</name>
       <email type="personal">
-        <user>brad.lhotsky</user>
+        <user>wallisds</user>
         <domain>gmail.com</domain>
       </email>
     </tsar>
@@ -17761,7 +17761,7 @@
     <web>http://yokohama.pm.org</web>
     <date type="inception">20080525</date>
   </group>
-  <group id="719" status="active">
+  <group id="719" status="inactive">
     <name>Leicester.pm</name>
     <location>
       <city>Leicester</city>
