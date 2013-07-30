@@ -23,6 +23,14 @@ li.faq{
 	list-style:disc;  
 	padding:0px 0px 0px 0px;
 }
+li.admin_faq {
+  list-style: disc;
+  margin: 1px 0px 1px 22px;
+  padding: 0px;
+}
+ul.admin_faq {
+  margin: 2px 2px 12px 2px;
+}
 hr{
   color: #E1E1E1;
 }

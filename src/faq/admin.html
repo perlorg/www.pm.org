@@ -1,0 +1,359 @@
+[% WRAPPER layout title = "Perl Mongers: Administering pm.org Services" %]
+
+<p>Welcome! This page intends to house all the information admins need to maintain pm.org services. Suggested improvements welcome via <a href="https://github.com/perlorg/www.pm.org/">GitHub</a></p>
+
+<h1>Intro: How does *.pm.org work?</h1>
+
+<p>Robert and Ask are the server kings. They control all the hardware and services. They keep the ships afloat.</p>
+
+<p>When anyone needs help with anything Perl Mongers they email support(at)pm(dot)org, which opens a ticket in RT. Some requests are valid, some are bad ideas or conflicts between group leaders, and some are nonsense. Those tickets need to be waded through, as frequently as possible, by the pm.org admin volunteers. I've been the only such volunteer for some time. I'm happy to have company. Everything there is to know (abbreviated) about being a pm.org admin volunteer is right here, below.</p>
+
+<p>Working the tickets involves pulling miscellaneous levers to fulfill the valid requests (XML, svn, MailMan, DNS, WebDAV, RT, TT site flushes, lat/long XML for Google map, etc.). I (jhannah) am happy to train new volunteers.</p>
+
+<p>Every communication we have with anyone around the world is recorded in RT, so if there is every any objection to our responses or handling of any situation it's all there for review. Constructive criticism is always welcome.</p>
+
+<h2>Current Admins</h2>
+
+<ul class="admin_faq">
+  <li class="admin_faq"><a href="http://noc.perl.org">Hardware overlords</a>: Robert, Ask</li>  
+  <li class="admin_faq">RT Tickets: Jay Hannah of <a href="http://omaha.pm.org/">Omaha.pm</a>, Chief Ticket Monkey</li>
+  <li class="admin_faq"><a href="http://www.perlfoundation.org/">The Perl Foundation</a>: ???</li>
+  <li class="admin_faq">Alumni: RobE/dirigo of <a href="http://atlanta.pm.org/">Atlanta.pm</a>, Perigrin (emergency backup)</li>
+</ul>
+
+<h1>Config Files</h1>
+
+<h2>WebDAV: <a href="https://groups.pm.org/admin/">https://groups.pm.org/admin/</a></h2>
+
+<ul class="admin_faq">
+  <li class="admin_faq">groups/
+    <ul class="admin_faq">
+      <li class="admin_faq">www/* &mdash; <a href="http://www.pm.org">http://www.pm.org</a> content &mdash; see <a href="#web_update">Web Updates</a>
+        <ul class="admin_faq">
+          <li class="admin_faq">groups/perl_mongers.xml - <a href="http://www.pm.org/XML/perl_mongers.xml">http://www.pm.org/XML/perl_mongers.xml</a> &mdash; see <a href="#xml"></li>
+        </ul>
+      </li>
+      <li class="admin_faq">omaha/ &mdash; <a href="http://omaha.pm.org">http://omaha.pm.org</a> &mdash; each individual group lives here</li>
+      <li class="admin_faq">groups/faq.pod &mdash; <a href="http://groups.pm.org/faq.html">http://groups.pm.org/faq.html</a>
+        <ul class="admin_faq">
+          <li class="admin_faq">When you're happy with the .pod, pod2html that to faq.html and WebDAV both of those files up to the server.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li class="admin_faq">config/
+    <ul class="admin_faq">
+      <li class="admin_faq">aliases-pm.org &mdash; forward email sent to detroit(at)pm(dot)org somewhere</li>
+      <li class="admin_faq">rewritemap &mdash; forward http://groupname.pm.org to http://somewhere.else.net</li>
+      <li class="admin_faq">groupfile - change what auth.perl.org usernames can WebDAV what groups</li>
+    </ul>
+  </li>
+</ul>
+
+<h1>Procedures</h1>
+
+<h2>Add a Group</h2>
+
+<ol>
+  <li class="admin_faq">perl_mongers.xml
+    <ol>
+      <li class="admin_faq">If you haven't already, check the perlmongers root out of SubVersion onto a
+       server/computer you control.</li>
+      <li class="admin_faq">Search perl_mongers.xml, making sure the group didn't exist in a previous life.
+        <ol>
+          <li class="admin_faq">If you find the group, change their status to "active" and update all the info.</li>
+          <li class="admin_faq">If you don't find the group, add a new XML block, copying an existing active group and changing all the info.</li>
+          <li class="admin_faq">svn commit perl_mongers.xml</li>
+          <li class="admin_faq">WebDAV the XML file up to the pm.org server &mdash; (WebDAV: https://groups.pm.org/admin/groups/www/groups/perl_mongers.xml)</li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li class="admin_faq">If they want us to host a website for them, add the new group with their auth.perl.org
+    username here:
+    <ol>
+      <li class="admin_faq">WebDAV <code>https://groups.pm.org/admin/config/groupfile</code>
+        <ol>
+          <li class="admin_faq">Issue a mkdir command to create the root directory <code>https://groups.pm.org/groups/<em>groupname</em></code></li>
+        </ol>
+      <li class="admin_faq">Submit a RequestTracker ticket into the DNS queue requesting <em>Groupname</em>.pm.org be 
+       pointed to the IP address of the www.pm.org server. e.g.:
+          <pre>
+          To: dns@perl.org
+          Subject: paderborn.pm.org -> 216.52.237.133
+          New PM group. Thanks!
+          </pre>
+      </li>
+      <li class="admin_faq" class="admin_faq">If they want a Mailman list (and one doesn't exist already), create one named "<em>Groupname</em>-pm".</li>
+      <li class="admin_faq" class="admin_faq">Add the tsar to the pm_groups@pm.org MailMan list.</li>
+      <li class="admin_faq" class="admin_faq">Update the www.pm.org website</li>
+      <li class="admin_faq" class="admin_faq">Send a "Welcome!" new group announcement email to pm_groups@pm.org, e.g. <a href="http://mail.pm.org/mailman/private/pm_groups/2005-March/000720.html">http://mail.pm.org/mailman/private/pm_groups/2005-March/000720.html</a></li>
+    </ol>
+  </li>
+</ol>
+
+<h2>Modify a Group</h2>
+
+<h4>Group Leader ("Tsar") Changes</h4>
+
+<ol>
+  <li class="admin_faq">Update perl_mongers.xml
+    <ol>
+       <li class="admin_faq">Did their group status change? From "sleeping" to "active" for instance?</li>
+    </ol>
+  </li>
+  <li class="admin_faq">Commit, push your change to github</li>
+  <li class="admin_faq">Website changes may require:
+    <ul class="admin_faq">
+      <li class="admin_faq">If we were/are going to host: WebDAV https://groups.pm.org/admin/config/groupfile &mdash; change/remove/add?</li>
+      <li class="admin_faq">If they were/are going to host: Submit DNS changes?</li>
+    </ul>
+  </li>
+  <li class="admin_faq">Update the pm_groups MailMan list. (e.g. remove the old group leader and add the new leader)</li>
+  <li class="admin_faq">Follow the instructions below to change their MailMan password?</li>
+  <li class="admin_faq">Update the website per README</li>
+</ol>
+
+<h4>Forgot my Password</h4>
+
+<ol>
+  <li class="admin_faq">Ensure that the MailMan list is owned by the correct person</li>
+  <li class="admin_faq">Change the MailMan password</li>
+  <li class="admin_faq">Email group leader telling them that their password has been changed to the value listed in the other email</li>
+</ol>
+
+<h2>Remove a Group</h2>
+
+<ol>
+  <li class="admin_faq">Mark group as inactive in XML file</li>
+  <li class="admin_faq">commit, push changes to github</li>
+  <li class="admin_faq">Refresh www.pm.org (see https://github.com/perlorg/www.pm.org/blob/master/README)</li>
+</ol>
+
+<h2>Web Update</h2>
+
+See <a href="https://github.com/perlorg/www.pm.org/blob/master/README">https://github.com/perlorg/www.pm.org/blob/master/README</a>
+
+<h1>Resources</h1>
+
+<h2>git</h2>
+
+<a href="https://github.com/perlorg/www.pm.org">https://github.com/perlorg/www.pm.org</a>
+
+<h2>MailMan</h2>
+
+<ol>
+  <li class="admin_faq"><a href="http://mail.pm.org/mailman/listinfo/pm_admins">Admin mailing list</a></li>
+  <li class="admin_faq"><a href="http://mail.pm.org/mailman/listinfo/pm_groups">Group Leader mailing list</li>
+  <li class="admin_faq"><a href="ttp://mail.pm.org/mailman/listinfo">Group lists</a></li>
+  <li class="admin_faq"><a href="http://x6.develooper.com/~mailman/list-last-posts">Timestamps when lists last saw activity &mdash; some of which are old</a></li>
+  <li class="admin_faq"><a href="http://mail.pm.org/mailman/create">Create a new list</a></li>
+  <li class="admin_faq">Remove a group - you need a shell to run <code>rmlist</code>, so if you don't have one email pm_admins(at)pm(dot)org</li>
+  <li class="admin_faq"><a href="https://groups.pm.org/admin/config/mailmanpassword">super-duper password</a> &mdash; admin any group's config</li>
+</ol>
+
+<p>Cron jobs run every 20 minutes or so to implement any new groups you add.</p>
+
+<h2>Request Tracker (RT)</h2>
+
+<a href="http://rt.perl.org/rt3/">http://rt.perl.org/rt3/</a> (queue: pm-org-support)
+
+<p>Group leaders open a new support ticket by sending an email to any of these equivalent addresses:</p>
+
+<ul class="admin_faq">
+  <li class="admin_faq">support(at)pm(dot)org</li>
+  <li class="admin_faq">tech(at)pm(dot)org</li>
+  <li class="admin_faq">bugs-pm-org-support(at)rt(dot)perl(dot)org</li>
+</ul>
+
+<h2>DNS</h2>
+
+<p>In order to get a DNS change to happen, send an email to <code>dns(at)perl(dot)org</code> with information about the change you want made. You'll get an auto-reply ticket number back from RT. Things they do:</p>
+
+<ul class="admin_faq">
+  <li class="admin_faq">A records - we will point them at groups.pm.org(216.52.237.133) or their server.</li>
+  <li class="admin_faq">MX records - usually point at mx.develooper.com.
+    <ul class="admin_faq">
+      <li class="admin_faq">Note: MX records cannot point to CNAMES. This makes some mailservers unhappy</li>
+    </ul>
+  </li>
+  <li class="admin_faq">CNAME records - sometimes this is easier than an A record</li>
+</ul>
+
+<p>We can also provide NS records (aka delegation) of foo.pm.org to other nameservers.</p>
+
+<p>For established groups....</p>
+
+<ul class="admin_faq">
+  <li class="admin_faq">AAAA records (IPV6)</li>
+  <li class="admin_faq">special things like SRV records and more A records.</li>
+</ul>
+
+<p>Sample Message<pre>
+
+ To:        dns@perl.org
+ Subject:   aberdeen.pm.org -> 216.52.237.133
+ 
+ New Perl Monger group. Thanks!
+ </pre></p>
+
+<h2>XML</h2>
+
+<p><a href="https://github.com/perlorg/www.pm.org/blob/master/perl_mongers.xml">https://github.com/perlorg/www.pm.org/blob/master/perl_mongers.xml</a></p>
+
+<p>All pm.org services are (or should be) driven by our single, master XML file. That file is <code>perl_mongers.xml</code>. The format is defined by <code></code>perl_mongers.dtd</code> (out of date). When the .xml is updated, programs read the .xml and write that info out to www/groups.</p>
+
+<h4>The "status" attribute</h4>
+
+<p><strong>Q:</strong> What does a status mlb or leb mean?</p>
+
+<p><strong>A: Dave Cross, November 2004:</strong> These are left over from when I was tracking down all of the groups in 2002. I emailed all of the group leaders to check if the group still existed. "leb" stands for "leaders email bouncing". In some cases I then went on to try and email the group's mailing list. "mlb" stands for "mailing list bouncing". I should probably change all of those statuses to "inactive" now.</p>
+
+<p><strong>Q:</strong> Is there a difference between inactive and sleeping?</p>
+
+<p><strong>A: Dave Cross, November 2004:</strong> Inactive means that the group is basically dead. There's no interest in keeping the group going. I keep the records around because someone might come along in the future.</p>
+
+<p>Sleeping means that there are one or two people who want to keep the group running, but they are having trouble finding recruits. The main difference is that the xml program generates listing pages for groups with a status of "active" or "sleeping" - but not for "inactive".</p>
+
+<p><strong>Q:</strong> If status is not present, does that mean inactive?</p>
+
+<p><strong>A: Dave Cross, November 2004:</strong> Yep.</p>
+
+<h1>How to be a ticket ninja</h1>
+
+<blockquote>So you want to be as super-awesome as me? -grin- Here's how I get my ticket fighting mojo on.<br>--jhannah, 12:37, 19 July 2008 (UTC)</blockquote> 
+
+<h2>Firefox</h2>
+
+<p>You use the hell out of your web browser fighting tickets. I open a single Firefox window, and then open many tabs that I can click back and forth in as needed. My tab list:</p>
+
+<ul class="admin_faq">
+  <li class="admin_faq">In RT, click the pm-org-support queue. You now have a list of all items you need to work. This is especially helpful if you click Preferences | Search options | and add LastUpdatedRelative and LastUpdatedBy to your Show Columns. This way at a glance you can see the ones where an admin last updated the ticket (probably waiting on requestor) vs. the ones where a requestor last updated the ticket (probably waiting on an admin) and how long it has been since the last update. 2 weeks is my "No response, closing ticket" deadline. (You have to set that deadline somewhere. -grin-)</li>
+  <li class="admin_faq">This admin page. Specifically the Mailman section. You'll occasionally launch these links into new tabs.</li>
+  <li class="admin_faq">MailMan super-duper password. You'll keep copying from here and pasting into other MailMan tabs.</li>
+  <li class="admin_faq">MailMan group leaders list | Admin interface | Membership Management | Mass Subscription / Mass Removal. You'll keep clicking back and forth between Subscription and Removal to manage group tsar changes.</li>
+  <li class="admin_faq">End of a ticket run: www.pm.org to check site flushes and if they stuck or not.</li>
+  <li class="admin_faq">The specific ticket you're working on in Reply mode. Typing your response here.</li>
+  <li class="admin_faq">The specific ticket you're working on in Display mode. Looking at the request, as you will forget bits and pieces and need to double-check your work.</li>
+</ul>
+
+<p>So I basically run those 5-7 tabs constantly. The last two keep closing and being re-opened for each new ticket I start work on. Overall the tabs save me a ton of time, as all those resources I use ticket after ticket after ticket are already up and ready. </p>
+
+<h2>Terminal.app (or putty, whatever)</h2>
+
+<p>I use OS X, so I have 2-3 Terminals running all the time, accessing my local machine.</p>
+
+<p><em>Terminal 1'''</em> sits inside <code>perl_mongers.xml</code>, changing it with vi. Setting this up the first time goes like this:</p>
+
+<blockquote><pre>
+Terminal.app
+mkdir src
+cd src
+svn co <nowiki>https://svn.perl.org/pm-admin/trunk perlmongers</nowiki>
+cd perlmongers
+ln -s /Volumes/admin/groups/www www
+vi perl_mongers.xml
+</pre></blockquote>
+
+<p>The symbolic link above does its magic once the WebDAV below is mounted, allowing you to run <code>bin/xml</code> and <code>bin/map.xml.pl</code> and have them magically update the server.</p>
+
+<p><em>Terminal 2</em> sits inside the admin WebDAV mount. Launching it looks like this:</p>
+
+<blockquote><pre>
+Finder | Go | Connect To Server... | <nowiki>https://groups.pm.org/admin/</nowiki>
+Terminal.app
+cd /Volumes/admin/config
+vi groupfile   (and other config files)
+</pre></blockquote>
+
+<p><em>Terminal 3</em> just kind of sits on my local computer doing DNS lookups. Checking if people's DNS change requests are valid / working and what-not.</p>
+
+<h2>Mail.app (or whatever email client)</h2>
+
+<p>To launch emails to <code>dns(at)perl(dot)org</code> requesting DNS changes. I also glance through the emails from RT, but tend to read and update the tickets online instead of via email.</p>
+
+<h2>A typical ticket run</h2>
+
+<p>So once in a blue moon (shame on me) when I sit down to pound tickets here's what I do:</p>
+
+<ul>
+  <li class="admin_faq">Launch up Firefox and all the tabs listed above.</li>
+  <li class="admin_faq">Launch Terminal.app and the 3 windows listed above, including mounting <code>/admin</code> via WebDAV.</li>
+  <li class="admin_faq"><code>cd src/perlmongers; svn update</code> </li>
+  <li class="admin_faq">Pound tickets like crazy. Keep a list of group IDs to which changes have occured along the way. <code>vi perl_mongers.xml</code> until it begs for mercy.</li>
+  <li class="admin_faq"><code>svn commit</code></li>
+  <li class="admin_faq">Using my list of group IDs (above), I need to delete all those group pages so that <code>bin/xml</code> will create new ones. (It doesn't overwrite existing files. (A speed optimization?)). So <code>cd www/groups; rm 117.html 119.html 343.html ...</code></li>
+  <li class="admin_faq"><code>perl bin/xml</code></li>
+  <li class="admin_faq"><code>perl bin/map.xml.pl</code></li>
+  <li class="admin_faq"><code>cp perl_mongers.xml www/groups/perl_mongers.xml</code></li>
+  <li class="admin_faq">Respond (or fail to respond) to any misc. emails that have trickled in.</li>
+  <li class="admin_faq">drink heavily  :)</li>
+</ul>
+
+<blockquote>Congrats! You're a certified ticket ninja! Use your awesome powers only for good.  :)<br>--jhannah 13:07, 19 July 2008 (UTC)</blockquote>
+
+<!-- Temporarily commented out while I ask jhannah if it's still a live plan... it's been a while :-)
+     If it is, I'll HTMLify the remainder too!
+
+==Plot: Deprecate the humans!!==
+
+===Intro===
+
+Jay isn't good at repetitive work. He is lazy. He wants to automate all the administrative functions he's been doing. This is his plan.
+
+These ideas aren't new. We had similar bits and pieces of automation once upon a time, and that code is in SubVersion, so we'll cherry pick the code as much as we can / want to. To see that code: <code>svn co https://svn.perl.org/pm-admin/trunk/requests@596</code>.
+
+===Status===
+
+* 2005-07-28: Brainstorming. Writing up this document for the purusal of fellow admins.
+* laugh... I haven't touched this since then. --[[User:Jhannah|Jhannah]] 08:24, 9 May 2008 (CDT)
+
+===The Goal===
+
+Everything you could ever want to know about pm.org config should all be in the XML file. "Flush" functions should spit out config files in the various formats we need, all from the data in the XML file. To do most admin functions, you should be able to just click around in RT, click around in the admin tool. The rest should happen automagically.
+
+If Jay writes this stuff, it'll be gobs of OO Perl 5. Any namespace ideas? PerlMongers::Admin? PM::Admin? PerlMongers::XML?
+
+ my $pm_xml = PerlMongers::XML->new();
+ $pm_xml->flush_DNS;
+ $pm_xml->flush_WebDAV_config;
+ $pm_xml->change_tsar(
+   group          => 143,
+   name           => 'Bob Smith', 
+   personal_email => 'bob@gmail.com'
+ );
+ $pm_xml->save;
+ 
+ ?
+
+===The Plan===
+
+   1. Group leaders requests should be guided via CGI for quickest, automated processing.
+         1. New group requests
+         2. Existing group modifications
+               1. Ooo! The script should bounce up against auth.perl.org web services for authentication!?
+         3. The result of their requests should be an XML snippet file on the server in <group></group> format per our DTD. The file should be located in a directory indicating the status of the request.
+               1. seeking_approval/684.xml
+               2. rejected/685.xml
+               3. accepted/686.xml (done/ ?)
+         4. Once the exact request is formulated the script should open an RT ticket to prompt admins to work it. (Or not?)
+   2. Admins should have a web interface to process (accept/reject) requests. That interface will move the .xml files from directory to directory and notify the requestor.
+         1. Rebuttal: No, the interface shouldn't notify anybody of anything, RT should do that. The interface should just attach feedback/whatever to the RT ticket and let RT do the communication to the requestor.
+         2. The interface should merge the new/tweaked XML into the master XML file when requests are approved by an admin.
+   3. The data in https://groups.pm.org/admin/config/groupfile should all live in our master XML file and flush via script. We shouldn't have to maintain this manually.
+         1. Write a TEMPORARY script to import the data into our master XML file (make new nodes in the DTD).
+         2. Write a PERMANENT script to create this file on the fly from the master XML file.
+   4. All .pm.org DNS entries should live in our master XML file. I assume Ask would rather do something else w/ his free time.
+         1. Write a TEMPORARY script to import the data into our master XML file (make new node(s) in the DTD).
+         2. Write a PERMANENT script to create a block of DNS config on of the fly from the master XML file. That way Ask can just run a little script every time to "flush" all .pm.org DNS.
+   5. MailMan
+         1. List creator bot?
+         2. Add group leader to pm_groups mailing list bot?
+   6. Get the XML -> web publishing flush working again somehow (under WebDAV this time). [Automate the WebUpdate procedure.]
+         1. Or have Ask/Robert install some cron thing so we just WebDAV up the XML file and the cron detects the new file timestamp and flushes everything?
+   7. Automatic Welcome! message out to the pm_groups mailing list.
+   
+   -->
+  
+  
+[% END %]
