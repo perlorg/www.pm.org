@@ -28,9 +28,9 @@
 <ul class="admin_faq">
   <li>groups/
     <ul class="admin_faq">
-      <li>www/* &mdash; <a href="http://www.pm.org">http://www.pm.org</a> content &mdash; see <a href="#web_update">Web Updates</a>
+      <li>www/* &mdash; <a href="http://www.pm.org">http://www.pm.org</a> content &mdash; see <a href="#web_update">Web Update</a>
         <ul class="admin_faq">
-          <li>groups/perl_mongers.xml - <a href="http://www.pm.org/XML/perl_mongers.xml">http://www.pm.org/XML/perl_mongers.xml</a> &mdash; see <a href="#xml"></li>
+          <li>groups/perl_mongers.xml - <a href="http://www.pm.org/XML/perl_mongers.xml">http://www.pm.org/XML/perl_mongers.xml</a> &mdash; see <a href="#xml">XML</a></li>
         </ul>
       </li>
       <li>omaha/ &mdash; <a href="http://omaha.pm.org">http://omaha.pm.org</a> &mdash; each individual group lives here</li>
@@ -135,7 +135,7 @@
   <li>Refresh www.pm.org (see https://github.com/perlorg/www.pm.org/blob/master/README)</li>
 </ol>
 
-<h2>Web Update</h2>
+<h2><a name="web_update" id="web_update">Web Update</a></h2>
 
 <p>See <a href="https://github.com/perlorg/www.pm.org/blob/master/README">https://github.com/perlorg/www.pm.org/blob/master/README</a></p>
 
@@ -147,7 +147,7 @@
 
 <p><a href="https://github.com/perlorg/www.pm.org">https://github.com/perlorg/www.pm.org</a></p>
 
-<h2>MailMan</h2>
+<h2><a name="mailman" id="mailman">MailMan</a></h2>
 
 <ol class="admin_faq">
   <li><a href="http://mail.pm.org/mailman/listinfo/pm_admins">Admin mailing list</a></li>
@@ -161,7 +161,7 @@
 
 <p>Cron jobs run every 20 minutes or so to implement any new groups you add.</p>
 
-<h2>Request Tracker (RT)</h2>
+<h2><a name="rt" id="rt">Request Tracker (RT)</a></h2>
 
 <p><a href="http://rt.perl.org/rt3/">http://rt.perl.org/rt3/</a> (queue: pm-org-support)</p>
 
@@ -204,7 +204,7 @@
  New Perl Monger group. Thanks!
  </pre></p>
 
-<h2>XML</h2>
+<h2><a name="xml" id="xml">XML</a></h2>
 
 <p><a href="https://github.com/perlorg/www.pm.org/blob/master/perl_mongers.xml">https://github.com/perlorg/www.pm.org/blob/master/perl_mongers.xml</a></p>
 
@@ -237,8 +237,8 @@
 <p>You use the hell out of your web browser fighting tickets. I open a single Firefox window, and then open many tabs that I can click back and forth in as needed. My tab list:</p>
 
 <ul class="admin_faq">
-  <li>In RT, click the pm-org-support queue. You now have a list of all items you need to work. This is especially helpful if you click Preferences | Search options | and add LastUpdatedRelative and LastUpdatedBy to your Show Columns. This way at a glance you can see the ones where an admin last updated the ticket (probably waiting on requestor) vs. the ones where a requestor last updated the ticket (probably waiting on an admin) and how long it has been since the last update. 2 weeks is my "No response, closing ticket" deadline. (You have to set that deadline somewhere. -grin-)</li>
-  <li>This admin page. Specifically the Mailman section. You'll occasionally launch these links into new tabs.</li>
+  <li>In <a href="#rt">RT</a>, click the pm-org-support queue. You now have a list of all items you need to work. This is especially helpful if you click Preferences | Search options | and add LastUpdatedRelative and LastUpdatedBy to your Show Columns. This way at a glance you can see the ones where an admin last updated the ticket (probably waiting on requestor) vs. the ones where a requestor last updated the ticket (probably waiting on an admin) and how long it has been since the last update. 2 weeks is my "No response, closing ticket" deadline. (You have to set that deadline somewhere. -grin-)</li>
+  <li>This admin page. Specifically the <a href="#mailman">Mailman</a> section. You'll occasionally launch these links into new tabs.</li>
   <li>MailMan super-duper password. You'll keep copying from here and pasting into other MailMan tabs.</li>
   <li>MailMan group leaders list | Admin interface | Membership Management | Mass Subscription / Mass Removal. You'll keep clicking back and forth between Subscription and Removal to manage group tsar changes.</li>
   <li>End of a ticket run: www.pm.org to check site flushes and if they stuck or not.</li>
@@ -258,7 +258,7 @@
 Terminal.app
 mkdir src
 cd src
-svn co <nowiki>https://svn.perl.org/pm-admin/trunk perlmongers</nowiki>
+svn co https://svn.perl.org/pm-admin/trunk perlmongers
 cd perlmongers
 ln -s /Volumes/admin/groups/www www
 vi perl_mongers.xml
@@ -269,7 +269,7 @@ vi perl_mongers.xml
 <p><em>Terminal 2</em> sits inside the admin WebDAV mount. Launching it looks like this:</p>
 
 <blockquote><pre>
-Finder | Go | Connect To Server... | <nowiki>https://groups.pm.org/admin/</nowiki>
+Finder | Go | Connect To Server... | https://groups.pm.org/admin/
 Terminal.app
 cd /Volumes/admin/config
 vi groupfile   (and other config files)
