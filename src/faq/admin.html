@@ -54,13 +54,13 @@
 
 <h2>Add a Group</h2>
 
-<ol>
+<ol class="admin_faq">
   <li class="admin_faq">perl_mongers.xml
-    <ol>
+    <ol class="admin_faq">
       <li class="admin_faq">If you haven't already, check the perlmongers root out of SubVersion onto a
        server/computer you control.</li>
       <li class="admin_faq">Search perl_mongers.xml, making sure the group didn't exist in a previous life.
-        <ol>
+        <ol class="admin_faq">
           <li class="admin_faq">If you find the group, change their status to "active" and update all the info.</li>
           <li class="admin_faq">If you don't find the group, add a new XML block, copying an existing active group and changing all the info.</li>
           <li class="admin_faq">svn commit perl_mongers.xml</li>
@@ -71,9 +71,9 @@
   </li>
   <li class="admin_faq">If they want us to host a website for them, add the new group with their auth.perl.org
     username here:
-    <ol>
+    <ol class="admin_faq">
       <li class="admin_faq">WebDAV <code>https://groups.pm.org/admin/config/groupfile</code>
-        <ol>
+        <ol class="admin_faq">
           <li class="admin_faq">Issue a mkdir command to create the root directory <code>https://groups.pm.org/groups/<em>groupname</em></code></li>
         </ol>
       <li class="admin_faq">Submit a RequestTracker ticket into the DNS queue requesting <em>Groupname</em>.pm.org be 
@@ -84,10 +84,10 @@
           New PM group. Thanks!
           </pre>
       </li>
-      <li class="admin_faq" class="admin_faq">If they want a Mailman list (and one doesn't exist already), create one named "<em>Groupname</em>-pm".</li>
-      <li class="admin_faq" class="admin_faq">Add the tsar to the pm_groups@pm.org MailMan list.</li>
-      <li class="admin_faq" class="admin_faq">Update the www.pm.org website</li>
-      <li class="admin_faq" class="admin_faq">Send a "Welcome!" new group announcement email to pm_groups@pm.org, e.g. <a href="http://mail.pm.org/mailman/private/pm_groups/2005-March/000720.html">http://mail.pm.org/mailman/private/pm_groups/2005-March/000720.html</a></li>
+      <li class="admin_faq">If they want a Mailman list (and one doesn't exist already), create one named "<em>Groupname</em>-pm".</li>
+      <li class="admin_faq">Add the tsar to the pm_groups@pm.org MailMan list.</li>
+      <li class="admin_faq">Update the www.pm.org website</li>
+      <li class="admin_faq">Send a "Welcome!" new group announcement email to pm_groups@pm.org, e.g. <a href="http://mail.pm.org/mailman/private/pm_groups/2005-March/000720.html">http://mail.pm.org/mailman/private/pm_groups/2005-March/000720.html</a></li>
     </ol>
   </li>
 </ol>
@@ -96,9 +96,9 @@
 
 <h4>Group Leader ("Tsar") Changes</h4>
 
-<ol>
+<ol class="admin_faq">
   <li class="admin_faq">Update perl_mongers.xml
-    <ol>
+    <ol class="admin_faq">
        <li class="admin_faq">Did their group status change? From "sleeping" to "active" for instance?</li>
     </ol>
   </li>
@@ -116,7 +116,7 @@
 
 <h4>Forgot my Password</h4>
 
-<ol>
+<ol class="admin_faq">
   <li class="admin_faq">Ensure that the MailMan list is owned by the correct person</li>
   <li class="admin_faq">Change the MailMan password</li>
   <li class="admin_faq">Email group leader telling them that their password has been changed to the value listed in the other email</li>
@@ -124,7 +124,7 @@
 
 <h2>Remove a Group</h2>
 
-<ol>
+<ol class="admin_faq">
   <li class="admin_faq">Mark group as inactive in XML file</li>
   <li class="admin_faq">commit, push changes to github</li>
   <li class="admin_faq">Refresh www.pm.org (see https://github.com/perlorg/www.pm.org/blob/master/README)</li>
@@ -132,17 +132,17 @@
 
 <h2>Web Update</h2>
 
-See <a href="https://github.com/perlorg/www.pm.org/blob/master/README">https://github.com/perlorg/www.pm.org/blob/master/README</a>
+<p>See <a href="https://github.com/perlorg/www.pm.org/blob/master/README">https://github.com/perlorg/www.pm.org/blob/master/README</a></p>
 
 <h1>Resources</h1>
 
 <h2>git</h2>
 
-<a href="https://github.com/perlorg/www.pm.org">https://github.com/perlorg/www.pm.org</a>
+<p><a href="https://github.com/perlorg/www.pm.org">https://github.com/perlorg/www.pm.org</a></p>
 
 <h2>MailMan</h2>
 
-<ol>
+<ol class="admin_faq">
   <li class="admin_faq"><a href="http://mail.pm.org/mailman/listinfo/pm_admins">Admin mailing list</a></li>
   <li class="admin_faq"><a href="http://mail.pm.org/mailman/listinfo/pm_groups">Group Leader mailing list</li>
   <li class="admin_faq"><a href="ttp://mail.pm.org/mailman/listinfo">Group lists</a></li>
@@ -156,7 +156,7 @@ See <a href="https://github.com/perlorg/www.pm.org/blob/master/README">https://g
 
 <h2>Request Tracker (RT)</h2>
 
-<a href="http://rt.perl.org/rt3/">http://rt.perl.org/rt3/</a> (queue: pm-org-support)
+<p><a href="http://rt.perl.org/rt3/">http://rt.perl.org/rt3/</a> (queue: pm-org-support)</p>
 
 <p>Group leaders open a new support ticket by sending an email to any of these equivalent addresses:</p>
 
