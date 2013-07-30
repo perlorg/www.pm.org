@@ -23,10 +23,15 @@ li.faq{
 	list-style:disc;  
 	padding:0px 0px 0px 0px;
 }
-li.admin_faq {
-  list-style: disc;
+.admin_faq li {
   margin: 1px 0px 1px 22px;
   padding: 0px;
+}
+ul.admin_faq li {
+  list-style: disc;
+}
+ol.admin_faq li {
+  list-style: decimal;
 }
 ol.admin_faq, ul.admin_faq {
   margin: 7px 2px 7px 2px;
