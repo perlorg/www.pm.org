@@ -2284,7 +2284,7 @@
   <group id="100" status="active">
     <name>TampaBay.pm</name>
     <location>
-      <city>Tampa Bay</city>
+      <city>Tampa-St. Petersburg-Clearwater ("Tampa Bay Area")</city>
       <state>Florida</state>
       <region></region>
       <country>United States of America</country>
@@ -2293,18 +2293,12 @@
       <latitude>27.7671</latitude>
     </location>
     <tsar>
-      <name>Christian Brink</name>
+      <name>Dylan Hardison</name>
       <email type="personal">
-        <user>cbrink</user>
-        <domain>christianbrink.com</domain>
+        <user>dylan</user>
+        <domain>hardison.net</domain>
       </email>
     </tsar>
-    <mailing_list>
-      <email type="list">
-        <user>tampa-pm</user>
-        <domain>pm.org</domain>
-      </email>
-    </mailing_list>
     <web>http://tampabay.pm.org/</web>
     <date type="inception">19980916</date>
   </group>
@@ -4253,23 +4247,22 @@
     <web>http://pune.pm.org/</web>
     <date type="inception">19990503</date>
   </group>
-  <group id="193" status="undef">
+  <group id="193" status="active">
     <name>Shanghai.pm</name>
     <location>
       <city>Shanghai</city>
-      <state></state>
+      <state>Shanghai</state>
       <region></region>
       <country>China</country>
       <continent>Asia</continent>
-      <longitude>121.458</longitude>
-      <latitude>31.222</latitude>
+      <longitude>121.551004</longitude>
+      <latitude>31.216178</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>Tian Lifeng</name>
+      <name>Hugh Shang</name>
       <email type="personal">
-        <user>lftian</user>
-        <domain>public2.sta.net.cn</domain>
+        <user>hugh</user>
+        <domain>hughshang.com</domain>
       </email>
     </tsar>
     <web>http://shanghai.pm.org/</web>
@@ -13983,7 +13976,7 @@
     </mailing_list>
     <date type="inception">20030317</date>
   </group>
-  <group id="558" status="active">
+  <group id="558" status="inactive">
     <name>German.pm</name>
     <location>
       <city></city>
@@ -13994,7 +13987,6 @@
       <longitude></longitude>
       <latitude></latitude>
     </location>
-    <email type="group"></email>
     <tsar>
       <name>Sören Michael Laird Sörries</name>
       <email type="personal">
