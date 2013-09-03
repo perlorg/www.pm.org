@@ -488,14 +488,14 @@
       <region></region>
       <country>United States of America</country>
       <continent>North America</continent>
-      <longitude>-84.538593</longitude>
-      <latitude>39.135555</latitude>
+      <longitude>-84.39281</longitude>
+      <latitude>39.190389</latitude>
     </location>
     <tsar>
-      <name>Brent Shields</name>
+      <name>Jon Gentle</name>
       <email type="personal">
-        <user>brent.b.hill</user>
-        <domain>gmail.com</domain>
+        <user>atrodo</user>
+        <domain>atrodo.org</domain>
       </email>
     </tsar>
     <web>http://cincinnati.pm.org/</web>
@@ -556,10 +556,10 @@
       <latitude>40.0</latitude>
     </location>
     <tsar>
-      <name>Jonathan Hogue</name>
+      <name>Len Jaffe</name>
       <email type="personal">
-        <user>jon</user>
-        <domain>hogue.org</domain>
+        <user>lenjaffe</user>
+        <domain>jaffesystems.com</domain>
       </email>
     </tsar>
     <web>http://columbus.pm.org/</web>
@@ -2362,8 +2362,8 @@
       <region></region>
       <country>Canada</country>
       <continent>North America</continent>
-      <longitude>-79.416</longitude>
-      <latitude>43.666</latitude>
+      <longitude>-79.387168</longitude>
+      <latitude>43.670417</latitude>
     </location>
     <tsar>
       <name>J Z Tam</name>
@@ -2635,10 +2635,6 @@
       <longitude>4.91</longitude>
       <latitude>52.35</latitude>
     </location>
-    <email type="group">
-      <user>monger</user>
-      <domain>amsterdam.pm.org</domain>
-    </email>
     <tsar>
       <name>Jan-Pieter Cornet</name>
       <email type="personal">
@@ -2647,11 +2643,6 @@
       </email>
     </tsar>
     <web>http://amsterdam.pm.org/</web>
-    <mailing_list>
-      <name>General Amsterdam.pm discussion</name>
-      <email type="list"></email>
-      <email type="list_admin"></email>
-    </mailing_list>
     <date type="inception">19980826</date>
   </group>
   <group id="115" status="undef">
@@ -14831,7 +14822,7 @@
     </mailing_list>
     <date type="inception">20030817</date>
   </group>
-  <group id="599" status="inactive">
+  <group id="599" status="active">
     <name>Jakarta.pm</name>
     <location>
       <city>Jakarta</city>
@@ -14839,29 +14830,17 @@
       <region></region>
       <country>Indonesia</country>
       <continent>Asia</continent>
-      <longitude></longitude>
-      <latitude></latitude>
+      <longitude>106.8000</longitude>
+      <latitude>-6.2000</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>Christian Maxnamara</name>
+      <name>Derek Curtis</name>
       <email type="personal">
-        <user>maxnamara</user>
-        <domain>yahoo.com</domain>
+        <user>djcurtis</user>
+        <domain>summersetsoftware.com</domain>
       </email>
     </tsar>
     <web>http://jakarta.pm.org/</web>
-    <mailing_list>
-      <name>General Jakarta Perl Mongers discussion</name>
-      <email type="list">
-        <user>jakarta-pm</user>
-        <domain>pm.org</domain>
-      </email>
-      <email type="list_admin">
-        <user>maxnamara</user>
-        <domain>yahoo.com</domain>
-      </email>
-    </mailing_list>
     <date type="inception">20030817</date>
   </group>
   <group id="600" status="active">
@@ -18939,5 +18918,26 @@
     </tsar>
     <web>http://cochin.pm.org/</web>
     <date type="inception">20130709</date>
+  </group>
+  <group id="776" status="active">
+    <name>AmsterdamX.pm</name>
+    <location>
+      <city>Amsterdam</city>
+      <state></state>
+      <region></region>
+      <country>Netherlands</country>
+      <continent>Europe</continent>
+      <longitude>4.91</longitude>
+      <latitude>52.35</latitude>
+    </location>
+    <tsar>
+      <name>Sawyer</name>
+      <email type="personal">
+        <user>xsawyerx</user>
+        <domain>cpan.org</domain>
+      </email>
+    </tsar>
+    <web>http://AmsterdamX.pm.org/</web>
+    <date type="inception">20130903</date>
   </group>
 </perl_mongers>
