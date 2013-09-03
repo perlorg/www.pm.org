@@ -2,75 +2,40 @@ Web:     http://www.pm.org
 Support: support@pm.org
 
 Version control: https://github.com/perlorg/www.pm.org/
-Admin notes:     https://github.com/jhannah/jays.net/blob/master/archives/2012/mediawiki/PerlMongersAdministration.mw
-                 (yup, this is a mess. --jhannah)
-
+Admin manual:    http://www.pm.org/faq/admin.html
 
 Directory layout is as follows:
 
 bin/ 
-  contains programs to build the site etc.
+  programs to build the site etc.
 lib/
-  contains Template Toolkit templates
+  Template Toolkit templates
 src/
-  contains the actual text of the site
+  actual text of the site
 www/
-  the output goes here
+  output goes here
 
-To build the site, run "bin/xml" from this directory. 
+To build the site, run "bin/xml" and "bin/map.xml.pl".
 
-What this does is it takes the source files from src/ applies any
-templates to them (from lib/), and writes the output to the www/
-directory. Now have a look at the www directory - it contains the
-site!
-
-lib/layout is the template which is applied to every page.
-
-   -----------------------------------
-   ADMINISTRATOR NOTE:
-   If you're a www.pm.org admin, then your local www directory is a symlink into a 
-   WebDAV mount of https://groups.pm.org/admin/. For example, in OS X:
+Your local www directory should simply be a symlink into
+a WebDAV mount of https://groups.pm.org/admin/. For example, in OS X:
    
       ln -s /Volumes/admin/groups/www www
    
-   At that point, when you run "bin/xml" you're publishing the output directly to 
-   www.pm.org.
-   -----------------------------------
+At that point, when you run "bin/xml" you're publishing the output directly 
+to www.pm.org.
 
-In Linux, to upload files use the following commands:
+What "bin/xml" does is it takes the source files from src/ applies any
+templates to them (from lib/), and writes the output to the www/
+directory.
 
-  $ cadaver https://groups.pm.org/admin/groups/www/groups
-  type in username/password
-  dav:/admin/groups/www> lcd www/groups
-  dav:/admin/groups/www> put 121.html
-  dav:/admin/groups/www> exit
-
-
+lib/layout is the template which is applied to every page.
 
 Note: whenever you refer to a page on our site inside a template,
 please use the following mechanism, which changes the link to a
 relative one so that we can build the site anywhere we want:
 
   See [% link_to("foo.html", "the best foo") %].
-
-Coordinate converter: http://www.fcc.gov/mb/audio/bickel/DDDMMSS-decimal.html
-
-
-##### To tidy the xml file run the following:
-
-/usr/bin/tidy -utf8 -xml -i -o perl_mongers.xml perl_mongers.xml
-
-##### To get coordinates of a street address you can use:
-http://itouchmap.com/latlong.html
-
-
-############## Trying to describe the meaning of each field:
-
-email has 4 types
-   personal    (of a tsar)
-   group
-   list        (of mailing_list)
-   list_admin  (of mailing_list)
 
 
 social networks:
