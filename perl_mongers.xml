@@ -972,14 +972,14 @@
       <region></region>
       <country>United States of America</country>
       <continent>North America</continent>
-      <longitude>-95.677068</longitude>
-      <latitude>29.7503</latitude>
+      <longitude>-95.424338</longitude>
+      <latitude>29.738281</latitude>
     </location>
     <email type="group"></email>
     <tsar>
       <name>G. Wade Johnson</name>
       <email type="personal">
-        <user>wade</user>
+        <user>gwadej</user>
         <domain>anomaly.org</domain>
       </email>
     </tsar>
