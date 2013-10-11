@@ -14826,7 +14826,7 @@
     <name>Jakarta.pm</name>
     <location>
       <city>Jakarta</city>
-      <state></state>
+      <state>Jakarta</state>
       <region></region>
       <country>Indonesia</country>
       <continent>Asia</continent>
@@ -18697,10 +18697,10 @@
       <latitude>46.7667</latitude>
     </location>
     <tsar>
-      <name>Robert Masic</name>
+      <name>Amalia Pomian</name>
       <email type="personal">
-        <user>robert.masic</user>
-        <domain>evozon.com</domain>
+        <user>amalia</user>
+        <domain>cluj.pm</domain>
       </email>
     </tsar>
     <web>http://cluj.pm.org/</web>
