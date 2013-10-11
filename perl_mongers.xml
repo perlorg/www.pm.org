@@ -2281,7 +2281,7 @@
     <web>http://stlouis.pm.org/</web>
     <date type="inception">19980214</date>
   </group>
-  <group id="100" status="active">
+  <group id="100" status="inactive">
     <name>TampaBay.pm</name>
     <location>
       <city>Tampa-St. Petersburg-Clearwater ("Tampa Bay Area")</city>
