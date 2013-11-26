@@ -207,7 +207,7 @@
     <web>http://atlanta.pm.org/</web>
     <date type="inception">19980704</date>
   </group>
-  <group id="8" status="inactive">
+  <group id="8" status="active">
     <name>Austin.pm</name>
     <location>
       <city>Austin</city>
@@ -215,29 +215,17 @@
       <region></region>
       <country>United States of America</country>
       <continent>North America</continent>
-      <longitude>-97.75052</longitude>
-      <latitude>30.30588</latitude>
+      <longitude>-97.790157</longitude>
+      <latitude>30.445899</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>David Bluestein</name>
+      <name>Will Braswell</name>
       <email type="personal">
-        <user>dbii</user>
-        <domain>mudpuddle.com</domain>
+        <user>wbraswell</user>
+        <domain>hush.com</domain>
       </email>
     </tsar>
     <web>http://austin.pm.org/</web>
-    <mailing_list>
-      <name>General Austin.pm discussion</name>
-      <email type="list">
-        <user>austin-pm</user>
-        <domain>pm.org</domain>
-      </email>
-      <email type="list_admin">
-        <user>mlehmann</user>
-        <domain>marklehmann.com</domain>
-      </email>
-    </mailing_list>
     <date type="inception">19980028</date>
   </group>
   <group id="9" status="undef">
