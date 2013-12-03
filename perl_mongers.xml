@@ -18928,4 +18928,25 @@
     <web>http://AmsterdamX.pm.org/</web>
     <date type="inception">20130903</date>
   </group>
+  <group id="777" status="active">
+    <name>UKCoordinators.pm</name>
+    <location>
+      <city></city>
+      <state></state>
+      <region></region>
+      <country>United Kingdom</country>
+      <continent>Europe</continent>
+      <longitude>-1.80098</longitude>
+      <latitude>52.38616</latitude>
+    </location>
+    <tsar>
+      <name>Barbie</name>
+      <email type="personal">
+        <user>Barbie</user>
+        <domain>cpan.org</domain>
+      </email>
+    </tsar>
+    <web>http://UKCoordinators.pm.org/</web>
+    <date type="inception">20131203</date>
+  </group>
 </perl_mongers>
