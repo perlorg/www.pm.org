@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl 
 
 # Read perl_mongers.xml and generate map.xml, which is much smaller and simpler.
 # Where should this script live?
