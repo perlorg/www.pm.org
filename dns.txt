@@ -1,0 +1,577 @@
+;; -*- dns -*-
+
+pm.org.             SOA ns1.us.bitnames.com. dnsoper.bitnames.com. (
+                        2013123101
+                        6h 15m 2w 5m
+                        )
+
+pm.org.         2d  NS  ns1.eu.bitnames.com.
+pm.org.         2d  NS  ns2.eu.bitnames.com.
+pm.org.         2d  NS  ns1.us.bitnames.com.
+pm.org.         2d  NS  ns2.us.bitnames.com.
+pm.org.         2d  NS  ns3.us.bitnames.com.
+pm.org.         2d  NS  ns-g1.bitnames.com.
+pm.org.         2d  NS  ns-g2.bitnames.com.
+
+;; just to match what's in the tld, should be updated
+pm.org.         2d  NS  ns2.develooper.com.
+
+
+$TTL 2h
+
+pm.org.             A   207.171.7.133
+pm.org.         5m  MX  10 xx1.develooper.com.
+
+*.n     1h  A   207.171.7.133
+*.redirects 1h  A   207.171.7.133
+*.ruhr          CNAME   ruhr-pm.wahlich.com.
+aarau           A   207.171.7.133
+abe         CNAME   abe-pm.manxome.org.
+aberdeen        A   207.171.7.133
+adelaide        A   72.14.189.53
+advent          A   207.171.7.133
+agra            A   207.171.7.133
+albany          A   207.171.7.133
+albuquerque     A   207.171.7.133
+algoma          A   207.171.7.133
+altoona         A   207.171.7.133
+amiga           A   207.171.7.133
+amsterdam   1d  NS  ns.xs4all.nl.
+amsterdam   1d  NS  ns2.xs4all.nl.
+amsterdamx      A   207.171.7.133
+anchorage       CNAME   alaskapm.org.
+ang-mo-kio      A   207.171.7.133
+annarbor        A   207.171.7.133
+argentina       A   207.171.7.133
+
+arnhem          CNAME   arnhem-pm.overmeer.net.
+
+arturovaldes        A   207.171.7.133
+athens          CNAME   athenspm.xwrio.gr.
+atlanta         A   207.171.7.133
+atlanticcity        A   96.126.107.201
+augsburg        A   207.171.7.133
+aurora          A   207.171.7.133
+austin          A   207.171.7.133
+baku            A   207.171.7.133
+baltimore       A   207.171.7.133
+bandung         A   207.171.7.133
+bangalore       A   74.53.25.76
+bangkok         A   207.171.7.133
+banking         A   207.171.7.133
+barcelona       CNAME   barcelona.perl.cat.
+barranquilla        A   207.171.7.133
+basel           CNAME   ip1.itassistance.ch.
+bath            A   213.133.65.196
+be          A   207.171.7.133
+beijing         A   207.171.7.133
+belem           A   207.171.7.133
+belgian         A   207.171.7.133
+belgrade        A   207.171.7.133
+belohorizonte       A   96.9.152.231
+bengal          A   207.171.7.133
+bergen          A   207.171.7.133
+berlin          CNAME   berliner.redirects
+berliner        A   207.171.7.133
+bh          CNAME   belohorizonte
+bham            A   207.171.7.133
+bielefeld       A   207.171.7.133
+birmingham      A   80.68.89.106
+birmingham      MX  10 mx.develooper.com.
+bloomington-normal  A   207.171.7.133
+bordeaux        A   88.191.62.178
+boston          CNAME   boston.redirects
+boulder         A   207.171.7.133
+braga           A   207.171.7.133
+bragancapaulista    A   64.191.11.181
+brasil          CNAME   brasil.perl.org.br.
+brasilia        A   207.171.7.133
+ba          CNAME   bratislava
+bratislava      CNAME   bapm.meon.eu.
+brazosvalley        A   207.171.7.133
+Breckenridge        A   204.42.138.98
+brisbane        A   207.171.7.133
+bristol         A   213.133.65.196
+brno            A   77.93.194.174
+brunei          A   207.171.7.133
+brussel         CNAME   bruxelles.redirects
+brussels        CNAME   bruxelles.redirects
+bruxelles       A   91.121.109.227
+bucharest       A   207.171.7.133
+budapest        A   207.171.7.133
+buffalo         CNAME   ghs.google.com.
+burbank         A   207.171.7.133
+burnaby         A   207.171.7.133
+cafe            A   207.171.7.133
+calcutta        A   207.171.7.133
+cali            A   96.127.138.18
+cam         A   89.16.175.213
+cambridge       A   207.171.7.133
+camel           A   184.106.157.204
+camelot         A   207.171.7.133
+camelot         MX  10 mx.develooper.com.
+campinas        A   200.98.67.214
+canberra        A   207.171.7.133
+cape-town       CNAME   www.fruitcom.com.
+cascavel        A   207.171.7.133
+cascavel        MX  0 mx.develooper.com.
+cedarfalls      A   207.171.7.133
+cedarrapids     A   207.171.7.133
+cedarvalley     A   207.171.7.133
+central-coast       A   207.171.7.133
+champaign-urbana    A   207.171.7.133
+charleston      A   207.171.7.133
+charlotte       A   50.28.24.31
+cheese          A   207.171.7.133
+chemnitz        A   207.171.7.133
+chi         CNAME   chicago
+chicago         CNAME   chicagopm.github.io.
+chicagoland     CNAME   chicago
+china           A   207.171.7.133
+chisinau        A   212.56.194.212
+chupei          CNAME   chupeipm.gugod.org.
+cincinnati      A   207.171.7.133
+classiccity     A   64.5.53.167
+cluj            A   91.195.44.55
+cleveland       A   192.81.223.14
+cmi         CNAME   champaign-urbana.redirects
+cochin          A   207.171.7.133
+coimbatore      A   207.171.7.133
+coimbra         A   207.171.7.133
+collogne        A   207.171.7.133
+cologne         A   207.171.7.133
+colorado-springs    A   207.171.7.133
+colorado-springs    MX  10 mx.develooper.com.
+columbia        A   207.171.7.133
+columbus        CNAME   ghs.google.com.
+concepcion      A   207.171.7.133
+copenhagen      CNAME   pm.legart.dk.
+corpuschristi       A   207.171.7.133
+costarica       A   200.35.151.28
+cph         CNAME   pm.legart.dk.
+cs          CNAME   calcutta.redirects
+csusb           A   207.171.7.133
+curitiba        CNAME   www.curitiba-pm.org.s3-website-us-west-1.amazonaws.com.
+cypriots        A   207.171.7.133
+dahut           CNAME   dahut-pm.prather.org.
+darmstadt       A   207.171.7.133
+dc          A   66.111.62.88
+delhi           CNAME   delhi.webbee.biz.
+denver          A   207.171.7.133
+desmoines       A   207.171.7.133
+detroit         A   207.171.7.133
+devoncornwall       A   80.68.88.22
+dfw         A   46.4.34.149
+dresden         A   207.171.7.133
+dresden         MX  10 mx.develooper.com.
+dullestech      A   207.171.7.133
+duesseldorf     A   176.9.158.98
+edinburgh       A   207.171.7.133
+edinburgh       MX  10 mx.develooper.com.
+edmond          A   207.171.7.133
+erlangen        A   207.171.7.133
+florence        A   207.171.7.133
+fortaleza       A   207.171.7.133
+frankfurt       A   46.163.73.47
+frankfurt       MX  10 mx.develooper.com.
+fredericton     A   207.171.7.133
+fukuoka         CNAME   ghs.google.com.
+gabrovo         A   207.171.7.133
+gainesville     A   207.171.7.133
+geneva          CNAME   geneva.mongueurs.net.
+geneve          CNAME   geneva.mongueurs.net.
+german          A   207.171.7.133
+glasgow         A   5.9.86.209
+goiania         A   173.236.244.145
+goteborg        A   213.88.173.51
+gothenburg      CNAME   goteborg
+granada         A   150.214.191.24
+grand-rapids        A   207.171.7.133
+groningen       A   207.171.7.133
+groups          A   207.171.7.133
+guatemala       A   207.171.7.133
+guimaraes       A   207.171.7.133
+guincho         A   207.171.7.133
+hamburg         A   207.171.7.133
+hannover        CNAME   hannover.pm.
+harrisburg      A   204.232.175.78
+hartford        A   174.136.99.66 
+hardware        A   204.232.175.78
+hawaii          A   207.171.7.133
+helsingborg     A   207.171.7.133
+helsinki        CNAME   helsinki.pm.org.hosted-by.frantic.com.
+hlagh           CNAME   www.jerkcity.com.
+hokkaido        A   183.181.174.225
+hongkong        A   50.87.145.202
+houston         A   207.171.7.133
+hradeckralove       A   207.171.7.133
+hudson-valley       A   207.171.7.133
+hull            A   207.171.7.133
+hyderabad       A   207.171.7.133
+iasi            A   97.107.134.86
+idahofalls      A   207.171.7.133
+if          CNAME   idahofalls
+indiantrail     A   207.171.7.133
+indiantrail     MX  10 mx.develooper.com.
+innsbruck       A   88.198.202.106
+irving          A   207.171.7.133
+israel          A   207.171.7.133
+italia          A   216.92.17.197
+ithaca          A   207.171.7.133
+izmir           A   207.171.7.133
+jackson         A   207.171.7.133
+jakarta         A   116.251.209.209
+jalisco         A   207.171.7.133
+jbm         A   207.171.7.133
+jerusalem       CNAME   jerusalem.redirects
+kaiserslautern      A   84.19.184.58
+kamakura        A   59.106.180.108
+kamloops        A   207.171.7.133
+kampala         A   207.171.7.133
+kansai          A   202.235.207.35
+kansascity      A   207.171.7.133
+kansascity      MX  10 zarquon.advenge.com.
+kaohsiung       A   207.171.7.133
+karlsruhe       A   207.171.7.133
+kathmandu       A   207.171.7.133
+kc          CNAME   kansascity
+kerman          A   88.198.67.125
+kiel            A   207.171.7.133
+kiev            A   207.97.227.245
+kiev            MX  5 ALT1.ASPMX.L.GOOGLE.COM.
+kiev            MX  5 ALT2.ASPMX.L.GOOGLE.COM.
+kiev            MX  1 ASPMX.L.GOOGLE.COM.
+mail.kiev       CNAME   ghs.google.com.
+; delete old.kiev after 7/5/2012
+old.kiev        A   212.40.45.2
+knoxville       A   207.171.7.133
+kolkata         CNAME   calcutta
+kostroma        A   207.171.7.133
+krakow          CNAME   krakow-pm.nfshost.com.
+krasnodar       A   207.171.7.133
+kuching         A   207.171.7.133
+kushiro         A   202.181.97.67
+kw          CNAME   kwpm.coder.com.
+kyoto           CNAME   hatenablog.com.
+la          CNAME   losangeles
+lafayette       A   207.171.7.133
+lansing         CNAME   ghs.google.com.
+larsole         A   207.171.7.133
+lasvegas        A   207.171.7.133
+latina          A   207.171.7.133
+lawton          A   207.171.7.133
+lax         A   207.171.7.133
+leicester       A   217.174.240.187
+leipzig         A   207.171.7.133
+lexington       A   207.171.7.133
+lima            A   207.171.7.133
+linz            A   188.40.119.81
+lisboa          CNAME   lisbon
+lisbon          A   91.121.228.33
+lisbon          MX  1 ASPMX.L.GOOGLE.COM.
+
+;; is this still used/needed?
+lists       20m MX  10 mx.panix.com.
+
+livermore       CNAME   www.rmon.com.
+lgbt            A   217.168.150.38
+localhost       A   127.0.0.1
+logan           A   207.171.7.133
+london      1d  NS  ns0.colondot.net.
+london      1d  NS  ns0.exonetric.net.
+london      1d  NS  ns1.exonetric.net.
+london      1d  NS  ns1.realprogrammers.com.
+longbeach       A   207.171.7.133
+los-angeles     CNAME   losangeles
+losangeles      A   207.171.7.133
+louisville      A   207.171.7.133
+lucerne         A   207.171.7.133
+lynchburg       A   207.171.7.133
+lyon            CNAME   lyon.mongueurs.net.
+madison         A   207.171.7.133
+madras          A   207.171.7.133
+madrid          CNAME   madridpm.freekeylabs.com.
+madurai         A   207.171.7.133
+mail.n      1h  A   207.171.7.86
+mail        1h  A   207.171.7.86
+mail        1h  MX  0 mx.develooper.com.
+maine           A   207.171.7.133
+makati          A   199.188.72.101
+manila          A   207.171.7.133
+manila          MX  10 mx.develooper.com.
+manresa         A   207.171.7.133
+maracaibo       A   207.171.7.133
+maracay         A   65.111.164.211
+marseille       A   207.171.7.133
+marsneedswomen      A   207.171.7.133
+melbourne       A   207.171.7.133
+memphis         A   207.171.7.133
+mexicocity      A   65.111.186.120
+miami           A   207.171.7.133
+milan           A   207.171.7.133
+miltonkeynes        A   178.250.76.12
+miltonkeynes            AAAA    2a02:1658:1::123:1
+milwaukee       A   207.171.7.133
+minneapolis     CNAME   urth.org.
+minsk           A   87.118.106.244
+mk          A   207.171.7.133
+modesto         A   207.171.7.133
+monterrey       A   207.171.7.133
+montevideo      A   207.171.7.133
+montevideo      MX  10 mx.develooper.com.
+montreal        A   207.171.7.133
+moscow          A   5.9.83.133
+mpls            CNAME   minneapolis
+mumbai          A   207.171.7.133
+munich          CNAME   www.42.org.
+napavalley      A   207.171.7.133
+nashville       A   75.127.97.52
+nagoya          CNAME   nagoyapm.herokuapp.com.
+ncssm           A   207.171.7.133
+
+new-york        A   207.171.7.133
+neworleans      A   67.18.234.7
+nh          A   207.171.7.133
+nicholasville       A   207.171.7.133
+niederrhein     CNAME   perl.community.cloudssus.net.
+niigata         A   207.171.7.133
+nijmegen        A   207.171.7.133
+nl      1d  NS  ns.xs4all.nl.
+nl      1d  NS  ns2.xs4all.nl.
+nomads          A   207.171.7.133
+nordest         A   216.92.17.197
+northfield      A   207.171.7.133
+northwestengland    A   207.171.7.133
+northwoods      A   207.171.7.133
+norwich         A   207.171.7.133
+nottingham      CNAME   wonky.org.uk.
+novosibirsk     A   207.171.7.133
+ny          CNAME   cavalletto.org.
+oc          A   207.171.7.133
+odessa          CNAME   ghs.google.com.
+oegstgeest  1d  NS  ns1.idefix.net.
+oegstgeest  1d  NS  ns2.idefix.net.
+oegstgeest  1d  NS  tellus.xs4all.nl.
+offutt          A   207.171.7.133
+okc         A   207.7.108.125
+oklahomacity        A   207.171.7.133
+oly         A   207.171.7.133
+omaha           CNAME   omaha.pm.jays.net.
+orlando         CNAME   orlando-pm.prather.org.
+oslo            A   207.171.7.133
+ottawa          A   207.171.7.133
+oxford          A   207.171.7.133
+Paderborn       A   207.171.7.133
+paris           A   207.171.7.133
+paris           MX  10 mx.develooper.com.
+pbp         A   207.171.7.133
+pcity           A   207.171.7.133
+pdx         CNAME   portlandperlmongers.github.io.
+peking          A   207.171.7.133
+penderel        CNAME   london
+perladvent      CNAME   cancer.codesimply.com.
+perlburg        A   207.171.7.133
+perlnz          A   207.171.7.133
+PerlSemNY       A   207.171.7.133
+perth           A   207.171.7.133
+petropolis      A   173.236.244.145
+pgh         CNAME   pittsburgh.redirects
+philadelphia        A   207.171.7.133
+philippines     A   207.171.7.133
+philly          CNAME   philadelphia.redirects
+phl         CNAME   philadelphia.redirects
+phoenix         A   66.111.62.88
+phperl          A   207.171.7.133
+pikes-peak      A   207.171.7.133
+pisa            A   207.171.7.133
+pisa            MX  10 mx.develooper.com.
+pittsburgh      CNAME   pghpm.wordpress.com.
+ploiesti        A   207.171.7.133
+plovdiv         A   207.171.7.133
+plymouth        A   207.171.7.133
+plzen           A   207.171.7.133
+poe         A   207.171.7.133
+portland        CNAME   pdx.redirects
+porto-alegre        A   207.171.7.133
+porto           A   67.205.62.202
+portoalegre     A   207.171.7.133
+pound-perl  1d  NS  ns1.oftechnologies.com.
+pound-perl  1d  NS  ns2.oftechnologies.com.
+poznan          CNAME   s72.linuxpl.com.
+prague          A   217.11.242.119
+princeton       A   207.171.7.133
+provo           A   207.171.7.133
+pune            A   207.171.7.133
+purdue          A   207.171.7.133
+qatar           A   207.171.7.133
+quebeccity      A   207.171.7.133
+quito                   A       207.171.7.133
+raleigh         A   207.171.7.133
+ranchi          A   207.171.7.133
+randal          CNAME   web.stonehenge.com.
+reading         A   207.171.7.133
+recife          A   207.171.7.133
+redirects       A   207.171.7.133
+rehovot         A   207.171.7.133
+renotahoe       A   207.171.7.133
+
+rio         A   204.232.175.78
+rio         MX  10 aspmx.l.google.com.
+rio         MX  20 alt1.aspmx.l.google.com.
+rio         MX  30 alt2.aspmx.l.google.com.
+rio         MX  40 aspmx2.googlemail.com.
+rio         MX  50 aspmx3.googlemail.com.
+googlee9afa33089f2c7e4.rio CNAME google.com.
+
+rochester       A   207.171.7.133
+roederbergweg       A   207.171.7.133
+roederbergweg       MX  10 mx.develooper.com.
+roma            A   207.171.7.133
+rostovondon     A   78.47.14.21
+rousse          A   195.34.96.40
+rousse          MX  10 mail.dataparkgroup.com.
+ruhr            CNAME   ruhr-pm.wahlich.com.
+ruxy            CNAME   st-petersburg
+saarland        A   207.171.7.133
+sachsen         A   207.171.7.133
+sachsen         MX  10 mx.develooper.com.
+salem           A   65.49.60.231
+saltlake        A   207.171.7.133
+san-fran        A   24.221.172.174
+san-francisco       A   24.221.172.174
+sanangelo       A   207.171.7.133
+sancristobal        A   216.75.63.70
+sandiego        A   69.43.195.46
+sanfrancisco        CNAME   sfpm.redhotpenguin.com.
+santafelosalamos    A   207.171.7.133
+santiago        NS  comunidad.codigolibre.cl.
+santodomingo        A   207.171.7.133
+sp          CNAME   sao-paulo
+sao-paulo       CNAME   gort.insolide.net.
+savannah        A   207.171.7.133
+seoul           A   211.234.100.190
+sendai          A   207.171.7.133
+seneca          A   207.171.7.133
+sf          CNAME   sanfrancisco
+shanghai        A   207.171.7.133
+sheffield       A   207.171.7.133
+sherman-oaks        A   207.171.7.133
+shibuya         A   202.181.96.213
+shibuya         MX  5 ALT1.ASPMX.L.GOOGLE.COM.
+shibuya         MX  5 ALT2.ASPMX.L.GOOGLE.COM.
+shibuya         MX  1 ASPMX.L.GOOGLE.COM.
+shijiazhuang        A   207.171.7.133
+siliconvalley           A       67.218.100.186
+sv                      CNAME   siliconvalley
+singapore       CNAME   groups
+siouxland       A   207.171.7.133
+sncpm           A   207.171.7.133
+soco            A   207.171.7.133
+sofia           A   207.171.7.133
+sofla           A   207.171.7.133
+sonoma          A   207.171.7.133
+sonoma          MX  10 mx.develooper.com.
+sophia          A   207.171.7.133
+southernoregon      CNAME   groups
+southflorida        A   207.171.7.133
+southampton     A   207.171.7.133
+spb         CNAME   st-petersburg
+springfield 1d  NS  dns1.stabletransit.com.
+springfield 1d  NS  dns2.stabletransit.com.
+springfieldmo       A   207.171.7.133
+st-anna         A   207.171.7.133
+st-petersburg       A   192.241.212.86
+stavanger       A   80.91.36.18
+sthlm       1d  NS  terminal.2globe.net.
+sthlm       1d  NS  vic20.blipp.com.
+stlouis         CNAME   ghs.google.com.
+stockholm       CNAME   vic20.blipp.com.
+stonybrook      A   207.171.7.133
+stuttgart   1d  NS      ns1.nepustil.net.
+stuttgart   1d      NS      ns.opsec.eu.
+stuttgart   1d      NS      ns.nepustil.com.
+sundsvall       A   207.171.7.133
+sussex          A   207.171.7.133
+sydney          A   207.171.7.133
+sydney          MX  10 mx.develooper.com.
+szczecin        A   207.171.7.133
+taipe           A   207.171.7.133
+tallahassee     A   207.171.7.133
+tallinn         CNAME   groups
+tampabay        A   74.207.234.164
+taubate         A   207.171.7.133
+telaviv         A   207.171.7.133
+tempe           A   65.103.192.58
+terere          A   207.171.7.133
+thailand        A   207.171.7.133
+thamesvalley        A   207.171.7.133
+thousand-oaks       A   207.171.7.133
+thousand-oaks       MX  10 mx.develooper.com.
+tiffin          A   207.171.7.133
+tijuana         A   207.171.7.133
+timisoara       A   89.200.168.36
+to          A   96.125.183.222 ; toronto?
+tokyo           A   59.106.178.228 
+tokyo           AAAA    2001:e41:3b6a:b2e4::1 
+tokyo           MX  10  nanami.ryuchi.org. 
+toledo          A   207.171.7.133
+tolyatti        A   207.171.7.133
+tomar           A   207.171.7.133
+toowoomba       A   207.171.7.133
+toulouse        A   207.171.7.133
+trico           A   207.171.7.133
+trivandrum      A   207.171.7.133
+tucson          A   207.171.7.133
+tulsa           A   207.171.7.133
+tyneside        A   207.171.7.133
+ukcoordinators      A   80.68.89.106
+ukraine         A   207.171.7.133
+ulm         A   217.10.8.60
+ulm         MX  20 mail.ulm.wagner-net.net.
+ulm         MX  10 mellifont.in-ulm.de.
+uppsala         A   207.171.7.133
+valle-mexico        A   132.248.79.97
+vallekas        A   207.171.7.133
+valleyperl      A   207.171.7.133
+valleyperl      MX  10 mx.develooper.com.
+vancouver       CNAME   aravis.narnia.org.uk.
+varese          A   207.171.7.133
+victoria        A   207.171.7.133
+victoria        MX  10 mx.develooper.com.
+vienna          A   213.208.129.170
+vitoria         A   207.171.7.133
+vlaanderen      A   72.55.173.101
+vladivostok     A   208.78.98.109
+voronezh        A   207.171.7.133
+wageningen      A   207.171.7.133
+warszawa        A   207.171.7.133
+wellington      CNAME   socrates.catalyst.net.nz.
+westernmontana      A   207.171.7.133
+weston          A   174.143.233.162
+westvirginia        A   207.171.7.133
+whitemountain       A   64.50.169.80
+whiteplains     A   207.171.7.133
+whyalla         A   207.171.7.133
+wiki.oslo       A   193.142.30.140
+wilmore         A   207.171.7.133
+www         A   207.171.7.133
+www.classiccity     CNAME   classiccity
+www.devoncornwall   CNAME   devoncornwall
+www.lisbon      CNAME   lisbon
+www         MX  10 mx.develooper.com.
+www.sandiego        CNAME   sandiego
+wypug           CNAME   wypug.digital-word.com.
+yokohama        A   219.94.245.94
+yuma            A   207.171.7.133
+yuma            MX  10 mx.develooper.com.
+za          A   207.171.7.133
+zagreb          A   207.171.7.133
+zug         A   207.171.7.133
+zurich          A   207.171.7.133
+_jabber._tcp.dahut  SRV 5 0 5269 orb.x4.net.
+_jabber._tcp.lisbon     SRV 5 0 5269 xmpp-server.l.google.com.
+_xmpp-client._tcp.dahut     SRV 5 0 5222 orb.x4.net.
+_xmpp-server._tcp.dahut     SRV 5 0 5269 orb.x4.net.
+_xmpp-server._tcp.lisbon    SRV 5 0 5269 xmpp-server.l.google.com.
+
+
