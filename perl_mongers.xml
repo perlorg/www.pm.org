@@ -3410,10 +3410,10 @@
       <latitude>59.933</latitude>
     </location>
     <tsar>
-      <name>Alex Kotov</name>
+      <name>Sergey Romanov</name>
       <email type="personal">
-        <user>megakott</user>
-        <domain>gmail.com</domain>
+        <user>complefor</user>
+        <domain>rambler.ru</domain>
       </email>
     </tsar>
     <web>http://SPb.pm.org/</web>
@@ -16365,8 +16365,7 @@
     </mailing_list>
     <date type="inception">20050320</date>
   </group>
-  <group id="658" status="gone">
-    <!-- 2010.05.21 - confirmed alive-ish by garu - szabgab-->
+  <group id="658" status="active">
     <name>Campinas.pm</name>
     <location>
       <city>Campinas</city>
@@ -16374,15 +16373,14 @@
       <region></region>
       <country>Brazil</country>
       <continent>South America</continent>
-      <longitude>-47.99</longitude>
-      <latitude>-22.70</latitude>
+      <longitude>-47.060833</longitude>
+      <latitude>-22.905833</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>Luis Dosso</name>
+      <name>Daniel Vinciguerra</name>
       <email type="personal">
-        <user>dosso</user>
-        <domain>dextra.com.br</domain>
+        <user>daniel.vinciguerra</user>
+        <domain>bivee.com.br</domain>
       </email>
     </tsar>
     <web>http://campinas.pm.org/</web>
@@ -18948,5 +18946,26 @@
     </tsar>
     <web>http://UKCoordinators.pm.org/</web>
     <date type="inception">20131203</date>
+  </group>
+  <group id="778" status="active">
+    <name>Lukavac.pm</name>
+    <location>
+      <city>Lukavac</city>
+      <state>Bosnia</state>
+      <region>TK</region>
+      <country>Bosnia</country>
+      <continent>Europe</continent>
+      <longitude>18.5167</longitude>
+      <latitude>44.5500</latitude>
+    </location>
+    <tsar>
+      <name>Edin Omerdic</name>
+      <email type="personal">
+        <user>buco_cobu</user>
+        <domain>yahoo.com</domain>
+      </email>
+    </tsar>
+    <web>http://lukavac.pm.org/</web>
+    <date type="inception">20131231</date>
   </group>
 </perl_mongers>
