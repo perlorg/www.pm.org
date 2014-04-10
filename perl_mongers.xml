@@ -2061,12 +2061,11 @@
       <longitude>-122.419349</longitude>
       <latitude>37.775328</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>Fred Moyer</name>
+      <name>Vicky Brasseur</name>
       <email type="personal">
-        <user>fred</user>
-        <domain>redhotpenguin.com</domain>
+        <user>sfpm</user>
+        <domain>vmbrasseur.com</domain>
       </email>
     </tsar>
     <web>http://sf.pm.org/</web>
@@ -13070,7 +13069,7 @@
     </mailing_list>
     <date type="inception">20020802</date>
   </group>
-  <group id="530" status="active">
+  <group id="530" status="inactive">
     <name>Kaohsiung.pm</name>
     <location>
       <city>Kaohsiung</city>
@@ -16385,7 +16384,7 @@
     <web>http://campinas.pm.org/</web>
     <date type="inception">20050420</date>
   </group>
-  <group id="659" status="inactive">
+  <group id="659" status="active">
     <name>BH.pm</name>
     <location>
       <city>Belo Horizonte</city>
@@ -16804,7 +16803,7 @@
     <web>http://rockford.pm.org</web>
     <date type="inception">20051111</date>
   </group>
-  <group id="678" status="active">
+  <group id="678" status="inactive">
     <name>Chupei.pm</name>
     <location>
       <city>Chupei</city>
@@ -16970,7 +16969,7 @@
     <web>http://ruhr.pm.org</web>
     <date type="inception">20060228</date>
   </group>
-  <group id="685" status="inactive">
+  <group id="685" status="active">
     <name>Poznan.pm</name>
     <location>
       <city>Poznan</city>
