@@ -18373,7 +18373,7 @@
     <web>http://bordeaux.pm.org</web>
     <date type="inception">20110306</date>
   </group>
-  <group id="751" status="active">
+  <group id="751" status="inactive">
     <name>HradecKralove.pm</name>
     <location>
       <city>Hradec Kralove</city>
@@ -18965,5 +18965,26 @@
     </tsar>
     <web>http://lukavac.pm.org/</web>
     <date type="inception">20131231</date>
+  </group>
+  <group id="779" status="active">
+    <name>Swindon.pm</name>
+    <location>
+      <city>Swindon</city>
+      <state>Wiltshire</state>
+      <region></region>
+      <country>United Kingdom</country>
+      <continent>Europe</continent>
+      <longitude>-1.7923051</longitude>
+      <latitude>51.5697317</latitude>
+    </location>
+    <tsar>
+      <name>Lyle Hopkins</name>
+      <email type="personal">
+        <user>webmaster</user>
+        <domain>cosmicperl.com</domain>
+      </email>
+    </tsar>
+    <web>http://swindon.pm.org/</web>
+    <date type="inception">20140516</date>
   </group>
 </perl_mongers>
