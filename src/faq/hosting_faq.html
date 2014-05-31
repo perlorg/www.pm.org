@@ -15,7 +15,6 @@
 </h3>
 <p>
     <ul class="faq">
-    <li class="faq">Basic Web Hosting (via WebDAV)</li>
     <li class="faq">Group Mailing Lists (Mailman) </li>
     <li class="faq">.pm.org DNS</li>
     </ul>
@@ -25,6 +24,7 @@
 </h3>
 <p>
     <ul class="faq">
+    <li class="faq">Basic Web Hosting (via WebDAV)</li>
     <li class="faq">Dynamic Web Hosting (CGI scripts, Template Toolkit, Mason, wikis)</li>
     <li class="faq">Shell access (ssh)</li>
     <li class="faq">FTP</li>
@@ -34,15 +34,27 @@
     Why don't you offer service X?
 </h3>
 <p>
-    Probably for security reasons.
+    Probably for security or cost reasons.
 </p>
 <h3>
     Do I have to host my PM group website on your server?
 </h3>
 <p>
-    No. We're happy to point yourgroup.pm.org DNS anywhere you want.
+    See below.  We don't offer web page hosting anymore.  We will
+    happily provide you wither either a DNS pointer to your own
+    hosting or a HTTP 301 redirect.
 </p>
-
+<h3>
+  Didn't you previously offer basic web hosting?
+</h3>
+<p>
+  Yes, we did.  We stopped offering it to new groups in 2014.  It was
+  a lot of upkeep for a relatively low benefit.  While it made sense
+  for us to offer this service in 1999, fifteen years later there are
+  lots of good, free hosting options.  We
+  suggest <a href="https://pages.github.com">GitHub Pages</a>
+  or <a href="https://sites.google.com">Google Sites</a>.
+</p>
 
 <h3>
     Who do I contact for help?
@@ -54,10 +66,226 @@
 
 
 
+<hr>
+<h2>
+    <a href="#dns">*</a><a name="dns"></a>
+    DNS and Redirects
+</h2>
+<h3>
+    Why would I want to change the DNS for my group?
+</h3>
+<p>
+    Because you want to host your group's web server on a server you control.
+    We're happy to point yourgroup.pm.org DNS to your server(s).
+</p>
+<h3>
+    Can I get a HTTP redirect instead?
+</h3>
+<p>
+    We'll gladly setup a HTTP 301 redirect from yourgroup.pm.org to
+    anywhere else.  (For example http://yourgrouppm.github.io/ or
+    http://somewhere.somedomain.com/yourgroup/)
+</p>
+<h3>
+    Will you delegate NS for my group?
+</h3>
+<p>
+    No, sorry. Recent security exploits have convinced us not to delegate DNS
+    offsite.
+</p>
+<h3>
+    Will you point MX records to my SMTP server?
+</h3>
+<p>
+    We will only do this for established groups. After you've had a few
+    meetings, send us your <code>hostname(s)</code> to which you would like
+    yourgroup.pm.org MX to be directed. (MX records work on hostnames, not IP
+    addresses.)
+</p>
+
+
+<hr>
+<h2>
+    <a href="#email">*</a><a name="email"></a>
+    Email Forwarding
+</h2>
+<h3>
+    Can you forward email sent to</a> groupname@pm.org (e.g.: omaha@pm.org)?
+</h3>
+<p>
+    Yes, if you explicitly ask for that. Send a request to
+    support(at)pm(dot)org, specifing the address you would like us to forward
+    to. You must be the group admin for that group.
+</p>
+<h3>
+    Can you forward email sent to username@pm.org (e.g.: jay_hannah@pm.org)?
+</h3>
+<p>
+    No, we don't do this. It's proven to be too much maintenance. Sorry.
+</p>
+
+
+<hr>
+<h2>
+    <a href="#mailman">*</a><a name="mailman"></a>
+    Group Mailing Lists
+</h2>
+<p>
+    If you like, we'll host a Mailman mailing list for your group. You'll
+    administer your list via the web interface (<a href=
+    "http://www.pm.org/mailman/listinfo/groupname">http://www.pm.org/mailman/listinfo/groupname</a>)
+    and/or by emailing commands to the Mailman server.
+</p>
+<p>
+    Also, as a group leader, you'll be added to a mailing list of your fellow
+    administrators from around the world. It's a low-volume
+    announcement-centric list.
+</p>
+<h3>
+    You use Mailman on a Perl web site? Are you a secret Python programmer?
+</h3>
+<p>
+    Mailman is better than Majordomo. Deal with it. 
+</p>
+
+
+
+<hr>
+<h2>
+    <a href="#new">*</a><a name="new"></a>
+    How do I request a new group or to reactivate a group that has been inactive?
+</h2>
+<p>
+    99% of the time your group name will be the name of the city in which your
+    meetings will typically be held. So, since I live in Omaha my group name is
+    Omaha.pm.
+</p>
+<p>
+    We will not create new groups with short names, please do not ask.
+    Some groups (i.e. New York as ny.pm) are grandfathered in.  Names
+    should be descriptive and mean something to non-residents.  For
+    example: MinneapolisStPaul.pm is best.  TwinCities.pm would be ok
+    too (as that's a common and well known nickname for the area.)  If
+    the nickname is not well known, expect pushback.  MSP.pm would be
+    rejected.
+</p>
+<h3>Instructions</h3>
+<p>
+    Send an email to support(at)pm(dot)org. The subject should be ``Omaha.pm -
+    new group request'' or similar. Your email needs to include all of the
+    following:
+</p>
+<pre>
+    Group leader name
+    Group leader email address
+    City
+    State/Province
+    Region (if applicable)
+    Continent
+    Country
+    Latitude   (in decimal format like "41.224853")
+    Longitude  (in decimal format like "-96.122798")
+    ... and the answers to the 2 questions below:
+</pre>
+<h4>
+    (1) Where are you going to host your site's website?
+</h4>
+<p>
+  Please provide <b>one</b> of the following:
+</p>
+<ul>
+  <li>URL to redirect yourgroup.pm.org to</li>
+  <li>IP address of server hosting your group's website</li>
+  <li>hostname (for a CNAME record) the server hosting your group</li>
+</ul>
+<h4>
+    (2) Do you want us to host a Mailman mailing list for you?
+</h4>
+<p>
+    Indicate yes or no.
+</p>
+<p>
+    Once you've sent that email you should get a reply back from
+    RequestTracker, the ticketing system we use. A volunteer administrator
+    should be in touch in a week or so.
+</p>
+
+
+<hr>
+<h2>
+    <a href="#social">*</a><a name="social"></a>
+    How do I add social networking buttons to my group listing?
+</h2>
+<p>
+    Fork our <a href="https://github.com/perlorg/www.pm.org/blob/master/perl_mongers.xml">github repository XML file</a>,
+    and add your group's information. See Israel.pm for examples. 
+</p>    
+<p>
+    If you're not up to speed on github, feel free to email the info to support(at)pm(dot)org, and we'll do the github bits for you.
+</p>
+
+
+
+<hr>
+<h2>
+    <a href="#map">*</a><a name="map"></a>
+    How do I update my map location?
+</h2>
+<p>
+    Fork our <a href="https://github.com/perlorg/www.pm.org/blob/master/perl_mongers.xml">github repository XML file</a>,
+    and update your group's information. 
+</p>    
+<p>
+    If you're not up to speed on github, feel free to email the info to support(at)pm(dot)org, and we'll do the github bits for you.
+</p>
+
+
+
+<hr>
+<h2>
+    <a href="#donate">*</a><a name="donate"></a>
+    Who pays for Perl Mongers services?
+</h2>
+<p>
+    <a href="http://www.perl.org/siteinfo.html#sponsors">Our sponsors</a> do!
+</p>
+<h3>
+    Can I help?
+</h3>
+<p>
+    Sure!
+</p>
+<p>
+    Send money to the <a href="http://www.perlfoundation.org/">Perl Foundation</a>
+    or send us hard drives and stuff on <a href="http://www.perl.org/wishlist.html">our wishlist</a>.
+</p>
+<p>
+    Buy things from our sponsors!
+</p>
+<p>
+    And put the following ad rotation HTML on your group website:
+</p>
+<pre>
+    &lt;script language="JavaScript" src="http://www.perl.org/misc/site-sponsor-js.html"&gt;&lt;/script&gt;
+</pre>
+<p>
+    The output width is fixed at 180, but the height is variable. If you want
+    to personalize the text message, you can add '?notext=1' to the src string.
+    You can see the ad rotation in action at the bottom right corner of this page. 
+</p>
+<p>
+
 <h2>
     <a href="#www">*</a><a name="www"></a>
     Maintaining my groups website on the pm.org server
 </h2>
+
+<p>
+  This section only applies to groups who are grandfathered into the
+  pm.org hosting.  We no longer offer this service to new groups and
+  will be phasing it out over time.  See above for details.
+</p>
+
 <h3>
     How do I upload files?
 </h3>
@@ -192,213 +420,6 @@
     Download and trust the <a href="http://ca.develooper.com/install.html">Develooper 
     Root certificate</a>.
 </p>
-
-
-<hr>
-<h2>
-    <a href="#dns">*</a><a name="dns"></a>
-    DNS
-</h2>
-<h3>
-    Why would I want to change the DNS for my group?
-</h3>
-<p>
-    Because you want to host your group's web server on a server you control.
-    We're happy to point yourgroup.pm.org DNS to your server(s).
-</p>
-<h3>
-    Will you delegate NS for my group?
-</h3>
-<p>
-    No, sorry. Recent security exploits have convinced us not to delegate DNS
-    offsite.
-</p>
-<h3>
-    Will you point MX records to my SMTP server?
-</h3>
-<p>
-    We will only do this for established groups. After you've had a few
-    meetings, send us your <code>hostname(s)</code> to which you would like
-    yourgroup.pm.org MX to be directed. (MX records work on hostnames, not IP
-    addresses.)
-</p>
-
-
-<hr>
-<h2>
-    <a href="#email">*</a><a name="email"></a>
-    Email Forwarding
-</h2>
-<h3>
-    Can you forward email sent to</a> groupname@pm.org (e.g.: omaha@pm.org)?
-</h3>
-<p>
-    Yes, if you explicitly ask for that. Send a request to
-    support(at)pm(dot)org, specifing the address you would like us to forward
-    to. You must be the group admin for that group.
-</p>
-<h3>
-    Can you forward email sent to username@pm.org (e.g.: jay_hannah@pm.org)?
-</h3>
-<p>
-    No, we don't do this. It's proven to be too much maintenance. Sorry.
-</p>
-
-
-<hr>
-<h2>
-    <a href="#mailman">*</a><a name="mailman"></a>
-    Group Mailing Lists
-</h2>
-<p>
-    If you like, we'll host a Mailman mailing list for your group. You'll
-    administer your list via the web interface (<a href=
-    "http://www.pm.org/mailman/listinfo/groupname">http://www.pm.org/mailman/listinfo/groupname</a>)
-    and/or by emailing commands to the Mailman server.
-</p>
-<p>
-    Also, as a group leader, you'll be added to a mailing list of your fellow
-    administrators from around the world. It's a low-volume
-    announcement-centric list.
-</p>
-<h3>
-    You use Mailman on a Perl web site? Are you a secret Python programmer?
-</h3>
-<p>
-    Mailman is better than Majordomo. Deal with it. 
-</p>
-
-
-
-<hr>
-<h2>
-    <a href="#new">*</a><a name="new"></a>
-    How do I request a new group or to reactivate a group that has been inactive?
-</h2>
-<p>
-    99% of the time your group name will be the name of the city in which your
-    meetings will typically be held. So, since I live in Omaha my group name is
-    Omaha.pm.
-</p>
-<p>
-    We will not create new groups with short names, please do not ask.
-    Some groups (i.e. New York as ny.pm) are grandfathered in.  Names
-    should be descriptive and mean something to non-residents.  For
-    example: MinneapolisStPaul.pm is best.  TwinCities.pm would be ok
-    too (as that's a common and well known nickname for the area.)  If
-    the nickname is not well known, expect pushback.  MSP.pm would be
-    rejected.
-</p>
-<h3>Instructions</h3>
-<p>
-    Send an email to support(at)pm(dot)org. The subject should be ``Omaha.pm -
-    new group request'' or similar. Your email needs to include all of the
-    following:
-</p>
-<pre>
-    Group leader name
-    Group leader email address
-    Group leader svn.perl.org username (only if using pm.org hosting)
-    City
-    State/Province
-    Region (if applicable)
-    Continent
-    Country
-    Latitude   (in decimal format like "41.224853")
-    Longitude  (in decimal format like "-96.122798")
-    ... and the answers to the 2 questions below:
-</pre>
-<h4>
-    (1) Do you want us to host a website for you or are you going to
-    host your own website?
-</h4>
-<p>
-    If you want us to host it make sure you've read the parts of this FAQ that
-    explain WebDAV. That's the only way you're going to be able to manage your
-    site content. There are no advanced features like CGI, etc.  Just
-    plain old static file hosting.
-</p>
-<p>
-    If you want to host your own we'll need the IP address we should point
-    YourGroup.pm.org to, so please provide that.
-</p>
-<h4>
-    (2) Do you want us to host a Mailman mailing list for you?
-</h4>
-<p>
-    Indicate yes or no.
-</p>
-<p>
-    Once you've sent that email you should get a reply back from
-    RequestTracker, the ticketing system we use. A volunteer administrator
-    should be in touch in a week or so.
-</p>
-
-
-<hr>
-<h2>
-    <a href="#social">*</a><a name="social"></a>
-    How do I add social networking buttons to my group listing?
-</h2>
-<p>
-    Fork our <a href="https://github.com/perlorg/www.pm.org/blob/master/perl_mongers.xml">github repository XML file</a>,
-    and add your group's information. See Israel.pm for examples. 
-</p>    
-<p>
-    If you're not up to speed on github, feel free to email the info to support(at)pm(dot)org, and we'll do the github bits for you.
-</p>
-
-
-
-<hr>
-<h2>
-    <a href="#map">*</a><a name="map"></a>
-    How do I update my map location?
-</h2>
-<p>
-    Fork our <a href="https://github.com/perlorg/www.pm.org/blob/master/perl_mongers.xml">github repository XML file</a>,
-    and update your group's information. 
-</p>    
-<p>
-    If you're not up to speed on github, feel free to email the info to support(at)pm(dot)org, and we'll do the github bits for you.
-</p>
-
-
-
-<hr>
-<h2>
-    <a href="#donate">*</a><a name="donate"></a>
-    Who pays for Perl Mongers services?
-</h2>
-<p>
-    <a href="http://www.perl.org/siteinfo.html#sponsors">Our sponsors</a> do!
-</p>
-<h3>
-    Can I help?
-</h3>
-<p>
-    Sure!
-</p>
-<p>
-    Send money to the <a href="http://www.perlfoundation.org/">Perl Foundation</a>
-    or send us hard drives and stuff on <a href="http://www.perl.org/wishlist.html">our wishlist</a>.
-</p>
-<p>
-    Buy things from our sponsors!
-</p>
-<p>
-    And put the following ad rotation HTML on your group website:
-</p>
-<pre>
-    &lt;script language="JavaScript" src="http://www.perl.org/misc/site-sponsor-js.html"&gt;&lt;/script&gt;
-</pre>
-<p>
-    The output width is fixed at 180, but the height is variable. If you want
-    to personalize the text message, you can add '?notext=1' to the src string.
-    You can see the ad rotation in action at the bottom right corner of this page. 
-</p>
-<p>
-
 
 <hr>
 <p>
