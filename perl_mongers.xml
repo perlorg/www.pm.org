@@ -18987,4 +18987,25 @@
     <web>http://swindon.pm.org/</web>
     <date type="inception">20140516</date>
   </group>
+  <group id="780" status="active">
+    <name>NewTaipeiCity.pm</name>
+    <location>
+      <city>New Taipei City</city>
+      <state></state>
+      <region></region>
+      <country>Taiwan</country>
+      <continent>Asia</continent>
+      <longitude>121.517488</longitude>
+      <latitude>24.972149</latitude>
+    </location>
+    <tsar>
+      <name>beelu</name>
+      <email type="personal">
+        <user>beelu0211</user>
+        <domain>gmail.com</domain>
+      </email>
+    </tsar>
+    <web>http://NewTaipeiCity.pm.org/</web>
+    <date type="inception">20140623</date>
+  </group>
 </perl_mongers>
