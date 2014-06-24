@@ -134,7 +134,7 @@
     <web>http://anchorage.pm.org/</web>
     <date type="inception">19990214</date>
   </group>
-  <group id="5" status="active">
+  <group id="5" status="inactive">
     <name>AnnArbor.pm</name>
     <location>
       <city>Ann Arbor</city>
@@ -781,7 +781,7 @@
     <web>http://gainesville.pm.org/</web>
     <date type="inception">19990503</date>
   </group>
-  <group id="35" status="active">
+  <group id="35" status="inactive">
     <name>GrandRapids.pm</name>
     <location>
       <city>Grand Rapids</city>
@@ -3019,10 +3019,10 @@
     </location>
     <email type="group"></email>
     <tsar>
-      <name>José Castro</name>
+      <name>Rui Filipe Félix Patinha</name>
       <email type="personal">
-        <user>cog</user>
-        <domain>cpan.org</domain>
+        <user>rui.patinha</user>
+        <domain>gmail.com</domain>
       </email>
     </tsar>
     <web>http://lisbon.pm.org/</web>
@@ -7022,33 +7022,26 @@
     </mailing_list>
     <date type="inception"></date>
   </group>
-  <group id="317" status="inactive">
-    <!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
+  <group id="317" status="active">
     <name>Colombo.pm</name>
     <location>
       <city>Colombo</city>
-      <state>West</state>
-      <region>Sri Lanka</region>
+      <state>Western Province</state>
+      <region></region>
       <country>Sri Lanka</country>
       <continent>Asia</continent>
-      <longitude>79.8614</longitude>
-      <latitude>6.9381</latitude>
+      <longitude>79.8428</longitude>
+      <latitude>6.9344</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>V.Mahinthan</name>
+      <name>Anuradha Weeraman</name>
       <email type="personal">
-        <user>mahintha</user>
-        <domain>yahoo.com</domain>
+        <user>anuradha</user>
+        <domain>cpan.org</domain>
       </email>
     </tsar>
-    <web>http://srilanka.pm.org/</web>
-    <mailing_list>
-      <name>General colombo-pm Perl Mongers discussion</name>
-      <email type="list"></email>
-      <email type="list_admin"></email>
-    </mailing_list>
-    <date type="inception"></date>
+    <web>http://colombo.pm.org/</web>
+    <date type="inception">20140623</date>
   </group>
   <group id="318" status="inactive">
     <!-- 2009.10.08 website inactive, contact e-mail bounces. - szabgab -->
@@ -10202,31 +10195,25 @@
     </mailing_list>
     <date type="inception">20010720</date>
   </group>
-  <group id="423" status="undef">
+  <group id="423" status="active">
     <name>Bergen.pm</name>
     <location>
       <city>Bergen</city>
-      <state></state>
+      <state>Hordaland</state>
       <region></region>
       <country>Norway</country>
       <continent>Europe</continent>
-      <longitude></longitude>
-      <latitude></latitude>
+      <longitude>5.332164</longitude>
+      <latitude>60.387989</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>Siri Hjulset</name>
+      <name>Christopher Rasch-Olsen Raa</name>
       <email type="personal">
-        <user>hurlens</user>
-        <domain>c2i.net</domain>
+        <user>christopher</user>
+        <domain>stix.no</domain>
       </email>
     </tsar>
     <web>http://bergen.pm.org/</web>
-    <mailing_list>
-      <name>General Bergen Perl Mongers discussion</name>
-      <email type="list"></email>
-      <email type="list_admin"></email>
-    </mailing_list>
     <date type="inception">20010729</date>
   </group>
   <group id="424" status="unknown">
@@ -12939,7 +12926,7 @@
   <group id="526" status="undef">
     <name>mumbai.pm</name>
     <location>
-      <city>mumbai</city>
+      <city>Mumbai</city>
       <state></state>
       <region></region>
       <country>India</country>
@@ -12947,7 +12934,6 @@
       <longitude></longitude>
       <latitude></latitude>
     </location>
-    <email type="group"></email>
     <tsar>
       <name>udayan red</name>
       <email type="personal">
@@ -12956,17 +12942,6 @@
       </email>
     </tsar>
     <web>http://mumbai.pm.org/</web>
-    <mailing_list>
-      <name>General mumbai Perl Mongers discussion</name>
-      <email type="list">
-        <user>mumbai-pm</user>
-        <domain>pm.org</domain>
-      </email>
-      <email type="list_admin">
-        <user>tima</user>
-        <domain>redij.com</domain>
-      </email>
-    </mailing_list>
     <date type="inception">20020726</date>
   </group>
   <group id="527" status="inactive">
@@ -14497,11 +14472,10 @@
     <web>http://brasil.pm.org/</web>
     <date type="inception">20030628</date>
   </group>
-  <group id="585" status="inactive">
-    <!-- 2009.10.08 website inactive, contact e-mail bounces. and there is a Torino.pm - szabgab -->
+  <group id="585" status="active">
     <name>torino.pm</name>
     <location>
-      <city>torino</city>
+      <city>Turino</city>
       <state></state>
       <region></region>
       <country>Italy</country>
@@ -19006,6 +18980,27 @@
       </email>
     </tsar>
     <web>http://NewTaipeiCity.pm.org/</web>
+    <date type="inception">20140623</date>
+  </group>
+  <group id="781" status="active">
+    <name>Gdansk.pm</name>
+    <location>
+      <city>Gdansk</city>
+      <state></state>
+      <region></region>
+      <country>Poland</country>
+      <continent>Europe</continent>
+      <longitude>18.638306</longitude>
+      <latitude>54.372158</latitude>
+    </location>
+    <tsar>
+      <name>Lukasz Lipski</name>
+      <email type="personal">
+        <user>blindluke</user>
+        <domain>gmail.com</domain>
+      </email>
+    </tsar>
+    <web>http://gdansk.pm.org/</web>
     <date type="inception">20140623</date>
   </group>
 </perl_mongers>
