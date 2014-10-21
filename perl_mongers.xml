@@ -3467,8 +3467,7 @@
     </mailing_list>
     <date type="inception">19990124</date>
   </group>
-  <group id="157" status="inactive">
-    <!-- 2009.10.10 website inactive, Vitto answered and told me to remove group szabgab -->
+  <group id="157" status="active">
     <name>Torino.pm</name>
     <location>
       <city>Torino</city>
@@ -3476,15 +3475,14 @@
       <region></region>
       <country>Italy</country>
       <continent>Europe</continent>
-      <longitude>7.667</longitude>
-      <latitude>45.067</latitude>
+      <longitude>7.8234</longitude>
+      <latitude>45.0149</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>Vittorio Zuccala</name>
+      <name>Ferruccio Zamuner</name>
       <email type="personal">
-        <user>nathanvi</user>
-        <domain>gmail.com</domain>
+        <user>nonsolosoft</user>
+        <domain>diff.org</domain>
       </email>
     </tsar>
     <web>http://torino.pm.org/</web>
@@ -5842,7 +5840,7 @@
     <web></web>
     <date type="inception">20000116</date>
   </group>
-  <group id="267" status="sleeping">
+  <group id="267" status="active">
     <name>NewOrleans.pm</name>
     <location>
       <city>New Orleans</city>
@@ -5850,15 +5848,14 @@
       <region></region>
       <country>United States of America</country>
       <continent>North America</continent>
-      <longitude>-90.072585</longitude>
-      <latitude>29.955863</latitude>
+      <longitude>-90.0500</longitude>
+      <latitude>29.9667</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>Dave Cash &amp; Joey Kelley</name>
+      <name>Brett Estrade</name>
       <email type="personal">
-        <user>neworleans.pm</user>
-        <domain>fieldsofgarlic.com</domain>
+        <user>estrabd</user>
+        <domain>gmail.com</domain>
       </email>
     </tsar>
     <web>http://neworleans.pm.org/</web>
@@ -12923,22 +12920,22 @@
     </mailing_list>
     <date type="inception">20020721</date>
   </group>
-  <group id="526" status="undef">
-    <name>mumbai.pm</name>
+  <group id="526" status="active">
+    <name>Mumbai.pm</name>
     <location>
       <city>Mumbai</city>
-      <state></state>
-      <region></region>
+      <state>Maharashtra</state>
+      <region>Andheri</region>
       <country>India</country>
       <continent>Asia</continent>
-      <longitude></longitude>
-      <latitude></latitude>
+      <longitude>72.886385</longitude>
+      <latitude>19.110998</latitude>
     </location>
     <tsar>
-      <name>udayan red</name>
+      <name>Somanath Wagh</name>
       <email type="personal">
-        <user>tima</user>
-        <domain>redij.com</domain>
+        <user>somanathbt</user>
+        <domain>gmail.com</domain>
       </email>
     </tsar>
     <web>http://mumbai.pm.org/</web>
@@ -14472,39 +14469,6 @@
     <web>http://brasil.pm.org/</web>
     <date type="inception">20030628</date>
   </group>
-  <group id="585" status="active">
-    <name>torino.pm</name>
-    <location>
-      <city>Turino</city>
-      <state></state>
-      <region></region>
-      <country>Italy</country>
-      <continent>Europe</continent>
-      <longitude></longitude>
-      <latitude></latitude>
-    </location>
-    <email type="group"></email>
-    <tsar>
-      <name>Vittorio Zuccala</name>
-      <email type="personal">
-        <user>perlmonk_233437</user>
-        <domain>nathanvi.it</domain>
-      </email>
-    </tsar>
-    <web></web>
-    <mailing_list>
-      <name>General torino Perl Mongers discussion</name>
-      <email type="list">
-        <user>torino-pm</user>
-        <domain>pm.org</domain>
-      </email>
-      <email type="list_admin">
-        <user>perlmonk_233437</user>
-        <domain>nathanvi.it</domain>
-      </email>
-    </mailing_list>
-    <date type="inception">20030628</date>
-  </group>
   <group id="586" status="sleeping">
     <name>Oegstgeest.pm</name>
     <location>
@@ -15975,24 +15939,13 @@
     </location>
     <email type="group"></email>
     <tsar>
-      <name>João Gabriel</name>
+      <name>Wallace Reis</name>
       <email type="personal">
-        <user>jamorreu</user>
-        <domain>gmail.com</domain>
+        <user>wreis</user>
+        <domain>cpan.org</domain>
       </email>
     </tsar>
     <web>http://vitoria.pm.org/</web>
-    <mailing_list>
-      <name>General Vitoria Perl Mongers discussion</name>
-      <email type="list">
-        <user>vitoria-pm</user>
-        <domain>pm.org</domain>
-      </email>
-      <email type="list_admin">
-        <user>jamorreu</user>
-        <domain>gmail.com</domain>
-      </email>
-    </mailing_list>
     <date type="inception">20040425</date>
   </group>
   <group id="645" status="inactive">
@@ -18601,27 +18554,6 @@
     <web>http://kerman.pm.org/</web>
     <date type="inception">20111127</date>
   </group>
-  <group id="763" status="active">
-    <name>Mumbai.pm</name>
-    <location>
-      <city>Mumbai</city>
-      <state>Maharashtra</state>
-      <region></region>
-      <country>India</country>
-      <continent>Asia</continent>
-      <longitude>73.02959650754928</longitude>
-      <latitude>19.166709648838974</latitude>
-    </location>
-    <tsar>
-      <name>Irfan Shaikh</name>
-      <email type="personal">
-        <user>Irfan.shaikh</user>
-        <domain>me.com</domain>
-      </email>
-    </tsar>
-    <web>http://mumbai.pm.org/</web>
-    <date type="inception">20120112</date>
-  </group>
   <group id="764" status="active">
     <name>Weston.pm</name>
     <location>
@@ -19001,6 +18933,27 @@
       </email>
     </tsar>
     <web>https://sites.google.com/site/gdanskpm/</web>
+    <date type="inception">20140623</date>
+  </group>
+  <group id="782" status="active">
+    <name>Chico.pm</name>
+    <location>
+      <city>Chico</city>
+      <state>California</state>
+      <region></region>
+      <country>United States of America</country>
+      <continent>North America</continent>
+      <longitude>-121.85</longitude>
+      <latitude>39.73</latitude>
+    </location>
+    <tsar>
+      <name>Mark Leavenworth</name>
+      <email type="personal">
+        <user>leavenworths</user>
+        <domain>att.net</domain>
+      </email>
+    </tsar>
+    <web>http://Chico.pm.org</web>
     <date type="inception">20140623</date>
   </group>
 </perl_mongers>
