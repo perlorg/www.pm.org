@@ -15937,7 +15937,6 @@
       <longitude>-40.33</longitude>
       <latitude>-20.32</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
       <name>Wallace Reis</name>
       <email type="personal">
@@ -18955,5 +18954,26 @@
     </tsar>
     <web>http://Chico.pm.org</web>
     <date type="inception">20140623</date>
+  </group>
+  <group id="783" status="active">
+    <name>Nordrhein.pm</name>
+    <location>
+      <city>Nordrhein</city>
+      <state>Nordrhein-Westfalen</state>
+      <region>Nordrhein</region>
+      <country>Germany</country>
+      <continent>Europe</continent>
+      <longitude>6.960278600000038</longitude>
+      <latitude>50.937531</latitude>
+    </location>
+    <tsar>
+      <name>Winfried Trumper</name>
+      <email type="personal">
+        <user>pub+nordrhein</user>
+        <domain>wt.tuxomania.net</domain>
+      </email>
+    </tsar>
+    <web>http://Nordrhein.pm.org</web>
+    <date type="inception">20141020</date>
   </group>
 </perl_mongers>
