@@ -9,6 +9,8 @@ Directory layout is as follows:
     lib/                      Template Toolkit templates
     src/                      actual text of the site
     www/                      output goes here
+    perl_mongers.xml          PM group listing data to build corresponding pages from
+    perl_mongers.dtd          definition for perl_mongers.xml format
 
 To build the site, run "bin/xml" and "bin/map.xml.pl".
 
