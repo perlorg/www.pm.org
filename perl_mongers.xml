@@ -16,17 +16,17 @@
       <latitude>40.72426868</latitude>
     </location>
     <email type="group">
-      <user>nypm</user>
-      <domain>ny.pm.org</domain>
+      <user>nypm-organizers</user>
+      <domain>googlegroups.com</domain>
     </email>
     <tsar>
-      <name>David H. Adler</name>
+      <name>NY.pm Organizers Committee</name>
       <email type="personal">
-        <user>dha</user>
-        <domain>panix.com</domain>
+        <user>nypm-organizers</user>
+        <domain>googlegroups.com</domain>
       </email>
     </tsar>
-    <web>http://ny.pm.org/</web>
+    <web>http://www.meetup.com/The-New-York-Perl-Meetup-Group/</web>
     <meetup>http://www.meetup.com/The-New-York-Perl-Meetup-Group/</meetup>
     <mailing_list>
       <name>General NY.pm discussion</name>
@@ -11811,7 +11811,7 @@
     </mailing_list>
     <date type="inception">20020219</date>
   </group>
-  <group id="478" status="active">
+  <group id="478" status="inactive">
     <name>PerlSemNY.pm</name>
     <location>
       <city>New York City</city>
