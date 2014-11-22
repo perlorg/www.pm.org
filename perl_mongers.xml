@@ -13977,17 +13977,6 @@
       </email>
     </tsar>
     <web>http://kiel.pm.org/</web>
-    <mailing_list>
-      <name>General Kiel Perl Mongers discussion</name>
-      <email type="list">
-        <user>kiel-pm</user>
-        <domain>pm.org</domain>
-      </email>
-      <email type="list_admin">
-        <user>hsch</user>
-        <domain>mooseware.de</domain>
-      </email>
-    </mailing_list>
     <date type="inception">20030317</date>
   </group>
   <group id="560" status="inactive">
@@ -18975,5 +18964,26 @@
     </tsar>
     <web>http://Nordrhein.pm.org</web>
     <date type="inception">20141020</date>
+  </group>
+  <group id="784" status="active">
+    <name>Kielce.pm</name>
+    <location>
+      <city>Kielce</city>
+      <state></state>
+      <region>Holly Cross Mountains</region>
+      <country>Poland</country>
+      <continent>Europe</continent>
+      <longitude>20.616667</longitude>
+      <latitude>50.883333</latitude>
+    </location>
+    <tsar>
+      <name>Radek Kotowicz</name>
+      <email type="personal">
+        <user>r_kotowicz</user>
+        <domain>yahoo.com</domain>
+      </email>
+    </tsar>
+    <web>http://Kielce.pm.org</web>
+    <date type="inception">20141122</date>
   </group>
 </perl_mongers>
