@@ -4357,32 +4357,26 @@
     <web>http://rehovot.pm.org/</web>
     <date type="inception">19990311</date>
   </group>
-  <group id="199" status="inactive">
+  <group id="199" status="active">
     <name>CapeTown.pm</name>
     <location>
       <city>Cape Town</city>
       <state></state>
-      <region></region>
+      <region>Western Cape</region>
       <country>South Africa</country>
       <continent>Africa</continent>
-      <longitude>18.367</longitude>
-      <latitude>-33.917</latitude>
+      <longitude>18.42322</longitude>
+      <latitude>-33.92584</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>Jonas Thulin</name>
+      <name>Nigel Kukard</name>
       <email type="personal">
-        <user>jthulin</user>
-        <domain>iafrica.com</domain>
+        <user>nkukard</user>
+        <domain>capetown.pm</domain>
       </email>
     </tsar>
-    <web>http://cape-town.pm.org/</web>
-    <mailing_list>
-      <name>General CapeTown.pm discussion</name>
-      <email type="list"></email>
-      <email type="list_admin"></email>
-    </mailing_list>
-    <date type="inception">19990515</date>
+    <web>http://capetown.pm/</web>
+    <date type="inception">20141124</date>
   </group>
   <group id="201" status="dead">
     <name>Algarve.pm</name>
