@@ -18980,4 +18980,25 @@
     <web>http://Kielce.pm.org</web>
     <date type="inception">20141122</date>
   </group>
+  <group id="785" status="active">
+    <name>CapeTown.pm</name>
+    <location>
+      <city>Cape Town</city>
+      <state></state>
+      <region>Western Cape</region>
+      <country>South Africa</country>
+      <continent>Africa</continent>
+      <longitude>18.42322</longitude>
+      <latitude>-33.92584</latitude>
+    </location>
+    <tsar>
+      <name>Nigel Kukard</name>
+      <email type="personal">
+        <user>nkukard</user>
+        <domain>capetown.pm</domain>
+      </email>
+    </tsar>
+    <web>http://capetown.pm/</web>
+    <date type="inception">20141124</date>
+  </group>
 </perl_mongers>
