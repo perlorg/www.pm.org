@@ -183,6 +183,7 @@ geneve          CNAME   geneva.mongueurs.net.
 german          A   207.171.7.133
 glasgow         A   5.9.86.209
 goiania         A   173.236.244.145
+gotanda         CNAME   gotanda-pm.github.io.
 goteborg        A   213.88.173.51
 gothenburg      CNAME   goteborg
 granada         A   150.214.191.24

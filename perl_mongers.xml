@@ -18987,4 +18987,25 @@
     <web>http://Kielce.pm.org</web>
     <date type="inception">20141122</date>
   </group>
+  <group id="785" status="active">
+    <name>Gotanda.pm</name>
+    <location>
+      <city>Gotanda</city>
+      <state></state>
+      <region></region>
+      <country>Japan</country>
+      <continent>Asia</continent>
+      <longitude>35.6260163</longitude>
+      <latitude>139.7237256</latitude>
+    </location>
+    <tsar>
+      <name>Kenta Sato</name>
+      <email type="personal">
+        <user>karupa</user>
+        <domain>cpan.org</domain>
+      </email>
+    </tsar>
+    <web>http://gotanda.pm.org</web>
+    <date type="inception">20140427</date>
+  </group>
 </perl_mongers>
