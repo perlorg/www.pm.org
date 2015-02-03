@@ -9280,7 +9280,7 @@
     </mailing_list>
     <date type="inception">20010428</date>
   </group>
-  <group id="395" status="dead">
+  <group id="395" status="active">
     <name>Prague.pm</name>
     <location>
       <city>Prague</city>
@@ -9288,30 +9288,25 @@
       <region></region>
       <country>Czech Republic</country>
       <continent>Europe</continent>
-      <longitude>14.4667</longitude>
-      <latitude>50.0833</latitude>
+      <longitude>14.4115</longitude>
+      <latitude>50.0862</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>Jenda Krynicky</name>
+      <name>E. Choroba</name>
       <email type="personal">
-        <user>Jenda</user>
-        <domain>Krynicky.cz</domain>
+        <user>choroba</user>
+        <domain>matfyz.cz</domain>
       </email>
     </tsar>
-    <web>http://prague.pm.org/</web>
+    <web>http://www.mezl.eu/praha-pm</web>
     <mailing_list>
       <name>General Prague Perl Mongers discussion</name>
       <email type="list">
-        <user>prague-pm</user>
-        <domain>pm.org</domain>
-      </email>
-      <email type="list_admin">
-        <user>Jenda</user>
-        <domain>Krynicky.cz</domain>
+        <user>praha</user>
+        <domain>propaganda.pm</domain>
       </email>
     </mailing_list>
-    <date type="inception">20010428</date>
+    <date type="inception">20140611</date>
   </group>
   <group id="396" status="undef">
     <name>Bender.pm</name>
