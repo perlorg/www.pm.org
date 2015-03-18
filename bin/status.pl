@@ -1,5 +1,6 @@
-#!/usr/bin/perl -w
+#!/usr/bin/perl
 use strict;
+use warnings;
 #
 # Program to count perl monger groups by status.
 #
@@ -19,7 +20,6 @@ foreach my $node (@nodes) {
   my $status = $node->findvalue('@status');
   $counts{$status}++;
   if ($status eq 'active') {
-    my $status    = $node->findvalue('@status');
     my $longitude = $node->findvalue('location/longitude/text()');
     my $latitude  = $node->findvalue('location/latitude/text()');
     my $name      = $node->findvalue('name/text()');
