@@ -19003,4 +19003,25 @@
     <web>http://gotanda.pm.org</web>
     <date type="inception">20140427</date>
   </group>
+  <group id="786" status="active">
+    <name>Fleet.pm</name>
+    <location>
+      <city>Fleet</city>
+      <state></state>
+      <region>England</region>
+      <country>United Kingdom</country>
+      <continent>Europe</continent>
+      <longitude>-0.8456</longitude>
+      <latitude>51.2834</latitude>
+    </location>
+    <tsar>
+      <name>James Raspass</name>
+      <email type="personal">
+        <user>jraspass</user>
+        <domain>gmail.com</domain>
+      </email>
+    </tsar>
+    <web>http://fleet.pm.org</web>
+    <date type="inception">20150603</date>
+  </group>
 </perl_mongers>
