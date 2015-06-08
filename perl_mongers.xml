@@ -1161,7 +1161,7 @@
     <web>http://kc.pm.org/</web>
     <date type="inception">19990120</date>
   </group>
-  <group id="51" status="inactive">
+  <group id="51" status="active">
     <name>LasVegas.pm</name>
     <location>
       <city>Las Vegas</city>
