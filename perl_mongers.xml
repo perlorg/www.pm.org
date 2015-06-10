@@ -9573,7 +9573,7 @@
     </mailing_list>
     <date type="inception">20010603</date>
   </group>
-  <group id="404" status="undef">
+  <group id="404" status="active">
     <name>Bend.pm</name>
     <location>
       <city>Bend</city>
@@ -9581,15 +9581,15 @@
       <region></region>
       <country>United States of America</country>
       <continent>North America</continent>
-      <longitude></longitude>
-      <latitude></latitude>
+      <longitude>-121.3146444</longitude>
+      <latitude>44.0611364</latitude>
     </location>
     <email type="group"></email>
     <tsar>
-      <name>Gene Boggs</name>
+      <name>Josh Lavin</name>
       <email type="personal">
-        <user>gene</user>
-        <domain>ology.net</domain>
+        <user>pm</user>
+        <domain>jlavin.com</domain>
       </email>
     </tsar>
     <web>http://bend.pm.org/</web>
@@ -9600,8 +9600,8 @@
         <domain>pm.org</domain>
       </email>
       <email type="list_admin">
-        <user>gene</user>
-        <domain>ology.net</domain>
+        <user>pm</user>
+        <domain>jlavin.com</domain>
       </email>
     </mailing_list>
     <date type="inception">20010603</date>
