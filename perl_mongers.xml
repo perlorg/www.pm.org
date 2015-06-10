@@ -9593,17 +9593,6 @@
       </email>
     </tsar>
     <web>http://bend.pm.org/</web>
-    <mailing_list>
-      <name>General Bend Perl Mongers discussion</name>
-      <email type="list">
-        <user>bend-pm</user>
-        <domain>pm.org</domain>
-      </email>
-      <email type="list_admin">
-        <user>pm</user>
-        <domain>jlavin.com</domain>
-      </email>
-    </mailing_list>
     <date type="inception">20010603</date>
   </group>
   <group id="405" status="inactive">
