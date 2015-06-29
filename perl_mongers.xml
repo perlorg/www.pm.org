@@ -19013,4 +19013,27 @@
     <web>http://fleet.pm.org</web>
     <date type="inception">20150603</date>
   </group>
+
+  <group id="787" status="active">
+    <name>Niceville.pm</name>
+    <location>
+      <city>Niceville</city>
+      <state></state>
+      <region></region>
+      <country>United States of America</country>
+      <continent>North America</continent>
+      <longitude>-86.481011</longitude>
+      <latitude>30.519338</latitude>
+    </location>
+    <tsar>
+      <name>Thomas M. Browder, Jr.</name>
+      <email type="personal">
+        <user>tom.browder</user>
+        <domain>gmail.com</domain>
+      </email>
+    </tsar>
+    <web>http://niceville.pm.org</web>
+    <date type="inception">20150629</date>
+  </group>
+
 </perl_mongers>
