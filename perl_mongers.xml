@@ -19013,12 +19013,11 @@
     <web>http://fleet.pm.org</web>
     <date type="inception">20150603</date>
   </group>
-
   <group id="787" status="active">
     <name>Niceville.pm</name>
     <location>
       <city>Niceville</city>
-      <state></state>
+      <state>Florida</state>
       <region></region>
       <country>United States of America</country>
       <continent>North America</continent>
@@ -19035,5 +19034,4 @@
     <web>http://niceville.pm.org</web>
     <date type="inception">20150629</date>
   </group>
-
 </perl_mongers>
