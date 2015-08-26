@@ -5267,12 +5267,11 @@
       <longitude>-86.9156</longitude>
       <latitude>40.4229</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>Mark Senn</name>
+      <name>Dave Jacoby</name>
       <email type="personal">
-        <user>mark</user>
-        <domain>purdue.edu</domain>
+        <user>jacobydavid</user>
+        <domain>live.com</domain>
       </email>
     </tsar>
     <web>http://purdue.pm.org/</web>
