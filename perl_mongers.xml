@@ -532,7 +532,7 @@
     <web>http://cleveland.pm.org</web>
     <date type="inception">19990331</date>
   </group>
-  <group id="23" status="active">
+  <group id="23" status="inactive">
     <name>Columbus.pm</name>
     <location>
       <city>Columbus</city>
@@ -1770,7 +1770,7 @@
     <web></web>
     <date type="inception">19990515</date>
   </group>
-  <group id="78" status="active">
+  <group id="78" status="inactive">
     <name>Pittsburgh.pm</name>
     <location>
       <city>Pittsburgh</city>
@@ -13666,7 +13666,7 @@
     <web>http://galicia.pm.org/</web>
     <date type="inception">20030109</date>
   </group>
-  <group id="519" status="active">
+  <group id="519" status="inactive">
     <name>Buffalo.pm</name>
     <location>
       <city>Buffalo</city>
