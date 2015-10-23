@@ -532,7 +532,7 @@
     <web>http://cleveland.pm.org</web>
     <date type="inception">19990331</date>
   </group>
-  <group id="23" status="inactive">
+  <group id="23" status="active">
     <name>Columbus.pm</name>
     <location>
       <city>Columbus</city>
