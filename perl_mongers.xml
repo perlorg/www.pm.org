@@ -5917,13 +5917,15 @@
     </location>
     <email type="group"></email>
     <tsar>
-      <name>KAWAI, Takanori</name>
+      <name>Nobutaka Wakabayashi</name>
       <email type="personal">
-        <user>kwitknr</user>
+        <user>nqounet</user>
         <domain>cpan.org</domain>
       </email>
     </tsar>
     <web>http://kansai.pm.org/</web>
+    <facebook>https://www.facebook.com/kansaipm/</facebook>
+    <github>https://github.com/kansai-pm</github>
     <date type="inception">20000227</date>
   </group>
   <group id="272" status="undef">
