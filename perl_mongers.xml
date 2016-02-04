@@ -1369,7 +1369,7 @@
     <web>http://milwaukee.pm.org/</web>
     <date type="inception">19990607</date>
   </group>
-  <group id="60" status="inactive">
+  <group id="60" status="active">
     <name>Minneapolis.pm</name>
     <location>
       <city>Minneapolis</city>
@@ -1382,13 +1382,14 @@
     </location>
     <email type="group"></email>
     <tsar>
-      <name>Dave Rolsky</name>
+      <name>Arthur Goldstein</name>
       <email type="personal">
-        <user>autarch</user>
-        <domain>urth.org</domain>
+        <user>arthur.goldstein</user>
+        <domain>gmail.com</domain>
       </email>
     </tsar>
-    <web>http://minneapolis.pm.org/</web>
+    <web>http://www.meetup.com/Minnesota-Perl-User-Group/</web>
+    <meetup>http://www.meetup.com/Minnesota-Perl-User-Group/</meetup>
     <mailing_list>
       <name>General Minneapolis.pm discussion</name>
       <email type="list"></email>
