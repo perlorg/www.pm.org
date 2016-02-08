@@ -19048,6 +19048,10 @@
         <longitude>127.765251</longitude>
         <latitude>26.248165</latitude>
     </location>
+    <email type="group">
+       <user>okinawa.perlmongers</user>
+       <domain>gmail.com</domain>
+    </email>
     <tsar>
         <name>Toshiaki Yokoda</name>
         <email type="personal">
