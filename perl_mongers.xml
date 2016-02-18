@@ -1586,7 +1586,7 @@
     </mailing_list>
     <date type="inception">19990214</date>
   </group>
-  <group id="69" status="inactive">
+  <group id="69" status="active">
     <name>Omaha.pm</name>
     <location>
       <city>Omaha</city>
@@ -1599,10 +1599,10 @@
     </location>
     <email type="group"></email>
     <tsar>
-      <name>Jay Hannah</name>
+      <name>Tomas Hood</name>
       <email type="personal">
-        <user>jay</user>
-        <domain>jays.net</domain>
+        <user>perl4ever</user>
+        <domain>nw7us.us</domain>
       </email>
     </tsar>
     <web>http://omaha.pm.org/</web>
