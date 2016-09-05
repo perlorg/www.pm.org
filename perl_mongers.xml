@@ -19089,5 +19089,26 @@
     </tsar>
     <web>http://okinawa.pm.org</web>
     <date type="inception">20160129</date>
-</group>
+  </group>
+  <group id="789" status="active">
+    <name>Ryazan.pm</name>
+    <location>
+      <city>Ryazan</city>
+      <state></state>
+      <region></region>
+      <country>Russian Federation</country>
+      <continent>Europe</continent>
+      <longitude>39.704602</longitude>
+      <latitude>54.630978</latitude>
+    </location>
+    <tsar>
+      <name>Ilya Chesnokov</name>
+      <email type="personal">
+        <user>chesnokov.ilya</user>
+        <domain>gmail.com</domain>
+      </email>
+    </tsar>
+    <web>http://ryazan.pm.org</web>
+    <date type="inception">20160904</date>
+  </group>
 </perl_mongers>
