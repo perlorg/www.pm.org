@@ -5276,6 +5276,9 @@
       </email>
     </tsar>
     <web>http://purdue.pl/</web>
+    <meetup>http://www.meetup.com/hacklafayette/</meetup>
+    <twitter>https://twitter.com/purduepm</twitter>
+    <github>https://github.com/Purdue-Perl-Mongers</github>
     <date type="inception">19991024</date>
   </group>
   <group id="239" status="undef">
@@ -18573,7 +18576,7 @@
     </tsar>
     <web>http://cluj.pm.org/</web>
     <facebook>http://www.facebook.com/cluj.pm</facebook>
-    <twitter>http://twittr.com/clujpm</twitter>
+    <twitter>http://twitter.com/clujpm</twitter>
     <googleplus>https://plus.google.com/u/0/b/118166106837813762940/118166106837813762940/posts</googleplus>
     <date type="inception">20120302</date>
   </group>
