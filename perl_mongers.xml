@@ -17943,7 +17943,7 @@
     <web>http://advent.pm.org</web>
     <date type="inception">20091015</date>
   </group>
-  <group id="735" status="active">
+  <group id="735" status="inactive">
     <name>Adelaide.pm</name>
     <location>
       <city>Adelaide</city>
@@ -19045,52 +19045,52 @@
   <group id="788" status="active">
     <name>Okinawa.pm</name>
     <location>
-        <city>Nishihara City</city>
-        <state>Okinawa</state>
-        <region></region>
-        <country>Japan</country>
-        <continent>Asia</continent>
-        <longitude>127.765251</longitude>
-        <latitude>26.248165</latitude>
+      <city>Nishihara City</city>
+      <state>Okinawa</state>
+      <region></region>
+      <country>Japan</country>
+      <continent>Asia</continent>
+      <longitude>127.765251</longitude>
+      <latitude>26.248165</latitude>
     </location>
     <email type="group">
-       <user>okinawa.perlmongers</user>
-       <domain>gmail.com</domain>
+      <user>okinawa.perlmongers</user>
+      <domain>gmail.com</domain>
     </email>
     <tsar>
-        <name>Toshiaki Yokoda</name>
-        <email type="personal">
-            <user>adokoy001</user>
-            <domain>gmail.com</domain>
-        </email>
+      <name>Toshiaki Yokoda</name>
+      <email type="personal">
+        <user>adokoy001</user>
+        <domain>gmail.com</domain>
+      </email>
     </tsar>
     <tsar>
-        <name>Kamikawa Kei</name>
-        <email type="personal">
-            <user>x00.x7f</user>
-            <domain>gmail.com</domain>
-        </email>
+      <name>Kamikawa Kei</name>
+      <email type="personal">
+        <user>x00.x7f</user>
+        <domain>gmail.com</domain>
+      </email>
     </tsar>
     <tsar>
-        <name>Masaaki Saito</name>
-        <email type="personal">
-            <user>masakyst.public</user>
-            <domain>gmail.com</domain>
-        </email>
+      <name>Masaaki Saito</name>
+      <email type="personal">
+        <user>masakyst.public</user>
+        <domain>gmail.com</domain>
+      </email>
     </tsar>
     <tsar>
-        <name>Takayuki Ohira</name>
-        <email type="personal">
-            <user>ohr131216</user>
-            <domain>gmail.com</domain>
-        </email>
+      <name>Takayuki Ohira</name>
+      <email type="personal">
+        <user>ohr131216</user>
+        <domain>gmail.com</domain>
+      </email>
     </tsar>
     <tsar>
-        <name>yasu47b</name>
-        <email type="personal">
-            <user>yasu47b</user>
-            <domain>gmail.com</domain>
-        </email>
+      <name>yasu47b</name>
+      <email type="personal">
+        <user>yasu47b</user>
+        <domain>gmail.com</domain>
+      </email>
     </tsar>
     <web>http://okinawa.pm.org</web>
     <date type="inception">20160129</date>
