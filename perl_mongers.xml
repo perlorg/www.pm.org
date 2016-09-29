@@ -19116,4 +19116,25 @@
     <web>http://ryazan.pm.org</web>
     <date type="inception">20160904</date>
   </group>
+  <group id="790" status="active">
+    <name>Lviv.pm</name>
+    <location>
+      <city>Lviv</city>
+      <state>Lviv</state>
+      <region>West</region>
+      <country>Ukraine</country>
+      <continent>Europe</continent>
+      <longitude>24.026600</longitude>
+      <latitude>49.843340</latitude>
+    </location>
+    <tsar>
+      <name>Svyatoslav Ryzhok</name>
+      <email type="personal">
+        <user>madeinua</user>
+        <domain>cpan.org</domain>
+      </email>
+    </tsar>
+    <web>http://lviv.pm.org</web>
+    <date type="inception">20160929</date>
+  </group>
 </perl_mongers>
