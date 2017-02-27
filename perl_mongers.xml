@@ -4115,7 +4115,7 @@
     <web>http://delhi.pm.org/</web>
     <date type="inception">19990131</date>
   </group>
-  <group id="187" status="active">
+  <group id="187" status="inactive">
     <!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
     <!-- 2010.08.13 activated again per RT 76262 - jhannah -->
     <name>HongKong.pm</name>
@@ -4251,7 +4251,7 @@
     <web>http://shanghai.pm.org/</web>
     <date type="inception">19990108</date>
   </group>
-  <group id="194" status="active">
+  <group id="194" status="inactive">
     <name>Tokyo.pm</name>
     <location>
       <city>Tokyo</city>
@@ -4617,7 +4617,7 @@
     <web></web>
     <date type="inception">19990914</date>
   </group>
-  <group id="211" status="active">
+  <group id="211" status="inactive">
     <name>Seoul.pm</name>
     <location>
       <city>Seoul</city>
