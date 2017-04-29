@@ -12,18 +12,6 @@
     <ul class="faq">
     <li class="faq"><a href="#dns">.pm.org DNS</a></li>
     <li class="faq"><a href="#mailman">Group Mailing Lists (Mailman)</a></li>
-    <li class="faq"><a href="#email">Email Forwarding</a></li>
-    </ul>
-</p>
-<h3>
-    What Services are not offered?
-</h3>
-<p>
-    <ul class="faq">
-    <li class="faq">Basic Web Hosting (via WebDAV)</li>
-    <li class="faq">Dynamic Web Hosting (CGI scripts, Template Toolkit, Mason, wikis)</li>
-    <li class="faq">Shell access (ssh)</li>
-    <li class="faq">FTP</li>
     </ul>
 </p>
 <h3>
@@ -39,9 +27,10 @@
   Yes, we did.  We stopped offering it to new groups in 2014.  It was
   a lot of upkeep for a relatively low benefit.  While it made sense
   for us to offer this service in 1999, fifteen years later there are
-  lots of good, free hosting options.  We
-  suggest <a href="https://pages.github.com">GitHub Pages</a>
-  or <a href="https://sites.google.com">Google Sites</a>.
+  lots of good, free hosting options.  Many groups
+  use <a href="https://pages.github.com">GitHub Pages</a>
+  or <a href="https://sites.google.com">Google Sites</a>.  Others host
+  sites on the Google or Amazon clouds.
 </p>
 
 <h3>
@@ -253,149 +242,5 @@
     You can see the ad rotation in action at the bottom right corner of this page. 
 </p>
 <p>
-
-
-
-
-<hr>
-<h2>
-    <a href="#www">*</a><a name="www"></a>
-    Maintaining my groups website on the pm.org server (DEPRECATED)
-</h2>
-<p>
-  DEPRECATED. This section only applies to groups who are grandfathered into the
-  pm.org hosting.  We no longer offer this service to new groups and
-  will be phasing it out over time.  See above for details.
-</p>
-
-<h3>
-    How do I upload files?
-</h3>
-<p>
-    Access is only supported through <a href="http://www.webdav.org">WebDAV</a>.
-</p>
-<p>
-    Recent versions of Windows and Mac OS X have DAV clients built in. Many
-    Linux desktop tools do as well.
-</p>
-<p>
-    For a simple UNIX command line client, try <a href="http://www.webdav.org/cadaver">cadaver</a>.
-</p>
-<h3>
-    Where do I get a username/password?
-</h3>
-<p>
-    Go to <a href="http://svn.perl.org/">http://svn.perl.org/</a> and sign up
-    for a username. You must notify support(at)pm(dot)org so they can associate
-    that username with your pm group.
-</p>
-<h3>
-    What if I forget my password?
-</h3>
-<p>
-    <a href="http://svn.perl.org/">http://svn.perl.org/</a> tells you how to
-    reset your password.
-</p>
-<h3>
-    Where do I upload files?
-</h3>
-<p>
-    https://groups.pm.org/groups/yourgroup/
-</p>
-<p>
-    You must use the 'real' name of your group, not one of its aliases. (i.e.
-    philadelphia, not philly or phl)
-</p>
-<h3>
-    What is my group website?
-</h3>
-<p>
-    http://yourgroup.pm.org
-</p>
-<h3>
-   WebDAV on Mac OS X
-</h3>
-<p>
-    Download and trust the <a href="http://ca.develooper.com/install.html">Develooper 
-    Root certificate</a>.
-</p>
-<p>
-    Finder -&gt; Go -&gt; Connect to Server. Server address:
-</p>
-<pre>
-  https://groups.pm.org/groups/yourgroup
-</pre>
-<p>
-    That's it. You now have access to our server via WebDAV just like any other
-    network drive.
-</p>
-<h3>
-    WebDAV on Windows
-</h3>
-<p>
-    Download and trust the <a href="http://ca.develooper.com/install.html">Develooper 
-    Root certificate</a>.
-</p>
-<p>
-  Start -&gt; My Network Places -&gt; Add a Network,
-  plug in your group web access URL:
-<pre>
-  https://groups.pm.org/groups/yourgroup
-</pre>
-  and it creates a directory where you can just copy/paste files.
-</p>
-<h3>
-    How do I use cadaver?
-</h3>
-<p>
-    Cadaver works just like most command line FTP clients.
-</p>
-<pre>
-    $ cadaver https://groups.pm.org/groups/yourgroup
-    Authentication required for perl.org on server `groups.pm.org':
-    Username: yourusername
-    Password: yourpassword
-</pre>
-<p>
-    Important commands: get put ls
-</p>
-<h3>
-    Why can't I use an FTP client?
-</h3>
-<p>
-    Because DAV integrates better with our Authentication and Access Control
-    system. Also, DAV runs over SSL (https) so passwords (and data) are
-    encrypted in transit.
-</p>
-<h3>
-    Is there a quota?
-</h3>
-<p>
-    There is no hard limit, but we are monitoring disk usage carefully. If a
-    group uses an inappropriate amount of disk space, they will be removed from
-    the server.
-</p>
-<h3>
-    <a name="what_can_i_upload" id="what_can_i_upload">What can I upload?</a>
-</h3>
-<p>
-    Things related to your Perl Monger group.
-</p>
-
-
-
-<h3>
-    <a href="#ssl">*</a><a name="ssl"></a>
-    Why don't you have a real SSL certificate?
-</h3>
-<p>
-    Because we're cheapskates.
-</p>
-<p>
-    Download and trust the <a href="http://ca.develooper.com/install.html">Develooper 
-    Root certificate</a>.
-</p>
-
-
 
 [% END %]
