@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?x ml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN" "http://www.pm.org/groups/perl_mongers.dtd">
 <!-- This file is maintained by <support@pm.org>
      https://github.com/perlorg/www.pm.org/blob/master/perl_mongers.xml
@@ -3174,7 +3174,7 @@
         <domain>gmail.com</domain>
       </email>
     </tsar>
-    <web>http://moscow.pm.org</web>
+    <web>http://moscow.pm</web>
     <date type="inception">19990131</date>
   </group>
   <group id="142" status="active">
