@@ -8264,20 +8264,14 @@
       <longitude>25.95</longitude>
       <latitude>43.83</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
       <name>Alexander Jelyazkov</name>
       <email type="personal">
         <user>sasvirco</user>
-        <domain>homemail.com</domain>
+        <domain>gmail.com</domain>
       </email>
     </tsar>
     <web>http://rousse.pm.org/</web>
-    <mailing_list>
-      <name>General Rousse Perl Mongers discussion</name>
-      <email type="list"></email>
-      <email type="list_admin"></email>
-    </mailing_list>
     <date type="inception">20010313</date>
   </group>
   <group id="361" status="inactive">
