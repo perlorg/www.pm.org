@@ -18827,15 +18827,15 @@
     <date type="inception">20131203</date>
   </group>
   <group id="778" status="active">
-    <name>Lukavac.pm</name>
+    <name>Soda.pm</name>
     <location>
-      <city>Lukavac</city>
+      <city>Soda</city>
       <state>Bosnia</state>
       <region>TK</region>
       <country>Bosnia</country>
       <continent>Europe</continent>
-      <longitude>18.5167</longitude>
-      <latitude>44.5500</latitude>
+      <longitude>18.532600</longitude>
+      <latitude>44.533960</latitude>
     </location>
     <tsar>
       <name>Edin Omerdic</name>
@@ -18844,7 +18844,7 @@
         <domain>yahoo.com</domain>
       </email>
     </tsar>
-    <web>http://lukavac.pm.org/</web>
+    <web>http://www.perl.ba/</web>
     <date type="inception">20131231</date>
   </group>
   <group id="779" status="active">
