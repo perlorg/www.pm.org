@@ -16,6 +16,10 @@ use File::Slurp;
 
 my $src_file = shift || './perl_mongers.xml';
 
+# Optional environmental variable in case symlinks are giving you trouble. e.g.:
+#   PM_ORG_WWW=/Volumes/admin/groups/www perl bin/xml
+my $www = $ENV{'PM_ORG_WWW'} || 'www';
+
 my %ids;
 
 $| = 1;
@@ -122,7 +126,7 @@ my %allgroups;
 
 # Array containing all the group names order by continent
 my %groups;
-mkdir 'www/groups/graphics';
+mkdir "$www/groups/graphics";
 
 my $xml = XML::LibXML->new();
 my $doc = $xml->parse_file($src_file);
@@ -223,20 +227,20 @@ foreach my $g ( $doc->findnodes('//group') ) {
         push @{ $groups{$continent}{$country} }, $group;
     }
 
-    unless ( -f "www/groups/$id.html" ) {
+    unless ( -f "$www/groups/$id.html" ) {
         $group->{description}
             = "Perl Mongers $location is the Perl users group that organizes meetings";
 
-        #print "PROCESS group: www/groups/$id.html\n";
+        #print "PROCESS group: $www/groups/$id.html\n";
         $tt->process(
             'src/groups/group.html', $group,
-            "www/groups/$id.html", binmode => ':utf8'
+            "$www/groups/$id.html", binmode => ':utf8'
         ) || die $tt->error();
     }
 }
 
-copy( './perl_mongers.xml', 'www/groups/perl_mongers.xml' );
-copy( './perl_mongers.dtd', 'www/groups/perl_mongers.dtd' );
+copy( './perl_mongers.xml', "$www/groups/perl_mongers.xml" );
+copy( './perl_mongers.dtd', "$www/groups/perl_mongers.dtd" );
 
 my @continents = (
     'Africa',          'Asia',
@@ -248,7 +252,7 @@ my @continents = (
 foreach my $continent (@continents) {
     my $name = lc $continent;
     $name =~ s/\W/_/g;
-    my $file = "www/groups/$name.html";
+    my $file = "$www/groups/$name.html";
     my $groups;
     my %country_links;
     my %states;
@@ -277,10 +281,10 @@ foreach my $continent (@continents) {
                 $conf->{description}
                     = "Perl Mongers in $state are the Perl users groups that organize meetings";
 
-                #print "PROCESS US state: www/groups/$states{$state}\n";
+                #print "PROCESS US state: $www/groups/$states{$state}\n";
                 $tt->process(
                     'src/groups/country.html', $conf,
-                    "www/groups/$states{$state}", binmode => ':utf8'
+                    "$www/groups/$states{$state}", binmode => ':utf8'
                 ) || die $tt->error();
             }
         } else {
@@ -290,7 +294,7 @@ foreach my $continent (@continents) {
         my $country_file = lc $country;
         $country_file =~ s/\W/_/g;
         $country_links{$country} = "$country_file.html";
-        $country_file = "www/groups/$country_file.html";
+        $country_file = "$www/groups/$country_file.html";
         warn "WARN: Missing map_coordinates for $country"
             if not $map_coordinates{$country};
         my $conf = {
@@ -342,13 +346,13 @@ foreach my $continent (@continents) {
     # Get the perl_monger data as json, makes the map stuff easier
     my $j    = JSON->new->utf8;
     my $json = $j->pretty->encode( \@allgroups );
-    write_file( 'www/groups/perl_mongers.json', $json );
+    write_file( "$www/groups/perl_mongers.json", $json );
 
 }
 
 {
     my $source      = 'src';
-    my $destination = 'www';
+    my $destination = $www;
     my $parms       = {
         allgroups    => \%allgroups,
         allgroupsnum => scalar( keys %allgroups ),
