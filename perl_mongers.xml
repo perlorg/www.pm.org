@@ -553,7 +553,7 @@
     <web>http://columbus.pm.org/</web>
     <date type="inception">19990707</date>
   </group>
-  <group id="24" status="inactive">
+  <group id="24" status="active">
     <name>DFW.pm</name>
     <location>
       <city></city>
@@ -565,10 +565,10 @@
       <latitude>32.79415</latitude>
     </location>
     <tsar>
-      <name>Tommy Butler</name>
+      <name>Robert Hughes</name>
       <email type="personal">
-        <user>dfwpm</user>
-        <domain>internetalias.net</domain>
+        <user>robert.d.hughes</user>
+        <domain>gmail.com</domain>
       </email>
     </tsar>
     <web>http://dfw.pm.org/</web>
