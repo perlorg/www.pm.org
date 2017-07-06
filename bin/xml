@@ -18,7 +18,7 @@ my $src_file = shift || './perl_mongers.xml';
 
 # We don't use a WebDAV mount anymore, we flush a copy of the site locally
 # and then push to git@git.develooper.com:www.pm.org-live.git
-#   PM_ORG_WWW=/Users/jhannah/src/perlorg/www.pm.org-live perl bin/xml
+#   PM_ORG_WWW=/Users/jhannah/src/perl.org/www.pm.org-live perl bin/xml
 my $www = $ENV{'PM_ORG_WWW'} || 'www';
 
 my %ids;
@@ -230,7 +230,7 @@ foreach my $g ( $doc->findnodes('//group') ) {
     $group->{description}
         = "Perl Mongers $location is the Perl users group that organizes meetings";
 
-    #print "PROCESS group: $www/groups/$id.html\n";
+    print "PROCESS group: $www/groups/$id.html\n";
     $tt->process(
         'src/groups/group.html', $group,
         "$www/groups/$id.html", binmode => ':utf8'
@@ -279,7 +279,7 @@ foreach my $continent (@continents) {
                 $conf->{description}
                     = "Perl Mongers in $state are the Perl users groups that organize meetings";
 
-                #print "PROCESS US state: $www/groups/$states{$state}\n";
+                print "PROCESS US state: $www/groups/$states{$state}\n";
                 $tt->process(
                     'src/groups/country.html', $conf,
                     "$www/groups/$states{$state}", binmode => ':utf8'
@@ -310,7 +310,7 @@ foreach my $continent (@continents) {
         $conf->{description}
             = "Perl Mongers in $country are the Perl users groups that organize meetings";
 
-        #print "PROCESS country: $country_file\n";
+        print "PROCESS country: $country_file\n";
         $tt->process( 'src/groups/country.html', $conf, $country_file,
             binmode => ':utf8' )
             || die $tt->error();
