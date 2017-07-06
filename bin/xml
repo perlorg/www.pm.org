@@ -341,6 +341,8 @@ foreach my $continent (@continents) {
     # just want a list
     my @allgroups = values %allgroups;
 
+    @allgroups = sort { $a->{name} cmp $b->{name} } @allgroups;
+
     # Get the perl_monger data as json, makes the map stuff easier
     my $j    = JSON->new->utf8;
     my $json = $j->pretty->encode( \@allgroups );
@@ -403,7 +405,7 @@ draw.pl [-huge]
 =head1 DESCRIPTION
 
 This uses the two large earth.png, earth-small.png, and the Perl Monger
-Group XML file, perl_mongers.xml. It takes the longitude and latitude 
+Group XML file, perl_mongers.xml. It takes the longitude and latitude
 location information contained in the XML file and produces one of
 two image files: mongers.png and mongers-small.png.
 
