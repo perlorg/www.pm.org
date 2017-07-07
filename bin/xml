@@ -345,7 +345,7 @@ foreach my $continent (@continents) {
 
     # Get the perl_monger data as json, makes the map stuff easier
     my $j    = JSON->new->utf8;
-    my $json = $j->pretty->encode( \@allgroups );
+    my $json = $j->pretty->canonical->encode( \@allgroups );
     write_file( "$www/groups/perl_mongers.json", $json );
 
 }
