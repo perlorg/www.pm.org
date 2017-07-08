@@ -344,7 +344,7 @@ foreach my $continent (@continents) {
     @allgroups = sort { $a->{name} cmp $b->{name} } @allgroups;
 
     # Get the perl_monger data as json, makes the map stuff easier
-    my $j    = JSON->new->utf8;
+    my $j    = JSON->new->utf8->canonical(1);
     my $json = $j->pretty->encode( \@allgroups );
     write_file( "$www/groups/perl_mongers.json", $json );
 
