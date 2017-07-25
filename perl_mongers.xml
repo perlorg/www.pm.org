@@ -13194,27 +13194,15 @@
       <longitude>-80.542</longitude>
       <latitude>43.473</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
       <name>Daniel Allen</name>
       <email type="personal">
-        <user>da</user>
-        <domain>coder.com</domain>
+        <user>dada.da+kwpm</user>
+        <domain>gmail.com</domain>
       </email>
+      <github>da-</github>
     </tsar>
     <web>http://kw.pm.org/</web>
-    <mailing_list>
-      <name>General Kitchener-Waterloo Perl Mongers
-      discussion</name>
-      <email type="list">
-        <user>kw-pm</user>
-        <domain>pm.org</domain>
-      </email>
-      <email type="list_admin">
-        <user>da</user>
-        <domain>coder.com</domain>
-      </email>
-    </mailing_list>
     <date type="inception">20020925</date>
   </group>
   <group id="536" status="inactive">
