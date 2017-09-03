@@ -22,10 +22,10 @@
         </script>
         [% IF map_page %]
         <script type="text/javascript"
-          src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+          src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
         </script>
         <script type="text/javascript"
-          src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAQUWXHRLr1r3tu1Kve9Jro3pP_e3_VyWc&sensor=true">
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQUWXHRLr1r3tu1Kve9Jro3pP_e3_VyWc&sensor=true">
         </script>
         <script type="text/javascript" src="/includes/map.js"></script>
         [% END %]
@@ -67,7 +67,7 @@
        <div id="footer">
            <div class="sub_holder">
            <hr />
-           <div id="sponsor_element"><script language="JavaScript" src="http://www.perl.org/misc/site-sponsor-js.html"></script></div>
+           <div id="sponsor_element"><script language="JavaScript" src="https://www.perl.org/misc/site-sponsor-js.html"></script></div>
            <div id="google_translate_element"></div>
            <p>Copyright &copy; 1997-2017 <a href="http://www.perlfoundation.org/">The Perl Foundation</a> - Need help? <a href="https://github.com/perlorg/www.pm.org/issues/new">Open an Issue</a></p>
            <p>The Perl camel image is a trademark of <a href="http://www.oreilly.com/">O'Reilly Media, Inc.</a> Used with permission.</p>
@@ -84,7 +84,7 @@
                    gaId: 'UA-50555-1'
                          }, 'google_translate_element');
                }
-               </script><script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript">
+               </script><script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript">
        </script>
    </div>
    
