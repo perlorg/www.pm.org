@@ -5165,12 +5165,12 @@
     <tsar>
       <name>Marcus Ramberg</name>
       <email type="personal">
-        <user>marcus</user>
-        <domain>nordaaker.com</domain>
+        <user>marcus.ramberg</user>
+        <domain>gmail.com</domain>
       </email>
     </tsar>
-    <web>http://oslo.pm.org/</web>
-    <date type="inception">19991024</date>
+    <web>http://oslo.pm/</web>
+    <date type="inception">20021016</date>
   </group>
   <group id="234" status="active">
     <name>Madrid.pm</name>
