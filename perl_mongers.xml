@@ -15967,38 +15967,25 @@
     </mailing_list>
     <date type="inception">20040425</date>
   </group>
-  <group id="649" status="inactive">
-    <!-- 2009.10.14 - web site is dead, email bounced - szabgab -->
-    <name>ankara.pm</name>
+  <group id="649" status="active">
+    <name>Ankara.pm</name>
     <location>
-      <city>ankara</city>
-      <state>na</state>
+      <city>Ankara</city>
+      <state></state>
       <region></region>
       <country>Turkey</country>
       <continent>Europe</continent>
-      <longitude></longitude>
-      <latitude></latitude>
+      <longitude>32.866287</longitude>
+      <latitude>39.925533</latitude>
     </location>
-    <email type="group"></email>
     <tsar>
-      <name>faik sarialioglu</name>
+      <name>Yalın Pala</name>
       <email type="personal">
-        <user>faik.sarialioglu</user>
-        <domain>mynet.com</domain>
+        <user>yalinpala</user>
+        <domain>protonmail.com</domain>
       </email>
     </tsar>
-    <web>http://ankara.pm.org/</web>
-    <mailing_list>
-      <name>General ankara Perl Mongers discussion</name>
-      <email type="list">
-        <user>ankara-pm</user>
-        <domain>pm.org</domain>
-      </email>
-      <email type="list_admin">
-        <user>faik.sarialioglu</user>
-        <domain>mynet.com</domain>
-      </email>
-    </mailing_list>
+    <web>http://ankara.pm.org</web>
     <date type="inception">20040425</date>
   </group>
   <group id="650" status="active">
