@@ -19106,4 +19106,22 @@
     <web>http://lviv.pm.org</web>
     <date type="inception">20160929</date>
   </group>
+  <group id="791" status="">
+    <name>Ankara.pm</name>
+    <location>
+      <city>Ankara</city>
+      <country>Turkey</country>
+      <longitude>32.866287</longitude>
+      <latitude>39.925533</latitude>
+    </location>
+    <tsar>
+      <name>Yalın Pala</name>
+      <email type="personal">
+        <user>yalinpala</user>
+        <domain>protonmail.com</domain>
+      </email>
+    </tsar>
+    <web>http://ankara.pm.org</web>
+    <date type="inception">20170914</date>
+  </group>
 </perl_mongers>
