@@ -264,7 +264,7 @@ ln -s /Volumes/admin/groups/www www
 vi perl_mongers.xml
 </pre></blockquote>
 
-<p>The symbolic link above does its magic once the WebDAV below is mounted, allowing you to run <code>bin/xml</code> and <code>bin/map.xml.pl</code> and have them magically update the server.</p>
+<p>The symbolic link above does its magic once the WebDAV below is mounted, allowing you to run <code>bin/xml</code> to magically update the server.</p>
 
 <p><em>Terminal 2</em> sits inside the admin WebDAV mount. Launching it looks like this:</p>
 
@@ -293,7 +293,6 @@ vi groupfile   (and other config files)
   <li><code>svn commit</code></li>
   <li>Using my list of group IDs (above), I need to delete all those group pages so that <code>bin/xml</code> will create new ones. (It doesn't overwrite existing files. (A speed optimization?)). So <code>cd www/groups; rm 117.html 119.html 343.html ...</code></li>
   <li><code>perl bin/xml</code></li>
-  <li><code>perl bin/map.xml.pl</code></li>
   <li><code>cp perl_mongers.xml www/groups/perl_mongers.xml</code></li>
   <li>Respond (or fail to respond) to any misc. emails that have trickled in.</li>
   <li>drink heavily  :)</li>

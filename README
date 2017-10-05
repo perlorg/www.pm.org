@@ -12,7 +12,7 @@ Directory layout is as follows:
     perl_mongers.xml          PM group listing data to build corresponding pages from
     perl_mongers.dtd          definition for perl_mongers.xml format
 
-To build the site, run "bin/xml" and "bin/map.xml.pl".
+To build the site, run "bin/xml".
 
 Your local www directory should simply be a symlink into
 a WebDAV mount of https://groups.pm.org/admin/. For example, in OS X:
