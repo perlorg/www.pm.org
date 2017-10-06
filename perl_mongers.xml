@@ -19106,4 +19106,25 @@
     <web>http://lviv.pm.org</web>
     <date type="inception">20160929</date>
   </group>
+     <group id="791" status="active">
+    <name>blaircountypa.pm.org</name>
+    <location>
+      <city>Altoona</city>
+      <state>Pa</state>
+      <region>Pennsylvania</region>
+      <country>United States</country>
+      <continent>North America</continent>
+      <longitude>-78.394736</longitude>
+      <latitude>40.518681</latitude>
+    </location>
+    <tsar>
+      <name>Ben Milliron</name>
+      <email type="personal">
+        <user>bmilliron</user>
+        <domain>gmail.com</domain>
+      </email>
+    </tsar>
+    <web>http://bcpapm.org</web>
+    <date type="inception">20170901</date>
+  </group>
 </perl_mongers>
