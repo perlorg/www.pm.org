@@ -4779,7 +4779,7 @@
     </mailing_list>
     <date type="inception">19991024</date>
   </group>
-  <group id="218" status="active">
+  <group id="218" status="inactive">
     <!-- 2010.05.25 no web site but mailing list is active. admin wrote they are active - szabgab -->
     <name>Caracas.pm</name>
     <location>
@@ -5844,7 +5844,7 @@
     <web></web>
     <date type="inception">20000116</date>
   </group>
-  <group id="267" status="active">
+  <group id="267" status="inactive">
     <name>NewOrleans.pm</name>
     <location>
       <city>New Orleans</city>
@@ -17785,7 +17785,7 @@
     <web>http://northwestengland.pm.org</web>
     <date type="inception">20081228</date>
   </group>
-  <group id="729" status="active">
+  <group id="729" status="inactive">
     <!-- 2010.05.25 admin wrote that they are active, website redirects to mailing list, there are a few messages - szabgab -->
     <name>SanCristobal.pm</name>
     <location>
@@ -17976,7 +17976,7 @@
     <web>http://linnaeus.pm.org</web>
     <date type="inception">20100223</date>
   </group>
-  <group id="738" status="active">
+  <group id="738" status="inactive">
     <name>Cali.pm</name>
     <location>
       <city>Cali</city>
