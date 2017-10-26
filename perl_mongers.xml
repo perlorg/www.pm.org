@@ -3951,13 +3951,24 @@
     </location>
     <email type="group"></email>
     <tsar>
-      <name>Stephen Steneker</name>
+      <name>Dean Hamstead</name>
       <email type="personal">
-        <user>stephen</user>
-        <domain>sydney.pm.org</domain>
+        <user>djzort</user>
+        <domain>cpan.org</domain>
       </email>
     </tsar>
-    <web>http://sydney.pm.org/</web>
+    <mailing_list>
+      <name>Sydney.pm discussion</name>
+      <email type="list">
+        <user>sydney-pm</user>
+        <domain>pm.org</domain>
+      </email>
+      <email type="list_admin">
+        <user>sydney-pm-owner</user>
+        <domain>pm.org</domain>
+      </email>
+    </mailing_list>
+    <web>http://perl.sydney/</web>
     <date type="inception">19981102</date>
   </group>
   <group id="180" status="active">
