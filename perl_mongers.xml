@@ -4126,9 +4126,7 @@
     <web>http://delhi.pm.org/</web>
     <date type="inception">19990131</date>
   </group>
-  <group id="187" status="inactive">
-    <!-- 2009.10.14 website inactive, no answer to mail in 6 days - szabgab -->
-    <!-- 2010.08.13 activated again per RT 76262 - jhannah -->
+  <group id="187" status="active">
     <name>HongKong.pm</name>
     <location>
       <city>Hong Kong</city>
