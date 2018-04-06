@@ -2950,18 +2950,29 @@
       <region></region>
       <country>Germany</country>
       <continent>Europe</continent>
-      <longitude>12.371569</longitude>
-      <latitude>51.336601</latitude>
+      <longitude>12.374771</longitude>
+      <latitude>51.340711</latitude>
     </location>
     <tsar>
-      <name>Steffen Winkler</name>
+      <name>Daniel Böhmer</name>
       <email type="personal">
         <user>leipzig-pm</user>
-        <domain>steffen-winkler.de</domain>
+        <domain>daniel-boehmer.de</domain>
       </email>
     </tsar>
-    <web>http://leipzig.pm.org</web>
-    <date type="inception">19990331</date>
+    <web></web>
+    <mailing_list>
+      <name>Leipzig-pm</name>
+      <email type="list">
+        <user>leipzig-pm</user>
+        <domain>pm.org</domain>
+      </email>
+      <email type="list_admin">
+        <user>leipzig-pm-owner</user>
+        <domain>pm.org</domain>
+      </email>
+    </mailing_list>
+    <date type="inception">20150930</date>
   </group>
   <group id="133" status="undef">
     <name>Liege.pm</name>
