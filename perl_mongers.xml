@@ -3167,7 +3167,7 @@
     <web>http://manchester.pm.org/</web>
     <date type="inception">19990707</date>
   </group>
-  <group id="141" status="inactive">
+  <group id="141" status="active">
     <name>Moscow.pm</name>
     <location>
       <city>Moscow</city>
@@ -3179,13 +3179,13 @@
       <latitude>55.75</latitude>
     </location>
     <tsar>
-      <name>Pavel Scherbinin</name>
+      <name>Andrew Shitov</name>
       <email type="personal">
-        <user>dzirtik</user>
-        <domain>gmail.com</domain>
+        <user>andy</user>
+        <domain>shitov.ru</domain>
       </email>
     </tsar>
-    <web>http://moscow.pm.org</web>
+    <web>http://moscow.pm</web>
     <date type="inception">19990131</date>
   </group>
   <group id="142" status="active">
