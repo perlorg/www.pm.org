@@ -2942,7 +2942,7 @@
     </mailing_list>
     <date type="inception">19990331</date>
   </group>
-  <group id="132" status="inactive">
+  <group id="132" status="active">
     <name>Leipzig.pm</name>
     <location>
       <city>Leipzig</city>
@@ -2960,7 +2960,7 @@
         <domain>daniel-boehmer.de</domain>
       </email>
     </tsar>
-    <web></web>
+    <web>http://leipzig.pm.org</web>
     <mailing_list>
       <name>Leipzig-pm</name>
       <email type="list">
