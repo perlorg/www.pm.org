@@ -1286,7 +1286,14 @@
       <continent>North America</continent>
       <longitude>-89.401</longitude>
       <latitude>43.073</latitude>
-    </location>
+    </location>  
+    <tsar>
+      <name>Steve Kaftanski</name>
+      <email type="personal">
+        <user>skaftanski</user>
+        <domain>gmail.com</domain>
+      </email>
+    </tsar>
     <tsar>
       <name>JT Smith</name>
       <email type="personal">
