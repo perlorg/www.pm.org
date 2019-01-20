@@ -45,20 +45,13 @@ The canonical source for the Perl Mongers groups is an
 
 [% all = allgroups.values.sort('name') %]
 
-<ol class="details">
-
-[% USE table(all, cols=3) %]
-
-[% FOREACH col = [0,1,2] %]
-<li id="d[% col + 1 %]">
-    <ul>
-        [% FOREACH group = table.col(col) %]
-        <li><a href="[% group.id %].html">[% group.name | html_entity %]</a></li>
-        [% END %]
-    </ul>
-</li>
-[% END %]
-</ol>
+<div class="fbox_groups details">
+  [% FOREACH group=all %]
+  <div class="fgroup">
+    <a href="[% group.id %].html">[% group.name | html_entity %]</a>
+  </div>
+  [% END %]
+</div>
 
 <p style="clear:both;">
 Total number of groups is [% allgroupsnum %]

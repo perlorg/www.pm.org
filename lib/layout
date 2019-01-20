@@ -5,6 +5,7 @@
         <meta name="description" content="[% description %]" />
         <meta name="keywords" content="Perl,Perl Mongers,Mongers,User Group,Meeting" />
         <meta name="MsSmartTagsPreventParsing" content="TRUE" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>[% title or "Perl Mongers" %]</title>
         <link rel="stylesheet" href="/includes/style.css">
         <script>
@@ -66,12 +67,21 @@
 
        <div id="footer">
            <div class="sub_holder">
-           <hr />
-           <div id="sponsor_element"><script language="JavaScript" src="https://www.perl.org/misc/site-sponsor-js.html"></script></div>
-           <div id="google_translate_element"></div>
-           <p>Copyright &copy; 1997-2018 <a href="http://www.perlfoundation.org/">The Perl Foundation</a> - Need help? <a href="https://github.com/perlorg/www.pm.org/issues/new">Open an Issue</a></p>
+             <hr />
+             <div class="fbox">
+               <div class="fcol" id="sponsor_element">
+                 <script language="JavaScript"
+                         src="https://www.perl.org/misc/site-sponsor-js.html"></script>
+               </div>
+               <div class="fcol">
+                 <div id="google_translate_element"></div>
+               </div>
+               <div class="fcol">
+           <p>Copyright &copy; 1997-2018 Perl Mongers</p>
+           <p>Need help? <a href="https://github.com/perlorg/www.pm.org/issues/new">Open an Issue</a></p>
            <p>The Perl camel image is a trademark of <a href="http://www.oreilly.com/">O'Reilly Media, Inc.</a> Used with permission.</p>
-           </div>
+               </div>
+             </div>
        </div>
 
        <script type="text/javascript">
