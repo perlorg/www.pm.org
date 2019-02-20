@@ -5948,14 +5948,14 @@
     </location>
     <email type="group"></email>
     <tsar>
-      <name>Nobutaka Wakabayashi</name>
+      <name>Tomokazu Mishima</name>
       <email type="personal">
-        <user>nqounet</user>
+        <user>tomcha</user>
         <domain>cpan.org</domain>
       </email>
     </tsar>
     <web>http://kansai.pm.org/</web>
-    <facebook>https://www.facebook.com/kansaipm/</facebook>
+    <twitter>https://twitter.com/kansaipm</twitter>
     <github>https://github.com/kansai-pm</github>
     <date type="inception">20000227</date>
   </group>
