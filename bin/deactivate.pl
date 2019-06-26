@@ -90,7 +90,7 @@ For support, please open an issue in github:
   https://github.com/perlorg/www.pm.org/issues<br/>
 Or send us an email:<br/>
 pm.org support staff &lt;support\@pm.org&gt;<br/>
-Group hosting FAQ: http://www.pm.org/faq/hosting_faq.html
+Group hosting FAQ: http://www.pm.org/faq/hosting.html
 </p>
 EOT
 
