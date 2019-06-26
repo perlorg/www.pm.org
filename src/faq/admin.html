@@ -6,48 +6,19 @@
 
 <p>Robert and Ask are the server kings. They control all the hardware and services. They keep the ships afloat.</p>
 
-<p>When anyone needs help with anything Perl Mongers they email support(at)pm(dot)org, which opens a ticket in RT. Some requests are valid, some are bad ideas or conflicts between group leaders, and some are nonsense. Those tickets need to be waded through, as frequently as possible, by the pm.org admin volunteers. I've been the only such volunteer for some time. I'm happy to have company. Everything there is to know (abbreviated) about being a pm.org admin volunteer is right here, below.</p>
+<p>When anyone needs help with anything Perl Mongers they <a href="https://github.com/perlorg/www.pm.org/issues">create a github Issue</a> or they email support(at)pm(dot)org which opens a ticket in RT. Some requests are valid, some are bad ideas or conflicts between group leaders, and some are spam. Those tickets need to be waded through, as frequently as possible, by the pm.org admin volunteers. Everything there is to know about being a pm.org admin volunteer is right here, below.</p>
 
-<p>Working the tickets involves pulling miscellaneous levers to fulfill the valid requests (XML, svn, MailMan, DNS, WebDAV, RT, TT site flushes, lat/long XML for Google map, etc.). I (jhannah) am happy to train new volunteers.</p>
+<p>Working the tickets involves pulling miscellaneous levers to fulfill the valid requests (XML, git, MailMan, DNS, RT, TT site flushes, lat/long XML for Google map, etc.). I (jhannah) am happy to train new volunteers.</p>
 
-<p>Every communication we have with anyone around the world is recorded in RT, so if there is every any objection to our responses or handling of any situation it's all there for review. Constructive criticism is always welcome.</p>
+<p>Every communication we have with anyone around the world is recorded in github or RT for review. Constructive criticism is always welcome.</p>
 
 <h2>Current Admins</h2>
 
 <ul class="admin_faq">
   <li><a href="http://noc.perl.org">Hardware overlords</a>: Robert, Ask</li>  
-  <li>RT Tickets: Jay Hannah of <a href="http://omaha.pm.org/">Omaha.pm</a>, Chief Ticket Monkey</li>
+  <li>github Issues / RT Tickets: Jay Hannah, Chief Ticket Monkey</li>
   <li><a href="http://www.perlfoundation.org/">The Perl Foundation</a>: ???</li>
   <li>Alumni: RobE/dirigo of <a href="http://atlanta.pm.org/">Atlanta.pm</a>, Perigrin (emergency backup)</li>
-</ul>
-
-<h1>Config Files</h1>
-
-<h2>WebDAV: <a href="https://groups.pm.org/admin/">https://groups.pm.org/admin/</a></h2>
-
-<ul class="admin_faq">
-  <li>groups/
-    <ul class="admin_faq">
-      <li>www/* &mdash; <a href="http://www.pm.org">http://www.pm.org</a> content &mdash; see <a href="#web_update">Web Update</a>
-        <ul class="admin_faq">
-          <li>groups/perl_mongers.xml - <a href="http://www.pm.org/XML/perl_mongers.xml">http://www.pm.org/XML/perl_mongers.xml</a> &mdash; see <a href="#xml">XML</a></li>
-        </ul>
-      </li>
-      <li>omaha/ &mdash; <a href="http://omaha.pm.org">http://omaha.pm.org</a> &mdash; each individual group lives here</li>
-      <li>groups/faq.pod &mdash; <a href="http://groups.pm.org/faq.html">http://groups.pm.org/faq.html</a>
-        <ul class="admin_faq">
-          <li>When you're happy with the .pod, pod2html that to faq.html and WebDAV both of those files up to the server.</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>config/
-    <ul class="admin_faq">
-      <li>aliases-pm.org &mdash; forward email sent to detroit(at)pm(dot)org somewhere</li>
-      <li>rewritemap &mdash; forward http://groupname.pm.org to http://somewhere.else.net</li>
-      <li>groupfile - change what auth.perl.org usernames can WebDAV what groups</li>
-    </ul>
-  </li>
 </ul>
 
 <hr />
@@ -57,42 +28,34 @@
 <h2>Add a Group</h2>
 
 <ol class="admin_faq">
-  <li>perl_mongers.xml
+  <li><a href="https://github.com/perlorg/www.pm.org/blob/master/perl_mongers.xml">perl_mongers.xml</a>
     <ol class="admin_faq">
-      <li>If you haven't already, check the perlmongers root out of SubVersion onto a
-       server/computer you control.</li>
-      <li>Search perl_mongers.xml, making sure the group didn't exist in a previous life.
+      <li>Search to make sure the group didn't exist in a previous life.
         <ol class="admin_faq">
           <li>If you find the group, change their status to "active" and update all the info.</li>
           <li>If you don't find the group, add a new XML block, copying an existing active group and changing all the info.</li>
-          <li>svn commit perl_mongers.xml</li>
-          <li>WebDAV the XML file up to the pm.org server &mdash; (WebDAV: https://groups.pm.org/admin/groups/www/groups/perl_mongers.xml)</li>
+          <li>git: commit and push your changes</li>
         </ol>
       </li>
     </ol>
   </li>
-  <li>If they want us to host a website for them, add the new group with their auth.perl.org
-    username here:
+  <li>DNS for their website
     <ol class="admin_faq">
-      <li>WebDAV <code>https://groups.pm.org/admin/config/groupfile</code>
-        <ol class="admin_faq">
-          <li>Issue a mkdir command to create the root directory <code>https://groups.pm.org/groups/<em>groupname</em></code></li>
-        </ol>
-      <li>Submit a RequestTracker ticket into the DNS queue requesting <em>Groupname</em>.pm.org be 
-       pointed to the IP address of the www.pm.org server. e.g.:
+      <li>Create an RT ticket in the DNS queue requesting <em>Groupname</em>.pm.org be 
+       pointed to their server IP (A record) or hostname (CNAME). e.g.:
           <pre>
           To: dns@perl.org
           Subject: paderborn.pm.org -> 216.52.237.133
           New PM group. Thanks!
           </pre>
       </li>
-      <li>If they want a Mailman list (and one doesn't exist already), create one named "<em>Groupname</em>-pm".</li>
-      <li>Add the tsar to the pm_groups@pm.org MailMan list.</li>
-      <li>Update the www.pm.org website</li>
-      <li>Send a "Welcome!" new group announcement email to pm_groups@pm.org
-        <ol>
-          <li>e.g. <a href="http://mail.pm.org/mailman/private/pm_groups/2005-March/000720.html">http://mail.pm.org/mailman/private/pm_groups/2005-March/000720.html</a></li>
-        </ol></li>
+    </ol>
+  </li>
+  <li>Mailman. If they want a Mailman list (and one doesn't exist already), create one named "<em>Groupname</em>-pm".</li>
+  <li>Add the tsar to the pm_groups@pm.org MailMan list.</li>
+  <li>Send a "Welcome!" new group announcement email to pm_groups@pm.org
+    <ol>
+      <li>e.g. <a href="http://mail.pm.org/mailman/private/pm_groups/2005-March/000720.html">http://mail.pm.org/mailman/private/pm_groups/2005-March/000720.html</a></li>
     </ol>
   </li>
 </ol>
