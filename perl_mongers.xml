@@ -398,7 +398,7 @@
     <web>http://champaign-urbana.pm.org/</web>
     <date type="inception">19980808</date>
   </group>
-  <group id="17" status="inactive">
+  <group id="17" status="active">
     <name>Charlotte.pm</name>
     <location>
       <city>Charlotte</city>
@@ -410,14 +410,14 @@
       <latitude>35.19755</latitude>
     </location>
     <tsar>
-      <name>William McKee</name>
+      <name>Jason Crome</name>
       <email type="personal">
-        <user>william</user>
-        <domain>knowmad.com</domain>
+        <user>cromedome</user>
+        <domain>gmail.com</domain>
       </email>
     </tsar>
-    <web>http://charlotte.pm.org/</web>
-    <date type="inception">19990127</date>
+    <web>https://www.meetup.com/charlotte-pm/</web>
+    <date type="inception">20190101</date>
   </group>
   <group id="18" status="sleeping">
     <name>Charlottesville.pm</name>
