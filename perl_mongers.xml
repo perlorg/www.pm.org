@@ -2162,13 +2162,13 @@
       <latitude>47.6218</latitude>
     </location>
     <tsar>
-      <name>Andrew Sweger</name>
+      <name>Chuck Hardin</name>
       <email type="personal">
-        <user>andrew</user>
-        <domain>sweger.net</domain>
+        <user>chardin</user>
+        <domain>naming-schemes.org</domain>
       </email>
     </tsar>
-    <web>http://www.seattleperl.org/</web>
+    <web>https://www.naming-schemes.org/seattle.pm/</web>
     <mailing_list>
       <name>General Seattle.pm discussion</name>
       <email type="list">
