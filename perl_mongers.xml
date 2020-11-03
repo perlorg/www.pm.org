@@ -313,7 +313,7 @@
     <web>http://boston.pm.org/</web>
     <date type="inception">19980207</date>
   </group>
-  <group id="13" status="active">
+  <group id="13" status="inactive">
     <name>Boulder.pm</name>
     <location>
       <city>Boulder</city>
@@ -651,7 +651,7 @@
     </mailing_list>
     <date type="inception">replace</date>
   </group>
-  <group id="28" status="active">
+  <group id="28" status="inactive">
     <name>Denver.pm</name>
     <location>
       <city>Denver</city>
@@ -672,7 +672,7 @@
     <web>http://denver.pm.org/</web>
     <date type="inception">19981124</date>
   </group>
-  <group id="29" status="active">
+  <group id="29" status="inactive">
     <name>DesMoines.pm</name>
     <location>
       <city>Des Moines</city>
@@ -1286,7 +1286,7 @@
       <continent>North America</continent>
       <longitude>-89.401</longitude>
       <latitude>43.073</latitude>
-    </location>  
+    </location>
     <tsar>
       <name>Steve Kaftanski</name>
       <email type="personal">
@@ -2661,7 +2661,7 @@
     <web>http://catalunya.pm.org/</web>
     <date type="inception">19981002</date>
   </group>
-  <group id="116" status="active">
+  <group id="116" status="inactive">
     <name>Bath.pm</name>
     <location>
       <city>Bath</city>
@@ -2770,7 +2770,7 @@
     <date type="inception">19990607</date>
     <facebook>http://www.facebook.com/groups/bratislava.pm.org/</facebook>
   </group>
-  <group id="122" status="active">
+  <group id="122" status="inactive">
     <name>Bristol.pm</name>
     <location>
       <city>Bristol</city>
@@ -18843,7 +18843,7 @@
     <web>http://www.perl.ba/</web>
     <date type="inception">20131231</date>
   </group>
-  <group id="779" status="active">
+  <group id="779" status="inactive">
     <name>Swindon.pm</name>
     <location>
       <city>Swindon</city>
