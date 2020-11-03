@@ -12,19 +12,20 @@ Directory layout is as follows:
     perl_mongers.xml          PM group listing data to build corresponding pages from
     perl_mongers.dtd          definition for perl_mongers.xml format
 
-To build the site, run "bin/xml".
+You publish to the live site by changing the contents of this git repo:
 
-Your local www directory should simply be a symlink into
-a WebDAV mount of https://groups.pm.org/admin/. For example, in OS X:
-   
-      ln -s /Volumes/admin/groups/www www
-   
-At that point, when you run "bin/xml" you're publishing the output directly 
-to www.pm.org.
+  git@git.develooper.com:www.pm.org-live.git
 
-What "bin/xml" does is it takes the source files from src/ applies any
-templates to them (from lib/), and writes the output to the www/
-directory.
+via running the bin/xml program. e.g.:
+
+  PM_ORG_WWW=/Users/jhannah/src/perlorg/www.pm.org-live perl bin/xml
+
+And then pushing those changes to that git repository. A cronjob
+is running every 15 minutes that flushes that git repo to www.pm.org.
+
+"bin/xml" takes the source files from src/, applies any templates
+(from lib/), and writes the output to the $PM_ORG_WWW directory
+(or www/).
 
 lib/layout is the template which is applied to every page.
 

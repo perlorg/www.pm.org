@@ -18,7 +18,7 @@ my $src_file = shift || './perl_mongers.xml';
 
 # We don't use a WebDAV mount anymore, we flush a copy of the site locally
 # and then push to git@git.develooper.com:www.pm.org-live.git
-#   PM_ORG_WWW=/Users/jhannah/src/perl.org/www.pm.org-live perl bin/xml
+#   PM_ORG_WWW=/Users/jhannah/src/perlorg/www.pm.org-live perl bin/xml
 my $www = $ENV{'PM_ORG_WWW'} || 'www';
 
 my %ids;
