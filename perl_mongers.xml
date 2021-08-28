@@ -2747,7 +2747,7 @@
     <web>http://braga.pm.org/</web>
     <date type="inception">19990331</date>
   </group>
-  <group id="121" status="active">
+  <group id="121" status="inactive">
     <name>Bratislava.pm</name>
     <location>
       <city>Bratislava</city>
@@ -3258,7 +3258,7 @@
     <web>http://paris.pm.org/</web>
     <date type="inception">19990208</date>
   </group>
-  <group id="146" status="active">
+  <group id="146" status="inactive">
     <name>Porto.pm</name>
     <location>
       <city>Porto</city>
@@ -10197,7 +10197,7 @@
     </mailing_list>
     <date type="inception">20010720</date>
   </group>
-  <group id="423" status="active">
+  <group id="423" status="inactive">
     <name>Bergen.pm</name>
     <location>
       <city>Bergen</city>
