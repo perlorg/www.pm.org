@@ -10197,7 +10197,7 @@
     </mailing_list>
     <date type="inception">20010720</date>
   </group>
-  <group id="423" status="inactive">
+  <group id="423" status="active">
     <name>Bergen.pm</name>
     <location>
       <city>Bergen</city>
@@ -10215,7 +10215,7 @@
         <domain>stix.no</domain>
       </email>
     </tsar>
-    <web>http://bergen.pm.org/</web>
+    <web>https://bergenpm.org</web>
     <date type="inception">20010729</date>
   </group>
   <group id="424" status="unknown">
