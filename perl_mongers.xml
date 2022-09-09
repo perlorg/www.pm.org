@@ -377,7 +377,7 @@
     <web>http://cambridge.pm.org/</web>
     <date type="inception">19990607</date>
   </group>
-  <group id="16" status="active">
+  <group id="16" status="inactive">
     <name>Champaign-Urbana.pm</name>
     <location>
       <city></city>
