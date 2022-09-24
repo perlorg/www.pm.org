@@ -2296,7 +2296,7 @@
     <web>http://tampabay.pm.org/</web>
     <date type="inception">19980916</date>
   </group>
-  <group id="101" status="active">
+  <group id="101" status="inactive">
     <name>Tallahassee.pm</name>
     <location>
       <city>Tallahassee</city>
@@ -3982,7 +3982,7 @@
     <web>http://perl.sydney/</web>
     <date type="inception">19981102</date>
   </group>
-  <group id="180" status="active">
+  <group id="180" status="inactive">
     <name>Bandung.pm</name>
     <location>
       <city>Bandung</city>
@@ -6792,7 +6792,7 @@
     <web>http://athens.pm.org/</web>
     <date type="inception">20130410</date>
   </group>
-  <group id="308" status="active">
+  <group id="308" status="inactive">
     <name>Qatar.pm</name>
     <location>
       <city>Doha</city>
@@ -8207,7 +8207,7 @@
     </mailing_list>
     <date type="inception">20010208</date>
   </group>
-  <group id="357" status="active">
+  <group id="357" status="inactive">
     <name>Victoria.pm</name>
     <location>
       <city>Victoria</city>
@@ -13821,7 +13821,7 @@
     </mailing_list>
     <date type="inception">20030317</date>
   </group>
-  <group id="554" status="active">
+  <group id="554" status="inactive">
     <name>Saarland.pm</name>
     <location>
       <city>Mandelbachtal</city>
@@ -17082,7 +17082,7 @@
     <web>http://offutt.pm.org</web>
     <date type="inception">20061029</date>
   </group>
-  <group id="695" status="active">
+  <group id="695" status="inactive">
     <name>Sophia.pm</name>
     <location>
       <city>Sophia-Antipolis</city>
@@ -17402,7 +17402,7 @@
     <web>http://monterrey.pm.org</web>
     <date type="inception">20070826</date>
   </group>
-  <group id="709" status="active">
+  <group id="709" status="inactive">
     <name>Tomar.pm</name>
     <location>
       <city>Tomar</city>
@@ -18208,7 +18208,7 @@
     <web>http://kathmandu.pm.org</web>
     <date type="inception">20101211</date>
   </group>
-  <group id="748" status="active">
+  <group id="748" status="inactive">
     <name>TelAviv.pm</name>
     <location>
       <city>Tel Aviv</city>
