@@ -898,7 +898,7 @@
     <web>http://hartford.pm.org/</web>
     <date type="inception">19981124</date>
   </group>
-  <group id="40" status="active">
+  <group id="40" status="inactive">
     <name>HudsonValley.pm</name>
     <location>
       <city>Middletown</city>
@@ -1636,7 +1636,7 @@
     <web>http://oc.pm.org/</web>
     <date type="inception">19981013</date>
   </group>
-  <group id="72" status="active">
+  <group id="72" status="inactive">
     <name>Ottawa.pm</name>
     <location>
       <city>Ottawa</city>
@@ -3906,7 +3906,7 @@
     <web>http://perth.pm.org/</web>
     <date type="inception">19990127</date>
   </group>
-  <group id="177" status="active">
+  <group id="177" status="inactive">
     <name>Singapore.pm</name>
     <location>
       <city>Singapore</city>
@@ -17742,7 +17742,7 @@
     <web>http://Certification.pm.org</web>
     <date type="inception">20080921</date>
   </group>
-  <group id="726" status="active">
+  <group id="726" status="inactive">
     <!-- 2010.05.22 web site is 404, last mail in 2009, recommended to redirect to TPF wiki - TODO - szabgab -->
     <name>Tallinn.pm</name>
     <location>
@@ -18420,7 +18420,7 @@
     <web>http://LGBT.pm.org/</web>
     <date type="inception">20110722</date>
   </group>
-  <group id="758" status="active">
+  <group id="758" status="inactive">
     <name>SouthernOregon.pm</name>
     <location>
       <city>Medford</city>
@@ -18462,7 +18462,7 @@
     <web>http://plzen.pm.org/</web>
     <date type="inception">20110830</date>
   </group>
-  <group id="760" status="active">
+  <group id="760" status="inactive">
     <name>Sendai.pm</name>
     <location>
       <city>Sendai</city>
@@ -18570,7 +18570,7 @@
     <googleplus>https://plus.google.com/u/0/b/118166106837813762940/118166106837813762940/posts</googleplus>
     <date type="inception">20120302</date>
   </group>
-  <group id="766" status="active">
+  <group id="766" status="inactive">
     <name>Niigata.pm</name>
     <location>
       <city>Niigata</city>
