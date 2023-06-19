@@ -5235,7 +5235,7 @@
     <web>http://porto-alegre.pm.org/</web>
     <date type="inception">19991024</date>
   </group>
-  <group id="236" status="active">
+  <group id="236" status="inactive">
     <name>Hyderabad.pm</name>
     <location>
       <city>Hyderabad</city>
