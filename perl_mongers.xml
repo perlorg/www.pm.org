@@ -2366,7 +2366,8 @@
         <domain>yahoo.com</domain>
       </email>
     </tsar>
-    <web>http://to.pm.org/</web>
+    <web>https://www.meetup.com/toronto-perl-mongers/</web>
+    <meetup>https://www.meetup.com/toronto-perl-mongers/</meetup>
     <date type="inception">19980916</date>
   </group>
   <group id="104" status="active">
