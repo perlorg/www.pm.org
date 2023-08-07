@@ -19149,4 +19149,26 @@
     <web>http://bcpapm.org</web>
     <date type="inception">20170901</date>
   </group>
+  <group id="792" status="active">
+    <name>Fuzhou.pm</name>
+    <location>
+      <city>Fuzhou</city>
+      <state>Fujian Fuzhou</state>
+      <region></region>
+      <country>China Of Fuzhou</country>
+      <continent>Asia</continent>
+      <longitude>119.27345/longitude>
+      <latitude>26.04769</latitude>
+    </location>
+    <email type="group"></email>
+    <tsar>
+      <name>zcns</name>
+      <email type="personal">
+        <user>will</user>
+        <domain>github.com/zcns</domain>
+      </email>
+    </tsar>
+    <web>http://fuzhou.pm.org/</web>
+    <date type="inception">20230627</date>
+  </group>
 </perl_mongers>
