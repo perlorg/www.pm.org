@@ -67,7 +67,7 @@
   <li>Commit, push your change to github</li>
   <li>Submit DNS changes if needed</li>
   <li>Follow the instructions below to change their MailMan password?</li>
-  <li>Update the website per README</li>
+  <li>Update the website per /README</li>
 </ol>
 
 <h4>Forgot my Password</h4>
@@ -75,7 +75,9 @@
 <ol class="admin_faq">
   <li>Ensure that the MailMan list is owned by the correct person</li>
   <li>Change the MailMan password</li>
-  <li>Email group leader telling them that their password has been changed to the value listed in the other email</li>
+  <li>Email group leader telling them that their password has been changed to the value
+      listed in your notification, encourage them to immediately change it to whatever
+      they want.</li>
 </ol>
 
 <h2>Remove a Group</h2>
@@ -96,18 +98,21 @@
 
 <h2>git</h2>
 
-<p><a href="https://github.com/perlorg/www.pm.org">https://github.com/perlorg/www.pm.org</a></p>
+<p>
+  The source repo is <a href="https://github.com/perlorg/www.pm.org">www.pm.org</a>.
+  See /README for the live site repo you'll flush to.
+</p>
 
 <h2><a name="mailman" id="mailman">MailMan</a></h2>
 
 <ol class="admin_faq">
-  <li><a href="http://mail.pm.org/mailman/listinfo/pm_admins">pm.org Admin mailing list</a> (unused since 2014)</li>
-  <li><a href="http://mail.pm.org/mailman/listinfo/pm_groups">Group Leader mailing list (unused since ~2018)</li>
-  <li><a href="http://mail.pm.org/mailman/listinfo">Group lists</a></li>
-  <li><a href="http://x6.develooper.com/~mailman/list-last-posts">Timestamps when lists last saw activity &mdash; some of which are old</a></li>
+  <li><a href="http://mail.pm.org/mailman/listinfo/pm_admins">pm.org Admin mailing list</a> - the 6 of us that admin pm.org (unused since ~2014)</li>
+  <li><a href="http://mail.pm.org/mailman/listinfo/pm_groups">Group Leader mailing list</a> - the ~209 group leaders (unused since ~2018)</li>
+  <li><a href="http://mail.pm.org/mailman/listinfo">List of all groups</a></li>
+  <li><a href="http://x6.develooper.com/~mailman/list-last-posts">Timestamps when lists last saw activity</a>. Some have been inactive for decades.</li>
   <li><a href="http://mail.pm.org/mailman/create">Create a new list</a></li>
-  <li>Remove a group - you need a shell to run <code>rmlist</code>, so if you don't have one email pm_admins(at)pm(dot)org</li>
-  <li><a href="https://groups.pm.org/admin/config/mailmanpassword">super-duper password</a> &mdash; admin any group's config</li>
+  <li>Remove a group - only Robert/Ask can run <code>rmlist</code></li>
+  <li>The <b>super-duper MailMan password</b> can admin all MailMan lists. If you need that secret and don't have it, ask Robert/Ask.</li>
 </ol>
 
 <p>Cron jobs run every 20 minutes or so to implement any new groups you add.</p>
@@ -129,22 +134,8 @@
 <p>In order to get a DNS change to happen, send an email to <code>dns(at)perl(dot)org</code> with information about the change you want made. You'll get an auto-reply ticket number back from RT. Things they do:</p>
 
 <ul class="admin_faq">
-  <li>A records - we will point them at groups.pm.org(216.52.237.133) or their server.</li>
-  <li>MX records - usually point at mx.develooper.com.
-    <ul class="admin_faq">
-      <li>Note: MX records cannot point to CNAMES. This makes some mailservers unhappy</li>
-    </ul>
-  </li>
+  <li>A records - we will point them at groups.pm.org (216.52.237.133) or their server.</li>
   <li>CNAME records - sometimes this is easier than an A record</li>
-</ul>
-
-<p>We can also provide NS records (aka delegation) of foo.pm.org to other nameservers.</p>
-
-<p>For established groups....</p>
-
-<ul class="admin_faq">
-  <li>AAAA records (IPV6)</li>
-  <li>special things like SRV records and more A records.</li>
 </ul>
 
 <p>Sample Message<pre>
@@ -159,7 +150,12 @@
 
 <p><a href="https://github.com/perlorg/www.pm.org/blob/master/perl_mongers.xml">https://github.com/perlorg/www.pm.org/blob/master/perl_mongers.xml</a></p>
 
-<p>All pm.org services are (or should be) driven by our single, master XML file. That file is <code>perl_mongers.xml</code>. The format is defined by <code></code>perl_mongers.dtd</code> (out of date). When the .xml is updated, programs read the .xml and write that info out to www/groups.</p>
+<p>
+  All pm.org services are (or should be) driven by our single, master XML file.
+  That file is <code>perl_mongers.xml</code>.
+  The format is defined by <code>perl_mongers.dtd</code> (out of date).
+  See /README for flushing our XML to our live site.
+</p>
 
 <h4>The "status" attribute</h4>
 
@@ -176,7 +172,5 @@
 <p><strong>Q:</strong> If status is not present, does that mean inactive?</p>
 
 <p><strong>A: Dave Cross, November 2004:</strong> Yep.</p>
-
-<hr />
   
 [% END %]
