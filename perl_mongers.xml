@@ -5184,6 +5184,13 @@
       <latitude>59.9104</latitude>
     </location>
     <tsar>
+      <name>Salve J. Nilsen</name>
+      <email type="personal">
+        <user>sjn</user>
+        <domain>oslo.pm</domain>
+      </email>
+    </tsar>
+    <tsar>
       <name>Marcus Ramberg</name>
       <email type="personal">
         <user>marcus.ramberg</user>
