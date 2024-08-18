@@ -44,3 +44,17 @@ social networks:
     <twitter>https://twitter.com/perlweekly</twitter>
 
 
+### Validating group URLs
+
+```
+./bin/list_groups.pl |
+while read group url; do echo -n "$group "; GET -t10 -sd $url; done > /tmp/s
+```
+
+`GET` is from LWP.
+
+Deactivate groups without working sites:
+
+```
+grep -v 200 /tmp/s | awk '{print $1}' | xargs -n1 bin/deactivate-only.pl
+```

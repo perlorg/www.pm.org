@@ -79,7 +79,7 @@
     <web>http://albany.pm.org/</web>
     <date type="inception">19981005</date>
   </group>
-  <group id="2" status="active">
+  <group id="2" status="inactive">
     <name>Albuquerque.pm</name>
     <location>
       <city>Albuquerque</city>
@@ -178,7 +178,7 @@
     <web>http://aol.pm.org/</web>
     <date type="inception">19981102</date>
   </group>
-  <group id="7" status="active">
+  <group id="7" status="inactive">
     <name>Atlanta.pm</name>
     <location>
       <city>Atlanta</city>
@@ -511,7 +511,7 @@
     <web></web>
     <date type="inception">19990331</date>
   </group>
-  <group id="22" status="active">
+  <group id="22" status="inactive">
     <name>Cleveland.pm</name>
     <location>
       <city>Cleveland</city>
@@ -532,7 +532,7 @@
     <web>http://cleveland.pm.org</web>
     <date type="inception">19990331</date>
   </group>
-  <group id="23" status="active">
+  <group id="23" status="inactive">
     <name>Columbus.pm</name>
     <location>
       <city>Columbus</city>
@@ -553,7 +553,7 @@
     <web>http://columbus.pm.org/</web>
     <date type="inception">19990707</date>
   </group>
-  <group id="24" status="active">
+  <group id="24" status="inactive">
     <name>DFW.pm</name>
     <location>
       <city></city>
@@ -1161,7 +1161,7 @@
     <web>http://kc.pm.org/</web>
     <date type="inception">19990120</date>
   </group>
-  <group id="51" status="active">
+  <group id="51" status="inactive">
     <name>LasVegas.pm</name>
     <location>
       <city>Las Vegas</city>
@@ -1706,7 +1706,7 @@
     <web>http://philly.pm.org/</web>
     <date type="inception">19980501</date>
   </group>
-  <group id="75" status="active">
+  <group id="75" status="inactive">
     <name>Phoenix.pm</name>
     <location>
       <city>Phoenix</city>
@@ -1843,7 +1843,7 @@
     <web>http://provo.pm.org/</web>
     <date type="inception">19990503</date>
   </group>
-  <group id="81" status="active">
+  <group id="81" status="inactive">
     <name>Raleigh.pm</name>
     <location>
       <city>Raleigh</city>
@@ -2150,7 +2150,7 @@
     <web>http://sarasota.pm.org/</web>
     <date type="inception">19990607</date>
   </group>
-  <group id="95" status="active">
+  <group id="95" status="inactive">
     <name>Seattle.pm</name>
     <location>
       <city>Seattle</city>
@@ -2207,7 +2207,7 @@
     <web>http://sherman-oaks.pm.org/</web>
     <date type="inception">19990108</date>
   </group>
-  <group id="97" status="active">
+  <group id="97" status="inactive">
     <name>Sonoma.pm</name>
     <location>
       <city>Santa Rosa</city>
@@ -2370,7 +2370,7 @@
     <meetup>https://www.meetup.com/toronto-perl-mongers/</meetup>
     <date type="inception">19980916</date>
   </group>
-  <group id="104" status="active">
+  <group id="104" status="inactive">
     <name>Vancouver.pm</name>
     <location>
       <city>Vancouver</city>
@@ -2473,7 +2473,7 @@
     </mailing_list>
     <date type="inception">19990503</date>
   </group>
-  <group id="108" status="active">
+  <group id="108" status="inactive">
     <name>Curitiba.pm</name>
     <location>
       <city>Curitiba</city>
@@ -2619,7 +2619,7 @@
     </mailing_list>
     <date type="inception">19981225</date>
   </group>
-  <group id="114" status="active">
+  <group id="114" status="inactive">
     <name>Amsterdam.pm</name>
     <location>
       <city>Amsterdam</city>
@@ -2726,7 +2726,7 @@
     <web>http://belfast.pm.org/</web>
     <date type="inception">19990108</date>
   </group>
-  <group id="120" status="active">
+  <group id="120" status="inactive">
     <name>Braga.pm</name>
     <location>
       <city>Braga</city>
@@ -2836,7 +2836,7 @@
     <web>http://edinburgh.pm.org/</web>
     <date type="inception">19990707</date>
   </group>
-  <group id="127" status="active">
+  <group id="127" status="inactive">
     <name>Glasgow.pm</name>
     <location>
       <city>Glasgow</city>
@@ -2880,7 +2880,7 @@
     <web>http://goteborg.pm.org/</web>
     <date type="inception">19980918</date>
   </group>
-  <group id="129" status="active">
+  <group id="129" status="inactive">
     <name>Helsinki.pm</name>
     <location>
       <city>Helsinki</city>
@@ -3026,7 +3026,7 @@
     <web></web>
     <date type="inception">19990214</date>
   </group>
-  <group id="135" status="active">
+  <group id="135" status="inactive">
     <name>Lisbon.pm</name>
     <location>
       <city>Lisbon</city>
@@ -3487,7 +3487,7 @@
     </mailing_list>
     <date type="inception">19990124</date>
   </group>
-  <group id="157" status="active">
+  <group id="157" status="inactive">
     <name>Torino.pm</name>
     <location>
       <city>Torino</city>
@@ -3593,7 +3593,7 @@
     </mailing_list>
     <date type="inception">19990707</date>
   </group>
-  <group id="161" status="active">
+  <group id="161" status="inactive">
     <name>Zagreb.pm</name>
     <location>
       <city>Zagreb</city>
@@ -3886,7 +3886,7 @@
     <web></web>
     <date type="inception">19990311</date>
   </group>
-  <group id="176" status="active">
+  <group id="176" status="inactive">
     <name>Perth.pm</name>
     <location>
       <city>Perth</city>
@@ -3950,7 +3950,7 @@
     <web>http://semarang.pm.org/</web>
     <date type="inception">19990311</date>
   </group>
-  <group id="179" status="active">
+  <group id="179" status="inactive">
     <name>Sydney.pm</name>
     <location>
       <city>Sydney</city>
@@ -4117,7 +4117,7 @@
     <web></web>
     <date type="inception">19990108</date>
   </group>
-  <group id="186" status="active">
+  <group id="186" status="inactive">
     <name>Delhi.pm</name>
     <location>
       <city>Delhi</city>
@@ -4138,7 +4138,7 @@
     <web>http://delhi.pm.org/</web>
     <date type="inception">19990131</date>
   </group>
-  <group id="187" status="active">
+  <group id="187" status="inactive">
     <name>HongKong.pm</name>
     <location>
       <city>Hong Kong</city>
@@ -4208,7 +4208,7 @@
     </mailing_list>
     <date type="inception">19990131</date>
   </group>
-  <group id="190" status="active">
+  <group id="190" status="inactive">
     <name>Kyoto.pm</name>
     <location>
       <city>Kyoto</city>
@@ -4229,7 +4229,7 @@
     <web>http://kyoto.pm.org</web>
     <date type="inception">19990503</date>
   </group>
-  <group id="192" status="active">
+  <group id="192" status="inactive">
     <name>Pune.pm</name>
     <location>
       <city>Pune</city>
@@ -4251,7 +4251,7 @@
     <web>http://pune.pm.org/</web>
     <date type="inception">19990503</date>
   </group>
-  <group id="193" status="active">
+  <group id="193" status="inactive">
     <name>Shanghai.pm</name>
     <location>
       <city>Shanghai</city>
@@ -4364,7 +4364,7 @@
     <googleplus>https://plus.google.com/105209189901369984525</googleplus>
     <date type="inception">19990119</date>
   </group>
-  <group id="198" status="active">
+  <group id="198" status="inactive">
     <name>Rehovot.pm</name>
     <location>
       <city>Rehovot</city>
@@ -4386,7 +4386,7 @@
     <web>http://rehovot.pm.org/</web>
     <date type="inception">19990311</date>
   </group>
-  <group id="199" status="active">
+  <group id="199" status="inactive">
     <name>CapeTown.pm</name>
     <location>
       <city>Cape Town</city>
@@ -4583,7 +4583,7 @@
     <web>http://columbia.pm.org/</web>
     <date type="inception">19990914</date>
   </group>
-  <group id="209" status="active">
+  <group id="209" status="inactive">
     <name>Guimaraes.pm</name>
     <location>
       <city>Guimaraes</city>
@@ -4681,7 +4681,7 @@
     <web>http://peking.pm.org/</web>
     <date type="inception">19990914</date>
   </group>
-  <group id="213" status="active">
+  <group id="213" status="inactive">
     <name>SiliconValley.pm</name>
     <location>
       <city></city>
@@ -4927,7 +4927,7 @@
     </mailing_list>
     <date type="inception">19991024</date>
   </group>
-  <group id="223" status="active">
+  <group id="223" status="inactive">
     <name>Tempe.pm</name>
     <location>
       <city>Tempe</city>
@@ -5200,7 +5200,7 @@
     <web>http://oslo.pm/</web>
     <date type="inception">20021016</date>
   </group>
-  <group id="234" status="active">
+  <group id="234" status="inactive">
     <name>Madrid.pm</name>
     <location>
       <city>Madrid</city>
@@ -5264,7 +5264,7 @@
     <web>http://hyderabad.pm.org/</web>
     <date type="inception">19991024</date>
   </group>
-  <group id="237" status="active">
+  <group id="237" status="inactive">
     <name>Budapest.pm</name>
     <location>
       <city>Budapest</city>
@@ -5580,7 +5580,7 @@
     </mailing_list>
     <date type="inception">20000116</date>
   </group>
-  <group id="252" status="active">
+  <group id="252" status="inactive">
     <name>Milan.pm</name>
     <location>
       <city>Milan</city>
@@ -5915,7 +5915,7 @@
     <web></web>
     <date type="inception">20000116</date>
   </group>
-  <group id="270" status="active">
+  <group id="270" status="inactive">
     <name>Coimbra.pm</name>
     <location>
       <city>Coimbra</city>
@@ -6127,7 +6127,7 @@
     <web>http://okc.pm.org/</web>
     <date type="inception">20000227</date>
   </group>
-  <group id="281" status="active">
+  <group id="281" status="inactive">
     <name>Madras.pm</name>
     <location>
       <city>Madras</city>
@@ -6171,7 +6171,7 @@
     <web></web>
     <date type="inception">20000227</date>
   </group>
-  <group id="283" status="active">
+  <group id="283" status="inactive">
     <name>Granada.pm</name>
     <location>
       <city>Granada</city>
@@ -6192,7 +6192,7 @@
     <web>http://granada.pm.org</web>
     <date type="inception">20000317</date>
   </group>
-  <group id="285" status="active">
+  <group id="285" status="inactive">
     <name>Seneca.pm</name>
     <location>
       <city>Campuses in Toronto and Surrounding Area / Seneca
@@ -6369,7 +6369,7 @@
     </mailing_list>
     <date type="inception"></date>
   </group>
-  <group id="292" status="active">
+  <group id="292" status="inactive">
     <name>AtlanticCity.pm</name>
     <location>
       <city>AtlanticCity</city>
@@ -6944,7 +6944,7 @@
     <web>http://nwarkansas.pm.org/</web>
     <date type="inception"></date>
   </group>
-  <group id="313" status="active">
+  <group id="313" status="inactive">
     <name>Chisinau.pm</name>
     <location>
       <city>Chisinau</city>
@@ -7053,7 +7053,7 @@
     </mailing_list>
     <date type="inception"></date>
   </group>
-  <group id="317" status="active">
+  <group id="317" status="inactive">
     <name>Colombo.pm</name>
     <location>
       <city>Colombo</city>
@@ -7255,7 +7255,7 @@
     <web>http://ncsu.pm.org/</web>
     <date type="inception"></date>
   </group>
-  <group id="327" status="active">
+  <group id="327" status="inactive">
     <name>Toulouse.pm</name>
     <location>
       <city>Toulouse</city>
@@ -7276,7 +7276,7 @@
     <web>http://toulouse.pm.org/</web>
     <date type="inception"></date>
   </group>
-  <group id="328" status="active">
+  <group id="328" status="inactive">
     <name>Niederrhein.pm</name>
     <location>
       <city>Mönchengladbach</city>
@@ -8093,7 +8093,7 @@
     </mailing_list>
     <date type="inception">20010203</date>
   </group>
-  <group id="353" status="active">
+  <group id="353" status="inactive">
     <name>Barcelona.pm</name>
     <location>
       <city>Barcelona</city>
@@ -8150,7 +8150,7 @@
     </mailing_list>
     <date type="inception">20010206</date>
   </group>
-  <group id="355" status="active">
+  <group id="355" status="inactive">
     <name>Santa Fe-Los Alamos.pm</name>
     <location>
       <city>Los Alamos</city>
@@ -8875,7 +8875,7 @@
     </mailing_list>
     <date type="inception">20010401</date>
   </group>
-  <group id="381" status="active">
+  <group id="381" status="inactive">
     <name>Timisoara.pm</name>
     <location>
       <city>Timişoara</city>
@@ -8995,7 +8995,7 @@
     </mailing_list>
     <date type="inception">20010402</date>
   </group>
-  <group id="385" status="active">
+  <group id="385" status="inactive">
     <name>Salem.pm</name>
     <location>
       <city>Salem</city>
@@ -9308,7 +9308,7 @@
     </mailing_list>
     <date type="inception">20010428</date>
   </group>
-  <group id="395" status="active">
+  <group id="395" status="inactive">
     <name>Prague.pm</name>
     <location>
       <city>Prague</city>
@@ -10205,7 +10205,7 @@
     </mailing_list>
     <date type="inception">20010720</date>
   </group>
-  <group id="423" status="active">
+  <group id="423" status="inactive">
     <name>Bergen.pm</name>
     <location>
       <city>Bergen</city>
@@ -11073,7 +11073,7 @@
     <facebook>https://www.facebook.com/groups/515481075169254/</facebook>
     <meetup>http://www.meetup.com/UtahOpenSource/</meetup>
   </group>
-  <group id="452" status="active">
+  <group id="452" status="inactive">
     <name>Nordest.pm</name>
     <location>
       <city>Venice</city>
@@ -11094,7 +11094,7 @@
     <web>http://nordest.pm.org/</web>
     <date type="inception">20011108</date>
   </group>
-  <group id="453" status="active">
+  <group id="453" status="inactive">
     <name>CaFe.pm</name>
     <location>
       <city>Capital Federal</city>
@@ -11374,7 +11374,7 @@
     </mailing_list>
     <date type="inception">20011213</date>
   </group>
-  <group id="462" status="active">
+  <group id="462" status="inactive">
     <name>Tucson.pm</name>
     <location>
       <city>Tucson</city>
@@ -11548,7 +11548,7 @@
     <web>http://nomads.pm.org/</web>
     <date type="inception">20020205</date>
   </group>
-  <group id="468" status="active">
+  <group id="468" status="inactive">
     <name>Lyon.pm</name>
     <location>
       <city>Lyon</city>
@@ -11705,7 +11705,7 @@
     </mailing_list>
     <date type="inception">20020214</date>
   </group>
-  <group id="474" status="active">
+  <group id="474" status="inactive">
     <name>Basel.pm</name>
     <location>
       <city>Basel</city>
@@ -11892,7 +11892,7 @@
     </mailing_list>
     <date type="inception">20020305</date>
   </group>
-  <group id="480" status="active">
+  <group id="480" status="inactive">
     <name>Bruxelles.pm</name>
     <location>
       <city>Brussels</city>
@@ -11967,7 +11967,7 @@
     </mailing_list>
     <date type="inception">20020306</date>
   </group>
-  <group id="483" status="active">
+  <group id="483" status="inactive">
     <name>CAMEL.pm</name>
     <location>
       <city>Columbia, Annapolis, Meade, Elkridge, and Laurel</city>
@@ -12351,7 +12351,7 @@
     <web>http://zurich.pm.org/</web>
     <date type="inception">20020406</date>
   </group>
-  <group id="497" status="active">
+  <group id="497" status="inactive">
     <name>China.pm</name>
     <location>
       <city>HangZhou</city>
@@ -12682,7 +12682,7 @@
     </mailing_list>
     <date type="inception">20020522</date>
   </group>
-  <group id="508" status="active">
+  <group id="508" status="inactive">
     <name>Bucharest.pm</name>
     <location>
       <city>Bucharest</city>
@@ -13212,7 +13212,7 @@
     </mailing_list>
     <date type="inception">20020925</date>
   </group>
-  <group id="535" status="active">
+  <group id="535" status="inactive">
     <name>Kw.pm</name>
     <location>
       <city>Kitchener-Waterloo</city>
@@ -13300,7 +13300,7 @@
     <web>http://Terere.pm.org/</web>
     <date type="inception">20020925</date>
   </group>
-  <group id="539" status="active">
+  <group id="539" status="inactive">
     <name>Dresden.pm</name>
     <location>
       <city>Dresden</city>
@@ -13473,7 +13473,7 @@
     <web>http://cascavel.pm.org/</web>
     <date type="inception">20021121</date>
   </group>
-  <group id="511" status="active">
+  <group id="511" status="inactive">
     <name>Guatemala.pm</name>
     <location>
       <city>Guatemala</city>
@@ -13494,7 +13494,7 @@
     <web>http://guatemala.pm.org/</web>
     <date type="inception">20021121</date>
   </group>
-  <group id="512" status="active">
+  <group id="512" status="inactive">
     <name>Helsingborg.pm</name>
     <location>
       <city>Helsingborg</city>
@@ -14147,7 +14147,7 @@
     </mailing_list>
     <date type="inception">20030317</date>
   </group>
-  <group id="565" status="active">
+  <group id="565" status="inactive">
     <name>Pisa.pm</name>
     <location>
       <city>Pisa</city>
@@ -14760,7 +14760,7 @@
     <web>http://jakarta.pm.org/</web>
     <date type="inception">20030817</date>
   </group>
-  <group id="600" status="active">
+  <group id="600" status="inactive">
     <name>Roederbergweg.pm</name>
     <location>
       <city>Roederbergweg</city>
@@ -15119,7 +15119,7 @@
     </mailing_list>
     <date type="inception">20031108</date>
   </group>
-  <group id="613" status="active">
+  <group id="613" status="inactive">
     <name>Bielefeld.pm</name>
     <location>
       <city>Bielefeld</city>
@@ -15695,7 +15695,7 @@
     </mailing_list>
     <date type="inception">20040222</date>
   </group>
-  <group id="635" status="active">
+  <group id="635" status="inactive">
     <name>Nottingham.pm</name>
     <location>
       <city>Nottingham</city>
@@ -15885,7 +15885,7 @@
     </mailing_list>
     <date type="inception">20040425</date>
   </group>
-  <group id="643" status="active">
+  <group id="643" status="inactive">
     <name>Jerusalem.pm</name>
     <location>
       <city>Jerusalem</city>
@@ -15996,7 +15996,7 @@
     </mailing_list>
     <date type="inception">20040425</date>
   </group>
-  <group id="649" status="active">
+  <group id="649" status="inactive">
     <name>Ankara.pm</name>
     <location>
       <city>Ankara</city>
@@ -16236,7 +16236,7 @@
     </mailing_list>
     <date type="inception">20050218</date>
   </group>
-  <group id="657" status="active">
+  <group id="657" status="inactive">
     <name>Paderborn.pm</name>
     <location>
       <city>Paderborn</city>
@@ -16269,7 +16269,7 @@
     </mailing_list>
     <date type="inception">20050320</date>
   </group>
-  <group id="658" status="active">
+  <group id="658" status="inactive">
     <name>Campinas.pm</name>
     <location>
       <city>Campinas</city>
@@ -16290,7 +16290,7 @@
     <web>http://campinas.pm.org/</web>
     <date type="inception">20050420</date>
   </group>
-  <group id="659" status="active">
+  <group id="659" status="inactive">
     <name>BH.pm</name>
     <location>
       <city>Belo Horizonte</city>
@@ -16311,7 +16311,7 @@
     <web>http://bh.pm.org/</web>
     <date type="inception">20050506</date>
   </group>
-  <group id="660" status="active">
+  <group id="660" status="inactive">
     <name>Argentina.pm</name>
     <location>
       <city>Buenos Aires</city>
@@ -16354,7 +16354,7 @@
     <web>http://brazosvalley.pm.org/</web>
     <date type="inception">20050630</date>
   </group>
-  <group id="662" status="active">
+  <group id="662" status="inactive">
     <name>Groningen.pm</name>
     <location>
       <city>Groningen</city>
@@ -16376,7 +16376,7 @@
     <web>http://groningen.pm.org/</web>
     <date type="inception">20050710</date>
   </group>
-  <group id="663" status="active">
+  <group id="663" status="inactive">
     <name>Innsbruck.pm</name>
     <location>
       <city>Innsbruck</city>
@@ -16398,7 +16398,7 @@
     <web>http://innsbruck.pm.org/</web>
     <date type="inception">20050710</date>
   </group>
-  <group id="664" status="active">
+  <group id="664" status="inactive">
     <name>Santiago.pm</name>
     <location>
       <city>Santiago</city>
@@ -16636,7 +16636,7 @@
     <web>http://chemnitz.pm.org</web>
     <date type="inception">20051011</date>
   </group>
-  <group id="675" status="active">
+  <group id="675" status="inactive">
     <name>MiltonKeynes.pm</name>
     <location>
       <city>Milton Keynes</city>
@@ -16960,7 +16960,7 @@
     <web>http://women.perl.org.br/</web>
     <date type="inception">20060526</date>
   </group>
-  <group id="689" status="active">
+  <group id="689" status="inactive">
     <name>Coimbatore.pm</name>
     <location>
       <city>Coimbatore</city>
@@ -17198,7 +17198,7 @@
     <web>http://wichita.pm.org</web>
     <date type="inception">20070219</date>
   </group>
-  <group id="700" status="active">
+  <group id="700" status="inactive">
     <name>Warszawa.pm</name>
     <location>
       <city>Warszawa</city>
@@ -17219,7 +17219,7 @@
     <web>http://warszawa.pm.org</web>
     <date type="inception">20070306</date>
   </group>
-  <group id="701" status="active">
+  <group id="701" status="inactive">
     <name>Hannover.pm</name>
     <location>
       <city>Hannover</city>
@@ -17269,7 +17269,7 @@
     <web>http://kiev.pm.org</web>
     <date type="inception">20070603</date>
   </group>
-  <group id="703" status="active">
+  <group id="703" status="inactive">
     <name>Szczecin.pm</name>
     <location>
       <city>Szczecin</city>
@@ -17301,7 +17301,7 @@
     </mailing_list>
     <date type="inception">20070708</date>
   </group>
-  <group id="704" status="active">
+  <group id="704" status="inactive">
     <name>Ithaca.pm</name>
     <location>
       <city>Ithaca</city>
@@ -17494,7 +17494,7 @@
     <web>http://kazan.pm.org</web>
     <date type="inception">20071209</date>
   </group>
-  <group id="713" status="active">
+  <group id="713" status="inactive">
     <name>RostovOnDon.pm</name>
     <location>
       <city>Rostov-on-Don</city>
@@ -17515,7 +17515,7 @@
     <web>http://RostovOnDon.pm.org</web>
     <date type="inception">20080102</date>
   </group>
-  <group id="714" status="active">
+  <group id="714" status="inactive">
     <name>Minsk.pm</name>
     <location>
       <city>Minsk</city>
@@ -17601,7 +17601,7 @@
     <web>http://odessa.pm.org</web>
     <date type="inception">20080504</date>
   </group>
-  <group id="718" status="active">
+  <group id="718" status="inactive">
     <name>Yokohama.pm</name>
     <location>
       <city>Yokohama</city>
@@ -17643,7 +17643,7 @@
     <web>http://leicester.pm.org</web>
     <date type="inception">20080612</date>
   </group>
-  <group id="720" status="active">
+  <group id="720" status="inactive">
     <name>Krasnodar.pm</name>
     <location>
       <city>Krasnodar</city>
@@ -17664,7 +17664,7 @@
     <web>http://krasnodar.pm.org</web>
     <date type="inception">20080718</date>
   </group>
-  <group id="721" status="active">
+  <group id="721" status="inactive">
     <name>Fredericton.pm</name>
     <location>
       <city>Fredericton</city>
@@ -17857,7 +17857,7 @@
     <web>http://kostroma.pm.org</web>
     <date type="inception">20090624</date>
   </group>
-  <group id="731" status="active">
+  <group id="731" status="inactive">
     <name>Quito.pm</name>
     <location>
       <city>Quito</city>
@@ -17878,7 +17878,7 @@
     <web>http://quito.pm.org</web>
     <date type="inception">20090722</date>
   </group>
-  <group id="732" status="active">
+  <group id="732" status="inactive">
     <name>Kushiro.pm</name>
     <location>
       <city>Kushiro</city>
@@ -17920,7 +17920,7 @@
     <web>http://lima.pm.org</web>
     <date type="inception">20091015</date>
   </group>
-  <group id="734" status="active">
+  <group id="734" status="inactive">
     <name>Advent.pm</name>
     <location>
       <city></city>
@@ -17962,7 +17962,7 @@
     <web>http://adelaide.pm.org</web>
     <date type="inception">20091117</date>
   </group>
-  <group id="736" status="active">
+  <group id="736" status="inactive">
     <name>Madurai.pm</name>
     <location>
       <city>Madurai</city>
@@ -18090,7 +18090,7 @@
     <web>http://hokkaido.pm.org</web>
     <date type="inception">20100623</date>
   </group>
-  <group id="742" status="active">
+  <group id="742" status="inactive">
     <name>Linz.pm</name>
     <location>
       <city>Linz</city>
@@ -18132,7 +18132,7 @@
     <web>http://voronezh.pm.org</web>
     <date type="inception">20100928</date>
   </group>
-  <group id="744" status="active">
+  <group id="744" status="inactive">
     <name>Nagoya.pm</name>
     <location>
       <city>Nagoya</city>
@@ -18153,7 +18153,7 @@
     <web>http://nagoya.pm.org</web>
     <date type="inception">20101018</date>
   </group>
-  <group id="745" status="active">
+  <group id="745" status="inactive">
     <name>Kamakura.pm</name>
     <location>
       <city>Kamakura</city>
@@ -18195,7 +18195,7 @@
     <web>http://kpug.pm.org</web>
     <date type="inception">20101211</date>
   </group>
-  <group id="747" status="active">
+  <group id="747" status="inactive">
     <name>Kathmandu.pm</name>
     <location>
       <city>Kathmandu</city>
@@ -18237,7 +18237,7 @@
     <web>http://telaviv.pm.org</web>
     <date type="inception">20101213</date>
   </group>
-  <group id="749" status="active">
+  <group id="749" status="inactive">
     <name>Makati.pm</name>
     <location>
       <city>Makati</city>
@@ -18258,7 +18258,7 @@
     <web>http://makati.pm.org</web>
     <date type="inception">20110306</date>
   </group>
-  <group id="750" status="active">
+  <group id="750" status="inactive">
     <name>Bordeaux.pm</name>
     <location>
       <city>Bordeaux</city>
@@ -18321,7 +18321,7 @@
     <web>http://goiania.pm.org</web>
     <date type="inception">20110323</date>
   </group>
-  <group id="753" status="active">
+  <group id="753" status="inactive">
     <name>Petropolis.pm</name>
     <location>
       <city>Petrópolis</city>
@@ -18342,7 +18342,7 @@
     <web>http://petropolis.pm.org</web>
     <date type="inception">20110323</date>
   </group>
-  <group id="754" status="active">
+  <group id="754" status="inactive">
     <name>Brno.pm</name>
     <location>
       <city>Brno</city>
@@ -18365,7 +18365,7 @@
     <date type="inception">20110323</date>
     <facebook>http://www.facebook.com/brnopm</facebook>
   </group>
-  <group id="755" status="active">
+  <group id="755" status="inactive">
     <name>Logan.pm</name>
     <location>
       <city>Logan</city>
@@ -18449,7 +18449,7 @@
     <web>http://SouthernOregon.pm.org/</web>
     <date type="inception">20110722</date>
   </group>
-  <group id="759" status="active">
+  <group id="759" status="inactive">
     <name>Plzen.pm</name>
     <location>
       <city>Plzen</city>
@@ -18512,7 +18512,7 @@
     <web>http://westvirginia.pm.org/</web>
     <date type="inception">20110927</date>
   </group>
-  <group id="762" status="active">
+  <group id="762" status="inactive">
     <name>Kerman.pm</name>
     <location>
       <city>Kerman</city>
@@ -18554,7 +18554,7 @@
     <web>http://weston.pm.org/</web>
     <date type="inception">20120112</date>
   </group>
-  <group id="765" status="active">
+  <group id="765" status="inactive">
     <name>Cluj.pm</name>
     <location>
       <city>Cluj Napoca</city>
@@ -18683,7 +18683,7 @@
     <web>http://WhitePlains.pm.org/</web>
     <date type="inception">20121004</date>
   </group>
-  <group id="771" status="active">
+  <group id="771" status="inactive">
     <name>Duesseldorf.pm</name>
     <location>
       <city>Duesseldorf</city>
@@ -18746,7 +18746,7 @@
     <web>http://augsburg.pm.org/</web>
     <date type="inception">20130628</date>
   </group>
-  <group id="774" status="active">
+  <group id="774" status="inactive">
     <name>CorpusChristi.pm</name>
     <location>
       <city>Corpus Christi</city>
@@ -18767,7 +18767,7 @@
     <web>http://CorpusChristi.pm.org/</web>
     <date type="inception">20130628</date>
   </group>
-  <group id="775" status="active">
+  <group id="775" status="inactive">
     <name>Cochin.pm</name>
     <location>
       <city>Cochin</city>
@@ -18809,7 +18809,7 @@
     <web>http://AmsterdamX.pm.org/</web>
     <date type="inception">20130903</date>
   </group>
-  <group id="777" status="active">
+  <group id="777" status="inactive">
     <name>UKCoordinators.pm</name>
     <location>
       <city></city>
@@ -18872,7 +18872,7 @@
     <web>http://swindon.pm.org/</web>
     <date type="inception">20140516</date>
   </group>
-  <group id="780" status="active">
+  <group id="780" status="inactive">
     <name>NewTaipeiCity.pm</name>
     <location>
       <city>New Taipei City</city>
@@ -18914,7 +18914,7 @@
     <web>https://sites.google.com/site/gdanskpm/</web>
     <date type="inception">20140623</date>
   </group>
-  <group id="782" status="active">
+  <group id="782" status="inactive">
     <name>Chico.pm</name>
     <location>
       <city>Chico</city>
@@ -19135,7 +19135,7 @@
     <web>http://lviv.pm.org</web>
     <date type="inception">20160929</date>
   </group>
-  <group id="791" status="active">
+  <group id="791" status="inactive">
     <name>BlairCountyPA.pm</name>
     <location>
       <city>Altoona</city>
