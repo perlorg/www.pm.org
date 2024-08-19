@@ -58,3 +58,14 @@ Deactivate groups without working sites:
 ```
 grep -v 200 /tmp/s | awk '{print $1}' | xargs -n1 bin/deactivate-only.pl
 ```
+
+Get Last-Modified timestamps
+
+```
+./bin/list_groups.pl |
+while read group url; do
+  echo;
+  echo -n "$group ";
+  GET -t10  -se $url | grep -i last-modified | cut -d: -f2-;
+done | tee /tmp/stamps
+```
