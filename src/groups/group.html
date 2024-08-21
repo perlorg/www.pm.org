@@ -6,6 +6,35 @@ WRAPPER layout
     hide_masthead=1,
 %]
 
+<script type="text/javascript">
+
+function initialize() {
+    [% IF latitude && longitude %]
+    var mapOptions = {
+        center: new google.maps.LatLng( [% latitude %], [% longitude %]), // show the most pins possible
+        zoom: [% zoom %],
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    PM.map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+    $.ajax({
+        url: 'perl_mongers.json',
+        dataType: 'json',
+        success: processMapJSON,
+    });
+    [% END %]
+}
+</script>
+[% UNLESS latitude && longitude %]
+    <style type="text/css" media="screen">
+        #map_canvas {
+            height: 10px;
+        }
+    </style>
+[% END %]
+
+<div id="map_canvas"></div>
+
 <p style="clear:both; height: 50px">&nbsp;</p>
 
 [% IF web %]
