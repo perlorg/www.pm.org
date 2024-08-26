@@ -1,0 +1,56 @@
+#!/usr/bin/perl
+
+=pod
+
+Usage:
+  $0 <inactive file> <pm.org zonefile>
+
+Generate inactive file with xquery:
+
+for $x in doc("perl_mongers.xml")//group
+where $x/@status/string() != "active"
+return fn:string-join( 
+       (
+        $x/name/text(), 
+        $x/@status/string(),
+        $x/web/text()
+        ), "," )
+
+xqilla inactive.qx > inactive.txt
+
+remember to update serial number
+
+=cut
+
+my %out;
+
+# input: comma seperated: groupname, status, web
+open my $input, "<", $ARGV[0];
+
+while (<$input>) {
+  chomp;
+  my ($group,$state,$url) = split /,/, $_, 3;
+
+  $group =~ s/\.pm//i;
+  $out{lc $group}++;
+
+  if ($url =~ /\Qpm.org\E/) {
+    $url =~ s!^https?://!!i;
+    $url =~ s!/.*$!!;
+    $url =~ s!\Q.pm.org\E.*$!!;
+    $out{lc $url}++;
+  }
+}
+
+#$, = "\n";
+#print sort keys %out;
+
+# dns: BIND zonefile for pm.org
+open my $dns, "<", $ARGV[1];
+
+my $regexp = join("|",sort keys %out);
+while(<$dns>) {
+  if (!/^($regexp)\s/) {
+    print;
+  }
+}
