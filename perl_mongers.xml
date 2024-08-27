@@ -1615,7 +1615,7 @@
     <web>http://omaha.pm.org/</web>
     <date type="inception">19980924</date>
   </group>
-  <group id="70" status="active">
+  <group id="70" status="inactive">
     <name>OrangeCounty.pm</name>
     <location>
       <city>Orange County</city>
@@ -2058,7 +2058,7 @@
     <web>http://sandiego.pm.org/</web>
     <date type="inception">19990127</date>
   </group>
-  <group id="90" status="active">
+  <group id="90" status="inactive">
     <name>SanFrancisco.pm</name>
     <location>
       <city>San Francisco</city>
@@ -2814,7 +2814,7 @@
     <web></web>
     <date type="inception">19990515</date>
   </group>
-  <group id="126" status="active">
+  <group id="126" status="inactive">
     <name>Edinburgh.pm</name>
     <location>
       <city>Edinburgh</city>
@@ -3366,7 +3366,7 @@
     <web>http://southampton.pm.org/</web>
     <date type="inception">19990503</date>
   </group>
-  <group id="152" status="active">
+  <group id="152" status="inactive">
     <!-- 2010.05.24 admin said they are active - szabgab -->
     <name>Stockholm.pm</name>
     <location>
@@ -3416,7 +3416,7 @@
     <web></web>
     <date type="inception">19990311</date>
   </group>
-  <group id="154" status="active">
+  <group id="154" status="inactive">
     <name>SPb.pm</name>
     <location>
       <city>St. Petersburg</city>
@@ -5331,7 +5331,7 @@
     <web>http://canton.pm.org/</web>
     <date type="inception">19991024</date>
   </group>
-  <group id="240" status="active">
+  <group id="240" status="inactive">
     <name>Frankfurt.pm</name>
     <location>
       <city>Frankfurt</city>
@@ -6303,7 +6303,7 @@
     <web></web>
     <date type="inception">20000317</date>
   </group>
-  <group id="290" status="active">
+  <group id="290" status="inactive">
     <name>Ulm.pm</name>
     <location>
       <city>Ulm</city>
@@ -6779,7 +6779,7 @@
     </mailing_list>
     <date type="inception"></date>
   </group>
-  <group id="307" status="active">
+  <group id="307" status="inactive">
     <name>Athens.pm</name>
     <location>
       <city>Athens</city>
@@ -11050,7 +11050,7 @@
     <web>http://sachsen.pm.org/</web>
     <date type="inception">20011105</date>
   </group>
-  <group id="451" status="active">
+  <group id="451" status="inactive">
     <name>SaltLake.pm</name>
     <location>
       <city>Salt Lake City</city>
@@ -11407,7 +11407,7 @@
     </mailing_list>
     <date type="inception">20011213</date>
   </group>
-  <group id="463" status="active">
+  <group id="463" status="inactive">
     <name>Devon and Cornwall.pm</name>
     <location>
       <city></city>
@@ -12935,7 +12935,7 @@
     </mailing_list>
     <date type="inception">20020721</date>
   </group>
-  <group id="526" status="active">
+  <group id="526" status="inactive">
     <name>Mumbai.pm</name>
     <location>
       <city>Mumbai</city>
@@ -13386,7 +13386,7 @@
     <web>http://PortlandMaine.pm.org/</web>
     <date type="inception">20020929</date>
   </group>
-  <group id="543" status="active">
+  <group id="543" status="inactive">
     <name>Cologne.pm</name>
     <location>
       <city>Cologne</city>
@@ -13862,7 +13862,7 @@
     </mailing_list>
     <date type="inception">20030317</date>
   </group>
-  <group id="555" status="active">
+  <group id="555" status="inactive">
     <name>Shibuya.pm</name>
     <location>
       <city>Shibuya</city>
@@ -14418,7 +14418,7 @@
     </mailing_list>
     <date type="inception">20030628</date>
   </group>
-  <group id="583" status="active">
+  <group id="583" status="inactive">
     <name>Stuttgart.pm</name>
     <location>
       <city>Stuttgart</city>
@@ -14440,7 +14440,7 @@
     <web>http://stuttgart.pm.org/</web>
     <date type="inception">20030628</date>
   </group>
-  <group id="584" status="active">
+  <group id="584" status="inactive">
     <!-- 2010.05.21 confirmed active by garu - szabgab -->
     <name>Brasil.pm</name>
     <location>
@@ -15502,7 +15502,7 @@
     </mailing_list>
     <date type="inception">20040101</date>
   </group>
-  <group id="626" status="active">
+  <group id="626" status="inactive">
     <!-- <comment date="2009.10.17">mailing list is active</comment> -->
     <name>ABE.pm</name>
     <location>
@@ -16854,7 +16854,7 @@
     <web>http://akasaka.pm.org</web>
     <date type="inception">20060221</date>
   </group>
-  <group id="684" status="active">
+  <group id="684" status="inactive">
     <name>Ruhr.pm</name>
     <location>
       <city>Essen</city>
@@ -17247,7 +17247,7 @@
     <web>http://hannover.pm.org</web>
     <date type="inception">20070313</date>
   </group>
-  <group id="702" status="active">
+  <group id="702" status="inactive">
     <!-- 2010.05.22 got mail from admin that they are active - szabgab -->
     <name>Kiev.pm</name>
     <location>
@@ -17431,7 +17431,7 @@
     <web>http://tomar.pm.org</web>
     <date type="inception">20071029</date>
   </group>
-  <group id="710" status="active">
+  <group id="710" status="inactive">
     <name>Fukuoka.pm</name>
     <location>
       <city>Fukuoka</city>
@@ -18026,7 +18026,7 @@
     <web>http://cali.pm.org</web>
     <date type="inception">20100223</date>
   </group>
-  <group id="739" status="active">
+  <group id="739" status="inactive">
     <!-- 2010.05.21 confirmed newborn by garu - szabgab -->
     <name>BragancaPaulista.pm</name>
     <location>
@@ -18977,7 +18977,7 @@
     <web>http://Kielce.pm.org</web>
     <date type="inception">20141122</date>
   </group>
-  <group id="785" status="active">
+  <group id="785" status="inactive">
     <name>Gotanda.pm</name>
     <location>
       <city>Gotanda</city>
