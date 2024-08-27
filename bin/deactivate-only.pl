@@ -6,8 +6,10 @@ use XML::Twig;
 my $xml = 'perl_mongers.xml';
 my $name = $ARGV[0] || usage();
 
+$name = $name . ".pm" unless $name =~ /\.pm$/i;
+
 my ($elt) = update_xml($name);
-say "Deactivated in XML.";
+say "Deactivated ${name} in XML.";
 
 exit;
 
@@ -34,7 +36,7 @@ sub update_xml {
       # output_text_filter => 'html',
       twig_handlers => {
          group => sub { 
-            if ($_->first_child('name')->text eq $name) {
+            if (lc $_->first_child('name')->text eq lc $name) {
                $_->{att}->{status} = 'inactive';
                $found_it++;
                $elt = $_;
