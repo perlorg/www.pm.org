@@ -398,7 +398,7 @@
     <web>http://champaign-urbana.pm.org/</web>
     <date type="inception">19980808</date>
   </group>
-  <group id="17" status="active">
+  <group id="17" status="inactive">
     <name>Charlotte.pm</name>
     <location>
       <city>Charlotte</city>
@@ -1404,7 +1404,7 @@
     </mailing_list>
     <date type="inception">19980428</date>
   </group>
-  <group id="61" status="active">
+  <group id="61" status="inactive">
     <name>Montréal.pm</name>
     <location>
       <city>Montréal</city>
@@ -3659,7 +3659,7 @@
     <web>http://auckland.pm.org/</web>
     <date type="inception">19990503</date>
   </group>
-  <group id="165" status="active">
+  <group id="165" status="inactive">
     <name>Brisbane.pm</name>
     <location>
       <city>Brisbane</city>
@@ -4004,7 +4004,7 @@
     <web>http://bandung.pm.org/</web>
     <date type="inception">20060806</date>
   </group>
-  <group id="181" status="active">
+  <group id="181" status="inactive">
     <!-- 2010.05.21 web site is nice but under construction, mailing list empty, mail sent, TODO - szabgab -->
     <name>Bangkok.pm</name>
     <location>
@@ -4026,7 +4026,7 @@
     <web>http://bangkok.pm.org/</web>
     <date type="inception">19990503</date>
   </group>
-  <group id="182" status="active">
+  <group id="182" status="inactive">
     <name>Beijing.pm</name>
     <location>
       <city>Beijing</city>
@@ -4339,7 +4339,7 @@
     <web>http://dubai.pm.org/</web>
     <date type="inception">19990311</date>
   </group>
-  <group id="197" status="active">
+  <group id="197" status="inactive">
     <name>Israel.pm</name>
     <location>
       <city></city>
@@ -4751,7 +4751,7 @@
     <web>http://marsneedswomen.pm.org/</web>
     <date type="inception">19980930</date>
   </group>
-  <group id="216" status="active">
+  <group id="216" status="inactive">
     <!-- 2010.05.22 probably old web site, last message on list from 2005, Peter replied that he will try to reignite it - szabgab -->
     <name>Sofia.pm</name>
     <location>
@@ -5073,7 +5073,7 @@
     </mailing_list>
     <date type="inception">19991024</date>
   </group>
-  <group id="229" status="active">
+  <group id="229" status="inactive">
     <!-- 2010.05.21 no web site, some activity on list  - szabgab -->
     <name>Bangalore.pm</name>
     <location>
@@ -5285,7 +5285,7 @@
     <web>http://budapest.pm.org/</web>
     <date type="inception">19991024</date>
   </group>
-  <group id="238" status="active">
+  <group id="238" status="inactive">
     <name>Purdue.pm</name>
     <location>
       <city>West Lafayette</city>
@@ -5799,7 +5799,7 @@
     <web></web>
     <date type="inception">20000116</date>
   </group>
-  <group id="264" status="active">
+  <group id="264" status="inactive">
     <!-- 2010.05.21 - no mailing list, website redirect to Calcutta.pm.org - szabgab -->
     <name>Kolkata.pm</name>
     <location>
@@ -11988,7 +11988,7 @@
     <web>http://camel.pm.org/</web>
     <date type="inception">20020306</date>
   </group>
-  <group id="484" status="active">
+  <group id="484" status="inactive">
     <name>Belgrade.pm</name>
     <location>
       <city>Belgrade</city>
@@ -12372,7 +12372,7 @@
     <web>http://www.perlchina.org/</web>
     <date type="inception">20020413</date>
   </group>
-  <group id="498" status="active">
+  <group id="498" status="inactive">
     <!-- 2010.05.21 confirmed active by garu - szabgab -->
     <name>Fortaleza.pm</name>
     <location>
@@ -13277,7 +13277,7 @@
     <web>http://Canberra.pm.org/</web>
     <date type="inception">20020925</date>
   </group>
-  <group id="538" status="active">
+  <group id="538" status="inactive">
     <!-- 2010.05.24 admin wrote they are active (even though no web site and no message in mailing list) - szabgab -->
     <name>Terere.pm</name>
     <location>
@@ -13408,7 +13408,7 @@
     <web>http://Cologne.pm.org/</web>
     <date type="inception">20020929</date>
   </group>
-  <group id="545" status="active">
+  <group id="545" status="inactive">
     <name>Hamburg.pm</name>
     <location>
       <city>Hamburg</city>
@@ -13450,7 +13450,7 @@
     <web>http://iassy.pm.org/</web>
     <date type="inception">20021010</date>
   </group>
-  <group id="510" status="active">
+  <group id="510" status="inactive">
     <!-- 2010.05.21 confirmed active by garu - szabgab -->
     <name>Cascavel.pm</name>
     <location>
@@ -13773,7 +13773,7 @@
     </mailing_list>
     <date type="inception">20030317</date>
   </group>
-  <group id="522" status="active">
+  <group id="522" status="inactive">
     <!-- 2010.05.24 mailing list has some activity, web site will be updated later this year - szabgab -->
     <name>ZA.pm</name>
     <location>
@@ -14304,7 +14304,7 @@
     </mailing_list>
     <date type="inception">20030425</date>
   </group>
-  <group id="579" status="active">
+  <group id="579" status="inactive">
     <!-- 2010.05.21 confirmed active by garu - szabgab -->
     <!--  the Commonwealth of Perl Mongers Recife (PE) -->
     <name>Recife.pm</name>
@@ -14328,7 +14328,7 @@
     <web>http://recife.pm.org/</web>
     <date type="inception">20030628</date>
   </group>
-  <group id="580" status="active">
+  <group id="580" status="inactive">
     <name>Arnhem.pm</name>
     <location>
       <city>Arnhem</city>
@@ -15209,7 +15209,7 @@
     </mailing_list>
     <date type="inception">20031108</date>
   </group>
-  <group id="616" status="active">
+  <group id="616" status="inactive">
     <!-- 2010.05.22 web site has bad encoding, last message on mailing list is from 2003, mail sent TODO - szabgab -->
     <name>Plovdiv.pm</name>
     <location>
@@ -16017,7 +16017,7 @@
     <web>http://ankara.pm.org</web>
     <date type="inception">20040425</date>
   </group>
-  <group id="650" status="active">
+  <group id="650" status="inactive">
     <name>Italia.pm</name>
     <location>
       <city>Pisa</city>
@@ -16071,7 +16071,7 @@
       <unsubscribe>unsubscribe geneve email_address</unsubscribe>
     </mailing_list>
   </group>
-  <group id="652" status="active">
+  <group id="652" status="inactive">
     <!-- <comment date="2009.10.17">mailing list used once every few month</comment> -->
     <name>Aarau.pm</name>
     <location>
@@ -16201,7 +16201,7 @@
     </mailing_list>
     <date type="inception">20041205</date>
   </group>
-  <group id="656" status="active">
+  <group id="656" status="inactive">
     <!-- 2009.10.17 list is unused since 2006 -->
     <!-- 2010.05.04 admin wrote that there is no activity but he would like to keep it - szabgab -->
     <name>Aberdeen.pm</name>
@@ -16437,7 +16437,7 @@
       <email type="personal"></email>
     </tsar>
   </group>
-  <group id="666" status="active">
+  <group id="666" status="inactive">
     <name>Erlangen.pm</name>
     <location>
       <city>Erlangen</city>
@@ -16811,7 +16811,7 @@
     <web>http://hollywood.pm.org</web>
     <date type="inception">20060129</date>
   </group>
-  <group id="682" status="active">
+  <group id="682" status="inactive">
     <name>Darmstadt.pm</name>
     <location>
       <city>Darmstadt</city>
@@ -17580,7 +17580,7 @@
     <web>http://worcestershire.pm.org</web>
     <date type="inception">20080504</date>
   </group>
-  <group id="717" status="active">
+  <group id="717" status="inactive">
     <name>Odessa.pm</name>
     <location>
       <city>Odessa</city>
@@ -17793,7 +17793,7 @@
     <web>http://guincho.pm.org</web>
     <date type="inception">20081125</date>
   </group>
-  <group id="728" status="active">
+  <group id="728" status="inactive">
     <name>Northwestengland.pm</name>
     <location>
       <city>Lancaster/Preston</city>
@@ -18893,7 +18893,7 @@
     <web>http://NewTaipeiCity.pm.org/</web>
     <date type="inception">20140623</date>
   </group>
-  <group id="781" status="active">
+  <group id="781" status="inactive">
     <name>Gdansk.pm</name>
     <location>
       <city>Gdansk</city>
