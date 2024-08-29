@@ -6779,7 +6779,7 @@
     </mailing_list>
     <date type="inception"></date>
   </group>
-  <group id="307" status="inactive">
+  <group id="307" status="active">
     <name>Athens.pm</name>
     <location>
       <city>Athens</city>
@@ -6797,7 +6797,7 @@
         <domain>gmail.com</domain>
       </email>
     </tsar>
-    <web>http://athens.pm.org/</web>
+    <web>https://athens.perl.gr/</web>
     <date type="inception">20130410</date>
   </group>
   <group id="308" status="inactive">
