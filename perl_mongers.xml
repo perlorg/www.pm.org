@@ -2950,7 +2950,7 @@
     </mailing_list>
     <date type="inception">19990331</date>
   </group>
-  <group id="132" status="active">
+  <group id="132" status="inactive">
     <name>Leipzig.pm</name>
     <location>
       <city>Leipzig</city>
@@ -3189,7 +3189,7 @@
     <web>http://moscow.pm</web>
     <date type="inception">19990131</date>
   </group>
-  <group id="142" status="active">
+  <group id="142" status="inactive">
     <name>Munich.pm</name>
     <location>
       <city>Munich</city>
@@ -5936,7 +5936,7 @@
     <web>http://coimbra.pm.org</web>
     <date type="inception">20000227</date>
   </group>
-  <group id="271" status="active">
+  <group id="271" status="inactive">
     <name>Kansai.pm</name>
     <location>
       <city>Osaka</city>
@@ -6986,7 +6986,7 @@
     <web>http://oakland.pm.org/</web>
     <date type="inception">20050119</date>
   </group>
-  <group id="315" status="active">
+  <group id="315" status="inactive">
     <name>Birmingham.pm</name>
     <location>
       <city>Birmingham</city>
@@ -8566,7 +8566,7 @@
     </mailing_list>
     <date type="inception">20010317</date>
   </group>
-  <group id="370" status="active">
+  <group id="370" status="inactive">
     <name>Wellington.pm</name>
     <location>
       <city>Wellington</city>
@@ -9992,7 +9992,7 @@
         <domain>tinita.de</domain>
       </email>
     </tsar>
-    <web>http://berliner.pm.org/</web>
+    <web>http://berlin.pm.org/</web>
     <mailing_list>
       <name>General Berliner Perl Mongers discussion</name>
       <email type="list">
@@ -14594,7 +14594,7 @@
     <web>http://guapimirim.pm.org/</web>
     <date type="inception">20030628</date>
   </group>
-  <group id="592" status="active">
+  <group id="592" status="inactive">
     <!-- 2010.05.26 They have a nice web site and are using Google groups as mailing list, the list on pm.org has archive - szabgab -->
     <name>Orlando.pm</name>
     <location>
