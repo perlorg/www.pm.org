@@ -21,18 +21,9 @@
             // Global JS container
             var PM = {};
         </script>
-        [% IF map_page %]
-        <script type="text/javascript"
-          src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
-        </script>
-        <script type="text/javascript"
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQUWXHRLr1r3tu1Kve9Jro3pP_e3_VyWc&sensor=true">
-        </script>
-        <script type="text/javascript" src="/includes/map.js"></script>
-        [% END %]
     </head>
     
-    <body class="index" [% ' onload="initialize()"' IF map_page %]>
+    <body class="index">
     <div id="wrapper">
 
         <header>
@@ -57,7 +48,7 @@
 
 [% INCLUDE heading %]
 
-<div id="content_holder[% '_map' IF map_page %]">
+<div id="content_holder">
     <div class="sub_holder">
 
 [% content %]
