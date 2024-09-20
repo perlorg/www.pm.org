@@ -2036,7 +2036,7 @@
     <web></web>
     <date type="inception">19990607</date>
   </group>
-  <group id="89" status="inactive">
+  <group id="89" status="active">
     <name>SanDiego.pm</name>
     <location>
       <city>San Diego</city>
@@ -2055,7 +2055,7 @@
         <domain>gmail.com</domain>
       </email>
     </tsar>
-    <web>http://sandiego.pm.org/</web>
+    <web>https://sandiegopm.github.io/</web>
     <date type="inception">19990127</date>
   </group>
   <group id="90" status="inactive">
