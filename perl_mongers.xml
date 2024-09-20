@@ -965,13 +965,13 @@
     </location>
     <email type="group"></email>
     <tsar>
-      <name>Julian Brown</name>
+      <name>Brett Estrade</name>
       <email type="personal">
-        <user>julian</user>
-        <domain>jlbprof.com</domain>
+        <user>brett</user>
+        <domain>acutisdata.com</domain>
       </email>
     </tsar>
-    <web>http://houston.pm.org/</web>
+    <web>https://houstonperlmongers.org</web>
     <mailing_list>
       <name>General Houston.pm discussion</name>
       <email type="list"></email>
