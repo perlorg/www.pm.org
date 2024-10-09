@@ -2360,14 +2360,13 @@
       <latitude>43.670417</latitude>
     </location>
     <tsar>
-      <name>J Z Tam</name>
+      <name>T. Alex Beamish</name>
       <email type="personal">
-        <user>jztam</user>
-        <domain>yahoo.com</domain>
+        <user>talexb</user>
+        <domain>gmail.com</domain>
       </email>
     </tsar>
-    <web>https://www.meetup.com/toronto-perl-mongers/</web>
-    <meetup>https://www.meetup.com/toronto-perl-mongers/</meetup>
+    <web>https://lu.ma/calendar/cal-ZFzHes2YwV6j0h9</web>
     <date type="inception">19980916</date>
   </group>
   <group id="104" status="inactive">
