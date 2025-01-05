@@ -21,6 +21,11 @@ my $src_file = shift || './perl_mongers.xml';
 #   PM_ORG_WWW=/Users/jhannah/src/perlorg/www.pm.org-live perl bin/xml
 my $www = $ENV{'PM_ORG_WWW'} || 'www';
 
+# Jay debugging on jays.net:
+# rsync -avhz ~/src/perlorg/www.pm.org-live/ jays.net:/var/www/jays.net/tmp/pm.org/
+# scp includes/style.css jays.net:/var/www/jays.net/includes/style.css
+# scp images/camel_30w.png jays.net:/var/www/jays.net/images/
+
 my %ids;
 
 $| = 1;
