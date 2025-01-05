@@ -26,8 +26,8 @@ The canonical source for the Perl Mongers groups is an
 <!-- BEGIN Open Street Map -->
 <style>
   .leaflet-container {
-    height: 400px;
-    width: 600px;
+    height: 300px;
+    width: 1000px;
     max-width: 100%;
     max-height: 100%;
   }
@@ -35,7 +35,7 @@ The canonical source for the Perl Mongers groups is an
 <div id='map'></div>
 <script src="groups.js" type="text/javascript"></script>
 <script>
-  var map = L.map('map').setView([0, 0], 1);  // starting latitude, longitude
+  var map = L.map('map').setView([40, 0], 2);  // starting [latitude, longitude], zoom
 
   var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
