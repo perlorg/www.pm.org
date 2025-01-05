@@ -6,36 +6,86 @@ WRAPPER layout
     hide_masthead=1,
 %]
 
-<script type="text/javascript">
+<p style="clear:both; height: 50px">&nbsp;</p>
 
-function initialize() {
-    [% IF latitude && longitude %]
-    var mapOptions = {
-        center: new google.maps.LatLng( [% latitude %], [% longitude %]), // show the most pins possible
-        zoom: [% zoom %],
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
-    PM.map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+[% IF latitude && longitude %]
+  <!-- BEGIN Open Street Map -->
+  <style>
+    .leaflet-container {
+      height: 300px;
+      width: 1000px;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  </style>
+  <div id='map'></div>
+  <script>
+    var map = L.map('map').setView([[% latitude %], [% longitude %]], 9);  // starting [latitude, longitude], zoom
 
-    $.ajax({
-        url: 'perl_mongers.json',
-        dataType: 'json',
-        success: processMapJSON,
-    });
-    [% END %]
-}
-</script>
-[% UNLESS latitude && longitude %]
-    <style type="text/css" media="screen">
-        #map_canvas {
-            height: 10px;
+    var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    function onEachFeature(feature, layer) {
+      var popupContent = "";
+      if (feature.properties && feature.properties.popupContent) {
+        popupContent += feature.properties.popupContent;
+      }
+      if (feature.properties && feature.properties.website) {
+        popupContent += " <a href='" + feature.properties.website +   "' target='_blank'>Website</a>";
+      }
+      if (feature.properties && feature.properties.facebook) {
+        popupContent += " <a href='" + feature.properties.facebook +  "' target='_blank'>Facebook</a>";
+      }
+      if (feature.properties && feature.properties.instagram) {
+        popupContent += " <a href='" + feature.properties.instagram + "' target='_blank'>Instagram</a>";
+      }
+      layer.bindPopup(popupContent);
+    }
+
+    group = {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "geometry": {
+            "type": "Point",
+            "coordinates": [[% longitude %], [% latitude %]]
+          },
+          "type": "Feature",
+          "properties": {
+            "popupContent": "[% name | html_entity %]",
+            "website": "[% web %]",
+          },
+          "id": [% id %]
         }
-    </style>
+      ]
+    };
+
+    var groupLayer = L.geoJSON([group], {
+      style: function (feature) {
+        return feature.properties && feature.properties.style;
+      },
+
+      onEachFeature: onEachFeature,
+
+      pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, {
+          radius: 8,
+          fillColor: '#ff7800',
+          color: '#000',
+          weight: 1,
+          opacity: 1,
+          fillOpacity: 0.8
+        });
+      }
+    }).addTo(map);
+  </script>
+  <!-- END Open Street Map -->
 [% END %]
 
-<div id="map_canvas"></div>
 
-<p style="clear:both; height: 50px">&nbsp;</p>
+<p></p>
 
 [% IF web %]
   <b><a href="[% web %]">[% name | html_entity %]</a></b> ([% linked_location %])<br>
