@@ -3065,10 +3065,10 @@
     </location>
     <email type="group"></email>
     <tsar>
-      <name>Tom Hukins</name>
+      <name>Leo Lapworth</name>
       <email type="personal">
-        <user>leader</user>
-        <domain>london.pm.org</domain>
+        <user>leo</user>
+        <domain>cuckoo.org</domain>
       </email>
     </tsar>
     <web>https://londonperl.org/</web>
