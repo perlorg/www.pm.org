@@ -24,7 +24,7 @@ my $www = $ENV{'PM_ORG_WWW'} || 'www';
 # Jay debugging on jays.net:
 # rsync -avhz ~/src/perlorg/www.pm.org-live/ jays.net:/var/www/jays.net/tmp/pm.org/
 # scp includes/style.css jays.net:/var/www/jays.net/includes/style.css
-# scp images/camel_30w.png jays.net:/var/www/jays.net/images/
+# scp images/camel_30w.svg jays.net:/var/www/jays.net/images/
 
 my %ids;
 
@@ -384,7 +384,7 @@ foreach my $continent (@continents) {
         mkpath $directories;
         warn "$file -> $destfile\n";
 
-        if ( $file =~ /\.png$/ || $file =~ /\.jpg$/ ) {
+        if ( $file =~ /\.png$/ || $file =~ /\.jpg$/ || $file =~ /\.svg$/ ) {
             copy( $file, $destfile );
         } else {
             $parms->{description}

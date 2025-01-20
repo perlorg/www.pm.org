@@ -32,7 +32,7 @@
 
         <header>
             <div class="sub_holder">
-            <a href="/"><img src="/images/camel_30w.png" height="30px" id="onion_logo" alt="Perl Mongers"></a>
+            <a href="/"><img src="/images/camel_30w.svg" height="30px" id="onion_logo" alt="Perl Mongers"></a>
         	<div id="nav_holder">
                 <nav>
                     <div id="large_copy">
@@ -74,7 +74,6 @@
                <div class="fcol">
            <p>Copyright &copy; 1997-2025 Perl Mongers</p>
            <p>Need help? <a href="https://github.com/perlorg/www.pm.org/issues/new">Open an Issue</a></p>
-           <p>The Perl camel image is a trademark of <a href="http://www.oreilly.com/">O'Reilly Media, Inc.</a> Used with permission.</p>
                </div>
              </div>
        </div>
