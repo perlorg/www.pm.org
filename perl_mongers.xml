@@ -19176,4 +19176,32 @@
     <web>http://fuzhou.pm.org/</web>
     <date type="inception">20230627</date>
   </group>
+  <group id="793" status="active">
+    <name>Shōnan.pm</name>
+    <location>
+      <city>Shōnan</city>
+      <state>Kanagawa</state>
+      <region></region>
+      <country>Japan</country>
+      <continent>Asia</continent>
+      <longitude>139.3044</longitude>
+      <latitude>35.3712</latitude>
+    </location>
+    <web>https://shonanpm.connpass.com/</web>
+    <date type="inception">20230826</date>
+  </group>
+  <group id="794" status="active">
+    <name>Kichijōji.pm</name>
+    <location>
+      <city>Kichijōji</city>
+      <state>Western Tokyo</state>
+      <region></region>
+      <country>Japan</country>
+      <continent>Asia</continent>
+      <longitude>139.5802</longitude>
+      <latitude>35.7041</latitude>
+    </location>
+    <web>https://kichijojipm.connpass.com/</web>
+    <date type="inception">20140926</date>
+  </group>
 </perl_mongers>
