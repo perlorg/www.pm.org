@@ -6985,7 +6985,7 @@
     <web>http://oakland.pm.org/</web>
     <date type="inception">20050119</date>
   </group>
-  <group id="315" status="inactive">
+  <group id="315" status="active">
     <name>Birmingham.pm</name>
     <location>
       <city>Birmingham</city>
@@ -7004,7 +7004,7 @@
         <domain>missbarbell.co.uk</domain>
       </email>
     </tsar>
-    <web>http://birmingham.pm.org/</web>
+    <web>https://birmingham.grango.org/</web>
     <mailing_list>
       <name>General Birmingham Perl Mongers discussion</name>
       <email type="list">
