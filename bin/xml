@@ -8,7 +8,7 @@ use File::Find::Rule;
 use File::Path qw(mkpath);
 use File::Spec::Functions qw(splitpath);
 use Template;
-use XML::LibXML;
+use XML::Twig;
 
 # Added by Leo for perl_mongers.json
 use JSON;
@@ -133,38 +133,38 @@ my %allgroups;
 # Array containing all the group names order by continent
 my %groups;
 
-my $xml = XML::LibXML->new();
-my $doc = $xml->parse_file($src_file);
-foreach my $g ( $doc->findnodes('//group') ) {
-    my $id        = $g->getAttribute('id');
-    my $status    = $g->getAttribute('status') || 'not-specified-in-xml-file';
-    my $name      = $g->findvalue('name/text()');
-    my $city      = $g->findvalue('location/city/text()');
-    my $state     = $g->findvalue('location/state/text()');
-    my $region    = $g->findvalue('location/region/text()');
-    my $country   = $g->findvalue('location/country/text()');
-    my $continent = $g->findvalue('location/continent/text()');
-    my $longitude = $g->findvalue('location/longitude/text()');
-    my $latitude  = $g->findvalue('location/latitude/text()');
-    my $web       = $g->findvalue('web/text()');
-    my $linkedin  = $g->findvalue('linkedin/text()');
-    my $googleplus = $g->findvalue('googleplus/text()');
-    my $facebook  = $g->findvalue('facebook/text()');
-    my $twitter   = $g->findvalue('twitter/text()');
-    my $meetup    = $g->findvalue('meetup/text()');
+
+my $t= XML::Twig->new();
+$t->parsefile($src_file);
+my $root = $t->root;
+foreach my $g ( $root->children('group') ) {
+    my $id         = $g->att('id');
+    my $status     = $g->att('status') || 'not-specified-in-xml-file';
+    my $name       = $g->findvalue('name');
+    my $city       = $g->findvalue('location/city');
+    my $state      = $g->findvalue('location/state');
+    my $region     = $g->findvalue('location/region');
+    my $country    = $g->findvalue('location/country');
+    my $continent  = $g->findvalue('location/continent');
+    my $longitude  = $g->findvalue('location/longitude');
+    my $latitude   = $g->findvalue('location/latitude');
+    my $web        = $g->findvalue('web');
+    my $linkedin   = $g->findvalue('linkedin');
+    my $googleplus = $g->findvalue('googleplus');
+    my $facebook   = $g->findvalue('facebook');
+    my $twitter    = $g->findvalue('twitter');
+    my $meetup     = $g->findvalue('meetup');
 
     my @tsar;
     foreach my $t ( $g->findnodes('tsar') ) {
-        my $tsar      = $t->findvalue('name/text()');
-        my $tsaremail = $t->findvalue('email/user/text()');
-
-        #$tsaremail .= ' &lt;' . int(rand(100)) . '&gt; ';
+        my $tsar      = $t->findvalue('name');
+        my $tsaremail = $t->findvalue('email/user');
         $tsaremail .= ' &lt;replace me by @&gt; ';
-        $tsaremail .= $t->findvalue('email/domain/text()');
+        $tsaremail .= $t->findvalue('email/domain');
         push @tsar, { name => $tsar, mail => $tsaremail };
     }
 
-    my $mailing_lists_name = $g->findvalue('mailing_list/name/text()');
+    my $mailing_lists_name = $g->findvalue('mailing_list/name');
 
     #	if ($mailing_lists_name) { print STDERR "M $mailing_lists_name\n" }
 
