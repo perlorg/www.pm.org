@@ -2058,7 +2058,7 @@
     <web>https://sandiegopm.github.io/</web>
     <date type="inception">19990127</date>
   </group>
-  <group id="90" status="inactive">
+  <group id="90" status="active">
     <name>SanFrancisco.pm</name>
     <location>
       <city>San Francisco</city>
