@@ -150,7 +150,6 @@ foreach my $g ( $root->children('group') ) {
     my $latitude   = $g->findvalue('location/latitude');
     my $web        = $g->findvalue('web');
     my $linkedin   = $g->findvalue('linkedin');
-    my $googleplus = $g->findvalue('googleplus');
     my $facebook   = $g->findvalue('facebook');
     my $twitter    = $g->findvalue('twitter');
     my $meetup     = $g->findvalue('meetup');
@@ -219,7 +218,6 @@ foreach my $g ( $root->children('group') ) {
         web             => $web,
         mailing_list    => { name => $mailing_lists_name, },
         linkedin        => $linkedin,
-        googleplus      => $googleplus,
         facebook        => $facebook,
         twitter         => $twitter,
         meetup          => $meetup,
