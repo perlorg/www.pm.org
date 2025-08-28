@@ -3949,7 +3949,7 @@
     <web>http://semarang.pm.org/</web>
     <date type="inception">19990311</date>
   </group>
-  <group id="179" status="inactive">
+  <group id="179" status="active">
     <name>Sydney.pm</name>
     <location>
       <city>Sydney</city>
@@ -3979,7 +3979,7 @@
         <domain>pm.org</domain>
       </email>
     </mailing_list>
-    <web>http://perl.sydney/</web>
+    <web>http://sydneypm.github.io/</web>
     <date type="inception">19981102</date>
   </group>
   <group id="180" status="inactive">
