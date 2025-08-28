@@ -19204,4 +19204,18 @@
     <web>https://kichijojipm.connpass.com/</web>
     <date type="inception">20140926</date>
   </group>
+  <group id="795" status="active">
+    <name>Okinawa.pm</name>
+    <location>
+      <city>Yomitan</city>
+      <state>Okinawa</state>
+      <region></region>
+      <country>Japan</country>
+      <continent>Asia</continent>
+      <longitude>127.7444</longitude>
+      <latitude>26.396</latitude>
+    </location>
+    <web>https://okinawa.pm.org/</web>
+    <date type="inception">20121026</date>
+  </group>
 </perl_mongers>
