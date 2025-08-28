@@ -19055,6 +19055,13 @@
         <domain>gmail.com</domain>
       </email>
     </tsar>
+    <tsar>
+      <name>Masaaki Saito</name>
+      <email type="personal">
+        <user>masakyst.public</user>
+        <domain>gmail.com</domain>
+      </email>
+    </tsar>
     <web>http://okinawa.pm.org</web>
     <date type="inception">20160129</date>
   </group>
