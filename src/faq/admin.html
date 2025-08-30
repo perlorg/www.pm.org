@@ -4,19 +4,16 @@
 
 <h1>Intro: How does *.pm.org work?</h1>
 
-<p>Robert and Ask are the server kings. They control all the hardware and services. They keep the ships afloat.</p>
-
 <p>When anyone needs help with anything Perl Mongers they <a href="https://github.com/perlorg/www.pm.org/issues">create a github Issue</a> or they email support(at)pm(dot)org which opens a ticket in RT. Some requests are valid, some are bad ideas or conflicts between group leaders, and some are spam. Those tickets need to be waded through, as frequently as possible, by the pm.org admin volunteers. Everything there is to know about being a pm.org admin volunteer is right here, below.</p>
 
-<p>Working the tickets involves pulling miscellaneous levers to fulfill the valid requests (XML, git, MailMan, DNS, RT, TT site flushes. I (jhannah) am happy to train new volunteers.</p>
-
-<p>Every communication we have with anyone around the world is recorded in github or RT for review. Constructive criticism is always welcome.</p>
+<p>Working the tickets involves pulling miscellaneous levers to fulfill the valid requests.
+I (jhannah) am happy to train new volunteers.</p>
 
 <h2>Current Admins</h2>
 
 <ul class="admin_faq">
   <li><a href="http://noc.perl.org">Hardware overlords</a>: Robert, Ask</li>  
-  <li>github Issues / RT Tickets: Jay Hannah, Chief Ticket Monkey</li>
+  <li>GitHub Issues / RT Tickets: <a href="http://jays.net">Jay Hannah</a>, de-facto Chief Ticket Monkey</li>
 </ul>
 
 <hr />
@@ -37,18 +34,7 @@
       </li>
     </ol>
   </li>
-  <li>DNS for their website (legacy only)
-    <ol class="admin_faq">
-      <li>Create an RT ticket in the DNS queue requesting <em>Groupname</em>.pm.org be 
-       pointed to their server IP (A record) or hostname (CNAME). e.g.:
-          <pre>
-          To: dns@perl.org
-          Subject: paderborn.pm.org -> 216.52.237.133
-          New PM group. Thanks!
-          </pre>
-      </li>
-    </ol>
-  </li>
+  <li>DNS for their website (legacy only): See DNS below</li>
   <li>Mailman. If they want a Mailman list (and one doesn't exist already), create one named "<em>Groupname</em>-pm".</li>
 </ol>
 
@@ -63,7 +49,6 @@
     </ol>
   </li>
   <li>Commit, push your change to github</li>
-  <li>Submit DNS changes if needed</li>
   <li>Follow the instructions below to change their MailMan password?</li>
   <li>Update the website per /README</li>
 </ol>
@@ -105,7 +90,7 @@
 
 <ol class="admin_faq">
   <li><a href="http://mail.pm.org/mailman/listinfo/pm_admins">pm.org Admin mailing list</a> - the 6 of us that admin pm.org (unused since ~2014)</li>
-  <li><a href="http://mail.pm.org/mailman/listinfo/pm_groups">Group Leader mailing list</a> - the ~209 group leaders (unused since ~2018)</li>
+  <li><a href="http://mail.pm.org/mailman/listinfo/pm_groups">Group Leader mailing list</a> - the ~400 group leaders</li>
   <li><a href="http://mail.pm.org/mailman/listinfo">List of all groups</a></li>
   <li><a href="http://x6.develooper.com/~mailman/list-last-posts">Timestamps when lists last saw activity</a>. Some have been inactive for decades.</li>
   <li><a href="http://mail.pm.org/mailman/create">Create a new list</a></li>
@@ -127,7 +112,7 @@
   <li>bugs-pm-org-support(at)rt(dot)perl(dot)org</li>
 </ul>
 
-<h2>DNS</h2>
+<h2>DNS (legacy only)</h2>
 
 <p>In order to get a DNS change to happen, send an email to <code>dns(at)perl(dot)org</code> with information about the change you want made. You'll get an auto-reply ticket number back from RT. Things they do:</p>
 
