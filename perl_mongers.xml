@@ -2207,7 +2207,7 @@
     <web>http://sherman-oaks.pm.org/</web>
     <date type="inception">19990108</date>
   </group>
-  <group id="97" status="inactive">
+  <group id="97" status="active">
     <name>Sonoma.pm</name>
     <location>
       <city>Santa Rosa</city>
@@ -2225,7 +2225,7 @@
         <domain>alembic.com</domain>
       </email>
     </tsar>
-    <web>http://sonoma.pm.org/</web>
+    <web>http://ronx.org/perl.html</web>
     <date type="inception">19990214</date>
   </group>
   <group id="98" status="undef">
