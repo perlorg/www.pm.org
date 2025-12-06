@@ -19,7 +19,12 @@
     <mailing_list>
       <name>General NY.pm discussion</name>
       <email type="group">
-        <user>ny</user>
+        <tsar>
+          <name>James E Keenan</name>
+          <email type="personal">
+            <user>jkeenan</user>
+            <domain>pobox.com</domain>
+        </tsar>
         <domain>https://groups.google.com/g/new-york-perlmongers</domain>
       </email>
     </mailing_list>
