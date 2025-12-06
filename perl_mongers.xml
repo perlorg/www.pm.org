@@ -9,37 +9,19 @@
     <location>
       <city>New York City</city>
       <state>New York</state>
-      <region>Center of the Universe</region>
+      <region></region>
       <country>United States of America</country>
       <continent>North America</continent>
       <longitude>-73.98771000</longitude>
       <latitude>40.72426868</latitude>
     </location>
-    <email type="group">
-      <user>nypm-organizers</user>
-      <domain>googlegroups.com</domain>
-    </email>
-    <tsar>
-      <name>NY.pm Organizers Committee</name>
-      <email type="personal">
-        <user>nypm-organizers</user>
-        <domain>googlegroups.com</domain>
-      </email>
-    </tsar>
-    <web>http://www.meetup.com/The-New-York-Perl-Meetup-Group/</web>
-    <meetup>http://www.meetup.com/The-New-York-Perl-Meetup-Group/</meetup>
+    <web>https://groups.google.com/g/new-york-perlmongers</web>
     <mailing_list>
       <name>General NY.pm discussion</name>
-      <email type="list">
+      <email type="group">
         <user>ny</user>
-        <domain>lists.panix.com</domain>
+        <domain>https://groups.google.com/g/new-york-perlmongers</domain>
       </email>
-      <email type="list_admin">
-        <user>majordomo</user>
-        <domain>lists.pm.org</domain>
-      </email>
-      <subscribe>subscribe ny email_address</subscribe>
-      <unsubscribe>unsubscribe ny email_address</unsubscribe>
     </mailing_list>
     <mailing_list>
       <name>NYC Perl Jobs</name>
