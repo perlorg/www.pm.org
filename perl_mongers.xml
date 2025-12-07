@@ -16,10 +16,16 @@
       <latitude>40.72426868</latitude>
     </location>
     <web>https://groups.google.com/g/new-york-perlmongers</web>
+    <tsar>
+      <name>James E Keenan</name>
+      <email type="personal">
+        <user>jkeenan</user>
+        <domain>pobox.com</domain>
+      </email>
+    </tsar>
     <mailing_list>
       <name>General NY.pm discussion</name>
       <email type="group">
-        <user>ny</user>
         <domain>https://groups.google.com/g/new-york-perlmongers</domain>
       </email>
     </mailing_list>
