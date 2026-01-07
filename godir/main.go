@@ -4,17 +4,18 @@ import (
 	"encoding/xml"
 	"flag"
 	"fmt"
-	"log"
+	"io"
 	"log/slog"
 	"net/http"
 	"os"
 	"path/filepath"
 	"regexp"
 	"strings"
+	"sync"
 	"time"
 
 	"github.com/kouhin/envflag"
-	sloghttp "github.com/samber/slog-http"
+	"go.ntppool.org/common/logger"
 )
 
 var (
@@ -22,43 +23,49 @@ var (
 	port = flag.Int("port", 8080, "port number")
 )
 
+const reloadCooldown = 30 * time.Second
+
 func main() {
 	if err := envflag.Parse(); err != nil {
 		panic(err)
 	}
-	logger := slog.New(slog.NewTextHandler(os.Stdout, nil))
-	slog.SetDefault(logger)
 
-	// TODO: Add a refresher to reload if the file has changed.
+	log := logger.Setup()
+
 	path := filepath.Join(*root, "perl_mongers.xml")
 	pmr := &PerlMongersReloading{path: path}
 
-	var h http.Handler = &handler{pm: pmr}
-
-	slogConfig := sloghttp.Config{
-		WithUserAgent: true,
+	// Initial load
+	if err := pmr.reload(); err != nil {
+		log.Error("failed to load perl_mongers.xml", "error", err)
+		os.Exit(1)
 	}
-	h = sloghttp.Recovery(h)
-	h = sloghttp.NewWithConfig(logger, slogConfig)(h)
 
-	http.Handle("/", h)
+	mux := http.NewServeMux()
+	mux.Handle("/", &handler{pm: pmr, log: log})
+	mux.HandleFunc("/health", healthHandler)
 
-	slog.Info("Serving",
-		"port", port)
+	log.Info("Serving", "port", *port)
 	portStr := fmt.Sprintf(":%d", *port)
-	log.Fatal(http.ListenAndServe(portStr, nil))
+	if err := http.ListenAndServe(portStr, mux); err != nil {
+		log.Error("server error", "error", err)
+		os.Exit(1)
+	}
+}
 
+func healthHandler(w http.ResponseWriter, _ *http.Request) {
+	w.Header().Set("Content-Type", "text/plain")
+	w.WriteHeader(http.StatusOK)
+	_, _ = io.WriteString(w, "ok")
 }
 
 func readPerlMongers(filename string) (*PerlMongers, error) {
-	// Open the XML file
 	file, err := os.Open(filename)
 	if err != nil {
 		return nil, err
 	}
-	defer file.Close()
+	defer func() { _ = file.Close() }()
 
-	// Decode the XML data into a PerlMongers struct
 	var pm PerlMongers
 	decoder := xml.NewDecoder(file)
 	err = decoder.Decode(&pm)
@@ -131,35 +138,51 @@ func (pm PerlMongers) Group(id string) (*Group, error) {
 }
 
 type handler struct {
-	pm Grouper
+	pm  Grouper
+	log *slog.Logger
 }
 
 var isLocalRegexp = regexp.MustCompile(`https?://\w+\.pm\.org/`)
 
 func (h *handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Server", "pmorg")
-	sloghttp.AddCustomAttributes(r, slog.String("X-Forwarded-For", r.Header.Get("X-Forwarded-For")))
+
+	log := h.log.With(
+		"method", r.Method,
+		"host", r.Host,
+		"path", r.URL.Path,
+		"remote", r.RemoteAddr,
+		"x-forwarded-for", r.Header.Get("X-Forwarded-For"),
+	)
+
 	dot := strings.Index(r.Host, ".")
 	if dot == -1 {
+		log.Warn("bad request: no dot in host")
 		http.Error(w, "Bad Request", http.StatusBadRequest)
 		return
 	}
 
-	g, err := h.pm.Group(r.Host[:dot])
+	groupName := r.Host[:dot]
+	g, err := h.pm.Group(groupName)
 	if err != nil {
+		log.Info("group not found", "group", groupName)
 		http.Error(w, "Not Found", http.StatusNotFound)
 		return
 	}
 
 	if g.Status != "active" {
+		log.Info("group not active", "group", groupName, "status", g.Status)
 		http.Error(w, "Gone", http.StatusGone)
 		return
 	}
 
 	if isLocalRegexp.MatchString(g.Web) {
+		log.Warn("misdirected request: web URL points to pm.org", "group", groupName, "web", g.Web)
 		http.Error(w, "Misdirected Request", http.StatusMisdirectedRequest)
 		return
 	}
+
+	log.Info("redirecting", "group", groupName, "target", g.Web)
 	http.Redirect(w, r, g.Web, http.StatusMovedPermanently)
 }
 
@@ -168,14 +191,17 @@ type Grouper interface {
 }
 
 type PerlMongersReloading struct {
+	mu         sync.RWMutex
 	pm         *PerlMongers
 	path       string
 	lastUpdate time.Time
+	lastCheck  time.Time
 }
 
+// reload updates the perl mongers data from disk.
+// Must be called with pmr.mu held.
 func (pmr *PerlMongersReloading) reload() error {
-	slog.Info("Reloading PerlMongers",
-		"path", pmr.path)
+	slog.Info("Reloading PerlMongers", "path", pmr.path)
 	pm, err := readPerlMongers(pmr.path)
 	if err != nil {
 		return err
@@ -185,13 +211,20 @@ func (pmr *PerlMongersReloading) reload() error {
 	return nil
 }
 
+// maybeReload checks if the XML file has been modified and reloads if needed.
+// Must be called with pmr.mu held.
 func (pmr *PerlMongersReloading) maybeReload() error {
+	now := time.Now()
+
+	// Check if cooldown has elapsed since last check
+	if now.Sub(pmr.lastCheck) < reloadCooldown {
+		return nil
+	}
+	pmr.lastCheck = now
+
 	fi, err := os.Stat(pmr.path)
 	if err != nil {
 		return err
-	}
-	if fi == nil {
-		return fmt.Errorf(pmr.path + " does not exist")
 	}
 	if fi.ModTime().After(pmr.lastUpdate) {
 		return pmr.reload()
@@ -200,8 +233,16 @@ func (pmr *PerlMongersReloading) maybeReload() error {
 }
 
 func (pmr *PerlMongersReloading) Group(id string) (*Group, error) {
-	if err := pmr.maybeReload(); err != nil {
-		log.Fatal(err)
+	pmr.mu.Lock()
+	defer pmr.mu.Unlock()
+
+	err := pmr.maybeReload()
+	if err != nil {
+		slog.Warn("failed to reload perl_mongers.xml, serving stale data", "error", err)
+	}
+
+	if pmr.pm == nil {
+		return nil, fmt.Errorf("perl_mongers.xml not loaded")
 	}
 	return pmr.pm.Group(id)
 }

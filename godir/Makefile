@@ -1,5 +1,5 @@
 
-PACKAGE=<docker registry>/godir
+PACKAGE=ghcr.io/perlorg/godir
 VERSION=1.0
 
 
@@ -7,7 +7,7 @@ VERSION=1.0
 
 docker-image: .docker-image
 
-.docker-image: Dockerfile *.go go.mod #go.sum
+.docker-image: Dockerfile *.go go.mod go.sum
 	docker build -t $(PACKAGE):latest .
 	touch .docker-image
 
