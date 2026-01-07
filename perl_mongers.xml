@@ -19165,7 +19165,7 @@
     <web>https://kichijojipm.connpass.com/</web>
     <date type="inception">20140926</date>
   </group>
-  <!-- Test entry for godir smoke tests - DO NOT USE FOR REAL -->
+  <!-- Test entry for godir smoke tests - triggers 421 Misdirected Request (web URL points to pm.org) -->
   <group id="9999" status="active">
     <name>zztestloop.pm</name>
     <location>

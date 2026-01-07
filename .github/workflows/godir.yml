@@ -7,11 +7,13 @@ on:
       - master
     paths:
       - 'godir/**'
+      - '.github/workflows/godir.yml'
     tags:
       - 'godir/v*'
   pull_request:
     paths:
       - 'godir/**'
+      - '.github/workflows/godir.yml'
 
 permissions:
   contents: read
@@ -119,6 +121,16 @@ jobs:
             exit 1
           fi
           echo "Health check passed"
+
+      - name: Test redirect functionality
+        run: |
+          response=$(curl -s -o /dev/null -w "%{http_code}" -H "Host: tokyo.pm.org" http://localhost:8080/)
+          if [ "$response" != "301" ]; then
+            echo "Redirect test failed with status $response"
+            docker logs godir-test
+            exit 1
+          fi
+          echo "Redirect test passed"
 
       - name: Stop container
         if: always()

@@ -10,6 +10,7 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
+	"runtime/debug"
 	"strings"
 	"sync"
 	"time"
@@ -33,16 +34,19 @@ func main() {
 	log := logger.Setup()
 
 	path := filepath.Join(*root, "perl_mongers.xml")
-	pmr := &PerlMongersReloading{path: path}
+	pmr := &PerlMongersReloading{path: path, log: log}
 
 	// Initial load
+	pmr.mu.Lock()
 	if err := pmr.reload(); err != nil {
+		pmr.mu.Unlock()
 		log.Error("failed to load perl_mongers.xml", "error", err)
 		os.Exit(1)
 	}
+	pmr.mu.Unlock()
 
 	mux := http.NewServeMux()
-	mux.Handle("/", &handler{pm: pmr, log: log})
+	mux.Handle("/", recoveryMiddleware(&handler{pm: pmr, log: log}, log))
 	mux.HandleFunc("/health", healthHandler)
 
 	log.Info("Serving", "port", *port)
@@ -59,12 +63,24 @@ func healthHandler(w http.ResponseWriter, _ *http.Request) {
 	_, _ = io.WriteString(w, "ok")
 }
 
+func recoveryMiddleware(next http.Handler, log *slog.Logger) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		defer func() {
+			if err := recover(); err != nil {
+				log.Error("panic recovered", "error", err, "path", r.URL.Path, "stack", string(debug.Stack()))
+				http.Error(w, "Internal Server Error", http.StatusInternalServerError)
+			}
+		}()
+		next.ServeHTTP(w, r)
+	})
+}
+
 func readPerlMongers(filename string) (*PerlMongers, error) {
 	file, err := os.Open(filename)
 	if err != nil {
 		return nil, err
 	}
-	defer func() { _ = file.Close() }()
+	defer file.Close()
 
 	var pm PerlMongers
 	decoder := xml.NewDecoder(file)
@@ -142,7 +158,7 @@ type handler struct {
 	log *slog.Logger
 }
 
-var isLocalRegexp = regexp.MustCompile(`https?://\w+\.pm\.org/`)
+var isLocalRegexp = regexp.MustCompile(`^https?://\w+\.pm\.org(/|$)`)
 
 func (h *handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Server", "pmorg")
@@ -196,12 +212,13 @@ type PerlMongersReloading struct {
 	path       string
 	lastUpdate time.Time
 	lastCheck  time.Time
+	log        *slog.Logger
 }
 
 // reload updates the perl mongers data from disk.
-// Must be called with pmr.mu held.
+// Called during initial load (before server starts) and from Group (with pmr.mu held).
 func (pmr *PerlMongersReloading) reload() error {
-	slog.Info("Reloading PerlMongers", "path", pmr.path)
+	pmr.log.Info("reloading PerlMongers", "path", pmr.path)
 	pm, err := readPerlMongers(pmr.path)
 	if err != nil {
 		return err
@@ -211,38 +228,36 @@ func (pmr *PerlMongersReloading) reload() error {
 	return nil
 }
 
-// maybeReload checks if the XML file has been modified and reloads if needed.
-// Must be called with pmr.mu held.
-func (pmr *PerlMongersReloading) maybeReload() error {
+func (pmr *PerlMongersReloading) Group(id string) (*Group, error) {
 	now := time.Now()
 
-	// Check if cooldown has elapsed since last check
-	if now.Sub(pmr.lastCheck) < reloadCooldown {
-		return nil
-	}
-	pmr.lastCheck = now
+	// Fast path: RLock to check cooldown and get pm reference
+	pmr.mu.RLock()
+	needCheck := now.Sub(pmr.lastCheck) >= reloadCooldown
+	pm := pmr.pm
+	pmr.mu.RUnlock()
 
-	fi, err := os.Stat(pmr.path)
-	if err != nil {
-		return err
+	if needCheck {
+		// Slow path: upgrade to write lock for potential reload
+		pmr.mu.Lock()
+		// Double-check after acquiring write lock
+		if now.Sub(pmr.lastCheck) >= reloadCooldown {
+			pmr.lastCheck = now
+			fi, err := os.Stat(pmr.path)
+			if err != nil {
+				pmr.log.Warn("failed to stat perl_mongers.xml, serving cached data", "error", err)
+			} else if fi.ModTime().After(pmr.lastUpdate) {
+				if err := pmr.reload(); err != nil {
+					pmr.log.Warn("failed to reload perl_mongers.xml, serving stale data", "error", err)
+				}
+			}
+		}
+		pm = pmr.pm
+		pmr.mu.Unlock()
 	}
-	if fi.ModTime().After(pmr.lastUpdate) {
-		return pmr.reload()
-	}
-	return nil
-}
 
-func (pmr *PerlMongersReloading) Group(id string) (*Group, error) {
-	pmr.mu.Lock()
-	defer pmr.mu.Unlock()
-
-	err := pmr.maybeReload()
-	if err != nil {
-		slog.Warn("failed to reload perl_mongers.xml, serving stale data", "error", err)
-	}
-
-	if pmr.pm == nil {
+	if pm == nil {
 		return nil, fmt.Errorf("perl_mongers.xml not loaded")
 	}
-	return pmr.pm.Group(id)
+	return pm.Group(id)
 }
