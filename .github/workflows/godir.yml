@@ -124,13 +124,23 @@ jobs:
 
       - name: Test redirect functionality
         run: |
-          response=$(curl -s -o /dev/null -w "%{http_code}" -H "Host: tokyo.pm.org" http://localhost:8080/)
+          response=$(curl -s -o /dev/null -w "%{http_code}" -H "Host: ny.pm.org" http://localhost:8080/)
           if [ "$response" != "301" ]; then
             echo "Redirect test failed with status $response"
             docker logs godir-test
             exit 1
           fi
           echo "Redirect test passed"
+
+      - name: Test Gone functionality
+        run: |
+          response=$(curl -s -o /dev/null -w "%{http_code}" -H "Host: tokyo.pm.org" http://localhost:8080/)
+          if [ "$response" != "410" ]; then
+            echo "Gone test failed with status $response"
+            docker logs godir-test
+            exit 1
+          fi
+          echo "Gone test passed"
 
       - name: Stop container
         if: always()
