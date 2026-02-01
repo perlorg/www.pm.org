@@ -213,7 +213,7 @@
         <domain>hush.com</domain>
       </email>
     </tsar>
-    <web>http://austin.pm.org/</web>
+    <web>http://austin.pm</web>
     <date type="inception">19980928</date>
   </group>
   <group id="9" status="undef">
@@ -298,7 +298,7 @@
         <domain>gmail.com</domain>
       </email>
     </tsar>
-    <web>http://boston.pm.org/</web>
+    <web>https://boston-pm.github.io</web>
     <date type="inception">19980207</date>
   </group>
   <group id="13" status="inactive">
@@ -1691,7 +1691,7 @@
         <domain>pobox.com</domain>
       </email>
     </tsar>
-    <web>http://philly.pm.org/</web>
+    <web>https://philly.pm.org/</web>
     <date type="inception">19980501</date>
   </group>
   <group id="75" status="inactive">
@@ -3243,7 +3243,7 @@
         <domain>landgren.net</domain>
       </email>
     </tsar>
-    <web>http://paris.pm.org/</web>
+    <web>https://paris.mongueurs.net/</web>
     <date type="inception">19990208</date>
   </group>
   <group id="146" status="inactive">
@@ -6723,7 +6723,7 @@
         <domain>gmail.com</domain>
       </email>
     </tsar>
-    <web>http://la.pm.org/</web>
+    <web>https://www.facebook.com/groups/119158178096277</web>
     <date type="inception"></date>
     <email type="group">
       <user>losangeles-pm</user>
