@@ -5317,7 +5317,7 @@
     <web>http://canton.pm.org/</web>
     <date type="inception">19991024</date>
   </group>
-  <group id="240" status="inactive">
+  <group id="240" status="active">
     <name>Frankfurt.pm</name>
     <location>
       <city>Frankfurt</city>
@@ -16423,7 +16423,7 @@
       <email type="personal"></email>
     </tsar>
   </group>
-  <group id="666" status="inactive">
+  <group id="666" status="active">
     <name>Erlangen.pm</name>
     <location>
       <city>Erlangen</city>
