@@ -5,25 +5,28 @@
 	(group)+
 	>
 
-<!ELEMENT group 
+<!ELEMENT group
 	(
-	name, 
-	location, 
-	(email)*, 
+	name,
+	location,
+	(email)*,
 	tsar+,
 	web,
 	(mailing_list)*,
-	(date)*
+	(date)*,
+	(legal)?
 	)
 	>
 <!ATTLIST group		id CDATA #REQUIRED>
 <!ATTLIST group		status CDATA "unknown">
+<!ATTLIST group		meetings (physical virtual either hybrid none) "physical"><!-- how meetings are organized -->
+<!ATTLIST group		activities (social technical sociotechnical secondary) "sociotechnical"><!-- typical activities -->
 
-<!ELEMENT location 
+<!ELEMENT location
 	(
-	city, 
+	city,
 	(state)?,
-	(region)?, 
+	(region)?,
 	country,
 	continent,
 	longitude,
@@ -39,14 +42,14 @@
 <!ELEMENT latitude		(#PCDATA)>
 <!ELEMENT longitude		(#PCDATA)>
 
-<!ELEMENT tsar 
+<!ELEMENT tsar
 	(
 	name,
 	email
 	)
 	>
 
-<!ELEMENT mailing_list 
+<!ELEMENT mailing_list
 	(
 	name,
 	(email)+,
@@ -63,8 +66,33 @@
 <!ELEMENT date		(#PCDATA)>
 <!ATTLIST date		type (inception | next_meeting | misc) "misc">
 
-<!ELEMENT email	(#PCDATA)>
-<!ATTLIST email	type (group | personal | list | list_admin) "group">
+<!ELEMENT email		(#PCDATA)>
+<!ATTLIST email		type (group | personal | list | list_admin) "group">
+
+<!ELEMENT legal
+	(
+	legalname,
+	country,
+	state?,
+	(identity)+,
+	bylaws,
+	)
+	>
+
+<!ELEMENT legalname	(#PCDATA)>
+<!ELEMENT country	(#PCDATA)>
+<!ELEMENT state		(#PCDATA)>
+<!ELEMENT bylaws	(#PCDATA)>
+
+<!ELEMENT identity
+	(
+	type,
+	code
+	)
+	>
+
+<!ELEMENT type		(#PCDATA)>
+<!ELEMENT code		(#PCDATA)>
 
 <!ENTITY agrave '&#224;' >
 <!ENTITY aacute	'&#225;' >
