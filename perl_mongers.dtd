@@ -19,7 +19,7 @@
 	>
 <!ATTLIST group		id CDATA #REQUIRED>
 <!ATTLIST group		status CDATA "unknown">
-<!ATTLIST group		meetings (physical virtual hybrid) "physical"><!-- how meetings are organized -->
+<!ATTLIST group		meetings (physical virtual either hybrid none) "physical"><!-- how meetings are organized -->
 <!ATTLIST group		activities (social technical sociotechnical secondary) "sociotechnical"><!-- typical activities -->
 
 <!ELEMENT location
